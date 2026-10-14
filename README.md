@@ -1,4 +1,4 @@
-# Mi recetario · v2
+# Mi recetario
 
 Cuatro versiones de tres recetas. Cada receta tiene:
 
