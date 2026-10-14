@@ -55,3 +55,12 @@ Las fotografías se muestran en las páginas HTML y se declaran en el YAML y en 
 - Licencia: [Creative Commons Attribution-ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 - Uso: fotografía representativa de los champiñones, tomates cherry, hojas verdes y queso blanco; también incluye aguacate y muestra los ingredientes sin saltear.
 - Modificación: Wikimedia Commons ha generado una versión reducida; no se han realizado otros cambios.
+
+## Barquitas de endivia con requesón
+
+- Archivo local: `images/barquitas-endivia-requeson.jpg`
+- Obra: [Course 1 - Endive bites](https://commons.wikimedia.org/wiki/File:Course_1_-_Endive_bites_(8331230705).jpg)
+- Autor: Karen and Brad Emerson
+- Licencia: [Creative Commons Attribution 2.0](https://creativecommons.org/licenses/by/2.0/)
+- Uso: fotografía representativa de hojas de endivia montadas como barquitas con queso; los aderezos visibles pueden diferir de las opciones de la ficha.
+- Modificación: Wikimedia Commons ha generado una versión reducida; no se han realizado otros cambios.

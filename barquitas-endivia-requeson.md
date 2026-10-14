@@ -1,0 +1,79 @@
+---
+esquema: recetario-1.0
+id: barquitas-endivia-requeson
+image: https://fucolin.github.io/recetario/images/barquitas-endivia-requeson.jpg
+image_alt: "Hojas de endivia rellenas de queso y dispuestas en un plato"
+image_credit: "Karen and Brad Emerson"
+image_license: "CC BY 2.0"
+image_source: https://commons.wikimedia.org/wiki/File:Course_1_-_Endive_bites_(8331230705).jpg
+familia: barquitas-endivia-requeson
+variante: principal
+titulo: Barquitas de endivia con requesón
+subtitulo: Picoteo fresco y ligero
+categoria: Combinaciones
+categoria_menu: Picoteo sano
+tipo_ficha: combinacion
+etiquetas:
+- vegetariano
+- picoteo sano
+raciones:
+  min: 1
+  max: 1
+tiempo_total_min:
+  min: 5
+  max: 5
+ingredientes:
+- nombre: endivia
+  cantidad: 1
+  unidad: unidad
+  nota: 6-8 hojas
+- nombre: requesón
+  cantidad: 100
+  unidad: g
+opciones_aderezo:
+- nombre: Fresco
+  ingredientes:
+  - pimienta negra
+  - ralladura de 1/4 de limón
+  - cebollino picado
+- nombre: Mediterráneo
+  ingredientes:
+  - 1 cucharadita de aceite de oliva virgen extra
+  - 1 pizca de pimentón ahumado
+- nombre: Aromático
+  ingredientes:
+  - 1 cucharadita de aceite de oliva virgen extra
+  - 1/2 cucharadita de zaatar
+- nombre: Crujiente
+  ingredientes:
+  - 10 g de nueces picadas
+  - unas gotas de limón
+  - pimienta negra
+consejo: Separa 6-8 hojas bonitas, reparte el requesón entre ellas y elige una sola opción de aderezo. Sírvelas recién montadas para conservar el crujiente de la endivia.
+---
+
+# Barquitas de endivia con requesón
+
+Picoteo fresco y ligero · 1 ración · 5 min
+
+![Hojas de endivia rellenas de queso y dispuestas en un plato](images/barquitas-endivia-requeson.jpg)
+
+*Foto: [Karen and Brad Emerson](https://commons.wikimedia.org/wiki/File:Course_1_-_Endive_bites_(8331230705).jpg) · [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/). Fotografía representativa: los aderezos visibles pueden diferir de las opciones de esta ficha.*
+
+## Ingredientes
+
+- 1 endivia (6-8 hojas)
+- 100 g de requesón
+
+## Opciones para aderezar
+
+Elige una:
+
+- **Fresco:** pimienta negra, ralladura de 1/4 de limón y cebollino picado.
+- **Mediterráneo:** 1 cucharadita de aceite de oliva virgen extra y 1 pizca de pimentón ahumado.
+- **Aromático:** 1 cucharadita de aceite de oliva virgen extra y 1/2 cucharadita de zaatar.
+- **Crujiente:** 10 g de nueces picadas, unas gotas de limón y pimienta negra.
+
+## Consejo
+
+Separa 6-8 hojas bonitas, reparte el requesón entre ellas y elige una sola opción de aderezo. Sírvelas recién montadas para conservar el crujiente de la endivia.

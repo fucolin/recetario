@@ -1,0 +1,20 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Barquitas de endivia con requesón",
+  "description": "Picoteo fresco y ligero con varias opciones de aderezo",
+  "recipeCategory": "Picoteo sano",
+  "recipeYield": "1 ración",
+  "totalTime": "PT5M",
+  "keywords": "vegetariano, picoteo sano",
+  "recipeIngredient": [
+    "1 endivia (6-8 hojas)",
+    "100 g de requesón",
+    "aderezo opcional fresco: pimienta negra, ralladura de 1/4 de limón y cebollino",
+    "aderezo opcional mediterráneo: 1 cucharadita de aceite de oliva virgen extra y pimentón ahumado",
+    "aderezo opcional aromático: 1 cucharadita de aceite de oliva virgen extra y 1/2 cucharadita de zaatar",
+    "aderezo opcional crujiente: 10 g de nueces picadas, unas gotas de limón y pimienta negra"
+  ],
+  "image": "https://fucolin.github.io/recetario/images/barquitas-endivia-requeson.jpg",
+  "url": "https://fucolin.github.io/recetario/barquitas-endivia-requeson.html"
+}
