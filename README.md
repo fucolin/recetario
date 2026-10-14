@@ -12,6 +12,10 @@ Cuatro versiones de tres recetas. Cada receta tiene:
 
 Los PDF se generan siempre con la plantilla compartida `tools/generar_pdfs.py`. Las reglas de diseño y las instrucciones de uso están en [`FORMATO_PDF.md`](FORMATO_PDF.md); no deben maquetarse manualmente.
 
+El procedimiento completo para añadir recetas, sustituir fotografías y mantener todas las versiones sincronizadas está en [`GUIA_DE_TRABAJO.md`](GUIA_DE_TRABAJO.md).
+
+El recetario admite tres tipos de ficha: recetas con pasos, preparaciones sencillas con indicaciones breves y combinaciones de ingredientes sin elaboración.
+
 Las fotografías se guardan en `images/`; sus autores, fuentes y licencias se documentan en [`IMAGENES_Y_LICENCIAS.md`](IMAGENES_Y_LICENCIAS.md). La URL pública de cada imagen figura en el YAML y en la propiedad `image` de Schema.org para facilitar la importación desde una URL publicada.
 
 Abre `index.html` en un navegador para navegar las recetas. Para publicarlas, sube los HTML a cualquier alojamiento web estático.

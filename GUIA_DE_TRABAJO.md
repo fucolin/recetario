@@ -10,8 +10,8 @@ Codex puede utilizar la conexión de GitHub para leer o descargar el repositorio
 
 Codex debe completar todo este proceso:
 
-1. Crear o actualizar la receta maestra en Markdown con YAML.
-2. Crear o actualizar el JSON completo, incluidos `categoria_menu` y la lista editorial `pdf_ingredientes`.
+1. Crear o actualizar la receta maestra en Markdown con YAML, incluidos `tipo_ficha` y `categoria_menu`.
+2. Crear o actualizar el JSON completo, incluidos `tipo_ficha`, `categoria_menu` y la lista editorial `pdf_ingredientes`.
 3. Crear o actualizar el JSON Schema.org `Recipe`.
 4. Seleccionar una fotografía adecuada con licencia reutilizable, guardarla localmente y documentar su autoría, fuente y licencia, salvo que el usuario proporcione una fotografía propia.
 5. Crear o actualizar la página HTML con fotografía, atribución, datos estructurados `Recipe.image`, ingredientes con fondo `#F3F6F1`, enlace visible al PDF y botón `👁️ Más de [categoría]` junto al botón de impresión.
@@ -66,6 +66,18 @@ Cuando una receta pueda encajar en varias categorías, se elegirá la que result
 Solo se crea una página dentro de `categorias/` cuando la categoría contiene al menos una receta. Estas páginas muestran tarjetas con fotografía, título, tiempo y raciones.
 
 Las variantes de una misma familia se agrupan siempre en una sola tarjeta, tanto en `index.html` como en su página de categoría. La tarjeta muestra los datos compartidos y enlaces separados con nombres breves, por ejemplo `Versión 300 g` y `Versión 400 g`. No se duplican tarjetas con la misma receta y fotografía.
+
+## Tipos de ficha
+
+Toda entrada debe declarar uno de estos tres valores en `tipo_ficha`:
+
+- `receta`: ingredientes, preparación numerada paso a paso y claves opcionales.
+- `preparacion`: ingredientes y un bloque breve `indicaciones`, sin pasos numerados; puede incluir `consejo`.
+- `combinacion`: solo ingredientes y cantidades; puede incluir `consejo`, pero no pasos ni indicaciones.
+
+La etiqueta visible en el índice y en las páginas de categoría será respectivamente `Receta`, `Preparación sencilla` o `Combinación`. No se crean secciones vacías ni instrucciones de relleno. El HTML y el PDF muestran `PREPARACIÓN`, `INDICACIONES` o ninguna sección de elaboración según corresponda.
+
+En Schema.org se mantiene `@type: Recipe` y `recipeIngredient`. `recipeInstructions` solo se incluye cuando existen pasos o indicaciones reales. La importación de una combinación sin instrucciones depende del comportamiento de la aplicación de destino y debe comprobarse con el primer caso.
 
 ## Formato canónico de los PDF
 

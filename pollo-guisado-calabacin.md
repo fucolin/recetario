@@ -13,6 +13,7 @@ titulo: Pollo guisado con calabacín
 subtitulo: Con tomate, zanahoria y vino blanco
 categoria: Guisos
 categoria_menu: Guisos y asados
+tipo_ficha: receta
 etiquetas: []
 raciones:
   min: 2

@@ -22,6 +22,12 @@ VERDE_SECUNDARIO = "#61766B"
 FONDO_INGREDIENTES = "#F3F6F1"
 LINEA_PIE = "#C8D7CC"
 
+TIPOS_FICHA = {
+    "receta": "Receta",
+    "preparacion": "Preparación sencilla",
+    "combinacion": "Combinación",
+}
+
 MARGEN_X = 49
 ANCHO_CONTENIDO = A4[0] - 2 * MARGEN_X
 PIE_Y = 28
@@ -95,6 +101,18 @@ def generar_pdf(receta: dict, destino: Path) -> None:
     if any(re.match(r"^\s*[•◦*-]\s+", item) for item in ingredientes):
         raise ValueError("Los ingredientes del PDF no pueden contener viñetas")
 
+    tipo = receta.get("tipo_ficha", "receta")
+    if tipo not in TIPOS_FICHA:
+        raise ValueError(f"{receta['id']}: tipo_ficha no reconocido: {tipo}")
+    pasos = receta.get("pasos") or []
+    indicaciones = receta.get("indicaciones")
+    if tipo == "receta" and not pasos:
+        raise ValueError(f"{receta['id']}: una receta necesita pasos")
+    if tipo == "preparacion" and (pasos or not indicaciones):
+        raise ValueError(f"{receta['id']}: una preparación sencilla usa indicaciones, no pasos")
+    if tipo == "combinacion" and (pasos or indicaciones):
+        raise ValueError(f"{receta['id']}: una combinación no lleva pasos ni indicaciones")
+
     destino.parent.mkdir(parents=True, exist_ok=True)
     c = canvas.Canvas(str(destino), pagesize=A4, pageCompression=1)
     ancho, alto = A4
@@ -114,7 +132,10 @@ def generar_pdf(receta: dict, destino: Path) -> None:
         if raciones["min"] == raciones["max"]
         else f"{raciones['min']}-{raciones['max']}"
     )
-    meta = f"{receta['subtitulo']} · {texto_raciones} raciones · {tiempo['min']}-{tiempo['max']} min"
+    meta = (
+        f"{receta['subtitulo']} · {texto_raciones} raciones "
+        f"· {tiempo['min']}-{tiempo['max']} min · {TIPOS_FICHA[tipo]}"
+    )
     if receta.get("variante") and receta["variante"] != "principal":
         meta += f" · Versión {receta['variante'].replace('g', ' g')}"
     y -= 3
@@ -129,32 +150,48 @@ def generar_pdf(receta: dict, destino: Path) -> None:
     c.drawString(MARGEN_X, y, "INGREDIENTES")
     y = dibujar_ingredientes(c, ingredientes, y - 10) - 24
 
-    c.setFont("Helvetica-Bold", 11.3)
-    c.setFillColor(HexColor(VERDE_OSCURO))
-    c.drawString(MARGEN_X, y, "PREPARACIÓN")
-    y -= 20
+    if pasos:
+        c.setFont("Helvetica-Bold", 11.3)
+        c.setFillColor(HexColor(VERDE_OSCURO))
+        c.drawString(MARGEN_X, y, "PREPARACIÓN")
+        y -= 20
 
-    densidad = sum(len(p["instrucciones"]) for p in receta["pasos"])
-    tamano_pasos = 8.15 if densidad > 900 else 8.45
-    interlineado = tamano_pasos * 1.35
-    separacion = 5.8 if densidad > 900 else 7.2
-    for paso in receta["pasos"]:
-        encabezado = f"{paso['orden']}. {paso['titulo']} · {paso['duracion_texto']}"
-        y = dibujar_texto_envuelto(
-            c, encabezado, MARGEN_X, y, ANCHO_CONTENIDO,
-            "Helvetica-Bold", tamano_pasos + 0.2, interlineado, VERDE_OSCURO,
-        )
-        y = dibujar_texto_envuelto(
-            c, paso["instrucciones"], MARGEN_X, y, ANCHO_CONTENIDO,
-            "Helvetica", tamano_pasos, interlineado, VERDE_TEXTO,
-        )
-        y -= separacion
+        densidad = sum(len(p["instrucciones"]) for p in pasos)
+        tamano_pasos = 8.15 if densidad > 900 else 8.45
+        interlineado = tamano_pasos * 1.35
+        separacion = 5.8 if densidad > 900 else 7.2
+        for paso in pasos:
+            encabezado = f"{paso['orden']}. {paso['titulo']} · {paso['duracion_texto']}"
+            y = dibujar_texto_envuelto(
+                c, encabezado, MARGEN_X, y, ANCHO_CONTENIDO,
+                "Helvetica-Bold", tamano_pasos + 0.2, interlineado, VERDE_OSCURO,
+            )
+            y = dibujar_texto_envuelto(
+                c, paso["instrucciones"], MARGEN_X, y, ANCHO_CONTENIDO,
+                "Helvetica", tamano_pasos, interlineado, VERDE_TEXTO,
+            )
+            y -= separacion
+    elif indicaciones:
+        c.setFont("Helvetica-Bold", 11.3)
+        c.setFillColor(HexColor(VERDE_OSCURO))
+        c.drawString(MARGEN_X, y, "INDICACIONES")
+        y -= 20
+        bloques = indicaciones if isinstance(indicaciones, list) else [indicaciones]
+        for bloque in bloques:
+            y = dibujar_texto_envuelto(
+                c, bloque, MARGEN_X, y, ANCHO_CONTENIDO,
+                "Helvetica", 8.45, 11.4, VERDE_TEXTO,
+            ) - 6
 
-    claves = f"CLAVES: {receta['claves']}"
-    y = dibujar_texto_envuelto(
-        c, claves, MARGEN_X, y - 1, ANCHO_CONTENIDO,
-        "Helvetica", 8.05, 10.4, VERDE_TEXTO,
-    )
+    consejo = receta.get("consejo")
+    claves = receta.get("claves")
+    if consejo or claves:
+        etiqueta = "CONSEJO" if consejo else "CLAVES"
+        texto_extra = consejo or claves
+        y = dibujar_texto_envuelto(
+            c, f"{etiqueta}: {texto_extra}", MARGEN_X, y - 1, ANCHO_CONTENIDO,
+            "Helvetica", 8.05, 10.4, VERDE_TEXTO,
+        )
     if y < PIE_Y + 26:
         raise ValueError(f"{receta['id']}: el contenido invade el pie de página")
 

@@ -13,6 +13,7 @@ titulo: Tortilla de boniato, espinacas y parmesano
 subtitulo: Estilo español · sartén de 18-20 cm
 categoria: Tortillas
 categoria_menu: Huevos
+tipo_ficha: receta
 etiquetas: []
 raciones:
   min: 2
