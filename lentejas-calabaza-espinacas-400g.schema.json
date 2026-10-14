@@ -1,0 +1,75 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Lentejas cremosas con calabaza y espinacas (400g)",
+  "description": "Guiso especiado y cremoso",
+  "recipeCategory": "Guisos",
+  "recipeYield": "2-3 raciones",
+  "totalTime": "PT40M",
+  "keywords": "legumbres, vegetariano",
+  "recipeIngredient": [
+    "400 g lentejas cocidas en conserva (peso escurrido)",
+    "350 g calabaza pelada",
+    "100–125 g espinacas frescas",
+    "1 unidad cebolla (mediana)",
+    "2 dientes ajo",
+    "10 g jengibre fresco",
+    "150 ml leche de coco",
+    "200 ml caldo de verduras (más un poco extra si hace falta)",
+    "1 cucharadita curry en polvo",
+    "0.5 cucharadita comino molido",
+    "2 cucharadas aceite de oliva virgen extra",
+    "sal y pimienta negra (al gusto)",
+    "zumo de limón (unas gotas al final)"
+  ],
+  "recipeInstructions": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "Preparar las verduras",
+      "text": "Corta la calabaza en dados de unos 2 cm, la cebolla en juliana fina y pica el ajo y el jengibre. Lava y escurre las espinacas."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "Dorar la calabaza",
+      "text": "Calienta una cucharada de aceite en una olla de acero a fuego medio-alto. Dora ligeramente la calabaza, removiendo de vez en cuando, y retírala. No tiene que cocinarse por dentro."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "Preparar el sofrito",
+      "text": "Baja a fuego medio y añade el aceite restante. Sofríe la cebolla con una pizca de sal hasta que esté tierna. Si el fondo se pega, desglasa con una cucharada de agua. Añade ajo y jengibre el último minuto."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 4,
+      "name": "Tostar las especias",
+      "text": "Incorpora curry y comino y remueve sin parar unos 30 segundos, evitando que se quemen."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 5,
+      "name": "Cocinar la calabaza",
+      "text": "Devuelve la calabaza a la olla, añade el caldo reservado para esta fase, tapa y cuece a hervor suave hasta que esté casi tierna pero conserve su forma."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 6,
+      "name": "Añadir las lentejas y el coco",
+      "text": "Incorpora simultáneamente las lentejas escurridas y enjuagadas y la leche de coco. Cocina destapado a fuego bajo y remueve con suavidad. Añade caldo reservado si hace falta."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 7,
+      "name": "Añadir las espinacas",
+      "text": "Incorpora las espinacas al final, hasta que se ablanden. Corrige de sal y pimienta."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 8,
+      "name": "Terminar y reposar",
+      "text": "Apaga el fuego, añade unas gotas de limón y deja reposar con la olla tapada."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Tortilla de boniato, espinacas y parmesano",
+  "description": "Estilo español · sartén de 18-20 cm",
+  "recipeCategory": "Tortillas",
+  "recipeYield": "2 raciones",
+  "totalTime": "PT40M",
+  "keywords": "",
+  "recipeIngredient": [
+    "300 g boniato pelado",
+    "100 g espinacas frescas",
+    "4 unidades huevos grandes",
+    "30 g parmesano rallado",
+    "0.5 unidad cebolla (unos 80 g)",
+    "1 cucharada aceite de oliva virgen extra (15 ml)",
+    "sal y pimienta negra (al gusto)",
+    "nuez moscada (opcional)",
+    "agua (un poco)"
+  ],
+  "recipeInstructions": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "Cortar el boniato",
+      "text": "Pela el boniato y córtalo en láminas finas (2-3 mm). Corta la cebolla en juliana. Las láminas finas ayudan a conseguir una textura melosa, como en la tortilla española de patata."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "Pochar la cebolla y el boniato",
+      "text": "Calienta el aceite en una sartén antiadherente a fuego medio-bajo. Pocha la cebolla 4-5 min. Añade el boniato, una pizca de sal y 2 cucharadas de agua. Tapa y cocina 12-15 min, removiendo de vez en cuando, hasta que esté muy tierno. Añade unas gotas más de agua si se seca antes de tiempo."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "Añadir las espinacas",
+      "text": "Destapa y evapora el agua restante. Incorpora las espinacas y cocina 1-2 min, hasta que pierdan volumen. Remueve y deja evaporar bien su humedad. Evita tostar demasiado el boniato: debe quedar tierno, no crujiente."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 4,
+      "name": "Mezclar con el huevo y reposar",
+      "text": "Bate ligeramente los huevos con el parmesano, pimienta y una pizca de nuez moscada, si quieres. Añade el boniato y las espinacas aún calientes. Aplasta suavemente algunas láminas con un tenedor y deja reposar 5 min para integrar los ingredientes."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 5,
+      "name": "Cuajar la tortilla",
+      "text": "Engrasa apenas la sartén si es necesario y vierte la mezcla. Cocina a fuego medio-bajo unos 4 min, moviendo ligeramente la sartén al principio. Dale la vuelta con un plato y cocina otros 2-4 min, según el punto de cuajado deseado."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 6,
+      "name": "Reposar y servir",
+      "text": "Pasa la tortilla a un plato y deja reposar 2-3 min antes de cortarla. Así se asienta el interior sin perder jugosidad."
+    }
+  ]
+}
