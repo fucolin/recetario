@@ -4,9 +4,11 @@ Este archivo conserva el procedimiento acordado para seguir trabajando en `fucol
 
 ## Regla principal
 
-GitHub es la fuente canónica. Cuando el usuario diga «Al recetario», Codex lee o descarga el repositorio y entrega los archivos para que el propietario los suba manualmente. Cuando diga «Al recetario y GitHub», autoriza a Codex a preparar, comprobar y subir directamente los cambios al repositorio, desde cualquier dispositivo. Al terminar, Codex entrega un resumen y el enlace al commit. Esta excepción también se aplica cuando el usuario indique «Estoy en el iPhone. Al recetario».
+GitHub es la fuente canónica. Cuando el usuario diga «Al recetario», Codex lee o descarga el repositorio y entrega los archivos para que el propietario los suba manualmente. Cuando diga «Al recetario y GitHub» o «ARG» (sin distinguir mayúsculas y minúsculas), autoriza a Codex a preparar, comprobar y subir directamente los cambios al repositorio, desde cualquier dispositivo. Al terminar, Codex entrega un resumen y el enlace al commit. Esta excepción también se aplica cuando el usuario indique «Estoy en el iPhone. Al recetario».
 
 En la modalidad de subida directa no es necesario entregar un ZIP; se mantienen todas las comprobaciones y formatos de la receta.
+
+«ARG» es una alternativa abreviada; la frase completa «Al recetario y GitHub» sigue siendo válida.
 
 ## Cuando el usuario diga «Al recetario»
 

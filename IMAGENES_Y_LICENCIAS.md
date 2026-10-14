@@ -8,8 +8,7 @@ Las fotografías se muestran en las páginas HTML y se declaran en el YAML y en 
 - Origen: fotografía propia proporcionada por el usuario (`IMG_0048.jpeg`).
 - Autor: no se especifica un nombre; se muestra «Fotografía propia».
 - Licencia: no se ha indicado una licencia de reutilización.
-- Uso: versiones de 300 g y 400 g.
-- Modificación: adaptada para web a 1000 × 1000 píxeles, sin recorte ni cambios de color; metadatos de cámara y ubicación retirados.
+- Modificación: recorte horizontal 3:2 del original y reducción a 1200 × 800 píxeles; sin cambios de contenido o color. Metadatos de cámara y ubicación retirados.
 
 ## Pollo guisado con calabacín
 
@@ -23,11 +22,10 @@ Las fotografías se muestran en las páginas HTML y se declaran en el YAML y en 
 ## Tortilla de boniato, espinacas y parmesano
 
 - Archivo local: `images/tortilla-boniato-espinacas-parmesano.jpg`
-- Obra: [Spanish Spinach Omelette](https://commons.wikimedia.org/wiki/File:Spanish_Spinach_Omelette_-_Tivoli_Cafe_2025-09-17.jpg)
-- Autor: Andy Li
-- Licencia: [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)
-- Uso: fotografía representativa de una tortilla española de espinacas; la receta del recetario incorpora además boniato y parmesano.
-- Modificación: Wikimedia Commons ha generado una versión reducida; no se han realizado otros cambios.
+- Origen: fotografía propia proporcionada por el usuario (`IMG_0044.jpeg`).
+- Autor: no se especifica un nombre; se muestra «Fotografía propia».
+- Licencia: no se ha indicado una licencia de reutilización.
+- Modificación: recorte horizontal 3:2 del original y reducción a 1200 × 800 píxeles; sin cambios de contenido o color. Metadatos de cámara y ubicación retirados.
 
 ## Hummus con zanahoria
 

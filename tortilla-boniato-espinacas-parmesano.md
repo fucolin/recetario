@@ -1,11 +1,11 @@
 ---
 esquema: recetario-1.0
+image: https://fucolin.github.io/recetario/images/tortilla-boniato-espinacas-parmesano.jpg?v=20261014-horizontal
+image_alt: Tortilla de boniato, espinacas y parmesano en un plato
+image_credit: Fotografía propia
+image_source: IMG_0044.jpeg
+image_origin: propia
 id: tortilla-boniato-espinacas-parmesano
-image: https://fucolin.github.io/recetario/images/tortilla-boniato-espinacas-parmesano.jpg
-image_alt: "Tortilla española de espinacas dorada y recién servida"
-image_credit: "Andy Li"
-image_license: "CC0 1.0"
-image_source: https://commons.wikimedia.org/wiki/File:Spanish_Spinach_Omelette_-_Tivoli_Cafe_2025-09-17.jpg
 pdf: https://fucolin.github.io/recetario/tortilla-boniato-espinacas-parmesano.pdf
 familia: tortilla-boniato-espinacas-parmesano
 variante: principal
@@ -103,9 +103,9 @@ claves: Boniato muy tierno y poco dorado; espinacas sin agua; poca sal porque el
 
 Estilo español · sartén de 18-20 cm
 
-![Tortilla española de espinacas dorada y recién servida](images/tortilla-boniato-espinacas-parmesano.jpg)
+![Tortilla de boniato, espinacas y parmesano en un plato](images/tortilla-boniato-espinacas-parmesano.jpg?v=20261014-horizontal)
 
-*Foto: [Andy Li](https://commons.wikimedia.org/wiki/File:Spanish_Spinach_Omelette_-_Tivoli_Cafe_2025-09-17.jpg) · [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).*
+*Fotografía propia.*
 
 [Descargar receta en PDF · A4](tortilla-boniato-espinacas-parmesano.pdf)
 

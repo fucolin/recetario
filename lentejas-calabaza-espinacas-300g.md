@@ -1,11 +1,11 @@
 ---
 esquema: recetario-1.0
-id: lentejas-calabaza-espinacas-300g
-image: https://fucolin.github.io/recetario/images/lentejas-calabaza-espinacas.jpg?v=20261014-propia
-image_alt: "Lentejas con dados de calabaza y espinacas en una olla de acero"
-image_credit: "Fotografía propia"
-image_source: "IMG_0048.jpeg"
+image: https://fucolin.github.io/recetario/images/lentejas-calabaza-espinacas.jpg?v=20261014-horizontal
+image_alt: Primer plano de lentejas con calabaza y espinacas en una olla
+image_credit: Fotografía propia
+image_source: IMG_0048.jpeg
 image_origin: propia
+id: lentejas-calabaza-espinacas-300g
 pdf: https://fucolin.github.io/recetario/lentejas-calabaza-espinacas-300g.pdf
 familia: lentejas-calabaza-espinacas
 variante: 300g
@@ -127,7 +127,7 @@ claves: Para espesar, aplasta algunos dados de calabaza. Remueve con cuidado par
 
 Guiso especiado y cremoso
 
-![Lentejas con dados de calabaza y espinacas en una olla de acero](images/lentejas-calabaza-espinacas.jpg?v=20261014-propia)
+![Primer plano de lentejas con calabaza y espinacas en una olla](images/lentejas-calabaza-espinacas.jpg?v=20261014-horizontal)
 
 *Fotografía propia.*
 
