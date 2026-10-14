@@ -31,21 +31,28 @@ endobj
 /Contents 5 0 R
 /MediaBox [ 0 0 595.2756 841.8898 ]
 /Resources <<
-/Font 6 0 R
-/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2+0 8 0 R
+/F3+0 12 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
 >>
 /Rotate 0
 /Trans <<
 >>
 /Type /Page
+/Annots [ ]
 /Parent 2 0 R
 >>
 endobj
 5 0 obj
 <<
-/Length 6414
+/Length 7416
 >>
 stream
+q
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 .843137 .886275 .847059 RG
 n 40 34 m 555.2756 34 l S
@@ -324,13 +331,102 @@ Q
 Q
  
 
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+38 570 530 151 re
+f*
+0.952941 0.964706 0.945098 rg
+n
+49 576 510 140 re
+f*
+0.160784 0.219608 0.192157 rg
+BT
+/F1-0 9.15 Tf
+10.98 TL
+ET
+BT
+1 0 0 1 59 699 Tm
+(400 g de lentejas cocidas \050escurridas\051) Tj
+T*
+ET
+BT
+1 0 0 1 59 675.8 Tm
+(350 g de calabaza pelada) Tj
+T*
+ET
+BT
+1 0 0 1 59 652.6 Tm
+(100\055125 g de espinacas frescas) Tj
+T*
+ET
+BT
+1 0 0 1 59 629.4 Tm
+(1 cebolla mediana) Tj
+T*
+ET
+BT
+1 0 0 1 59 606.2 Tm
+(2 dientes de ajo) Tj
+T*
+ET
+BT
+1 0 0 1 59 583 Tm
+(10 g de jengibre fresco) Tj
+T*
+ET
+BT
+1 0 0 1 310 699 Tm
+(150 ml de leche de coco) Tj
+T*
+ET
+BT
+1 0 0 1 310 675.8 Tm
+(200\055250 ml de caldo de verduras) Tj
+T*
+ET
+BT
+1 0 0 1 310 652.6 Tm
+(1 cdta\056 de curry en polvo) Tj
+T*
+ET
+BT
+1 0 0 1 310 629.4 Tm
+(\275 cdta\056 de comino molido) Tj
+T*
+ET
+BT
+1 0 0 1 310 606.2 Tm
+(2 cdas\056 de aceite de oliva virgen extra) Tj
+T*
+ET
+BT
+1 0 0 1 310 583 Tm
+(Sal\054 pimienta negra y zumo de lim\363n) Tj
+T*
+ET
+Q
+
+
 endstream
 endobj
 6 0 obj
 <<
-/F1 7 0 R
-/F2+0 8 0 R
-/F3+0 12 0 R
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 7 0 obj
@@ -600,17 +696,17 @@ xref
 0000000344 00000 n 
 0000000403 00000 n 
 0000000452 00000 n 
-0000000651 00000 n 
-0000007117 00000 n 
-0000007173 00000 n 
-0000007280 00000 n 
-0000008577 00000 n 
-0000008832 00000 n 
-0000028244 00000 n 
-0000029018 00000 n 
-0000030333 00000 n 
-0000030600 00000 n 
-0000049217 00000 n 
+0000000710 00000 n 
+0000008178 00000 n 
+0000008285 00000 n 
+0000008392 00000 n 
+0000009689 00000 n 
+0000009944 00000 n 
+0000029356 00000 n 
+0000030130 00000 n 
+0000031445 00000 n 
+0000031712 00000 n 
+0000050329 00000 n 
 trailer
 <<
 /Size 16
@@ -618,5 +714,5 @@ trailer
 /Info 1 0 R
 >>
 startxref
-49984
+51096
 %%EOF
