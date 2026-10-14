@@ -1,1 +1,75 @@
-<!doctype html><html lang="es"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Mi recetario</title><style>body{font:16px/1.65 system-ui,-apple-system,sans-serif;background:#f5f6f1;color:#24362e;margin:0}main{max-width:820px;margin:32px auto;padding:38px 48px;background:white;border-radius:16px;box-shadow:0 8px 28px #1a30201a}h1{font-size:2.1rem;line-height:1.2;color:#245d42}h2{color:#245d42;border-bottom:1px solid #d5e5d9;padding-bottom:6px;margin-top:30px}small,.meta{color:#64756a}.ingredients{columns:2;column-gap:36px}.ingredients li{break-inside:avoid;margin-bottom:8px}.step{margin:18px 0}.step strong{color:#245d42}a{color:#245d42}nav{margin-bottom:25px}footer{margin-top:36px;color:#64756a;font-size:.85rem}@media(max-width:650px){main{margin:0;padding:24px 20px;border-radius:0}.ingredients{columns:1}}@media print{body{background:white}main{box-shadow:none;margin:0;padding:0}nav{display:none}}</style><main><h1>Mi recetario</h1><p>Recetas afinadas, con versiones imprimibles y datos estructurados.</p><ul><li><a href="lentejas-calabaza-espinacas-300g.html">Lentejas cremosas con calabaza y espinacas · 300g</a> <small>· Guisos</small></li><li><a href="lentejas-calabaza-espinacas-400g.html">Lentejas cremosas con calabaza y espinacas · 400g</a> <small>· Guisos</small></li><li><a href="pollo-guisado-calabacin.html">Pollo guisado con calabacín</a> <small>· Guisos</small></li><li><a href="tortilla-boniato-espinacas-parmesano.html">Tortilla de boniato, espinacas y parmesano</a> <small>· Tortillas</small></li></ul></main></html>
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Mi recetario</title>
+  <style>
+    :root{--verde:#245d42;--texto:#24362e;--suave:#f3f6f1;--borde:#d5e5d9}
+    *{box-sizing:border-box}
+    body{font:16px/1.6 system-ui,-apple-system,sans-serif;background:#f5f6f1;color:var(--texto);margin:0}
+    main{max-width:900px;margin:32px auto;padding:42px 50px;background:#fff;border-radius:16px;box-shadow:0 8px 28px #1a30201a}
+    h1{font-size:2.25rem;line-height:1.15;color:var(--verde);margin:0 0 8px}
+    .intro{color:#64756a;margin:0 0 26px}
+    .category-nav{display:flex;flex-wrap:wrap;gap:9px;margin-bottom:34px}
+    .category-nav a{color:var(--verde);background:var(--suave);border:1px solid var(--borde);border-radius:999px;padding:6px 12px;text-decoration:none;font-size:.9rem}
+    .category{margin-top:36px;scroll-margin-top:20px}
+    .category h2{color:var(--verde);font-size:1.35rem;border-bottom:1px solid var(--borde);padding-bottom:7px;margin:0 0 15px}
+    .recipes{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+    .recipe{display:block;color:var(--texto);background:var(--suave);border:1px solid transparent;border-radius:11px;padding:15px 17px;text-decoration:none}
+    .recipe:hover,.recipe:focus-visible{border-color:#9db8a5;outline:none}
+    .recipe strong{display:block;color:var(--verde);line-height:1.35;margin-bottom:4px}
+    .recipe span{color:#64756a;font-size:.88rem}
+    footer{margin-top:42px;color:#64756a;font-size:.85rem}
+    @media(max-width:650px){main{margin:0;padding:28px 20px;border-radius:0}.recipes{grid-template-columns:1fr}h1{font-size:1.9rem}}
+  </style>
+</head>
+<body>
+<main>
+  <h1>Mi recetario</h1>
+  <p class="intro">Recetas afinadas y ordenadas para preparar el menú semanal.</p>
+
+  <nav class="category-nav" aria-label="Categorías con recetas">
+    <a href="#legumbres">Legumbres</a>
+    <a href="#huevos">Huevos</a>
+    <a href="#guisos-y-asados">Guisos y asados</a>
+  </nav>
+
+  <section class="category" id="legumbres">
+    <h2>Legumbres</h2>
+    <div class="recipes">
+      <a class="recipe" href="lentejas-calabaza-espinacas-300g.html">
+        <strong>Lentejas cremosas con calabaza y espinacas</strong>
+        <span>Versión de 300 g · 2-3 raciones</span>
+      </a>
+      <a class="recipe" href="lentejas-calabaza-espinacas-400g.html">
+        <strong>Lentejas cremosas con calabaza y espinacas</strong>
+        <span>Versión de 400 g · 2-3 raciones</span>
+      </a>
+    </div>
+  </section>
+
+  <section class="category" id="huevos">
+    <h2>Huevos</h2>
+    <div class="recipes">
+      <a class="recipe" href="tortilla-boniato-espinacas-parmesano.html">
+        <strong>Tortilla de boniato, espinacas y parmesano</strong>
+        <span>2 raciones · 35-40 min</span>
+      </a>
+    </div>
+  </section>
+
+  <section class="category" id="guisos-y-asados">
+    <h2>Guisos y asados</h2>
+    <div class="recipes">
+      <a class="recipe" href="pollo-guisado-calabacin.html">
+        <strong>Pollo guisado con calabacín</strong>
+        <span>2-3 raciones · 50-60 min</span>
+      </a>
+    </div>
+  </section>
+
+  <footer>Las categorías vacías aparecerán cuando se incorporen nuevas recetas.</footer>
+</main>
+</body>
+</html>

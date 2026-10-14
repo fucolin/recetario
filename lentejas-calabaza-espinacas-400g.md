@@ -12,6 +12,7 @@ variante: 400g
 titulo: Lentejas cremosas con calabaza y espinacas
 subtitulo: Guiso especiado y cremoso
 categoria: Guisos
+categoria_menu: Legumbres
 etiquetas:
 - legumbres
 - vegetariano
