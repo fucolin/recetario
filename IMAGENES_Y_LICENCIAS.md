@@ -5,11 +5,11 @@ Las fotografías se muestran en las páginas HTML y se declaran en el YAML y en 
 ## Lentejas cremosas con calabaza y espinacas
 
 - Archivo local: `images/lentejas-calabaza-espinacas.jpg`
-- Obra: [Dal Palak / Spinach and lentil curry](https://commons.wikimedia.org/wiki/File:Dal_Palak_Spinach_and_lentil_curry_(15914333462).jpg)
-- Autor: Yummy O Yummy
-- Licencia: [Creative Commons Attribution 2.0](https://creativecommons.org/licenses/by/2.0/)
-- Uso: versiones de 300 g y 400 g. La fotografía es representativa; la receta del recetario incorpora además calabaza.
-- Modificación: Wikimedia Commons ha generado una versión reducida; no se han realizado otros cambios.
+- Origen: fotografía propia proporcionada por el usuario (`IMG_0048.jpeg`).
+- Autor: no se especifica un nombre; se muestra «Fotografía propia».
+- Licencia: no se ha indicado una licencia de reutilización.
+- Uso: versiones de 300 g y 400 g.
+- Modificación: adaptada para web a 1000 × 1000 píxeles, sin recorte ni cambios de color; metadatos de cámara y ubicación retirados.
 
 ## Pollo guisado con calabacín
 

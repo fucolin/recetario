@@ -27,6 +27,8 @@ Codex debe completar todo este proceso:
 
 ## Añadir una receta
 
+Antes de incorporar una ficha nueva mediante «Al recetario» o «Al recetario y GitHub», Codex debe proponer `tipo_ficha` y `categoria_menu` y esperar la confirmación del usuario. Si ambos ya se han confirmado durante la conversación, no vuelve a preguntarlos. Esta confirmación solo se exige para fichas nuevas; no para actualizaciones de fichas existentes, como sustituir una fotografía.
+
 Primero se afina la receta con el usuario. No se incorpora al repositorio hasta que el usuario diga «Al recetario». Si faltan datos menores, Codex puede proponerlos, pero debe preservar cualquier decisión expresa del usuario.
 
 ## Sustituir una fotografía por una foto propia
