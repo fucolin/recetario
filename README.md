@@ -1,5 +1,7 @@
 # Mi recetario
 
+🌐 **Web publicada:** [https://fucolin.github.io/recetario/](https://fucolin.github.io/recetario/)
+
 Cuatro versiones de tres recetas. Cada receta tiene:
 
 - `.md`: fuente maestra, YAML estructurado entre `---` y Markdown legible debajo.
