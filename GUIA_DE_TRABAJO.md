@@ -19,7 +19,8 @@ Codex debe completar todo este proceso:
 7. Actualizar `index.html` y la página visual de `categorias/` correspondiente, sin crear entradas duplicadas y distinguiendo claramente las variantes.
 8. Comprobar ingredientes, cantidades, diferencias entre variantes, licencia de la imagen, datos estructurados, enlaces y presentación visual del HTML y del PDF.
 9. Entregar los archivos nuevos o modificados según esta regla:
-   - Si son uno o dos archivos, incluir enlaces directos a cada archivo en el mensaje final del chat. No crear un ZIP.
+   - Si son uno o dos archivos y pertenecen a la misma carpeta del repositorio, incluir enlaces directos a cada archivo en el mensaje final del chat. No crear un ZIP.
+   - Si los archivos pertenecen a carpetas distintas, preparar siempre un ZIP que conserve la estructura de carpetas, aunque solo sean dos.
    - Si son tres o más archivos, preparar un ZIP y abrirlo en el panel derecho de Codex para que el usuario pueda elegir `⋯` → **Descargar una copia**.
 
 ## Añadir una receta
