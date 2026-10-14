@@ -64,3 +64,12 @@ Las fotografías se muestran en las páginas HTML y se declaran en el YAML y en 
 - Licencia: [Creative Commons Attribution 2.0](https://creativecommons.org/licenses/by/2.0/)
 - Uso: fotografía representativa de hojas de endivia montadas como barquitas con queso; los aderezos visibles pueden diferir de las opciones de la ficha.
 - Modificación: Wikimedia Commons ha generado una versión reducida; no se han realizado otros cambios.
+
+## Revuelto de champiñones y trigueros
+
+- Archivo local: `images/revuelto-champinones-trigueros.jpg`
+- Obra: [Revuelto de huevo con setas](https://commons.wikimedia.org/wiki/File:Revuelto_de_huevo_con_setas-01.JPG)
+- Autor: Tamorlan
+- Licencia: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)
+- Uso: Fotografía representativa de un revuelto con setas; no muestra los trigueros de esta receta.
+- Modificación: redimensionada a 1000 × 667 píxeles, sin recorte ni otros cambios.

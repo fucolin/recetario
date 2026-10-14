@@ -1,0 +1,125 @@
+{
+  "esquema": "recetario-1.0",
+  "id": "revuelto-champinones-trigueros",
+  "familia": "revuelto-champinones-trigueros",
+  "variante": "principal",
+  "titulo": "Revuelto de champiñones y trigueros",
+  "subtitulo": "Jugoso · sin leche ni nata",
+  "categoria": "Revueltos",
+  "categoria_menu": "Huevos",
+  "tipo_ficha": "receta",
+  "etiquetas": [
+    "champiñones",
+    "espárragos",
+    "huevos"
+  ],
+  "raciones": {
+    "min": 2,
+    "max": 2
+  },
+  "tiempo_total_min": {
+    "min": 25,
+    "max": 25
+  },
+  "ingredientes": [
+    {
+      "nombre": "huevos",
+      "cantidad": 4,
+      "unidad": "unidades"
+    },
+    {
+      "nombre": "champiñones",
+      "cantidad": 150,
+      "unidad": "g",
+      "nota": "enteros o laminados"
+    },
+    {
+      "nombre": "espárragos trigueros",
+      "cantidad": 200,
+      "unidad": "g"
+    },
+    {
+      "nombre": "ajo",
+      "cantidad": 1,
+      "unidad": "diente"
+    },
+    {
+      "nombre": "aceite de oliva virgen extra",
+      "cantidad": 1,
+      "unidad": "cucharada"
+    },
+    {
+      "nombre": "sal y pimienta negra",
+      "nota": "al gusto"
+    },
+    {
+      "nombre": "perejil picado",
+      "opcional": true
+    },
+    {
+      "nombre": "agua",
+      "nota": "un poco, solo si los tallos son gruesos",
+      "opcional": true
+    }
+  ],
+  "pdf_ingredientes": [
+    "4 huevos",
+    "150 g de champiñones, enteros o laminados",
+    "200 g de espárragos trigueros",
+    "1 diente de ajo",
+    "1 cucharada de aceite de oliva virgen extra",
+    "Sal y pimienta negra",
+    "Perejil picado (opcional)",
+    "Un poco de agua (solo si los tallos son gruesos)"
+  ],
+  "pasos": [
+    {
+      "orden": 1,
+      "titulo": "Limpia y prepara las verduras",
+      "duracion_min": 5,
+      "duracion_max_min": 7,
+      "duracion_texto": "5-7 min",
+      "instrucciones": "Si los champiñones están enteros y tienen poca suciedad, límpialos con un paño húmedo o un cepillo suave. Si tienen tierra adherida, pásalos brevemente bajo el grifo de agua fría, sin dejarlos en remojo, y sécalos enseguida. Recorta el extremo del pie si está seco o tiene tierra; no hace falta pelarlos ni quitarles todo el pie. Córtalos en láminas. Si los compras laminados, úsalos directamente si el envase indica que están lavados o listos para cocinar. Si tienen restos de tierra, enjuágalos brevemente y sécalos con cuidado, sin remojarlos. Lava los espárragos, retira la parte dura y córtalos en trozos de unos 3 cm, reservando las puntas. Pela y pica el ajo."
+    },
+    {
+      "orden": 2,
+      "titulo": "Cocina los trigueros",
+      "duracion_min": 4,
+      "duracion_max_min": 5,
+      "duracion_texto": "4-5 min",
+      "instrucciones": "Calienta la mitad del aceite en una sartén y saltea los tallos a fuego medio. Añade las puntas en los últimos 2 minutos. Si los tallos son gruesos, incorpora un poco de agua y tapa brevemente para ablandarlos. Retira a un plato."
+    },
+    {
+      "orden": 3,
+      "titulo": "Dora los champiñones",
+      "duracion_min": 6,
+      "duracion_max_min": 8,
+      "duracion_texto": "6-8 min",
+      "instrucciones": "Añade el aceite restante y cocina los champiñones a fuego medio-alto, hasta que se evapore el agua y empiecen a dorarse. Evita amontonarlos; haz dos tandas si la sartén es pequeña. Añade el ajo picado en el último minuto."
+    },
+    {
+      "orden": 4,
+      "titulo": "Junta las verduras y baja el fuego",
+      "duracion_min": 1,
+      "duracion_max_min": 2,
+      "duracion_texto": "1-2 min",
+      "instrucciones": "Devuelve los espárragos a la sartén, salpimienta y mezcla. Baja el fuego al mínimo y deja que la sartén pierda algo de temperatura antes de incorporar los huevos."
+    },
+    {
+      "orden": 5,
+      "titulo": "Haz el revuelto",
+      "duracion_min": 2,
+      "duracion_max_min": 3,
+      "duracion_texto": "2-3 min",
+      "instrucciones": "Bate ligeramente los huevos con una pizca de sal. Viértelos y remueve despacio con una espátula, recorriendo el fondo. Retira en cuanto estén cuajados y todavía jugosos; el calor residual terminará de asentarlos. Sirve enseguida, con perejil picado si te apetece."
+    }
+  ],
+  "claves": "Champiñones secos y sin amontonar para que se doren. Huevos a fuego muy suave para mantener la jugosidad. Sin leche ni nata.",
+  "image": "https://fucolin.github.io/recetario/images/revuelto-champinones-trigueros.jpg",
+  "image_alt": "Revuelto de huevo con setas servido en un plato",
+  "image_credit": "Tamorlan",
+  "image_license": "CC BY-SA 3.0",
+  "image_source": "https://commons.wikimedia.org/wiki/File:Revuelto_de_huevo_con_setas-01.JPG",
+  "image_note": "Fotografía representativa de un revuelto con setas; no muestra los trigueros de esta receta.",
+  "pdf": "https://fucolin.github.io/recetario/revuelto-champinones-trigueros.pdf"
+}

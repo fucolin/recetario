@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Revuelto de champiñones y trigueros",
+  "description": "Jugoso · sin leche ni nata",
+  "recipeCategory": "Huevos",
+  "recipeYield": "2 raciones",
+  "totalTime": "PT25M",
+  "keywords": "champiñones, espárragos, huevos",
+  "recipeIngredient": [
+    "4 huevos",
+    "150 g de champiñones, enteros o laminados",
+    "200 g de espárragos trigueros",
+    "1 diente de ajo",
+    "1 cucharada de aceite de oliva virgen extra",
+    "Sal y pimienta negra",
+    "Perejil picado (opcional)",
+    "Un poco de agua (solo si los tallos son gruesos)"
+  ],
+  "recipeInstructions": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "Limpia y prepara las verduras",
+      "text": "Si los champiñones están enteros y tienen poca suciedad, límpialos con un paño húmedo o un cepillo suave. Si tienen tierra adherida, pásalos brevemente bajo el grifo de agua fría, sin dejarlos en remojo, y sécalos enseguida. Recorta el extremo del pie si está seco o tiene tierra; no hace falta pelarlos ni quitarles todo el pie. Córtalos en láminas. Si los compras laminados, úsalos directamente si el envase indica que están lavados o listos para cocinar. Si tienen restos de tierra, enjuágalos brevemente y sécalos con cuidado, sin remojarlos. Lava los espárragos, retira la parte dura y córtalos en trozos de unos 3 cm, reservando las puntas. Pela y pica el ajo."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "Cocina los trigueros",
+      "text": "Calienta la mitad del aceite en una sartén y saltea los tallos a fuego medio. Añade las puntas en los últimos 2 minutos. Si los tallos son gruesos, incorpora un poco de agua y tapa brevemente para ablandarlos. Retira a un plato."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "Dora los champiñones",
+      "text": "Añade el aceite restante y cocina los champiñones a fuego medio-alto, hasta que se evapore el agua y empiecen a dorarse. Evita amontonarlos; haz dos tandas si la sartén es pequeña. Añade el ajo picado en el último minuto."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 4,
+      "name": "Junta las verduras y baja el fuego",
+      "text": "Devuelve los espárragos a la sartén, salpimienta y mezcla. Baja el fuego al mínimo y deja que la sartén pierda algo de temperatura antes de incorporar los huevos."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 5,
+      "name": "Haz el revuelto",
+      "text": "Bate ligeramente los huevos con una pizca de sal. Viértelos y remueve despacio con una espátula, recorriendo el fondo. Retira en cuanto estén cuajados y todavía jugosos; el calor residual terminará de asentarlos. Sirve enseguida, con perejil picado si te apetece."
+    }
+  ],
+  "image": "https://fucolin.github.io/recetario/images/revuelto-champinones-trigueros.jpg",
+  "url": "https://fucolin.github.io/recetario/revuelto-champinones-trigueros.html"
+}

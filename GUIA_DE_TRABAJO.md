@@ -4,7 +4,9 @@ Este archivo conserva el procedimiento acordado para seguir trabajando en `fucol
 
 ## Regla principal
 
-Codex puede utilizar la conexión de GitHub para leer o descargar el repositorio, pero no debe publicar ni modificar nada directamente en GitHub. Al terminar cada cambio, debe entregar los archivos para que el propietario los suba manualmente, siguiendo la regla de entrega indicada más abajo.
+GitHub es la fuente canónica. Cuando el usuario diga «Al recetario», Codex lee o descarga el repositorio y entrega los archivos para que el propietario los suba manualmente. Cuando diga «Al recetario y GitHub», autoriza a Codex a preparar, comprobar y subir directamente los cambios al repositorio, desde cualquier dispositivo. Al terminar, Codex entrega un resumen y el enlace al commit. Esta excepción también se aplica cuando el usuario indique «Estoy en el iPhone. Al recetario».
+
+En la modalidad de subida directa no es necesario entregar un ZIP; se mantienen todas las comprobaciones y formatos de la receta.
 
 ## Cuando el usuario diga «Al recetario»
 
