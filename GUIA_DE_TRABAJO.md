@@ -11,11 +11,11 @@ Codex puede utilizar la conexión de GitHub para leer o descargar el repositorio
 Codex debe completar todo este proceso:
 
 1. Crear o actualizar la receta maestra en Markdown con YAML, incluidos `tipo_ficha` y `categoria_menu`.
-2. Crear o actualizar el JSON completo, incluidos `tipo_ficha`, `categoria_menu` y la lista editorial `pdf_ingredientes`.
+2. Crear o actualizar el JSON completo, incluidos `tipo_ficha` y `categoria_menu`. `pdf_ingredientes` solo es obligatorio para las fichas de tipo `receta`.
 3. Crear o actualizar el JSON Schema.org `Recipe`.
 4. Seleccionar una fotografía adecuada con licencia reutilizable, guardarla localmente y documentar su autoría, fuente y licencia, salvo que el usuario proporcione una fotografía propia.
-5. Crear o actualizar la página HTML con fotografía, atribución, datos estructurados `Recipe.image`, ingredientes con fondo `#F3F6F1`, enlace visible al PDF y botón `👁️ Más de [categoría]` junto al botón de impresión.
-6. Generar el PDF mediante `tools/generar_pdfs.py`: una página A4, sin fotografía, ingredientes sin viñetas y en dos columnas sobre fondo `#F3F6F1`, títulos verdes, pasos numerados, claves y pie.
+5. Crear o actualizar la página HTML con fotografía, atribución, datos estructurados `Recipe.image`, ingredientes con fondo `#F3F6F1` y botón `👁️ Más de [categoría]`. Solo las fichas de tipo `receta` muestran además el enlace visible al PDF.
+6. Solo para `tipo_ficha: receta`, generar el PDF mediante `tools/generar_pdfs.py`: una página A4, sin fotografía, ingredientes sin viñetas y en dos columnas sobre fondo `#F3F6F1`, títulos verdes, pasos numerados, claves y pie. Las preparaciones sencillas y las combinaciones no generan PDF.
 7. Actualizar `index.html` y la página visual de `categorias/` correspondiente, sin crear entradas duplicadas y distinguiendo claramente las variantes.
 8. Comprobar ingredientes, cantidades, diferencias entre variantes, licencia de la imagen, datos estructurados, enlaces y presentación visual del HTML y del PDF.
 9. Entregar los archivos nuevos o modificados según esta regla:
@@ -72,10 +72,10 @@ Las variantes de una misma familia se agrupan siempre en una sola tarjeta, tanto
 Toda entrada debe declarar uno de estos tres valores en `tipo_ficha`:
 
 - `receta`: ingredientes, preparación numerada paso a paso y claves opcionales.
-- `preparacion`: ingredientes y un bloque breve `indicaciones`, sin pasos numerados; puede incluir `consejo`.
-- `combinacion`: solo ingredientes y cantidades; puede incluir `consejo`, pero no pasos ni indicaciones.
+- `preparacion`: ingredientes y un bloque breve `indicaciones`, sin pasos numerados; puede incluir `consejo` y no genera PDF.
+- `combinacion`: solo ingredientes y cantidades; puede incluir `consejo`, pero no pasos ni indicaciones, y no genera PDF.
 
-La etiqueta visible en el índice y en las páginas de categoría será respectivamente `Receta`, `Preparación sencilla` o `Combinación`. No se crean secciones vacías ni instrucciones de relleno. El HTML y el PDF muestran `PREPARACIÓN`, `INDICACIONES` o ninguna sección de elaboración según corresponda.
+La etiqueta visible en el índice y en las páginas de categoría será respectivamente `Receta`, `Preparación sencilla` o `Combinación`. No se crean secciones vacías ni instrucciones de relleno. El HTML muestra `Preparación`, `Indicaciones` o ninguna sección de elaboración según corresponda. El campo YAML `pdf`, el botón de impresión y el archivo PDF se omiten en los otros dos tipos.
 
 En Schema.org se mantiene `@type: Recipe` y `recipeIngredient`. `recipeInstructions` solo se incluye cuando existen pasos o indicaciones reales. La importación de una combinación sin instrucciones depende del comportamiento de la aplicación de destino y debe comprobarse con el primer caso.
 
