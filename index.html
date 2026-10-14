@@ -14,7 +14,9 @@
     .category-nav{display:flex;flex-wrap:wrap;gap:9px;margin-bottom:34px}
     .category-nav a{color:var(--verde);background:var(--suave);border:1px solid var(--borde);border-radius:999px;padding:6px 12px;text-decoration:none;font-size:.9rem}
     .category{margin-top:36px;scroll-margin-top:20px}
-    .category h2{color:var(--verde);font-size:1.35rem;border-bottom:1px solid var(--borde);padding-bottom:7px;margin:0 0 15px}
+    .category h2{font-size:1.35rem;border-bottom:1px solid var(--borde);padding-bottom:7px;margin:0 0 15px}
+    .category h2 a{display:flex;align-items:center;justify-content:space-between;color:var(--verde);text-decoration:none}
+    .category h2 span{font-size:1rem;font-weight:500}
     .recipes{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
     .recipe{display:block;color:var(--texto);background:var(--suave);border:1px solid transparent;border-radius:11px;padding:15px 17px;text-decoration:none}
     .recipe:hover,.recipe:focus-visible{border-color:#9db8a5;outline:none}
@@ -30,13 +32,13 @@
   <p class="intro">Recetas afinadas y ordenadas para preparar el menú semanal.</p>
 
   <nav class="category-nav" aria-label="Categorías con recetas">
-    <a href="#legumbres">Legumbres</a>
-    <a href="#huevos">Huevos</a>
-    <a href="#guisos-y-asados">Guisos y asados</a>
+    <a href="categorias/legumbres.html">Legumbres</a>
+    <a href="categorias/huevos.html">Huevos</a>
+    <a href="categorias/guisos-y-asados.html">Guisos y asados</a>
   </nav>
 
   <section class="category" id="legumbres">
-    <h2>Legumbres</h2>
+    <h2><a href="categorias/legumbres.html">Legumbres <span>Ver categoría →</span></a></h2>
     <div class="recipes">
       <a class="recipe" href="lentejas-calabaza-espinacas-300g.html">
         <strong>Lentejas cremosas con calabaza y espinacas</strong>
@@ -50,7 +52,7 @@
   </section>
 
   <section class="category" id="huevos">
-    <h2>Huevos</h2>
+    <h2><a href="categorias/huevos.html">Huevos <span>Ver categoría →</span></a></h2>
     <div class="recipes">
       <a class="recipe" href="tortilla-boniato-espinacas-parmesano.html">
         <strong>Tortilla de boniato, espinacas y parmesano</strong>
@@ -60,7 +62,7 @@
   </section>
 
   <section class="category" id="guisos-y-asados">
-    <h2>Guisos y asados</h2>
+    <h2><a href="categorias/guisos-y-asados.html">Guisos y asados <span>Ver categoría →</span></a></h2>
     <div class="recipes">
       <a class="recipe" href="pollo-guisado-calabacin.html">
         <strong>Pollo guisado con calabacín</strong>

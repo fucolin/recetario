@@ -14,9 +14,9 @@ Codex debe completar todo este proceso:
 2. Crear o actualizar el JSON completo, incluidos `categoria_menu` y la lista editorial `pdf_ingredientes`.
 3. Crear o actualizar el JSON Schema.org `Recipe`.
 4. Seleccionar una fotografía adecuada con licencia reutilizable, guardarla localmente y documentar su autoría, fuente y licencia, salvo que el usuario proporcione una fotografía propia.
-5. Crear o actualizar la página HTML con fotografía, atribución, datos estructurados `Recipe.image`, ingredientes con fondo `#F3F6F1` y enlace visible al PDF.
+5. Crear o actualizar la página HTML con fotografía, atribución, datos estructurados `Recipe.image`, ingredientes con fondo `#F3F6F1`, enlace visible al PDF y botón `👁️ Más de [categoría]` junto al botón de impresión.
 6. Generar el PDF mediante `tools/generar_pdfs.py`: una página A4, sin fotografía, ingredientes sin viñetas y en dos columnas sobre fondo `#F3F6F1`, títulos verdes, pasos numerados, claves y pie.
-7. Actualizar `index.html` dentro del grupo indicado por `categoria_menu`, sin crear entradas duplicadas y distinguiendo claramente las variantes.
+7. Actualizar `index.html` y la página visual de `categorias/` correspondiente, sin crear entradas duplicadas y distinguiendo claramente las variantes.
 8. Comprobar ingredientes, cantidades, diferencias entre variantes, licencia de la imagen, datos estructurados, enlaces y presentación visual del HTML y del PDF.
 9. Entregar los archivos nuevos o modificados según esta regla:
    - Si son uno o dos archivos, incluir enlaces directos a cada archivo en el mensaje final del chat. No crear un ZIP.
@@ -62,6 +62,8 @@ Cada receta debe pertenecer a una sola `categoria_menu`. La clasificación ofici
 - Otros
 
 Cuando una receta pueda encajar en varias categorías, se elegirá la que resulte más útil para planificar el menú. Las categorías específicas tienen prioridad: por ejemplo, un guiso de lentejas pertenece a `Legumbres` y una tortilla con verduras pertenece a `Huevos`.
+
+Solo se crea una página dentro de `categorias/` cuando la categoría contiene al menos una receta. Estas páginas muestran tarjetas con fotografía, título, tiempo y raciones. Las variantes de una misma familia se agrupan en una sola tarjeta con enlaces separados.
 
 ## Formato canónico de los PDF
 
