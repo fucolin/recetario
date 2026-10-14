@@ -33,6 +33,10 @@ Antes de incorporar una ficha nueva mediante «Al recetario» o «Al recetario y
 
 Primero se afina la receta con el usuario. No se incorpora al repositorio hasta que el usuario diga «Al recetario». Si faltan datos menores, Codex puede proponerlos, pero debe preservar cualquier decisión expresa del usuario.
 
+## Formato común de las fotografías
+
+Todas las fotografías de las fichas y de las tarjetas de categorías se muestran en horizontal con relación de aspecto **16:9**, tanto en ordenador como en móvil. Usar `width: 100%`, `height: auto`, `aspect-ratio: 16 / 9` y `object-fit: cover`, sin alturas fijas ni alturas mínimas que alteren esa proporción. El encuadre se centra por defecto; puede ajustarse para preservar el plato o los ingredientes principales. Las imágenes originales se conservan y la presentación aplica el recorte. Para las próximas fotografías propias, el usuario puede encuadrar directamente en 16:9 desde el móvil.
+
 ## Sustituir una fotografía por una foto propia
 
 Cuando el usuario adjunte una fotografía propia, Codex debe:
