@@ -111,5 +111,11 @@
       "instrucciones": "Pasa la tortilla a un plato y deja reposar 2-3 min antes de cortarla. Así se asienta el interior sin perder jugosidad."
     }
   ],
-  "claves": "Boniato muy tierno y poco dorado; espinacas sin agua; poca sal porque el parmesano ya aporta. Para una tortilla más alta, utiliza una sartén de 18 cm."
+  "claves": "Boniato muy tierno y poco dorado; espinacas sin agua; poca sal porque el parmesano ya aporta. Para una tortilla más alta, utiliza una sartén de 18 cm.",
+  "image": "https://fucolin.github.io/recetario/images/tortilla-boniato-espinacas-parmesano.jpg",
+  "image_alt": "Tortilla española de espinacas dorada y recién servida",
+  "image_credit": "Andy Li",
+  "image_license": "CC0 1.0",
+  "image_source": "https://commons.wikimedia.org/wiki/File:Spanish_Spinach_Omelette_-_Tivoli_Cafe_2025-09-17.jpg",
+  "pdf": "https://fucolin.github.io/recetario/tortilla-boniato-espinacas-parmesano.pdf"
 }

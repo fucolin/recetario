@@ -1,6 +1,12 @@
 ---
 esquema: recetario-1.0
 id: pollo-guisado-calabacin
+image: https://fucolin.github.io/recetario/images/pollo-guisado-calabacin.jpg
+image_alt: "Guiso de calabacín, tomate y cebolla en una cazuela"
+image_credit: "4nn1l2"
+image_license: "CC BY-SA 4.0"
+image_source: https://commons.wikimedia.org/wiki/File:Zucchini_Stew.jpg
+pdf: https://fucolin.github.io/recetario/pollo-guisado-calabacin.pdf
 familia: pollo-guisado-calabacin
 variante: principal
 titulo: Pollo guisado con calabacín
@@ -119,6 +125,12 @@ claves: El fondo marrón aporta sabor; el negro amarga. No amontones el pollo. E
 
 Con tomate, zanahoria y vino blanco
 
+![Guiso de calabacín, tomate y cebolla en una cazuela](images/pollo-guisado-calabacin.jpg)
+
+*Foto: [4nn1l2](https://commons.wikimedia.org/wiki/File:Zucchini_Stew.jpg) · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).*
+
+[Descargar receta en PDF · A4](pollo-guisado-calabacin.pdf)
+
 ## Ingredientes
 
 - 500–600 g pollo troceado (preferiblemente contramuslos deshuesados)
@@ -148,3 +160,4 @@ Con tomate, zanahoria y vino blanco
 ## Claves
 
 El fondo marrón aporta sabor; el negro amarga. No amontones el pollo. El calabacín debe llegar al reposo aún ligeramente firme. Si usas pechuga, acorta el guisado y vigila especialmente que no se seque.
+

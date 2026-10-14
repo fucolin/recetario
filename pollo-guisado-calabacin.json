@@ -20,8 +20,8 @@
       "nombre": "pollo troceado",
       "unidad": "g",
       "nota": "preferiblemente contramuslos deshuesados",
-      "cantidad_min": 500.0,
-      "cantidad_max": 600.0
+      "cantidad_min": 500,
+      "cantidad_max": 600
     },
     {
       "nombre": "cebolla",
@@ -54,14 +54,14 @@
     {
       "nombre": "vino blanco seco",
       "unidad": "ml",
-      "cantidad_min": 50.0,
-      "cantidad_max": 75.0
+      "cantidad_min": 50,
+      "cantidad_max": 75
     },
     {
       "nombre": "aceite de oliva virgen extra",
       "unidad": "cucharadas",
-      "cantidad_min": 2.0,
-      "cantidad_max": 3.0
+      "cantidad_min": 2,
+      "cantidad_max": 3
     },
     {
       "nombre": "pimentón dulce",
@@ -144,5 +144,11 @@
       "instrucciones": "Prueba y corrige de sal y pimienta. Si la salsa está líquida, redúcela destapada antes de apagar. Deja reposar 5 min con el fuego apagado y la olla tapada."
     }
   ],
-  "claves": "El fondo marrón aporta sabor; el negro amarga. No amontones el pollo. El calabacín debe llegar al reposo aún ligeramente firme. Si usas pechuga, acorta el guisado y vigila especialmente que no se seque."
+  "claves": "El fondo marrón aporta sabor; el negro amarga. No amontones el pollo. El calabacín debe llegar al reposo aún ligeramente firme. Si usas pechuga, acorta el guisado y vigila especialmente que no se seque.",
+  "image": "https://fucolin.github.io/recetario/images/pollo-guisado-calabacin.jpg",
+  "image_alt": "Guiso de calabacín, tomate y cebolla en una cazuela",
+  "image_credit": "4nn1l2",
+  "image_license": "CC BY-SA 4.0",
+  "image_source": "https://commons.wikimedia.org/wiki/File:Zucchini_Stew.jpg",
+  "pdf": "https://fucolin.github.io/recetario/pollo-guisado-calabacin.pdf"
 }

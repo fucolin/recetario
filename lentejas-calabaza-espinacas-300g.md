@@ -1,6 +1,12 @@
 ---
 esquema: recetario-1.0
 id: lentejas-calabaza-espinacas-300g
+image: https://fucolin.github.io/recetario/images/lentejas-calabaza-espinacas.jpg
+image_alt: "Curry cremoso de lentejas con espinacas servido en un cuenco"
+image_credit: "Yummy O Yummy"
+image_license: "CC BY 2.0"
+image_source: https://commons.wikimedia.org/wiki/File:Dal_Palak_Spinach_and_lentil_curry_(15914333462).jpg
+pdf: https://fucolin.github.io/recetario/lentejas-calabaza-espinacas-300g.pdf
 familia: lentejas-calabaza-espinacas
 variante: 300g
 titulo: Lentejas cremosas con calabaza y espinacas
@@ -119,6 +125,12 @@ claves: Para espesar, aplasta algunos dados de calabaza. Remueve con cuidado par
 
 Guiso especiado y cremoso
 
+![Curry cremoso de lentejas con espinacas servido en un cuenco](images/lentejas-calabaza-espinacas.jpg)
+
+*Foto: [Yummy O Yummy](https://commons.wikimedia.org/wiki/File:Dal_Palak_Spinach_and_lentil_curry_(15914333462).jpg) · [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/).*
+
+[Descargar receta en PDF · A4](lentejas-calabaza-espinacas-300g.pdf)
+
 ## Ingredientes
 
 - 300 g lentejas cocidas en conserva (peso escurrido)
@@ -149,3 +161,4 @@ Guiso especiado y cremoso
 ## Claves
 
 Para espesar, aplasta algunos dados de calabaza. Remueve con cuidado para no romper las lentejas. Ajusta el caldo poco a poco.
+
