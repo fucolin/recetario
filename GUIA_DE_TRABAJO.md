@@ -63,7 +63,9 @@ Cada receta debe pertenecer a una sola `categoria_menu`. La clasificación ofici
 
 Cuando una receta pueda encajar en varias categorías, se elegirá la que resulte más útil para planificar el menú. Las categorías específicas tienen prioridad: por ejemplo, un guiso de lentejas pertenece a `Legumbres` y una tortilla con verduras pertenece a `Huevos`.
 
-Solo se crea una página dentro de `categorias/` cuando la categoría contiene al menos una receta. Estas páginas muestran tarjetas con fotografía, título, tiempo y raciones. Las variantes de una misma familia se agrupan en una sola tarjeta con enlaces separados.
+Solo se crea una página dentro de `categorias/` cuando la categoría contiene al menos una receta. Estas páginas muestran tarjetas con fotografía, título, tiempo y raciones.
+
+Las variantes de una misma familia se agrupan siempre en una sola tarjeta, tanto en `index.html` como en su página de categoría. La tarjeta muestra los datos compartidos y enlaces separados con nombres breves, por ejemplo `Versión 300 g` y `Versión 400 g`. No se duplican tarjetas con la misma receta y fotografía.
 
 ## Formato canónico de los PDF
 

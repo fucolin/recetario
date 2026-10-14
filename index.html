@@ -22,6 +22,11 @@
     .recipe:hover,.recipe:focus-visible{border-color:#9db8a5;outline:none}
     .recipe strong{display:block;color:var(--verde);line-height:1.35;margin-bottom:4px}
     .recipe span{color:#64756a;font-size:.88rem}
+    .family-card{background:var(--suave);border-radius:11px;padding:15px 17px}
+    .family-card strong{display:block;color:var(--verde);line-height:1.35;margin-bottom:4px}
+    .family-card .meta{color:#64756a;font-size:.88rem}
+    .variants{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+    .variants a{color:var(--verde);background:#fff;border:1px solid #9db8a5;border-radius:8px;padding:6px 10px;text-decoration:none;font-size:.88rem;font-weight:650}
     footer{margin-top:42px;color:#64756a;font-size:.85rem}
     @media(max-width:650px){main{margin:0;padding:28px 20px;border-radius:0}.recipes{grid-template-columns:1fr}h1{font-size:1.9rem}}
   </style>
@@ -40,14 +45,14 @@
   <section class="category" id="legumbres">
     <h2><a href="categorias/legumbres.html">Legumbres <span>Ver categoría →</span></a></h2>
     <div class="recipes">
-      <a class="recipe" href="lentejas-calabaza-espinacas-300g.html">
+      <article class="family-card">
         <strong>Lentejas cremosas con calabaza y espinacas</strong>
-        <span>Versión de 300 g · 2-3 raciones</span>
-      </a>
-      <a class="recipe" href="lentejas-calabaza-espinacas-400g.html">
-        <strong>Lentejas cremosas con calabaza y espinacas</strong>
-        <span>Versión de 400 g · 2-3 raciones</span>
-      </a>
+        <div class="meta">2-3 raciones · 35-40 min</div>
+        <div class="variants">
+          <a href="lentejas-calabaza-espinacas-300g.html">Versión 300 g</a>
+          <a href="lentejas-calabaza-espinacas-400g.html">Versión 400 g</a>
+        </div>
+      </article>
     </div>
   </section>
 
