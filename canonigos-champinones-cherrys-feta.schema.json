@@ -1,0 +1,26 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Canónigos con champiñones, cherrys y feta",
+  "description": "Picoteo templado y ligero",
+  "recipeCategory": "Picoteo sano",
+  "recipeYield": "1 ración",
+  "totalTime": "PT12M",
+  "keywords": "vegetariano, picoteo sano",
+  "recipeIngredient": [
+    "100-120 g de champiñones",
+    "100 g de tomates cherry",
+    "40-50 g de canónigos",
+    "30 g de queso feta",
+    "1 cucharadita de aceite de oliva virgen extra",
+    "sal y pimienta negra al gusto"
+  ],
+  "recipeInstructions": [{
+    "@type": "HowToStep",
+    "position": 1,
+    "name": "Preparar y montar",
+    "text": "Lamina los champiñones y corta los tomates por la mitad. Saltea los champiñones con el aceite a fuego medio-alto durante 4-5 minutos. Incorpora los tomates y cocina 2-3 minutos más, procurando que se ablanden y se doren ligeramente sin deshacerse. Coloca los canónigos como base, reparte encima el salteado todavía templado y termina con el feta desmenuzado y pimienta negra."
+  }],
+  "image": "https://fucolin.github.io/recetario/images/canonigos-champinones-cherrys-feta.jpg",
+  "url": "https://fucolin.github.io/recetario/canonigos-champinones-cherrys-feta.html"
+}

@@ -46,3 +46,12 @@ Las fotografías se muestran en las páginas HTML y se declaran en el YAML y en 
 - Licencia: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
 - Uso: fotografía representativa de pechuga de pavo cocinada; la ficha del recetario la prepara a la plancha.
 - Modificación: Wikimedia Commons ha generado una versión reducida; no se han realizado otros cambios.
+
+## Canónigos con champiñones, cherrys y feta
+
+- Archivo local: `images/canonigos-champinones-cherrys-feta.jpg`
+- Obra: [Healthy snack plate with cherry tomatoes, avocado, mushrooms and tzfatit cheese](https://commons.wikimedia.org/wiki/File:Liat_Portal_for_Foodie_Disorder_-_Healthy_snack_plate_with_cherry_tomatoes_avocado_mushrooms_and_tzfatit_cheese.jpg)
+- Autor: HaJunkiyada
+- Licencia: [Creative Commons Attribution-ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+- Uso: fotografía representativa de los champiñones, tomates cherry, hojas verdes y queso blanco; también incluye aguacate y muestra los ingredientes sin saltear.
+- Modificación: Wikimedia Commons ha generado una versión reducida; no se han realizado otros cambios.
