@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Ensalada de salmón ahumado, mango y aguacate",
+  "description": "Hojas tiernas · contraste dulce y ahumado",
+  "recipeCategory": "Ensaladas",
+  "recipeYield": "2 raciones",
+  "totalTime": "PT15M",
+  "recipeIngredient": [
+    "100 g de canónigos, o mezcla de lechugas y espinacas tiernas",
+    "150 g de salmón ahumado",
+    "150 g de mango (pelado y sin hueso)",
+    "1 aguacate mediano",
+    "1 cucharada de aceite de oliva virgen extra",
+    "1 cucharada de zumo de limón, ajustable al gusto",
+    "Pimienta negra",
+    "Sal, solo si hace falta después de probar"
+  ],
+  "recipeInstructions": [
+    {
+      "@type": "HowToStep",
+      "text": "Lava las hojas si no vienen listas para consumir y sécalas bien. Corta el mango, maduro pero firme, en dados; el salmón en tiras o trozos y el aguacate en dados o láminas. Mezcla el aceite con el limón y un poco de pimienta. Aliña ligeramente las hojas, reparte encima el mango, el aguacate y el salmón, y termina con el aliño restante. Sirve enseguida, sin remover demasiado."
+    }
+  ],
+  "image": "https://fucolin.github.io/recetario/images/ensalada-salmon-ahumado-mango-aguacate.jpg",
+  "url": "https://fucolin.github.io/recetario/ensalada-salmon-ahumado-mango-aguacate.html"
+}

@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Ensalada de garbanzos, mango y aguacate",
+  "description": "Fresca y crujiente · como plato principal",
+  "recipeCategory": "Ensaladas",
+  "recipeYield": "2 raciones",
+  "totalTime": "PT15M",
+  "recipeIngredient": [
+    "400 g de garbanzos cocidos (peso escurrido)",
+    "150 g de tomates cherry",
+    "150 g de pepino (aproximadamente medio pepino mediano)",
+    "150 g de mango (pelado y sin hueso)",
+    "1 aguacate mediano",
+    "1 cucharada de aceite de oliva virgen extra",
+    "1 cucharada de zumo de limón, con algo más para ajustar",
+    "Sal al gusto"
+  ],
+  "recipeInstructions": [
+    {
+      "@type": "HowToStep",
+      "text": "Enjuaga los garbanzos bajo el grifo y déjalos escurrir bien. Lava los tomates y el pepino; corta los cherrys por la mitad y el pepino en dados de alrededor de 1 cm. Puedes dejarle la piel si te gusta; si tiene semillas grandes y acuosas, retira esa parte. Pela el mango, maduro pero firme, y córtalo en dados. Mezcla el aceite, el limón y una pizca de sal. Junta los garbanzos, los tomates, el pepino y el mango, añade el aliño y remueve. Corta el aguacate justo al final, incorpóralo y mezcla con suavidad. Prueba y ajusta el limón y la sal."
+    }
+  ],
+  "image": "https://fucolin.github.io/recetario/images/ensalada-garbanzos-mango-aguacate.jpg",
+  "url": "https://fucolin.github.io/recetario/ensalada-garbanzos-mango-aguacate.html"
+}

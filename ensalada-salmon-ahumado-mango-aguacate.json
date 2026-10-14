@@ -1,0 +1,77 @@
+{
+  "esquema": "recetario-1.0",
+  "id": "ensalada-salmon-ahumado-mango-aguacate",
+  "familia": "ensalada-salmon-ahumado-mango-aguacate",
+  "variante": "principal",
+  "titulo": "Ensalada de salmón ahumado, mango y aguacate",
+  "subtitulo": "Hojas tiernas · contraste dulce y ahumado",
+  "categoria": "Ensaladas",
+  "categoria_menu": "Ensaladas",
+  "tipo_ficha": "preparacion",
+  "etiquetas": [
+    "ensalada",
+    "mango",
+    "aguacate"
+  ],
+  "raciones": {
+    "min": 2,
+    "max": 2
+  },
+  "tiempo_total_min": {
+    "min": 10,
+    "max": 15
+  },
+  "ingredientes": [
+    {
+      "nombre": "canónigos",
+      "cantidad": 100,
+      "unidad": "g",
+      "nota": "o mezcla de lechugas y espinacas tiernas"
+    },
+    {
+      "nombre": "salmón ahumado",
+      "cantidad": 150,
+      "unidad": "g"
+    },
+    {
+      "nombre": "mango",
+      "cantidad": 150,
+      "unidad": "g",
+      "nota": "pelado y sin hueso; maduro pero firme"
+    },
+    {
+      "nombre": "aguacate",
+      "cantidad": 1,
+      "unidad": "unidad",
+      "nota": "mediano"
+    },
+    {
+      "nombre": "aceite de oliva virgen extra",
+      "cantidad": 1,
+      "unidad": "cucharada"
+    },
+    {
+      "nombre": "zumo de limón",
+      "cantidad": 1,
+      "unidad": "cucharada",
+      "nota": "ajustable al gusto"
+    },
+    {
+      "nombre": "pimienta negra",
+      "nota": "al gusto"
+    },
+    {
+      "nombre": "sal",
+      "nota": "solo si hace falta después de probar",
+      "opcional": true
+    }
+  ],
+  "indicaciones": "Lava las hojas si no vienen listas para consumir y sécalas bien. Corta el mango, maduro pero firme, en dados; el salmón en tiras o trozos y el aguacate en dados o láminas. Mezcla el aceite con el limón y un poco de pimienta. Aliña ligeramente las hojas, reparte encima el mango, el aguacate y el salmón, y termina con el aliño restante. Sirve enseguida, sin remover demasiado.",
+  "consejo": "Empieza sin sal y prueba un bocado con salmón antes de añadirla. Si la preparas con antelación, deja el aguacate y el aliño para el momento de servir.",
+  "image": "https://fucolin.github.io/recetario/images/ensalada-salmon-ahumado-mango-aguacate.jpg",
+  "image_alt": "Ensalada de salmón ahumado con hojas tiernas",
+  "image_credit": "Marie",
+  "image_license": "CC BY-SA 2.0",
+  "image_source": "https://commons.wikimedia.org/wiki/File:Smoked_Salmon_Salad_with_Baby_Greens_(8989336091).jpg",
+  "image_note": "Imagen representativa del salmón ahumado y las hojas tiernas; no muestra el mango ni el aguacate de esta ficha y contiene otros ingredientes."
+}

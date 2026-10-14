@@ -71,3 +71,21 @@ Las fotografías se muestran en las páginas HTML y se declaran en el YAML y en 
 - Licencia: [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/)
 - Uso: Fotografía representativa de un revuelto con setas; no muestra los trigueros de esta receta.
 - Modificación: redimensionada a 1000 × 667 píxeles, sin recorte ni otros cambios.
+
+## Ensalada de garbanzos, mango y aguacate
+
+- Archivo local: `images/ensalada-garbanzos-mango-aguacate.jpg`
+- Obra: [Ensalada de mango y aguacate](https://commons.wikimedia.org/wiki/File:Avocado_Mango_Salad.jpg)
+- Autor: Shark2025
+- Licencia: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)
+- Uso: Imagen representativa del mango y el aguacate; no muestra los garbanzos, el pepino ni los cherrys de esta ficha y contiene otros ingredientes.
+- Modificación: reducción para web a 656 × 633 píxeles; el HTML aplica el encuadre 16:9.
+
+## Ensalada de salmón ahumado, mango y aguacate
+
+- Archivo local: `images/ensalada-salmon-ahumado-mango-aguacate.jpg`
+- Obra: [Ensalada de salmón ahumado con hojas tiernas](https://commons.wikimedia.org/wiki/File:Smoked_Salmon_Salad_with_Baby_Greens_(8989336091).jpg)
+- Autor: Marie
+- Licencia: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0)
+- Uso: Imagen representativa del salmón ahumado y las hojas tiernas; no muestra el mango ni el aguacate de esta ficha y contiene otros ingredientes.
+- Modificación: reducción para web a 1200 × 900 píxeles; el HTML aplica el encuadre 16:9.
