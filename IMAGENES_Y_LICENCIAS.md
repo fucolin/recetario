@@ -28,3 +28,21 @@ Las fotografías se muestran en las páginas HTML y se declaran en el YAML y en 
 - Licencia: [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)
 - Uso: fotografía representativa de una tortilla española de espinacas; la receta del recetario incorpora además boniato y parmesano.
 - Modificación: Wikimedia Commons ha generado una versión reducida; no se han realizado otros cambios.
+
+## Hummus con zanahoria
+
+- Archivo local: `images/hummus-zanahoria.jpg`
+- Obra: [Hummus and carrot](https://commons.wikimedia.org/wiki/File:Hummus_and_carrot_(3841125815).jpg)
+- Autor: Vegan Feast Catering
+- Licencia: [Creative Commons Attribution 2.0](https://creativecommons.org/licenses/by/2.0/)
+- Uso: fotografía representativa de la combinación de hummus y zanahoria.
+- Modificación: Wikimedia Commons ha generado una versión reducida; no se han realizado otros cambios.
+
+## Pechuga de pavo a la plancha
+
+- Archivo local: `images/pechuga-pavo-plancha.jpg`
+- Obra: [Cooked turkey breast](https://commons.wikimedia.org/wiki/File:Cooked_turkey_breast_-_November_2023_-_Sarah_Stierch.jpg)
+- Autor: Sarah Stierch
+- Licencia: [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)
+- Uso: fotografía representativa de pechuga de pavo cocinada; la ficha del recetario la prepara a la plancha.
+- Modificación: Wikimedia Commons ha generado una versión reducida; no se han realizado otros cambios.

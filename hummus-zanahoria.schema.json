@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Hummus con zanahoria",
+  "description": "Comida ligera y sencilla",
+  "recipeCategory": "Picoteo sano",
+  "recipeYield": "1 ración",
+  "totalTime": "PT2M",
+  "keywords": "vegetariano, picoteo sano",
+  "recipeIngredient": ["100 g de hummus", "1 zanahoria grande"],
+  "image": "https://fucolin.github.io/recetario/images/hummus-zanahoria.jpg",
+  "url": "https://fucolin.github.io/recetario/hummus-zanahoria.html"
+}

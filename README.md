@@ -2,13 +2,13 @@
 
 🌐 **Web publicada:** [https://fucolin.github.io/recetario/](https://fucolin.github.io/recetario/)
 
-Cuatro versiones de tres recetas. Cada receta tiene:
+El recetario reúne recetas, preparaciones sencillas y combinaciones para organizar el menú semanal. Cada ficha tiene:
 
 - `.md`: fuente maestra, YAML estructurado entre `---` y Markdown legible debajo.
-- `.html`: página web autónoma y adaptable a móvil, con fotografía acreditada, enlace al PDF y JSON-LD Schema.org/Recipe embebido.
+- `.html`: página web autónoma y adaptable a móvil, con fotografía acreditada y JSON-LD Schema.org/Recipe embebido.
 - `.schema.json`: exportación interoperable Schema.org/Recipe (no garantiza importación directa en cualquier app).
-- `.json`: exportación de datos completos con ingredientes cuantificados y pasos cronometrados.
-- `.pdf`: PDF A4 sin fotografía, con el diseño de impresión del recetario.
+- `.json`: exportación de datos completos con ingredientes cuantificados y, cuando corresponde, pasos o indicaciones.
+- `.pdf`: PDF A4 sin fotografía para las fichas de tipo `receta`; las preparaciones sencillas y las combinaciones no generan PDF.
 
 Los PDF se generan siempre con la plantilla compartida `tools/generar_pdfs.py`. Las reglas de diseño y las instrucciones de uso están en [`FORMATO_PDF.md`](FORMATO_PDF.md); no deben maquetarse manualmente.
 
