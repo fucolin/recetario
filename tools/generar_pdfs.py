@@ -104,14 +104,11 @@ def generar_pdf(receta: dict, destino: Path) -> None:
     tipo = receta.get("tipo_ficha", "receta")
     if tipo not in TIPOS_FICHA:
         raise ValueError(f"{receta['id']}: tipo_ficha no reconocido: {tipo}")
+    if tipo != "receta":
+        raise ValueError(f"{receta['id']}: solo las fichas de tipo receta generan PDF")
     pasos = receta.get("pasos") or []
-    indicaciones = receta.get("indicaciones")
-    if tipo == "receta" and not pasos:
+    if not pasos:
         raise ValueError(f"{receta['id']}: una receta necesita pasos")
-    if tipo == "preparacion" and (pasos or not indicaciones):
-        raise ValueError(f"{receta['id']}: una preparación sencilla usa indicaciones, no pasos")
-    if tipo == "combinacion" and (pasos or indicaciones):
-        raise ValueError(f"{receta['id']}: una combinación no lleva pasos ni indicaciones")
 
     destino.parent.mkdir(parents=True, exist_ok=True)
     c = canvas.Canvas(str(destino), pagesize=A4, pageCompression=1)
@@ -171,25 +168,10 @@ def generar_pdf(receta: dict, destino: Path) -> None:
                 "Helvetica", tamano_pasos, interlineado, VERDE_TEXTO,
             )
             y -= separacion
-    elif indicaciones:
-        c.setFont("Helvetica-Bold", 11.3)
-        c.setFillColor(HexColor(VERDE_OSCURO))
-        c.drawString(MARGEN_X, y, "INDICACIONES")
-        y -= 20
-        bloques = indicaciones if isinstance(indicaciones, list) else [indicaciones]
-        for bloque in bloques:
-            y = dibujar_texto_envuelto(
-                c, bloque, MARGEN_X, y, ANCHO_CONTENIDO,
-                "Helvetica", 8.45, 11.4, VERDE_TEXTO,
-            ) - 6
-
-    consejo = receta.get("consejo")
     claves = receta.get("claves")
-    if consejo or claves:
-        etiqueta = "CONSEJO" if consejo else "CLAVES"
-        texto_extra = consejo or claves
+    if claves:
         y = dibujar_texto_envuelto(
-            c, f"{etiqueta}: {texto_extra}", MARGEN_X, y - 1, ANCHO_CONTENIDO,
+            c, f"CLAVES: {claves}", MARGEN_X, y - 1, ANCHO_CONTENIDO,
             "Helvetica", 8.05, 10.4, VERDE_TEXTO,
         )
     if y < PIE_Y + 26:
@@ -222,6 +204,9 @@ def main() -> None:
         if not fuente.is_absolute():
             fuente = Path.cwd() / fuente
         receta = json.loads(fuente.read_text(encoding="utf-8"))
+        if receta.get("tipo_ficha", "receta") != "receta":
+            print(f"Omitido {receta['id']}: no necesita PDF")
+            continue
         destino = salida / f"{receta['id']}.pdf"
         generar_pdf(receta, destino)
         print(destino)
