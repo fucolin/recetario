@@ -1,0 +1,65 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Pollo Satisfryer",
+  "description": "Pollo asado con verduras · Cosori Dual Blaze",
+  "recipeCategory": "Guisos y asados",
+  "recipeYield": "2 raciones",
+  "prepTime": "PT10M",
+  "cookTime": "PT40M",
+  "totalTime": "PT60M",
+  "recipeIngredient": [
+    "2 cuartos traseros de pollo, con hueso y piel",
+    "½ calabacín mediano (150 g)",
+    "½ berenjena pequeña (150 g)",
+    "1 cebolla pequeña",
+    "½ pimiento verde",
+    "1 tomate mediano",
+    "10 ml AOVE (2 cdtas.; incluido el papel)",
+    "30 ml vino blanco seco (2 cdas.)",
+    "½ cdta. tomillo seco",
+    "½ cdta. romero seco desmenuzado",
+    "Sal moderada y pimienta negra"
+  ],
+  "recipeInstructions": [
+    {
+      "@type": "HowToStep",
+      "name": "Corta las verduras",
+      "text": "Calabacín con piel: rodajas de 1,5-2 cm; berenjena con piel: medias lunas del mismo grosor; cebolla: rodajas de 1 cm; pimiento: tiras de 2-3 cm; tomate: 6 gajos."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Prepara la cesta",
+      "text": "Retira la rejilla. Coloca una bandejita de papel de horno apta para 180 °C, sin bordes sobresalientes. Pincela el fondo con un poco del aceite medido. Nunca enciendas con el papel vacío; debe estar sujeto por los alimentos."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Monta las capas y aliña",
+      "text": "Orden desde abajo: papel aceitado; cebolla; calabacín y berenjena intercalados en una misma capa; pimiento y tomate repartidos encima. No mezcles las capas. Del aceite total, usa 5 ml entre papel y verduras, pincelando especialmente la berenjena. Añade vino, sal moderada, pimienta y la mitad de las hierbas."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Coloca el pollo y empieza el asado",
+      "text": "Seca el pollo y colócalo encima de las verduras, sin superponer piezas, con la piel hacia abajo. Pincela con los otros 5 ml de aceite y condimenta con parte de las hierbas restantes. Sin precalentar, selecciona Air Fry a 180 °C durante 20 min."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Gira y termina de asar",
+      "text": "Gira solo el pollo: piel hacia arriba. Añade las hierbas reservadas, sin volver a salar. Mueve suavemente solo las verduras accesibles, manteniéndolas debajo. Cocina otros 20 min a 180 °C. Ajusta al tamaño y la carga: 40 min en total es una referencia."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Comprueba el punto",
+      "text": "Mide 74 °C en la parte más gruesa de cada pieza sin tocar el hueso. Si falta, prolonga en tandas de 3-5 min. La berenjena debe quedar bien tierna. Retira el pollo cuando esté hecho y termina las verduras aparte si lo necesitan."
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Reposa y sirve",
+      "text": "Deja reposar el pollo 5 min fuera de la freidora. Sirve con las verduras y la cantidad de jugos que prefieras; puedes apartar la piel al comer."
+    }
+  ],
+  "image": "https://fucolin.github.io/recetario/images/pollo-satisfryer.jpg",
+  "url": "https://fucolin.github.io/recetario/pollo-satisfryer.html",
+  "dateModified": "2026-10-15",
+  "isBasedOn": "https://www.instagram.com/reel/C-BHEvYoYKl/"
+}

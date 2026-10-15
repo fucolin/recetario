@@ -141,3 +141,11 @@ Fotografías propias aportadas el 15/10/2026, conservadas completas y mostradas 
 - `images/productos/kefir-cabra-carrefour-bio-nutricion.jpg`: Tabla nutricional del kéfir de leche de cabra Carrefour Bio.
 
 - `images/productos/kefir-cabra-carrefour-bio-ingredientes.jpg`: ingredientes, origen y conservación; fotografía propia aportada el 15/10/2026, sin licencia de reutilización indicada.
+
+## Pollo Satisfryer
+
+- Archivo: `images/pollo-satisfryer.jpg`.
+- Autor: Willis Lam.
+- Fuente: https://commons.wikimedia.org/wiki/File:Roast_Chicken_Legs_and_Thighs_(31196736704).jpg
+- Licencia: CC BY-SA 2.0, https://creativecommons.org/licenses/by-sa/2.0/
+- Original conservado (1600 × 1200); presentación 16:9 mediante CSS. Imagen representativa, no fotografía de esta preparación.

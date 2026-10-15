@@ -3,7 +3,8 @@
     "burritos-frijoles-quinoa-edamame-champinones",
     "barquitas-endivia-requeson",
     "pimientos-asados-cebolla-cosori",
-    "ensalada-tomates-lago-albahaca"
+    "ensalada-tomates-lago-albahaca",
+    "pollo-satisfryer"
   ],
   "proximas": [
     {
@@ -53,13 +54,6 @@
       "titulo": "Ensaladilla murciana",
       "categoria_menu": "Vegetales",
       "categoria_slug": "vegetales"
-    },
-    {
-      "id": "pollo-satisfryer",
-      "titulo": "Pollo satisfryer",
-      "categoria_menu": "Guisos y asados",
-      "categoria_slug": "guisos-y-asados",
-      "nota": "Asado rápido en la Cosori"
     },
     {
       "id": "pure-aprovechamiento",
