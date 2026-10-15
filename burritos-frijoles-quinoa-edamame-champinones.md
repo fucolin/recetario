@@ -19,7 +19,7 @@ tiempo_total_min:
   min: 25
   max: 30
 ingredientes:
-- nombre: frijoles negros guisados GUSTO by P.A.N.
+- nombre: frijoles negros guisados
   cantidad: 1
   unidad: lata
   nota: 410 g de contenido total, incluida la salsa; ya llevan cebolla, pimientos, aceite, sal y especias
@@ -161,8 +161,7 @@ Foto: <a href="https://commons.wikimedia.org/wiki/File:Vegetarian_burrito_(Los_A
 
 ## Ingredientes
 
-- 1 lata de frijoles negros guisados (410 g, con salsa)
-  [Mi producto: GUSTO by P.A.N.](productos/frijoles-negros-guisados-gusto-pan.html)
+- 1 lata de [frijoles negros guisados](productos/frijoles-negros-guisados-gusto-pan.html) (410 g, con salsa)
 - 50 g de quinoa en seco
 - 80-100 g de edamame desgranado
 - 100 g de champiñones

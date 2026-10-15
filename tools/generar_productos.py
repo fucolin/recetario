@@ -4,6 +4,7 @@ from pathlib import Path
 import html
 import json
 import yaml
+from datetime import date
 
 RAIZ = Path(__file__).resolve().parent.parent
 BASE = "https://fucolin.github.io/recetario/"
@@ -57,11 +58,19 @@ def generar():
         yuka = data['yuka']
         yuka_texto = '<p>Pendiente de registrar</p><p class="note">Puntuación, observaciones y fecha de consulta.</p>'
         if yuka['puntuacion'] is not None:
-            yuka_texto = f'<p>{e(yuka["puntuacion"])} / 100 · Valoración de Yuka</p>'
+            if not 0 <= yuka['puntuacion'] <= 100:
+                raise ValueError(f'{slug}: puntuación de Yuka fuera de rango')
+            valoracion = f' · {e(yuka["valoracion"])}' if yuka.get('valoracion') else ''
+            yuka_texto = f'<p class="yuka-score">{e(yuka["puntuacion"])} / 100{valoracion}</p>'
             if yuka['observaciones']:
                 yuka_texto += f'<p>{e(yuka["observaciones"])}</p>'
+            for key, label in [('positivos', 'Aspectos positivos según Yuka'), ('negativos', 'Aspectos negativos según Yuka')]:
+                if yuka.get(key):
+                    yuka_texto += f'<h3>{label}</h3><ul>' + ''.join(f'<li><strong>{e(item["aspecto"])}</strong> · {e(item["valor"])}: {e(item["comentario"])}</li>' for item in yuka[key]) + '</ul>'
             if yuka['fecha_consulta']:
-                yuka_texto += f'<p class="note">Consultada: {e(yuka["fecha_consulta"])}</p>'
+                yuka_texto += f'<p class="note">Consultada: {date.fromisoformat(yuka["fecha_consulta"]).strftime("%d/%m/%Y")}</p>'
+            elif yuka.get('fecha_aportacion'):
+                yuka_texto += f'<p class="note">Fuente: captura de Yuka aportada el {date.fromisoformat(yuka["fecha_aportacion"]).strftime("%d/%m/%Y")}.</p>'
         schema = {'@context': 'https://schema.org', '@type': 'WebPage', 'name': nombre, 'url': BASE + f'productos/{slug}.html', 'dateModified': data['fecha_actualizacion'], 'mainEntity': {'@type': 'Product', '@id': BASE + f'productos/{slug}.html#producto', 'name': nombre, 'brand': {'@type': 'Brand', 'name': marca}, 'description': data['descripcion'], 'category': data['categoria'], 'image': [BASE + i['archivo'] for i in data['imagenes']], 'weight': {'@type': 'QuantitativeValue', 'value': formato['cantidad'], 'unitCode': 'GRM'}, 'additionalProperty': [{'@type': 'PropertyValue', 'name': label + ' por 100 g', 'value': value} for label, value in filas]}}
         maestro.with_suffix('.schema.json').write_text(json.dumps(schema, ensure_ascii=False, indent=2) + '\n')
         contenido = f'''<nav><a href="../ingredientes-preferidos.html">← Ingredientes preferidos</a></nav>

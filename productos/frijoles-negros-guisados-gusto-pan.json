@@ -69,10 +69,56 @@
   },
   "puntos_venta": [],
   "yuka": {
-    "puntuacion": null,
-    "observaciones": null,
+    "puntuacion": 90,
+    "observaciones": "Yuka destaca la ausencia de aditivos, la fibra y la proporción que clasifica como verduras. Señala la sal como aspecto negativo.",
     "fecha_consulta": null,
-    "fuente": "Yuka"
+    "fuente": "Captura de Yuka proporcionada por el usuario",
+    "valoracion": "Excelente",
+    "fecha_aportacion": "2026-10-15",
+    "positivos": [
+      {
+        "aspecto": "Aditivos",
+        "valor": "Sin aditivos",
+        "comentario": "Sin sustancia peligrosa"
+      },
+      {
+        "aspecto": "Fibra",
+        "valor": "5,4 g por 100 g",
+        "comentario": "Excelente cantidad de fibras"
+      },
+      {
+        "aspecto": "Verduras",
+        "valor": "61 %",
+        "comentario": "Buena cantidad"
+      },
+      {
+        "aspecto": "Proteínas",
+        "valor": "4,6 g por 100 g",
+        "comentario": "Algunas proteínas"
+      },
+      {
+        "aspecto": "Valor energético",
+        "valor": "92 kcal por 100 g",
+        "comentario": "Bajo en calorías"
+      },
+      {
+        "aspecto": "Grasas saturadas",
+        "valor": "0,3 g por 100 g",
+        "comentario": "Bajo en grasas saturadas"
+      },
+      {
+        "aspecto": "Azúcar",
+        "valor": "1,2 g por 100 g",
+        "comentario": "Bajo en azúcar"
+      }
+    ],
+    "negativos": [
+      {
+        "aspecto": "Sal",
+        "valor": "0,93 g por 100 g",
+        "comentario": "Bastante salado"
+      }
+    ]
   },
   "recetas": [
     "burritos-frijoles-quinoa-edamame-champinones"
