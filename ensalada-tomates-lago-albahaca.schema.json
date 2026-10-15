@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Ensalada de tomates sobre un lago de albahaca",
+  "description": "Tomates variados con aliño de albahaca · como entrante o acompañamiento",
+  "recipeCategory": "Ensaladas",
+  "recipeYield": "2 raciones como entrante o acompañamiento",
+  "totalTime": "PT10M",
+  "prepTime": "PT10M",
+  "keywords": "vegano, tomate, albahaca, sin cocción",
+  "recipeIngredient": [
+    "500 g de tomates sabrosos, de variedades diferentes si apetece",
+    "15 g de hojas de albahaca fresca, sin los tallos gruesos",
+    "30 ml de aceite de oliva virgen extra (2 cucharadas)",
+    "10 ml de zumo de limón (2 cucharaditas), ajustable al gusto",
+    "20 g de rúcula o brotes tiernos",
+    "Sal al gusto",
+    "1–2 cucharaditas de agua fría, solo si hace falta para triturar"
+  ],
+  "recipeInstructions": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "Preparar y montar",
+      "text": "Lava los tomates y sécalos. Corta los grandes en gajos o trozos y los cherry por la mitad. Si desprenden mucho líquido, déjalo en la tabla para que no diluya el aliño.\n\nLava y seca la albahaca. Tritúrala con el aceite, el limón y una pizca de sal en un recipiente estrecho, mediante pulsaciones breves. Si las cuchillas no alcanzan bien la mezcla, añade un poquito de agua fría. Prueba antes de incorporar más limón: buscamos que destaque la albahaca.\n\nExtiende el aliño en una fuente pequeña o reparte entre dos platos. Coloca encima los tomates y termina con la rúcula. Sala ligeramente los tomates justo antes de servir y mezcla con el aliño al comer."
+    }
+  ],
+  "image": "https://fucolin.github.io/recetario/images/ensalada-tomates-lago-albahaca.jpg",
+  "url": "https://fucolin.github.io/recetario/ensalada-tomates-lago-albahaca.html",
+  "isBasedOn": "https://www.directoalpaladar.com/recetas-de-ensaladas/ensalada-de-tomates-sobre-un-lago-de-albahaca-receta-para-el-diadelaensalada"
+}

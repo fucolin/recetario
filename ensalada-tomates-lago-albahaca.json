@@ -1,0 +1,94 @@
+{
+  "esquema": "recetario-1.0",
+  "id": "ensalada-tomates-lago-albahaca",
+  "familia": "ensalada-tomates-lago-albahaca",
+  "variante": "principal",
+  "titulo": "Ensalada de tomates sobre un lago de albahaca",
+  "subtitulo": "Tomates variados con aliño de albahaca · como entrante o acompañamiento",
+  "categoria": "Preparaciones sencillas",
+  "categoria_menu": "Ensaladas",
+  "tipo_ficha": "preparacion",
+  "etiquetas": [
+    "vegano",
+    "tomate",
+    "albahaca",
+    "sin cocción"
+  ],
+  "raciones": {
+    "min": 2,
+    "max": 2,
+    "nota": "como entrante o acompañamiento"
+  },
+  "tiempo_total_min": {
+    "min": 10,
+    "max": 10
+  },
+  "ingredientes": [
+    {
+      "nombre": "tomates",
+      "cantidad": 500,
+      "unidad": "g",
+      "nota": "sabrosos; combinar variedades si apetece"
+    },
+    {
+      "nombre": "hojas de albahaca fresca",
+      "cantidad": 15,
+      "unidad": "g",
+      "nota": "sin los tallos gruesos"
+    },
+    {
+      "nombre": "aceite de oliva virgen extra",
+      "cantidad": 30,
+      "unidad": "ml",
+      "nota": "2 cucharadas"
+    },
+    {
+      "nombre": "zumo de limón",
+      "cantidad": 10,
+      "unidad": "ml",
+      "nota": "2 cucharaditas; ajustar al gusto"
+    },
+    {
+      "nombre": "rúcula o brotes tiernos",
+      "cantidad": 20,
+      "unidad": "g"
+    },
+    {
+      "nombre": "sal",
+      "nota": "al gusto"
+    },
+    {
+      "nombre": "agua fría",
+      "cantidad_min": 1,
+      "cantidad_max": 2,
+      "unidad": "cucharaditas",
+      "nota": "solo si hace falta para triturar",
+      "opcional": true
+    }
+  ],
+  "indicaciones": "Lava los tomates y sécalos. Corta los grandes en gajos o trozos y los cherry por la mitad. Si desprenden mucho líquido, déjalo en la tabla para que no diluya el aliño.\n\nLava y seca la albahaca. Tritúrala con el aceite, el limón y una pizca de sal en un recipiente estrecho, mediante pulsaciones breves. Si las cuchillas no alcanzan bien la mezcla, añade un poquito de agua fría. Prueba antes de incorporar más limón: buscamos que destaque la albahaca.\n\nExtiende el aliño en una fuente pequeña o reparte entre dos platos. Coloca encima los tomates y termina con la rúcula. Sala ligeramente los tomates justo antes de servir y mezcla con el aliño al comer.",
+  "claves": [
+    "Mejor con tomates que no estén recién sacados de la nevera.",
+    "Se utilizan 30 ml de aceite frente a los 50 ml de la receta de origen. Una fuente pequeña permite mantener el efecto de «lago».",
+    "Si adelantas trabajo, guarda los componentes separados y monta al servir.",
+    "No añadir más hierbas de entrada: dejar protagonismo a la albahaca."
+  ],
+  "fuente": {
+    "titulo": "Ensalada de tomates sobre un lago de albahaca",
+    "autor": "Pakus",
+    "publicacion": "Directo al Paladar",
+    "url": "https://www.directoalpaladar.com/recetas-de-ensaladas/ensalada-de-tomates-sobre-un-lago-de-albahaca-receta-para-el-diadelaensalada"
+  },
+  "adaptaciones": [
+    "Cantidades concretas para dos personas",
+    "30 ml de aceite en lugar de 50 ml",
+    "Triturar brevemente en recipiente estrecho y ajustar el limón",
+    "Salar los tomates y montar al servir"
+  ],
+  "image": "https://fucolin.github.io/recetario/images/ensalada-tomates-lago-albahaca.jpg",
+  "image_alt": "Tomates de distintos colores sobre aceite verde de albahaca y coulis de tomate",
+  "image_credit": "alex lines",
+  "image_license": "CC BY-SA 2.0",
+  "image_source": "https://commons.wikimedia.org/wiki/File:Tomato_salad_with_basil_oil_and_tomato_coulis_(2857974585).jpg",
+  "image_nota": "Imagen representativa: muestra tomates pelados y coulis de tomate; la ficha utiliza tomates cortados y rúcula. Presentación recortada a 16:9 mediante CSS; archivo sin modificar."
+}

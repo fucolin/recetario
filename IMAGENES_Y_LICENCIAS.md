@@ -107,3 +107,12 @@ Las fotografías se muestran en las páginas HTML y se declaran en el YAML y en 
 - Licencia: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)
 - Uso: Fotografía representativa de pimientos asados; la preparación de esta ficha incluye cebolla y se cocina en freidora de aire.
 - Modificación: reducción para web; el HTML aplica el encuadre 16:9.
+
+## Ensalada de tomates sobre un lago de albahaca
+
+- Archivo local: `images/ensalada-tomates-lago-albahaca.jpg`
+- Obra: [Tomato salad with basil oil and tomato coulis](https://commons.wikimedia.org/wiki/File:Tomato_salad_with_basil_oil_and_tomato_coulis_(2857974585).jpg)
+- Autor: alex lines
+- Licencia: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)
+- Uso: Imagen representativa: muestra tomates pelados y coulis de tomate; la ficha utiliza tomates cortados y rúcula. Presentación recortada a 16:9 mediante CSS; archivo sin modificar.
+- Modificación del archivo: ninguna; original de 1806 × 1355 píxeles.
