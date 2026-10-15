@@ -89,7 +89,7 @@ Las variantes de una misma familia se agrupan siempre en una sola tarjeta, tanto
 
 ## Novedades y próximas fichas
 
-`datos/estado-fichas.json` registra las fichas que el usuario quiere destacar como «NUEVA» y las tarjetas futuras «PRÓXIMAMENTE». Mostrar los estados en el índice y en la categoría correspondiente. Las novedades no caducan automáticamente: retirar o cambiar la selección cuando lo indique el usuario.
+`datos/estado-fichas.json` registra las fichas destacadas como «NUEVA» y las tarjetas futuras «PRÓXIMAMENTE». Al incorporar cualquier ficha nueva disponible, añadir siempre su identificador a `nuevas` y mostrar «NUEVA» en sus tarjetas del índice y de la categoría correspondiente. Aplicar también esta regla cuando una ficha «Próximamente» pase a estar disponible. Las novedades no caducan automáticamente: retirarlas cuando lo indique el usuario.
 
 Las próximas fichas se representan como tarjetas sin enlace ni foco de teclado, con aspecto diferenciado y el texto «Ficha aún no disponible». No inventar tiempos, raciones, ingredientes, fotografía o tipo de ficha. No crear todavía Markdown, JSON de receta, Schema.org o PDF. La categoría de estas tarjetas es provisional y se confirma junto con el tipo al desarrollar cada ficha.
 
