@@ -1,0 +1,42 @@
+:root{--verde:#245d42;--texto:#24362e;--suave:#f3f6f1;--borde:#d5e5d9;--secundario:#64756a}
+*{box-sizing:border-box}
+body{font:16px/1.6 system-ui,-apple-system,sans-serif;background:#f5f6f1;color:var(--texto);margin:0}
+main{max-width:900px;margin:32px auto;padding:38px 48px;background:#fff;border-radius:16px;box-shadow:0 8px 28px #1a30201a}
+a{color:var(--verde);text-underline-offset:3px}
+nav{margin-bottom:26px}
+h1{font-size:2rem;line-height:1.2;color:var(--verde);margin:0 0 12px;overflow-wrap:anywhere}
+h2{font-size:1.25rem;line-height:1.35;color:var(--verde);margin:26px 0 12px}
+p{margin:0 0 14px}
+.intro,.meta,.note,figcaption{color:var(--secundario)}
+.tag{display:inline-block;font-size:.85rem;color:var(--verde);background:var(--suave);border:1px solid var(--borde);padding:3px 10px;border-radius:999px;margin:0 0 14px}
+.product-list{list-style:none;padding:0;margin:26px 0 0}
+.product-list>li{padding:22px;background:var(--suave);border-radius:12px}
+.product-summary{display:grid;grid-template-columns:130px minmax(0,1fr);gap:24px;align-items:start}
+.product-summary h2{margin:0 0 7px}
+.product-photo{display:block;max-width:100%;width:100%;height:210px;object-fit:contain;border-radius:9px;background:#fff}
+.product-heading{display:grid;grid-template-columns:220px minmax(0,1fr);gap:30px;align-items:start}
+.product-heading .product-photo{height:310px}
+figure{margin:0}figcaption{font-size:.8rem;margin-top:7px}
+.purchase{display:grid;grid-template-columns:1fr 1fr;gap:22px;border-block:1px solid var(--borde);margin:22px 0 0;padding:16px 0}
+.purchase h2{margin:0 0 8px;font-size:1rem}
+.purchase p:last-child{margin:0}
+.columns{display:grid;grid-template-columns:1.1fr 1fr;gap:30px}
+.composition{background:var(--suave);padding:16px 18px;border-radius:10px}
+.nutrition{width:100%;border-collapse:collapse;font-size:.92rem}
+.nutrition caption{text-align:left;font-size:.8rem;color:var(--secundario);caption-side:bottom;padding-top:8px}
+.nutrition th,.nutrition td{border-bottom:1px solid var(--borde);padding:6px 0}
+.nutrition th{text-align:left;font-weight:400}
+.nutrition td{text-align:right;white-space:nowrap;padding-left:12px}
+.note{font-size:.85rem}
+.yuka{background:var(--suave);padding:18px 20px;border-radius:10px;margin:24px 0}
+.yuka h2{margin:0 0 8px}.yuka p:last-child{margin:0}
+.recipe-links{list-style:none;padding:0;margin:0}
+.recipe-links a{display:block;background:var(--suave);padding:14px 18px;border-radius:10px}
+details{margin-top:26px;border-top:1px solid var(--borde);padding-top:16px}
+summary{color:var(--verde);padding:5px 0}
+.label-photo{display:block;width:100%;height:auto;max-width:540px;margin:16px auto 8px}
+.label-link{display:inline-block;margin-top:8px}
+footer{margin-top:36px;color:var(--secundario);font-size:.85rem}
+@media(max-width:650px){main{margin:0;padding:28px 20px;border-radius:0}.product-summary{grid-template-columns:90px minmax(0,1fr);gap:16px}.product-summary .product-photo{height:150px}.product-heading,.columns{grid-template-columns:1fr;gap:18px}.product-heading .product-photo{height:280px}.product-heading figure{max-width:250px}.purchase{gap:16px}h1{font-size:1.8rem}}
+@media(max-width:360px){.product-summary{grid-template-columns:1fr}.product-summary .product-photo{height:180px}.purchase{grid-template-columns:1fr}}
+@media print{body{background:#fff}main{margin:0;padding:0;box-shadow:none}nav{display:none}}

@@ -122,3 +122,17 @@ Las reglas técnicas están en [`FORMATO_PDF.md`](FORMATO_PDF.md). Todos los PDF
 Si fuera necesario empezar otro chat, basta con escribir:
 
 > Quiero continuar trabajando en `fucolin/recetario`. Lee `GUIA_DE_TRABAJO.md` y sigue sus instrucciones. No publiques en GitHub: entrégame un ZIP para subirlo manualmente.
+
+## Ingredientes preferidos
+
+El catálogo está en `ingredientes-preferidos.html`, separado de las recetas. El índice enlaza después del buscador con el texto «Y además, un listado de Ingredientes preferidos →» y la descripción «Los productos que uso y por qué. Dónde comprarlos y su precio de referencia.». El enlace permanece visible aunque la búsqueda no encuentre recetas. No tratar productos como categorías del menú ni incluirlos en el contador del buscador de recetas.
+
+Las fichas de producto usan `tipo_ficha: producto` dentro de `productos/`, con Markdown/YAML maestro que estructura todos los datos, JSON completo, HTML y Schema.org WebPage con Product como entidad principal. Generarlas y actualizar el catálogo mediante `python tools/generar_productos.py`; requiere PyYAML, que ya utiliza el flujo del recetario. No generar PDF de este apartado. No añadirlas a los JSON raíz que procesa el generador de PDF de recetas.
+
+Cada producto conserva nombre, marca, envase y cantidad, motivos para usarlo, uso culinario, composición, nutrición por 100 g, fotografías y su origen, precio de referencia (moneda, fecha, tienda, enlace y €/kg o €/l), puntos de venta, valoración de Yuka (nota, observaciones y fecha de consulta), recetas asociadas y fecha de actualización. Los datos no aportados se guardan como null o listas vacías y se muestran como pendientes; nunca inventar precio, tienda, disponibilidad, puntuación o beneficios para la salud. Al calcular precio por unidad, distinguir peso neto de escurrido. Los precios son referencias fechadas y los motivos personales se distinguen de la composición y de la valoración de Yuka. No convertir Yuka en una valoración propia ni en aggregateRating de Schema.org.
+
+Las fotografías propias de producto se guardan en `images/productos/`. Conservar el envase y la etiqueta legibles: usar object-fit:contain sin aplicar el recorte 16:9 de las fotografías de platos. Enlazar la fotografía completa y la etiqueta original. No inventar autor ni licencia de reutilización.
+
+La fecha de actualización de producto se conserva en sus metadatos y cambia al modificar su contenido, no por cambios de presentación. Las fechas de precio y consulta de Yuka son campos independientes y pueden mostrarse donde corresponda.
+
+En las recetas, el ingrediente puede declarar `producto_preferido` con el identificador de producto. Mostrar junto a él un enlace discreto «Mi producto: [marca] →» y añadir la referencia en los metadatos de la receta. El producto enlaza de vuelta a las recetas en las que se utiliza. Añadir enlaces de referencia sin cambiar la receta no requiere regenerar su PDF ni renovar su fecha de contenido.

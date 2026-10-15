@@ -26,7 +26,8 @@
       "nombre": "frijoles negros guisados GUSTO by P.A.N.",
       "cantidad": 1,
       "unidad": "lata",
-      "nota": "410 g de contenido total, incluida la salsa; ya llevan cebolla, pimientos, aceite, sal y especias"
+      "nota": "410 g de contenido total, incluida la salsa; ya llevan cebolla, pimientos, aceite, sal y especias",
+      "producto_preferido": "frijoles-negros-guisados-gusto-pan"
     },
     {
       "nombre": "quinoa",

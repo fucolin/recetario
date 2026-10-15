@@ -64,5 +64,16 @@
   ],
   "image": "https://fucolin.github.io/recetario/images/burritos-frijoles-quinoa-edamame-champinones.jpg",
   "url": "https://fucolin.github.io/recetario/burritos-frijoles-quinoa-edamame-champinones.html",
-  "dateModified": "2026-10-15"
+  "dateModified": "2026-10-15",
+  "mentions": [
+    {
+      "@type": "Product",
+      "@id": "https://fucolin.github.io/recetario/productos/frijoles-negros-guisados-gusto-pan.html#producto",
+      "name": "Frijoles negros guisados",
+      "brand": {
+        "@type": "Brand",
+        "name": "GUSTO by P.A.N."
+      }
+    }
+  ]
 }

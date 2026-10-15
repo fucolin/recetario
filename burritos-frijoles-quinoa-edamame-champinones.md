@@ -23,6 +23,7 @@ ingredientes:
   cantidad: 1
   unidad: lata
   nota: 410 g de contenido total, incluida la salsa; ya llevan cebolla, pimientos, aceite, sal y especias
+  producto_preferido: frijoles-negros-guisados-gusto-pan
 - nombre: quinoa
   cantidad: 50
   unidad: g
@@ -145,7 +146,7 @@ image_source: https://commons.wikimedia.org/wiki/File:Vegetarian_burrito_(Los_An
 image_note: Fotografía representativa de un burrito vegetariano; el relleno mostrado puede diferir de
   esta receta.
 pdf: https://fucolin.github.io/recetario/burritos-frijoles-quinoa-edamame-champinones.pdf
-fecha_actualizacion: "2026-10-15"
+fecha_actualizacion: '2026-10-15'
 ---
 
 # Burritos de frijoles negros, quinoa, edamame y champiñones
@@ -161,6 +162,7 @@ Foto: <a href="https://commons.wikimedia.org/wiki/File:Vegetarian_burrito_(Los_A
 ## Ingredientes
 
 - 1 lata de frijoles negros guisados (410 g, con salsa)
+  [Mi producto: GUSTO by P.A.N.](productos/frijoles-negros-guisados-gusto-pan.html)
 - 50 g de quinoa en seco
 - 80-100 g de edamame desgranado
 - 100 g de champiñones

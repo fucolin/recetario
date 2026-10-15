@@ -116,3 +116,11 @@ Las fotografías se muestran en las páginas HTML y se declaran en el YAML y en 
 - Licencia: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)
 - Uso: Imagen representativa: muestra tomates pelados y coulis de tomate; la ficha utiliza tomates cortados y rúcula. Presentación recortada a 16:9 mediante CSS; archivo sin modificar.
 - Modificación del archivo: ninguna; original de 1806 × 1355 píxeles.
+
+## Frijoles negros guisados GUSTO by P.A.N. (producto)
+
+- Archivos locales: `images/productos/frijoles-negros-gusto-pan-envase.jpg` y `images/productos/frijoles-negros-gusto-pan-etiqueta.jpg`.
+- Origen: fotografías propias aportadas por el usuario el 14/10/2026 (envase y etiqueta nutricional).
+- Autor: no se especifica nombre; se muestran como «Fotografía propia».
+- Licencia: no se ha indicado una licencia de reutilización.
+- Modificación: ninguna. Se conservan completas y se muestran sin recorte para mantener legibles el envase y la etiqueta.
