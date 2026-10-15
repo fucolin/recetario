@@ -35,7 +35,7 @@ Primero se afina la receta con el usuario. No se incorpora al repositorio hasta 
 
 ## Buscador del índice
 
-El índice incluye un buscador que filtra las tarjetas y oculta las categorías vacías. Busca en títulos, categorías, ingredientes, pasos, indicaciones, consejos y claves; ignora tildes y mayúsculas, y exige todas las palabras introducidas. Las variantes permanecen agrupadas en una tarjeta y solo se muestran los enlaces de las variantes coincidentes. Los botones superiores conservan sus enlaces internos a las secciones.
+El índice incluye un buscador que filtra las tarjetas y oculta las categorías vacías. Busca en títulos, categorías, ingredientes, pasos, indicaciones, consejos y claves; ignora tildes y mayúsculas, y exige todas las palabras introducidas. Las variantes permanecen agrupadas en una tarjeta y solo se muestran los enlaces de las variantes coincidentes. Los botones superiores conservan sus enlaces internos a las secciones y se presentan encima del buscador, sin un título adicional y con espacio entre ambos bloques.
 
 Al añadir o modificar una ficha, actualizar también los datos integrados en el bloque `search-data` de `index.html`, a partir de su JSON completo. El mapa usa como claves los nombres de sus páginas HTML y como valores texto de los campos anteriores (más subtítulo, etiquetas y variante), sin créditos fotográficos ni URLs. No requiere `ingredientes_clave`, servicios externos ni peticiones de red al buscar. Si JavaScript está desactivado, el índice completo sigue disponible.
 
@@ -95,7 +95,7 @@ Toda entrada debe declarar uno de estos tres valores en `tipo_ficha`:
 - `preparacion`: ingredientes y un bloque breve `indicaciones`, sin pasos numerados; puede incluir `consejo` y no genera PDF.
 - `combinacion`: solo ingredientes y cantidades; puede incluir `consejo`, pero no pasos ni indicaciones, y no genera PDF.
 
-La etiqueta visible en el índice y en las páginas de categoría será respectivamente `Receta`, `Preparación sencilla` o `Combinación`. No se crean secciones vacías ni instrucciones de relleno. El HTML muestra `Preparación`, `Indicaciones` o ninguna sección de elaboración según corresponda. El campo YAML `pdf`, el botón de impresión y el archivo PDF se omiten en los otros dos tipos.
+La etiqueta visible en el índice y en las páginas de categoría será respectivamente `Receta`, `Preparación sencilla` o `Combinación`. En todas las tarjetas, separar los datos de raciones y tiempo de la etiqueta con `&nbsp;`, manteniendo ambos elementos en línea y sin depender de saltos de línea del HTML. No se crean secciones vacías ni instrucciones de relleno. El HTML muestra `Preparación`, `Indicaciones` o ninguna sección de elaboración según corresponda. El campo YAML `pdf`, el botón de impresión y el archivo PDF se omiten en los otros dos tipos.
 
 En Schema.org se mantiene `@type: Recipe` y `recipeIngredient`. `recipeInstructions` solo se incluye cuando existen pasos o indicaciones reales. La importación de una combinación sin instrucciones depende del comportamiento de la aplicación de destino y debe comprobarse con el primer caso.
 

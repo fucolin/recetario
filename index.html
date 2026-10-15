@@ -27,7 +27,7 @@
     .family-card .meta{color:#64756a;font-size:.88rem}
     .variants{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
     .variants a{color:var(--verde);background:#fff;border:1px solid #9db8a5;border-radius:8px;padding:6px 10px;text-decoration:none;font-size:.88rem;font-weight:650}
-    .type-badge{display:inline-block!important;width:max-content;color:var(--verde)!important;background:#fff;border:1px solid var(--borde);border-radius:999px;padding:2px 8px;margin-top:9px;font-size:.75rem!important;font-weight:700}
+    .type-badge{display:inline-block!important;width:max-content;color:var(--verde)!important;background:#fff;border:1px solid var(--borde);border-radius:999px;padding:2px 8px;margin-top:0;font-size:.75rem!important;font-weight:700}
     footer{margin-top:42px;color:#64756a;font-size:.85rem}
     @media(max-width:650px){main{margin:0;padding:28px 20px;border-radius:0}.recipes{grid-template-columns:1fr}h1{font-size:1.9rem}}
 
@@ -48,16 +48,6 @@
   <h1>Mi recetario</h1>
   <p class="intro">Recetas afinadas y ordenadas para preparar el menú semanal.</p>
 
-  <form class="search" role="search" hidden>
-    <label for="recipe-search">Buscar</label>
-    <div class="search-row">
-      <input id="recipe-search" type="search" placeholder="Ej: espinacas, mango aguacate, sartén" autocomplete="off" spellcheck="false" aria-describedby="search-help search-status" aria-controls="recipe-results">
-      <button id="search-clear" type="button" hidden>Limpiar</button>
-    </div>
-    <p id="search-help" class="search-help">Busca por nombre, categoría, ingredientes o indicaciones. Puedes combinar varias palabras.</p>
-    <p id="search-status" class="search-status" role="status" aria-live="polite" aria-atomic="true"></p>
-  </form>
-
   <nav class="category-nav" aria-label="Categorías con recetas">
     <a href="#legumbres">Legumbres</a>
     <a href="#ensaladas">Ensaladas</a>
@@ -68,14 +58,24 @@
     <a href="#picoteo-sano">Picoteo sano</a>
   </nav>
 
+  <form class="search" role="search" hidden>
+    <label for="recipe-search">Buscar</label>
+    <div class="search-row">
+      <input id="recipe-search" type="search" placeholder="Ej: espinacas, mango aguacate, sartén" autocomplete="off" spellcheck="false" aria-describedby="search-help search-status" aria-controls="recipe-results">
+      <button id="search-clear" type="button" hidden>Limpiar</button>
+    </div>
+    <p id="search-help" class="search-help">Busca por nombre, categoría, ingredientes o indicaciones. Puedes combinar varias palabras.</p>
+    <p id="search-status" class="search-status" role="status" aria-live="polite" aria-atomic="true"></p>
+  </form>
+
+
   <div id="recipe-results">
   <section class="category" id="legumbres">
     <h2><a href="categorias/legumbres.html">Legumbres <span>Ver categoría →</span></a></h2>
     <div class="recipes">
       <article class="family-card">
         <strong>Lentejas cremosas con calabaza y espinacas</strong>
-        <div class="meta">2-3 raciones · 35-40 min</div>
-        <span class="type-badge">Receta</span>
+        <span class="meta">2-3 raciones · 35-40 min</span>&nbsp;<span class="type-badge">Receta</span>
         <div class="variants">
           <a href="lentejas-calabaza-espinacas-300g.html">Versión 300 g</a>
           <a href="lentejas-calabaza-espinacas-400g.html">Versión 400 g</a>
@@ -84,17 +84,16 @@
     </div>
   </section>
 
-  <section class="category" id="ensaladas"><h2><a href="categorias/ensaladas.html">Ensaladas <span>Ver categoría →</span></a></h2><div class="recipes"><a class="recipe" href="ensalada-garbanzos-mango-aguacate.html"><strong>Ensalada de garbanzos, mango y aguacate</strong><span>2 raciones · 15 min</span><span class="type-badge">Preparación sencilla</span></a><a class="recipe" href="ensalada-salmon-ahumado-mango-aguacate.html"><strong>Ensalada de salmón ahumado, mango y aguacate</strong><span>2 raciones · 10-15 min</span><span class="type-badge">Preparación sencilla</span></a></div></section>
+  <section class="category" id="ensaladas"><h2><a href="categorias/ensaladas.html">Ensaladas <span>Ver categoría →</span></a></h2><div class="recipes"><a class="recipe" href="ensalada-garbanzos-mango-aguacate.html"><strong>Ensalada de garbanzos, mango y aguacate</strong><span>2 raciones · 15 min</span>&nbsp;<span class="type-badge">Preparación sencilla</span></a><a class="recipe" href="ensalada-salmon-ahumado-mango-aguacate.html"><strong>Ensalada de salmón ahumado, mango y aguacate</strong><span>2 raciones · 10-15 min</span>&nbsp;<span class="type-badge">Preparación sencilla</span></a></div></section>
 
   <section class="category" id="huevos">
     <h2><a href="categorias/huevos.html">Huevos <span>Ver categoría →</span></a></h2>
     <div class="recipes">
       <a class="recipe" href="tortilla-boniato-espinacas-parmesano.html">
         <strong>Tortilla de boniato, espinacas y parmesano</strong>
-        <span>2 raciones · 35-40 min</span>
-        <span class="type-badge">Receta</span>
+        <span>2 raciones · 35-40 min</span>&nbsp;<span class="type-badge">Receta</span>
       </a>
-      <a class="recipe" href="revuelto-champinones-trigueros.html"><strong>Revuelto de champiñones y trigueros</strong><span>2 raciones · 25 min</span><span class="type-badge">Receta</span></a>
+      <a class="recipe" href="revuelto-champinones-trigueros.html"><strong>Revuelto de champiñones y trigueros</strong><span>2 raciones · 25 min</span>&nbsp;<span class="type-badge">Receta</span></a>
     </div>
   </section>
 
@@ -103,8 +102,7 @@
     <div class="recipes">
       <a class="recipe" href="pollo-guisado-calabacin.html">
         <strong>Pollo guisado con calabacín</strong>
-        <span>2-3 raciones · 50-60 min</span>
-        <span class="type-badge">Receta</span>
+        <span>2-3 raciones · 50-60 min</span>&nbsp;<span class="type-badge">Receta</span>
       </a>
     </div>
   </section>
@@ -114,31 +112,27 @@
     <div class="recipes">
       <a class="recipe" href="pechuga-pavo-plancha.html">
         <strong>Pechuga de pavo a la plancha</strong>
-        <span>2 raciones · 10-12 min</span>
-        <span class="type-badge">Preparación sencilla</span>
+        <span>2 raciones · 10-12 min</span>&nbsp;<span class="type-badge">Preparación sencilla</span>
       </a>
     </div>
   </section>
 
-  <section class="category" id="envueltos-y-bocados"><h2><a href="categorias/envueltos-y-bocados.html">Envueltos y bocados <span>Ver categoría →</span></a></h2><div class="recipes"><a class="recipe" href="burritos-frijoles-quinoa-edamame-champinones.html"><strong>Burritos de frijoles negros, quinoa, edamame y champiñones</strong><span>2 raciones · 25-30 min</span><span class="type-badge">Receta</span></a></div></section>
+  <section class="category" id="envueltos-y-bocados"><h2><a href="categorias/envueltos-y-bocados.html">Envueltos y bocados <span>Ver categoría →</span></a></h2><div class="recipes"><a class="recipe" href="burritos-frijoles-quinoa-edamame-champinones.html"><strong>Burritos de frijoles negros, quinoa, edamame y champiñones</strong><span>2 raciones · 25-30 min</span>&nbsp;<span class="type-badge">Receta</span></a></div></section>
 
   <section class="category" id="picoteo-sano">
     <h2><a href="categorias/picoteo-sano.html">Picoteo sano <span>Ver categoría →</span></a></h2>
     <div class="recipes">
       <a class="recipe" href="hummus-zanahoria.html">
         <strong>Hummus con zanahoria</strong>
-        <span>1 ración · 2 min</span>
-        <span class="type-badge">Combinación</span>
+        <span>1 ración · 2 min</span>&nbsp;<span class="type-badge">Combinación</span>
       </a>
       <a class="recipe" href="canonigos-champinones-cherrys-feta.html">
         <strong>Canónigos con champiñones, cherrys y feta</strong>
-        <span>1 ración · 10-12 min</span>
-        <span class="type-badge">Preparación sencilla</span>
+        <span>1 ración · 10-12 min</span>&nbsp;<span class="type-badge">Preparación sencilla</span>
       </a>
       <a class="recipe" href="barquitas-endivia-requeson.html">
         <strong>Barquitas de endivia con requesón</strong>
-        <span>1 ración · 5 min</span>
-        <span class="type-badge">Combinación</span>
+        <span>1 ración · 5 min</span>&nbsp;<span class="type-badge">Combinación</span>
       </a>
     </div>
   </section>
