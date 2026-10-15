@@ -108,6 +108,54 @@
       "titulo": "Ensalada de tomate y mozzarella",
       "categoria_menu": "Ensaladas",
       "categoria_slug": "ensaladas"
+    },
+    {
+      "id": "tortilla-francesa",
+      "titulo": "Tortilla francesa",
+      "categoria_menu": "Huevos",
+      "categoria_slug": "huevos"
+    },
+    {
+      "id": "fajita-francesa-pavo",
+      "titulo": "Fajita de francesa y pavo",
+      "categoria_menu": "Envueltos y bocados",
+      "categoria_slug": "envueltos-y-bocados"
+    },
+    {
+      "id": "ensalada-lentejas-salmon-pepino",
+      "titulo": "Ensalada de lentejas, salmón y pepino",
+      "categoria_menu": "Ensaladas",
+      "categoria_slug": "ensaladas"
+    },
+    {
+      "id": "melon-jamon",
+      "titulo": "Melón con jamón",
+      "categoria_menu": "Picoteo y guarniciones",
+      "categoria_slug": "picoteo-y-guarniciones"
+    },
+    {
+      "id": "sandia-feta",
+      "titulo": "Sandía con feta",
+      "categoria_menu": "Picoteo y guarniciones",
+      "categoria_slug": "picoteo-y-guarniciones"
+    },
+    {
+      "id": "gazpacho",
+      "titulo": "Gazpacho",
+      "categoria_menu": "Purés",
+      "categoria_slug": "pures"
+    },
+    {
+      "id": "salmorejo",
+      "titulo": "Salmorejo",
+      "categoria_menu": "Purés",
+      "categoria_slug": "pures"
+    },
+    {
+      "id": "salteado-pavo-brecol-garbanzos",
+      "titulo": "Salteado de pavo, brécol y garbanzos",
+      "categoria_menu": "Carnes exprés",
+      "categoria_slug": "carnes-expres"
     }
   ]
 }
