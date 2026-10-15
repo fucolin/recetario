@@ -12,7 +12,8 @@ formato:
   unidad: g
   nota: Contenido total, incluida la salsa; no es peso escurrido.
 por_que_lo_uso:
-- Ya llevan cebolla y pimientos, así que me ahorro preparar otro sofrito.
+- Ya llevan cebolla y pimientos, así que me ahorro preparar otro sofrito. Buena composición, valor nutricional
+  y puntuación en Yuka.
 - Los utilizo con su salsa para el relleno de los burritos.
 uso_en_cocina: En los burritos vierto la lata completa, sin escurrir ni enjuagar, y dejo espesar la salsa
   en la sartén antes de mezclar con la quinoa y el edamame.
@@ -42,7 +43,7 @@ nutricion_por_100g:
 precio_referencia:
   importe: 1.9
   moneda: EUR
-  fecha: '2026-10-15'
+  fecha: '2026-09-30'
   tienda: Carrefour
   url: null
   precio_por_kg: 4.63
@@ -125,7 +126,9 @@ GUSTO by P.A.N. · Lata de 410 g, incluido el contenido de salsa.
 
 ## Por qué lo uso
 
-Ya llevan cebolla y pimientos, así que me ahorro preparar otro sofrito. Los utilizo con su salsa para el relleno de los burritos.
+Ya llevan cebolla y pimientos, así que me ahorro preparar otro sofrito. Buena composición, valor nutricional y puntuación en Yuka.
+
+Los utilizo con su salsa para el relleno de los burritos.
 
 ## En mi cocina
 
@@ -143,7 +146,7 @@ Fuente: fotografías de la etiqueta aportadas por el usuario el 14/10/2026. Las 
 
 ## Compra y valoración
 
-Precio de referencia aportado el 15/10/2026: 1,90 € por lata de 410 g (4,63 €/kg). Compra habitual en Carrefour. Enlace de compra pendiente.
+Precio de referencia del 30/09/2026: 1,90 € por lata de 410 g (4,63 €/kg). Compra habitual en Carrefour. Enlace de compra pendiente.
 
 Oferta histórica observada en Carrefour el 30/09/2026: 3×2. A 1,90 € cada lata, tres latas iguales costaban 3,80 € en total, aproximadamente 1,27 €/lata y 3,09 €/kg. No se presenta como oferta vigente.
 

@@ -43,24 +43,27 @@ def generar():
         filas += [(label, numero(nutricion[key]) + ' g') for key, label in [('grasas_g', 'Grasas'), ('saturadas_g', 'De las cuales saturadas'), ('hidratos_g', 'Hidratos de carbono'), ('azucares_g', 'De los cuales azúcares'), ('fibra_g', 'Fibra'), ('proteinas_g', 'Proteínas'), ('sal_g', 'Sal')]]
         precio = data['precio_referencia']
         precio_texto = '<p>Por anotar</p><p class="note">Precio del envase · €/kg · Fecha del precio</p>'
+        resumen_fecha = ''
         if precio['importe'] is not None:
             por_kg = precio['importe'] / (formato['cantidad'] / 1000)
             precio_texto = f'<p>{precio["importe"]:.2f} € · {por_kg:.2f} €/kg</p>'.replace('.', ',')
             if precio['fecha']:
-                origen_precio = 'Precio aportado' if precio.get('fuente') == 'Información aportada por el usuario' else 'Precio consultado'
-                precio_texto += f'<p class="note">{origen_precio}: {date.fromisoformat(precio["fecha"]).strftime("%d/%m/%Y")}</p>'
+                resumen_fecha = date.fromisoformat(precio['fecha']).strftime('%d/%m/%Y')
         tiendas = '<p>Por anotar</p><p class="note">Tienda · Enlace al producto</p>'
         if data['puntos_venta']:
             tiendas = ''.join('<p>' + (f'<a href="{e(t["url"])}">{e(t["tienda"])}</a>' if t.get('url') else e(t['tienda'])) + '</p>' for t in data['puntos_venta'])
-        promociones = ''
+        resumen_promociones = []
         for promo in data.get('promociones', []):
             fecha_oferta = date.fromisoformat(promo['fecha_observacion']).strftime('%d/%m/%Y')
             if promo['tipo'] == '3x2':
                 total = promo['precio_unitario_base'] * 2
                 efectivo = total / 3
                 efectivo_kg = efectivo / (formato['cantidad'] / 1000)
-                importes = f'{total:.2f} € en total · aprox. {efectivo:.2f} €/lata · {efectivo_kg:.2f} €/kg'.replace('.', ',').replace('aprox,', 'aprox.')
-                promociones += f'<section><h2>Oferta histórica</h2><p><strong>3×2 en {e(promo["tienda"])}</strong> · Observada el {fecha_oferta}</p><p>{e(importes)}</p><p class="note">Para tres latas iguales al precio de referencia. Información aportada por el usuario; no indica una promoción vigente.</p></section>'
+                importes = f'{efectivo:.2f} €/lata · {efectivo_kg:.2f} €/kg'.replace('.', ',')
+                fecha_promo = '' if fecha_oferta == resumen_fecha else f' ({fecha_oferta})'
+                resumen_promociones.append(f'Oferta 3×2{fecha_promo}: aprox. {importes}')
+        resumen_precio = ' · '.join(([resumen_fecha] if resumen_fecha else []) + resumen_promociones)
+        nota_compra = f'<p class="purchase-note">{e(resumen_precio)}</p>' if resumen_precio else ''
         resumen_compra = 'Precio y tienda por anotar'
         if precio['importe'] is not None:
             resumen_compra = f'{precio["importe"]:.2f} € · {por_kg:.2f} €/kg'.replace('.', ',')
@@ -90,10 +93,11 @@ def generar():
         maestro.with_suffix('.schema.json').write_text(json.dumps(schema, ensure_ascii=False, indent=2) + '\n')
         contenido = f'''<nav><a href="../ingredientes-preferidos.html">← Ingredientes preferidos</a></nav>
 <header class="product-heading"><figure><a href="../{e(imagen['archivo'])}"><img class="product-photo" src="../{e(imagen['archivo'])}" alt="{e(imagen['alt'])}" width="1080" height="1440"></a><figcaption>Fotografía propia · <a href="../{e(imagen['archivo'])}">Ver envase completo</a></figcaption></figure>
-<div><span class="tag">{e(data['categoria'])}</span><h1>{e(nombre)}</h1><p class="meta">{e(marca)} · {e(envase)}</p><p>{e(data['descripcion'])}</p><p class="note">{e(formato['nota'])}</p><div class="purchase"><section><h2>Precio de referencia</h2>{precio_texto}</section><section><h2>Dónde lo compro</h2>{tiendas}</section></div></div></header>
-{promociones}<div class="columns"><div><section><h2>Por qué lo uso</h2>''' + ''.join(f'<p>{e(motivo)}</p>' for motivo in data['por_que_lo_uso']) + f'''</section><section><h2>En mi cocina</h2><p>{e(data['uso_en_cocina'])}</p></section><section><h2>Composición</h2><p class="composition">{composicion}</p></section></div>
+<div><span class="tag">{e(data['categoria'])}</span><h1>{e(nombre)}</h1><p class="meta">{e(marca)} · {e(envase)}</p><p>{e(data['descripcion'])}</p><p class="note">{e(formato['nota'])}</p><div class="purchase"><section><h2>Precio de referencia</h2>{precio_texto}</section><section><h2>Dónde lo compro</h2>{tiendas}</section>{nota_compra}</div></div></header>
+<section><h2>Lo uso en</h2><ul class="recipe-links">''' + ''.join(links_recetas) + f'''</ul></section>
+<div class="columns"><div><section><h2>Por qué lo uso</h2>''' + ''.join(f'<p>{e(motivo)}</p>' for motivo in data['por_que_lo_uso']) + f'''</section><section><h2>En mi cocina</h2><p>{e(data['uso_en_cocina'])}</p></section><section><h2>Composición</h2><p class="composition">{composicion}</p></section></div>
 <section><h2>Valores por 100 g</h2><table class="nutrition"><caption>Según la etiqueta fotografiada aportada el 14/10/2026.</caption><tbody>''' + ''.join(f'<tr><th scope="row">{e(label)}</th><td>{e(value)}</td></tr>' for label, value in filas) + f'''</tbody></table><a class="label-link" href="../{e(etiqueta['archivo'])}">Ver fotografía de la etiqueta →</a></section></div>
-<section class="yuka"><h2>Valoración de Yuka</h2>{yuka_texto}</section><section><h2>Lo uso en</h2><ul class="recipe-links">''' + ''.join(links_recetas) + f'''</ul></section>
+<section class="yuka"><h2>Valoración de Yuka</h2>{yuka_texto}</section>
 <details><summary>Ingredientes y tabla nutricional del envase</summary><figure><img class="label-photo" src="../{e(etiqueta['archivo'])}" alt="{e(etiqueta['alt'])}" width="1080" height="1440" loading="lazy"><figcaption>Fotografía propia proporcionada por el usuario. <a href="../{e(etiqueta['archivo'])}">Abrir a tamaño completo</a>.</figcaption></figure></details>
 <footer>Recetario personal · <a href="{e(slug)}.md">Archivo maestro</a> · <a href="../index.html">Índice del recetario</a></footer>'''
         maestro.with_suffix('.html').write_text(documento(nombre, contenido, 'productos.css', schema))

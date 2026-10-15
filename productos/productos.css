@@ -17,7 +17,8 @@ p{margin:0 0 14px}
 .product-heading{display:grid;grid-template-columns:220px minmax(0,1fr);gap:30px;align-items:start}
 .product-heading .product-photo{height:310px}
 figure{margin:0}figcaption{font-size:.8rem;margin-top:7px}
-.purchase{display:grid;grid-template-columns:1fr 1fr;gap:22px;border-block:1px solid var(--borde);margin:22px 0 0;padding:16px 0}
+.purchase{display:grid;grid-template-columns:1fr 1fr;column-gap:22px;row-gap:8px;border-block:1px solid var(--borde);margin:22px 0 0;padding:16px 0}
+.purchase .purchase-note{grid-column:1 / -1;margin:0;color:var(--secundario);font-size:.85rem}
 .purchase h2{margin:0 0 8px;font-size:1rem}
 .purchase p:last-child{margin:0}
 .columns{display:grid;grid-template-columns:1.1fr 1fr;gap:30px}
