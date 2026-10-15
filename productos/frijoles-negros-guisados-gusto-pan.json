@@ -59,15 +59,22 @@
     "sal_g": 0.93
   },
   "precio_referencia": {
-    "importe": null,
+    "importe": 1.9,
     "moneda": "EUR",
-    "fecha": null,
-    "tienda": null,
+    "fecha": "2026-10-15",
+    "tienda": "Carrefour",
     "url": null,
-    "precio_por_kg": null,
-    "nota": "Pendiente de registrar; calcular el precio por kg sobre los 410 g de contenido total."
+    "precio_por_kg": 4.63,
+    "nota": "Precio de referencia por lata de 410 g; importe sin aplicar la promoción histórica.",
+    "fuente": "Información aportada por el usuario"
   },
-  "puntos_venta": [],
+  "puntos_venta": [
+    {
+      "tienda": "Carrefour",
+      "url": null,
+      "fuente": "Compra habitual indicada por el usuario"
+    }
+  ],
   "yuka": {
     "puntuacion": 90,
     "observaciones": "Yuka destaca la ausencia de aditivos, la fibra y la proporción que clasifica como verduras. Señala la sal como aspecto negativo.",
@@ -143,5 +150,22 @@
       "licencia": "No se ha indicado una licencia de reutilización"
     }
   ],
-  "fecha_actualizacion": "2026-10-15"
+  "fecha_actualizacion": "2026-10-15",
+  "promociones": [
+    {
+      "tipo": "3x2",
+      "tienda": "Carrefour",
+      "fecha_observacion": "2026-09-30",
+      "estado": "historica",
+      "cantidad_unidades": 3,
+      "unidades_pagadas": 2,
+      "precio_unitario_base": 1.9,
+      "total": 3.8,
+      "precio_unitario_efectivo_aprox": 1.27,
+      "precio_por_kg_efectivo_aprox": 3.09,
+      "moneda": "EUR",
+      "fuente": "Información aportada por el usuario",
+      "nota": "Cálculo para tres latas iguales a 1,90 € cada una. Fecha de observación, no de vigencia actual."
+    }
+  ]
 }

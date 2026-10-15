@@ -40,14 +40,18 @@ nutricion_por_100g:
   proteinas_g: 4.6
   sal_g: 0.93
 precio_referencia:
-  importe: null
+  importe: 1.9
   moneda: EUR
-  fecha: null
-  tienda: null
+  fecha: '2026-10-15'
+  tienda: Carrefour
   url: null
-  precio_por_kg: null
-  nota: Pendiente de registrar; calcular el precio por kg sobre los 410 g de contenido total.
-puntos_venta: []
+  precio_por_kg: 4.63
+  nota: Precio de referencia por lata de 410 g; importe sin aplicar la promoción histórica.
+  fuente: Información aportada por el usuario
+puntos_venta:
+- tienda: Carrefour
+  url: null
+  fuente: Compra habitual indicada por el usuario
 yuka:
   puntuacion: 90
   observaciones: Yuka destaca la ausencia de aditivos, la fibra y la proporción que clasifica como verduras.
@@ -99,6 +103,20 @@ imagenes:
   origen: Fotografía propia proporcionada por el usuario
   licencia: No se ha indicado una licencia de reutilización
 fecha_actualizacion: '2026-10-15'
+promociones:
+- tipo: 3x2
+  tienda: Carrefour
+  fecha_observacion: '2026-09-30'
+  estado: historica
+  cantidad_unidades: 3
+  unidades_pagadas: 2
+  precio_unitario_base: 1.9
+  total: 3.8
+  precio_unitario_efectivo_aprox: 1.27
+  precio_por_kg_efectivo_aprox: 3.09
+  moneda: EUR
+  fuente: Información aportada por el usuario
+  nota: Cálculo para tres latas iguales a 1,90 € cada una. Fecha de observación, no de vigencia actual.
 ---
 
 # Frijoles negros guisados
@@ -125,7 +143,9 @@ Fuente: fotografías de la etiqueta aportadas por el usuario el 14/10/2026. Las 
 
 ## Compra y valoración
 
-Precio de referencia, fecha del precio, tiendas y enlaces de compra: pendientes de registrar.
+Precio de referencia aportado el 15/10/2026: 1,90 € por lata de 410 g (4,63 €/kg). Compra habitual en Carrefour. Enlace de compra pendiente.
+
+Oferta histórica observada en Carrefour el 30/09/2026: 3×2. A 1,90 € cada lata, tres latas iguales costaban 3,80 € en total, aproximadamente 1,27 €/lata y 3,09 €/kg. No se presenta como oferta vigente.
 
 ### Valoración de Yuka
 
