@@ -33,6 +33,12 @@ Antes de incorporar una ficha nueva mediante «Al recetario» o «Al recetario y
 
 Primero se afina la receta con el usuario. No se incorpora al repositorio hasta que el usuario diga «Al recetario». Si faltan datos menores, Codex puede proponerlos, pero debe preservar cualquier decisión expresa del usuario.
 
+## Buscador del índice
+
+El índice incluye un buscador que filtra las tarjetas y oculta las categorías vacías. Busca en títulos, categorías, ingredientes, pasos, indicaciones, consejos y claves; ignora tildes y mayúsculas, y exige todas las palabras introducidas. Las variantes permanecen agrupadas en una tarjeta y solo se muestran los enlaces de las variantes coincidentes. Los botones superiores conservan sus enlaces internos a las secciones.
+
+Al añadir o modificar una ficha, actualizar también los datos integrados en el bloque `search-data` de `index.html`, a partir de su JSON completo. El mapa usa como claves los nombres de sus páginas HTML y como valores texto de los campos anteriores (más subtítulo, etiquetas y variante), sin créditos fotográficos ni URLs. No requiere `ingredientes_clave`, servicios externos ni peticiones de red al buscar. Si JavaScript está desactivado, el índice completo sigue disponible.
+
 ## Formato común de las fotografías
 
 Todas las fotografías de las fichas y de las tarjetas de categorías se muestran en horizontal con relación de aspecto **16:9**, tanto en ordenador como en móvil. Usar `width: 100%`, `height: auto`, `aspect-ratio: 16 / 9` y `object-fit: cover`, sin alturas fijas ni alturas mínimas que alteren esa proporción. El encuadre se centra por defecto; puede ajustarse para preservar el plato o los ingredientes principales. Las imágenes originales se conservan y la presentación aplica el recorte. Para las próximas fotografías propias, el usuario puede encuadrar directamente en 16:9 desde el móvil.
