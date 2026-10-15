@@ -132,3 +132,12 @@ Fotografías propias aportadas por el usuario el 15/10/2026. No se ha indicado l
 - `images/productos/requeson-loran-envase.jpg`: Tarrina de requesón Reque de Lácteos Loran.
 - `images/productos/requeson-loran-nutricion.jpg`: Tabla nutricional del requesón Loran.
 - `images/productos/requeson-loran-ingredientes.jpg`: Ingredientes, conservación y peso neto del requesón Loran.
+
+## Kéfir de cabra Carrefour Bio
+
+Fotografías propias aportadas el 15/10/2026, conservadas completas y mostradas sin recorte. No se ha indicado licencia de reutilización.
+
+- `images/productos/kefir-cabra-carrefour-bio-envase.jpg`: Tarro de kéfir de leche de cabra Carrefour Bio de 420 g.
+- `images/productos/kefir-cabra-carrefour-bio-nutricion.jpg`: Tabla nutricional del kéfir de leche de cabra Carrefour Bio.
+
+- `images/productos/kefir-cabra-carrefour-bio-ingredientes.jpg`: ingredientes, origen y conservación; fotografía propia aportada el 15/10/2026, sin licencia de reutilización indicada.

@@ -38,6 +38,8 @@ def generar():
         fecha_fuente = date.fromisoformat(data['fuente_datos']['fecha_aportacion']).strftime('%d/%m/%Y')
         detalles = data.get('datos_etiqueta', {})
         detalles_html = ''.join(f'<p class="note">{e(texto)}</p>' for texto in ([('Alérgenos: ' + ', '.join(detalles['alergenos']) + '.') ] if detalles.get('alergenos') else []) + ([detalles['conservacion']] if detalles.get('conservacion') else []) + ([detalles['fabricante']] if detalles.get('fabricante') else []))
+        if detalles.get('origen_leche'):
+            detalles_html += f'<p class="note">{e(detalles["origen_leche"])}</p>'
         referencias_html = ''
         for ref in data.get('referencias_otros_formatos', []):
             fecha_ref = date.fromisoformat(ref['fecha']).strftime('%d/%m/%Y')
@@ -47,7 +49,7 @@ def generar():
         marca = data['marca']
         formato = data['formato']
         envase = f"{formato['envase'].capitalize()} de {numero(formato['cantidad'])} {formato['unidad']}"
-        composicion = ', '.join(e(i['nombre']) + (f" ({numero(i['porcentaje'])} %)" if 'porcentaje' in i else '') for i in data['ingredientes']) + '.'
+        composicion = ', '.join(e(i['nombre']) + (f" ({numero(i['porcentaje'])} %)" if 'porcentaje' in i else '') for i in data['ingredientes']) + '.' if data['ingredientes'] else 'Lista completa de ingredientes pendiente de aportar.'
         nutricion = data['nutricion_por_100g']
         filas = [('Energía', f"{numero(nutricion['energia_kj'])} kJ / {numero(nutricion['energia_kcal'])} kcal")]
         filas += [(label, (numero(nutricion[key]) + ' g') if nutricion.get(key) is not None else 'No declarada') for key, label in [('grasas_g', 'Grasas'), ('saturadas_g', 'De las cuales saturadas'), ('hidratos_g', 'Hidratos de carbono'), ('azucares_g', 'De los cuales azúcares'), ('fibra_g', 'Fibra'), ('proteinas_g', 'Proteínas'), ('sal_g', 'Sal')]]
@@ -89,6 +91,8 @@ def generar():
         for receta_id in data['recetas']:
             receta = json.loads((RAIZ / f'{receta_id}.json').read_text())
             links_recetas.append(f'<li><a href="../{e(receta_id)}.html">{e(receta["titulo"])} →</a></li>')
+        bloque_recetas = '<section><h2>Lo uso en</h2><ul class="recipe-links">' + ''.join(links_recetas) + '</ul></section>' if links_recetas else ''
+        titulo_uso = 'Cómo lo tomo' if data.get('forma_de_consumo') else 'En mi cocina'
         yuka = data['yuka']
         yuka_texto = '<p>Pendiente de registrar</p><p class="note">Puntuación, observaciones y fecha de consulta.</p>'
         if yuka['puntuacion'] is not None:
@@ -110,8 +114,8 @@ def generar():
         contenido = f'''<nav><a href="../ingredientes-preferidos.html">← Ingredientes preferidos</a></nav>
 <header class="product-heading"><figure><a href="../{e(imagen['archivo'])}"><img class="product-photo" src="../{e(imagen['archivo'])}" alt="{e(imagen['alt'])}" {dimensiones(imagen)}></a><figcaption>Fotografía propia · <a href="../{e(imagen['archivo'])}">Ver envase completo</a></figcaption></figure>
 <div><span class="tag">{e(data['categoria'])}</span><h1>{e(nombre)}</h1><p class="meta">{e(marca)} · {e(envase)}</p><p>{e(data['descripcion'])}</p><p class="note">{e(formato['nota'])}</p><div class="purchase"><section><h2>Precio de referencia</h2>{precio_texto}</section><section><h2>Dónde lo compro</h2>{tiendas}</section>{nota_compra}</div></div></header>
-<section><h2>Lo uso en</h2><ul class="recipe-links">''' + ''.join(links_recetas) + f'''</ul></section>
-<div class="columns"><div><section><h2>Por qué lo uso</h2>''' + ''.join(f'<p>{e(motivo)}</p>' for motivo in data['por_que_lo_uso']) + f'''</section><section><h2>En mi cocina</h2><p>{e(data['uso_en_cocina'])}</p></section><section><h2>Composición</h2><p class="composition">{composicion}</p>{detalles_html}</section></div>
+{bloque_recetas}
+<div class="columns"><div><section><h2>Por qué lo uso</h2>''' + ''.join(f'<p>{e(motivo)}</p>' for motivo in data['por_que_lo_uso']) + f'''</section><section><h2>{titulo_uso}</h2><p>{e(data['uso_en_cocina'])}</p></section><section><h2>Composición</h2><p class="composition">{composicion}</p>{detalles_html}</section></div>
 <section><h2>Valores por 100 g</h2><table class="nutrition"><caption>Según la etiqueta fotografiada aportada el {fecha_fuente}.</caption><tbody>''' + ''.join(f'<tr><th scope="row">{e(label)}</th><td>{e(value)}</td></tr>' for label, value in filas) + f'''</tbody></table><a class="label-link" href="../{e(etiqueta['archivo'])}">Ver fotografía de la etiqueta →</a></section></div>
 <section class="yuka"><h2>Valoración de Yuka</h2>{yuka_texto}</section>
 <details><summary>Ingredientes y tabla nutricional del envase</summary>{fotos_etiqueta}</details>
