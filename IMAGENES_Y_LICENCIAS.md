@@ -98,3 +98,12 @@ Las fotografías se muestran en las páginas HTML y se declaran en el YAML y en 
 - Licencia: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
 - Uso: Fotografía representativa de un burrito vegetariano; el relleno mostrado puede diferir de esta receta.
 - Modificación: reducción para web, sin otros cambios; presentación HTML en 16:9.
+
+## Pimientos asados con cebolla
+
+- Archivo local: `images/pimientos-asados-cebolla-cosori.jpg`
+- Obra: [Pimientos rojos, asados al horno (España)](https://commons.wikimedia.org/wiki/File:Pimientos_rojos,_asados_al_horno_(Espa%C3%B1a).jpg)
+- Autor: Juan Emilio Prades Bel
+- Licencia: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0)
+- Uso: Fotografía representativa de pimientos asados; la preparación de esta ficha incluye cebolla y se cocina en freidora de aire.
+- Modificación: reducción para web; el HTML aplica el encuadre 16:9.

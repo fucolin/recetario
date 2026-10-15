@@ -29,3 +29,7 @@ python3 tools/generar_pdfs.py --salida .
 ```
 
 El programa detiene la generación si detecta viñetas, si falta la lista editorial de ingredientes o si el contenido invade el pie de página.
+
+## Enlaces sobre el texto
+
+El campo opcional `enlaces_texto` admite objetos con `texto` y `url`. El generador subraya y enlaza las coincidencias dentro de una línea, por ejemplo «botulismo», sin alterar la plantilla.

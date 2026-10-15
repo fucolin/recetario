@@ -76,12 +76,12 @@ Cada receta debe pertenecer a una sola `categoria_menu`. La clasificación ofici
 - Carnes exprés
 - Arroces y pastas
 - Envueltos y bocados
-- Picoteo sano
+- Picoteo y guarniciones
 - Otros
 
 Cuando una receta pueda encajar en varias categorías, se elegirá la que resulte más útil para planificar el menú. Las categorías específicas tienen prioridad: por ejemplo, un guiso de lentejas pertenece a `Legumbres` y una tortilla con verduras pertenece a `Huevos`.
 
-`Vegetales` se reserva para platos completos cuyo elemento principal sean las verduras, como menestra, ensaladilla o pisto. Los picoteos, acompañamientos y guarniciones vegetales pertenecen a la categoría específica que mejor describa su uso; por ejemplo, `Picoteo sano`.
+`Vegetales` se reserva para platos completos cuyo elemento principal sean las verduras, como menestra, ensaladilla o pisto. Los picoteos, acompañamientos y guarniciones vegetales pertenecen a la categoría específica que mejor describa su uso; por ejemplo, `Picoteo y guarniciones`.
 
 Solo se crea una página dentro de `categorias/` cuando la categoría contiene al menos una receta. Estas páginas muestran tarjetas con fotografía, título, tiempo y raciones.
 

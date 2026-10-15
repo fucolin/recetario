@@ -11,7 +11,7 @@ variante: principal
 titulo: Hummus con zanahoria
 subtitulo: Comida ligera y sencilla
 categoria: Combinaciones
-categoria_menu: Picoteo sano
+categoria_menu: Picoteo y guarniciones
 tipo_ficha: combinacion
 etiquetas:
 - vegetariano

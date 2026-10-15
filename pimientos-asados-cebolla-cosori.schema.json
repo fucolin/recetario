@@ -1,0 +1,64 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Pimientos asados con cebolla",
+  "description": "Cosori Dual Blaze · Veggies a 190 °C",
+  "recipeCategory": "Picoteo y guarniciones",
+  "recipeYield": "3-4 raciones de acompañamiento",
+  "totalTime": "PT50M",
+  "cookTime": "PT25M",
+  "recipeIngredient": [
+    "2 pimientos morrones grandes",
+    "1 cebolla (mitades o cuartos, según tamaño)",
+    "Aceite de oliva virgen extra (spray y aliño)",
+    "Sal al gusto",
+    "Ajo crudo en láminas finas (opcional)",
+    "½ cdta. de orégano o ¼ cdta. de comino (opcionales)"
+  ],
+  "recipeInstructions": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "Prepara las verduras",
+      "text": "Lava y seca bien los pimientos; déjalos enteros, con su pedúnculo. Pela la cebolla y córtala por la mitad si es pequeña o en cuartos si es grande. Conserva un poco de la base para mantener unidas las capas."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "Prepara la cesta",
+      "text": "Retira la rejilla extraíble y coloca en el fondo una bandejita de papel de horno adecuada para la freidora y resistente, como mínimo, a 190 °C. No debe sobresalir ni quedar encajada bloqueando la circulación de aire. Pon siempre las verduras encima antes de encender: nunca hagas funcionar la freidora con el papel vacío."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "Coloca y aceita",
+      "text": "Pulveriza muy ligeramente la bandejita: sobre el papel antiadherente apenas hace falta aceite. Pulveriza también la cara superior de los pimientos. Colócalos tumbados, uno junto al otro, con la cebolla en los huecos, sin apilar ni apretar las piezas."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 4,
+      "name": "Asa y da la vuelta",
+      "text": "Sin precalentar, selecciona Veggies a 190 °C durante 15 minutos. Da la vuelta a los pimientos, recoloca la cebolla y pulveriza ligeramente la otra cara si lo necesita. Cocina otros 10 minutos con el mismo programa y temperatura."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 5,
+      "name": "Comprueba el punto",
+      "text": "Los pimientos deben estar blandos, algo hundidos y con la piel arrugada y tostada por zonas. La cebolla debe atravesarse fácilmente con un cuchillo. Retira cada pieza cuando esté lista; si hace falta, prolonga el asado en tandas de 3-5 minutos. Los tiempos son orientativos: ajústalos al tamaño de las verduras y a la carga."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 6,
+      "name": "Reposa, pela y corta",
+      "text": "Pasa los pimientos a un recipiente y tápalos para facilitar el pelado. Reserva los jugos. Cuando puedas manipularlos, retira piel, pedúnculos y semillas, sin enjuagarlos para no perder sabor. Corta la carne en tiras y la cebolla en trozos o separa sus capas."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 7,
+      "name": "Mezcla y aliña",
+      "text": "Pon los pimientos y la cebolla en un recipiente limpio. Añade los jugos colados para retirar semillas o restos de piel, sal al gusto y un poco de aceite. Si quieres, incorpora el ajo laminado y una de las especias opcionales. Mezcla suavemente. Sirven para picotear, como guarnición o como base de ensaladas."
+    }
+  ],
+  "image": "https://fucolin.github.io/recetario/images/pimientos-asados-cebolla-cosori.jpg",
+  "url": "https://fucolin.github.io/recetario/pimientos-asados-cebolla-cosori.html"
+}

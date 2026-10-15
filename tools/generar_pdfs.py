@@ -58,6 +58,16 @@ def dibujar_texto_envuelto(c, texto, x, y, ancho, fuente, tamano, interlineado, 
     c.setFillColor(HexColor(color))
     for linea in partir_lineas(texto, fuente, tamano, ancho):
         c.drawString(x, y, linea)
+        for enlace in getattr(c, "enlaces_texto", []):
+            texto_enlace = normalizar(enlace["texto"])
+            inicio = linea.find(texto_enlace)
+            if inicio >= 0:
+                x1 = x + stringWidth(linea[:inicio], fuente, tamano)
+                x2 = x1 + stringWidth(texto_enlace, fuente, tamano)
+                c.linkURL(enlace["url"], (x1, y - 2, x2, y + tamano), relative=0)
+                c.setStrokeColor(HexColor(VERDE_OSCURO))
+                c.setLineWidth(0.4)
+                c.line(x1, y - 1, x2, y - 1)
         y -= interlineado
     return y
 
@@ -112,6 +122,7 @@ def generar_pdf(receta: dict, destino: Path) -> None:
 
     destino.parent.mkdir(parents=True, exist_ok=True)
     c = canvas.Canvas(str(destino), pagesize=A4, pageCompression=1)
+    c.enlaces_texto = receta.get("enlaces_texto", [])
     ancho, alto = A4
 
     titulo = normalizar(receta["titulo"]).upper()

@@ -11,7 +11,7 @@ variante: principal
 titulo: Canónigos con champiñones, cherrys y feta
 subtitulo: Picoteo templado y ligero
 categoria: Preparaciones sencillas
-categoria_menu: Picoteo sano
+categoria_menu: Picoteo y guarniciones
 tipo_ficha: preparacion
 etiquetas:
 - vegetariano

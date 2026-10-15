@@ -11,7 +11,7 @@ variante: principal
 titulo: Barquitas de endivia con requesón
 subtitulo: Picoteo fresco y ligero
 categoria: Combinaciones
-categoria_menu: Picoteo sano
+categoria_menu: Picoteo y guarniciones
 tipo_ficha: combinacion
 etiquetas:
 - vegetariano
