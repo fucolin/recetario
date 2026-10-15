@@ -15,7 +15,7 @@ def e(value):
 
 
 def numero(value):
-    return f"{value:g}".replace(".", ",")
+    return (value if isinstance(value, str) else f"{value:g}").replace(".", ",")
 
 
 def documento(titulo, contenido, css, schema=None):
@@ -33,6 +33,16 @@ def generar():
         (maestro.with_suffix('.json')).write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n')
         imagen = data['imagenes'][0]
         etiqueta = data['imagenes'][1]
+        dimensiones = lambda foto: f'width="{foto.get("ancho", 1080)}" height="{foto.get("alto", 1440)}"'
+        fotos_etiqueta = ''.join(f'<figure><img class="label-photo" src="../{e(foto["archivo"])}" alt="{e(foto["alt"])}" {dimensiones(foto)} loading="lazy"><figcaption>Fotografía propia proporcionada por el usuario. <a href="../{e(foto["archivo"])}">Abrir a tamaño completo</a>.</figcaption></figure>' for foto in data['imagenes'][1:])
+        fecha_fuente = date.fromisoformat(data['fuente_datos']['fecha_aportacion']).strftime('%d/%m/%Y')
+        detalles = data.get('datos_etiqueta', {})
+        detalles_html = ''.join(f'<p class="note">{e(texto)}</p>' for texto in ([('Alérgenos: ' + ', '.join(detalles['alergenos']) + '.') ] if detalles.get('alergenos') else []) + ([detalles['conservacion']] if detalles.get('conservacion') else []) + ([detalles['fabricante']] if detalles.get('fabricante') else []))
+        referencias_html = ''
+        for ref in data.get('referencias_otros_formatos', []):
+            fecha_ref = date.fromisoformat(ref['fecha']).strftime('%d/%m/%Y')
+            importe_ref = f"{ref['importe']:.2f} € · {ref['precio_por_kg']:.2f} €/kg".replace('.', ',')
+            referencias_html += f'<p class="note">Otro formato: {numero(ref["cantidad"])} {e(ref["unidad"])} · {importe_ref} · {e(ref["tienda"])} · {fecha_ref}. {e(ref["nota"])}</p>'
         nombre = data['nombre']
         marca = data['marca']
         formato = data['formato']
@@ -40,7 +50,7 @@ def generar():
         composicion = ', '.join(e(i['nombre']) + (f" ({numero(i['porcentaje'])} %)" if 'porcentaje' in i else '') for i in data['ingredientes']) + '.'
         nutricion = data['nutricion_por_100g']
         filas = [('Energía', f"{numero(nutricion['energia_kj'])} kJ / {numero(nutricion['energia_kcal'])} kcal")]
-        filas += [(label, numero(nutricion[key]) + ' g') for key, label in [('grasas_g', 'Grasas'), ('saturadas_g', 'De las cuales saturadas'), ('hidratos_g', 'Hidratos de carbono'), ('azucares_g', 'De los cuales azúcares'), ('fibra_g', 'Fibra'), ('proteinas_g', 'Proteínas'), ('sal_g', 'Sal')]]
+        filas += [(label, (numero(nutricion[key]) + ' g') if nutricion.get(key) is not None else 'No declarada') for key, label in [('grasas_g', 'Grasas'), ('saturadas_g', 'De las cuales saturadas'), ('hidratos_g', 'Hidratos de carbono'), ('azucares_g', 'De los cuales azúcares'), ('fibra_g', 'Fibra'), ('proteinas_g', 'Proteínas'), ('sal_g', 'Sal')]]
         precio = data['precio_referencia']
         precio_texto = '<p>Por anotar</p><p class="note">Precio del envase · €/kg · Fecha del precio</p>'
         resumen_fecha = ''
@@ -52,6 +62,12 @@ def generar():
         tiendas = '<p>Por anotar</p><p class="note">Tienda · Enlace al producto</p>'
         if data['puntos_venta']:
             tiendas = ''.join('<p>' + (f'<a href="{e(t["url"])}">{e(t["tienda"])}</a>' if t.get('url') else e(t['tienda'])) + '</p>' for t in data['puntos_venta'])
+        for ref in data.get('referencias_ticket_pendientes', []):
+            fecha_ref = date.fromisoformat(ref['fecha']).strftime('%d/%m/%Y')
+            importe_ref = f"{ref['importe']:.2f} €".replace('.', ',')
+            referencias_html += f'<p class="note">Ticket de {e(ref["tienda"])} · {fecha_ref} · {importe_ref}. {e(ref["nota"])}</p>'
+        if referencias_html:
+            precio_texto += referencias_html
         resumen_promociones = []
         for promo in data.get('promociones', []):
             fecha_oferta = date.fromisoformat(promo['fecha_observacion']).strftime('%d/%m/%Y')
@@ -92,16 +108,16 @@ def generar():
         schema = {'@context': 'https://schema.org', '@type': 'WebPage', 'name': nombre, 'url': BASE + f'productos/{slug}.html', 'dateModified': data['fecha_actualizacion'], 'mainEntity': {'@type': 'Product', '@id': BASE + f'productos/{slug}.html#producto', 'name': nombre, 'brand': {'@type': 'Brand', 'name': marca}, 'description': data['descripcion'], 'category': data['categoria'], 'image': [BASE + i['archivo'] for i in data['imagenes']], 'weight': {'@type': 'QuantitativeValue', 'value': formato['cantidad'], 'unitCode': 'GRM'}, 'additionalProperty': [{'@type': 'PropertyValue', 'name': label + ' por 100 g', 'value': value} for label, value in filas]}}
         maestro.with_suffix('.schema.json').write_text(json.dumps(schema, ensure_ascii=False, indent=2) + '\n')
         contenido = f'''<nav><a href="../ingredientes-preferidos.html">← Ingredientes preferidos</a></nav>
-<header class="product-heading"><figure><a href="../{e(imagen['archivo'])}"><img class="product-photo" src="../{e(imagen['archivo'])}" alt="{e(imagen['alt'])}" width="1080" height="1440"></a><figcaption>Fotografía propia · <a href="../{e(imagen['archivo'])}">Ver envase completo</a></figcaption></figure>
+<header class="product-heading"><figure><a href="../{e(imagen['archivo'])}"><img class="product-photo" src="../{e(imagen['archivo'])}" alt="{e(imagen['alt'])}" {dimensiones(imagen)}></a><figcaption>Fotografía propia · <a href="../{e(imagen['archivo'])}">Ver envase completo</a></figcaption></figure>
 <div><span class="tag">{e(data['categoria'])}</span><h1>{e(nombre)}</h1><p class="meta">{e(marca)} · {e(envase)}</p><p>{e(data['descripcion'])}</p><p class="note">{e(formato['nota'])}</p><div class="purchase"><section><h2>Precio de referencia</h2>{precio_texto}</section><section><h2>Dónde lo compro</h2>{tiendas}</section>{nota_compra}</div></div></header>
 <section><h2>Lo uso en</h2><ul class="recipe-links">''' + ''.join(links_recetas) + f'''</ul></section>
-<div class="columns"><div><section><h2>Por qué lo uso</h2>''' + ''.join(f'<p>{e(motivo)}</p>' for motivo in data['por_que_lo_uso']) + f'''</section><section><h2>En mi cocina</h2><p>{e(data['uso_en_cocina'])}</p></section><section><h2>Composición</h2><p class="composition">{composicion}</p></section></div>
-<section><h2>Valores por 100 g</h2><table class="nutrition"><caption>Según la etiqueta fotografiada aportada el 14/10/2026.</caption><tbody>''' + ''.join(f'<tr><th scope="row">{e(label)}</th><td>{e(value)}</td></tr>' for label, value in filas) + f'''</tbody></table><a class="label-link" href="../{e(etiqueta['archivo'])}">Ver fotografía de la etiqueta →</a></section></div>
+<div class="columns"><div><section><h2>Por qué lo uso</h2>''' + ''.join(f'<p>{e(motivo)}</p>' for motivo in data['por_que_lo_uso']) + f'''</section><section><h2>En mi cocina</h2><p>{e(data['uso_en_cocina'])}</p></section><section><h2>Composición</h2><p class="composition">{composicion}</p>{detalles_html}</section></div>
+<section><h2>Valores por 100 g</h2><table class="nutrition"><caption>Según la etiqueta fotografiada aportada el {fecha_fuente}.</caption><tbody>''' + ''.join(f'<tr><th scope="row">{e(label)}</th><td>{e(value)}</td></tr>' for label, value in filas) + f'''</tbody></table><a class="label-link" href="../{e(etiqueta['archivo'])}">Ver fotografía de la etiqueta →</a></section></div>
 <section class="yuka"><h2>Valoración de Yuka</h2>{yuka_texto}</section>
-<details><summary>Ingredientes y tabla nutricional del envase</summary><figure><img class="label-photo" src="../{e(etiqueta['archivo'])}" alt="{e(etiqueta['alt'])}" width="1080" height="1440" loading="lazy"><figcaption>Fotografía propia proporcionada por el usuario. <a href="../{e(etiqueta['archivo'])}">Abrir a tamaño completo</a>.</figcaption></figure></details>
+<details><summary>Ingredientes y tabla nutricional del envase</summary>{fotos_etiqueta}</details>
 <footer>Recetario personal · <a href="{e(slug)}.md">Archivo maestro</a> · <a href="../index.html">Índice del recetario</a></footer>'''
         maestro.with_suffix('.html').write_text(documento(nombre, contenido, 'productos.css', schema))
-        tarjetas.append(f'''<li><article class="product-summary"><a href="productos/{e(slug)}.html"><img class="product-photo" src="{e(imagen['archivo'])}" alt="{e(imagen['alt'])}" width="1080" height="1440" loading="lazy"></a><div><span class="tag">{e(data['categoria'])}</span><h2><a href="productos/{e(slug)}.html">{e(nombre)}</a></h2><p class="meta">{e(marca)} · {e(envase)}</p><p>{e(data['descripcion'])}</p><p class="note">{e(resumen_compra)}</p><a href="productos/{e(slug)}.html">Ver producto →</a></div></article></li>''')
+        tarjetas.append(f'''<li><article class="product-summary"><a href="productos/{e(slug)}.html"><img class="product-photo" src="{e(imagen['archivo'])}" alt="{e(imagen['alt'])}" {dimensiones(imagen)} loading="lazy"></a><div><span class="tag">{e(data['categoria'])}</span><h2><a href="productos/{e(slug)}.html">{e(nombre)}</a></h2><p class="meta">{e(marca)} · {e(envase)}</p><p>{e(data['descripcion'])}</p><p class="note">{e(resumen_compra)}</p><a href="productos/{e(slug)}.html">Ver producto →</a></div></article></li>''')
     catalogo = '<nav><a href="index.html">← Índice del recetario</a></nav><h1>Ingredientes preferidos</h1><p class="intro">Los productos que uso y por qué. Dónde comprarlos y su precio de referencia.</p><ul class="product-list">' + ''.join(tarjetas) + '</ul><footer>Recetario personal · <a href="index.html">Volver a las recetas</a></footer>'
     (RAIZ / 'ingredientes-preferidos.html').write_text(documento('Ingredientes preferidos', catalogo, 'productos/productos.css'))
     print(f'{len(tarjetas)} producto(s) y catálogo generados. Sin PDF.')

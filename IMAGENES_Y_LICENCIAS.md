@@ -124,3 +124,11 @@ Las fotografías se muestran en las páginas HTML y se declaran en el YAML y en 
 - Autor: no se especifica nombre; se muestran como «Fotografía propia».
 - Licencia: no se ha indicado una licencia de reutilización.
 - Modificación: ninguna. Se conservan completas y se muestran sin recorte para mantener legibles el envase y la etiqueta.
+
+## Requesón Reque · Lácteos Loran
+
+Fotografías propias aportadas por el usuario el 15/10/2026. No se ha indicado licencia de reutilización. Se conservan completas, sin recorte, y se muestran con object-fit: contain.
+
+- `images/productos/requeson-loran-envase.jpg`: Tarrina de requesón Reque de Lácteos Loran.
+- `images/productos/requeson-loran-nutricion.jpg`: Tabla nutricional del requesón Loran.
+- `images/productos/requeson-loran-ingredientes.jpg`: Ingredientes, conservación y peso neto del requesón Loran.

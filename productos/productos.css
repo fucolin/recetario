@@ -10,6 +10,7 @@ p{margin:0 0 14px}
 .intro,.meta,.note,figcaption{color:var(--secundario)}
 .tag{display:inline-block;font-size:.85rem;color:var(--verde);background:var(--suave);border:1px solid var(--borde);padding:3px 10px;border-radius:999px;margin:0 0 14px}
 .product-list{list-style:none;padding:0;margin:26px 0 0}
+.product-list>li+li{margin-top:18px}
 .product-list>li{padding:22px;background:var(--suave);border-radius:12px}
 .product-summary{display:grid;grid-template-columns:130px minmax(0,1fr);gap:24px;align-items:start}
 .product-summary h2{margin:0 0 7px}

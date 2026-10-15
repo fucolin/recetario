@@ -28,6 +28,7 @@ ingredientes:
   unidad: unidad
   nota: 6-8 hojas
 - nombre: requesón
+  producto_preferido: requeson-loran
   cantidad: 100
   unidad: g
 opciones_aderezo:
@@ -64,7 +65,7 @@ Picoteo fresco y ligero · 1 ración · 5 min
 ## Ingredientes
 
 - 1 endivia (6-8 hojas)
-- 100 g de requesón
+- 100 g de [requesón](productos/requeson-loran.html)
 
 ## Opciones para aderezar
 

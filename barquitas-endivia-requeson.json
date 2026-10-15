@@ -30,7 +30,8 @@
     {
       "nombre": "requesón",
       "cantidad": 100,
-      "unidad": "g"
+      "unidad": "g",
+      "producto_preferido": "requeson-loran"
     }
   ],
   "opciones_aderezo": [
