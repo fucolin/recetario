@@ -156,6 +156,51 @@
       "titulo": "Salteado de pavo, brécol y garbanzos",
       "categoria_menu": "Carnes exprés",
       "categoria_slug": "carnes-expres"
+    },
+    {
+      "id": "crema-calabacin",
+      "titulo": "Crema de calabacín",
+      "categoria_menu": "Purés",
+      "categoria_slug": "pures"
+    },
+    {
+      "id": "sardinas-marinadas",
+      "titulo": "Sardinas marinadas",
+      "categoria_menu": "Pescado azul",
+      "categoria_slug": "pescado-azul"
+    },
+    {
+      "id": "pasta-feta-pepino-manzana",
+      "titulo": "Pasta de feta con pepino y manzana",
+      "categoria_menu": "Picoteo y guarniciones",
+      "categoria_slug": "picoteo-y-guarniciones",
+      "nota": "Para servir con barquitas de endivia o tostas",
+      "ingredientes_referencia": [
+        "feta de mezcla",
+        "pepino",
+        "manzana",
+        "avellanas",
+        "pasas",
+        "piparras",
+        "tomillo fresco"
+      ]
+    },
+    {
+      "id": "pasta-feta-sandia-pimientos-asados",
+      "titulo": "Pasta de feta con sandía y pimientos asados",
+      "categoria_menu": "Picoteo y guarniciones",
+      "categoria_slug": "picoteo-y-guarniciones",
+      "nota": "Para servir con barquitas de endivia o tostas",
+      "ingredientes_referencia": [
+        "feta de cabra 100 %",
+        "sandía",
+        "cebolleta morada macerada",
+        "grana padano",
+        "aceitunas marrones",
+        "pimientos asados",
+        "sriracha",
+        "albahaca fresca"
+      ]
     }
   ]
 }
