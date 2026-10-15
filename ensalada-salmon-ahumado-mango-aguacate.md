@@ -59,6 +59,7 @@ image_license: CC BY-SA 2.0
 image_source: https://commons.wikimedia.org/wiki/File:Smoked_Salmon_Salad_with_Baby_Greens_(8989336091).jpg
 image_note: Imagen representativa del salmón ahumado y las hojas tiernas; no muestra el mango ni el aguacate
   de esta ficha y contiene otros ingredientes.
+fecha_actualizacion: "2026-10-15"
 ---
 
 # Ensalada de salmón ahumado, mango y aguacate

@@ -114,10 +114,12 @@ pasos:
     o como base de ensaladas.
 claves: 'Guarda en un recipiente limpio, poco profundo y cerrado, en la nevera a 4 °C o menos. Consume
   en 3-4 días desde el asado. Refrigera antes de que transcurran dos horas desde la cocción, sin esperar
-  a que se enfríe completamente sobre la encimera. Para más tiempo, congela porciones. El aceite es un
-  aliño: no convierte la preparación en una conserva. Si añades ajo crudo al aceite, mantén siempre refrigerado
-  y no superes los 4 días por el riesgo de botulismo. También puedes añadir el ajo solo a la porción que
-  vayas a servir.'
+  a que se enfríe completamente sobre la encimera. Para congelar: ya pelados y sin semillas, en porciones
+  con cebolla, algo de jugo y el aceite que tengan, en bolsas cerradas o recipientes aptos con espacio
+  libre. Enfría rápidamente y congela pronto. A -18 °C, consume preferentemente en 3-4 meses. Descongela
+  en la nevera; pueden quedar algo más blandos. El aceite es un aliño: no convierte la preparación en
+  una conserva. Si añades ajo crudo al aceite, mantén siempre refrigerado y no superes los 4 días por
+  el riesgo de botulismo. También puedes añadir el ajo solo a la porción que vayas a servir.'
 conservacion: Guarda en un recipiente limpio, poco profundo y cerrado, en la nevera a 4 °C o menos. Consume
   en 3-4 días desde el asado. Refrigera antes de que transcurran dos horas desde la cocción, sin esperar
   a que se enfríe completamente sobre la encimera. Para más tiempo, congela porciones.
@@ -147,6 +149,12 @@ recursos:
 - titulo: Conservación de sobras
   url: https://www.foodsafety.gov/blog/game-day-food-safety-tips
   fuente: FoodSafety.gov
+- titulo: Congelación de pimientos asados
+  url: https://nchfp.uga.edu/how/freeze/vegetable/freezing-pimientos/
+  fuente: National Center for Home Food Preservation
+- titulo: Congelación y descongelación de sobras
+  url: https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+  fuente: USDA FSIS
 image: https://fucolin.github.io/recetario/images/pimientos-asados-cebolla-cosori.jpg
 image_alt: Pimientos rojos asados al horno
 image_credit: Juan Emilio Prades Bel
@@ -155,6 +163,13 @@ image_source: https://commons.wikimedia.org/wiki/File:Pimientos_rojos,_asados_al
 image_note: Fotografía representativa de pimientos asados; la preparación de esta ficha incluye cebolla
   y se cocina en freidora de aire.
 pdf: https://fucolin.github.io/recetario/pimientos-asados-cebolla-cosori.pdf
+congelacion: Congela los pimientos ya asados, pelados y sin semillas, en porciones pequeñas con la cebolla,
+  un poco de sus jugos y el aceite que ya tengan. Utiliza recipientes aptos para congelar, dejando algo
+  de espacio libre, o bolsas bien cerradas. Enfría rápidamente y congela pronto, manteniendo la indicación
+  de refrigerar antes de dos horas desde la cocción. Conserva a -18 °C y consume preferentemente en 3-4
+  meses para mantener buena calidad. Descongela en la nevera. Pueden quedar algo más blandos, pero siguen
+  siendo adecuados para guarniciones, tostas o ensaladas.
+fecha_actualizacion: "2026-10-15"
 ---
 
 # Pimientos asados con cebolla
@@ -197,3 +212,10 @@ Foto: <a href="https://commons.wikimedia.org/wiki/File:Pimientos_rojos,_asados_a
 Guarda en un recipiente limpio, poco profundo y cerrado, en la nevera a 4 °C o menos. Consume en 3-4 días desde el asado. Refrigera antes de que transcurran dos horas desde la cocción, sin esperar a que se enfríe completamente sobre la encimera. Para más tiempo, congela porciones.
 
 El aceite es un aliño: no convierte la preparación en una conserva. Si añades ajo crudo al aceite, mantén siempre refrigerado y no superes los 4 días por el [riesgo de botulismo](https://nchfp.uga.edu/how/freeze/vegetable/freezing-garlic-in-oil/). También puedes añadir el ajo solo a la porción que vayas a servir.
+
+
+## Congelación y descongelación
+
+Congela los pimientos ya asados, pelados y sin semillas, en porciones pequeñas con la cebolla, un poco de sus jugos y el aceite que ya tengan. Utiliza recipientes aptos para congelar, dejando algo de espacio libre, o bolsas bien cerradas. Enfría rápidamente y congela pronto, manteniendo la indicación de refrigerar antes de dos horas desde la cocción. Conserva a -18 °C y consume preferentemente en 3-4 meses para mantener buena calidad. Descongela en la nevera. Pueden quedar algo más blandos, pero siguen siendo adecuados para guarniciones, tostas o ensaladas.
+
+Fuentes: [Congelación de pimientos asados](https://nchfp.uga.edu/how/freeze/vegetable/freezing-pimientos/) · [Conservación y descongelación de sobras](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety).

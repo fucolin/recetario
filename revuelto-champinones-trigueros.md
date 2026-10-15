@@ -104,6 +104,7 @@ image_license: CC BY-SA 3.0
 image_source: https://commons.wikimedia.org/wiki/File:Revuelto_de_huevo_con_setas-01.JPG
 image_note: Fotografía representativa de un revuelto con setas; no muestra los trigueros de esta receta.
 pdf: https://fucolin.github.io/recetario/revuelto-champinones-trigueros.pdf
+fecha_actualizacion: "2026-10-15"
 ---
 
 # Revuelto de champiñones y trigueros

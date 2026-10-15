@@ -76,6 +76,7 @@ image_credit: alex lines
 image_license: CC BY-SA 2.0
 image_source: https://commons.wikimedia.org/wiki/File:Tomato_salad_with_basil_oil_and_tomato_coulis_(2857974585).jpg
 image_nota: 'Imagen representativa: muestra tomates pelados y coulis de tomate; la ficha utiliza tomates cortados y rúcula. Presentación recortada a 16:9 mediante CSS; archivo sin modificar.'
+fecha_actualizacion: "2026-10-15"
 ---
 
 # Ensalada de tomates sobre un lago de albahaca

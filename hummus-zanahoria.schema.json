@@ -7,7 +7,11 @@
   "recipeYield": "1 ración",
   "totalTime": "PT2M",
   "keywords": "vegetariano, picoteo sano",
-  "recipeIngredient": ["100 g de hummus", "1 zanahoria grande"],
+  "recipeIngredient": [
+    "100 g de hummus",
+    "1 zanahoria grande"
+  ],
   "image": "https://fucolin.github.io/recetario/images/hummus-zanahoria.jpg",
-  "url": "https://fucolin.github.io/recetario/hummus-zanahoria.html"
+  "url": "https://fucolin.github.io/recetario/hummus-zanahoria.html",
+  "dateModified": "2026-10-15"
 }

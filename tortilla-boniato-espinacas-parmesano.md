@@ -97,6 +97,7 @@ pasos:
     sin perder jugosidad.
 claves: Boniato muy tierno y poco dorado; espinacas sin agua; poca sal porque el parmesano ya aporta. Para una tortilla
   más alta, utiliza una sartén de 18 cm.
+fecha_actualizacion: "2026-10-15"
 ---
 
 # Tortilla de boniato, espinacas y parmesano

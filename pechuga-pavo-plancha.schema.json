@@ -13,12 +13,15 @@
     "sal y pimienta negra al gusto",
     "limón opcional para servir"
   ],
-  "recipeInstructions": [{
-    "@type": "HowToStep",
-    "position": 1,
-    "name": "Cocinar el pavo",
-    "text": "Seca los filetes con papel de cocina y salpimiéntalos. Calienta bien una sartén con el aceite y cocina el pavo 2-3 minutos por cada lado, según el grosor, hasta que esté hecho pero aún jugoso. Déjalo reposar 2 minutos antes de servir y añade limón si te apetece."
-  }],
+  "recipeInstructions": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "Cocinar el pavo",
+      "text": "Seca los filetes con papel de cocina y salpimiéntalos. Calienta bien una sartén con el aceite y cocina el pavo 2-3 minutos por cada lado, según el grosor, hasta que esté hecho pero aún jugoso. Déjalo reposar 2 minutos antes de servir y añade limón si te apetece."
+    }
+  ],
   "image": "https://fucolin.github.io/recetario/images/pechuga-pavo-plancha.jpg",
-  "url": "https://fucolin.github.io/recetario/pechuga-pavo-plancha.html"
+  "url": "https://fucolin.github.io/recetario/pechuga-pavo-plancha.html",
+  "dateModified": "2026-10-15"
 }

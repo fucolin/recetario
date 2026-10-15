@@ -8,7 +8,7 @@ Los PDF del recetario se generan con `tools/generar_pdfs.py`. No deben maquetars
 - Títulos y secciones en verde oscuro.
 - Ingredientes sin viñetas y distribuidos en dos columnas.
 - Fondo de ingredientes exacto `#F3F6F1`.
-- Pasos numerados, bloque `CLAVES` y pie `Receta para imprimir · A4`.
+- Pasos numerados, bloque `CLAVES` y pie `Fecha: DD/MM/AAAA`.
 - Cada JSON debe incluir `pdf_ingredientes`: es la lista editorial exacta que se imprime y evita que una conversión automática altere cantidades o unidades.
 
 Los colores y medidas viven en un solo sitio: las constantes situadas al principio del generador.
@@ -33,3 +33,7 @@ El programa detiene la generación si detecta viñetas, si falta la lista editor
 ## Enlaces sobre el texto
 
 El campo opcional `enlaces_texto` admite objetos con `texto` y `url`. El generador subraya y enlaza las coincidencias dentro de una línea, por ejemplo «botulismo», sin alterar la plantilla.
+
+## Fecha del pie
+
+El pie obtiene la fecha de `fecha_actualizacion` (cadena ISO `AAAA-MM-DD`) del JSON, nunca de la fecha de generación. Se muestra como `Fecha: DD/MM/AAAA`. El generador exige una fecha válida.

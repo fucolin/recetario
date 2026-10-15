@@ -35,6 +35,7 @@ ingredientes:
   nota: opcional, para servir
 indicaciones: Seca los filetes con papel de cocina y salpimiéntalos. Calienta bien una sartén con el aceite y cocina el pavo 2-3 minutos por cada lado, según el grosor, hasta que esté hecho pero aún jugoso. Déjalo reposar 2 minutos antes de servir y añade limón si te apetece.
 consejo: "No lo cocines más de lo necesario: el pavo se seca con facilidad."
+fecha_actualizacion: "2026-10-15"
 ---
 
 # Pechuga de pavo a la plancha

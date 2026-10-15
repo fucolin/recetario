@@ -8,14 +8,37 @@
   "categoria": "Carnes",
   "categoria_menu": "Carnes exprés",
   "tipo_ficha": "preparacion",
-  "etiquetas": ["rápido"],
-  "raciones": {"min": 2, "max": 2},
-  "tiempo_total_min": {"min": 10, "max": 12},
+  "etiquetas": [
+    "rápido"
+  ],
+  "raciones": {
+    "min": 2,
+    "max": 2
+  },
+  "tiempo_total_min": {
+    "min": 10,
+    "max": 12
+  },
   "ingredientes": [
-    {"nombre": "filetes de pechuga de pavo", "cantidad": 300, "unidad": "g"},
-    {"nombre": "aceite de oliva virgen extra", "cantidad": 1, "unidad": "cucharada", "nota": "15 ml"},
-    {"nombre": "sal y pimienta negra", "nota": "al gusto"},
-    {"nombre": "limón", "nota": "opcional, para servir"}
+    {
+      "nombre": "filetes de pechuga de pavo",
+      "cantidad": 300,
+      "unidad": "g"
+    },
+    {
+      "nombre": "aceite de oliva virgen extra",
+      "cantidad": 1,
+      "unidad": "cucharada",
+      "nota": "15 ml"
+    },
+    {
+      "nombre": "sal y pimienta negra",
+      "nota": "al gusto"
+    },
+    {
+      "nombre": "limón",
+      "nota": "opcional, para servir"
+    }
   ],
   "indicaciones": "Seca los filetes con papel de cocina y salpimiéntalos. Calienta bien una sartén con el aceite y cocina el pavo 2-3 minutos por cada lado, según el grosor, hasta que esté hecho pero aún jugoso. Déjalo reposar 2 minutos antes de servir y añade limón si te apetece.",
   "consejo": "No lo cocines más de lo necesario: el pavo se seca con facilidad.",
@@ -23,5 +46,6 @@
   "image_alt": "Pechuga de pavo cocinada y cortada en filetes",
   "image_credit": "Sarah Stierch",
   "image_license": "CC BY 4.0",
-  "image_source": "https://commons.wikimedia.org/wiki/File:Cooked_turkey_breast_-_November_2023_-_Sarah_Stierch.jpg"
+  "image_source": "https://commons.wikimedia.org/wiki/File:Cooked_turkey_breast_-_November_2023_-_Sarah_Stierch.jpg",
+  "fecha_actualizacion": "2026-10-15"
 }

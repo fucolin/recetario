@@ -8,16 +8,34 @@
   "categoria": "Combinaciones",
   "categoria_menu": "Picoteo y guarniciones",
   "tipo_ficha": "combinacion",
-  "etiquetas": ["vegetariano", "picoteo sano"],
-  "raciones": {"min": 1, "max": 1},
-  "tiempo_total_min": {"min": 2, "max": 2},
+  "etiquetas": [
+    "vegetariano",
+    "picoteo sano"
+  ],
+  "raciones": {
+    "min": 1,
+    "max": 1
+  },
+  "tiempo_total_min": {
+    "min": 2,
+    "max": 2
+  },
   "ingredientes": [
-    {"nombre": "hummus", "cantidad": 100, "unidad": "g"},
-    {"nombre": "zanahoria grande", "cantidad": 1, "unidad": "unidad"}
+    {
+      "nombre": "hummus",
+      "cantidad": 100,
+      "unidad": "g"
+    },
+    {
+      "nombre": "zanahoria grande",
+      "cantidad": 1,
+      "unidad": "unidad"
+    }
   ],
   "image": "https://fucolin.github.io/recetario/images/hummus-zanahoria.jpg",
   "image_alt": "Hummus servido con una zanahoria",
   "image_credit": "Vegan Feast Catering",
   "image_license": "CC BY 2.0",
-  "image_source": "https://commons.wikimedia.org/wiki/File:Hummus_and_carrot_(3841125815).jpg"
+  "image_source": "https://commons.wikimedia.org/wiki/File:Hummus_and_carrot_(3841125815).jpg",
+  "fecha_actualizacion": "2026-10-15"
 }

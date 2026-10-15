@@ -57,8 +57,19 @@
       "position": 7,
       "name": "Mezcla y aliña",
       "text": "Pon los pimientos y la cebolla en un recipiente limpio. Añade los jugos colados para retirar semillas o restos de piel, sal al gusto y un poco de aceite. Si quieres, incorpora el ajo laminado y una de las especias opcionales. Mezcla suavemente. Sirven para picotear, como guarnición o como base de ensaladas."
+    },
+    {
+      "@type": "HowToSection",
+      "name": "Congelación y descongelación",
+      "itemListElement": [
+        {
+          "@type": "HowToStep",
+          "text": "Congela los pimientos ya asados, pelados y sin semillas, en porciones pequeñas con la cebolla, un poco de sus jugos y el aceite que ya tengan. Utiliza recipientes aptos para congelar, dejando algo de espacio libre, o bolsas bien cerradas. Enfría rápidamente y congela pronto, manteniendo la indicación de refrigerar antes de dos horas desde la cocción. Conserva a -18 °C y consume preferentemente en 3-4 meses para mantener buena calidad. Descongela en la nevera. Pueden quedar algo más blandos, pero siguen siendo adecuados para guarniciones, tostas o ensaladas."
+        }
+      ]
     }
   ],
   "image": "https://fucolin.github.io/recetario/images/pimientos-asados-cebolla-cosori.jpg",
-  "url": "https://fucolin.github.io/recetario/pimientos-asados-cebolla-cosori.html"
+  "url": "https://fucolin.github.io/recetario/pimientos-asados-cebolla-cosori.html",
+  "dateModified": "2026-10-15"
 }

@@ -50,6 +50,7 @@ opciones_aderezo:
   - unas gotas de limón
   - pimienta negra
 consejo: Separa 6-8 hojas bonitas, reparte el requesón entre ellas y elige una sola opción de aderezo. Sírvelas recién montadas para conservar el crujiente de la endivia.
+fecha_actualizacion: "2026-10-15"
 ---
 
 # Barquitas de endivia con requesón

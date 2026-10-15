@@ -121,6 +121,7 @@ pasos:
   instrucciones: Apaga el fuego, añade unas gotas de limón y deja reposar con la olla tapada.
 claves: Para espesar, aplasta algunos dados de calabaza. Remueve con cuidado para no romper las lentejas. Ajusta
   el caldo poco a poco.
+fecha_actualizacion: "2026-10-15"
 ---
 
 # Lentejas cremosas con calabaza y espinacas

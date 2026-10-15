@@ -44,6 +44,7 @@ ingredientes:
   nota: al gusto
 indicaciones: Lamina los champiñones y corta los tomates por la mitad. Saltea los champiñones con el aceite a fuego medio-alto durante 4-5 minutos. Incorpora los tomates y cocina 2-3 minutos más, procurando que se ablanden y se doren ligeramente sin deshacerse. Coloca los canónigos como base, reparte encima el salteado todavía templado y termina con el feta desmenuzado y pimienta negra.
 consejo: Añade muy poca sal —o ninguna— hasta probarlo, porque el feta ya aporta bastante. Sírvelo inmediatamente para que los canónigos se templen sin perder volumen.
+fecha_actualizacion: "2026-10-15"
 ---
 
 # Canónigos con champiñones, cherrys y feta

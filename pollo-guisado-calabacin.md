@@ -121,6 +121,7 @@ pasos:
     Deja reposar 5 min con el fuego apagado y la olla tapada.
 claves: El fondo marrón aporta sabor; el negro amarga. No amontones el pollo. El calabacín debe llegar al reposo
   aún ligeramente firme. Si usas pechuga, acorta el guisado y vigila especialmente que no se seque.
+fecha_actualizacion: "2026-10-15"
 ---
 
 # Pollo guisado con calabacín

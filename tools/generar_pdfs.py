@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+from datetime import date
 import json
 import math
 import re
@@ -107,6 +108,7 @@ def dibujar_ingredientes(c, ingredientes: list[str], y_superior: float) -> float
 
 
 def generar_pdf(receta: dict, destino: Path) -> None:
+    fecha_actualizacion = date.fromisoformat(receta["fecha_actualizacion"]).strftime("%d/%m/%Y")
     ingredientes = ingredientes_para_pdf(receta)
     if any(re.match(r"^\s*[•◦*-]\s+", item) for item in ingredientes):
         raise ValueError("Los ingredientes del PDF no pueden contener viñetas")
@@ -193,7 +195,7 @@ def generar_pdf(receta: dict, destino: Path) -> None:
     c.line(MARGEN_X, PIE_Y + 11, ancho - MARGEN_X, PIE_Y + 11)
     c.setFont("Helvetica", 7.4)
     c.setFillColor(HexColor(VERDE_SECUNDARIO))
-    c.drawString(MARGEN_X, PIE_Y, "Receta para imprimir · A4")
+    c.drawString(MARGEN_X, PIE_Y, f"Fecha: {fecha_actualizacion}")
     c.save()
 
 

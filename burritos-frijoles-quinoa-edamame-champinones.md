@@ -145,6 +145,7 @@ image_source: https://commons.wikimedia.org/wiki/File:Vegetarian_burrito_(Los_An
 image_note: Fotografía representativa de un burrito vegetariano; el relleno mostrado puede diferir de
   esta receta.
 pdf: https://fucolin.github.io/recetario/burritos-frijoles-quinoa-edamame-champinones.pdf
+fecha_actualizacion: "2026-10-15"
 ---
 
 # Burritos de frijoles negros, quinoa, edamame y champiñones

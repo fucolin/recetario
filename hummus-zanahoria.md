@@ -29,6 +29,7 @@ ingredientes:
 - nombre: zanahoria grande
   cantidad: 1
   unidad: unidad
+fecha_actualizacion: "2026-10-15"
 ---
 
 # Hummus con zanahoria

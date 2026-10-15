@@ -15,12 +15,15 @@
     "1 cucharadita de aceite de oliva virgen extra",
     "sal y pimienta negra al gusto"
   ],
-  "recipeInstructions": [{
-    "@type": "HowToStep",
-    "position": 1,
-    "name": "Preparar y montar",
-    "text": "Lamina los champiñones y corta los tomates por la mitad. Saltea los champiñones con el aceite a fuego medio-alto durante 4-5 minutos. Incorpora los tomates y cocina 2-3 minutos más, procurando que se ablanden y se doren ligeramente sin deshacerse. Coloca los canónigos como base, reparte encima el salteado todavía templado y termina con el feta desmenuzado y pimienta negra."
-  }],
+  "recipeInstructions": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "Preparar y montar",
+      "text": "Lamina los champiñones y corta los tomates por la mitad. Saltea los champiñones con el aceite a fuego medio-alto durante 4-5 minutos. Incorpora los tomates y cocina 2-3 minutos más, procurando que se ablanden y se doren ligeramente sin deshacerse. Coloca los canónigos como base, reparte encima el salteado todavía templado y termina con el feta desmenuzado y pimienta negra."
+    }
+  ],
   "image": "https://fucolin.github.io/recetario/images/canonigos-champinones-cherrys-feta.jpg",
-  "url": "https://fucolin.github.io/recetario/canonigos-champinones-cherrys-feta.html"
+  "url": "https://fucolin.github.io/recetario/canonigos-champinones-cherrys-feta.html",
+  "dateModified": "2026-10-15"
 }

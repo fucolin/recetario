@@ -8,16 +8,50 @@
   "categoria": "Preparaciones sencillas",
   "categoria_menu": "Picoteo y guarniciones",
   "tipo_ficha": "preparacion",
-  "etiquetas": ["vegetariano", "picoteo sano"],
-  "raciones": {"min": 1, "max": 1},
-  "tiempo_total_min": {"min": 10, "max": 12},
+  "etiquetas": [
+    "vegetariano",
+    "picoteo sano"
+  ],
+  "raciones": {
+    "min": 1,
+    "max": 1
+  },
+  "tiempo_total_min": {
+    "min": 10,
+    "max": 12
+  },
   "ingredientes": [
-    {"nombre": "champiñones", "cantidad_min": 100, "cantidad_max": 120, "unidad": "g"},
-    {"nombre": "tomates cherry", "cantidad": 100, "unidad": "g"},
-    {"nombre": "canónigos", "cantidad_min": 40, "cantidad_max": 50, "unidad": "g"},
-    {"nombre": "queso feta", "cantidad": 30, "unidad": "g"},
-    {"nombre": "aceite de oliva virgen extra", "cantidad": 1, "unidad": "cucharadita"},
-    {"nombre": "sal y pimienta negra", "nota": "al gusto"}
+    {
+      "nombre": "champiñones",
+      "cantidad_min": 100,
+      "cantidad_max": 120,
+      "unidad": "g"
+    },
+    {
+      "nombre": "tomates cherry",
+      "cantidad": 100,
+      "unidad": "g"
+    },
+    {
+      "nombre": "canónigos",
+      "cantidad_min": 40,
+      "cantidad_max": 50,
+      "unidad": "g"
+    },
+    {
+      "nombre": "queso feta",
+      "cantidad": 30,
+      "unidad": "g"
+    },
+    {
+      "nombre": "aceite de oliva virgen extra",
+      "cantidad": 1,
+      "unidad": "cucharadita"
+    },
+    {
+      "nombre": "sal y pimienta negra",
+      "nota": "al gusto"
+    }
   ],
   "indicaciones": "Lamina los champiñones y corta los tomates por la mitad. Saltea los champiñones con el aceite a fuego medio-alto durante 4-5 minutos. Incorpora los tomates y cocina 2-3 minutos más, procurando que se ablanden y se doren ligeramente sin deshacerse. Coloca los canónigos como base, reparte encima el salteado todavía templado y termina con el feta desmenuzado y pimienta negra.",
   "consejo": "Añade muy poca sal —o ninguna— hasta probarlo, porque el feta ya aporta bastante. Sírvelo inmediatamente para que los canónigos se templen sin perder volumen.",
@@ -25,5 +59,6 @@
   "image_alt": "Champiñones, tomates cherry, hojas verdes y queso blanco servidos en un plato",
   "image_credit": "HaJunkiyada",
   "image_license": "CC BY-SA 4.0",
-  "image_source": "https://commons.wikimedia.org/wiki/File:Liat_Portal_for_Foodie_Disorder_-_Healthy_snack_plate_with_cherry_tomatoes_avocado_mushrooms_and_tzfatit_cheese.jpg"
+  "image_source": "https://commons.wikimedia.org/wiki/File:Liat_Portal_for_Foodie_Disorder_-_Healthy_snack_plate_with_cherry_tomatoes_avocado_mushrooms_and_tzfatit_cheese.jpg",
+  "fecha_actualizacion": "2026-10-15"
 }

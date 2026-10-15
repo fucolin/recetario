@@ -60,6 +60,12 @@ Codex debe actualizar todas las representaciones afectadas para que no queden co
 
 Si el usuario indica que solo está afinando o probando un cambio, no se preparará la actualización del repositorio hasta que diga «Al recetario».
 
+## Fecha de actualización
+
+Todas las fichas disponibles incluyen `fecha_actualizacion` como cadena ISO `AAAA-MM-DD` en Markdown/YAML y JSON, y `dateModified` con el mismo valor en Schema.org (archivo y bloque integrado en HTML). Inicialización del registro: 2026-10-15. Al crear o modificar el contenido de una ficha, actualizar la fecha según Europe/Madrid. No cambiarla solo por regenerar un PDF o por cambios globales de presentación.
+
+La fecha se muestra únicamente en el PDF, en el pie `Fecha: DD/MM/AAAA`. No mostrarla en el cuerpo de la web, tarjetas ni índice; conservarla solo en sus metadatos. Las tarjetas «Próximamente» aún no son fichas completas y no necesitan este dato hasta desarrollarse.
+
 ## Categorías del menú semanal
 
 Cada receta debe pertenecer a una sola `categoria_menu`. La clasificación oficial es:
