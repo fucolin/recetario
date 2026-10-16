@@ -166,3 +166,8 @@ Doce láminas originales descargadas de Codinugal por petición expresa del usua
 - `images/calendario-verduras/10-octubre.jpg`: https://codinugal.es/wp-content/uploads/2024/02/10-verduras-outubro.jpg
 - `images/calendario-verduras/11-noviembre.jpg`: https://codinugal.es/wp-content/uploads/2024/02/11-verduras-novembro.jpg
 - `images/calendario-verduras/12-diciembre.jpg`: https://codinugal.es/wp-content/uploads/2024/02/12-verduras-decembro.jpg
+# Encabezado de Casa Marisa e imagen para compartir
+
+- `images/casa-marisa-compartir-20261016.svg` y `.png`: diseño original creado para este recetario, a petición del usuario. Ramita de hierba luisa en flor dibujada en SVG; no procede de una fotografía ni de un banco de imágenes. No se declara una licencia abierta de terceros.
+- Referencia botánica de forma de hojas: [Kew · Aloysia citrodora](https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A1015994-1/general-information). No se reproduce su ilustración ni fotografía.
+- Generación: `tools/generar_imagen_compartir.py`, usando la ramita del encabezado de `index.html`, tipografías DejaVu Sans y DejaVu Serif para la imagen rasterizada. Fecha de creación: 2026-10-16.
