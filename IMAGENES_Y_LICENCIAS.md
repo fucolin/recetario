@@ -83,6 +83,13 @@ Las fotografías se muestran en las páginas HTML y se declaran en el YAML y en 
 
 ## Ensalada de salmón ahumado, mango y aguacate
 
+- Archivo activo: `images/ensalada-salmon-ahumado-mango-aguacate-ilustracion-v1.jpg`.
+- Ilustración generada con IA para Casa Marisa el 17/10/2026 con la herramienta integrada.
+- Prompt: ensalada sobre plato blanco con canónigos, salmón ahumado, dados de mango, aguacate y aliño de aceite, limón y pimienta; luz natural, formato horizontal y sin otros ingredientes ni texto.
+- Exportada como JPEG optimizado. No es una fotografía del plato preparado; no se atribuye licencia Creative Commons.
+
+### Fotografía anterior, retirada de las fichas
+
 - Archivo local: `images/ensalada-salmon-ahumado-mango-aguacate.jpg`
 - Obra: [Ensalada de salmón ahumado con hojas tiernas](https://commons.wikimedia.org/wiki/File:Smoked_Salmon_Salad_with_Baby_Greens_(8989336091).jpg)
 - Autor: Marie

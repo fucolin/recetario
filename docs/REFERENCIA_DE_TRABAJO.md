@@ -9,7 +9,7 @@ Para una ficha nueva, completar este proceso. Para una actualización, actuar so
 1. Crear o actualizar la receta maestra en Markdown con YAML, incluidos `tipo_ficha` y `categoria_menu`.
 2. Crear o actualizar el JSON completo, incluidos `tipo_ficha` y `categoria_menu`. `pdf_ingredientes` solo es obligatorio para las fichas de tipo `receta`.
 3. Crear o actualizar el JSON Schema.org `Recipe`.
-4. Seleccionar una fotografía adecuada con licencia reutilizable, guardarla localmente y documentar su autoría, fuente y licencia, salvo que el usuario proporcione una fotografía propia.
+4. Para las fichas nuevas, generar una ilustración original ajustada a los ingredientes y al plato, salvo que el usuario aporte una fotografía propia. No buscar imágenes en la web por defecto. Guardar el recurso en `images/`, registrar su origen y mostrar que es una imagen ilustrativa generada con IA, sin atribuir autoría fotográfica ni una licencia Creative Commons inventada. Usar fotografías propias cuando se aporten.
 5. Crear o actualizar la página HTML con fotografía, atribución, datos estructurados `Recipe.image`, ingredientes con fondo `#F3F6F1` y botón «Más de [categoría]» con icono SVG de cuadrícula. Solo las fichas de tipo `receta` muestran además el enlace visible al PDF.
 6. Solo para `tipo_ficha: receta`, generar el PDF mediante `tools/generar_pdfs.py`: una página A4, sin fotografía, ingredientes sin viñetas y en dos columnas sobre fondo `#F3F6F1`, títulos verdes, pasos numerados, claves y pie. Las preparaciones sencillas y las combinaciones no generan PDF.
 7. Actualizar `index.html` y la página visual de `categorias/` correspondiente, sin crear entradas duplicadas y distinguiendo claramente las variantes.
