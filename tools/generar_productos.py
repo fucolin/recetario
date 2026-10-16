@@ -40,6 +40,8 @@ def generar():
         detalles_html = ''.join(f'<p class="note">{e(texto)}</p>' for texto in ([('Alérgenos: ' + ', '.join(detalles['alergenos']) + '.') ] if detalles.get('alergenos') else []) + ([detalles['conservacion']] if detalles.get('conservacion') else []) + ([detalles['fabricante']] if detalles.get('fabricante') else []))
         if detalles.get('origen_leche'):
             detalles_html += f'<p class="note">{e(detalles["origen_leche"])}</p>'
+        if detalles.get('trazas'):
+            detalles_html += f'<p class="note">Puede contener trazas de {e(", ".join(detalles["trazas"]))}.</p>'
         referencias_html = ''
         for ref in data.get('referencias_otros_formatos', []):
             fecha_ref = date.fromisoformat(ref['fecha']).strftime('%d/%m/%Y')
@@ -54,11 +56,14 @@ def generar():
         filas = [('Energía', f"{numero(nutricion['energia_kj'])} kJ / {numero(nutricion['energia_kcal'])} kcal")]
         filas += [(label, (numero(nutricion[key]) + ' g') if nutricion.get(key) is not None else 'No declarada') for key, label in [('grasas_g', 'Grasas'), ('saturadas_g', 'De las cuales saturadas'), ('hidratos_g', 'Hidratos de carbono'), ('azucares_g', 'De los cuales azúcares'), ('fibra_g', 'Fibra'), ('proteinas_g', 'Proteínas'), ('sal_g', 'Sal')]]
         precio = data['precio_referencia']
+        escurrido = precio.get('base_calculo') == 'peso_escurrido'
+        unidad_precio = '€/kg escurrido' if escurrido else '€/kg'
         precio_texto = '<p>Por anotar</p><p class="note">Precio del envase · €/kg · Fecha del precio</p>'
         resumen_fecha = ''
         if precio['importe'] is not None:
-            por_kg = precio['importe'] / (formato['cantidad'] / 1000)
-            precio_texto = f'<p>{precio["importe"]:.2f} € · {por_kg:.2f} €/kg</p>'.replace('.', ',')
+            peso_precio = formato['peso_escurrido_g'] if escurrido else formato['cantidad']
+            por_kg = precio['importe'] / (peso_precio / 1000)
+            precio_texto = f'<p>{precio["importe"]:.2f} € · {por_kg:.2f} {unidad_precio}</p>'.replace('.', ',')
             if precio['fecha']:
                 resumen_fecha = date.fromisoformat(precio['fecha']).strftime('%d/%m/%Y')
         tiendas = '<p>Por anotar</p><p class="note">Tienda · Enlace al producto</p>'
@@ -84,7 +89,7 @@ def generar():
         nota_compra = f'<p class="purchase-note">{e(resumen_precio)}</p>' if resumen_precio else ''
         resumen_compra = 'Precio y tienda por anotar'
         if precio['importe'] is not None:
-            resumen_compra = f'{precio["importe"]:.2f} € · {por_kg:.2f} €/kg'.replace('.', ',')
+            resumen_compra = f'{precio["importe"]:.2f} € · {por_kg:.2f} {unidad_precio}'.replace('.', ',')
             if precio.get('tienda'):
                 resumen_compra += ' · ' + precio['tienda']
         links_recetas = []
@@ -109,13 +114,15 @@ def generar():
                 yuka_texto += f'<p class="note">Consultada: {date.fromisoformat(yuka["fecha_consulta"]).strftime("%d/%m/%Y")}</p>'
             elif yuka.get('fecha_aportacion'):
                 yuka_texto += f'<p class="note">Fuente: captura de Yuka aportada el {date.fromisoformat(yuka["fecha_aportacion"]).strftime("%d/%m/%Y")}.</p>'
+            if yuka.get('captura'):
+                yuka_texto += f'<p class="note"><a href="../{e(yuka["captura"])}">Ver captura de Yuka →</a></p>'
         schema = {'@context': 'https://schema.org', '@type': 'WebPage', 'name': nombre, 'url': BASE + f'productos/{slug}.html', 'dateModified': data['fecha_actualizacion'], 'mainEntity': {'@type': 'Product', '@id': BASE + f'productos/{slug}.html#producto', 'name': nombre, 'brand': {'@type': 'Brand', 'name': marca}, 'description': data['descripcion'], 'category': data['categoria'], 'image': [BASE + i['archivo'] for i in data['imagenes']], 'weight': {'@type': 'QuantitativeValue', 'value': formato['cantidad'], 'unitCode': 'GRM'}, 'additionalProperty': [{'@type': 'PropertyValue', 'name': label + ' por 100 g', 'value': value} for label, value in filas]}}
         maestro.with_suffix('.schema.json').write_text(json.dumps(schema, ensure_ascii=False, indent=2) + '\n')
         contenido = f'''<nav><a href="../ingredientes-preferidos.html">← Ingredientes preferidos</a></nav>
 <header class="product-heading"><figure><a href="../{e(imagen['archivo'])}"><img class="product-photo" src="../{e(imagen['archivo'])}" alt="{e(imagen['alt'])}" {dimensiones(imagen)}></a><figcaption>Fotografía propia · <a href="../{e(imagen['archivo'])}">Ver envase completo</a></figcaption></figure>
 <div><span class="tag">{e(data['categoria'])}</span><h1>{e(nombre)}</h1><p class="meta">{e(marca)} · {e(envase)}</p><p>{e(data['descripcion'])}</p><p class="note">{e(formato['nota'])}</p><div class="purchase"><section><h2>Precio de referencia</h2>{precio_texto}</section><section><h2>Dónde lo compro</h2>{tiendas}</section>{nota_compra}</div></div></header>
 {bloque_recetas}
-<div class="columns"><div><section><h2>Por qué lo uso</h2>''' + ''.join(f'<p>{e(motivo)}</p>' for motivo in data['por_que_lo_uso']) + f'''</section><section><h2>{titulo_uso}</h2><p>{e(data['uso_en_cocina'])}</p></section><section><h2>Composición</h2><p class="composition">{composicion}</p>{detalles_html}</section></div>
+<div class="columns"><div><section><h2>Por qué lo uso</h2>''' + (''.join(f'<p>{e(motivo)}</p>' for motivo in data['por_que_lo_uso']) or '<p class="note">Pendiente de concretar.</p>') + f'''</section><section><h2>{titulo_uso}</h2><p>{e(data['uso_en_cocina'])}</p></section><section><h2>Composición</h2><p class="composition">{composicion}</p>{detalles_html}</section></div>
 <section><h2>Valores por 100 g</h2><table class="nutrition"><caption>Según la etiqueta fotografiada aportada el {fecha_fuente}.</caption><tbody>''' + ''.join(f'<tr><th scope="row">{e(label)}</th><td>{e(value)}</td></tr>' for label, value in filas) + f'''</tbody></table><a class="label-link" href="../{e(etiqueta['archivo'])}">Ver fotografía de la etiqueta →</a></section></div>
 <section class="yuka"><h2>Valoración de Yuka</h2>{yuka_texto}</section>
 <details><summary>Ingredientes y tabla nutricional del envase</summary>{fotos_etiqueta}</details>

@@ -179,3 +179,8 @@ Doce láminas originales descargadas de Codinugal por petición expresa del usua
 
 
 - `images/casa-marisa-compartir-20261016-v3.svg` y `.png`: nueva composición del diseño original de Casa Marisa, con ramita de hierba luisa, logo ampliado y fondo blanco; sin marco ni filete horizontal. Generada con `tools/generar_imagen_compartir.py`.
+# Arroz Nomen, edamame Cidacos y piadina Biocop
+
+Las fotografías de envases y etiquetas `images/productos/arroz-integral-nomen-{envase,etiqueta}.jpeg`, `edamame-cidacos-{envase,nutricion,ingredientes}.jpeg` y `piadina-espelta-biocop-{envase,etiqueta}.jpeg` han sido aportadas por el usuario el 16/10/2026. Se conservan sin modificaciones, con el envase legible y sin recortar su presentación. No se ha indicado una licencia de reutilización.
+
+Las capturas `images/productos/arroz-integral-nomen-yuka.jpeg`, `edamame-cidacos-yuka.jpeg` y `piadina-espelta-biocop-yuka.jpeg` corresponden a Yuka y han sido aportadas por el usuario. Se atribuyen la puntuación y los comentarios a Yuka; no se asigna una licencia abierta a estas capturas.

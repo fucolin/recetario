@@ -1,0 +1,69 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Piadina de trigo espelta",
+  "url": "https://fucolin.github.io/recetario/productos/piadina-espelta-biocop.html",
+  "dateModified": "2026-10-16",
+  "mainEntity": {
+    "@type": "Product",
+    "@id": "https://fucolin.github.io/recetario/productos/piadina-espelta-biocop.html#producto",
+    "name": "Piadina de trigo espelta",
+    "brand": {
+      "@type": "Brand",
+      "name": "Biocop"
+    },
+    "description": "Piadinas de trigo espelta de agricultura biológica, en paquete de tres unidades de 75 g.",
+    "category": "Pan y bases para rellenar",
+    "image": [
+      "https://fucolin.github.io/recetario/images/productos/piadina-espelta-biocop-envase.jpeg",
+      "https://fucolin.github.io/recetario/images/productos/piadina-espelta-biocop-etiqueta.jpeg"
+    ],
+    "weight": {
+      "@type": "QuantitativeValue",
+      "value": 225,
+      "unitCode": "GRM"
+    },
+    "additionalProperty": [
+      {
+        "@type": "PropertyValue",
+        "name": "Energía por 100 g",
+        "value": "1348 kJ / 320 kcal"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Grasas por 100 g",
+        "value": "8,6 g"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "De las cuales saturadas por 100 g",
+        "value": "0,8 g"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Hidratos de carbono por 100 g",
+        "value": "49,5 g"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "De los cuales azúcares por 100 g",
+        "value": "1,1 g"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Fibra por 100 g",
+        "value": "3 g"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Proteínas por 100 g",
+        "value": "9,7 g"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Sal por 100 g",
+        "value": "1,7 g"
+      }
+    ]
+  }
+}

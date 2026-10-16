@@ -1,0 +1,147 @@
+---
+esquema: recetario-producto-1.0
+id: piadina-espelta-biocop
+tipo_ficha: producto
+nombre: Piadina de trigo espelta
+marca: Biocop
+categoria: Pan y bases para rellenar
+descripcion: Piadinas de trigo espelta de agricultura biológica, en paquete de tres unidades de 75 g.
+formato:
+  envase: paquete de tres piadinas
+  cantidad: 225
+  unidad: g
+  unidades: 3
+  cantidad_por_unidad_g: 75
+  nota: 3 × 75 g. Lista para rellenar con salado o dulce. El envase no la identifica como integral.
+por_que_lo_uso:
+- Lo uso para preparar burritos.
+uso_en_cocina: La uso como envoltura de los burritos. Según el envase, se calienta en plancha o sartén antiadherente
+  1 minuto por cada lado antes de rellenarla.
+ingredientes:
+- nombre: harina de trigo espelta de agricultura biológica
+  porcentaje: 64
+- nombre: agua
+- nombre: aceite vegetal de semillas de girasol de agricultura biológica
+- nombre: sal
+- nombre: aroma natural de romero
+nutricion_por_100g:
+  energia_kj: 1348
+  energia_kcal: 320
+  grasas_g: 8.6
+  saturadas_g: 0.8
+  hidratos_g: 49.5
+  azucares_g: 1.1
+  fibra_g: 3
+  proteinas_g: 9.7
+  sal_g: 1.7
+precio_referencia:
+  importe: 3.49
+  moneda: EUR
+  fecha: '2026-09-30'
+  tienda: Carrefour Los Rosales
+  url: null
+  precio_por_kg: 15.51
+  fuente: Ticket de compra aportado por el usuario
+  nota: El ticket indica «PIADINA BIOCOP 225G». Precio por kg calculado sobre 225 g netos.
+puntos_venta:
+- tienda: Carrefour Los Rosales
+  url: null
+  fuente: Ticket de compra aportado por el usuario
+yuka:
+  puntuacion: 61
+  valoracion: Bueno
+  observaciones: 'Yuka señala la sal como aspecto negativo. Algunos datos de su captura difieren del envase: proteínas
+    7,8 frente a 9,7 g; fibra 2 frente a 3 g; azúcares 1,2 frente a 1,1 g; energía 329 frente a 320 kcal por 100
+    g. La ficha mantiene los datos de la etiqueta, sin presuponer el motivo de las diferencias.'
+  fecha_consulta: null
+  fecha_aportacion: '2026-10-16'
+  fuente: Captura de Yuka aportada por el usuario
+  captura: images/productos/piadina-espelta-biocop-yuka.jpeg
+  positivos:
+  - aspecto: Aditivos
+    valor: Sin aditivos
+    comentario: Sin sustancia peligrosa
+  - aspecto: Ecológico
+    valor: Ecológico
+    comentario: Sin pesticida de síntesis
+  - aspecto: Proteínas
+    valor: 7,8 g por 100 g
+    comentario: Algunas proteínas
+  - aspecto: Fibras
+    valor: 2 g por 100 g
+    comentario: Algunas fibras
+  - aspecto: Grasas saturadas
+    valor: 0,8 g por 100 g
+    comentario: Bajo en grasas saturadas
+  - aspecto: Azúcar
+    valor: 1,2 g por 100 g
+    comentario: Bajo en azúcar
+  - aspecto: Valor energético
+    valor: 329 kcal por 100 g
+    comentario: Impacto bajo
+  negativos:
+  - aspecto: Sal
+    valor: 1,7 g por 100 g
+    comentario: Demasiado salado
+recetas:
+- burritos-frijoles-quinoa-edamame-champinones
+fuente_datos:
+  tipo: Fotografías del envase y captura de Yuka aportadas por el usuario
+  fecha_aportacion: '2026-10-16'
+imagenes:
+- archivo: images/productos/piadina-espelta-biocop-envase.jpeg
+  alt: Paquete de tres piadinas de trigo espelta Biocop de 225 g
+  uso: envase
+  origen: Fotografía propia proporcionada por el usuario
+  licencia: No se ha indicado una licencia de reutilización
+  ancho: 1536
+  alto: 864
+- archivo: images/productos/piadina-espelta-biocop-etiqueta.jpeg
+  alt: Ingredientes, nutrición y preparación de las piadinas de espelta Biocop
+  uso: etiqueta
+  origen: Fotografía propia proporcionada por el usuario
+  licencia: No se ha indicado una licencia de reutilización
+  ancho: 1536
+  alto: 864
+datos_etiqueta:
+  gtin13: '8423903048375'
+  alergenos:
+  - trigo (espelta)
+  - gluten
+  trazas:
+  - soja
+  - mostaza
+  conservacion: Envasado en atmósfera protectora. Mantener en lugar fresco y seco. Una vez abierto, cerrar la bolsa
+    y mantener en el frigorífico.
+  fabricante: Fabricado en Italia para Biocop Productos Biológicos, S. A., Puigmal 3, 08185 Lliçà de Vall (Barcelona).
+  origen_certificacion: IT-BIO-007; Agricultura UE.
+  modo_empleo: Calentar en una plancha o sartén antiadherente 1 minuto por cada lado. Rellenar al gusto, tanto en
+    dulce como en salado.
+nutricion_por_unidad:
+  cantidad_g: 75
+  energia_kj: 1011
+  energia_kcal: 240
+  grasas_g: 6.5
+  saturadas_g: 0.6
+  hidratos_g: 37.1
+  azucares_g: 0.8
+  fibra_g: 2.3
+  proteinas_g: 7.3
+  sal_g: 1.3
+fecha_actualizacion: '2026-10-16'
+promociones: []
+---
+
+# Piadina de trigo espelta
+
+Biocop · Paquete de 3 × 75 g (225 g) · Agricultura biológica.
+
+Harina de trigo espelta 64 %, agua, aceite de girasol, sal y aroma natural de romero. Harina y aceite procedentes de agricultura biológica. Contiene trigo (espelta) y gluten; puede contener trazas de soja y mostaza.
+
+Calentar 1 minuto por cada lado en plancha o sartén antiadherente y rellenar con dulce o salado, según el envase. La uso como envoltura de los burritos.
+
+Por 100 g, según el envase: 1348 kJ / 320 kcal; grasas 8,6 g, saturadas 0,8 g, hidratos 49,5 g, azúcares 1,1 g, fibra 3 g, proteínas 9,7 g y sal 1,7 g. Por piadina de 75 g, el envase declara 240 kcal y 1,3 g de sal.
+
+Precio de referencia: **3,49 € (15,51 €/kg)**, Carrefour Los Rosales, 30/09/2026. El ticket indica «PIADINA BIOCOP 225G».
+
+Yuka: **61/100 · Bueno**, según la captura aportada el 16/10/2026. La sal figura como aspecto negativo. Se mantienen por separado los datos de Yuka que difieren de los del envase.
