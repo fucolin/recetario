@@ -3,7 +3,7 @@ esquema: recetario-semana-base-1.1
 id: semana-base
 titulo: Mi semana base
 fecha_actualizacion: '2026-10-16'
-fuente: Tabla editada aportada por el usuario el 16 de octubre de 2026.
+fuente: Excel semana-base-casa-marisa(2).xlsx aportado por el usuario el 16 de octubre de 2026.
 dias:
   - dia: Lunes
     comida:
@@ -60,7 +60,11 @@ dias:
     cena:
       - texto: Envuelto/Bocata
         categoria: Envueltos y bocados
-        ejemplo: {titulo: Burritos de frijoles, pagina: burritos-frijoles-quinoa-edamame-champinones.html}
+        ejemplo:
+          titulo: Burritos de frijoles + puré aprovechategui
+          componentes:
+            - {titulo: Burritos de frijoles, pagina: burritos-frijoles-quinoa-edamame-champinones.html}
+            - {titulo: puré aprovechategui, pagina: crema-aprovechamiento-marisa.html, categoria: Purés}
   - dia: Sábado
     comida:
       - texto: Marisco
