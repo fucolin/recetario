@@ -33,7 +33,7 @@ def main():
              '<div class="week-track" id="week-track" role="list" aria-label="Semana de lunes a domingo">']
     for n, day in enumerate(data['dias']):
         block.append(f'<article class="week-day" role="listitem" data-weekday="{n}" aria-labelledby="week-day-{n}"><header><h3 id="week-day-{n}">{escape(day["dia"])}</h3></header>{meal(day["comida"], "Comida")}{meal(day["cena"], "Cena")}</article>')
-    block += ['</div><p class="week-more"><a href="#catalogo-recetas">Más recetas…</a></p></section>', '''<script>(()=>{
+    block += ['</div><p class="week-more"><a href="#catalogo-recetas"><span class="week-more-label">Más recetas…</span><span class="week-more-arrow" aria-hidden="true">↓</span></a></p></section>', '''<script>(()=>{
 const track=document.getElementById('week-track');
 const days=Array.from(track.querySelectorAll('.week-day'));
 const weekday=new Intl.DateTimeFormat('en-US',{weekday:'short',timeZone:'Europe/Madrid'}).format(new Date());
