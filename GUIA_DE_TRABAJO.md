@@ -74,6 +74,8 @@ La fecha se muestra únicamente en el PDF, en el pie `Fecha: DD/MM/AAAA`. No mos
 
 ## Categorías del menú semanal
 
+La portada muestra «Mi semana base» debajo del encabezado y antes de categorías y buscador: horario horizontal de siete días en escritorio, carrusel en móvil centrado inicialmente en el día actual de Europe/Madrid, con botones anterior/Hoy/siguiente. Fondo verde suave, sin fotografías ni desplegable. Mantener lunes–domingo y comida/cena alineadas. Los tipos de plato se muestran en negrita SIN enlace; debajo de cada uno, un ejemplo real con enlace a su ficha disponible de la categoría correspondiente. No sustituir un subtipo preciso (tortilla francesa) por otro. Donde falta una ficha adecuada, mostrar «Ejemplo pendiente»; «Libre» queda sin ejemplo ni mensaje pendiente. Maestro `semana-base.md` con YAML completo (texto, categoría y ejemplo) y espejo `datos/semana-base.json`. Regenerar el bloque delimitado de `index.html` con `python tools/generar_semana_base.py`, que valida categorías y páginas. Preservar los textos personales y los dos componentes de una misma comida o cena. Respetar movimiento reducido y permitir deslizar sin JavaScript, conservando todos los días. No incluir el bloque en filtros ni contadores de recetas; no generar PDF ni tratarlo como ficha Recipe. Es una guía personal de distribución, no un menú fechado ni una evaluación nutricional.
+
 Cada receta debe pertenecer a una sola `categoria_menu`. La clasificación oficial es:
 
 - Vegetales
