@@ -26,14 +26,14 @@ def main():
             elif part['texto'] != 'Libre':
                 item += '<span class="week-pending">Ejemplo pendiente</span>'
             result.append(item + '</div>')
-        return '<div class="week-meal"><p class="meal-label">' + label + '</p>' + '<span class="week-plus" aria-hidden="true">+</span>'.join(result) + '</div>'
-    block = ['<!-- SEMANA_BASE_INICIO -->', '<section class="week-base" aria-labelledby="semana-base-titulo">',
-             '<h2 id="semana-base-titulo">Mi semana base</h2>',
+        pair = ' has-pair' if len(parts) > 1 else ''
+        return '<div class="week-meal' + pair + '"><p class="meal-label">' + label + '</p><div class="week-dishes">' + ''.join(result) + '</div></div>'
+    block = ['<!-- SEMANA_BASE_INICIO -->', '<section class="week-base" aria-label="Plan semanal de comidas y cenas">',
              '<div class="week-controls" hidden><button type="button" id="week-prev" aria-label="Día anterior" aria-controls="week-track">←</button><button type="button" id="week-today" aria-controls="week-track">Hoy</button><button type="button" id="week-next" aria-label="Día siguiente" aria-controls="week-track">→</button></div>',
              '<div class="week-track" id="week-track" role="list" aria-label="Semana de lunes a domingo">']
     for n, day in enumerate(data['dias']):
-        block.append(f'<article class="week-day" role="listitem" data-weekday="{n}" aria-labelledby="week-day-{n}"><header><h3 id="week-day-{n}">{escape(day["dia"])}</h3><span class="week-today-badge" hidden>Hoy</span></header>{meal(day["comida"], "Comida")}{meal(day["cena"], "Cena")}</article>')
-    block += ['</div></section>', '''<script>(()=>{
+        block.append(f'<article class="week-day" role="listitem" data-weekday="{n}" aria-labelledby="week-day-{n}"><header><h3 id="week-day-{n}">{escape(day["dia"])}</h3></header>{meal(day["comida"], "Comida")}{meal(day["cena"], "Cena")}</article>')
+    block += ['</div><p class="week-more"><a href="#catalogo-recetas">Más recetas…</a></p></section>', '''<script>(()=>{
 const track=document.getElementById('week-track');
 const days=Array.from(track.querySelectorAll('.week-day'));
 const weekday=new Intl.DateTimeFormat('en-US',{weekday:'short',timeZone:'Europe/Madrid'}).format(new Date());
@@ -42,7 +42,7 @@ const mobile=window.matchMedia('(max-width:650px)');
 const reduced=window.matchMedia('(prefers-reduced-motion:reduce)');
 let selected=current<0?0:current;
 function center(index,smooth){selected=Math.max(0,Math.min(6,index));if(!mobile.matches)return;const item=days[selected];const box=item.getBoundingClientRect();const viewport=track.getBoundingClientRect();track.scrollTo({left:track.scrollLeft+box.left-viewport.left-(track.clientWidth-box.width)/2,behavior:smooth&&!reduced.matches?'smooth':'instant'})}
-if(current>=0){days[current].classList.add('is-today');days[current].querySelector('.week-today-badge').hidden=false}
+if(current>=0){days[current].classList.add('is-today');days[current].setAttribute('aria-current','date')}
 document.querySelector('.week-controls').hidden=false;
 document.getElementById('week-prev').addEventListener('click',()=>center(selected-1,true));
 document.getElementById('week-next').addEventListener('click',()=>center(selected+1,true));

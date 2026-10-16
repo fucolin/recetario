@@ -36,16 +36,21 @@
     .masthead .house-name{display:block;font-family:Georgia,'Times New Roman',serif;font-size:clamp(2.5rem,8vw,3.6rem);line-height:1.12;letter-spacing:-.035em}
     .masthead .intro{font-size:clamp(.8rem,3.5vw,.92rem);margin:16px auto 0;max-width:480px;line-height:1.7;text-wrap:pretty}
     .week-base{margin:0 0 30px}
-    .week-base h2{font-size:1.2rem;color:var(--verde);margin:0 0 12px}
+    .week-more{margin:10px 0 0;text-align:right}
+    .week-more a{color:var(--verde);font-size:.9rem;font-weight:600;text-underline-offset:3px}
+    #catalogo-recetas{scroll-margin-top:20px}
     .week-track{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));border:1px solid var(--borde);border-radius:12px;overflow:hidden;background:var(--suave)}
     .week-day{display:grid;grid-template-rows:48px 1fr 1fr;min-width:0}
     .week-day+ .week-day{border-left:1px solid var(--borde)}
     .week-day header{display:flex;flex-direction:column;align-items:center;justify-content:center;background:#eaf0e7;padding:6px 2px;line-height:1.3}
     .week-day h3{font-size:.8rem;margin:0;color:var(--verde)}
-    .week-today-badge{font-size:.62rem;color:var(--verde)}
     .week-day.is-today header{background:var(--verde)}
-    .week-day.is-today h3,.week-day.is-today .week-today-badge{color:white}
-    .week-meal{padding:12px 8px;min-height:190px;border-top:1px solid var(--borde);font-size:.8rem;line-height:1.45;overflow-wrap:break-word}
+    .week-day.is-today h3{color:white}
+    .week-meal{padding:12px 8px;min-height:150px;border-top:1px solid var(--borde);font-size:.8rem;line-height:1.45;overflow-wrap:break-word}
+    .week-dishes{display:grid;grid-template-columns:minmax(0,1fr)}
+    .week-meal.has-pair .week-dishes{grid-template-columns:repeat(2,minmax(0,1fr))}
+    .week-meal.has-pair .week-dish:first-child{padding-right:8px}
+    .week-meal.has-pair .week-dish+.week-dish{border-left:1px solid var(--borde);padding-left:8px}
     .week-meal .meal-label{font-size:.61rem;letter-spacing:.07em;text-transform:uppercase;color:#64756a;margin:0 0 10px}
     .week-dish strong{display:block;color:var(--verde);font-weight:700}
     .week-base .week-example{display:block;margin-top:6px;color:var(--texto);font-size:.75rem;text-decoration:underline;text-decoration-color:#a1b8a5;text-underline-offset:3px}
@@ -54,7 +59,7 @@
     .week-controls{display:none}
     .week-base a:hover{text-decoration-color:var(--verde)}
     .week-base a:focus-visible{outline:2px solid var(--verde);outline-offset:3px}
-    @media(max-width:650px){.week-track{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;overscroll-behavior-x:contain;border:0;border-radius:0;background:transparent;padding-bottom:10px;scrollbar-width:thin}.week-track::before,.week-track::after{content:"";flex:0 0 calc(8% - 12px)}.week-day{flex:0 0 84%;scroll-snap-align:center;border:1px solid var(--borde);border-radius:12px;overflow:hidden;background:var(--suave);grid-template-rows:48px 1fr 1fr}.week-day+.week-day{border-left:1px solid var(--borde)}.week-day h3{font-size:1rem}.week-today-badge{font-size:.7rem}.week-meal{padding:16px;min-height:145px;font-size:.95rem}.week-meal .meal-label{font-size:.67rem}.week-base .week-example{font-size:.88rem}.week-pending{font-size:.8rem}.week-controls{display:flex;justify-content:flex-end;gap:7px;margin:-4px 0 12px}.week-controls button{font:inherit;font-size:.8rem;color:var(--verde);background:white;border:1px solid var(--borde);border-radius:8px;padding:5px 11px;cursor:pointer}.week-controls button:focus-visible{outline:2px solid var(--verde);outline-offset:2px}}
+    @media(max-width:650px){.week-track{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;overscroll-behavior-x:contain;border:0;border-radius:0;background:transparent;padding-bottom:10px;scrollbar-width:thin}.week-track::before,.week-track::after{content:"";flex:0 0 calc(8% - 12px)}.week-day{flex:0 0 84%;scroll-snap-align:center;border:1px solid var(--borde);border-radius:12px;overflow:hidden;background:var(--suave);grid-template-rows:48px 1fr 1fr}.week-day+.week-day{border-left:1px solid var(--borde)}.week-day h3{font-size:1rem}.week-today-badge{font-size:.7rem}.week-meal{padding:12px;min-height:110px;font-size:.95rem}.week-meal .meal-label{font-size:.67rem}.week-base .week-example{font-size:.88rem}.week-pending{font-size:.8rem}.week-controls{display:flex;justify-content:flex-end;gap:7px;margin:-4px 0 12px}.week-controls button{font:inherit;font-size:.8rem;color:var(--verde);background:white;border:1px solid var(--borde);border-radius:8px;padding:5px 11px;cursor:pointer}.week-controls button:focus-visible{outline:2px solid var(--verde);outline-offset:2px}}
     .category-nav{display:flex;flex-wrap:wrap;gap:9px;margin-bottom:34px}
     .category-nav a{color:var(--verde);background:var(--suave);border:1px solid var(--borde);border-radius:999px;padding:6px 12px;text-decoration:none;font-size:.9rem}
     .category{margin-top:36px;scroll-margin-top:20px}
@@ -130,18 +135,17 @@
   </header>
 
   <!-- SEMANA_BASE_INICIO -->
-<section class="week-base" aria-labelledby="semana-base-titulo">
-<h2 id="semana-base-titulo">Mi semana base</h2>
+<section class="week-base" aria-label="Plan semanal de comidas y cenas">
 <div class="week-controls" hidden><button type="button" id="week-prev" aria-label="Día anterior" aria-controls="week-track">←</button><button type="button" id="week-today" aria-controls="week-track">Hoy</button><button type="button" id="week-next" aria-label="Día siguiente" aria-controls="week-track">→</button></div>
 <div class="week-track" id="week-track" role="list" aria-label="Semana de lunes a domingo">
-<article class="week-day" role="listitem" data-weekday="0" aria-labelledby="week-day-0"><header><h3 id="week-day-0">Lunes</h3><span class="week-today-badge" hidden>Hoy</span></header><div class="week-meal"><p class="meal-label">Comida</p><div class="week-dish"><strong>Verduras</strong><span class="week-pending">Ejemplo pendiente</span></div></div><div class="week-meal"><p class="meal-label">Cena</p><div class="week-dish"><strong>Picoteo sanote</strong><a class="week-example" href="barquitas-endivia-requeson.html">Barquitas de endivia con requesón</a></div></div></article>
-<article class="week-day" role="listitem" data-weekday="1" aria-labelledby="week-day-1"><header><h3 id="week-day-1">Martes</h3><span class="week-today-badge" hidden>Hoy</span></header><div class="week-meal"><p class="meal-label">Comida</p><div class="week-dish"><strong>Pescado azul</strong><span class="week-pending">Ejemplo pendiente</span></div></div><div class="week-meal"><p class="meal-label">Cena</p><div class="week-dish"><strong>Tortilla</strong><a class="week-example" href="tortilla-boniato-espinacas-parmesano.html">Tortilla de boniato</a></div></div></article>
-<article class="week-day" role="listitem" data-weekday="2" aria-labelledby="week-day-2"><header><h3 id="week-day-2">Miércoles</h3><span class="week-today-badge" hidden>Hoy</span></header><div class="week-meal"><p class="meal-label">Comida</p><div class="week-dish"><strong>Legumbres</strong><a class="week-example" href="lentejas-calabaza-espinacas-300g.html">Lentejas con calabaza y espinacas</a></div></div><div class="week-meal"><p class="meal-label">Cena</p><div class="week-dish"><strong>Carne exprés</strong><a class="week-example" href="pechuga-pavo-plancha.html">Pechuga de pavo a la plancha</a></div></div></article>
-<article class="week-day" role="listitem" data-weekday="3" aria-labelledby="week-day-3"><header><h3 id="week-day-3">Jueves</h3><span class="week-today-badge" hidden>Hoy</span></header><div class="week-meal"><p class="meal-label">Comida</p><div class="week-dish"><strong>Puré</strong><span class="week-pending">Ejemplo pendiente</span></div><span class="week-plus" aria-hidden="true">+</span><div class="week-dish"><strong>Pescado blanco</strong><span class="week-pending">Ejemplo pendiente</span></div></div><div class="week-meal"><p class="meal-label">Cena</p><div class="week-dish"><strong>Revuelto</strong><a class="week-example" href="revuelto-champinones-trigueros.html">Revuelto de champiñones y trigueros</a></div></div></article>
-<article class="week-day" role="listitem" data-weekday="4" aria-labelledby="week-day-4"><header><h3 id="week-day-4">Viernes</h3><span class="week-today-badge" hidden>Hoy</span></header><div class="week-meal"><p class="meal-label">Comida</p><div class="week-dish"><strong>Ensalada</strong><a class="week-example" href="ensalada-salmon-ahumado-mango-aguacate.html">Ensalada de salmón ahumado</a></div></div><div class="week-meal"><p class="meal-label">Cena</p><div class="week-dish"><strong>Envuelto/Bocata</strong><a class="week-example" href="burritos-frijoles-quinoa-edamame-champinones.html">Burritos de frijoles</a></div></div></article>
-<article class="week-day" role="listitem" data-weekday="5" aria-labelledby="week-day-5"><header><h3 id="week-day-5">Sábado</h3><span class="week-today-badge" hidden>Hoy</span></header><div class="week-meal"><p class="meal-label">Comida</p><div class="week-dish"><strong>Marisco</strong><span class="week-pending">Ejemplo pendiente</span></div><span class="week-plus" aria-hidden="true">+</span><div class="week-dish"><strong>ensalada de tomate</strong><a class="week-example" href="ensalada-tomates-lago-albahaca.html">Tomates sobre un lago de albahaca</a></div></div><div class="week-meal"><p class="meal-label">Cena</p><div class="week-dish"><strong>Libre</strong></div></div></article>
-<article class="week-day" role="listitem" data-weekday="6" aria-labelledby="week-day-6"><header><h3 id="week-day-6">Domingo</h3><span class="week-today-badge" hidden>Hoy</span></header><div class="week-meal"><p class="meal-label">Comida</p><div class="week-dish"><strong>Guiso</strong><a class="week-example" href="pollo-guisado-calabacin.html">Pollo guisado con calabacín</a></div></div><div class="week-meal"><p class="meal-label">Cena</p><div class="week-dish"><strong>Sopa</strong><span class="week-pending">Ejemplo pendiente</span></div><span class="week-plus" aria-hidden="true">+</span><div class="week-dish"><strong>tortilla francesa</strong><span class="week-pending">Ejemplo pendiente</span></div></div></article>
-</div></section>
+<article class="week-day" role="listitem" data-weekday="0" aria-labelledby="week-day-0"><header><h3 id="week-day-0">Lunes</h3></header><div class="week-meal"><p class="meal-label">Comida</p><div class="week-dishes"><div class="week-dish"><strong>Verduras</strong><span class="week-pending">Ejemplo pendiente</span></div></div></div><div class="week-meal"><p class="meal-label">Cena</p><div class="week-dishes"><div class="week-dish"><strong>Picoteo sanote</strong><a class="week-example" href="barquitas-endivia-requeson.html">Barquitas de endivia con requesón</a></div></div></div></article>
+<article class="week-day" role="listitem" data-weekday="1" aria-labelledby="week-day-1"><header><h3 id="week-day-1">Martes</h3></header><div class="week-meal"><p class="meal-label">Comida</p><div class="week-dishes"><div class="week-dish"><strong>Pescado azul</strong><span class="week-pending">Ejemplo pendiente</span></div></div></div><div class="week-meal"><p class="meal-label">Cena</p><div class="week-dishes"><div class="week-dish"><strong>Tortilla</strong><a class="week-example" href="tortilla-boniato-espinacas-parmesano.html">Tortilla de boniato</a></div></div></div></article>
+<article class="week-day" role="listitem" data-weekday="2" aria-labelledby="week-day-2"><header><h3 id="week-day-2">Miércoles</h3></header><div class="week-meal"><p class="meal-label">Comida</p><div class="week-dishes"><div class="week-dish"><strong>Legumbres</strong><a class="week-example" href="lentejas-calabaza-espinacas-300g.html">Lentejas con calabaza y espinacas</a></div></div></div><div class="week-meal"><p class="meal-label">Cena</p><div class="week-dishes"><div class="week-dish"><strong>Carne exprés</strong><a class="week-example" href="pechuga-pavo-plancha.html">Pechuga de pavo a la plancha</a></div></div></div></article>
+<article class="week-day" role="listitem" data-weekday="3" aria-labelledby="week-day-3"><header><h3 id="week-day-3">Jueves</h3></header><div class="week-meal has-pair"><p class="meal-label">Comida</p><div class="week-dishes"><div class="week-dish"><strong>Puré</strong><span class="week-pending">Ejemplo pendiente</span></div><div class="week-dish"><strong>Pescado blanco</strong><span class="week-pending">Ejemplo pendiente</span></div></div></div><div class="week-meal"><p class="meal-label">Cena</p><div class="week-dishes"><div class="week-dish"><strong>Revuelto</strong><a class="week-example" href="revuelto-champinones-trigueros.html">Revuelto de champiñones y trigueros</a></div></div></div></article>
+<article class="week-day" role="listitem" data-weekday="4" aria-labelledby="week-day-4"><header><h3 id="week-day-4">Viernes</h3></header><div class="week-meal"><p class="meal-label">Comida</p><div class="week-dishes"><div class="week-dish"><strong>Ensalada</strong><a class="week-example" href="ensalada-salmon-ahumado-mango-aguacate.html">Ensalada de salmón ahumado</a></div></div></div><div class="week-meal"><p class="meal-label">Cena</p><div class="week-dishes"><div class="week-dish"><strong>Envuelto/Bocata</strong><a class="week-example" href="burritos-frijoles-quinoa-edamame-champinones.html">Burritos de frijoles</a></div></div></div></article>
+<article class="week-day" role="listitem" data-weekday="5" aria-labelledby="week-day-5"><header><h3 id="week-day-5">Sábado</h3></header><div class="week-meal has-pair"><p class="meal-label">Comida</p><div class="week-dishes"><div class="week-dish"><strong>Marisco</strong><span class="week-pending">Ejemplo pendiente</span></div><div class="week-dish"><strong>ensalada de tomate</strong><a class="week-example" href="ensalada-tomates-lago-albahaca.html">Tomates sobre un lago de albahaca</a></div></div></div><div class="week-meal"><p class="meal-label">Cena</p><div class="week-dishes"><div class="week-dish"><strong>Libre</strong></div></div></div></article>
+<article class="week-day" role="listitem" data-weekday="6" aria-labelledby="week-day-6"><header><h3 id="week-day-6">Domingo</h3></header><div class="week-meal"><p class="meal-label">Comida</p><div class="week-dishes"><div class="week-dish"><strong>Guiso</strong><a class="week-example" href="pollo-guisado-calabacin.html">Pollo guisado con calabacín</a></div></div></div><div class="week-meal has-pair"><p class="meal-label">Cena</p><div class="week-dishes"><div class="week-dish"><strong>Sopa</strong><span class="week-pending">Ejemplo pendiente</span></div><div class="week-dish"><strong>tortilla francesa</strong><span class="week-pending">Ejemplo pendiente</span></div></div></div></article>
+</div><p class="week-more"><a href="#catalogo-recetas">Más recetas…</a></p></section>
 <script>(()=>{
 const track=document.getElementById('week-track');
 const days=Array.from(track.querySelectorAll('.week-day'));
@@ -151,7 +155,7 @@ const mobile=window.matchMedia('(max-width:650px)');
 const reduced=window.matchMedia('(prefers-reduced-motion:reduce)');
 let selected=current<0?0:current;
 function center(index,smooth){selected=Math.max(0,Math.min(6,index));if(!mobile.matches)return;const item=days[selected];const box=item.getBoundingClientRect();const viewport=track.getBoundingClientRect();track.scrollTo({left:track.scrollLeft+box.left-viewport.left-(track.clientWidth-box.width)/2,behavior:smooth&&!reduced.matches?'smooth':'instant'})}
-if(current>=0){days[current].classList.add('is-today');days[current].querySelector('.week-today-badge').hidden=false}
+if(current>=0){days[current].classList.add('is-today');days[current].setAttribute('aria-current','date')}
 document.querySelector('.week-controls').hidden=false;
 document.getElementById('week-prev').addEventListener('click',()=>center(selected-1,true));
 document.getElementById('week-next').addEventListener('click',()=>center(selected+1,true));
@@ -162,6 +166,7 @@ mobile.addEventListener('change',()=>center(current,false));
 })();</script>
 <!-- SEMANA_BASE_FIN -->
 
+  <section id="catalogo-recetas" aria-label="Catálogo de recetas" tabindex="-1">
   <nav class="category-nav" aria-label="Categorías del recetario">
     <a href="#vegetales">Vegetales</a>
     <a href="#legumbres">Legumbres</a>
@@ -276,6 +281,7 @@ mobile.addEventListener('change',()=>center(current,false));
 
   </div>
   <p id="search-empty" class="search-empty" hidden>No hay coincidencias. Prueba con menos palabras o pulsa «Limpiar».</p>
+  </section>
 
   <footer>Las tarjetas «Próximamente» todavía no tienen ficha disponible.</footer>
 </main>
