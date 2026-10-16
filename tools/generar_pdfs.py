@@ -142,8 +142,9 @@ def generar_pdf(receta: dict, destino: Path) -> None:
         if raciones["min"] == raciones["max"]
         else f"{raciones['min']}-{raciones['max']}"
     )
+    etiqueta_raciones = "ración" if raciones["min"] == raciones["max"] == 1 else "raciones"
     meta = (
-        f"{receta['subtitulo']} · {texto_raciones} raciones "
+        f"{receta['subtitulo']} · {texto_raciones} {etiqueta_raciones} "
         f"· {tiempo['min']}-{tiempo['max']} min · {TIPOS_FICHA[tipo]}"
     )
     if receta.get("variante") and receta["variante"] != "principal":

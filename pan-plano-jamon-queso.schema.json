@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Pan plano de jamón y queso",
+  "description": "Masa de yogur · sin amasado ni reposo",
+  "recipeCategory": "Envueltos y bocados",
+  "recipeYield": "1 ración",
+  "totalTime": "PT15M",
+  "keywords": "pan plano, jamón, queso, yogur, cherry, mostaza",
+  "recipeIngredient": [
+    "4 cucharadas harina de fuerza blanca",
+    "1 cucharadita rasa levadura química en polvo",
+    "Sal (una pizca)",
+    "1 cucharada yogur natural",
+    "4 cucharadas agua",
+    "Aceite de oliva (un chorrito)",
+    "20 g queso gouda o cheddar",
+    "1 loncha jamón cocido ahumado",
+    "4 tallos cebollino fresco",
+    "50 g tomates cherry maduros",
+    "Mostaza inglesa (al gusto)",
+    "Pimienta negra (una pizca)"
+  ],
+  "recipeInstructions": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "Prepara el relleno y calienta la sartén",
+      "text": "Ralla el queso, corta el jamón en trozos, pica fino el cebollino y corta los cherry en cuartos. Ten la mostaza a mano. Pon una sartén antiadherente de unos 24 cm a fuego medio."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "Mezcla la masa",
+      "text": "Bate la harina con la levadura química, una pizca de sal, el yogur y el agua hasta obtener una mezcla lisa. Queda una masa espesa que se puede extender con espátula; no hay que amasarla ni dejarla reposar."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "Extiende y cocina la base",
+      "text": "Echa un chorrito de aceite en la sartén caliente. Vierte la masa y repártela suavemente con una espátula hasta cubrir la base de manera uniforme. Cuando empiece a cocinarse, añade un poco de aceite por el borde. Espera a que aparezcan burbujas en la superficie y la base tenga consistencia; despega los bordes con la espátula y comprueba que el pan se desliza."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 4,
+      "name": "Rellena, dobla y dora",
+      "text": "Distribuye el queso, el jamón, los cherry y el cebollino sobre el pan. Añade mostaza al gusto y una pizca de pimienta. Con la espátula, dobla una mitad sobre la otra. Baja el fuego al mínimo y cocina unos 2 minutos por cada cara, dando la vuelta con cuidado, hasta que el exterior esté dorado y la masa cocinada."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 5,
+      "name": "Deja templar y sirve",
+      "text": "Desliza el pan a un plato o tabla, deja que repose 1 minuto y córtalo por la mitad. Sirve recién hecho, con el queso fundido."
+    }
+  ],
+  "image": "https://fucolin.github.io/recetario/images/pan-plano-jamon-queso-v2.jpg",
+  "url": "https://fucolin.github.io/recetario/pan-plano-jamon-queso.html",
+  "dateModified": "2026-10-17",
+  "isBasedOn": {
+    "@type": "Book",
+    "name": "UNO",
+    "author": {
+      "@type": "Person",
+      "name": "Jamie Oliver"
+    }
+  }
+}

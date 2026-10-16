@@ -203,3 +203,7 @@ Las capturas `images/productos/arroz-integral-nomen-yuka.jpeg`, `edamame-cidacos
 ## Shakshuka de alubias y portobello
 
 `images/shakshuka-alubias-portobello.jpg`: ilustración generada con IA para Casa Marisa el 17/10/2026 con la herramienta integrada. Prompt: sartén con alubias blancas cremosas, portobello dorados, cuatro huevos, tomates cherry, feta y perejil; opción con pimentón sin chorizo, luz natural y formato horizontal. JPEG optimizado a partir del PNG generado. No es la fotografía del libro UNO ni se atribuye licencia Creative Commons.
+
+## Pan plano de jamón y queso
+
+`images/pan-plano-jamon-queso-v2.jpg`: ilustración generada con IA para Casa Marisa el 17/10/2026 con la herramienta integrada. Prompt: un pan plano de yogur doblado y cortado en dos, con lonchas finas de jamón (sin tacos), queso fundido, tomates cherry y cebollino; plato blanco, luz natural y formato horizontal. JPEG optimizado a partir del PNG generado. No es una fotografía del plato preparado ni del libro UNO; no se atribuye licencia Creative Commons.
