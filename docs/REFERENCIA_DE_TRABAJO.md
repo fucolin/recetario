@@ -10,7 +10,7 @@ Para una ficha nueva, completar este proceso. Para una actualización, actuar so
 2. Crear o actualizar el JSON completo, incluidos `tipo_ficha` y `categoria_menu`. `pdf_ingredientes` solo es obligatorio para las fichas de tipo `receta`.
 3. Crear o actualizar el JSON Schema.org `Recipe`.
 4. Seleccionar una fotografía adecuada con licencia reutilizable, guardarla localmente y documentar su autoría, fuente y licencia, salvo que el usuario proporcione una fotografía propia.
-5. Crear o actualizar la página HTML con fotografía, atribución, datos estructurados `Recipe.image`, ingredientes con fondo `#F3F6F1` y botón `👁️ Más de [categoría]`. Solo las fichas de tipo `receta` muestran además el enlace visible al PDF.
+5. Crear o actualizar la página HTML con fotografía, atribución, datos estructurados `Recipe.image`, ingredientes con fondo `#F3F6F1` y botón «Más de [categoría]» con icono SVG de cuadrícula. Solo las fichas de tipo `receta` muestran además el enlace visible al PDF.
 6. Solo para `tipo_ficha: receta`, generar el PDF mediante `tools/generar_pdfs.py`: una página A4, sin fotografía, ingredientes sin viñetas y en dos columnas sobre fondo `#F3F6F1`, títulos verdes, pasos numerados, claves y pie. Las preparaciones sencillas y las combinaciones no generan PDF.
 7. Actualizar `index.html` y la página visual de `categorias/` correspondiente, sin crear entradas duplicadas y distinguiendo claramente las variantes.
 8. Comprobar ingredientes, cantidades, diferencias entre variantes, licencia de la imagen, datos estructurados, enlaces y presentación visual del HTML y del PDF.
@@ -156,3 +156,7 @@ La categoría Ensaladas muestra también el mismo recuadro «La cuestión del to
 ## Calendario de frutas de temporada
 
 Referencia `calendario-frutas-temporada.html`, maestro Markdown/YAML homónimo y JSON idéntico en `datos/`. Regenerar con `python tools/generar_calendario_frutas.py`. Enlazar desde el índice fuera del buscador y del contador de recetas. No generar PDF. Prioridad: origen España y cosecha gallega cuando exista referencia documentada. Mantener fuentes por fruta; distinguir ventanas de compra españolas de cosechas locales y fruta de conservación. Una lista gallega vacía no implica ausencia de cultivo. No extrapolar una variedad a todas las variedades, la vendimia a uva de mesa ni la marca a origen. Agrupar intervalos que crucen el año (diciembre–mayo). «Este mes…» se adapta al mes Europe/Madrid con JavaScript y conserva contenido inicial sin él; no precisa publicación mensual para funcionar. Regenerar el contenido inicial si se revisa la página, sin renovar fecha por mero formato o cambio de mes. No extender la automatización del calendario de verduras a esta página sin autorización. Para revisión usar `--preview` con un nombre único; no publicar copias de `build/previews/`.
+
+## Iconos de los botones de las fichas
+
+Los botones de PDF y «Más de [categoría]» usan SVG de línea, del mismo estilo que los recursos de portada: `viewBox="0 0 24 24"`, sin relleno, trazo `currentColor` de 1.8 y extremos/uniones redondeados. Impresora para PDF y cuadrícula para categoría. Tamaño 1 em y margen derecho .4 em. Los SVG son decorativos (`aria-hidden="true"`, `focusable="false"`); conservar el texto visible de cada botón. No usar emojis en estos botones. Este cambio de presentación no renueva las fechas de contenido ni los PDF.
