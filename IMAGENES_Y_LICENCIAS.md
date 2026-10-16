@@ -188,3 +188,7 @@ Las capturas `images/productos/arroz-integral-nomen-yuka.jpeg`, `edamame-cidacos
 ## Sardinas marinadas
 
 `images/sardinas-marinadas-v2.jpg`: imagen ilustrativa generada con IA para Casa Marisa el 16/10/2026 mediante la herramienta integrada de generación de imágenes. No es una fotografía del plato preparado ni procede de El Comidista. No se le atribuye una licencia Creative Commons. Prompt: fuente blanca con lomos de sardina marinados sobre tomate rallado, aceitunas verdes y negras, cebolleta, cebollino, tomillo; luz natural, formato horizontal, sin texto. Edición posterior para retirar las rodajitas de piparra, conservando los demás ingredientes, el plato, encuadre y luz. Se conserva el PNG generado y se exporta JPEG optimizado para la web.
+
+## Pasta fresca con salmón
+
+`images/pasta-fresca-salmon.jpg`: ilustración generada con IA para Casa Marisa el 16/10/2026 mediante la herramienta integrada. Prompt: plato blanco con tiras anchas de pasta fresca, espinacas, cebolleta, salmón ahumado, cottage, parmesano y ralladura de limón; luz natural, formato horizontal, sin texto. No se utiliza la fotografía del libro UNO ni se asigna una licencia Creative Commons. JPEG optimizado a partir del PNG generado.

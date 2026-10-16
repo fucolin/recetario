@@ -1,0 +1,147 @@
+{
+  "esquema": "recetario-1.0",
+  "id": "pasta-fresca-salmon",
+  "familia": "pasta-fresca-salmon",
+  "variante": "principal",
+  "titulo": "Pasta fresca con salmón",
+  "subtitulo": "Con espinacas, limón y cottage · en una sartén",
+  "categoria": "Pasta",
+  "categoria_menu": "Arroces y pastas",
+  "tipo_ficha": "receta",
+  "etiquetas": [
+    "pasta fresca",
+    "salmón ahumado",
+    "espinacas",
+    "cebolleta",
+    "limón",
+    "cottage",
+    "parmesano"
+  ],
+  "raciones": {
+    "min": 2,
+    "max": 2
+  },
+  "tiempo_total_min": {
+    "min": 10,
+    "max": 15
+  },
+  "tiempo_nota": "Estimación para dos raciones, según preparación y pasta. El libro indica 8 minutos para una ración.",
+  "ingredientes": [
+    {
+      "nombre": "láminas frescas de lasaña",
+      "cantidad": 250,
+      "unidad": "g"
+    },
+    {
+      "nombre": "cebolletas",
+      "cantidad": 4,
+      "unidad": "unidades"
+    },
+    {
+      "nombre": "espinacas",
+      "cantidad": 160,
+      "unidad": "g"
+    },
+    {
+      "nombre": "salmón ahumado",
+      "cantidad": 120,
+      "unidad": "g"
+    },
+    {
+      "nombre": "limón",
+      "cantidad": 1,
+      "unidad": "unidad"
+    },
+    {
+      "nombre": "queso parmesano",
+      "cantidad": 10,
+      "unidad": "g"
+    },
+    {
+      "nombre": "queso cottage",
+      "cantidad": 2,
+      "unidad": "cucharadas"
+    },
+    {
+      "nombre": "aceite de oliva",
+      "nota": "un chorrito"
+    },
+    {
+      "nombre": "agua hirviendo",
+      "cantidad": 500,
+      "unidad": "ml",
+      "nota": "aproximadamente; más si hace falta"
+    }
+  ],
+  "pdf_ingredientes": [
+    "250 g láminas frescas de lasaña",
+    "4 cebolletas",
+    "160 g espinacas",
+    "120 g salmón ahumado",
+    "1 limón",
+    "10 g parmesano",
+    "2 cucharadas queso cottage",
+    "Aceite de oliva (un chorrito)",
+    "500 ml agua hirviendo (aprox.; más si hace falta)"
+  ],
+  "pasos": [
+    {
+      "orden": 1,
+      "titulo": "Prepara los ingredientes",
+      "duracion_texto": "5-7 min",
+      "duracion_min": 5,
+      "duracion_max_min": 7,
+      "instrucciones": "Pon agua a hervir. Corta las láminas de lasaña por la mitad a lo largo y después en tiras de unos 2 cm; sepáralas para que no se peguen. Limpia las cebolletas y pícalas finas junto con las espinacas y 60 g del salmón. Reserva los otros 60 g. Lava el limón y ralla solo la parte amarilla; ralla el parmesano por separado."
+    },
+    {
+      "orden": 2,
+      "titulo": "Empieza en una sartén amplia",
+      "duracion_texto": "1 min",
+      "duracion_min": 1,
+      "duracion_max_min": 1,
+      "instrucciones": "Calienta una sartén amplia a fuego alto y añade un chorrito de aceite. Incorpora cebolletas, espinacas, salmón picado y ralladura de limón. Mezcla y reparte las tiras de pasta, evitando que queden pegadas en un bloque."
+    },
+    {
+      "orden": 3,
+      "titulo": "Cuece la pasta en su salsa",
+      "duracion_texto": "4-6 min, según la pasta",
+      "duracion_min": 4,
+      "duracion_max_min": 6,
+      "instrucciones": "Vierte con cuidado agua hirviendo hasta cubrir apenas la pasta: unos 500 ml como referencia, no una cantidad fija. Mantén un hervor vivo y remueve con frecuencia, despegando las tiras. Comprueba desde los 4 minutos y sigue las indicaciones del envase. Si se seca antes de estar tierna, añade agua caliente a pequeños chorros; al acabar debe quedar un poco de líquido cremoso, no una sopa."
+    },
+    {
+      "orden": 4,
+      "titulo": "Liga fuera del fuego",
+      "duracion_texto": "1 min",
+      "duracion_min": 1,
+      "duracion_max_min": 1,
+      "instrucciones": "Apaga el fuego. Añade el cottage y el parmesano y mezcla. Incorpora el zumo de limón poco a poco, probando para ajustar la acidez; no hace falta usarlo entero. Si la salsa queda demasiado espesa, aligera con un chorrito de agua caliente."
+    },
+    {
+      "orden": 5,
+      "titulo": "Termina y sirve",
+      "duracion_texto": "1 min",
+      "duracion_min": 1,
+      "duracion_max_min": 1,
+      "instrucciones": "Reparte entre dos platos y coloca encima los 60 g de salmón reservados, en tiras o trozos suaves. Si te apetece, termina con un hilo de aceite de oliva virgen extra. Sirve enseguida para que la pasta conserve la salsa cremosa."
+    }
+  ],
+  "claves": "Usa pasta fresca: las placas secas requieren otro tiempo y otra cantidad de agua. Para dos raciones, el agua depende de la sartén; empieza cubriendo apenas y ajusta durante la cocción. Remueve para separar las tiras. El cottage, el parmesano y el zumo se incorporan con el fuego apagado. Añade el zumo poco a poco. El salmón ahumado y el parmesano ya aportan sal; no añadas sal automáticamente. El tiempo de 10-15 min es orientativo para esta adaptación; el libro indica 8 min para una ración.",
+  "fuente": {
+    "autor": "Jamie Oliver",
+    "libro": "UNO",
+    "titulo_original": "Smoked salmon pasta",
+    "soporte": "Captura de la receta del libro aportada por el usuario el 16/10/2026",
+    "raciones_original": 1,
+    "tiempo_original_min": 8
+  },
+  "ajustes": "Cantidades duplicadas para dos raciones; agua orientativa según sartén y zumo añadido poco a poco fuera del fuego. Texto de elaboración adaptado para Casa Marisa.",
+  "image": "https://fucolin.github.io/recetario/images/pasta-fresca-salmon.jpg",
+  "image_alt": "Ilustración de pasta fresca con salmón ahumado, espinacas y salsa ligera de cottage",
+  "image_credit": "Imagen generada con IA para Casa Marisa",
+  "image_license": null,
+  "image_source": null,
+  "image_note": "Imagen ilustrativa generada con IA; no es la fotografía del libro ni del plato preparado.",
+  "pdf": "https://fucolin.github.io/recetario/pasta-fresca-salmon.pdf",
+  "fecha_actualizacion": "2026-10-17"
+}

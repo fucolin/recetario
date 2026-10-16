@@ -5,7 +5,8 @@
     "ensalada-tomates-lago-albahaca",
     "pollo-satisfryer",
     "crema-aprovechamiento-marisa",
-    "sardinas-marinadas"
+    "sardinas-marinadas",
+    "pasta-fresca-salmon"
   ],
   "proximas": [
     {
@@ -13,12 +14,6 @@
       "titulo": "Pollo a la olla",
       "categoria_menu": "Guisos y asados",
       "categoria_slug": "guisos-y-asados"
-    },
-    {
-      "id": "pasta-fresca-salmon",
-      "titulo": "Pasta fresca con salmón",
-      "categoria_menu": "Arroces y pastas",
-      "categoria_slug": "arroces-y-pastas"
     },
     {
       "id": "potaje-bacalao",

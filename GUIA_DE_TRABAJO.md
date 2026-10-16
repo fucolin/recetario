@@ -181,4 +181,6 @@ La tarjeta social v3 muestra el logo ampliado sobre blanco, sin marco ni filete 
 
 ## Revisión antes de publicar
 
-Mostrar siempre al usuario los cambios preparados antes de publicar. Enlazar cada revisión con una copia de vista previa de nombre único en `build/previews/`, para evitar la caché; las previsualizaciones no se publican. Publicar únicamente tras ARG o «Al recetario y GitHub» para los cambios en curso; un ARG anterior no autoriza cambios posteriores.
+Mostrar siempre al usuario los cambios preparados antes de publicar. Entregar las vistas previas mediante enlaces directos accesibles como los archivos de la ficha, con nombre de archivo y título HTML nuevos en cada versión para evitar la caché. No enlazar al usuario archivos dentro de `build/previews/`, porque no puede acceder a ellos. Esa carpeta queda solo para comprobaciones internas. Excluir todas las copias de revisión de la publicación; la página definitiva conserva su URL. Publicar únicamente tras ARG o «Al recetario y GitHub» para los cambios en curso; un ARG anterior no autoriza cambios posteriores.
+
+En la lista visible de ingredientes, conservar el estilo conciso del recetario: cantidad, unidad e ingrediente, con aclaraciones breves entre paréntesis cuando sean necesarias. Las instrucciones de reparto, corte, uso y momentos de incorporación van en los pasos o en Claves; no se añaden descripciones del proceso a los ingredientes.

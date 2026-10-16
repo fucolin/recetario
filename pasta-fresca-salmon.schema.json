@@ -1,0 +1,64 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Pasta fresca con salmón",
+  "description": "Con espinacas, limón y cottage · en una sartén",
+  "recipeCategory": "Arroces y pastas",
+  "recipeYield": "2 raciones",
+  "totalTime": "PT15M",
+  "keywords": "pasta fresca, salmón ahumado, espinacas, cebolleta, limón, cottage, parmesano",
+  "recipeIngredient": [
+    "250 g láminas frescas de lasaña",
+    "4 cebolletas",
+    "160 g espinacas",
+    "120 g salmón ahumado",
+    "1 limón",
+    "10 g parmesano",
+    "2 cucharadas queso cottage",
+    "Aceite de oliva (un chorrito)",
+    "500 ml agua hirviendo (aprox.; más si hace falta)"
+  ],
+  "recipeInstructions": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "Prepara los ingredientes",
+      "text": "Pon agua a hervir. Corta las láminas de lasaña por la mitad a lo largo y después en tiras de unos 2 cm; sepáralas para que no se peguen. Limpia las cebolletas y pícalas finas junto con las espinacas y 60 g del salmón. Reserva los otros 60 g. Lava el limón y ralla solo la parte amarilla; ralla el parmesano por separado."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "Empieza en una sartén amplia",
+      "text": "Calienta una sartén amplia a fuego alto y añade un chorrito de aceite. Incorpora cebolletas, espinacas, salmón picado y ralladura de limón. Mezcla y reparte las tiras de pasta, evitando que queden pegadas en un bloque."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "Cuece la pasta en su salsa",
+      "text": "Vierte con cuidado agua hirviendo hasta cubrir apenas la pasta: unos 500 ml como referencia, no una cantidad fija. Mantén un hervor vivo y remueve con frecuencia, despegando las tiras. Comprueba desde los 4 minutos y sigue las indicaciones del envase. Si se seca antes de estar tierna, añade agua caliente a pequeños chorros; al acabar debe quedar un poco de líquido cremoso, no una sopa."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 4,
+      "name": "Liga fuera del fuego",
+      "text": "Apaga el fuego. Añade el cottage y el parmesano y mezcla. Incorpora el zumo de limón poco a poco, probando para ajustar la acidez; no hace falta usarlo entero. Si la salsa queda demasiado espesa, aligera con un chorrito de agua caliente."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 5,
+      "name": "Termina y sirve",
+      "text": "Reparte entre dos platos y coloca encima los 60 g de salmón reservados, en tiras o trozos suaves. Si te apetece, termina con un hilo de aceite de oliva virgen extra. Sirve enseguida para que la pasta conserve la salsa cremosa."
+    }
+  ],
+  "image": "https://fucolin.github.io/recetario/images/pasta-fresca-salmon.jpg",
+  "url": "https://fucolin.github.io/recetario/pasta-fresca-salmon.html",
+  "dateModified": "2026-10-17",
+  "isBasedOn": {
+    "@type": "Book",
+    "name": "UNO",
+    "author": {
+      "@type": "Person",
+      "name": "Jamie Oliver"
+    }
+  }
+}

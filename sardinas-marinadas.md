@@ -24,7 +24,7 @@ ingredientes:
 - nombre: sardinas medianas
   cantidad: 12
   unidad: unidades
-  nota: sin cabeza, vísceras ni espina; abiertas en lomos y previamente congeladas
+  nota: limpias, en lomos
 - nombre: tomates maduros carnosos
   cantidad: 2
   unidad: unidades
@@ -37,7 +37,7 @@ ingredientes:
 - nombre: cebolleta
   cantidad: 0.5
   unidad: unidad
-  nota: solo el tallo tierno; reservar el bulbo para otro plato
+  nota: tallo tierno
 - nombre: tomillo fresco
   cantidad: 1
   unidad: ramita
@@ -45,33 +45,35 @@ ingredientes:
 - nombre: cebollino picado
   nota: al gusto
 - nombre: vinagre de manzana
-  nota: cantidad suficiente para cubrir los lomos en un recipiente ajustado
+  nota: cantidad suficiente
 - nombre: aceite de oliva virgen extra
-  nota: 1 cucharadita para el tomate y el necesario para aceitar los lomos y terminar
 - nombre: sal gorda
   cantidad: 100
   unidad: g
-  nota: solo para la salmuera; se desecha
+  nota: para la salmuera
 - nombre: agua
   cantidad: 1
   unidad: l
   nota: para la salmuera
 - nombre: sal fina
-  nota: una pizca para el tomate
-- nombre: chile en polvo
   nota: una pizca
+- nombre: chile en polvo
   opcional: true
+  nota: una pizca
 pdf_ingredientes:
-- 12 sardinas medianas, limpias y previamente congeladas
+- 12 sardinas medianas (limpias, en lomos)
 - 2 tomates maduros carnosos
-- 15 g de aceitunas verdes + 15 g de negras, sin hueso
-- Tallo tierno de 1/2 cebolleta
-- 1 ramita de tomillo y cebollino al gusto
-- Vinagre de manzana, suficiente para cubrir
-- 'AOVE: 1 cucharadita para el tomate y para los lomos'
-- 100 g de sal gorda + 1 litro de agua (salmuera)
-- Una pizca de sal fina para el tomate
-- 'Opcional: una pizca de chile'
+- 15 g aceitunas verdes deshuesadas
+- 15 g aceitunas negras deshuesadas
+- 1/2 cebolleta (tallo tierno)
+- 1 ramita tomillo fresco (o una pizca de seco)
+- Cebollino (al gusto)
+- Vinagre de manzana (cantidad suficiente)
+- Aceite de oliva virgen extra
+- 100 g sal gorda (para la salmuera)
+- 1 l agua (para la salmuera)
+- Sal fina (una pizca)
+- Chile en polvo (una pizca, opcional)
 pasos:
 - orden: 1
   titulo: Prepara el pescado descongelado
@@ -146,16 +148,19 @@ Con tomate, aceitunas y hierbas
 
 ## Ingredientes
 
-- 12 sardinas medianas, limpias y previamente congeladas
+- 12 sardinas medianas (limpias, en lomos)
 - 2 tomates maduros carnosos
-- 15 g de aceitunas verdes + 15 g de negras, sin hueso
-- Tallo tierno de 1/2 cebolleta
-- 1 ramita de tomillo y cebollino al gusto
-- Vinagre de manzana, suficiente para cubrir
-- AOVE: 1 cucharadita para el tomate y para los lomos
-- 100 g de sal gorda + 1 litro de agua (salmuera)
-- Una pizca de sal fina para el tomate
-- Opcional: una pizca de chile
+- 15 g aceitunas verdes deshuesadas
+- 15 g aceitunas negras deshuesadas
+- 1/2 cebolleta (tallo tierno)
+- 1 ramita tomillo fresco (o una pizca de seco)
+- Cebollino (al gusto)
+- Vinagre de manzana (cantidad suficiente)
+- Aceite de oliva virgen extra
+- 100 g sal gorda (para la salmuera)
+- 1 l agua (para la salmuera)
+- Sal fina (una pizca)
+- Chile en polvo (una pizca, opcional)
 
 ## Preparación
 
