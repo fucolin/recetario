@@ -1,0 +1,455 @@
+---
+esquema: recetario-calendario-1.0
+id: calendario-verduras-temporada
+titulo: Calendario de verduras de temporada
+fecha_actualizacion: '2026-10-16'
+fuente:
+  nombre: Codinugal · Colegio Oficial de Dietistas-Nutricionistas de Galicia
+  url: https://codinugal.es/material-didactico/verduras-y-hortalizas-de-temporada-por-mes/
+  fecha_consulta: '2026-10-16'
+  material: 12 infografías mensuales de verduras y hortalizas
+alcance: Calendario orientativo basado en las láminas de Codinugal. Aunque la fuente es el Colegio Oficial
+  de Dietistas-Nutricionistas de Galicia, el material no especifica que todos los productos correspondan a
+  cosecha local gallega al aire libre. No garantiza procedencia ni disponibilidad en tu zona.
+criterios:
+- Los productos y sus meses se transcriben de las láminas; los grupos son una organización propia para facilitar
+  la consulta.
+- 'No se añaden productos ausentes de la fuente: patata y boniato no aparecen.'
+- 'No se distingue entre plena temporada e inicio o final: la fuente no ofrece esa clasificación.'
+meses:
+- numero: 1
+  nombre: Enero
+  id: enero
+  fuente_lamina: https://codinugal.es/wp-content/uploads/2024/06/1-2024-verduras-xaneiro.png
+  grupos:
+    Hojas:
+    - grelos
+    - nabizas
+    - espinacas
+    - acelgas
+    - lechuga
+    - escarola
+    Coles:
+    - lombarda
+    - brécol
+    - coliflor
+    - repollo
+    Otras verduras:
+    - alcachofa
+    - judías verdes
+    - calabacín
+    - apio
+    - pimiento rojo
+    Raíces y bulbos:
+    - zanahoria
+    - ajo
+    - cebolla
+    - puerro
+- numero: 2
+  nombre: Febrero
+  id: febrero
+  fuente_lamina: https://codinugal.es/wp-content/uploads/2024/06/2-2024-verduras-febreiro.png
+  grupos:
+    Hojas:
+    - grelos
+    - nabizas
+    - espinacas
+    - acelgas
+    - escarola
+    - lechuga
+    Coles:
+    - col rizada
+    - brécol
+    - coliflor
+    - lombarda
+    - coles de Bruselas
+    - repollo
+    - asa de cántaro
+    Otras verduras:
+    - alcachofa
+    - apio
+    Raíces y bulbos:
+    - zanahoria
+    - cebolla
+    - ajo
+    - puerro
+- numero: 3
+  nombre: Marzo
+  id: marzo
+  fuente_lamina: https://codinugal.es/wp-content/uploads/2024/06/3-2024-verduras-marzo.png
+  grupos:
+    Hojas:
+    - grelos
+    - nabizas
+    - acelgas
+    - espinacas
+    - lechuga
+    - canónigos
+    Coles:
+    - repollo
+    - col rizada
+    - brécol
+    - romanesco
+    - coliflor
+    - lombarda
+    Otras verduras:
+    - alcachofa
+    - apio
+    - espárragos trigueros
+    Raíces y bulbos:
+    - zanahoria
+    - puerro
+    - ajo
+    - cebolla
+    - cebolleta
+- numero: 4
+  nombre: Abril
+  id: abril
+  fuente_lamina: https://codinugal.es/wp-content/uploads/2024/06/4-2024-verduras-abril.png
+  grupos:
+    Hojas:
+    - acelgas
+    - espinacas
+    - endivias
+    - lechuga
+    - canónigos
+    - escarola
+    Coles:
+    - repollo
+    - col rizada
+    - brécol
+    - coliflor
+    - lombarda
+    Otras verduras:
+    - alcachofa
+    - espárragos trigueros
+    - apio
+    Raíces y bulbos:
+    - cebolla
+    - cebolleta
+    - zanahoria
+    - puerro
+    - ajo
+- numero: 5
+  nombre: Mayo
+  id: mayo
+  fuente_lamina: https://codinugal.es/wp-content/uploads/2024/06/5-2024-verduras-maio.png
+  grupos:
+    Hojas:
+    - lechuga
+    - acelgas
+    - espinacas
+    Coles:
+    - repollo
+    - lombarda
+    - col rizada
+    - brécol
+    - coliflor
+    Otras verduras:
+    - judías verdes
+    - alcachofa
+    - espárragos trigueros
+    - tomate
+    - pimientos
+    - apio
+    Raíces y bulbos:
+    - ajo
+    - puerro
+    - cebolla
+    - cebolleta
+    - rábano
+    - zanahoria
+- numero: 6
+  nombre: Junio
+  id: junio
+  fuente_lamina: https://codinugal.es/wp-content/uploads/2024/06/6-2024-verduras-xuno.png
+  grupos:
+    Hojas:
+    - lechuga
+    - espinacas
+    - acelgas
+    Coles:
+    - brécol
+    - coliflor
+    Otras verduras:
+    - judías verdes
+    - calabaza
+    - calabacín
+    - berenjena
+    - pepino
+    - tomate
+    - pimiento
+    - espárragos trigueros
+    Raíces y bulbos:
+    - zanahoria
+    - remolacha
+    - cebolla
+    - cebolleta
+    - puerro
+    - ajo
+    - rábano
+- numero: 7
+  nombre: Julio
+  id: julio
+  fuente_lamina: https://codinugal.es/wp-content/uploads/2024/06/7-2024-verduras-xullo.png
+  grupos:
+    Hojas:
+    - lechuga
+    - espinacas
+    Otras verduras:
+    - berenjena
+    - judías verdes
+    - calabaza
+    - pepino
+    - calabacín
+    - tomate
+    - pimientos
+    Raíces y bulbos:
+    - rábano
+    - remolacha
+    - zanahoria
+    - ajo
+    - cebolla
+    - cebolleta
+- numero: 8
+  nombre: Agosto
+  id: agosto
+  fuente_lamina: https://codinugal.es/wp-content/uploads/2024/06/8-2024-verduras-agosto.png
+  grupos:
+    Hojas:
+    - lechuga
+    - endivia
+    Otras verduras:
+    - judías verdes
+    - calabaza
+    - berenjena
+    - calabacín
+    - pepino
+    - pimientos
+    - pimientos de Padrón y de Herbón
+    - tomate
+    Raíces y bulbos:
+    - remolacha
+    - cebolla
+    - rábanos
+    - zanahoria
+- numero: 9
+  nombre: Septiembre
+  id: septiembre
+  fuente_lamina: https://codinugal.es/wp-content/uploads/2024/02/09-verduras-setembro.jpg
+  grupos:
+    Hojas:
+    - lechuga
+    - espinacas
+    Coles:
+    - brécol
+    - coliflor
+    Otras verduras:
+    - judías verdes
+    - berenjena
+    - calabaza
+    - calabacín
+    - pepino
+    - tomate
+    - pimientos
+    - pimientos de Padrón y de Herbón
+    Raíces y bulbos:
+    - remolacha
+    - puerro
+    - cebolla
+    - rábanos
+    - zanahoria
+- numero: 10
+  nombre: Octubre
+  id: octubre
+  fuente_lamina: https://codinugal.es/wp-content/uploads/2024/02/10-verduras-outubro.jpg
+  grupos:
+    Hojas:
+    - lechuga
+    - espinacas
+    - acelgas
+    Coles:
+    - brécol
+    - coliflor
+    - lombarda
+    - repollo
+    Otras verduras:
+    - judías verdes
+    - berenjena
+    - calabaza
+    - tomate
+    - pimientos
+    Raíces y bulbos:
+    - remolacha
+    - cebolla
+    - puerro
+    - zanahoria
+    Hongos:
+    - setas
+- numero: 11
+  nombre: Noviembre
+  id: noviembre
+  fuente_lamina: https://codinugal.es/wp-content/uploads/2024/02/11-verduras-novembro.jpg
+  grupos:
+    Hojas:
+    - grelos
+    - nabizas
+    - espinacas
+    - acelgas
+    - lechuga
+    Coles:
+    - brécol
+    - coliflor
+    - lombarda
+    - repollo
+    - coles de Bruselas
+    Otras verduras:
+    - berenjena
+    - alcachofa
+    - pimientos
+    - calabaza
+    - tomate
+    Raíces y bulbos:
+    - cebolla
+    - zanahorias
+    - puerro
+    Hongos:
+    - setas
+- numero: 12
+  nombre: Diciembre
+  id: diciembre
+  fuente_lamina: https://codinugal.es/wp-content/uploads/2024/02/12-verduras-decembro.jpg
+  grupos:
+    Hojas:
+    - grelos
+    - nabizas
+    - espinacas
+    - acelgas
+    - lechuga
+    Coles:
+    - lombarda
+    - brécol
+    - coliflor
+    - repollo
+    Otras verduras:
+    - berenjena
+    - apio
+    - alcachofa
+    - pimientos
+    - tomate
+    Raíces y bulbos:
+    - ajo
+    - cebolla
+    - zanahorias
+    - rábano
+---
+
+# Calendario de verduras de temporada
+
+Fuente: [Codinugal](https://codinugal.es/material-didactico/verduras-y-hortalizas-de-temporada-por-mes/). Los grupos son una organización propia. En la web, tras la botonera, se muestra la lámina del mes actual, ampliable en una nueva pestaña. El cambio de mes se aplica automáticamente según Europe/Madrid, con actualización mensual de la imagen inicial en GitHub.
+
+## Enero
+
+- **Hojas:** grelos, nabizas, espinacas, acelgas, lechuga, escarola.
+- **Coles:** lombarda, brécol, coliflor, repollo.
+- **Otras verduras:** alcachofa, judías verdes, calabacín, apio, pimiento rojo.
+- **Raíces y bulbos:** zanahoria, ajo, cebolla, puerro.
+
+
+## Febrero
+
+- **Hojas:** grelos, nabizas, espinacas, acelgas, escarola, lechuga.
+- **Coles:** col rizada, brécol, coliflor, lombarda, coles de Bruselas, repollo, asa de cántaro.
+- **Otras verduras:** alcachofa, apio.
+- **Raíces y bulbos:** zanahoria, cebolla, ajo, puerro.
+
+
+## Marzo
+
+- **Hojas:** grelos, nabizas, acelgas, espinacas, lechuga, canónigos.
+- **Coles:** repollo, col rizada, brécol, romanesco, coliflor, lombarda.
+- **Otras verduras:** alcachofa, apio, espárragos trigueros.
+- **Raíces y bulbos:** zanahoria, puerro, ajo, cebolla, cebolleta.
+
+
+## Abril
+
+- **Hojas:** acelgas, espinacas, endivias, lechuga, canónigos, escarola.
+- **Coles:** repollo, col rizada, brécol, coliflor, lombarda.
+- **Otras verduras:** alcachofa, espárragos trigueros, apio.
+- **Raíces y bulbos:** cebolla, cebolleta, zanahoria, puerro, ajo.
+
+
+## Mayo
+
+- **Hojas:** lechuga, acelgas, espinacas.
+- **Coles:** repollo, lombarda, col rizada, brécol, coliflor.
+- **Otras verduras:** judías verdes, alcachofa, espárragos trigueros, tomate, pimientos, apio.
+- **Raíces y bulbos:** ajo, puerro, cebolla, cebolleta, rábano, zanahoria.
+
+
+## Junio
+
+- **Hojas:** lechuga, espinacas, acelgas.
+- **Coles:** brécol, coliflor.
+- **Otras verduras:** judías verdes, calabaza, calabacín, berenjena, pepino, tomate, pimiento, espárragos trigueros.
+- **Raíces y bulbos:** zanahoria, remolacha, cebolla, cebolleta, puerro, ajo, rábano.
+
+
+## Julio
+
+- **Hojas:** lechuga, espinacas.
+- **Otras verduras:** berenjena, judías verdes, calabaza, pepino, calabacín, tomate, pimientos.
+- **Raíces y bulbos:** rábano, remolacha, zanahoria, ajo, cebolla, cebolleta.
+
+
+## Agosto
+
+- **Hojas:** lechuga, endivia.
+- **Otras verduras:** judías verdes, calabaza, berenjena, calabacín, pepino, pimientos, pimientos de Padrón y de Herbón, tomate.
+- **Raíces y bulbos:** remolacha, cebolla, rábanos, zanahoria.
+
+
+## Septiembre
+
+- **Hojas:** lechuga, espinacas.
+- **Coles:** brécol, coliflor.
+- **Otras verduras:** judías verdes, berenjena, calabaza, calabacín, pepino, tomate, pimientos, pimientos de Padrón y de Herbón.
+- **Raíces y bulbos:** remolacha, puerro, cebolla, rábanos, zanahoria.
+
+
+## Octubre
+
+- **Hojas:** lechuga, espinacas, acelgas.
+- **Coles:** brécol, coliflor, lombarda, repollo.
+- **Otras verduras:** judías verdes, berenjena, calabaza, tomate, pimientos.
+- **Raíces y bulbos:** remolacha, cebolla, puerro, zanahoria.
+- **Hongos:** setas.
+
+
+## Noviembre
+
+- **Hojas:** grelos, nabizas, espinacas, acelgas, lechuga.
+- **Coles:** brécol, coliflor, lombarda, repollo, coles de Bruselas.
+- **Otras verduras:** berenjena, alcachofa, pimientos, calabaza, tomate.
+- **Raíces y bulbos:** cebolla, zanahorias, puerro.
+- **Hongos:** setas.
+
+
+## Diciembre
+
+- **Hojas:** grelos, nabizas, espinacas, acelgas, lechuga.
+- **Coles:** lombarda, brécol, coliflor, repollo.
+- **Otras verduras:** berenjena, apio, alcachofa, pimientos, tomate.
+- **Raíces y bulbos:** ajo, cebolla, zanahorias, rábano.
+
+
+## Cómo usar este calendario
+
+Calendario orientativo basado en las láminas de Codinugal. Aunque la fuente es el Colegio Oficial de Dietistas-Nutricionistas de Galicia, el material no especifica que todos los productos correspondan a cosecha local gallega al aire libre. No garantiza procedencia ni disponibilidad en tu zona.
+
+Los productos y sus meses se transcriben de las láminas; los grupos son una organización propia para facilitar la consulta.
+
+No se añaden productos ausentes de la fuente: patata y boniato no aparecen.
+
+No se distingue entre plena temporada e inicio o final: la fuente no ofrece esa clasificación.
