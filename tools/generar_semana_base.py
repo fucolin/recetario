@@ -19,12 +19,25 @@ def main():
             item = '<div class="week-dish"><strong>' + escape(part['texto']) + '</strong>'
             example = part.get('ejemplo')
             if example:
-                assert (ROOT / example['pagina']).is_file(), example['pagina']
-                recipe = json.loads((ROOT / Path(example['pagina']).with_suffix('.json')).read_text())
-                assert recipe['categoria_menu'] == part['categoria'], part['texto']
-                item += f'<a class="week-example" href="{escape(example["pagina"], quote=True)}">{escape(example["titulo"])}</a>'
+                assert set(example) <= {'titulo', 'pagina', 'categoria', 'componentes'}, 'Revisar claves YAML del ejemplo: ' + str(example)
+                components = example.get('componentes', [example])
+                rendered = []
+                for component in components:
+                    assert set(component) <= {'titulo', 'pagina', 'categoria'}, 'Revisar claves YAML del ejemplo: ' + str(component)
+                    title = escape(component['titulo'])
+                    if component.get('pagina'):
+                        assert (ROOT / component['pagina']).is_file(), component['pagina']
+                        recipe = json.loads((ROOT / Path(component['pagina']).with_suffix('.json')).read_text())
+                        assert recipe['categoria_menu'] == component.get('categoria', part['categoria']), part['texto']
+                        rendered.append(f'<a href="{escape(component["pagina"], quote=True)}">{title}</a>')
+                    else:
+                        rendered.append('<span>' + title + '</span>')
+                item += '<div class="week-example">' + ' + '.join(rendered) + '</div>'
             elif part['texto'] != 'Libre':
                 item += '<span class="week-pending">Ejemplo pendiente</span>'
+            if part.get('aclaracion'):
+                icon = '<span aria-label="Advertencia">⚠️</span> ' if part.get('icono_aclaracion') == 'advertencia' else ''
+                item += '<div class="week-example">' + icon + escape(part['aclaracion']) + '</div>'
             result.append(item + '</div>')
         pair = ' has-pair' if len(parts) > 1 else ''
         return '<div class="week-meal' + pair + '"><p class="meal-label">' + label + '</p><div class="week-dishes">' + ''.join(result) + '</div></div>'
@@ -33,30 +46,13 @@ def main():
              '<div class="week-track" id="week-track" role="list" aria-label="Semana de lunes a domingo">']
     for n, day in enumerate(data['dias']):
         block.append(f'<article class="week-day" role="listitem" data-weekday="{n}" aria-labelledby="week-day-{n}"><header><h3 id="week-day-{n}">{escape(day["dia"])}</h3></header>{meal(day["comida"], "Comida")}{meal(day["cena"], "Cena")}</article>')
-    block += ['</div><p class="week-more"><a href="#catalogo-recetas"><span class="week-more-label">Más recetas…</span><span class="week-more-arrow" aria-hidden="true">↓</span></a></p></section>', '''<script>(()=>{
-const track=document.getElementById('week-track');
-const days=Array.from(track.querySelectorAll('.week-day'));
-const weekday=new Intl.DateTimeFormat('en-US',{weekday:'short',timeZone:'Europe/Madrid'}).format(new Date());
-const current=['Mon','Tue','Wed','Thu','Fri','Sat','Sun'].indexOf(weekday);
-const mobile=window.matchMedia('(max-width:650px)');
-const reduced=window.matchMedia('(prefers-reduced-motion:reduce)');
-let selected=current<0?0:current;
-function center(index,smooth){selected=Math.max(0,Math.min(6,index));if(!mobile.matches)return;const item=days[selected];const box=item.getBoundingClientRect();const viewport=track.getBoundingClientRect();track.scrollTo({left:track.scrollLeft+box.left-viewport.left-(track.clientWidth-box.width)/2,behavior:smooth&&!reduced.matches?'smooth':'instant'})}
-if(current>=0){days[current].classList.add('is-today');days[current].setAttribute('aria-current','date')}
-document.querySelector('.week-controls').hidden=false;
-document.getElementById('week-prev').addEventListener('click',()=>center(selected-1,true));
-document.getElementById('week-next').addEventListener('click',()=>center(selected+1,true));
-document.getElementById('week-today').addEventListener('click',()=>center(current,true));
-track.addEventListener('scroll',()=>{const box=track.getBoundingClientRect();const middle=box.left+box.width/2;let distance=Infinity;days.forEach((day,i)=>{const b=day.getBoundingClientRect();const d=Math.abs(b.left+b.width/2-middle);if(d<distance){distance=d;selected=i}})},{passive:true});
-requestAnimationFrame(()=>center(current,false));
-mobile.addEventListener('change',()=>center(current,false));
-})();</script>''', '<!-- SEMANA_BASE_FIN -->']
+    block += ['</div></section>', '<script>' + (ROOT / 'tools/semana_base.js').read_text() + '</script>', '<!-- SEMANA_BASE_FIN -->']
     page = ROOT / 'index.html'
     html, count = re.subn(r'<!-- SEMANA_BASE_INICIO -->.*?<!-- SEMANA_BASE_FIN -->', '\n'.join(block), page.read_text(), flags=re.S)
     assert count == 1, 'El bloque de semana base debe aparecer exactamente una vez'
     page.write_text(html)
     (ROOT / 'datos/semana-base.json').write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n')
-    print('Semana base actualizada: siete columnas, carrusel móvil y ejemplos de categorías comprobados.')
+    print('Semana base actualizada: carrusel circular y ejemplos de categorías comprobados.')
 
 
 if __name__ == '__main__':

@@ -1,8 +1,9 @@
 {
-  "esquema": "recetario-semana-base-1.0",
+  "esquema": "recetario-semana-base-1.1",
   "id": "semana-base",
   "titulo": "Mi semana base",
   "fecha_actualizacion": "2026-10-16",
+  "fuente": "Tabla editada aportada por el usuario el 16 de octubre de 2026.",
   "dias": [
     {
       "dia": "Lunes",
@@ -10,7 +11,10 @@
         {
           "texto": "Verduras",
           "categoria": "Vegetales",
-          "ejemplo": null
+          "ejemplo": {
+            "titulo": "Menestra",
+            "pagina": null
+          }
         }
       ],
       "cena": [
@@ -18,8 +22,17 @@
           "texto": "Picoteo sanote",
           "categoria": "Picoteo y guarniciones",
           "ejemplo": {
-            "titulo": "Barquitas de endivia con requesón",
-            "pagina": "barquitas-endivia-requeson.html"
+            "titulo": "Barquitas de endivia con requesón + hummus con zanahoria",
+            "componentes": [
+              {
+                "titulo": "Barquitas de endivia con requesón",
+                "pagina": "barquitas-endivia-requeson.html"
+              },
+              {
+                "titulo": "hummus con zanahoria",
+                "pagina": "hummus-zanahoria.html"
+              }
+            ]
           }
         }
       ]
@@ -30,7 +43,20 @@
         {
           "texto": "Pescado azul",
           "categoria": "Pescado azul",
-          "ejemplo": null
+          "ejemplo": {
+            "titulo": "Salmón + pimientos asados",
+            "componentes": [
+              {
+                "titulo": "Salmón",
+                "pagina": null
+              },
+              {
+                "titulo": "pimientos asados",
+                "pagina": "pimientos-asados-cebolla-cosori.html",
+                "categoria": "Picoteo y guarniciones"
+              }
+            ]
+          }
         }
       ],
       "cena": [
@@ -38,8 +64,7 @@
           "texto": "Tortilla",
           "categoria": "Huevos",
           "ejemplo": {
-            "titulo": "Tortilla de boniato",
-            "espinacas y parmesano": null,
+            "titulo": "Tortilla de boniato y espinacas",
             "pagina": "tortilla-boniato-espinacas-parmesano.html"
           }
         }
@@ -74,12 +99,18 @@
         {
           "texto": "Puré",
           "categoria": "Purés",
-          "ejemplo": null
+          "ejemplo": {
+            "titulo": "aprovechategui",
+            "pagina": null
+          }
         },
         {
           "texto": "Pescado blanco",
           "categoria": "Pescado blanco",
-          "ejemplo": null
+          "ejemplo": {
+            "titulo": "Lubina a la plancha",
+            "pagina": null
+          }
         }
       ],
       "cena": [
@@ -87,7 +118,7 @@
           "texto": "Revuelto",
           "categoria": "Huevos",
           "ejemplo": {
-            "titulo": "Revuelto de champiñones y trigueros",
+            "titulo": "de champiñones y trigueros",
             "pagina": "revuelto-champinones-trigueros.html"
           }
         }
@@ -100,8 +131,7 @@
           "texto": "Ensalada",
           "categoria": "Ensaladas",
           "ejemplo": {
-            "titulo": "Ensalada de salmón ahumado",
-            "mango y aguacate": null,
+            "titulo": "de salmón, mango y aguacate",
             "pagina": "ensalada-salmon-ahumado-mango-aguacate.html"
           }
         }
@@ -112,7 +142,6 @@
           "categoria": "Envueltos y bocados",
           "ejemplo": {
             "titulo": "Burritos de frijoles",
-            "quinoa y edamame": null,
             "pagina": "burritos-frijoles-quinoa-edamame-champinones.html"
           }
         }
@@ -124,14 +153,17 @@
         {
           "texto": "Marisco",
           "categoria": "Mariscos",
-          "ejemplo": null
+          "ejemplo": {
+            "titulo": "Gambas al ajillo con pasta",
+            "pagina": null
+          }
         },
         {
-          "texto": "ensalada de tomate",
+          "texto": "Ensalada",
           "categoria": "Ensaladas",
           "ejemplo": {
-            "titulo": "Tomates sobre un lago de albahaca",
-            "pagina": "ensalada-tomates-lago-albahaca.html"
+            "titulo": "de tomate y mozzarella",
+            "pagina": null
           }
         }
       ],
@@ -139,7 +171,9 @@
         {
           "texto": "Libre",
           "categoria": null,
-          "ejemplo": null
+          "ejemplo": null,
+          "aclaracion": "Respete vd. las cantidades",
+          "icono_aclaracion": "advertencia"
         }
       ]
     },
@@ -159,12 +193,18 @@
         {
           "texto": "Sopa",
           "categoria": null,
-          "ejemplo": null
+          "ejemplo": {
+            "titulo": "de fideos",
+            "pagina": null
+          }
         },
         {
-          "texto": "tortilla francesa",
+          "texto": "Huevos",
           "categoria": "Huevos",
-          "ejemplo": null
+          "ejemplo": {
+            "titulo": "Tortilla francesa",
+            "pagina": null
+          }
         }
       ]
     }

@@ -1,23 +1,36 @@
 ---
-esquema: recetario-semana-base-1.0
+esquema: recetario-semana-base-1.1
 id: semana-base
 titulo: Mi semana base
 fecha_actualizacion: '2026-10-16'
+fuente: Tabla editada aportada por el usuario el 16 de octubre de 2026.
 dias:
   - dia: Lunes
     comida:
-      - {texto: Verduras, categoria: Vegetales, ejemplo: null}
+      - texto: Verduras
+        categoria: Vegetales
+        ejemplo: {titulo: Menestra, pagina: null}
     cena:
       - texto: Picoteo sanote
         categoria: Picoteo y guarniciones
-        ejemplo: {titulo: Barquitas de endivia con requesón, pagina: barquitas-endivia-requeson.html}
+        ejemplo:
+          titulo: Barquitas de endivia con requesón + hummus con zanahoria
+          componentes:
+            - {titulo: Barquitas de endivia con requesón, pagina: barquitas-endivia-requeson.html}
+            - {titulo: hummus con zanahoria, pagina: hummus-zanahoria.html}
   - dia: Martes
     comida:
-      - {texto: Pescado azul, categoria: Pescado azul, ejemplo: null}
+      - texto: Pescado azul
+        categoria: Pescado azul
+        ejemplo:
+          titulo: Salmón + pimientos asados
+          componentes:
+            - {titulo: Salmón, pagina: null}
+            - {titulo: pimientos asados, pagina: pimientos-asados-cebolla-cosori.html, categoria: Picoteo y guarniciones}
     cena:
       - texto: Tortilla
         categoria: Huevos
-        ejemplo: {titulo: Tortilla de boniato, espinacas y parmesano, pagina: tortilla-boniato-espinacas-parmesano.html}
+        ejemplo: {titulo: Tortilla de boniato y espinacas, pagina: tortilla-boniato-espinacas-parmesano.html}
   - dia: Miércoles
     comida:
       - texto: Legumbres
@@ -29,41 +42,55 @@ dias:
         ejemplo: {titulo: Pechuga de pavo a la plancha, pagina: pechuga-pavo-plancha.html}
   - dia: Jueves
     comida:
-      - {texto: Puré, categoria: Purés, ejemplo: null}
-      - {texto: Pescado blanco, categoria: Pescado blanco, ejemplo: null}
+      - texto: Puré
+        categoria: Purés
+        ejemplo: {titulo: aprovechategui, pagina: null}
+      - texto: Pescado blanco
+        categoria: Pescado blanco
+        ejemplo: {titulo: Lubina a la plancha, pagina: null}
     cena:
       - texto: Revuelto
         categoria: Huevos
-        ejemplo: {titulo: Revuelto de champiñones y trigueros, pagina: revuelto-champinones-trigueros.html}
+        ejemplo: {titulo: de champiñones y trigueros, pagina: revuelto-champinones-trigueros.html}
   - dia: Viernes
     comida:
       - texto: Ensalada
         categoria: Ensaladas
-        ejemplo: {titulo: Ensalada de salmón ahumado, mango y aguacate, pagina: ensalada-salmon-ahumado-mango-aguacate.html}
+        ejemplo: {titulo: 'de salmón, mango y aguacate', pagina: ensalada-salmon-ahumado-mango-aguacate.html}
     cena:
       - texto: Envuelto/Bocata
         categoria: Envueltos y bocados
-        ejemplo: {titulo: Burritos de frijoles, quinoa y edamame, pagina: burritos-frijoles-quinoa-edamame-champinones.html}
+        ejemplo: {titulo: Burritos de frijoles, pagina: burritos-frijoles-quinoa-edamame-champinones.html}
   - dia: Sábado
     comida:
-      - {texto: Marisco, categoria: Mariscos, ejemplo: null}
-      - texto: ensalada de tomate
+      - texto: Marisco
+        categoria: Mariscos
+        ejemplo: {titulo: Gambas al ajillo con pasta, pagina: null}
+      - texto: Ensalada
         categoria: Ensaladas
-        ejemplo: {titulo: Tomates sobre un lago de albahaca, pagina: ensalada-tomates-lago-albahaca.html}
+        ejemplo: {titulo: de tomate y mozzarella, pagina: null}
     cena:
-      - {texto: Libre, categoria: null, ejemplo: null}
+      - texto: Libre
+        categoria: null
+        ejemplo: null
+        aclaracion: Respete vd. las cantidades
+        icono_aclaracion: advertencia
   - dia: Domingo
     comida:
       - texto: Guiso
         categoria: Guisos y asados
         ejemplo: {titulo: Pollo guisado con calabacín, pagina: pollo-guisado-calabacin.html}
     cena:
-      - {texto: Sopa, categoria: null, ejemplo: null}
-      - {texto: tortilla francesa, categoria: Huevos, ejemplo: null}
+      - texto: Sopa
+        categoria: null
+        ejemplo: {titulo: de fideos, pagina: null}
+      - texto: Huevos
+        categoria: Huevos
+        ejemplo: {titulo: Tortilla francesa, pagina: null}
 ---
 
 # Mi semana base
 
 Guía semanal personal acordada con el usuario. Cada día conserva comida y cena; no representa un menú fechado ni una pauta nutricional evaluada.
 
-Se muestra en la portada después del encabezado de Casa Marisa, sin título visible. Siete columnas en escritorio; carrusel horizontal en móvil, centrado inicialmente en el día actual de Europe/Madrid. El día actual se distingue por el color de su cabecera, sin la palabra «Hoy» dentro de esa celda. Debajo, el enlace «Más recetas…» lleva a #catalogo-recetas, que empieza con la botonera de categorías y contiene el buscador y el listado. Los tipos de plato son texto en negrita sin enlace; debajo aparecen ejemplos reales enlazados a fichas disponibles de su categoría. Si todavía no hay ficha adecuada, indicar «Ejemplo pendiente». No sustituir tortilla francesa por otra tortilla ni completar la cena libre. No modificar «ensalada de tomate» sin indicación del usuario.
+Se muestra en la portada después del encabezado de Casa Marisa, sin título visible. Carrusel infinito en escritorio y móvil, con tres días visibles en escritorio y el actual centrado inicialmente según Europe/Madrid. El día actual se distingue por el color de su cabecera, sin la palabra «Hoy» dentro de esa celda. Debajo va «Para elegir y comprar», con su título como pestañita en el borde; después, «Las recetas» introduce la botonera, el buscador y el listado. No mostrar el enlace «Más recetas…». Los tipos de plato son texto en negrita sin enlace; debajo aparecen los ejemplos indicados por el usuario, con enlace solo cuando existe la ficha adecuada. Los ejemplos sin ficha se muestran como texto, sin inventar páginas. Los ejemplos compuestos conservan cada componente y sus enlaces por separado. «Ejemplo pendiente» se reserva para un ejemplo aún no elegido. No sustituir tortilla francesa por otra tortilla ni completar la cena libre. No crear fichas ni tarjetas futuras a partir de esta tabla sin petición específica.
