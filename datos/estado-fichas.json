@@ -1,11 +1,11 @@
 {
   "nuevas": [
-    "burritos-frijoles-quinoa-edamame-champinones",
     "barquitas-endivia-requeson",
     "pimientos-asados-cebolla-cosori",
     "ensalada-tomates-lago-albahaca",
     "pollo-satisfryer",
-    "crema-aprovechamiento-marisa"
+    "crema-aprovechamiento-marisa",
+    "sardinas-marinadas"
   ],
   "proximas": [
     {
@@ -152,12 +152,6 @@
       "titulo": "Crema de calabacín",
       "categoria_menu": "Purés",
       "categoria_slug": "pures"
-    },
-    {
-      "id": "sardinas-marinadas",
-      "titulo": "Sardinas marinadas",
-      "categoria_menu": "Pescado azul",
-      "categoria_slug": "pescado-azul"
     },
     {
       "id": "pasta-feta-pepino-manzana",

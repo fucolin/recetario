@@ -184,3 +184,7 @@ Doce láminas originales descargadas de Codinugal por petición expresa del usua
 Las fotografías de envases y etiquetas `images/productos/arroz-integral-nomen-{envase,etiqueta}.jpeg`, `edamame-cidacos-{envase,nutricion,ingredientes}.jpeg` y `piadina-espelta-biocop-{envase,etiqueta}.jpeg` han sido aportadas por el usuario el 16/10/2026. Se conservan sin modificaciones, con el envase legible y sin recortar su presentación. No se ha indicado una licencia de reutilización.
 
 Las capturas `images/productos/arroz-integral-nomen-yuka.jpeg`, `edamame-cidacos-yuka.jpeg` y `piadina-espelta-biocop-yuka.jpeg` corresponden a Yuka y han sido aportadas por el usuario. Se atribuyen la puntuación y los comentarios a Yuka; no se asigna una licencia abierta a estas capturas.
+
+## Sardinas marinadas
+
+`images/sardinas-marinadas-v2.jpg`: imagen ilustrativa generada con IA para Casa Marisa el 16/10/2026 mediante la herramienta integrada de generación de imágenes. No es una fotografía del plato preparado ni procede de El Comidista. No se le atribuye una licencia Creative Commons. Prompt: fuente blanca con lomos de sardina marinados sobre tomate rallado, aceitunas verdes y negras, cebolleta, cebollino, tomillo; luz natural, formato horizontal, sin texto. Edición posterior para retirar las rodajitas de piparra, conservando los demás ingredientes, el plato, encuadre y luz. Se conserva el PNG generado y se exporta JPEG optimizado para la web.
