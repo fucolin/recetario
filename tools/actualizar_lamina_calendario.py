@@ -12,12 +12,11 @@ RAIZ = Path(__file__).resolve().parent.parent
 
 def actualizar_html(contenido, mes):
     nombre = mes['nombre'].lower()
-    url = escape(mes['fuente_lamina'], quote=True)
+    url = escape(mes['archivo_lamina'], quote=True)
     bloque = re.search(r'<!-- LAMINA_ACTUAL_INICIO -->.*?<!-- LAMINA_ACTUAL_FIN -->', contenido, re.S)
     if bloque is None:
         raise ValueError('No se encuentra el bloque de la lámina mensual')
     nuevo = bloque.group(0)
-    nuevo = re.sub(r'(<span id="lamina-mes">).*?(</span>)', lambda m: m[1] + escape(nombre) + m[2], nuevo)
     nuevo = re.sub(r'(id="lamina-(?:enlace|ampliar)" href=")[^"]*', lambda m: m[1] + url, nuevo)
     nuevo = re.sub(r'(id="lamina-imagen" src=")[^"]*', lambda m: m[1] + url, nuevo)
     nuevo = re.sub(r'aria-label="Abrir lámina de [^"]*"', 'aria-label="Abrir lámina de ' + escape(nombre) + ' a tamaño completo (nueva pestaña)"', nuevo)

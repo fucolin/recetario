@@ -149,3 +149,20 @@ Fotografías propias aportadas el 15/10/2026, conservadas completas y mostradas 
 - Fuente: https://commons.wikimedia.org/wiki/File:Roast_Chicken_Legs_and_Thighs_(31196736704).jpg
 - Licencia: CC BY-SA 2.0, https://creativecommons.org/licenses/by-sa/2.0/
 - Original conservado (1600 × 1200); presentación 16:9 mediante CSS. Imagen representativa, no fotografía de esta preparación.
+
+## Calendario de verduras · Codinugal
+
+Doce láminas originales descargadas de Codinugal por petición expresa del usuario para servir la imagen incrustada y su ampliación desde la web del recetario. Archivos conservados sin modificación, con logotipo y atribución en la página. No se ha identificado una licencia abierta: los derechos corresponden a sus titulares; no se declara licencia de reutilización.
+
+- `images/calendario-verduras/01-enero.png`: https://codinugal.es/wp-content/uploads/2024/06/1-2024-verduras-xaneiro.png
+- `images/calendario-verduras/02-febrero.png`: https://codinugal.es/wp-content/uploads/2024/06/2-2024-verduras-febreiro.png
+- `images/calendario-verduras/03-marzo.png`: https://codinugal.es/wp-content/uploads/2024/06/3-2024-verduras-marzo.png
+- `images/calendario-verduras/04-abril.png`: https://codinugal.es/wp-content/uploads/2024/06/4-2024-verduras-abril.png
+- `images/calendario-verduras/05-mayo.png`: https://codinugal.es/wp-content/uploads/2024/06/5-2024-verduras-maio.png
+- `images/calendario-verduras/06-junio.png`: https://codinugal.es/wp-content/uploads/2024/06/6-2024-verduras-xuno.png
+- `images/calendario-verduras/07-julio.png`: https://codinugal.es/wp-content/uploads/2024/06/7-2024-verduras-xullo.png
+- `images/calendario-verduras/08-agosto.png`: https://codinugal.es/wp-content/uploads/2024/06/8-2024-verduras-agosto.png
+- `images/calendario-verduras/09-septiembre.jpg`: https://codinugal.es/wp-content/uploads/2024/02/09-verduras-setembro.jpg
+- `images/calendario-verduras/10-octubre.jpg`: https://codinugal.es/wp-content/uploads/2024/02/10-verduras-outubro.jpg
+- `images/calendario-verduras/11-noviembre.jpg`: https://codinugal.es/wp-content/uploads/2024/02/11-verduras-novembro.jpg
+- `images/calendario-verduras/12-diciembre.jpg`: https://codinugal.es/wp-content/uploads/2024/02/12-verduras-decembro.jpg

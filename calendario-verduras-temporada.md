@@ -45,6 +45,7 @@ meses:
     - ajo
     - cebolla
     - puerro
+  archivo_lamina: images/calendario-verduras/01-enero.png
 - numero: 2
   nombre: Febrero
   id: febrero
@@ -73,6 +74,7 @@ meses:
     - cebolla
     - ajo
     - puerro
+  archivo_lamina: images/calendario-verduras/02-febrero.png
 - numero: 3
   nombre: Marzo
   id: marzo
@@ -102,6 +104,7 @@ meses:
     - ajo
     - cebolla
     - cebolleta
+  archivo_lamina: images/calendario-verduras/03-marzo.png
 - numero: 4
   nombre: Abril
   id: abril
@@ -130,6 +133,7 @@ meses:
     - zanahoria
     - puerro
     - ajo
+  archivo_lamina: images/calendario-verduras/04-abril.png
 - numero: 5
   nombre: Mayo
   id: mayo
@@ -159,6 +163,7 @@ meses:
     - cebolleta
     - rábano
     - zanahoria
+  archivo_lamina: images/calendario-verduras/05-mayo.png
 - numero: 6
   nombre: Junio
   id: junio
@@ -188,6 +193,7 @@ meses:
     - puerro
     - ajo
     - rábano
+  archivo_lamina: images/calendario-verduras/06-junio.png
 - numero: 7
   nombre: Julio
   id: julio
@@ -211,6 +217,7 @@ meses:
     - ajo
     - cebolla
     - cebolleta
+  archivo_lamina: images/calendario-verduras/07-julio.png
 - numero: 8
   nombre: Agosto
   id: agosto
@@ -233,6 +240,7 @@ meses:
     - cebolla
     - rábanos
     - zanahoria
+  archivo_lamina: images/calendario-verduras/08-agosto.png
 - numero: 9
   nombre: Septiembre
   id: septiembre
@@ -259,6 +267,7 @@ meses:
     - cebolla
     - rábanos
     - zanahoria
+  archivo_lamina: images/calendario-verduras/09-septiembre.jpg
 - numero: 10
   nombre: Octubre
   id: octubre
@@ -286,6 +295,7 @@ meses:
     - zanahoria
     Hongos:
     - setas
+  archivo_lamina: images/calendario-verduras/10-octubre.jpg
 - numero: 11
   nombre: Noviembre
   id: noviembre
@@ -315,6 +325,7 @@ meses:
     - puerro
     Hongos:
     - setas
+  archivo_lamina: images/calendario-verduras/11-noviembre.jpg
 - numero: 12
   nombre: Diciembre
   id: diciembre
@@ -342,11 +353,178 @@ meses:
     - cebolla
     - zanahorias
     - rábano
+  archivo_lamina: images/calendario-verduras/12-diciembre.jpg
+verduras_favoritas:
+- nombre: Ajo
+  temporada: diciembre–julio
+  meses:
+  - 12
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+- nombre: Berenjena
+  temporada: junio–diciembre
+  meses:
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+- nombre: Calabacín
+  temporada: enero y junio–septiembre
+  meses:
+  - 1
+  - 6
+  - 7
+  - 8
+  - 9
+- nombre: Calabaza
+  temporada: junio–noviembre
+  meses:
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+- nombre: Canónigos
+  temporada: marzo–abril
+  meses:
+  - 3
+  - 4
+- nombre: Cebolla
+  temporada: todo el año
+  meses:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+- nombre: Endivia
+  temporada: abril y agosto
+  meses:
+  - 4
+  - 8
+- nombre: Espárragos trigueros
+  temporada: marzo–junio
+  meses:
+  - 3
+  - 4
+  - 5
+  - 6
+- nombre: Espinacas
+  temporada: septiembre–julio
+  meses:
+  - 9
+  - 10
+  - 11
+  - 12
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+- nombre: Lechuga
+  temporada: todo el año
+  meses:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+- nombre: Pepino
+  temporada: junio–septiembre
+  meses:
+  - 6
+  - 7
+  - 8
+  - 9
+- nombre: Pimientos
+  temporada: mayo–enero
+  meses:
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  - 1
+- nombre: Tomate
+  temporada: mayo–diciembre
+  meses:
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+- nombre: Zanahoria
+  temporada: todo el año
+  meses:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
 ---
 
 # Calendario de verduras de temporada
 
-Fuente: [Codinugal](https://codinugal.es/material-didactico/verduras-y-hortalizas-de-temporada-por-mes/). Los grupos son una organización propia. En la web, tras la botonera, se muestra la lámina del mes actual, ampliable en una nueva pestaña. El cambio de mes se aplica automáticamente según Europe/Madrid, con actualización mensual de la imagen inicial en GitHub.
+Fuente: [Codinugal](https://codinugal.es/material-didactico/verduras-y-hortalizas-de-temporada-por-mes/). Los grupos son una organización propia. En la web, tras la botonera, se muestra el bloque «Este mes…», sin pie de imagen y con una lupa para ampliarla en una nueva pestaña. Tanto la imagen incrustada como la ampliada se sirven desde nuestra web. El cambio de mes se aplica automáticamente según Europe/Madrid, con actualización mensual de la imagen inicial en GitHub.
+
+## Mis verduras favoritas
+
+La tabla web muestra una única cabecera «Mis verduras favoritas», que abarca ambas columnas.
+
+| Verdura | Temporada |
+| --- | --- |
+| Ajo | diciembre–julio |
+| Berenjena | junio–diciembre |
+| Calabacín | enero y junio–septiembre |
+| Calabaza | junio–noviembre |
+| Canónigos | marzo–abril |
+| Cebolla | todo el año |
+| Endivia | abril y agosto |
+| Espárragos trigueros | marzo–junio |
+| Espinacas | septiembre–julio |
+| Lechuga | todo el año |
+| Pepino | junio–septiembre |
+| Pimientos | mayo–enero |
+| Tomate | mayo–diciembre |
+| Zanahoria | todo el año |
 
 ## Enero
 

@@ -49,7 +49,8 @@
           "cebolla",
           "puerro"
         ]
-      }
+      },
+      "archivo_lamina": "images/calendario-verduras/01-enero.png"
     },
     {
       "numero": 2,
@@ -84,7 +85,8 @@
           "ajo",
           "puerro"
         ]
-      }
+      },
+      "archivo_lamina": "images/calendario-verduras/02-febrero.png"
     },
     {
       "numero": 3,
@@ -120,7 +122,8 @@
           "cebolla",
           "cebolleta"
         ]
-      }
+      },
+      "archivo_lamina": "images/calendario-verduras/03-marzo.png"
     },
     {
       "numero": 4,
@@ -155,7 +158,8 @@
           "puerro",
           "ajo"
         ]
-      }
+      },
+      "archivo_lamina": "images/calendario-verduras/04-abril.png"
     },
     {
       "numero": 5,
@@ -191,7 +195,8 @@
           "rábano",
           "zanahoria"
         ]
-      }
+      },
+      "archivo_lamina": "images/calendario-verduras/05-mayo.png"
     },
     {
       "numero": 6,
@@ -227,7 +232,8 @@
           "ajo",
           "rábano"
         ]
-      }
+      },
+      "archivo_lamina": "images/calendario-verduras/06-junio.png"
     },
     {
       "numero": 7,
@@ -256,7 +262,8 @@
           "cebolla",
           "cebolleta"
         ]
-      }
+      },
+      "archivo_lamina": "images/calendario-verduras/07-julio.png"
     },
     {
       "numero": 8,
@@ -284,7 +291,8 @@
           "rábanos",
           "zanahoria"
         ]
-      }
+      },
+      "archivo_lamina": "images/calendario-verduras/08-agosto.png"
     },
     {
       "numero": 9,
@@ -317,7 +325,8 @@
           "rábanos",
           "zanahoria"
         ]
-      }
+      },
+      "archivo_lamina": "images/calendario-verduras/09-septiembre.jpg"
     },
     {
       "numero": 10,
@@ -352,7 +361,8 @@
         "Hongos": [
           "setas"
         ]
-      }
+      },
+      "archivo_lamina": "images/calendario-verduras/10-octubre.jpg"
     },
     {
       "numero": 11,
@@ -389,7 +399,8 @@
         "Hongos": [
           "setas"
         ]
-      }
+      },
+      "archivo_lamina": "images/calendario-verduras/11-noviembre.jpg"
     },
     {
       "numero": 12,
@@ -423,7 +434,196 @@
           "zanahorias",
           "rábano"
         ]
-      }
+      },
+      "archivo_lamina": "images/calendario-verduras/12-diciembre.jpg"
+    }
+  ],
+  "verduras_favoritas": [
+    {
+      "nombre": "Ajo",
+      "temporada": "diciembre–julio",
+      "meses": [
+        12,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "nombre": "Berenjena",
+      "temporada": "junio–diciembre",
+      "meses": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "nombre": "Calabacín",
+      "temporada": "enero y junio–septiembre",
+      "meses": [
+        1,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "nombre": "Calabaza",
+      "temporada": "junio–noviembre",
+      "meses": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "nombre": "Canónigos",
+      "temporada": "marzo–abril",
+      "meses": [
+        3,
+        4
+      ]
+    },
+    {
+      "nombre": "Cebolla",
+      "temporada": "todo el año",
+      "meses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "nombre": "Endivia",
+      "temporada": "abril y agosto",
+      "meses": [
+        4,
+        8
+      ]
+    },
+    {
+      "nombre": "Espárragos trigueros",
+      "temporada": "marzo–junio",
+      "meses": [
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "nombre": "Espinacas",
+      "temporada": "septiembre–julio",
+      "meses": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "nombre": "Lechuga",
+      "temporada": "todo el año",
+      "meses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "nombre": "Pepino",
+      "temporada": "junio–septiembre",
+      "meses": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "nombre": "Pimientos",
+      "temporada": "mayo–enero",
+      "meses": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        1
+      ]
+    },
+    {
+      "nombre": "Tomate",
+      "temporada": "mayo–diciembre",
+      "meses": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "nombre": "Zanahoria",
+      "temporada": "todo el año",
+      "meses": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
     }
   ]
 }
