@@ -21,16 +21,16 @@ for element in motif.iter('use'):
 svg = '''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
 <rect width="1200" height="630" fill="#f5f6f1"/>
 <rect x="24" y="24" width="1152" height="582" rx="20" fill="#ffffff" stroke="#d5e5d9"/>
+<g transform="translate(0 50)">
 MOTIF
 <g text-anchor="middle">
 <text x="600" y="284" font-family="DejaVu Sans" font-size="21" letter-spacing="5" fill="#245d42">RECETARIO DE</text>
 <text x="600" y="369" font-family="DejaVu Serif" font-size="76" letter-spacing="-2" fill="#245d42">Casa Marisa</text>
-<text x="600" y="434" font-family="DejaVu Sans" font-size="25" fill="#64756a">Recetas afinadas para comer bien cada día.</text>
-<text x="600" y="475" font-family="DejaVu Sans" font-size="25" fill="#64756a">Ideas de temporada para el menú semanal.</text>
 </g>
-<path d="M500 530h200" stroke="#d5e5d9" stroke-width="2"/>
+<path d="M500 425h200" stroke="#d5e5d9" stroke-width="2"/>
+</g>
 </svg>'''.replace('MOTIF', ET.tostring(motif, encoding='unicode'))
-target = ROOT / 'images/casa-marisa-compartir-20261016'
+target = ROOT / 'images/casa-marisa-compartir-20261016-v2'
 target.with_suffix('.svg').write_text(svg)
 cairosvg.svg2png(bytestring=svg.encode(), write_to=str(target.with_suffix('.png')))
 print(target.with_suffix('.png'))

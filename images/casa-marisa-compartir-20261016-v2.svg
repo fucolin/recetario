@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<rect width="1200" height="630" fill="#f5f6f1"/>
+<rect x="24" y="24" width="1152" height="582" rx="20" fill="#ffffff" stroke="#d5e5d9"/>
+<g transform="translate(0 50)">
+<svg xmlns:ns0="http://www.w3.org/1999/xlink" x="486" y="72" width="228" height="152" viewBox="-17 -9 116 77" fill="none" stroke="#78977e" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round">
+      <defs><g id="luisa-flor" fill="#fffdfb" stroke="#aa9bb4" stroke-width=".8"><path d="M0 0C-6-1-5-6-2-5c1-5 6-4 5 0 5-1 6 4 2 5 2 5-4 6-5 0Z" /><circle cx=".5" cy="-1" r=".7" fill="#b7aa78" stroke="none" /></g></defs>
+      <g transform="rotate(65 40 27)">
+      <path d="M31 79C35 63 40 40 43 17C45 4 47-10 48-23M45 5C40-1 35-8 31-14M46-2c7-5 13-11 17-18" stroke-width="1" />
+      <g fill="#f3f6f1"><path d="M36 61C24 59 13 49 8 38c13 4 25 12 28 23ZM36 61c5-13 16-21 31-25-6 12-18 23-31 25ZM36 61c-5-12-5-24-1-36 6 12 7 25 1 36ZM40 37C29 35 22 25 18 15c12 5 21 12 22 22ZM40 37c5-12 15-20 29-24-7 12-17 21-29 24ZM42 28C38 19 40 9 46 3c2 11 0 19-4 25Z" /></g>
+      <path d="M36 61 13 43m23 18 25-20M36 61l-1-28m5 4L23 21m17 16 22-18" stroke-width=".7" />
+      <use transform="translate(48 -22) scale(.7)" ns0:href="#luisa-flor" /><use transform="translate(46 -12) scale(.8)" ns0:href="#luisa-flor" /><use transform="translate(49 -3) scale(.72)" ns0:href="#luisa-flor" /><use transform="translate(31 -14) scale(.65)" ns0:href="#luisa-flor" /><use transform="translate(37 -6) scale(.7)" ns0:href="#luisa-flor" /><use transform="translate(63 -20) scale(.65)" ns0:href="#luisa-flor" /><use transform="translate(57 -12) scale(.75)" ns0:href="#luisa-flor" />
+      </g>
+    </svg>
+<g text-anchor="middle">
+<text x="600" y="284" font-family="DejaVu Sans" font-size="21" letter-spacing="5" fill="#245d42">RECETARIO DE</text>
+<text x="600" y="369" font-family="DejaVu Serif" font-size="76" letter-spacing="-2" fill="#245d42">Casa Marisa</text>
+</g>
+<path d="M500 425h200" stroke="#d5e5d9" stroke-width="2"/>
+</g>
+</svg>
