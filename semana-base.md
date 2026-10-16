@@ -44,7 +44,7 @@ dias:
     comida:
       - texto: Puré
         categoria: Purés
-        ejemplo: {titulo: aprovechategui, pagina: null}
+        ejemplo: {titulo: aprovechategui, pagina: crema-aprovechamiento-marisa.html}
       - texto: Pescado blanco
         categoria: Pescado blanco
         ejemplo: {titulo: Lubina a la plancha, pagina: null}

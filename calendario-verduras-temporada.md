@@ -473,6 +473,9 @@ verduras_favoritas:
   - 11
   - 12
   - 1
+- nombre: Puerro
+  temporada: enero–junio y septiembre–noviembre
+  meses: [1, 2, 3, 4, 5, 6, 9, 10, 11]
 - nombre: Tomate
   temporada: mayo–diciembre
   meses:

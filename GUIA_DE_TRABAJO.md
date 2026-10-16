@@ -64,6 +64,8 @@ Cuando el usuario adjunte una fotografía propia, Codex debe:
 
 ## Modificar una receta existente
 
+Las recetas de Marisa conservan al final de la página «La receta original de Marisa»: la fotografía aportada de su manuscrito, alojada en el repositorio y ampliable al pulsarla, sin recortes, más una transcripción fiel. Guardar ambos en `original_marisa` dentro del maestro YAML y el JSON completo. Los ajustes posteriores van en la receta principal y se explican sin reescribir el original. El PDF habitual sigue siendo una página A4 sin fotografías; el manuscrito se consulta en la web. Primera ficha: `crema-aprovechamiento-marisa`, categoría Purés; regenerar sus representaciones con `python tools/generar_receta_marisa.py`. No atribuir al manuscrito datos aportados después, como la temperatura actual de 90–100 °C o una combinación concreta de verduras.
+
 Codex debe actualizar todas las representaciones afectadas para que no queden contradicciones: Markdown/YAML, JSON, Schema.org, HTML y PDF. Si cambia el nombre, la categoría o las variantes, también debe actualizar el índice y comprobar los enlaces.
 
 Si el usuario indica que solo está afinando o probando un cambio, no se preparará la actualización del repositorio hasta que diga «Al recetario».

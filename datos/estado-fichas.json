@@ -4,7 +4,8 @@
     "barquitas-endivia-requeson",
     "pimientos-asados-cebolla-cosori",
     "ensalada-tomates-lago-albahaca",
-    "pollo-satisfryer"
+    "pollo-satisfryer",
+    "crema-aprovechamiento-marisa"
   ],
   "proximas": [
     {
@@ -54,12 +55,6 @@
       "titulo": "Ensaladilla murciana",
       "categoria_menu": "Vegetales",
       "categoria_slug": "vegetales"
-    },
-    {
-      "id": "pure-aprovechamiento",
-      "titulo": "Puré de aprovechamiento",
-      "categoria_menu": "Purés",
-      "categoria_slug": "pures"
     },
     {
       "id": "bol-brotes-trigo-sarraceno",

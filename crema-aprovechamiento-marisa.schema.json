@@ -1,0 +1,65 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Crema de aprovechamiento de Marisa",
+  "description": "Las verduras que haya por casa · Thermomix",
+  "author": {
+    "@type": "Person",
+    "name": "Marisa"
+  },
+  "recipeCategory": "Purés",
+  "recipeYield": "4 raciones aproximadamente",
+  "totalTime": "PT50M",
+  "keywords": "Thermomix, aprovechamiento, verduras, receta de Marisa, aprovechategui",
+  "recipeIngredient": [
+    "200 g puerro limpio",
+    "40 g aceite de oliva",
+    "500-600 g verduras variadas preparadas",
+    "500-600 g agua o caldo de pollo",
+    "Sal al gusto (según el caldo)"
+  ],
+  "recipeInstructions": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "Prepara las verduras",
+      "text": "Lava y limpia el puerro y las verduras. Trocea el puerro y corta las verduras en trozos pequeños y similares; deja más pequeños los de zanahoria y boniato. Pesa 500-600 g de verduras preparadas, aparte de los 200 g de puerro."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "Pica y sofríe el puerro",
+      "text": "Pon el puerro en el vaso y pica 4 segundos a velocidad 5. Baja los restos de las paredes con la espátula. Añade los 40 g de aceite y programa 8 minutos, 90 o 100 °C, velocidad 1. Marisa usa una u otra temperatura para evitar que se le queme; ya no utiliza Varoma para este paso."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "Rehoga las verduras",
+      "text": "Añade las verduras troceadas y programa 10 minutos, 100 °C, velocidad 1 o 2, como indica Marisa."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 4,
+      "name": "Añade el líquido y cuece",
+      "text": "Vierte 500 g de agua o caldo y añade un poco de sal si hace falta. Programa 20 minutos, 100 °C, velocidad 1. Comprueba que la zanahoria y el boniato estén tiernos; si lo necesitan, prolonga unos minutos. Respeta siempre el nivel máximo del vaso."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 5,
+      "name": "Tritura y ajusta",
+      "text": "Deja bajar la temperatura y sigue las indicaciones de tu modelo para triturar preparaciones calientes. Tritura 1 minuto, aumentando progresivamente por las velocidades 5-7-9 cuando sea seguro según el manual. Si queda espesa, añade poco a poco parte del líquido reservado hasta un total orientativo de 600 g y mezcla. Prueba y ajusta de sal."
+    }
+  ],
+  "image": "https://fucolin.github.io/recetario/images/crema-aprovechamiento-marisa.jpg",
+  "url": "https://fucolin.github.io/recetario/crema-aprovechamiento-marisa.html",
+  "dateModified": "2026-10-16",
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "name": "Crema de aprovechamiento",
+    "author": {
+      "@type": "Person",
+      "name": "Marisa"
+    },
+    "image": "https://fucolin.github.io/recetario/images/originales-marisa/crema-aprovechamiento-manuscrito.jpeg"
+  }
+}

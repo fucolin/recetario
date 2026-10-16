@@ -172,3 +172,8 @@ Doce láminas originales descargadas de Codinugal por petición expresa del usua
 - Referencia botánica de forma de hojas: [Kew · Aloysia citrodora](https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A1015994-1/general-information). No se reproduce su ilustración ni fotografía.
 - Generación: `tools/generar_imagen_compartir.py`, usando la ramita del encabezado de `index.html`, tipografías DejaVu Sans y DejaVu Serif para la imagen rasterizada. Fecha de creación: 2026-10-16.
 - Variante `images/casa-marisa-compartir-20261016-v2.svg` y `.png`: mismo diseño original, sin subtítulo dentro de la imagen; el texto se conserva en los metadatos de descripción.
+# Crema de aprovechamiento de Marisa
+
+- `images/crema-aprovechamiento-marisa.jpg`: fotografía ilustrativa de crema de zanahoria de George Grinsted. [Original en Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Carrot_soup_with_garnish.jpg), [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/). Archivo original sin modificar; presentación web recortada mediante CSS a 16:9. No es una foto de la crema de Marisa.
+- `images/originales-marisa/crema-aprovechamiento-manuscrito.jpeg`: manuscrito de Marisa, fotografía aportada por el usuario (`IMG_0087.jpeg`). Se conserva el archivo completo, sin modificaciones. No se atribuye una licencia de reutilización. El permiso de uso en este recetario procede del encargo expreso del usuario.
+
