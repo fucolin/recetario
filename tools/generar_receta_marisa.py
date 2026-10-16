@@ -36,7 +36,7 @@ def main():
          '<style>' + css + '</style><script type="application/ld+json">' + json.dumps(schema, ensure_ascii=False).replace('</', '<\\/') + '</script></head><body><main>',
          '<nav><a href="index.html">← Índice del recetario</a></nav>',
          f'<h1>{e(data["titulo"])}</h1><p class="meta">{e(data["subtitulo"])} · 4 raciones aprox. · 45-50 min orientativos · Receta</p>',
-         '<p>La crema que Marisa prepara con las verduras que tiene por casa. Con puerro como base y una mezcla que cambia cada vez.</p>',
+         '<p><span role="img" aria-label="Receta de Marisa">💚</span> La crema que Marisa prepara con las verduras que tiene por casa. Con puerro como base y una mezcla que cambia cada vez.</p>',
          f'<figure class="hero"><img src="images/{ident}.jpg" alt="{e(data["image_alt"],quote=True)}" width="1024" height="683"><figcaption>Foto ilustrativa: <a href="{data["image_source"]}">{e(data["image_credit"])}</a> · <a href="{data["image_license_url"]}">{data["image_license"]}</a> · Presentación en 16:9; no es una fotografía de la crema de Marisa.</figcaption></figure>',
          f'<p class="actions"><a class="category-link" href="categorias/pures.html">👁️ Más de Purés</a><a class="pdf-link" href="{ident}.pdf">PDF para imprimir</a></p>',
          '<h2>Ingredientes</h2><ul class="ingredients">']
@@ -45,11 +45,10 @@ def main():
     h += ['</ul><h2>Preparación en Thermomix</h2><ol>']
     for p in data['pasos']:
         h += [f'<li><strong>{e(p["titulo"])} · {e(p["duracion_texto"])}</strong><p>{e(p["instrucciones"])}</p></li>']
-    h += ['</ol><h2>Una mezcla de Marisa</h2><div class="example"><p>2 zanahorias, 100 g de calabaza, 1 calabacín y 100 g de boniato. <strong>Las cuatro verduras juntas pesaron 600 g</strong>; el puerro va aparte.</p><p>Es un ejemplo para aprovechar lo que haya, no una mezcla obligatoria.</p></div>',
-          '<h2>Claves</h2><p>' + e(data['claves']) + '</p><p>' + e(data['tiempo_nota']) + '</p>',
+    h += ['</ol><h2>Claves</h2><p>' + e(data['claves']).replace('Una mezcla de Marisa', '<strong>Una mezcla de Marisa</strong>') + '</p><p>' + e(data['tiempo_nota']) + '</p>',
           '<section class="original-marisa" aria-labelledby="original-title"><h2 id="original-title">' + e(original['titulo']) + '</h2>',
           f'<a class="original-photo" href="{original["imagen"]}" target="_blank" rel="noopener" aria-label="Ampliar la receta manuscrita de Marisa"><img src="{original["imagen"]}" alt="{e(original["imagen_alt"],quote=True)}" loading="lazy"><span class="zoom-hint" aria-hidden="true">+</span></a>',
-          '<p class="meta">' + e(original['procedencia']) + '</p>',
+          '<p class="meta">Manuscrito de Marisa.</p>',
           '<h3>Transcripción del manuscrito</h3><p><strong>' + e(original['titulo_manuscrito']) + '</strong></p><ul>']
     h += ['<li>' + e(x) + '</li>' for x in original['ingredientes']]
     h += ['</ul><ol>'] + ['<li>' + e(x) + '</li>' for x in original['pasos']]
@@ -59,7 +58,7 @@ def main():
     body = '\n# ' + data['titulo'] + '\n\n' + data['subtitulo'] + '\n\n## Ingredientes\n\n'
     body += '\n'.join('- ' + x for x in items) + '\n\n## Preparación\n\n'
     body += '\n'.join(f'{p["orden"]}. **{p["titulo"]} · {p["duracion_texto"]}.** {p["instrucciones"]}' for p in data['pasos'])
-    body += '\n\n## Claves\n\n' + data['claves'] + '\n\n## ' + original['titulo'] + '\n\n'
+    body += '\n\n## Claves\n\n' + data['claves'].replace('Una mezcla de Marisa', '**Una mezcla de Marisa**') + '\n\n## ' + original['titulo'] + '\n\n'
     body += f'![{original["imagen_alt"]}]({original["imagen"]})\n\n### Transcripción del manuscrito\n\n'
     body += '**' + original['titulo_manuscrito'] + '**\n\n' + '\n'.join('- ' + x for x in original['ingredientes']) + '\n\n'
     body += '\n'.join(f'{i}. {x}' for i, x in enumerate(original['pasos'], 1)) + '\n\n' + original['nota_transcripcion'] + '\n'

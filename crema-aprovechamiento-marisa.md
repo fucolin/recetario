@@ -14,7 +14,7 @@ fecha_actualizacion: '2026-10-16'
 raciones: {min: 4, max: 4}
 raciones_nota: Aproximadas; dependen del tamaño del plato y de la cantidad final de líquido.
 tiempo_total_min: {min: 45, max: 50}
-tiempo_nota: Orientativo, sin contar el enfriado necesario antes de triturar según el modelo.
+tiempo_nota: El tiempo de elaboración es orientativo. No incluye la espera que pueda requerir tu modelo de Thermomix antes de triturar una preparación caliente; consulta su manual.
 ingredientes:
   - {nombre: puerro, cantidad: 200, unidad: g, nota: limpio}
   - {nombre: aceite de oliva, cantidad: 40, unidad: g, nota: para sofreír el puerro}
@@ -84,7 +84,7 @@ ejemplo_mezcla:
     - {nombre: calabaza, cantidad: 100, unidad: g}
     - {nombre: calabacín, cantidad: 1, unidad: unidad}
     - {nombre: boniato, cantidad: 100, unidad: g}
-claves: 'Las verduras cambian según lo que haya en casa. Ejemplo de Marisa: 2 zanahorias, 100 g de calabaza, 1 calabacín y 100 g de boniato; juntas pesaron 600 g, aparte del puerro. Empieza con 500 g de líquido y ajusta al final. El tiempo depende del corte y de la mezcla: las verduras deben estar tiernas. Raciones y tiempo total orientativos. Receta de Marisa; manuscrito original y transcripción conservados en la web.'
+claves: 'Las verduras cambian según lo que haya en casa. Una mezcla de Marisa: 2 zanahorias, 100 g de calabaza, 1 calabacín y 100 g de boniato; juntas pesaron 600 g, aparte del puerro. Empieza con 500 g de líquido y ajusta al final. El tiempo depende del corte y de la mezcla: las verduras deben estar tiernas. Raciones y tiempo total orientativos.'
 image: https://fucolin.github.io/recetario/images/crema-aprovechamiento-marisa.jpg
 image_alt: Crema de zanahoria en un cuenco; fotografía ilustrativa, no de la receta de Marisa
 image_credit: George Grinsted
@@ -134,7 +134,7 @@ Las verduras que haya por casa · Thermomix
 
 ## Claves
 
-Las verduras cambian según lo que haya en casa. Ejemplo de Marisa: 2 zanahorias, 100 g de calabaza, 1 calabacín y 100 g de boniato; juntas pesaron 600 g, aparte del puerro. Empieza con 500 g de líquido y ajusta al final. El tiempo depende del corte y de la mezcla: las verduras deben estar tiernas. Raciones y tiempo total orientativos. Receta de Marisa; manuscrito original y transcripción conservados en la web.
+Las verduras cambian según lo que haya en casa. **Una mezcla de Marisa**: 2 zanahorias, 100 g de calabaza, 1 calabacín y 100 g de boniato; juntas pesaron 600 g, aparte del puerro. Empieza con 500 g de líquido y ajusta al final. El tiempo depende del corte y de la mezcla: las verduras deben estar tiernas. Raciones y tiempo total orientativos.
 
 ## La receta original de Marisa
 
