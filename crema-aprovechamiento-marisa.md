@@ -3,7 +3,7 @@ esquema: recetario-1.0
 id: crema-aprovechamiento-marisa
 familia: crema-aprovechamiento-marisa
 variante: principal
-titulo: Crema de aprovechamiento de Marisa
+titulo: Crema de aprovechamiento
 subtitulo: Las verduras que haya por casa · Thermomix
 categoria: Cremas
 categoria_menu: Purés
@@ -112,7 +112,7 @@ original_marisa:
     - Tritura 1 minuto en velocidad progresiva 5-7-9.
 ---
 
-# Crema de aprovechamiento de Marisa
+# Crema de aprovechamiento
 
 Las verduras que haya por casa · Thermomix
 
