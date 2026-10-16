@@ -1,0 +1,159 @@
+{
+  "esquema": "recetario-1.0",
+  "id": "shakshuka-alubias-portobello",
+  "familia": "shakshuka-alubias-portobello",
+  "variante": "principal",
+  "titulo": "Shakshuka de alubias y portobello",
+  "subtitulo": "Huevos, tomates cherry y feta · en una sartén",
+  "categoria": "Legumbres con huevo",
+  "categoria_menu": "Legumbres",
+  "tipo_ficha": "receta",
+  "etiquetas": [
+    "alubias blancas",
+    "portobello",
+    "huevos",
+    "tomates cherry",
+    "feta",
+    "chorizo",
+    "pimentón ahumado"
+  ],
+  "raciones": {
+    "min": 2,
+    "max": 2
+  },
+  "tiempo_total_min": {
+    "min": 15,
+    "max": 20
+  },
+  "tiempo_nota": "Estimación orientativa para esta adaptación; el libro indica 15 minutos para dos personas.",
+  "ingredientes": [
+    {
+      "nombre": "champiñones portobello",
+      "cantidad": 250,
+      "unidad": "g"
+    },
+    {
+      "nombre": "chorizo",
+      "cantidad": 10,
+      "unidad": "g",
+      "grupo_alternativa": "sabor_ahumado",
+      "alternativa": {
+        "nombre": "pimentón ahumado",
+        "cantidad": null,
+        "unidad": null,
+        "nota": "una pizca; en lugar del chorizo"
+      }
+    },
+    {
+      "nombre": "perejil de hoja plana",
+      "cantidad": 15,
+      "unidad": "g"
+    },
+    {
+      "nombre": "alubias blancas cocidas en conserva",
+      "cantidad": 400,
+      "unidad": "g",
+      "nota": "1 lata; peso neto con líquido, no escurrido"
+    },
+    {
+      "nombre": "tomates cherry maduros",
+      "cantidad": 100,
+      "unidad": "g"
+    },
+    {
+      "nombre": "huevos",
+      "cantidad": 4,
+      "unidad": "unidades"
+    },
+    {
+      "nombre": "queso feta",
+      "cantidad": 20,
+      "unidad": "g"
+    },
+    {
+      "nombre": "aceite de oliva",
+      "nota": "un chorrito"
+    },
+    {
+      "nombre": "sal y pimienta negra",
+      "nota": "al gusto"
+    },
+    {
+      "nombre": "aceite de oliva virgen extra",
+      "nota": "un hilo, opcional",
+      "opcional": true
+    }
+  ],
+  "pdf_ingredientes": [
+    "250 g champiñones portobello",
+    "10 g chorizo o una pizca de pimentón ahumado",
+    "15 g perejil de hoja plana",
+    "1 lata de 400 g alubias blancas (peso neto)",
+    "100 g tomates cherry maduros",
+    "4 huevos",
+    "20 g queso feta",
+    "Aceite de oliva (un chorrito)",
+    "Sal y pimienta negra (al gusto)",
+    "AOVE (un hilo, opcional)"
+  ],
+  "pasos": [
+    {
+      "orden": 1,
+      "titulo": "Prepara los ingredientes",
+      "duracion_texto": "3-4 min",
+      "duracion_min": 3,
+      "duracion_max_min": 4,
+      "instrucciones": "Limpia los portobello y sécalos bien. Recorta el extremo terroso y separa los tallos; conserva y pica las partes aprovechables. Deja los sombreros enteros si son pequeños. Pica el chorizo, si lo usas, y el perejil, separando los tallos de las hojas y reservando unas hojas para el final. Corta los tomates por la mitad. Abre la lata de alubias sin tirar el líquido."
+    },
+    {
+      "orden": 2,
+      "titulo": "Dora los portobello",
+      "duracion_texto": "5-7 min",
+      "duracion_min": 5,
+      "duracion_max_min": 7,
+      "instrucciones": "Calienta una sartén de unos 28 cm a fuego medio-alto con un chorrito de aceite. Pon los sombreros con la zona del tallo hacia abajo. Si eliges chorizo, añádelo bien picado; incorpora también los tallos de champiñón picados, los tallos de perejil y la mayor parte de sus hojas. Cocina hasta que los portobello se doren, moviendo con cuidado y dándoles la vuelta cuando corresponda. Si eliges pimentón, añádelo al final de este paso, bajando el fuego, y remueve unos segundos antes de incorporar las alubias para que no se queme."
+    },
+    {
+      "orden": 3,
+      "titulo": "Forma una base cremosa",
+      "duracion_texto": "2-3 min",
+      "duracion_min": 2,
+      "duracion_max_min": 3,
+      "instrucciones": "Añade las alubias y aproximadamente la mitad del líquido de su lata. Los 400 g son el peso neto del envase, no 400 g de alubias escurridas. Aplasta algunas con un tenedor para espesar la base, procurando no romper los sombreros. Incorpora los tomates y calienta hasta que el conjunto burbujee suavemente. Prueba y ajusta de sal y pimienta; ten en cuenta que el feta y, si lo usas, el chorizo aportan sal. Si se seca, añade un poco del líquido reservado o agua."
+    },
+    {
+      "orden": 4,
+      "titulo": "Cuaja los huevos con tapa",
+      "duracion_texto": "3-5 min",
+      "duracion_min": 3,
+      "duracion_max_min": 5,
+      "instrucciones": "Haz cuatro huecos entre las alubias y casca un huevo en cada uno. Tapa y cocina a fuego medio, comprobando a partir de los 3 minutos. Retira cuando las claras estén cuajadas; prolonga si quieres las yemas más firmes. Evita que el fondo se quede sin líquido."
+    },
+    {
+      "orden": 5,
+      "titulo": "Termina y sirve",
+      "duracion_texto": "1 min",
+      "duracion_min": 1,
+      "duracion_max_min": 1,
+      "instrucciones": "Desmenuza el feta por encima, añade las hojas de perejil reservadas y un poco de pimienta negra. Termina, si quieres, con un hilo de aceite de oliva virgen extra y sirve enseguida. Puedes acompañar con una tostada integral para mojar."
+    }
+  ],
+  "claves": "Elige una sola alternativa: 10 g de chorizo o una pizca de pimentón ahumado. Con pimentón, la opción es sin carne. Los 400 g de alubias corresponden a una lata con su líquido, como en el original; no al peso escurrido. Reserva parte del líquido para ajustar la textura. Dora los champiñones antes de añadir las alubias y evita quemar el pimentón. Las claras deben quedar cuajadas. El libro indica 15 min; para esta adaptación calcula unos 15-20 min orientativos, según tamaño de los portobello y punto de los huevos.",
+  "fuente": {
+    "autor": "Jamie Oliver",
+    "libro": "UNO",
+    "titulo_original": "Mushroom Shakshuka",
+    "soporte": "Captura aportada por el usuario el 17/10/2026",
+    "raciones_original": 2,
+    "tiempo_original_min": 15
+  },
+  "ajustes": "Champiñones portobello; chorizo o pimentón ahumado como alternativas. Se distingue el peso neto de la lata del peso escurrido.",
+  "image": "https://fucolin.github.io/recetario/images/shakshuka-alubias-portobello.jpg",
+  "image_alt": "Ilustración de shakshuka con alubias blancas, portobello, cuatro huevos, tomates cherry y feta",
+  "image_credit": "Imagen generada con IA para Casa Marisa",
+  "image_license": null,
+  "image_source": null,
+  "image_note": "Imagen ilustrativa generada con IA de la opción con pimentón ahumado; no es una fotografía del plato preparado.",
+  "pdf": "https://fucolin.github.io/recetario/shakshuka-alubias-portobello.pdf",
+  "fecha_actualizacion": "2026-10-17"
+}

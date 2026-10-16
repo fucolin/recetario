@@ -1,0 +1,65 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Shakshuka de alubias y portobello",
+  "description": "Huevos, tomates cherry y feta · en una sartén",
+  "recipeCategory": "Legumbres",
+  "recipeYield": "2 raciones",
+  "totalTime": "PT20M",
+  "keywords": "alubias blancas, portobello, huevos, tomates cherry, feta, chorizo, pimentón ahumado",
+  "recipeIngredient": [
+    "250 g champiñones portobello",
+    "10 g chorizo o una pizca de pimentón ahumado",
+    "15 g perejil de hoja plana",
+    "1 lata de 400 g alubias blancas (peso neto)",
+    "100 g tomates cherry maduros",
+    "4 huevos",
+    "20 g queso feta",
+    "Aceite de oliva (un chorrito)",
+    "Sal y pimienta negra (al gusto)",
+    "AOVE (un hilo, opcional)"
+  ],
+  "recipeInstructions": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "Prepara los ingredientes",
+      "text": "Limpia los portobello y sécalos bien. Recorta el extremo terroso y separa los tallos; conserva y pica las partes aprovechables. Deja los sombreros enteros si son pequeños. Pica el chorizo, si lo usas, y el perejil, separando los tallos de las hojas y reservando unas hojas para el final. Corta los tomates por la mitad. Abre la lata de alubias sin tirar el líquido."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "Dora los portobello",
+      "text": "Calienta una sartén de unos 28 cm a fuego medio-alto con un chorrito de aceite. Pon los sombreros con la zona del tallo hacia abajo. Si eliges chorizo, añádelo bien picado; incorpora también los tallos de champiñón picados, los tallos de perejil y la mayor parte de sus hojas. Cocina hasta que los portobello se doren, moviendo con cuidado y dándoles la vuelta cuando corresponda. Si eliges pimentón, añádelo al final de este paso, bajando el fuego, y remueve unos segundos antes de incorporar las alubias para que no se queme."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "Forma una base cremosa",
+      "text": "Añade las alubias y aproximadamente la mitad del líquido de su lata. Los 400 g son el peso neto del envase, no 400 g de alubias escurridas. Aplasta algunas con un tenedor para espesar la base, procurando no romper los sombreros. Incorpora los tomates y calienta hasta que el conjunto burbujee suavemente. Prueba y ajusta de sal y pimienta; ten en cuenta que el feta y, si lo usas, el chorizo aportan sal. Si se seca, añade un poco del líquido reservado o agua."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 4,
+      "name": "Cuaja los huevos con tapa",
+      "text": "Haz cuatro huecos entre las alubias y casca un huevo en cada uno. Tapa y cocina a fuego medio, comprobando a partir de los 3 minutos. Retira cuando las claras estén cuajadas; prolonga si quieres las yemas más firmes. Evita que el fondo se quede sin líquido."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 5,
+      "name": "Termina y sirve",
+      "text": "Desmenuza el feta por encima, añade las hojas de perejil reservadas y un poco de pimienta negra. Termina, si quieres, con un hilo de aceite de oliva virgen extra y sirve enseguida. Puedes acompañar con una tostada integral para mojar."
+    }
+  ],
+  "image": "https://fucolin.github.io/recetario/images/shakshuka-alubias-portobello.jpg",
+  "url": "https://fucolin.github.io/recetario/shakshuka-alubias-portobello.html",
+  "dateModified": "2026-10-17",
+  "isBasedOn": {
+    "@type": "Book",
+    "name": "UNO",
+    "author": {
+      "@type": "Person",
+      "name": "Jamie Oliver"
+    }
+  }
+}

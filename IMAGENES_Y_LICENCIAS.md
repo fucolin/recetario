@@ -199,3 +199,7 @@ Las capturas `images/productos/arroz-integral-nomen-yuka.jpeg`, `edamame-cidacos
 ## Pasta fresca con salmón
 
 `images/pasta-fresca-salmon.jpg`: ilustración generada con IA para Casa Marisa el 16/10/2026 mediante la herramienta integrada. Prompt: plato blanco con tiras anchas de pasta fresca, espinacas, cebolleta, salmón ahumado, cottage, parmesano y ralladura de limón; luz natural, formato horizontal, sin texto. No se utiliza la fotografía del libro UNO ni se asigna una licencia Creative Commons. JPEG optimizado a partir del PNG generado.
+
+## Shakshuka de alubias y portobello
+
+`images/shakshuka-alubias-portobello.jpg`: ilustración generada con IA para Casa Marisa el 17/10/2026 con la herramienta integrada. Prompt: sartén con alubias blancas cremosas, portobello dorados, cuatro huevos, tomates cherry, feta y perejil; opción con pimentón sin chorizo, luz natural y formato horizontal. JPEG optimizado a partir del PNG generado. No es la fotografía del libro UNO ni se atribuye licencia Creative Commons.

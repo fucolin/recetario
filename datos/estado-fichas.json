@@ -6,7 +6,8 @@
     "pollo-satisfryer",
     "crema-aprovechamiento-marisa",
     "sardinas-marinadas",
-    "pasta-fresca-salmon"
+    "pasta-fresca-salmon",
+    "shakshuka-alubias-portobello"
   ],
   "proximas": [
     {
@@ -18,12 +19,6 @@
     {
       "id": "potaje-bacalao",
       "titulo": "Potaje de bacalao",
-      "categoria_menu": "Legumbres",
-      "categoria_slug": "legumbres"
-    },
-    {
-      "id": "shakshuka-alubias-portobello",
-      "titulo": "Shakshuka de alubias y portobello",
       "categoria_menu": "Legumbres",
       "categoria_slug": "legumbres"
     },
