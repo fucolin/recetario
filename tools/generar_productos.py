@@ -118,7 +118,7 @@ def generar():
                 yuka_texto += f'<p class="note"><a href="../{e(yuka["captura"])}">Ver captura de Yuka →</a></p>'
         schema = {'@context': 'https://schema.org', '@type': 'WebPage', 'name': nombre, 'url': BASE + f'productos/{slug}.html', 'dateModified': data['fecha_actualizacion'], 'mainEntity': {'@type': 'Product', '@id': BASE + f'productos/{slug}.html#producto', 'name': nombre, 'brand': {'@type': 'Brand', 'name': marca}, 'description': data['descripcion'], 'category': data['categoria'], 'image': [BASE + i['archivo'] for i in data['imagenes']], 'weight': {'@type': 'QuantitativeValue', 'value': formato['cantidad'], 'unitCode': 'GRM'}, 'additionalProperty': [{'@type': 'PropertyValue', 'name': label + ' por 100 g', 'value': value} for label, value in filas]}}
         maestro.with_suffix('.schema.json').write_text(json.dumps(schema, ensure_ascii=False, indent=2) + '\n')
-        contenido = f'''<nav><a href="../ingredientes-preferidos.html">← Ingredientes preferidos</a></nav>
+        contenido = f'''<nav><a href="../productos-preferidos.html">← Productos preferidos</a></nav>
 <header class="product-heading"><figure><a href="../{e(imagen['archivo'])}"><img class="product-photo" src="../{e(imagen['archivo'])}" alt="{e(imagen['alt'])}" {dimensiones(imagen)}></a><figcaption>Fotografía propia · <a href="../{e(imagen['archivo'])}">Ver envase completo</a></figcaption></figure>
 <div><span class="tag">{e(data['categoria'])}</span><h1>{e(nombre)}</h1><p class="meta">{e(marca)} · {e(envase)}</p><p>{e(data['descripcion'])}</p><p class="note">{e(formato['nota'])}</p><div class="purchase"><section><h2>Precio de referencia</h2>{precio_texto}</section><section><h2>Dónde lo compro</h2>{tiendas}</section>{nota_compra}</div></div></header>
 {bloque_recetas}
@@ -129,8 +129,8 @@ def generar():
 <footer>Recetario personal · <a href="{e(slug)}.md">Archivo maestro</a> · <a href="../index.html">Índice del recetario</a></footer>'''
         maestro.with_suffix('.html').write_text(documento(nombre, contenido, 'productos.css', schema))
         tarjetas.append(f'''<li><article class="product-summary"><a href="productos/{e(slug)}.html"><img class="product-photo" src="{e(imagen['archivo'])}" alt="{e(imagen['alt'])}" {dimensiones(imagen)} loading="lazy"></a><div><span class="tag">{e(data['categoria'])}</span><h2><a href="productos/{e(slug)}.html">{e(nombre)}</a></h2><p class="meta">{e(marca)} · {e(envase)}</p><p>{e(data['descripcion'])}</p><p class="note">{e(resumen_compra)}</p><a href="productos/{e(slug)}.html">Ver producto →</a></div></article></li>''')
-    catalogo = '<nav><a href="index.html">← Índice del recetario</a></nav><h1>Ingredientes preferidos</h1><p class="intro">Los productos que uso y por qué. Dónde comprarlos y su precio de referencia.</p><ul class="product-list">' + ''.join(tarjetas) + '</ul><footer>Recetario personal · <a href="index.html">Volver a las recetas</a></footer>'
-    (RAIZ / 'ingredientes-preferidos.html').write_text(documento('Ingredientes preferidos', catalogo, 'productos/productos.css'))
+    catalogo = '<nav><a href="index.html">← Índice del recetario</a></nav><h1>Productos preferidos</h1><p class="intro">Los productos que uso y por qué. Dónde comprarlos y su precio de referencia.</p><ul class="product-list">' + ''.join(tarjetas) + '</ul><footer>Recetario personal · <a href="index.html">Volver a las recetas</a></footer>'
+    (RAIZ / 'productos-preferidos.html').write_text(documento('Productos preferidos', catalogo, 'productos/productos.css'))
     print(f'{len(tarjetas)} producto(s) y catálogo generados. Sin PDF.')
 
 

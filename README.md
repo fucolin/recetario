@@ -25,9 +25,9 @@ Los campos `cantidad_min` y `cantidad_max` expresan rangos; `duracion_min` y `du
 **Apps de cocina:** Schema.org/Recipe es un estándar web, no un formato universal de importación. Muchas apps permiten importar recetas desde una URL publicada; otras requieren un formato propio. Los archivos JSON sirven como base para convertir a cada formato cuando elijas la aplicación.
 
 
-## Ingredientes preferidos
+## Productos preferidos
 
-Catálogo independiente: [Ingredientes preferidos](ingredientes-preferidos.html). Fichas de producto en `productos/`, con maestro Markdown/YAML, JSON, HTML y datos estructurados. No generan PDF.
+Catálogo independiente: [Productos preferidos](productos-preferidos.html). Fichas de producto en `productos/`, con maestro Markdown/YAML, JSON, HTML y datos estructurados. No generan PDF.
 
 Para actualizar las fichas y el catálogo desde los maestros:
 
