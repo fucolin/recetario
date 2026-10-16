@@ -1,0 +1,69 @@
+{
+  "esquema": "recetario-referencia-1.0",
+  "id": "la-cuestion-del-tomate",
+  "titulo": "La cuestión del tomate",
+  "subtitulo": "Otras ensaladas cuando queremos dejar el tomate para su temporada.",
+  "fecha_actualizacion": "2026-10-16",
+  "introduccion": "Si queremos reservar las ensaladas de tomate para su temporada, podemos cambiar de protagonista en lugar de buscar siempre un sustituto que se le parezca. Estas ideas son combinaciones propias propuestas para el recetario, no recetas de Codinugal ni fichas completas con cantidades.",
+  "alternativas_por_funcion": [
+    {
+      "busco": "Jugosidad y acidez",
+      "opciones": "Naranja o mandarina en trozos."
+    },
+    {
+      "busco": "Frescor y crujiente",
+      "opciones": "Manzana, zanahoria rallada o lombarda cortada fina."
+    },
+    {
+      "busco": "Algo tierno y dulce",
+      "opciones": "Remolacha cocida o calabaza asada fría."
+    },
+    {
+      "busco": "Una combinación más verde",
+      "opciones": "Canónigos, espinacas tiernas o escarola, con un aliño algo más ácido."
+    }
+  ],
+  "ensaladas": [
+    {
+      "titulo": "Zanahoria con naranja y comino",
+      "como_hacerla": "Zanahoria rallada gruesa o en cintas, naranja en trozos y un aliño de limón, poco aceite y comino.",
+      "por_que": "La naranja aporta jugosidad y acidez; la zanahoria añade crujiente y aguanta bien el aliño. Es la primera que probaríamos para ocupar el lugar de un tomate aliñado."
+    },
+    {
+      "titulo": "Lombarda con manzana y nueces",
+      "como_hacerla": "Lombarda muy fina, masajeada con limón y una pizca de sal; manzana crujiente y unas pocas nueces.",
+      "por_que": "La manzana suaviza el sabor más intenso de la col y aporta un contraste dulce y ácido. Queda más crujiente y menos jugosa que la de zanahoria y naranja; encaja si nos gusta la col cruda."
+    },
+    {
+      "titulo": "Escarola con naranja y aceitunas",
+      "como_hacerla": "Escarola troceada, naranja sin piel blanca y unas aceitunas. Aliño suave de aceite y vinagre.",
+      "por_que": "Una combinación de hoja, fruta jugosa y el punto salado de las aceitunas."
+    },
+    {
+      "titulo": "Coliflor templada con limón y perejil",
+      "como_hacerla": "Coliflor asada o al vapor, todavía firme, con perejil y una vinagreta de limón y mostaza.",
+      "por_que": "Una alternativa templada para cuando no apetece una ensalada de hojas frías."
+    },
+    {
+      "titulo": "Espinacas tiernas con pera y requesón",
+      "como_hacerla": "Hojas pequeñas de espinaca, pera en láminas y un poco de requesón. Limón y pimienta para rematar.",
+      "por_que": "Combina hojas tiernas, fruta y un toque cremoso."
+    }
+  ],
+  "criterio_eleccion": "Zanahoria con naranja y lombarda con manzana son dos ensaladas distintas: los ingredientes de cada pareja van juntos. Las proponemos para empezar porque son fáciles y diferentes entre sí; es una preferencia culinaria, no una afirmación de que sean necesariamente mejores para ti.",
+  "adaptaciones_recetario": [
+    {
+      "receta": "Ensalada de garbanzos, mango y aguacate",
+      "alternativa": "Probar zanahoria rallada en lugar de los tomates cherry, conservando el limón."
+    },
+    {
+      "receta": "Canónigos con champiñones, cherrys y feta",
+      "alternativa": "Probar naranja en lugar de los tomates cherry."
+    },
+    {
+      "receta": "Ensaladas donde el tomate es protagonista",
+      "alternativa": "Reservar las de tomate con mozzarella o sobre albahaca para cuando tengamos buenos tomates; para otros momentos, elegir una ensalada diferente."
+    }
+  ],
+  "clave": "Para mantenerlas contenidas, medir el aceite, los frutos secos y el queso, dejando que manden las verduras. Las sustituciones son propuestas para probar: no modifican las recetas existentes."
+}

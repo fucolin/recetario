@@ -499,6 +499,10 @@ verduras_favoritas:
   - 10
   - 11
   - 12
+recursos_relacionados:
+- titulo: La cuestión del tomate
+  pagina: la-cuestion-del-tomate.html
+  descripcion: Otras ensaladas cuando queremos dejar el tomate para su temporada.
 ---
 
 # Calendario de verduras de temporada
@@ -525,6 +529,10 @@ La tabla web muestra una única cabecera «Mis verduras favoritas», que abarca 
 | Pimientos | mayo–enero |
 | Tomate | mayo–diciembre |
 | Zanahoria | todo el año |
+
+## La cuestión del tomate
+
+[Ideas de ensaladas para dejar el tomate para su temporada](la-cuestion-del-tomate.html).
 
 ## Enero
 

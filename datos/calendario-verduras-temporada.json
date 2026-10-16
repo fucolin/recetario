@@ -625,5 +625,12 @@
         12
       ]
     }
+  ],
+  "recursos_relacionados": [
+    {
+      "titulo": "La cuestión del tomate",
+      "pagina": "la-cuestion-del-tomate.html",
+      "descripcion": "Otras ensaladas cuando queremos dejar el tomate para su temporada."
+    }
   ]
 }
