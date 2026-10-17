@@ -9,7 +9,8 @@
     "pasta-fresca-salmon",
     "shakshuka-alubias-portobello",
     "pan-plano-jamon-queso",
-    "potaje-bacalao"
+    "potaje-bacalao",
+    "ensaladilla"
   ],
   "proximas": [
     {
@@ -27,12 +28,6 @@
     {
       "id": "menestra",
       "titulo": "Menestra",
-      "categoria_menu": "Vegetales",
-      "categoria_slug": "vegetales"
-    },
-    {
-      "id": "ensaladilla",
-      "titulo": "Ensaladilla",
       "categoria_menu": "Vegetales",
       "categoria_slug": "vegetales"
     },

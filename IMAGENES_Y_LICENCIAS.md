@@ -211,3 +211,7 @@ Las capturas `images/productos/arroz-integral-nomen-yuka.jpeg`, `edamame-cidacos
 ## Potaje de bacalao
 
 `images/potaje-bacalao.jpg`: imagen ilustrativa generada con IA para Casa Marisa el 17/10/2026 mediante la herramienta integrada. Prompt: potaje casero de garbanzos, espinacas y trozos de bacalao en caldo ligero con cebolla y pimentón; cuenco cerámico, luz natural, horizontal 16:9, sin huevo, chorizo, patata ni adornos. JPEG optimizado del PNG generado. No es fotografía del plato preparado; sin licencia Creative Commons atribuida.
+
+## Ensaladilla
+
+`images/ensaladilla.jpg`: imagen ilustrativa generada con IA para Casa Marisa el 17/10/2026 con la herramienta integrada. Prompt: ensaladilla de judías verdes, zanahoria, guisantes y atún con salsa cremosa de huevo cocido y queso fresco batido; sin patata ni opcionales en esta representación; cuenco cerámico claro, luz natural y formato horizontal 16:9. JPEG optimizado del PNG generado. No es una fotografía del plato preparado; no se atribuye licencia Creative Commons.
