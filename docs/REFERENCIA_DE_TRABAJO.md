@@ -162,3 +162,7 @@ Referencia `calendario-frutas-temporada.html`, maestro Markdown/YAML homónimo y
 ## Iconos de los botones de las fichas
 
 Los botones de PDF y «Más de [categoría]» usan SVG de línea, del mismo estilo que los recursos de portada: `viewBox="0 0 24 24"`, sin relleno, trazo `currentColor` de 1.8 y extremos/uniones redondeados. Impresora para PDF y cuadrícula para categoría. Tamaño 1 em y margen derecho .4 em. Los SVG son decorativos (`aria-hidden="true"`, `focusable="false"`); conservar el texto visible de cada botón. No usar emojis en estos botones. Este cambio de presentación no renueva las fechas de contenido ni los PDF.
+
+## Publicar recetas procedentes del catálogo privado de Eva
+
+La atribución pública es «🌿 Adaptada de una receta de Eva, la nutricionista». Los archivos del repositorio público (incluidos YAML y JSON) no deben contener rutas, nombres ni referencias internas al ZIP privado, sus fichas o PDF. Conservar la autoría y el título original sin referencias privadas. Tras publicar y comprobar la ficha, actualizar exclusivamente `casa_marisa` en el YAML de la receta del catálogo privado con su estado y URL pública; conservar todos los demás contenidos de la última versión del ZIP y comprobar la versión al guardarlo. Este flujo no añade marcas, enlaces ni apartados visibles al catálogo o sus índices.
