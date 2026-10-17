@@ -99,38 +99,30 @@
   "pasos": [
     {
       "orden": 1,
-      "titulo": "Cuece la quinoa",
+      "titulo": "Cuece la quinoa y prepara el edamame",
       "duracion_min": 15,
       "duracion_max_min": 15,
       "duracion_texto": "Unos 15 min",
-      "instrucciones": "Enjuágala en un colador fino y cuécela siguiendo la proporción de agua y el tiempo del envase. Deja reposar tapada unos minutos y suelta los granos con un tenedor. Mientras se cocina, prepara el edamame y los champiñones."
+      "instrucciones": "Enjuaga la quinoa en un colador fino y cuécela según el envase. Déjala reposar tapada unos minutos y suelta los granos con un tenedor. Mientras, cocina el edamame según el envase y escúrrelo bien; la cantidad indicada es sin vainas."
     },
     {
       "orden": 2,
-      "titulo": "Prepara el edamame",
-      "duracion_min": null,
-      "duracion_max_min": null,
-      "duracion_texto": "Según el envase",
-      "instrucciones": "Cocina el edamame según el envase y escúrrelo bien. La cantidad indicada corresponde a los granos, sin vainas."
-    },
-    {
-      "orden": 3,
       "titulo": "Saltea los champiñones",
       "duracion_min": 5,
       "duracion_max_min": 7,
       "duracion_texto": "5-7 min",
-      "instrucciones": "Limpia los champiñones con un paño húmedo; si tienen tierra adherida, enjuágalos brevemente y sécalos bien, sin remojarlos. Córtalos en láminas o trozos pequeños. Saltéalos con la cucharadita de aceite a fuego medio-alto, hasta que pierdan el agua y empiecen a dorarse. Si ya están cocinados, añádelos cuando los frijoles hayan espesado y omite el aceite del salteado."
+      "instrucciones": "Limpia los champiñones con un paño húmedo o enjuágalos brevemente y sécalos bien. Córtalos y saltéalos con el aceite a fuego medio-alto hasta que pierdan el agua y empiecen a dorarse. Si ya están cocinados, omite el aceite y añádelos en el siguiente paso."
     },
     {
-      "orden": 4,
+      "orden": 3,
       "titulo": "Añade y espesa los frijoles",
       "duracion_min": 5,
       "duracion_max_min": 8,
       "duracion_texto": "5-8 min aproximadamente",
-      "instrucciones": "Vierte la lata completa en la misma sartén, sin escurrir ni enjuagar. Cocina a fuego medio-bajo, destapado y removiendo, hasta que la salsa quede espesa. Ya llevan cebolla, pimientos y especias: no añadimos otro sofrito. Si usas champiñones ya cocinados, incorpóralos ahora y caliéntalos bien."
+      "instrucciones": "Vierte la lata completa en la sartén, sin escurrir ni enjuagar. Cocina destapado a fuego medio-bajo, removiendo, hasta espesar la salsa. No hace falta otro sofrito. Si usas champiñones ya cocinados, añádelos ahora y caliéntalos bien."
     },
     {
-      "orden": 5,
+      "orden": 4,
       "titulo": "Mezcla el relleno",
       "duracion_min": 1,
       "duracion_max_min": 2,
@@ -138,15 +130,15 @@
       "instrucciones": "Añade el edamame y la quinoa cocida. Mezcla y calienta brevemente. Apaga el fuego, añade la lima y prueba. Pon una pizca de comino solo si te apetece reforzar ese sabor. No añadas sal de entrada."
     },
     {
-      "orden": 6,
+      "orden": 5,
       "titulo": "Monta y dobla los burritos",
       "duracion_min": 3,
       "duracion_max_min": 4,
       "duracion_texto": "3-4 min",
-      "instrucciones": "Calienta ligeramente las tortillas para que sean flexibles. Reparte el relleno formando una franja en el centro y dejando margen alrededor. Añade el aguacate en dados y el pico de gallo escurrido, si lo usas. Dobla ambos laterales hacia dentro. Lleva el borde más cercano por encima del relleno y recógelo suavemente hacia ti para compactarlo. Sigue enrollando con los laterales metidos. Si cuesta cerrarlos, reparte entre más tortillas o sirve el relleno sobrante al lado."
+      "instrucciones": "Calienta ligeramente las tortillas para que sean flexibles. Reparte el relleno formando una franja un poco por debajo del centro y dejando margen alrededor. Añade el aguacate en dados y el pico de gallo escurrido, si lo usas. No sobrecargues las tortillas."
     },
     {
-      "orden": 7,
+      "orden": 6,
       "titulo": "Dora y sirve",
       "duracion_min": 2,
       "duracion_max_min": 4,
@@ -154,15 +146,8 @@
       "instrucciones": "Coloca los burritos en una sartén antiadherente sin aceite, primero con el cierre hacia abajo. Dora a fuego medio hasta que mantengan la forma y estén ligeramente tostados."
     }
   ],
-  "claves": "Relleno espeso y champiñones sin agua; aguacate al montar; no sobrecargar las tortillas. Sin sal añadida de entrada. Guía visual de doblado: https://www.bbcgoodfood.com/howto/guide/how-wrap-burrito",
-  "recursos": [
-    {
-      "titulo": "Cómo envolver un burrito: guía con fotografías",
-      "url": "https://www.bbcgoodfood.com/howto/guide/how-wrap-burrito",
-      "fuente": "Good Food",
-      "idioma": "en"
-    }
-  ],
+  "claves": "Relleno espeso y champiñones sin agua; aguacate al montar; no sobrecargar las tortillas. Sin sal añadida de entrada.",
+  "recursos": [],
   "image": "https://fucolin.github.io/recetario/images/burritos-frijoles-quinoa-edamame-champinones.jpg",
   "image_alt": "Burrito vegetariano con parte del relleno visible",
   "image_credit": "Benoît Prieur",
@@ -170,9 +155,56 @@
   "image_source": "https://commons.wikimedia.org/wiki/File:Vegetarian_burrito_(Los_Angeles)_July_2022.jpg",
   "image_note": "Fotografía representativa de un burrito vegetariano; el relleno mostrado puede diferir de esta receta.",
   "pdf": "https://fucolin.github.io/recetario/burritos-frijoles-quinoa-edamame-champinones.pdf",
-  "fecha_actualizacion": "2026-10-15",
+  "fecha_actualizacion": "2026-10-18",
   "encabezado": {
     "titulo": "Burritos de frijoles negros, quinoa, edamame y champiñones",
     "detalle": "Con aguacate · 2 burritos grandes · 2 personas · 25-30 min"
-  }
+  },
+  "pdf_diagrama": {
+    "imagen": "images/burritos-montaje-fotorrealista-v3.jpg",
+    "despues_del_paso": 5,
+    "etiquetas": [
+      "Coloca el relleno",
+      "Recoge el borde inferior",
+      "Dobla el lado izquierdo",
+      "Dobla el lado derecho",
+      "Enrolla hacia delante",
+      "Deja el cierre debajo"
+    ],
+    "mostrar_etiquetas": false,
+    "lado": 100
+  },
+  "pdf_numerar_pasos": false,
+  "montaje": [
+    {
+      "orden": 1,
+      "titulo": "Coloca el relleno",
+      "instrucciones": "Forma una franja un poco por debajo del centro de la tortilla templada. Deja margen alrededor."
+    },
+    {
+      "orden": 2,
+      "titulo": "Recoge el borde inferior",
+      "instrucciones": "Lleva el borde más cercano por encima del relleno y recógelo suavemente hacia ti para compactarlo."
+    },
+    {
+      "orden": 3,
+      "titulo": "Dobla el lado izquierdo",
+      "instrucciones": "Lleva el lateral izquierdo hacia dentro, sobre el extremo del relleno."
+    },
+    {
+      "orden": 4,
+      "titulo": "Dobla el lado derecho",
+      "instrucciones": "Haz lo mismo con el lateral derecho, manteniendo recogido el borde inferior."
+    },
+    {
+      "orden": 5,
+      "titulo": "Enrolla hacia delante",
+      "instrucciones": "Rueda el paquete desde el borde inferior hacia el superior, manteniendo los laterales metidos."
+    },
+    {
+      "orden": 6,
+      "titulo": "Deja el cierre debajo",
+      "instrucciones": "Termina de enrollar y apoya el burrito sobre el cierre para que no se abra."
+    }
+  ]
 }

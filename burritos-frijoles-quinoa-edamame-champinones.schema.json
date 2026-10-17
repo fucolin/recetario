@@ -22,49 +22,43 @@
     {
       "@type": "HowToStep",
       "position": 1,
-      "name": "Cuece la quinoa",
-      "text": "Enjuágala en un colador fino y cuécela siguiendo la proporción de agua y el tiempo del envase. Deja reposar tapada unos minutos y suelta los granos con un tenedor. Mientras se cocina, prepara el edamame y los champiñones."
+      "name": "Cuece la quinoa y prepara el edamame",
+      "text": "Enjuaga la quinoa en un colador fino y cuécela según el envase. Déjala reposar tapada unos minutos y suelta los granos con un tenedor. Mientras, cocina el edamame según el envase y escúrrelo bien; la cantidad indicada es sin vainas."
     },
     {
       "@type": "HowToStep",
       "position": 2,
-      "name": "Prepara el edamame",
-      "text": "Cocina el edamame según el envase y escúrrelo bien. La cantidad indicada corresponde a los granos, sin vainas."
+      "name": "Saltea los champiñones",
+      "text": "Limpia los champiñones con un paño húmedo o enjuágalos brevemente y sécalos bien. Córtalos y saltéalos con el aceite a fuego medio-alto hasta que pierdan el agua y empiecen a dorarse. Si ya están cocinados, omite el aceite y añádelos en el siguiente paso."
     },
     {
       "@type": "HowToStep",
       "position": 3,
-      "name": "Saltea los champiñones",
-      "text": "Limpia los champiñones con un paño húmedo; si tienen tierra adherida, enjuágalos brevemente y sécalos bien, sin remojarlos. Córtalos en láminas o trozos pequeños. Saltéalos con la cucharadita de aceite a fuego medio-alto, hasta que pierdan el agua y empiecen a dorarse. Si ya están cocinados, añádelos cuando los frijoles hayan espesado y omite el aceite del salteado."
+      "name": "Añade y espesa los frijoles",
+      "text": "Vierte la lata completa en la sartén, sin escurrir ni enjuagar. Cocina destapado a fuego medio-bajo, removiendo, hasta espesar la salsa. No hace falta otro sofrito. Si usas champiñones ya cocinados, añádelos ahora y caliéntalos bien."
     },
     {
       "@type": "HowToStep",
       "position": 4,
-      "name": "Añade y espesa los frijoles",
-      "text": "Vierte la lata completa en la misma sartén, sin escurrir ni enjuagar. Cocina a fuego medio-bajo, destapado y removiendo, hasta que la salsa quede espesa. Ya llevan cebolla, pimientos y especias: no añadimos otro sofrito. Si usas champiñones ya cocinados, incorpóralos ahora y caliéntalos bien."
-    },
-    {
-      "@type": "HowToStep",
-      "position": 5,
       "name": "Mezcla el relleno",
       "text": "Añade el edamame y la quinoa cocida. Mezcla y calienta brevemente. Apaga el fuego, añade la lima y prueba. Pon una pizca de comino solo si te apetece reforzar ese sabor. No añadas sal de entrada."
     },
     {
       "@type": "HowToStep",
-      "position": 6,
+      "position": 5,
       "name": "Monta y dobla los burritos",
-      "text": "Calienta ligeramente las tortillas para que sean flexibles. Reparte el relleno formando una franja en el centro y dejando margen alrededor. Añade el aguacate en dados y el pico de gallo escurrido, si lo usas. Dobla ambos laterales hacia dentro. Lleva el borde más cercano por encima del relleno y recógelo suavemente hacia ti para compactarlo. Sigue enrollando con los laterales metidos. Si cuesta cerrarlos, reparte entre más tortillas o sirve el relleno sobrante al lado."
+      "text": "Calienta ligeramente las tortillas para que sean flexibles. Reparte el relleno formando una franja un poco por debajo del centro y dejando margen alrededor. Añade el aguacate en dados y el pico de gallo escurrido, si lo usas. No sobrecargues las tortillas. Forma una franja un poco por debajo del centro de la tortilla templada. Deja margen alrededor. Lleva el borde más cercano por encima del relleno y recógelo suavemente hacia ti para compactarlo. Lleva el lateral izquierdo hacia dentro, sobre el extremo del relleno. Haz lo mismo con el lateral derecho, manteniendo recogido el borde inferior. Rueda el paquete desde el borde inferior hacia el superior, manteniendo los laterales metidos. Termina de enrollar y apoya el burrito sobre el cierre para que no se abra."
     },
     {
       "@type": "HowToStep",
-      "position": 7,
+      "position": 6,
       "name": "Dora y sirve",
       "text": "Coloca los burritos en una sartén antiadherente sin aceite, primero con el cierre hacia abajo. Dora a fuego medio hasta que mantengan la forma y estén ligeramente tostados."
     }
   ],
   "image": "https://fucolin.github.io/recetario/images/burritos-frijoles-quinoa-edamame-champinones.jpg",
   "url": "https://fucolin.github.io/recetario/burritos-frijoles-quinoa-edamame-champinones.html",
-  "dateModified": "2026-10-15",
+  "dateModified": "2026-10-18",
   "mentions": [
     {
       "@type": "Product",

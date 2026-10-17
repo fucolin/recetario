@@ -52,3 +52,7 @@ Preparar y comprobar los archivos para que el usuario los suba. Si son uno o dos
 ## Para continuar en otro hilo
 
 > Continuamos con Recetario de Casa Marisa, repositorio `fucolin/recetario`. Lee `GUIA_DE_TRABAJO.md` y consulta solo la referencia necesaria. GitHub es la fuente canónica. Muéstrame los cambios con nombre y título nuevos; publica solo cuando diga ARG.
+
+## Excepción acordada: diagrama de burritos
+
+El PDF de burritos incorpora seis imágenes numeradas en dos filas de tres, sin pies de imagen. Sus pasos principales no se numeran; la web conserva las indicaciones bajo cada imagen. Se mantiene una página A4 y el encabezado común. Configuración en `pdf_diagrama` y `pdf_numerar_pasos` del maestro; usar el generador común.

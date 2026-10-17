@@ -14,6 +14,7 @@ from reportlab.lib.colors import HexColor
 from reportlab.lib.pagesizes import A4
 from reportlab.pdfbase.pdfmetrics import stringWidth
 from reportlab.pdfgen import canvas
+from reportlab.lib.utils import ImageReader
 
 
 # Contrato visual del recetario. No duplicar estos valores en otros scripts.
@@ -107,6 +108,41 @@ def dibujar_ingredientes(c, ingredientes: list[str], y_superior: float) -> float
     return y_inferior
 
 
+def dibujar_diagrama(c, diagrama: dict, y: float) -> float:
+    """Secuencia fotográfica 3+3; recorta la lámina solo al dibujarla."""
+    ruta = Path(diagrama["imagen"])
+    if not ruta.is_absolute():
+        ruta = Path(__file__).resolve().parent.parent / ruta
+    imagen = ImageReader(str(ruta))
+    lado = diagrama.get("lado", 92)
+    mostrar_etiquetas = diagrama.get("mostrar_etiquetas", True)
+    alto_fila = lado + (15 if mostrar_etiquetas else 10)
+    ancho_celda = ANCHO_CONTENIDO / 3
+    y -= 3
+    for i, etiqueta in enumerate(diagrama["etiquetas"]):
+        columna, fila = i % 3, i // 3
+        x = MARGEN_X + columna * ancho_celda + (ancho_celda - lado) / 2
+        inferior = y - fila * alto_fila - lado
+        c.saveState()
+        recorte = c.beginPath()
+        recorte.rect(x, inferior, lado, lado)
+        c.clipPath(recorte, stroke=0, fill=0)
+        c.drawImage(imagen, x - (i % 2) * lado,
+                    inferior - (2 - i // 2) * lado,
+                    width=lado * 2, height=lado * 3)
+        c.restoreState()
+        c.setFillColor(HexColor(VERDE_OSCURO))
+        c.circle(x + 10, inferior + lado - 10, 8, fill=1, stroke=0)
+        c.setFont("Helvetica-Bold", 9)
+        c.setFillColor(HexColor("#FFFFFF"))
+        c.drawCentredString(x + 10, inferior + lado - 13, str(i + 1))
+        if mostrar_etiquetas:
+            c.setFillColor(HexColor(VERDE_TEXTO))
+            c.setFont("Helvetica", 7.4)
+            c.drawCentredString(x + lado / 2, inferior - 10, etiqueta)
+    return y - 2 * alto_fila - 2
+
+
 def generar_pdf(receta: dict, destino: Path) -> None:
     fecha_actualizacion = date.fromisoformat(receta["fecha_actualizacion"]).strftime("%d/%m/%Y")
     ingredientes = ingredientes_para_pdf(receta)
@@ -160,7 +196,8 @@ def generar_pdf(receta: dict, destino: Path) -> None:
         interlineado = tamano_pasos * 1.35
         separacion = 5.8 if densidad > 900 else 7.2
         for paso in pasos:
-            encabezado = f"{paso['orden']}. {paso['titulo']} · {paso['duracion_texto']}"
+            prefijo = f"{paso['orden']}. " if receta.get("pdf_numerar_pasos", True) else ""
+            encabezado = f"{prefijo}{paso['titulo']} · {paso['duracion_texto']}"
             y = dibujar_texto_envuelto(
                 c, encabezado, MARGEN_X, y, ANCHO_CONTENIDO,
                 "Helvetica-Bold", tamano_pasos + 0.2, interlineado, VERDE_OSCURO,
@@ -169,6 +206,9 @@ def generar_pdf(receta: dict, destino: Path) -> None:
                 c, paso["instrucciones"], MARGEN_X, y, ANCHO_CONTENIDO,
                 "Helvetica", tamano_pasos, interlineado, VERDE_TEXTO,
             )
+            diagrama = receta.get("pdf_diagrama")
+            if diagrama and paso["orden"] == diagrama["despues_del_paso"]:
+                y = dibujar_diagrama(c, diagrama, y)
             y -= separacion
     claves = receta.get("claves")
     if claves:

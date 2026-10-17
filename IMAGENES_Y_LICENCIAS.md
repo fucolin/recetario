@@ -229,3 +229,7 @@ Los cuatro SVG de `images/fajitas-salmon-pasos/` son diagramas vectoriales origi
 ## Fajita de francesa y pavo
 
 `images/fajita-francesa-pavo.jpg`: imagen ilustrativa generada con IA para Casa Marisa el 17/10/2026 con la herramienta integrada. Prompt: una tortilla integral con francesa adherida, doblada por la mitad, jamón cocido en loncha, queso, tomate, aguacate y lechuga en tiras; plato blanco, luz natural y horizontal 16:9, sin guarnición ni texto. Representa la opción con jamón cocido. JPEG optimizado del PNG generado. No es una fotografía del plato preparado; no se atribuye licencia Creative Commons.
+
+## Diagrama de montaje de los burritos
+
+- `images/burritos-montaje-fotorrealista-v3.jpg`: secuencia fotorrealista de seis pasos generada con IA, revisada con el usuario. No es una fotografía documental.
