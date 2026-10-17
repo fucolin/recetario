@@ -11,7 +11,8 @@
     "pan-plano-jamon-queso",
     "potaje-bacalao",
     "ensaladilla",
-    "fajitas-salmon"
+    "fajitas-salmon",
+    "ensalada-lentejas-salmon-pepino"
   ],
   "proximas": [
     {
@@ -86,12 +87,6 @@
       "titulo": "Fajita de francesa y pavo",
       "categoria_menu": "Envueltos y bocados",
       "categoria_slug": "envueltos-y-bocados"
-    },
-    {
-      "id": "ensalada-lentejas-salmon-pepino",
-      "titulo": "Ensalada de lentejas, salmón y pepino",
-      "categoria_menu": "Ensaladas",
-      "categoria_slug": "ensaladas"
     },
     {
       "id": "melon-jamon",

@@ -221,3 +221,7 @@ Las capturas `images/productos/arroz-integral-nomen-yuka.jpeg`, `edamame-cidacos
 `images/fajitas-salmon.jpg`: imagen ilustrativa generada con IA para Casa Marisa el 17/10/2026 con la herramienta integrada. Prompt: dos tortillas integrales dobladas en cuartos en paquetes triangulares, salmón ahumado en lonchas, aguacate, tomate, espinacas y capa fina de hummus y queso crema; plato blanco, luz natural, horizontal 16:9, sin guarnición ni texto. JPEG optimizado del PNG generado. No es una fotografía del plato preparado; no se atribuye licencia Creative Commons.
 
 Los cuatro SVG de `images/fajitas-salmon-pasos/` son diagramas vectoriales originales creados para Casa Marisa: untar, repartir los ingredientes y dos dobleces sucesivos. No proceden del PDF privado ni son imágenes generadas con IA.
+
+## Ensalada de lentejas, salmón y pepino
+
+`images/ensalada-lentejas-salmon-pepino.jpg`: imagen ilustrativa generada con IA para Casa Marisa el 17/10/2026 con la herramienta integrada. Prompt: lentejas cocidas, salmón ahumado en tiras, pepino en dados y eneldo, con aliño ligero de medio yogur, mostaza y limón; cuenco blanco, luz natural y formato horizontal 16:9; sin otros ingredientes ni texto. JPEG optimizado del PNG generado. No es fotografía del plato preparado; no se atribuye licencia Creative Commons.

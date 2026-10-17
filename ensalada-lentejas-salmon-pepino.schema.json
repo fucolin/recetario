@@ -1,0 +1,33 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Ensalada de lentejas, salmón y pepino",
+  "description": "Con aliño de yogur, mostaza y eneldo",
+  "recipeCategory": "Ensaladas",
+  "recipeYield": "2 raciones",
+  "totalTime": "PT15M",
+  "keywords": "lentejas, salmón ahumado, pepino, yogur, mostaza, eneldo, receta de Eva",
+  "recipeIngredient": [
+    "1 bote de lentejas cocidas (300 g de peso escurrido)",
+    "100 g salmón ahumado",
+    "½ pepino aprox. (100 g)",
+    "½ yogur natural sin azúcar (unas 2 cucharadas)",
+    "1 cucharadita mostaza",
+    "1 cucharadita zumo de limón",
+    "Eneldo fresco (unas ramitas)",
+    "Sal (opcional)"
+  ],
+  "recipeInstructions": "Prepara los ingredientes. Enjuaga las lentejas en un colador y déjalas escurrir bien. Lava el pepino y córtalo en dados pequeños; si tiene muchas semillas o una parte central muy acuosa, retírala. Corta el salmón en tiras y pica el eneldo.\n\nMezcla el aliño. Mezcla el medio yogur con la mostaza y el zumo de limón hasta obtener una salsa homogénea.\n\nJunta y sirve. Pon las lentejas, el pepino y el salmón en un bol. Añade el eneldo y el aliño y mezcla suavemente. Prueba antes de añadir sal.",
+  "image": "https://fucolin.github.io/recetario/images/ensalada-lentejas-salmon-pepino.jpg",
+  "url": "https://fucolin.github.io/recetario/ensalada-lentejas-salmon-pepino.html",
+  "dateModified": "2026-10-17",
+  "isBasedOn": {
+    "@type": "Recipe",
+    "name": "Ensalada de lentejas, salmón ahumado y pepino",
+    "author": {
+      "@type": "Person",
+      "name": "Eva",
+      "jobTitle": "Nutricionista"
+    }
+  }
+}
