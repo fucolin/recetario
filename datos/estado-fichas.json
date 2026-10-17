@@ -12,7 +12,8 @@
     "potaje-bacalao",
     "ensaladilla",
     "fajitas-salmon",
-    "ensalada-lentejas-salmon-pepino"
+    "ensalada-lentejas-salmon-pepino",
+    "fajita-francesa-pavo"
   ],
   "proximas": [
     {
@@ -81,12 +82,6 @@
       "titulo": "Tortilla francesa",
       "categoria_menu": "Huevos",
       "categoria_slug": "huevos"
-    },
-    {
-      "id": "fajita-francesa-pavo",
-      "titulo": "Fajita de francesa y pavo",
-      "categoria_menu": "Envueltos y bocados",
-      "categoria_slug": "envueltos-y-bocados"
     },
     {
       "id": "melon-jamon",

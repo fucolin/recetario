@@ -1,0 +1,151 @@
+---
+esquema: recetario-1.0
+id: fajita-francesa-pavo
+familia: fajita-francesa-pavo
+variante: principal
+titulo: Fajita de francesa y pavo
+subtitulo: Con queso, tomate y aguacate
+categoria: Fajitas
+categoria_menu: Envueltos y bocados
+tipo_ficha: preparacion
+autor: Eva, nutricionista
+origen_receta: eva-nutricionista
+emoji_origen: 🌿
+etiquetas:
+- tortilla francesa
+- pavo
+- jamón cocido
+- queso
+- aguacate
+- tomate
+- lechuga
+- brotes
+- canónigos
+- receta de Eva
+raciones:
+  min: 1
+  max: 1
+tiempo_total_min:
+  min: 10
+  max: 15
+ingredientes:
+- nombre: tortilla/piadina
+  cantidad: 1
+  unidad: unidad
+  nota: grande; integral o de espelta
+- nombre: huevos
+  cantidad: 2
+  unidad: unidades
+- nombre: pavo o jamón cocido
+  cantidad: 1
+  unidad: loncha
+  peso_aprox_g: 25
+  nota: grande; mínimo 90 % de carne
+- nombre: queso
+  cantidad: 1
+  unidad: loncha
+  peso_aprox_g: 20
+- nombre: tomate
+  cantidad: 0.5
+  unidad: unidad
+  peso_aprox_g: 50
+  nota: pequeño
+- nombre: aguacate
+  cantidad: 0.25
+  unidad: unidad
+  nota: mediano
+- nombre: lechuga
+  cantidad: 1
+  unidad: hoja
+  alternativas:
+  - un puñadito de brotes
+  - un puñadito de canónigos
+- nombre: aceite de oliva
+  cantidad: 0.5
+  unidad: cucharadita
+indicaciones: 'Prepara el relleno. Corta el tomate en rodajas finas y déjalo escurrir bien. Lava y seca las hojas;
+  si usas lechuga, pícala en tiras finas. Corta el aguacate en láminas y ten a mano el pavo o jamón y el queso.
+
+
+  Templa la tortilla de trigo. Calienta la tortilla o piadina en una sartén antiadherente unos 30 segundos por cada
+  cara, o el tiempo que indique el envase. Retírala y mantenla tapada mientras preparas el huevo. Usa una sartén
+  de tamaño parecido al de la tortilla para que ambas capas encajen.
+
+
+  Cuaja la francesa y dale la vuelta. Bate los huevos. Añade la media cucharadita de aceite a la sartén y repártela
+  por la base. Vierte el huevo a fuego medio-bajo. Cuando empiece a cuajar por debajo pero la superficie siga húmeda,
+  coloca encima la tortilla de trigo y presiona suavemente para que se adhiera. Cubre con un plato y da la vuelta
+  con cuidado. Devuelve el conjunto a la sartén con la tortilla de trigo abajo y el huevo hacia arriba.
+
+
+  Rellena y dobla. Reparte el queso y el pavo o jamón sobre una mitad de la francesa. Cocina brevemente a fuego
+  bajo hasta que el huevo termine de cuajar y el queso empiece a fundirse. Retira a un plato, añade el tomate, el
+  aguacate y las hojas, y dobla por la mitad.'
+bloques_indicaciones:
+- titulo: Prepara el relleno
+  texto: Corta el tomate en rodajas finas y déjalo escurrir bien. Lava y seca las hojas; si usas lechuga, pícala
+    en tiras finas. Corta el aguacate en láminas y ten a mano el pavo o jamón y el queso.
+- titulo: Templa la tortilla de trigo
+  texto: Calienta la tortilla o piadina en una sartén antiadherente unos 30 segundos por cada cara, o el tiempo
+    que indique el envase. Retírala y mantenla tapada mientras preparas el huevo. Usa una sartén de tamaño parecido
+    al de la tortilla para que ambas capas encajen.
+- titulo: Cuaja la francesa y dale la vuelta
+  texto: Bate los huevos. Añade la media cucharadita de aceite a la sartén y repártela por la base. Vierte el huevo
+    a fuego medio-bajo. Cuando empiece a cuajar por debajo pero la superficie siga húmeda, coloca encima la tortilla
+    de trigo y presiona suavemente para que se adhiera. Cubre con un plato y da la vuelta con cuidado. Devuelve
+    el conjunto a la sartén con la tortilla de trigo abajo y el huevo hacia arriba.
+- titulo: Rellena y dobla
+  texto: Reparte el queso y el pavo o jamón sobre una mitad de la francesa. Cocina brevemente a fuego bajo hasta
+    que el huevo termine de cuajar y el queso empiece a fundirse. Retira a un plato, añade el tomate, el aguacate
+    y las hojas, y dobla por la mitad.
+fuente:
+  autor: Eva, nutricionista
+  titulo_original: Fajita rellena de tortilla francesa, tomate, jamón y queso
+  atribucion: 🌿 Adaptada de una receta de Eva, la nutricionista
+image: https://fucolin.github.io/recetario/images/fajita-francesa-pavo.jpg
+image_alt: Ilustración de una tortilla de trigo con francesa adherida, doblada con jamón cocido en lonchas, queso,
+  tomate, aguacate y lechuga picada
+image_credit: Imagen generada con IA para Casa Marisa
+image_license: null
+image_source: null
+image_note: Imagen ilustrativa generada con IA; no es una fotografía del plato preparado.
+fecha_actualizacion: '2026-10-18'
+encabezado:
+  titulo: Fajita de francesa y pavo
+  detalle: Con queso, tomate y aguacate · 1 ración · 10-15 min
+consejo: Para compartir, puedes preparar dos fajitas con tortillas pequeñas, repartiendo los ingredientes entre
+  ambas y usando una sartén de su tamaño. La cantidad total sigue siendo una ración.
+---
+
+# Fajita de francesa y pavo
+
+Con queso, tomate y aguacate · 1 ración · 10-15 min
+
+## Ingredientes
+
+- 1 tortilla/piadina grande (integral o de espelta)
+- 2 huevos
+- 1 loncha grande de pavo o jamón cocido (unos 25 g; mínimo 90 % de carne)
+- 1 loncha de queso (unos 20 g)
+- ½ tomate pequeño (unos 50 g)
+- ¼ de aguacate mediano
+- 1 hoja de lechuga (o un puñadito de brotes o canónigos)
+- ½ cucharadita aceite de oliva
+
+## Indicaciones
+
+**Prepara el relleno.** Corta el tomate en rodajas finas y déjalo escurrir bien. Lava y seca las hojas; si usas lechuga, pícala en tiras finas. Corta el aguacate en láminas y ten a mano el pavo o jamón y el queso.
+
+**Templa la tortilla de trigo.** Calienta la tortilla o piadina en una sartén antiadherente unos 30 segundos por cada cara, o el tiempo que indique el envase. Retírala y mantenla tapada mientras preparas el huevo. Usa una sartén de tamaño parecido al de la tortilla para que ambas capas encajen.
+
+**Cuaja la francesa y dale la vuelta.** Bate los huevos. Añade la media cucharadita de aceite a la sartén y repártela por la base. Vierte el huevo a fuego medio-bajo. Cuando empiece a cuajar por debajo pero la superficie siga húmeda, coloca encima la tortilla de trigo y presiona suavemente para que se adhiera. Cubre con un plato y da la vuelta con cuidado. Devuelve el conjunto a la sartén con la tortilla de trigo abajo y el huevo hacia arriba.
+
+**Rellena y dobla.** Reparte el queso y el pavo o jamón sobre una mitad de la francesa. Cocina brevemente a fuego bajo hasta que el huevo termine de cuajar y el queso empiece a fundirse. Retira a un plato, añade el tomate, el aguacate y las hojas, y dobla por la mitad.
+
+## Para compartir
+
+Para compartir, puedes preparar dos fajitas con tortillas pequeñas, repartiendo los ingredientes entre ambas y usando una sartén de su tamaño. La cantidad total sigue siendo una ración.
+
+## Fuente
+
+🌿 Adaptada de una receta de Eva, la nutricionista
