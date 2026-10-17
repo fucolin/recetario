@@ -123,13 +123,12 @@ pasos:
 claves: Relleno espeso y champiñones sin agua; aguacate al montar; no sobrecargar las tortillas. Sin sal
   añadida de entrada.
 recursos: []
-image: https://fucolin.github.io/recetario/images/burritos-frijoles-quinoa-edamame-champinones.jpg
-image_alt: Burrito vegetariano con parte del relleno visible
-image_credit: Benoît Prieur
-image_license: CC0 1.0
-image_source: https://commons.wikimedia.org/wiki/File:Vegetarian_burrito_(Los_Angeles)_July_2022.jpg
-image_note: Fotografía representativa de un burrito vegetariano; el relleno mostrado puede diferir de
-  esta receta.
+image: https://fucolin.github.io/recetario/images/burrito-frijoles-negros-ilustracion-v1.jpg
+image_alt: Burrito tostado y cortado, con frijoles negros, quinoa, edamame, champiñones y aguacate visibles
+image_credit: Generada con IA
+image_license: Imagen generada con IA
+image_source: Generada con IA para Casa Marisa
+image_note: Ilustración fotorrealista de los ingredientes de esta receta.
 pdf: https://fucolin.github.io/recetario/burrito-frijoles-negros.pdf
 fecha_actualizacion: '2026-10-18'
 encabezado:
@@ -172,13 +171,14 @@ montaje:
 ---
 
 
+
 # Burrito de frijoles negros
 
 Con aguacate · 2 burritos grandes · 2 personas · 25-30 min
 
-![Burrito vegetariano con parte del relleno visible](images/burritos-frijoles-quinoa-edamame-champinones.jpg)
+![Burrito tostado y cortado, con frijoles negros, quinoa, edamame, champiñones y aguacate visibles](images/burrito-frijoles-negros-ilustracion-v1.jpg)
 
-Foto: <a href="https://commons.wikimedia.org/wiki/File:Vegetarian_burrito_(Los_Angeles)_July_2022.jpg">Benoît Prieur</a> · <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a>. Fotografía representativa de un burrito vegetariano; el relleno mostrado puede diferir de esta receta. Reducida para web.
+Ilustración generada con IA.
 
 [Descargar PDF A4](burrito-frijoles-negros.pdf)
 

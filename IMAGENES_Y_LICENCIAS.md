@@ -233,3 +233,7 @@ Los cuatro SVG de `images/fajitas-salmon-pasos/` son diagramas vectoriales origi
 ## Diagrama de montaje de los burritos
 
 - `images/burritos-montaje-fotorrealista-v3.jpg`: secuencia fotorrealista de seis pasos generada con IA, revisada con el usuario. No es una fotografía documental.
+
+## Cabecera de Burrito de frijoles negros
+
+- `images/burrito-frijoles-negros-ilustracion-v1.jpg`: ilustración fotorrealista generada con IA para Casa Marisa. Relleno de frijoles negros, quinoa, edamame, champiñones y aguacate. Sustituye la fotografía representativa en la cabecera.
