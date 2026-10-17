@@ -215,3 +215,9 @@ Las capturas `images/productos/arroz-integral-nomen-yuka.jpeg`, `edamame-cidacos
 ## Ensaladilla
 
 `images/ensaladilla.jpg`: imagen ilustrativa generada con IA para Casa Marisa el 17/10/2026 con la herramienta integrada. Prompt: ensaladilla de judías verdes, zanahoria, guisantes y atún con salsa cremosa de huevo cocido y queso fresco batido; sin patata ni opcionales en esta representación; cuenco cerámico claro, luz natural y formato horizontal 16:9. JPEG optimizado del PNG generado. No es una fotografía del plato preparado; no se atribuye licencia Creative Commons.
+
+## Fajitas de salmón
+
+`images/fajitas-salmon.jpg`: imagen ilustrativa generada con IA para Casa Marisa el 17/10/2026 con la herramienta integrada. Prompt: dos tortillas integrales dobladas en cuartos en paquetes triangulares, salmón ahumado en lonchas, aguacate, tomate, espinacas y capa fina de hummus y queso crema; plato blanco, luz natural, horizontal 16:9, sin guarnición ni texto. JPEG optimizado del PNG generado. No es una fotografía del plato preparado; no se atribuye licencia Creative Commons.
+
+Los cuatro SVG de `images/fajitas-salmon-pasos/` son diagramas vectoriales originales creados para Casa Marisa: untar, repartir los ingredientes y dos dobleces sucesivos. No proceden del PDF privado ni son imágenes generadas con IA.

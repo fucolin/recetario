@@ -10,7 +10,8 @@
     "shakshuka-alubias-portobello",
     "pan-plano-jamon-queso",
     "potaje-bacalao",
-    "ensaladilla"
+    "ensaladilla",
+    "fajitas-salmon"
   ],
   "proximas": [
     {
@@ -53,12 +54,6 @@
     {
       "id": "piadina-carne-mechada",
       "titulo": "Piadina de carne mechada",
-      "categoria_menu": "Envueltos y bocados",
-      "categoria_slug": "envueltos-y-bocados"
-    },
-    {
-      "id": "fajitas-salmon",
-      "titulo": "Fajitas de salmón",
       "categoria_menu": "Envueltos y bocados",
       "categoria_slug": "envueltos-y-bocados"
     },

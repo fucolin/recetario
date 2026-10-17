@@ -1,0 +1,31 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Fajitas de salmón",
+  "description": "Con aguacate, tomate y espinacas",
+  "recipeCategory": "Envueltos y bocados",
+  "recipeYield": "2 raciones",
+  "totalTime": "PT15M",
+  "keywords": "salmón ahumado, fajitas, aguacate, tomate, espinacas, hummus, queso crema, receta de Eva",
+  "recipeIngredient": [
+    "2 tortillas/piadinas grandes (integrales o de espelta)",
+    "100 g salmón ahumado",
+    "½ aguacate mediano",
+    "150 g tomate",
+    "40 g espinacas frescas",
+    "20 g hummus y 20 g queso crema o requesón"
+  ],
+  "recipeInstructions": "Prepara el relleno. Corta el aguacate y el tomate en rodajas finas y deja escurrir bien el tomate. Lava y seca bien las espinacas; si las hojas son muy grandes, córtalas un poco. Escurrir el tomate y secar las hojas evita que la tortilla se humedezca.\n\nTempla las tortillas. Caliéntalas al menos 30 s por cada lado en una sartén para que se doblen sin romperse.\n\nMarca y unta. Marca 4 partes con un cuchillo (sin cortar). Unta dos con hummus y dos con queso.\n\nReparte el relleno. Un ingrediente en cada cuarto: aguacate, tomate, salmón y espinacas.\n\nDobla por la mitad. Lleva una mitad sobre la otra, con cuidado de que no se salgan los ingredientes.\n\nDobla de nuevo. Y ya tienes el paquete en cuartos.\n\nToque de sartén opcional. Si te apetece un toque crujiente, pasa las fajitas por una sartén antiadherente sin aceite, alrededor de 1 minuto por cada cara a fuego medio.",
+  "image": "https://fucolin.github.io/recetario/images/fajitas-salmon.jpg",
+  "url": "https://fucolin.github.io/recetario/fajitas-salmon.html",
+  "dateModified": "2026-10-17",
+  "isBasedOn": {
+    "@type": "Recipe",
+    "name": "Wraps de salmón y espinacas",
+    "author": {
+      "@type": "Person",
+      "name": "Eva",
+      "jobTitle": "Nutricionista"
+    }
+  }
+}
