@@ -88,7 +88,7 @@ yuka:
     valor: 0,93 g por 100 g
     comentario: Bastante salado
 recetas:
-- burritos-frijoles-quinoa-edamame-champinones
+- burrito-frijoles-negros
 fuente_datos:
   tipo: etiqueta fotografiada por el usuario
   fecha_aportacion: '2026-10-14'
@@ -160,7 +160,7 @@ Estos comentarios son valoraciones de Yuka, no una evaluación propia. El 61 % e
 
 ## Recetas
 
-- [Burritos de frijoles negros, quinoa, edamame y champiñones](../burritos-frijoles-quinoa-edamame-champinones.html)
+- [Burrito de frijoles negros](../burrito-frijoles-negros.html)
 
 ## Fotografías propias
 

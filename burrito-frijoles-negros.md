@@ -1,9 +1,9 @@
 ---
 esquema: recetario-1.0
-id: burritos-frijoles-quinoa-edamame-champinones
-familia: burritos-frijoles-quinoa-edamame-champinones
+id: burrito-frijoles-negros
+familia: burrito-frijoles-negros
 variante: principal
-titulo: Burritos de frijoles negros, quinoa, edamame y champiñones
+titulo: Burrito de frijoles negros
 subtitulo: Con aguacate · 2 burritos grandes
 categoria: Burritos
 categoria_menu: Envueltos y bocados
@@ -130,10 +130,10 @@ image_license: CC0 1.0
 image_source: https://commons.wikimedia.org/wiki/File:Vegetarian_burrito_(Los_Angeles)_July_2022.jpg
 image_note: Fotografía representativa de un burrito vegetariano; el relleno mostrado puede diferir de
   esta receta.
-pdf: https://fucolin.github.io/recetario/burritos-frijoles-quinoa-edamame-champinones.pdf
+pdf: https://fucolin.github.io/recetario/burrito-frijoles-negros.pdf
 fecha_actualizacion: '2026-10-18'
 encabezado:
-  titulo: Burritos de frijoles negros, quinoa, edamame y champiñones
+  titulo: Burrito de frijoles negros
   detalle: Con aguacate · 2 burritos grandes · 2 personas · 25-30 min
 pdf_diagrama:
   imagen: images/burritos-montaje-fotorrealista-v3.jpg
@@ -172,7 +172,7 @@ montaje:
 ---
 
 
-# Burritos de frijoles negros, quinoa, edamame y champiñones
+# Burrito de frijoles negros
 
 Con aguacate · 2 burritos grandes · 2 personas · 25-30 min
 
@@ -180,7 +180,7 @@ Con aguacate · 2 burritos grandes · 2 personas · 25-30 min
 
 Foto: <a href="https://commons.wikimedia.org/wiki/File:Vegetarian_burrito_(Los_Angeles)_July_2022.jpg">Benoît Prieur</a> · <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a>. Fotografía representativa de un burrito vegetariano; el relleno mostrado puede diferir de esta receta. Reducida para web.
 
-[Descargar PDF A4](burritos-frijoles-quinoa-edamame-champinones.pdf)
+[Descargar PDF A4](burrito-frijoles-negros.pdf)
 
 ## Ingredientes
 

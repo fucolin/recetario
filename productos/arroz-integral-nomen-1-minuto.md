@@ -63,7 +63,7 @@ yuka:
     - {aspecto: Aditivos, valor: '1', comentario: Ningún aditivo de riesgo}
   negativos: []
 recetas:
-  - burritos-frijoles-quinoa-edamame-champinones
+  - burrito-frijoles-negros
 fuente_datos:
   tipo: Fotografías del envase y captura de Yuka aportadas por el usuario
   fecha_aportacion: '2026-10-16'

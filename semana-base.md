@@ -61,9 +61,9 @@ dias:
       - texto: Envuelto/Bocata
         categoria: Envueltos y bocados
         ejemplo:
-          titulo: Burritos de frijoles + puré aprovechategui
+          titulo: Burrito de frijoles negros + puré aprovechategui
           componentes:
-            - {titulo: Burritos de frijoles, pagina: burritos-frijoles-quinoa-edamame-champinones.html}
+            - {titulo: Burrito de frijoles negros, pagina: burrito-frijoles-negros.html}
             - {titulo: puré aprovechategui, pagina: crema-aprovechamiento-marisa.html, categoria: Purés}
   - dia: Sábado
     comida:

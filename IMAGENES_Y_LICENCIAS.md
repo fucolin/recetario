@@ -97,7 +97,7 @@ Las fotografías se muestran en las páginas HTML y se declaran en el YAML y en 
 - Uso: Imagen representativa del salmón ahumado y las hojas tiernas; no muestra el mango ni el aguacate de esta ficha y contiene otros ingredientes.
 - Modificación: reducción para web a 1200 × 900 píxeles; el HTML aplica el encuadre 16:9.
 
-## Burritos de frijoles negros, quinoa, edamame y champiñones
+## Burrito de frijoles negros
 
 - Archivo local: `images/burritos-frijoles-quinoa-edamame-champinones.jpg`
 - Obra: [Vegetarian burrito (Los Angeles) July 2022](https://commons.wikimedia.org/wiki/File:Vegetarian_burrito_(Los_Angeles)_July_2022.jpg)

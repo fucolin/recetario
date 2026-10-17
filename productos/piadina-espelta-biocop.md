@@ -84,7 +84,7 @@ yuka:
     valor: 1,7 g por 100 g
     comentario: Demasiado salado
 recetas:
-- burritos-frijoles-quinoa-edamame-champinones
+- burrito-frijoles-negros
 fuente_datos:
   tipo: Fotografías del envase y captura de Yuka aportadas por el usuario
   fecha_aportacion: '2026-10-16'

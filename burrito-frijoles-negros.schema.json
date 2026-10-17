@@ -1,7 +1,7 @@
 {
   "@context": "https://schema.org",
   "@type": "Recipe",
-  "name": "Burritos de frijoles negros, quinoa, edamame y champiñones",
+  "name": "Burrito de frijoles negros",
   "description": "Con aguacate · 2 burritos grandes",
   "recipeCategory": "Envueltos y bocados",
   "recipeYield": "2 raciones (2 burritos grandes o 4 pequeños)",
@@ -57,7 +57,7 @@
     }
   ],
   "image": "https://fucolin.github.io/recetario/images/burritos-frijoles-quinoa-edamame-champinones.jpg",
-  "url": "https://fucolin.github.io/recetario/burritos-frijoles-quinoa-edamame-champinones.html",
+  "url": "https://fucolin.github.io/recetario/burrito-frijoles-negros.html",
   "dateModified": "2026-10-18",
   "mentions": [
     {
