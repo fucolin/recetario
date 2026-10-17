@@ -8,7 +8,9 @@
   "categoria": "Tortillas",
   "categoria_menu": "Huevos",
   "tipo_ficha": "receta",
-  "etiquetas": [],
+  "etiquetas": [
+    "receta de Eva"
+  ],
   "raciones": {
     "min": 2,
     "max": 2
@@ -130,5 +132,30 @@
   "image_source": "IMG_0044.jpeg",
   "pdf": "https://fucolin.github.io/recetario/tortilla-boniato-espinacas-parmesano.pdf",
   "image_origin": "propia",
-  "fecha_actualizacion": "2026-10-15"
+  "fecha_actualizacion": "2026-10-15",
+  "encabezado": {
+    "titulo": "Tortilla de boniato, espinacas y parmesano",
+    "detalle": "Estilo español · sartén de 18-20 cm · 2 raciones · 35-40 min"
+  },
+  "autor": "Eva, nutricionista",
+  "origen_receta": "eva-nutricionista",
+  "emoji_origen": "🌿",
+  "fuente": {
+    "autor": "Eva, nutricionista",
+    "atribucion": "🌿 Adaptada de una receta de Eva, la nutricionista",
+    "titulo_original": "Tortilla de queso parmesano, espinacas y cebolla",
+    "catalogo_privado": "catalogo-nutricionista-muestra.zip",
+    "ficha_catalogo": "recetas/tortilla-de-queso-parmesano-espinacas-y-cebolla.md",
+    "pdf_origen": [
+      {
+        "archivo": "../originales/recetas-basicas-2026-04-21.pdf",
+        "pagina": 3
+      },
+      {
+        "archivo": "../originales/recetas-basicas-2026-07-28.pdf",
+        "pagina": 3,
+        "imagen": "../imagenes/tortilla-de-queso-parmesano-espinacas-y-cebolla-2026-07-28.jpeg"
+      }
+    ]
+  }
 }

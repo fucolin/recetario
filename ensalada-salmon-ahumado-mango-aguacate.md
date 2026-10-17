@@ -12,6 +12,7 @@ etiquetas:
 - ensalada
 - mango
 - aguacate
+- receta de Eva
 raciones:
   min: 2
   max: 2
@@ -59,6 +60,21 @@ image_license: null
 image_source: null
 image_note: Imagen ilustrativa generada con IA; no es una fotografía del plato preparado.
 fecha_actualizacion: '2026-10-15'
+autor: Eva, nutricionista
+origen_receta: eva-nutricionista
+emoji_origen: 🌿
+fuente:
+  autor: Eva, nutricionista
+  atribucion: 🌿 Adaptada de una receta de Eva, la nutricionista
+  titulo_original: Ensalada de salmón ahumado, mango y aguacate
+  catalogo_privado: catalogo-nutricionista-muestra.zip
+  ficha_catalogo: recetas/ensalada-de-salmon-ahumado-mango-y-aguacate.md
+  pdf_origen:
+  - archivo: ../originales/recetas-basicas-2025-05-13.pdf
+    pagina: 1
+  - archivo: ../originales/recetas-basicas-2026-09-10.pdf
+    pagina: 1
+    imagen: ../imagenes/ensalada-de-salmon-ahumado-mango-y-aguacate-2026-09-10.png
 ---
 
 # Ensalada de salmón ahumado, mango y aguacate
@@ -87,3 +103,7 @@ Lava las hojas si no vienen listas para consumir y sécalas bien. Corta el mango
 ## Consejo
 
 Empieza sin sal y prueba un bocado con salmón antes de añadirla. Si la preparas con antelación, deja el aguacate y el aliño para el momento de servir.
+
+## Fuente
+
+🌿 Adaptada de una receta de Eva, la nutricionista

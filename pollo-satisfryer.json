@@ -228,5 +228,9 @@
   "image_license": "CC BY-SA 2.0",
   "image_source": "https://commons.wikimedia.org/wiki/File:Roast_Chicken_Legs_and_Thighs_(31196736704).jpg",
   "pdf": "https://fucolin.github.io/recetario/pollo-satisfryer.pdf",
-  "fecha_actualizacion": "2026-10-15"
+  "fecha_actualizacion": "2026-10-15",
+  "encabezado": {
+    "titulo": "Pollo Satisfryer",
+    "detalle": "Pollo asado con verduras · Cosori Dual Blaze · 2 raciones · 55-65 min"
+  }
 }

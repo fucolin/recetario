@@ -68,5 +68,14 @@
   ],
   "image": "https://fucolin.github.io/recetario/images/pollo-guisado-calabacin.jpg",
   "url": "https://fucolin.github.io/recetario/pollo-guisado-calabacin.html",
-  "dateModified": "2026-10-15"
+  "dateModified": "2026-10-15",
+  "isBasedOn": {
+    "@type": "Recipe",
+    "name": "Pollo guisado con verduras",
+    "author": {
+      "@type": "Person",
+      "name": "Eva",
+      "jobTitle": "Nutricionista"
+    }
+  }
 }

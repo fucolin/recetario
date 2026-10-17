@@ -138,6 +138,9 @@ fuentes:
   url: https://www.aesan.gob.es/ca/actualidad/campanyas-seguridad-alimentaria/anisakis
 ajustes: Dos raciones como plato principal, 30 g de aceitunas en total y chile opcional en poca cantidad. Se mantiene
   la pizca de sal del tomate. Congelación previa añadida conforme a AESAN.
+encabezado:
+  titulo: Sardinas marinadas
+  detalle: Con tomate, aceitunas y hierbas · 2 raciones · 45-50 min
 ---
 
 # Sardinas marinadas

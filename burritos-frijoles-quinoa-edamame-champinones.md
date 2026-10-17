@@ -147,6 +147,9 @@ image_note: Fotografía representativa de un burrito vegetariano; el relleno mos
   esta receta.
 pdf: https://fucolin.github.io/recetario/burritos-frijoles-quinoa-edamame-champinones.pdf
 fecha_actualizacion: '2026-10-15'
+encabezado:
+  titulo: Burritos de frijoles negros, quinoa, edamame y champiñones
+  detalle: Con aguacate · 2 burritos grandes · 2 personas · 25-30 min
 ---
 
 # Burritos de frijoles negros, quinoa, edamame y champiñones

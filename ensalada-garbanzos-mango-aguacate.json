@@ -11,7 +11,8 @@
   "etiquetas": [
     "ensalada",
     "mango",
-    "aguacate"
+    "aguacate",
+    "receta de Eva"
   ],
   "raciones": {
     "min": 2,
@@ -75,5 +76,31 @@
   "image_license": "CC BY-SA 4.0",
   "image_source": "https://commons.wikimedia.org/wiki/File:Avocado_Mango_Salad.jpg",
   "image_note": "Imagen representativa del mango y el aguacate; no muestra los garbanzos, el pepino ni los cherrys de esta ficha y contiene otros ingredientes.",
-  "fecha_actualizacion": "2026-10-15"
+  "fecha_actualizacion": "2026-10-15",
+  "autor": "Eva, nutricionista",
+  "origen_receta": "eva-nutricionista",
+  "emoji_origen": "🌿",
+  "fuente": {
+    "autor": "Eva, nutricionista",
+    "atribucion": "🌿 Adaptada de una receta de Eva, la nutricionista",
+    "titulo_original": "Ensalada de garbanzos con aguacate y mango",
+    "catalogo_privado": "catalogo-nutricionista-muestra.zip",
+    "ficha_catalogo": "recetas/ensalada-de-garbanzos-con-aguacate-y-mango.md",
+    "pdf_origen": [
+      {
+        "archivo": "../originales/recetas-basicas-2025-02-25.pdf",
+        "pagina": 1
+      },
+      {
+        "archivo": "../originales/recetas-basicas-2025-04-22.pdf",
+        "pagina": 1,
+        "imagen": "../imagenes/ensalada-de-garbanzos-con-aguacate-y-mango-2025-04-22.jpeg"
+      },
+      {
+        "archivo": "../originales/recetas-basicas-2025-07-22.pdf",
+        "pagina": 1,
+        "imagen": "../imagenes/ensalada-de-garbanzos-con-aguacate-y-mango-2025-07-22.jpeg"
+      }
+    ]
+  }
 }

@@ -207,3 +207,7 @@ Las capturas `images/productos/arroz-integral-nomen-yuka.jpeg`, `edamame-cidacos
 ## Pan plano de jamón y queso
 
 `images/pan-plano-jamon-queso-v2.jpg`: ilustración generada con IA para Casa Marisa el 17/10/2026 con la herramienta integrada. Prompt: un pan plano de yogur doblado y cortado en dos, con lonchas finas de jamón (sin tacos), queso fundido, tomates cherry y cebollino; plato blanco, luz natural y formato horizontal. JPEG optimizado a partir del PNG generado. No es una fotografía del plato preparado ni del libro UNO; no se atribuye licencia Creative Commons.
+
+## Potaje de bacalao
+
+`images/potaje-bacalao.jpg`: imagen ilustrativa generada con IA para Casa Marisa el 17/10/2026 mediante la herramienta integrada. Prompt: potaje casero de garbanzos, espinacas y trozos de bacalao en caldo ligero con cebolla y pimentón; cuenco cerámico, luz natural, horizontal 16:9, sin huevo, chorizo, patata ni adornos. JPEG optimizado del PNG generado. No es fotografía del plato preparado; sin licencia Creative Commons atribuida.

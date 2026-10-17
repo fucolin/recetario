@@ -24,5 +24,14 @@
   ],
   "image": "https://fucolin.github.io/recetario/images/ensalada-salmon-ahumado-mango-aguacate-ilustracion-v1.jpg",
   "url": "https://fucolin.github.io/recetario/ensalada-salmon-ahumado-mango-aguacate.html",
-  "dateModified": "2026-10-15"
+  "dateModified": "2026-10-15",
+  "isBasedOn": {
+    "@type": "Recipe",
+    "name": "Ensalada de salmón ahumado, mango y aguacate",
+    "author": {
+      "@type": "Person",
+      "name": "Eva",
+      "jobTitle": "Nutricionista"
+    }
+  }
 }

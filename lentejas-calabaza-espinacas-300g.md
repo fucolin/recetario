@@ -1,12 +1,6 @@
 ---
 esquema: recetario-1.0
-image: https://fucolin.github.io/recetario/images/lentejas-calabaza-espinacas.jpg?v=20261014-horizontal
-image_alt: Primer plano de lentejas con calabaza y espinacas en una olla
-image_credit: Fotografía propia
-image_source: IMG_0048.jpeg
-image_origin: propia
 id: lentejas-calabaza-espinacas-300g
-pdf: https://fucolin.github.io/recetario/lentejas-calabaza-espinacas-300g.pdf
 familia: lentejas-calabaza-espinacas
 variante: 300g
 titulo: Lentejas cremosas con calabaza y espinacas
@@ -17,6 +11,7 @@ tipo_ficha: receta
 etiquetas:
 - legumbres
 - vegetariano
+- receta de Eva
 raciones:
   min: 2
   max: 3
@@ -33,8 +28,8 @@ ingredientes:
   unidad: g
 - nombre: espinacas frescas
   unidad: g
-  cantidad_min: 100.0
-  cantidad_max: 125.0
+  cantidad_min: 100
+  cantidad_max: 125
 - nombre: cebolla
   cantidad: 1
   unidad: unidad
@@ -65,6 +60,19 @@ ingredientes:
   nota: al gusto
 - nombre: zumo de limón
   nota: unas gotas al final
+pdf_ingredientes:
+- 300 g de lentejas cocidas (escurridas)
+- 300 g de calabaza pelada
+- 100-125 g de espinacas frescas
+- 1 cebolla mediana
+- 2 dientes de ajo
+- 10 g de jengibre fresco
+- 125 ml de leche de coco
+- 150-200 ml de caldo de verduras
+- 1 cdta. de curry en polvo
+- ½ cdta. de comino molido
+- 2 cdas. de aceite de oliva virgen extra
+- Sal, pimienta negra y zumo de limón
 pasos:
 - orden: 1
   titulo: Preparar las verduras
@@ -121,7 +129,31 @@ pasos:
   instrucciones: Apaga el fuego, añade unas gotas de limón y deja reposar con la olla tapada.
 claves: Para espesar, aplasta algunos dados de calabaza. Remueve con cuidado para no romper las lentejas. Ajusta
   el caldo poco a poco.
-fecha_actualizacion: "2026-10-15"
+image: https://fucolin.github.io/recetario/images/lentejas-calabaza-espinacas.jpg?v=20261014-horizontal
+image_alt: Primer plano de lentejas con calabaza y espinacas en una olla
+image_credit: Fotografía propia
+image_source: IMG_0048.jpeg
+pdf: https://fucolin.github.io/recetario/lentejas-calabaza-espinacas-300g.pdf
+image_origin: propia
+fecha_actualizacion: '2026-10-15'
+encabezado:
+  titulo: Lentejas cremosas con calabaza y espinacas · 300g
+  detalle: Guiso especiado y cremoso · 2-3 raciones · 35-40 min
+autor: Eva, nutricionista
+origen_receta: eva-nutricionista
+emoji_origen: 🌿
+fuente:
+  autor: Eva, nutricionista
+  atribucion: 🌿 Adaptada de una receta de Eva, la nutricionista
+  titulo_original: Lentejas con calabaza y espinacas
+  catalogo_privado: catalogo-nutricionista-muestra.zip
+  ficha_catalogo: recetas/lentejas-con-calabaza-y-espinacas.md
+  pdf_origen:
+  - archivo: ../originales/recetas-basicas-2025-11-25.pdf
+    pagina: 1
+  - archivo: ../originales/recetas-basicas-2026-09-10.pdf
+    pagina: 1
+    imagen: ../imagenes/lentejas-con-calabaza-y-espinacas-2026-09-10.png
 ---
 
 # Lentejas cremosas con calabaza y espinacas
@@ -165,3 +197,6 @@ Guiso especiado y cremoso
 
 Para espesar, aplasta algunos dados de calabaza. Remueve con cuidado para no romper las lentejas. Ajusta el caldo poco a poco.
 
+## Fuente
+
+🌿 Adaptada de una receta de Eva, la nutricionista

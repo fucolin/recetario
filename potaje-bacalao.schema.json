@@ -1,0 +1,66 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Potaje de bacalao",
+  "description": "Con garbanzos y espinacas · a fuego lento",
+  "recipeCategory": "Legumbres",
+  "recipeYield": "2 raciones",
+  "totalTime": "PT40M",
+  "keywords": "garbanzos, bacalao, espinacas, receta de Eva",
+  "recipeIngredient": [
+    "400 g garbanzos cocidos (peso escurrido)",
+    "200 g bacalao desalado sin espinas",
+    "200 g espinacas frescas",
+    "150 g cebolla",
+    "2 dientes ajo",
+    "10 g aceite de oliva virgen extra",
+    "½ cucharadita pimentón dulce",
+    "1 hoja laurel",
+    "350-450 ml agua",
+    "Sal (solo si hace falta)"
+  ],
+  "recipeInstructions": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "Prepara los ingredientes",
+      "text": "Escurre y enjuaga los garbanzos. Pica fina la cebolla y los ajos. Lava las espinacas y escúrrelas. Revisa que el bacalao no tenga espinas y córtalo en trozos de unos 3 cm."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "Sofríe la cebolla y el ajo",
+      "text": "Calienta los 10 g de aceite en una cazuela a fuego medio-bajo. Añade la cebolla y cocina 10-12 minutos, removiendo, hasta que esté tierna. Si se agarra, añade una cucharada de agua. Incorpora el ajo y rehoga 2 minutos más."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "Añade el pimentón y los garbanzos",
+      "text": "Baja el fuego, añade el pimentón y remueve unos segundos. Vierte enseguida 350 ml de agua e incorpora los garbanzos y el laurel. Cuando empiece a hervir suavemente, cocina 10 minutos. Aplasta una cucharada de garbanzos con un poco de caldo y devuélvela a la cazuela para darle cuerpo."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 4,
+      "name": "Incorpora las espinacas",
+      "text": "Añade las espinacas por tandas y mezcla suavemente hasta que pierdan volumen. Si el potaje está muy espeso, añade parte del agua restante."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 5,
+      "name": "Cocina el bacalao y sirve",
+      "text": "Coloca los trozos de bacalao entre los garbanzos. Cocina a fuego suave, sin hervir con fuerza, unos 4-5 minutos según su grosor, hasta que el centro esté opaco y las lascas se separen fácilmente. Mueve la cazuela con suavidad en lugar de remover con cuchara. Retira el laurel, prueba el caldo y añade sal solo si hace falta. Sirve caliente."
+    }
+  ],
+  "image": "https://fucolin.github.io/recetario/images/potaje-bacalao.jpg",
+  "url": "https://fucolin.github.io/recetario/potaje-bacalao.html",
+  "dateModified": "2026-10-17",
+  "isBasedOn": {
+    "@type": "Recipe",
+    "name": "Potaje de garbanzos, espinacas y bacalao",
+    "author": {
+      "@type": "Person",
+      "name": "Eva",
+      "jobTitle": "Nutricionista"
+    }
+  }
+}

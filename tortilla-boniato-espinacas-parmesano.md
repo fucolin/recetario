@@ -1,12 +1,6 @@
 ---
 esquema: recetario-1.0
-image: https://fucolin.github.io/recetario/images/tortilla-boniato-espinacas-parmesano.jpg?v=20261014-horizontal
-image_alt: Tortilla de boniato, espinacas y parmesano en un plato
-image_credit: Fotografía propia
-image_source: IMG_0044.jpeg
-image_origin: propia
 id: tortilla-boniato-espinacas-parmesano
-pdf: https://fucolin.github.io/recetario/tortilla-boniato-espinacas-parmesano.pdf
 familia: tortilla-boniato-espinacas-parmesano
 variante: principal
 titulo: Tortilla de boniato, espinacas y parmesano
@@ -14,7 +8,8 @@ subtitulo: Estilo español · sartén de 18-20 cm
 categoria: Tortillas
 categoria_menu: Huevos
 tipo_ficha: receta
-etiquetas: []
+etiquetas:
+- receta de Eva
 raciones:
   min: 2
   max: 2
@@ -48,6 +43,15 @@ ingredientes:
   nota: opcional
 - nombre: agua
   nota: un poco
+pdf_ingredientes:
+- 300 g de boniato pelado
+- 100 g de espinacas frescas
+- 4 huevos grandes
+- 30 g de parmesano rallado
+- ½ cebolla (unos 80 g)
+- 1 cda. aceite de oliva virgen extra (15 ml)
+- Sal y pimienta negra
+- Nuez moscada (opcional); un poco de agua
 pasos:
 - orden: 1
   titulo: Cortar el boniato
@@ -97,7 +101,31 @@ pasos:
     sin perder jugosidad.
 claves: Boniato muy tierno y poco dorado; espinacas sin agua; poca sal porque el parmesano ya aporta. Para una tortilla
   más alta, utiliza una sartén de 18 cm.
-fecha_actualizacion: "2026-10-15"
+image: https://fucolin.github.io/recetario/images/tortilla-boniato-espinacas-parmesano.jpg?v=20261014-horizontal
+image_alt: Tortilla de boniato, espinacas y parmesano en un plato
+image_credit: Fotografía propia
+image_source: IMG_0044.jpeg
+pdf: https://fucolin.github.io/recetario/tortilla-boniato-espinacas-parmesano.pdf
+image_origin: propia
+fecha_actualizacion: '2026-10-15'
+encabezado:
+  titulo: Tortilla de boniato, espinacas y parmesano
+  detalle: Estilo español · sartén de 18-20 cm · 2 raciones · 35-40 min
+autor: Eva, nutricionista
+origen_receta: eva-nutricionista
+emoji_origen: 🌿
+fuente:
+  autor: Eva, nutricionista
+  atribucion: 🌿 Adaptada de una receta de Eva, la nutricionista
+  titulo_original: Tortilla de queso parmesano, espinacas y cebolla
+  catalogo_privado: catalogo-nutricionista-muestra.zip
+  ficha_catalogo: recetas/tortilla-de-queso-parmesano-espinacas-y-cebolla.md
+  pdf_origen:
+  - archivo: ../originales/recetas-basicas-2026-04-21.pdf
+    pagina: 3
+  - archivo: ../originales/recetas-basicas-2026-07-28.pdf
+    pagina: 3
+    imagen: ../imagenes/tortilla-de-queso-parmesano-espinacas-y-cebolla-2026-07-28.jpeg
 ---
 
 # Tortilla de boniato, espinacas y parmesano
@@ -135,3 +163,6 @@ Estilo español · sartén de 18-20 cm
 
 Boniato muy tierno y poco dorado; espinacas sin agua; poca sal porque el parmesano ya aporta. Para una tortilla más alta, utiliza una sartén de 18 cm.
 
+## Fuente
+
+🌿 Adaptada de una receta de Eva, la nutricionista

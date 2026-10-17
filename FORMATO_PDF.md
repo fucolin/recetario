@@ -4,7 +4,8 @@ Los PDF del recetario se generan con `tools/generar_pdfs.py`. No deben maquetars
 
 ## Reglas fijas
 
-- Una página A4, sin fotografía.
+- Una página A4, sin fotografía. Sin bloque de fuente: la atribución se consulta en la web y se conserva en los archivos maestros.
+- Mismo título y línea descriptiva que la página HTML, sin tipo de ficha. Los textos compartidos se conservan en `encabezado.titulo` y `encabezado.detalle` del maestro YAML y JSON; el generador los imprime sin reconstruir raciones, tiempos o variantes.
 - Títulos y secciones en verde oscuro.
 - Ingredientes sin viñetas y distribuidos en dos columnas.
 - Fondo de ingredientes exacto `#F3F6F1`.
@@ -22,7 +23,7 @@ python3 tools/generar_pdfs.py
 
 Los archivos se crean inicialmente en `build/pdfs`, para que puedan revisarse antes de sustituir los publicados.
 
-Tras revisar los cuatro PDF, se pueden generar directamente en la raíz del repositorio:
+Tras revisar los PDF, se pueden generar directamente en la raíz del repositorio:
 
 ```bash
 python3 tools/generar_pdfs.py --salida .

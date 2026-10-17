@@ -127,7 +127,8 @@ def generar_pdf(receta: dict, destino: Path) -> None:
     c.enlaces_texto = receta.get("enlaces_texto", [])
     ancho, alto = A4
 
-    titulo = normalizar(receta["titulo"]).upper()
+    encabezado = receta["encabezado"]
+    titulo = normalizar(encabezado["titulo"]).upper()
     tamano_titulo = 18 if len(titulo) < 42 else 15.6
     y = alto - 52
     y = dibujar_texto_envuelto(
@@ -135,20 +136,7 @@ def generar_pdf(receta: dict, destino: Path) -> None:
         "Helvetica-Bold", tamano_titulo, tamano_titulo * 1.15, VERDE_TEXTO,
     )
 
-    raciones = receta["raciones"]
-    tiempo = receta["tiempo_total_min"]
-    texto_raciones = (
-        str(raciones["min"])
-        if raciones["min"] == raciones["max"]
-        else f"{raciones['min']}-{raciones['max']}"
-    )
-    etiqueta_raciones = "ración" if raciones["min"] == raciones["max"] == 1 else "raciones"
-    meta = (
-        f"{receta['subtitulo']} · {texto_raciones} {etiqueta_raciones} "
-        f"· {tiempo['min']}-{tiempo['max']} min · {TIPOS_FICHA[tipo]}"
-    )
-    if receta.get("variante") and receta["variante"] != "principal":
-        meta += f" · Versión {receta['variante'].replace('g', ' g')}"
+    meta = encabezado["detalle"]
     y -= 3
     y = dibujar_texto_envuelto(
         c, meta, MARGEN_X, y, ANCHO_CONTENIDO,

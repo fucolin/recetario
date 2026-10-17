@@ -24,5 +24,14 @@
   ],
   "image": "https://fucolin.github.io/recetario/images/ensalada-garbanzos-mango-aguacate.jpg",
   "url": "https://fucolin.github.io/recetario/ensalada-garbanzos-mango-aguacate.html",
-  "dateModified": "2026-10-15"
+  "dateModified": "2026-10-15",
+  "isBasedOn": {
+    "@type": "Recipe",
+    "name": "Ensalada de garbanzos con aguacate y mango",
+    "author": {
+      "@type": "Person",
+      "name": "Eva",
+      "jobTitle": "Nutricionista"
+    }
+  }
 }

@@ -139,6 +139,9 @@ image_note: Imagen ilustrativa generada con IA de la opción con pimentón ahuma
   preparado.
 pdf: https://fucolin.github.io/recetario/shakshuka-alubias-portobello.pdf
 fecha_actualizacion: '2026-10-17'
+encabezado:
+  titulo: Shakshuka de alubias y portobello
+  detalle: Huevos, tomates cherry y feta · en una sartén · 2 raciones · 15-20 min orientativos
 ---
 
 # Shakshuka de alubias y portobello

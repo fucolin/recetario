@@ -105,6 +105,9 @@ image_source: https://commons.wikimedia.org/wiki/File:Revuelto_de_huevo_con_seta
 image_note: Fotografía representativa de un revuelto con setas; no muestra los trigueros de esta receta.
 pdf: https://fucolin.github.io/recetario/revuelto-champinones-trigueros.pdf
 fecha_actualizacion: "2026-10-15"
+encabezado:
+  titulo: Revuelto de champiñones y trigueros
+  detalle: Jugoso · sin leche ni nata · 2 raciones · 25 min
 ---
 
 # Revuelto de champiñones y trigueros

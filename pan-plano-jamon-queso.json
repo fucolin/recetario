@@ -167,5 +167,9 @@
   "image_source": null,
   "image_note": "Imagen ilustrativa generada con IA; no es una fotografía del plato preparado.",
   "pdf": "https://fucolin.github.io/recetario/pan-plano-jamon-queso.pdf",
-  "fecha_actualizacion": "2026-10-17"
+  "fecha_actualizacion": "2026-10-17",
+  "encabezado": {
+    "titulo": "Pan plano de jamón y queso",
+    "detalle": "Masa de yogur · sin amasado ni reposo · 1 ración · 13-15 min orientativos"
+  }
 }

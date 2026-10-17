@@ -8,7 +8,8 @@
     "sardinas-marinadas",
     "pasta-fresca-salmon",
     "shakshuka-alubias-portobello",
-    "pan-plano-jamon-queso"
+    "pan-plano-jamon-queso",
+    "potaje-bacalao"
   ],
   "proximas": [
     {
@@ -16,12 +17,6 @@
       "titulo": "Pollo a la olla",
       "categoria_menu": "Guisos y asados",
       "categoria_slug": "guisos-y-asados"
-    },
-    {
-      "id": "potaje-bacalao",
-      "titulo": "Potaje de bacalao",
-      "categoria_menu": "Legumbres",
-      "categoria_slug": "legumbres"
     },
     {
       "id": "estofado-seitan",

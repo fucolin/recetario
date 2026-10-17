@@ -8,7 +8,9 @@
   "categoria": "Guisos",
   "categoria_menu": "Guisos y asados",
   "tipo_ficha": "receta",
-  "etiquetas": [],
+  "etiquetas": [
+    "receta de Eva"
+  ],
   "raciones": {
     "min": 2,
     "max": 3
@@ -167,5 +169,30 @@
   "image_license": "CC BY-SA 4.0",
   "image_source": "https://commons.wikimedia.org/wiki/File:Zucchini_Stew.jpg",
   "pdf": "https://fucolin.github.io/recetario/pollo-guisado-calabacin.pdf",
-  "fecha_actualizacion": "2026-10-15"
+  "fecha_actualizacion": "2026-10-15",
+  "encabezado": {
+    "titulo": "Pollo guisado con calabacín",
+    "detalle": "Con tomate, zanahoria y vino blanco · 2-3 raciones · 50-60 min"
+  },
+  "autor": "Eva, nutricionista",
+  "origen_receta": "eva-nutricionista",
+  "emoji_origen": "🌿",
+  "fuente": {
+    "autor": "Eva, nutricionista",
+    "atribucion": "🌿 Adaptada de una receta de Eva, la nutricionista",
+    "titulo_original": "Pollo guisado con verduras",
+    "catalogo_privado": "catalogo-nutricionista-muestra.zip",
+    "ficha_catalogo": "recetas/pollo-guisado-con-verduras.md",
+    "pdf_origen": [
+      {
+        "archivo": "../originales/recetas-basicas-2026-01-27.pdf",
+        "pagina": 1
+      },
+      {
+        "archivo": "../originales/recetas-basicas-2026-09-10.pdf",
+        "pagina": 1,
+        "imagen": "../imagenes/pollo-guisado-con-verduras-2026-09-10.png"
+      }
+    ]
+  }
 }

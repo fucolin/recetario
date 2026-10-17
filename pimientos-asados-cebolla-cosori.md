@@ -170,6 +170,9 @@ congelacion: Congela los pimientos ya asados, pelados y sin semillas, en porcion
   meses para mantener buena calidad. Descongela en la nevera. Pueden quedar algo más blandos, pero siguen
   siendo adecuados para guarniciones, tostas o ensaladas.
 fecha_actualizacion: "2026-10-15"
+encabezado:
+  titulo: Pimientos asados con cebolla
+  detalle: Cosori Dual Blaze · Veggies a 190 °C · 3-4 raciones de acompañamiento · 45-50 min
 ---
 
 # Pimientos asados con cebolla

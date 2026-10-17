@@ -51,6 +51,8 @@ La fecha se muestra únicamente en el PDF, en el pie `Fecha: DD/MM/AAAA`. No mos
 
 ## Formato canónico de los PDF
 
+El título y la línea descriptiva coinciden con los de la página web, sin indicar el tipo de ficha. Se conservan en `encabezado.titulo` y `encabezado.detalle` del maestro YAML y JSON. Los PDF no incluyen imagen ni bloque de fuente; la atribución se muestra en la web y se conserva en los archivos maestros. Los cambios de presentación no renuevan `fecha_actualizacion` ni la fecha visible del pie.
+
 Las reglas técnicas están en [`FORMATO_PDF.md`](../FORMATO_PDF.md). Todos los PDF deben generarse con la plantilla común; no deben maquetarse manualmente. Las cantidades y el texto de ingredientes que se imprimen proceden de `pdf_ingredientes`.
 
 ## Formato común de las fotografías

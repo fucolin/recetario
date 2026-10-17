@@ -185,5 +185,9 @@
   "image_note": "Fotografía representativa de pimientos asados; la preparación de esta ficha incluye cebolla y se cocina en freidora de aire.",
   "pdf": "https://fucolin.github.io/recetario/pimientos-asados-cebolla-cosori.pdf",
   "congelacion": "Congela los pimientos ya asados, pelados y sin semillas, en porciones pequeñas con la cebolla, un poco de sus jugos y el aceite que ya tengan. Utiliza recipientes aptos para congelar, dejando algo de espacio libre, o bolsas bien cerradas. Enfría rápidamente y congela pronto, manteniendo la indicación de refrigerar antes de dos horas desde la cocción. Conserva a -18 °C y consume preferentemente en 3-4 meses para mantener buena calidad. Descongela en la nevera. Pueden quedar algo más blandos, pero siguen siendo adecuados para guarniciones, tostas o ensaladas.",
-  "fecha_actualizacion": "2026-10-15"
+  "fecha_actualizacion": "2026-10-15",
+  "encabezado": {
+    "titulo": "Pimientos asados con cebolla",
+    "detalle": "Cosori Dual Blaze · Veggies a 190 °C · 3-4 raciones de acompañamiento · 45-50 min"
+  }
 }

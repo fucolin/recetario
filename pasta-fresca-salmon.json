@@ -143,5 +143,9 @@
   "image_source": null,
   "image_note": "Imagen ilustrativa generada con IA; no es la fotografía del libro ni del plato preparado.",
   "pdf": "https://fucolin.github.io/recetario/pasta-fresca-salmon.pdf",
-  "fecha_actualizacion": "2026-10-17"
+  "fecha_actualizacion": "2026-10-17",
+  "encabezado": {
+    "titulo": "Pasta fresca con salmón",
+    "detalle": "Con espinacas, limón y cottage · en una sartén · 2 raciones · 10-15 min orientativos"
+  }
 }
