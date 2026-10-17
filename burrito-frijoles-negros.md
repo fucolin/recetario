@@ -4,7 +4,7 @@ id: burrito-frijoles-negros
 familia: burrito-frijoles-negros
 variante: principal
 titulo: Burrito de frijoles negros
-subtitulo: Con aguacate · 2 burritos grandes
+subtitulo: Con quinoa, edamame, champiñones y aguacate · 2 burritos grandes
 categoria: Burritos
 categoria_menu: Envueltos y bocados
 tipo_ficha: receta
@@ -133,7 +133,7 @@ pdf: https://fucolin.github.io/recetario/burrito-frijoles-negros.pdf
 fecha_actualizacion: '2026-10-18'
 encabezado:
   titulo: Burrito de frijoles negros
-  detalle: Con aguacate · 2 burritos grandes · 2 personas · 25-30 min
+  detalle: Con quinoa, edamame, champiñones y aguacate · 2 burritos grandes · 2 personas · 25-30 min
 pdf_diagrama:
   imagen: images/burritos-montaje-fotorrealista-v3.jpg
   despues_del_paso: 5
@@ -172,9 +172,10 @@ montaje:
 
 
 
+
 # Burrito de frijoles negros
 
-Con aguacate · 2 burritos grandes · 2 personas · 25-30 min
+Con quinoa, edamame, champiñones y aguacate · 2 burritos grandes · 2 personas · 25-30 min
 
 ![Burrito tostado y cortado, con frijoles negros, quinoa, edamame, champiñones y aguacate visibles](images/burrito-frijoles-negros-ilustracion-v1.jpg)
 

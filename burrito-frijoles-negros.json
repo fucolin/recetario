@@ -4,7 +4,7 @@
   "familia": "burrito-frijoles-negros",
   "variante": "principal",
   "titulo": "Burrito de frijoles negros",
-  "subtitulo": "Con aguacate · 2 burritos grandes",
+  "subtitulo": "Con quinoa, edamame, champiñones y aguacate · 2 burritos grandes",
   "categoria": "Burritos",
   "categoria_menu": "Envueltos y bocados",
   "tipo_ficha": "receta",
@@ -158,7 +158,7 @@
   "fecha_actualizacion": "2026-10-18",
   "encabezado": {
     "titulo": "Burrito de frijoles negros",
-    "detalle": "Con aguacate · 2 burritos grandes · 2 personas · 25-30 min"
+    "detalle": "Con quinoa, edamame, champiñones y aguacate · 2 burritos grandes · 2 personas · 25-30 min"
   },
   "pdf_diagrama": {
     "imagen": "images/burritos-montaje-fotorrealista-v3.jpg",
