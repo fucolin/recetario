@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Patatas al vapor sabrosas",
+  "description": "Con feta y lima · estuche de vapor al microondas",
+  "recipeCategory": "Picoteo y guarniciones",
+  "recipeYield": "2 raciones",
+  "totalTime": "PT15M",
+  "recipeIngredient": [
+    "400 g de patatas lavadas o patacas novas de temporada",
+    "1 diente de ajo",
+    "1 lima",
+    "1 cucharadita de aceite de oliva (5 ml)",
+    "1 cucharada de agua (15 ml)",
+    "50 g de queso feta",
+    "1 hoja pequeña de laurel",
+    "1 cucharada de cebollino",
+    "Sal y pimienta"
+  ],
+  "recipeInstructions": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "Prepara las patatas y el ajo",
+      "text": "Si no las compraste ya lavadas, lava y cepilla bien las patatas; también las novas si traen tierra. Conserva la piel si es fina y está en buen estado; en caso contrario, pélalas. Si son pequeñas, córtalas a la mitad; si son medianas, en rodajas de unos 5 mm y, si son aún más grandes, en medias lunas del mismo grosor. Pica fino el diente de ajo. Lava y pica el cebollino. Corta la lima por la mitad."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "Sazona en el estuche",
+      "text": "Pon las patatas en el estuche de vapor apto para microondas. Añade el ajo picado, la hoja de laurel, el zumo de media lima y la cucharada de agua. Pon una pizca de pimienta y muy poca sal, porque el feta ya aporta sal. Mezcla y reparte sin compactar; cierra el estuche siguiendo sus instrucciones."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "Cocina y comprueba el punto",
+      "text": "Cocina 8 minutos a 800 W. Deja reposar 1 minuto con el estuche cerrado y ábrelo con cuidado, apartando el vapor de la cara. Pincha una de las piezas más gruesas: el cuchillo debe entrar sin resistencia. Si sigue firme, mezcla con suavidad, vuelve a cerrar y cocina en tandas de 1 minuto hasta que esté tierna."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 4,
+      "name": "Termina y aliña",
+      "text": "Retira la hoja de laurel y pasa las patatas a una fuente con el jugo que quede en el estuche. Añade el feta desmenuzado y el cebollino picado, y aliña con la cucharadita de aceite. Mezcla con cuidado y prueba. Exprime poco a poco la otra mitad de la lima solo si quieres más frescor y ajusta la pimienta o la sal después de probar el queso."
+    }
+  ],
+  "keywords": "patatas, patacas novas, microondas, estuche de vapor, feta, lima, laurel, cebollino, guarnición",
+  "image": "https://fucolin.github.io/recetario/images/patatas-vapor-sabrosas-ilustracion-v2.jpg",
+  "url": "https://fucolin.github.io/recetario/patatas-vapor-sabrosas.html",
+  "dateModified": "2026-10-18",
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "name": "Steamed potatoes · Patatas al vapor"
+  }
+}

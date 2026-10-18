@@ -256,6 +256,10 @@ Ilustraciones generadas con IA para Casa Marisa a partir de los ingredientes y l
 - `images/lentejas-calabaza-espinacas-ilustracion-v1.jpg`: Lentejas cremosas con calabaza y espinacas.
 - `images/tortilla-boniato-espinacas-parmesano-ilustracion-v2.jpg`: Tortilla de boniato, espinacas y parmesano.
 
+## Patatas al vapor sabrosas · 18/10/2026
+
+- `images/patatas-vapor-sabrosas-ilustracion-v2.jpg`: ilustración fotorrealista generada y editada con IA mediante la herramienta integrada de imágenes para Casa Marisa. Patatas al vapor con piel fina, en rodajas y medias lunas, con ajo, aceite de aliño, lima, feta desmenuzado y cebollino picado. El laurel se retira antes de servir y no se muestra en el plato. Plato de cerámica clara, piedra beige y luz natural cálida; sin las sardinillas opcionales, sin dorado de fritura ni adornos ajenos. No es una fotografía documental y no se atribuye licencia Creative Commons. La primera prueba con perejil queda como revisión local, sin publicarse.
+
 ## Menestra guisada · 18/10/2026
 
 - Imagen vigente: `images/menestra-guisada-ilustracion-v2.jpg`. Edición con la herramienta integrada de imágenes para sustituir únicamente las judías redondas por judías verdes planas, manteniendo plato, resto de verduras, encuadre y luz. Se conserva la versión anterior como histórico.

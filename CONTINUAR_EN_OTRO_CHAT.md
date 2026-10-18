@@ -1,6 +1,6 @@
 # Continuar en otro chat · Casa Marisa
 
-Actualizado: 18 de octubre de 2026, Europe/Madrid. Actualización de «Menestra guisada» y comprobación obligatoria del carrusel, autorizada mediante ARG del usuario.
+Actualizado: 18 de octubre de 2026, Europe/Madrid. Incorporación de «Patatas al vapor sabrosas», autorizada mediante ARG del usuario.
 
 ## Mensaje listo para copiar y pegar
 
@@ -24,7 +24,7 @@ Retoma el estado y los pendientes de este archivo, comprobando qué está public
 ## Estado publicado y comprobado
 
 - Último cambio de contenido web comprobado en esta sesión: `fc14fb1e72fd7b6354e460d40382cd86a0109cdf`, exclusión de buscadores. Es un hito de comprobación, no una afirmación sobre el HEAD actual: consultar GitHub al retomar.
-- Los 52 HTML de esta actualización llevan `noindex, noimageindex`, incluidas categorías, productos y redirecciones. Se comprobaron contra los archivos preparados después del despliegue. Los generadores lo conservan y existe `tools/comprobar_noindex.py`. No bloqueamos el rastreo ni añadimos `nofollow`. El acceso por enlace y el repositorio siguen públicos; PDF, maestros y recursos directos no quedan excluidos por esta etiqueta HTML. Detalle en «Buscadores y alcance» de la referencia.
+- Los HTML llevan `noindex, noimageindex`, incluidas categorías, productos y redirecciones. El comprobador local revisa 53 páginas con la nueva ficha de patatas; su despliegue se verifica después de publicar. Los generadores lo conservan y existe `tools/comprobar_noindex.py`. No bloqueamos el rastreo ni añadimos `nofollow`. El acceso por enlace y el repositorio siguen públicos; PDF, maestros y recursos directos no quedan excluidos por esta etiqueta HTML. Detalle en «Buscadores y alcance» de la referencia.
 - Las cinco fichas importadas de Eva están terminadas y conservan NUEVA: potaje de bacalao, ensaladilla, fajitas de salmón, ensalada de lentejas con salmón y pepino, y fajita de francesa y pavo.
 - «Menestra guisada» se incorpora como receta de Marisa, categoría Vegetales, con NUEVA en portada y categoría; sustituye la prevista «Menestra» y enlaza desde la comida del lunes. Sofrito acordado de 10 min (8 de cebolla y 2 de ajo), tabla en escritorio y pasos abiertos en móvil, PDF A4 con tabla. El relato oral se conserva separado; no hay manuscrito.
 - Burrito de frijoles negros: `burrito-frijoles-negros.html`; la URL antigua redirige. Cabecera fotorrealista y diagrama de montaje de seis imágenes. El PDF incorpora el diagrama 3+3, sin pies ni numeración de los pasos principales; conservar la excepción de la guía.
@@ -49,7 +49,9 @@ Seguimiento al cambiar de chat: distinguir «web publicada y comprobada», «met
 
 ## Pendientes y siguiente paso
 
-Esta actualización, autorizada mediante ARG, quita la llama y «Sin fuego» de la fase de reposo de «Menestra guisada», dejando solo los 3–5 min, y aclara en Opciones que puede servirse como guarnición o como plato principal con huevo cocido y, si no lleva carne ni jamón, bonito en conserva. Se sincronizan el maestro, HTML, JSON, buscador y PDF A4, junto con sus generadores. Se conserva la versión oral original. No quedan cambios preparados pendientes de publicar en esta sesión; comprobar el despliegue y el HEAD actual de GitHub al retomar.
+Incorporación de «Patatas al vapor sabrosas» en esta publicación autorizada mediante ARG: categoría Picoteo y guarniciones, NUEVA en portada y categoría, maestro YAML, JSON, Schema.org, HTML, PDF A4 e ilustración v2 sincronizados. Adaptada del folleto en pictogramas aportado por el usuario: 400 g de patatas lavadas o patacas novas, un diente de ajo, 50 g de feta, media lima y una cucharada de agua para cocinar; 8 min iniciales a 800 W y 1 min de reposo, comprobando el centro. Cortar según tamaño, en mitades o rodajas/medias lunas de unos 5 mm. Opción principal: una hoja pequeña de laurel durante la cocción (retirarla al terminar) y una cucharada de cebollino al servir. El aceite se añade solo al final: una cucharadita, aprovechando el de las sardinillas si se sirven para cenar. Opciones recoge tomillo o romero para cocinar y perejil, eneldo, hierbabuena u orégano para terminar; con sardinillas se recomienda eneldo. Dos raciones como guarnición, unos 15 min. Regenerar con `tools/generar_patatas_vapor.py` y el generador común de PDF. Comprobados datos, presentación móvil/escritorio, buscador y PDF de una página. No aparece en el carrusel: sus ejemplos se conservan. La prueba de imagen v1 queda fuera de la publicación. Verificar despliegue después de publicar; no quedan cambios pendientes de ARG en esta receta.
+
+Última actualización publicada de «Menestra guisada»: reposo sin llama ni «Sin fuego», solo 3–5 min, y Opciones aclaradas para guarnición o plato principal con huevo cocido y, si no lleva carne ni jamón, bonito en conserva. Maestro, HTML, JSON, buscador y PDF A4 sincronizados junto con sus generadores; versión oral original conservada. Comprobar el HEAD actual de GitHub al retomar.
 
 La ilustración publicada muestra judías verdes planas: `images/menestra-guisada-ilustracion-v2.jpg`, con cabecera, tarjeta de Vegetales, textos alternativos, metadatos y créditos sincronizados. La imagen anterior se conserva como histórico. No hay actualización del catálogo privado de Eva asociada a estos cambios.
 
