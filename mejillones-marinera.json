@@ -1,0 +1,177 @@
+{
+  "esquema": "recetario-1.0",
+  "id": "mejillones-marinera",
+  "familia": "mejillones-marinera",
+  "variante": "principal",
+  "titulo": "Mejillones a la marinera",
+  "subtitulo": "En estuche de vapor al microondas",
+  "categoria": "Mejillones",
+  "categoria_menu": "Mariscos",
+  "tipo_ficha": "receta",
+  "fecha_actualizacion": "2026-10-18",
+  "etiquetas": [
+    "mejillones",
+    "marinera",
+    "mariscos",
+    "microondas",
+    "estuche de vapor",
+    "al vacío",
+    "tomate",
+    "pimiento",
+    "vino blanco"
+  ],
+  "raciones": {
+    "min": 2,
+    "max": 2
+  },
+  "raciones_nota": "Como entrante o aperitivo para compartir.",
+  "tiempo_total_min": {
+    "min": 20,
+    "max": 20
+  },
+  "tiempo_nota": "Aproximado, partiendo de mejillones crudos ya limpios; 8 minutos iniciales para las verduras y 3 para los mejillones, a 800 W. Ajustar al punto y a las instrucciones del envase.",
+  "encabezado": {
+    "titulo": "Mejillones a la marinera",
+    "detalle": "En estuche de vapor al microondas · 2 raciones · 20 min"
+  },
+  "ingredientes": [
+    {
+      "nombre": "mejillones crudos limpios al vacío",
+      "cantidad": 500,
+      "unidad": "g",
+      "nota": "con concha",
+      "alternativa": "mejillones frescos con concha"
+    },
+    {
+      "nombre": "tomate triturado",
+      "cantidad": 100,
+      "unidad": "g",
+      "nota": "sin sal añadida"
+    },
+    {
+      "nombre": "cebolla",
+      "cantidad": 100,
+      "unidad": "g"
+    },
+    {
+      "nombre": "pimiento rojo",
+      "cantidad": 100,
+      "unidad": "g"
+    },
+    {
+      "nombre": "vino blanco",
+      "cantidad": 30,
+      "unidad": "ml"
+    },
+    {
+      "nombre": "aceite de oliva",
+      "cantidad": 1,
+      "unidad": "cucharada",
+      "equivalencia_ml": 15
+    },
+    {
+      "nombre": "pimienta",
+      "nota": "una pizca"
+    },
+    {
+      "nombre": "sal",
+      "nota": "solo si hace falta al final"
+    }
+  ],
+  "pdf_ingredientes": [
+    "500 g de mejillones crudos limpios al vacío, con concha",
+    "100 g de tomate triturado sin sal añadida",
+    "100 g de cebolla",
+    "100 g de pimiento rojo",
+    "30 ml de vino blanco",
+    "1 cucharada de aceite de oliva (15 ml)",
+    "Pimienta",
+    "Sal, si hace falta"
+  ],
+  "pasos": [
+    {
+      "orden": 1,
+      "titulo": "Prepara los ingredientes",
+      "duracion_min": 5,
+      "duracion_max_min": 5,
+      "duracion_texto": "5 min",
+      "instrucciones": "Pela y pica fina la cebolla. Lava el pimiento, retira las semillas y córtalo en dados pequeños. Abre el envase de los mejillones y sigue sus indicaciones de lavado o limpieza; retira las barbas que queden. Si son vivos, descarta los de concha rota y los abiertos que no se cierren al darles un golpecito suave. Mantenlos en frío mientras preparas la salsa."
+    },
+    {
+      "orden": 2,
+      "titulo": "Cocina la base de verduras",
+      "duracion_min": 8,
+      "duracion_max_min": 8,
+      "duracion_texto": "8 min a 800 W",
+      "potencia_w": 800,
+      "instrucciones": "Pon en el estuche la cebolla, el pimiento, el tomate, el vino y la cucharada de aceite. Añade pimienta y mezcla. Cierra y cocina 8 minutos a 800 W. Abre con cuidado, apartando el vapor de la cara, y remueve. La cebolla y el pimiento deben estar tiernos; si siguen firmes, cocina en tandas de 1 minuto antes de añadir los mejillones."
+    },
+    {
+      "orden": 3,
+      "titulo": "Incorpora los mejillones",
+      "duracion_min": 3,
+      "duracion_max_min": 3,
+      "duracion_texto": "3 min iniciales a 800 W",
+      "potencia_w": 800,
+      "instrucciones": "Añade los mejillones a la salsa caliente y repártelos sin apretarlos. El estuche debe poder cerrarse sin forzarlo; si no caben holgados, haz dos tandas. Cierra y cocina 3 minutos a 800 W, o el tiempo que indique su envase. Abre con cuidado y comprueba la cocción. Si faltan por abrir, redistribuye y continúa en tandas de 30 segundos, retirando a un plato los que ya estén hechos. Al terminar, descarta los que sigan cerrados."
+    },
+    {
+      "orden": 4,
+      "titulo": "Mezcla y sirve",
+      "duracion_min": 1,
+      "duracion_max_min": 1,
+      "duracion_texto": "1 min",
+      "instrucciones": "Junta los mejillones cocinados con la salsa y el jugo que hayan soltado. Prueba ahora y añade sal solo si la necesita. Sirve enseguida, repartiendo las verduras y el caldo por encima."
+    }
+  ],
+  "claves": "Pica pequeñas las verduras para que se ablanden antes de incorporar los mejillones. La base queda jugosa, sin el dorado de un sofrito de sartén. No añadas agua: el tomate, el vino y los mejillones aportan líquido. Los tiempos dependen del aparato, del tamaño de los mejillones y de la carga; respeta las indicaciones del envase y la capacidad del estuche. Retira los que ya estén cocinados si necesitas prolongar la cocción del resto.",
+  "opciones": [
+    {
+      "titulo": "Con mejillones frescos",
+      "texto": "Usa la misma cantidad con concha. Lava y cepilla las conchas bajo agua fría y retira las barbas. Descarta los rotos y los abiertos que no se cierren al darles un golpecito suave. Sigue después la misma preparación; la limpieza alarga el tiempo total."
+    }
+  ],
+  "fuente": {
+    "tipo": "folleto",
+    "titulo_original": "Mussels marinara · Mejillones a la marinera",
+    "atribucion": "Adaptada de un folleto de recetas para estuche de vapor aportado por el usuario.",
+    "autor": "no identificado en la imagen aportada",
+    "ajustes": "Mejillones crudos limpios al vacío como formato principal; tomate interpretado como triturado. Aceite reducido de 30 g a una cucharada e incorporado con las verduras; sal ajustada al final. Tiempos del folleto conservados como punto de partida con comprobaciones del punto, tandas adicionales y respeto a las instrucciones del envase. Dos raciones como entrante, unos 20 minutos incluyendo preparación."
+  },
+  "original_fuente": {
+    "ingredientes": [
+      "500 g de mejillones",
+      "100 g de tomate",
+      "100 g de cebolla",
+      "100 g de pimiento rojo",
+      "30 g de vino blanco",
+      "30 g de aceite de oliva",
+      "una pizca de sal",
+      "una pizca de pimienta"
+    ],
+    "tiempo_coccion_total_min": 11,
+    "potencia_w": 800,
+    "pasos": [
+      "Picar la cebolla y el pimiento; añadir al estuche con el tomate y el vino.",
+      "Cerrar y cocinar 8 minutos a 800 W.",
+      "Añadir mejillones, sal, pimienta y aceite; cerrar y cocinar 3 minutos a 800 W.",
+      "Servir."
+    ],
+    "interpretacion": "El tomate se representa como una salsa roja en un recipiente; se interpreta como triturado. El folleto no aclara el formato de los mejillones ni incluye el tiempo de limpieza."
+  },
+  "referencias_tecnicas": [
+    {
+      "titulo": "Selecting and Serving Fresh and Frozen Seafood Safely",
+      "entidad": "FDA",
+      "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely",
+      "criterio": "Revisión de conchas antes de cocinar los bivalvos vivos y descarte de los que permanecen cerrados después de la cocción."
+    }
+  ],
+  "image": "https://fucolin.github.io/recetario/images/mejillones-marinera-ilustracion-v1.jpg",
+  "image_alt": "Mejillones abiertos con tomate, cebolla y pimiento rojo en una salsa ligera, servidos en una fuente de cerámica clara",
+  "image_credit": "Ilustración generada con IA para Casa Marisa",
+  "image_note": "Imagen ilustrativa generada con IA, ajustada a los ingredientes de la receta y sin guarniciones ni hierbas añadidas.",
+  "image_width": 1672,
+  "image_height": 941,
+  "pdf": "https://fucolin.github.io/recetario/mejillones-marinera.pdf"
+}

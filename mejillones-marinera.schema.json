@@ -1,0 +1,53 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Mejillones a la marinera",
+  "description": "En estuche de vapor al microondas",
+  "recipeCategory": "Mariscos",
+  "recipeYield": "2 raciones",
+  "totalTime": "PT20M",
+  "recipeIngredient": [
+    "500 g de mejillones crudos limpios al vacío, con concha",
+    "100 g de tomate triturado sin sal añadida",
+    "100 g de cebolla",
+    "100 g de pimiento rojo",
+    "30 ml de vino blanco",
+    "1 cucharada de aceite de oliva (15 ml)",
+    "Pimienta",
+    "Sal, si hace falta"
+  ],
+  "recipeInstructions": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "Prepara los ingredientes",
+      "text": "Pela y pica fina la cebolla. Lava el pimiento, retira las semillas y córtalo en dados pequeños. Abre el envase de los mejillones y sigue sus indicaciones de lavado o limpieza; retira las barbas que queden. Si son vivos, descarta los de concha rota y los abiertos que no se cierren al darles un golpecito suave. Mantenlos en frío mientras preparas la salsa."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "Cocina la base de verduras",
+      "text": "Pon en el estuche la cebolla, el pimiento, el tomate, el vino y la cucharada de aceite. Añade pimienta y mezcla. Cierra y cocina 8 minutos a 800 W. Abre con cuidado, apartando el vapor de la cara, y remueve. La cebolla y el pimiento deben estar tiernos; si siguen firmes, cocina en tandas de 1 minuto antes de añadir los mejillones."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "Incorpora los mejillones",
+      "text": "Añade los mejillones a la salsa caliente y repártelos sin apretarlos. El estuche debe poder cerrarse sin forzarlo; si no caben holgados, haz dos tandas. Cierra y cocina 3 minutos a 800 W, o el tiempo que indique su envase. Abre con cuidado y comprueba la cocción. Si faltan por abrir, redistribuye y continúa en tandas de 30 segundos, retirando a un plato los que ya estén hechos. Al terminar, descarta los que sigan cerrados."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 4,
+      "name": "Mezcla y sirve",
+      "text": "Junta los mejillones cocinados con la salsa y el jugo que hayan soltado. Prueba ahora y añade sal solo si la necesita. Sirve enseguida, repartiendo las verduras y el caldo por encima."
+    }
+  ],
+  "keywords": "mejillones, marinera, mariscos, microondas, estuche de vapor, al vacío, tomate, pimiento, vino blanco",
+  "image": "https://fucolin.github.io/recetario/images/mejillones-marinera-ilustracion-v1.jpg",
+  "url": "https://fucolin.github.io/recetario/mejillones-marinera.html",
+  "dateModified": "2026-10-18",
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "name": "Mussels marinara · Mejillones a la marinera"
+  }
+}

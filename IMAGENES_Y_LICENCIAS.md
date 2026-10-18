@@ -265,3 +265,11 @@ Ilustraciones generadas con IA para Casa Marisa a partir de los ingredientes y l
 - Imagen vigente: `images/menestra-guisada-ilustracion-v2.jpg`. Edición con la herramienta integrada de imágenes para sustituir únicamente las judías redondas por judías verdes planas, manteniendo plato, resto de verduras, encuadre y luz. Se conserva la versión anterior como histórico.
 - `images/menestra-guisada-ilustracion-v1.jpg`: ilustración fotorrealista generada con IA mediante la herramienta de imágenes para Casa Marisa. Representa una mezcla habitual de menestra (judías verdes, guisantes, zanahoria y alcachofa), con cebolla y ajo, guisada con poco aceite y un fondo reducido jugoso. La composición depende de la bolsa utilizada. No representa una fotografía documental ni añade los acompañamientos opcionales.
 - Criterio de generación: plato de cerámica clara sobre piedra beige, encuadre cercano a tres cuartos y luz natural cálida y suave; verduras cocinadas y tiernas, cebolla translúcida, sin charco de caldo, sin carne, jamón, huevo, bonito ni adornos. Generación con herramienta integrada de imágenes; sin atribuir autoría fotográfica ni licencia Creative Commons.
+
+## Mejillones a la marinera · ilustración
+
+- Archivo: `images/mejillones-marinera-ilustracion-v1.jpg`.
+- Origen: ilustración generada con IA para Casa Marisa, 18/10/2026.
+- Representa los mejillones cocinados con tomate, cebolla y pimiento rojo, con salsa ligera, sin hierbas ni guarniciones añadidas. Estilo de cocina familiar, luz natural cálida, cerámica clara y superficie beige; formato 16:9.
+- Identificada como «Ilustración generada con IA» en la ficha; recurso compartido con la tarjeta de Mariscos y los metadatos de imagen.
+- No se atribuye autoría fotográfica ni licencia Creative Commons.
