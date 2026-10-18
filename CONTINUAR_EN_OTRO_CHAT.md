@@ -49,7 +49,7 @@ Seguimiento al cambiar de chat: distinguir «web publicada y comprobada», «met
 
 ## Pendientes y siguiente paso
 
-No quedan cambios preparados sin publicar ni otra modificación de recetas encargada dentro de esta sesión una vez incorporada esta actualización. No hay actualización del catálogo privado de Eva asociada a la menestra, que es una receta oral de Marisa.
+Esta actualización, autorizada mediante ARG, sustituye las judías redondas por judías verdes planas en la ilustración de «Menestra guisada». Imagen vigente `images/menestra-guisada-ilustracion-v2.jpg`, con cabecera, tarjeta de Vegetales, textos alternativos, metadatos y créditos sincronizados. Se conserva la imagen anterior y no se cambia el PDF ni la fecha del contenido. No quedan otros cambios preparados en esta sesión. No hay actualización del catálogo privado de Eva asociada a este cambio. Comprobar el despliegue y el HEAD actual de GitHub al retomar.
 
 Acuerdo permanente: al incorporar cada receta, comprobar si aparece como ejemplo en el carrusel (también dentro de componentes o sin enlace). Enlazarla al publicarla si corresponde y sincronizar `semana-base.md`, `datos/semana-base.json` e `index.html`; no añadir ni sustituir ejemplos no acordados.
 

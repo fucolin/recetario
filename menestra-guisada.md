@@ -169,8 +169,8 @@ opciones_ingredientes:
 - nombre: bonito en conserva
   opcional: true
   condicion: si no lleva carne ni jamón
-image: https://fucolin.github.io/recetario/images/menestra-guisada-ilustracion-v1.jpg
-image_alt: Menestra guisada de judías verdes, guisantes, zanahoria y alcachofa, con cebolla y un fondo jugoso, en
+image: https://fucolin.github.io/recetario/images/menestra-guisada-ilustracion-v2.jpg
+image_alt: Menestra guisada de judías verdes planas, guisantes, zanahoria y alcachofa, con cebolla y un fondo jugoso, en
   un plato de cerámica clara
 image_credit: Ilustración generada con IA para Casa Marisa
 image_note: Imagen ilustrativa generada con IA; representa una mezcla habitual de menestra. La composición depende
@@ -209,7 +209,7 @@ Para dar sabor a la menestra congelada · 2 raciones · 35–40 min
 
 💚 Receta oral de Marisa, que prepara siguiendo los consejos de la tía Genia.
 
-![Menestra guisada de judías verdes, guisantes, zanahoria y alcachofa, con cebolla y un fondo jugoso, en un plato de cerámica clara](images/menestra-guisada-ilustracion-v1.jpg)
+![Menestra guisada de judías verdes planas, guisantes, zanahoria y alcachofa, con cebolla y un fondo jugoso, en un plato de cerámica clara](images/menestra-guisada-ilustracion-v2.jpg)
 
 Ilustración generada con IA.
 
