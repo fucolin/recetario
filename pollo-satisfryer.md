@@ -78,25 +78,25 @@ pasos:
   duracion_texto: 8-10 min
   duracion_min: 8
   duracion_max_min: 10
-  instrucciones: 'Calabacín con piel: rodajas de 1,5-2 cm; berenjena con piel: medias lunas del mismo grosor;
-    cebolla: rodajas de 1 cm; pimiento: tiras de 2-3 cm; tomate: 6 gajos.'
+  instrucciones: 'Calabacín con piel: rodajas de 1,5-2 cm; berenjena con piel: medias lunas del mismo
+    grosor; cebolla: rodajas de 1 cm; pimiento: tiras de 2-3 cm; tomate: 6 gajos.'
 - orden: 2
   titulo: Prepara la cesta
   duracion_texto: 2 min
   duracion_min: 2
   duracion_max_min: 2
-  instrucciones: Retira la rejilla. Coloca una bandejita de papel de horno apta para 180 °C, sin bordes sobresalientes.
-    Pincela el fondo con un poco del aceite medido. Nunca enciendas con el papel vacío; debe estar sujeto por
-    los alimentos.
+  instrucciones: Retira la rejilla. Coloca una bandejita de papel de horno apta para 180 °C, sin bordes
+    sobresalientes. Pincela el fondo con un poco del aceite medido. Nunca enciendas con el papel vacío;
+    debe estar sujeto por los alimentos.
 - orden: 3
   titulo: Monta las capas y aliña
   duracion_texto: 3 min
   duracion_min: 3
   duracion_max_min: 3
-  instrucciones: 'Orden desde abajo: papel aceitado; cebolla; calabacín y berenjena intercalados en una misma
-    capa; pimiento y tomate repartidos encima. No mezcles las capas. Del aceite total, usa 5 ml entre papel
-    y verduras, pincelando especialmente la berenjena. Añade vino, sal moderada, pimienta y la mitad de las
-    hierbas.'
+  instrucciones: 'Orden desde abajo: papel aceitado; cebolla; calabacín y berenjena intercalados en una
+    misma capa; pimiento y tomate repartidos encima. No mezcles las capas. Del aceite total, usa 5 ml
+    entre papel y verduras, pincelando especialmente la berenjena. Añade vino, sal moderada, pimienta
+    y la mitad de las hierbas.'
 - orden: 4
   titulo: Coloca el pollo y empieza el asado
   duracion_texto: 20 min
@@ -111,31 +111,32 @@ pasos:
   duracion_min: 20
   duracion_max_min: 20
   instrucciones: 'Gira solo el pollo: piel hacia arriba. Añade las hierbas reservadas, sin volver a salar.
-    Mueve suavemente solo las verduras accesibles, manteniéndolas debajo. Cocina otros 20 min a 180 °C. Ajusta
-    al tamaño y la carga: 40 min en total es una referencia.'
+    Mueve suavemente solo las verduras accesibles, manteniéndolas debajo. Cocina otros 20 min a 180 °C.
+    Ajusta al tamaño y la carga: 40 min en total es una referencia.'
 - orden: 6
   titulo: Comprueba el punto
   duracion_texto: 0-10 min extra si hace falta
   duracion_min: 0
   duracion_max_min: 10
-  instrucciones: Mide 74 °C en la parte más gruesa de cada pieza sin tocar el hueso. Si falta, prolonga en
-    tandas de 3-5 min. La berenjena debe quedar bien tierna. Retira el pollo cuando esté hecho y termina las
-    verduras aparte si lo necesitan.
+  instrucciones: Mide 74 °C en la parte más gruesa de cada pieza sin tocar el hueso. Si falta, prolonga
+    en tandas de 3-5 min. La berenjena debe quedar bien tierna. Retira el pollo cuando esté hecho y termina
+    las verduras aparte si lo necesitan.
 - orden: 7
   titulo: Reposa y sirve
   duracion_texto: 5 min
   duracion_min: 5
   duracion_max_min: 5
-  instrucciones: Deja reposar el pollo 5 min fuera de la freidora. Sirve con las verduras y la cantidad de
-    jugos que prefieras; puedes apartar la piel al comer.
-claves: 'Base poco amontonada: si no cabe, reduce verduras o cocina por tandas. Buscamos verduras tiernas y
-  jugosas. Con patata o boniato: sustituye calabacín y berenjena por 250-300 g de tubérculos en rodajas de
-  5 mm. Capas desde abajo: papel aceitado, cebolla, patata o boniato, y pimiento y tomate encima. Usa los mismos
-  5 ml de aceite para papel y base; añade vino y aliño. Cocina esta base completa 10 min a 180 °C sin pollo.
-  Después coloca el pollo encima y empieza sus 20 + 20 min; no repitas el aceite ni el vino de la base. Comprueba
-  que los tubérculos estén tiernos. Calcula unos 10 min más de tiempo total. Para una versión más ligera: retira
-  la piel antes de cocinar para reducir la grasa que pasa a las verduras. Si lo asas con piel, apártala al
-  comer y evita servir toda la grasa del fondo. Fuente: reel de Fussimonsi, adaptado.'
+  instrucciones: Deja reposar el pollo 5 min fuera de la freidora. Sirve con las verduras y la cantidad
+    de jugos que prefieras; puedes apartar la piel al comer.
+claves: 'Base poco amontonada: si no cabe, reduce verduras o cocina por tandas. Buscamos verduras tiernas
+  y jugosas. Con patata o boniato: sustituye calabacín y berenjena por 250-300 g de tubérculos en rodajas
+  de 5 mm. Capas desde abajo: papel aceitado, cebolla, patata o boniato, y pimiento y tomate encima. Usa
+  los mismos 5 ml de aceite para papel y base; añade vino y aliño. Cocina esta base completa 10 min a
+  180 °C sin pollo. Después coloca el pollo encima y empieza sus 20 + 20 min; no repitas el aceite ni
+  el vino de la base. Comprueba que los tubérculos estén tiernos. Calcula unos 10 min más de tiempo total.
+  Para una versión más ligera: retira la piel antes de cocinar para reducir la grasa que pasa a las verduras.
+  Si lo asas con piel, apártala al comer y evita servir toda la grasa del fondo. Fuente: reel de Fussimonsi,
+  adaptado.'
 alternativas:
 - titulo: Con patata o boniato
   ingredientes_sustituidos:
@@ -155,11 +156,12 @@ alternativas:
   precoccion_base_min: 10
   temperatura_c: 180
   tiempo_extra_min: 10
-  instrucciones: 'Con patata o boniato: sustituye calabacín y berenjena por 250-300 g de tubérculos en rodajas
-    de 5 mm. Capas desde abajo: papel aceitado, cebolla, patata o boniato, y pimiento y tomate encima. Usa
-    los mismos 5 ml de aceite para papel y base; añade vino y aliño. Cocina esta base completa 10 min a 180
-    °C sin pollo. Después coloca el pollo encima y empieza sus 20 + 20 min; no repitas el aceite ni el vino
-    de la base. Comprueba que los tubérculos estén tiernos. Calcula unos 10 min más de tiempo total.'
+  instrucciones: 'Con patata o boniato: sustituye calabacín y berenjena por 250-300 g de tubérculos en
+    rodajas de 5 mm. Capas desde abajo: papel aceitado, cebolla, patata o boniato, y pimiento y tomate
+    encima. Usa los mismos 5 ml de aceite para papel y base; añade vino y aliño. Cocina esta base completa
+    10 min a 180 °C sin pollo. Después coloca el pollo encima y empieza sus 20 + 20 min; no repitas el
+    aceite ni el vino de la base. Comprueba que los tubérculos estén tiernos. Calcula unos 10 min más
+    de tiempo total.'
 montaje:
   capas:
   - papel ligeramente aceitado
@@ -186,17 +188,17 @@ recursos:
 enlaces_texto:
 - texto: reel de Fussimonsi
   url: https://www.instagram.com/reel/C-BHEvYoYKl/
-image: https://fucolin.github.io/recetario/images/pollo-satisfryer.jpg
-image_alt: Muslos y contramuslos de pollo asados; imagen representativa
-image_credit: Willis Lam
-image_license: CC BY-SA 2.0
-image_source: https://commons.wikimedia.org/wiki/File:Roast_Chicken_Legs_and_Thighs_(31196736704).jpg
+image: https://fucolin.github.io/recetario/images/pollo-satisfryer-ilustracion-v1.jpg
 pdf: https://fucolin.github.io/recetario/pollo-satisfryer.pdf
 fecha_actualizacion: '2026-10-15'
 encabezado:
   titulo: Pollo Satisfryer
   detalle: Pollo asado con verduras · Cosori Dual Blaze · 2 raciones · 55-65 min
+image_alt: Cuartos traseros de pollo asados sobre calabacín, berenjena, cebolla, pimiento verde y tomate
+image_credit: Imagen generada con IA para Casa Marisa
+image_note: Imagen ilustrativa generada con IA; no es una fotografía del plato preparado.
 ---
+
 
 # Pollo Satisfryer
 

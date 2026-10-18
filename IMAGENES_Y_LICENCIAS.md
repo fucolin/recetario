@@ -237,3 +237,21 @@ Los cuatro SVG de `images/fajitas-salmon-pasos/` son diagramas vectoriales origi
 ## Cabecera de Burrito de frijoles negros
 
 - `images/burrito-frijoles-negros-ilustracion-v1.jpg`: ilustración fotorrealista generada con IA para Casa Marisa. Relleno de frijoles negros, quinoa, edamame, champiñones y aguacate. Sustituye la fotografía representativa en la cabecera.
+
+## Serie de cabeceras fotorrealistas · 18/10/2026
+
+Ilustraciones generadas con IA para Casa Marisa a partir de los ingredientes y la elaboración de cada ficha, con luz cálida natural, vajilla clara y una cocina visual común. No son fotografías documentales. Las fotografías anteriores se conservan con su procedencia histórica.
+
+- `images/barquitas-endivia-requeson-ilustracion-v1.jpg`: Barquitas de endivia con requesón.
+- `images/canonigos-champinones-cherrys-feta-ilustracion-v1.jpg`: Canónigos con champiñones, cherrys y feta.
+- `images/crema-aprovechamiento-marisa-ilustracion-v1.jpg`: Crema de aprovechamiento.
+- `images/ensalada-garbanzos-mango-aguacate-ilustracion-v1.jpg`: Ensalada de garbanzos, mango y aguacate.
+- `images/ensalada-tomates-lago-albahaca-ilustracion-v1.jpg`: Ensalada de tomates sobre un lago de albahaca.
+- `images/hummus-zanahoria-ilustracion-v1.jpg`: Hummus con zanahoria.
+- `images/pechuga-pavo-plancha-ilustracion-v1.jpg`: Pechuga de pavo a la plancha.
+- `images/pimientos-asados-cebolla-cosori-ilustracion-v1.jpg`: Pimientos asados con cebolla.
+- `images/pollo-guisado-calabacin-ilustracion-v1.jpg`: Pollo guisado con calabacín.
+- `images/pollo-satisfryer-ilustracion-v1.jpg`: Pollo Satisfryer.
+- `images/revuelto-champinones-trigueros-ilustracion-v1.jpg`: Revuelto de champiñones y trigueros.
+- `images/lentejas-calabaza-espinacas-ilustracion-v1.jpg`: Lentejas cremosas con calabaza y espinacas.
+- `images/tortilla-boniato-espinacas-parmesano-ilustracion-v2.jpg`: Tortilla de boniato, espinacas y parmesano.

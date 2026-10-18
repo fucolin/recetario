@@ -79,22 +79,23 @@ pasos:
   duracion_min: 3
   duracion_max_min: 4
   duracion_texto: 3-4 min
-  instrucciones: Corta la calabaza en dados de unos 2 cm, la cebolla en juliana fina y pica el ajo y el jengibre.
-    Lava y escurre las espinacas.
+  instrucciones: Corta la calabaza en dados de unos 2 cm, la cebolla en juliana fina y pica el ajo y el
+    jengibre. Lava y escurre las espinacas.
 - orden: 2
   titulo: Dorar la calabaza
   duracion_min: 4
   duracion_max_min: 5
   duracion_texto: 4-5 min
-  instrucciones: Calienta una cucharada de aceite en una olla de acero a fuego medio-alto. Dora ligeramente la calabaza,
-    removiendo de vez en cuando, y retírala. No tiene que cocinarse por dentro.
+  instrucciones: Calienta una cucharada de aceite en una olla de acero a fuego medio-alto. Dora ligeramente
+    la calabaza, removiendo de vez en cuando, y retírala. No tiene que cocinarse por dentro.
 - orden: 3
   titulo: Preparar el sofrito
   duracion_min: 7
   duracion_max_min: 8
   duracion_texto: 7-8 min
-  instrucciones: Baja a fuego medio y añade el aceite restante. Sofríe la cebolla con una pizca de sal hasta que
-    esté tierna. Si el fondo se pega, desglasa con una cucharada de agua. Añade ajo y jengibre el último minuto.
+  instrucciones: Baja a fuego medio y añade el aceite restante. Sofríe la cebolla con una pizca de sal
+    hasta que esté tierna. Si el fondo se pega, desglasa con una cucharada de agua. Añade ajo y jengibre
+    el último minuto.
 - orden: 4
   titulo: Tostar las especias
   duracion_min: 0.5
@@ -106,15 +107,15 @@ pasos:
   duracion_min: 10
   duracion_max_min: 15
   duracion_texto: 10-15 min
-  instrucciones: Devuelve la calabaza a la olla, añade el caldo reservado para esta fase, tapa y cuece a hervor
-    suave hasta que esté casi tierna pero conserve su forma.
+  instrucciones: Devuelve la calabaza a la olla, añade el caldo reservado para esta fase, tapa y cuece
+    a hervor suave hasta que esté casi tierna pero conserve su forma.
 - orden: 6
   titulo: Añadir las lentejas y el coco
   duracion_min: 5
   duracion_max_min: 5
   duracion_texto: 5 min
-  instrucciones: Incorpora simultáneamente las lentejas escurridas y enjuagadas y la leche de coco. Cocina destapado
-    a fuego bajo y remueve con suavidad. Añade caldo reservado si hace falta.
+  instrucciones: Incorpora simultáneamente las lentejas escurridas y enjuagadas y la leche de coco. Cocina
+    destapado a fuego bajo y remueve con suavidad. Añade caldo reservado si hace falta.
 - orden: 7
   titulo: Añadir las espinacas
   duracion_min: 2
@@ -127,14 +128,10 @@ pasos:
   duracion_max_min: 5
   duracion_texto: 3-5 min
   instrucciones: Apaga el fuego, añade unas gotas de limón y deja reposar con la olla tapada.
-claves: Para espesar, aplasta algunos dados de calabaza. Remueve con cuidado para no romper las lentejas. Ajusta
-  el caldo poco a poco.
-image: https://fucolin.github.io/recetario/images/lentejas-calabaza-espinacas.jpg?v=20261014-horizontal
-image_alt: Primer plano de lentejas con calabaza y espinacas en una olla
-image_credit: Fotografía propia
-image_source: IMG_0048.jpeg
+claves: Para espesar, aplasta algunos dados de calabaza. Remueve con cuidado para no romper las lentejas.
+  Ajusta el caldo poco a poco.
+image: https://fucolin.github.io/recetario/images/lentejas-calabaza-espinacas-ilustracion-v1.jpg
 pdf: https://fucolin.github.io/recetario/lentejas-calabaza-espinacas-400g.pdf
-image_origin: propia
 fecha_actualizacion: '2026-10-15'
 encabezado:
   titulo: Lentejas cremosas con calabaza y espinacas · 400g
@@ -146,23 +143,21 @@ fuente:
   autor: Eva, nutricionista
   atribucion: 🌿 Adaptada de una receta de Eva, la nutricionista
   titulo_original: Lentejas con calabaza y espinacas
-  catalogo_privado: catalogo-nutricionista-muestra.zip
   ficha_catalogo: recetas/lentejas-con-calabaza-y-espinacas.md
-  pdf_origen:
-  - archivo: ../originales/recetas-basicas-2025-11-25.pdf
-    pagina: 1
-  - archivo: ../originales/recetas-basicas-2026-09-10.pdf
-    pagina: 1
-    imagen: ../imagenes/lentejas-con-calabaza-y-espinacas-2026-09-10.png
+image_alt: Lentejas cremosas con dados de calabaza y espinacas en salsa de coco y curry
+image_credit: Imagen generada con IA para Casa Marisa
+image_note: Imagen ilustrativa generada con IA; no es una fotografía del plato preparado.
 ---
+
+
 
 # Lentejas cremosas con calabaza y espinacas
 
 Guiso especiado y cremoso
 
-![Primer plano de lentejas con calabaza y espinacas en una olla](images/lentejas-calabaza-espinacas.jpg?v=20261014-horizontal)
+![Lentejas cremosas con dados de calabaza y espinacas en salsa de coco y curry](images/lentejas-calabaza-espinacas-ilustracion-v1.jpg)
 
-*Fotografía propia.*
+Ilustración generada con IA.
 
 [Descargar receta en PDF · A4](lentejas-calabaza-espinacas-400g.pdf)
 

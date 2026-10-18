@@ -58,55 +58,51 @@ pasos:
   duracion_min: 3
   duracion_max_min: 3
   duracion_texto: 3 min
-  instrucciones: Pela el boniato y córtalo en láminas finas (2-3 mm). Corta la cebolla en juliana. Las láminas finas
-    ayudan a conseguir una textura melosa, como en la tortilla española de patata.
+  instrucciones: Pela el boniato y córtalo en láminas finas (2-3 mm). Corta la cebolla en juliana. Las
+    láminas finas ayudan a conseguir una textura melosa, como en la tortilla española de patata.
 - orden: 2
   titulo: Pochar la cebolla y el boniato
   duracion_min: 17
   duracion_max_min: 20
   duracion_texto: 17-20 min
-  instrucciones: Calienta el aceite en una sartén antiadherente a fuego medio-bajo. Pocha la cebolla 4-5 min. Añade
-    el boniato, una pizca de sal y 2 cucharadas de agua. Tapa y cocina 12-15 min, removiendo de vez en cuando, hasta
-    que esté muy tierno. Añade unas gotas más de agua si se seca antes de tiempo.
+  instrucciones: Calienta el aceite en una sartén antiadherente a fuego medio-bajo. Pocha la cebolla 4-5
+    min. Añade el boniato, una pizca de sal y 2 cucharadas de agua. Tapa y cocina 12-15 min, removiendo
+    de vez en cuando, hasta que esté muy tierno. Añade unas gotas más de agua si se seca antes de tiempo.
 - orden: 3
   titulo: Añadir las espinacas
   duracion_min: 2
   duracion_max_min: 3
   duracion_texto: 2-3 min
-  instrucciones: 'Destapa y evapora el agua restante. Incorpora las espinacas y cocina 1-2 min, hasta que pierdan
-    volumen. Remueve y deja evaporar bien su humedad. Evita tostar demasiado el boniato: debe quedar tierno, no
-    crujiente.'
+  instrucciones: 'Destapa y evapora el agua restante. Incorpora las espinacas y cocina 1-2 min, hasta
+    que pierdan volumen. Remueve y deja evaporar bien su humedad. Evita tostar demasiado el boniato: debe
+    quedar tierno, no crujiente.'
 - orden: 4
   titulo: Mezclar con el huevo y reposar
   duracion_min: 5
   duracion_max_min: 5
   duracion_texto: 5 min
-  instrucciones: Bate ligeramente los huevos con el parmesano, pimienta y una pizca de nuez moscada, si quieres.
-    Añade el boniato y las espinacas aún calientes. Aplasta suavemente algunas láminas con un tenedor y deja reposar
-    5 min para integrar los ingredientes.
+  instrucciones: Bate ligeramente los huevos con el parmesano, pimienta y una pizca de nuez moscada, si
+    quieres. Añade el boniato y las espinacas aún calientes. Aplasta suavemente algunas láminas con un
+    tenedor y deja reposar 5 min para integrar los ingredientes.
 - orden: 5
   titulo: Cuajar la tortilla
   duracion_min: 6
   duracion_max_min: 8
   duracion_texto: 6-8 min
-  instrucciones: Engrasa apenas la sartén si es necesario y vierte la mezcla. Cocina a fuego medio-bajo unos 4 min,
-    moviendo ligeramente la sartén al principio. Dale la vuelta con un plato y cocina otros 2-4 min, según el punto
-    de cuajado deseado.
+  instrucciones: Engrasa apenas la sartén si es necesario y vierte la mezcla. Cocina a fuego medio-bajo
+    unos 4 min, moviendo ligeramente la sartén al principio. Dale la vuelta con un plato y cocina otros
+    2-4 min, según el punto de cuajado deseado.
 - orden: 6
   titulo: Reposar y servir
   duracion_min: 2
   duracion_max_min: 3
   duracion_texto: 2-3 min
-  instrucciones: Pasa la tortilla a un plato y deja reposar 2-3 min antes de cortarla. Así se asienta el interior
-    sin perder jugosidad.
-claves: Boniato muy tierno y poco dorado; espinacas sin agua; poca sal porque el parmesano ya aporta. Para una tortilla
-  más alta, utiliza una sartén de 18 cm.
-image: https://fucolin.github.io/recetario/images/tortilla-boniato-espinacas-parmesano.jpg?v=20261014-horizontal
-image_alt: Tortilla de boniato, espinacas y parmesano en un plato
-image_credit: Fotografía propia
-image_source: IMG_0044.jpeg
+  instrucciones: Pasa la tortilla a un plato y deja reposar 2-3 min antes de cortarla. Así se asienta
+    el interior sin perder jugosidad.
+claves: Boniato muy tierno y poco dorado; espinacas sin agua; poca sal porque el parmesano ya aporta.
+  Para una tortilla más alta, utiliza una sartén de 18 cm.
+image: https://fucolin.github.io/recetario/images/tortilla-boniato-espinacas-parmesano-ilustracion-v2.jpg
 pdf: https://fucolin.github.io/recetario/tortilla-boniato-espinacas-parmesano.pdf
-image_origin: propia
 fecha_actualizacion: '2026-10-15'
 encabezado:
   titulo: Tortilla de boniato, espinacas y parmesano
@@ -118,23 +114,23 @@ fuente:
   autor: Eva, nutricionista
   atribucion: 🌿 Adaptada de una receta de Eva, la nutricionista
   titulo_original: Tortilla de queso parmesano, espinacas y cebolla
-  catalogo_privado: catalogo-nutricionista-muestra.zip
   ficha_catalogo: recetas/tortilla-de-queso-parmesano-espinacas-y-cebolla.md
-  pdf_origen:
-  - archivo: ../originales/recetas-basicas-2026-04-21.pdf
-    pagina: 3
-  - archivo: ../originales/recetas-basicas-2026-07-28.pdf
-    pagina: 3
-    imagen: ../imagenes/tortilla-de-queso-parmesano-espinacas-y-cebolla-2026-07-28.jpeg
+image_alt: Tortilla baja y melosa de boniato fino algo dorado, espinacas y parmesano, con el interior
+  poco cuajado
+image_credit: Imagen generada con IA para Casa Marisa
+image_note: Imagen ilustrativa generada con IA; no es una fotografía del plato preparado.
 ---
+
+
+
 
 # Tortilla de boniato, espinacas y parmesano
 
 Estilo español · sartén de 18-20 cm
 
-![Tortilla de boniato, espinacas y parmesano en un plato](images/tortilla-boniato-espinacas-parmesano.jpg?v=20261014-horizontal)
+![Tortilla baja y melosa de boniato fino algo dorado, espinacas y parmesano, con el interior poco cuajado](images/tortilla-boniato-espinacas-parmesano-ilustracion-v2.jpg)
 
-*Fotografía propia.*
+Ilustración generada con IA.
 
 [Descargar receta en PDF · A4](tortilla-boniato-espinacas-parmesano.pdf)
 

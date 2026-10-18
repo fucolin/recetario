@@ -1,11 +1,6 @@
 ---
 esquema: recetario-1.0
 id: hummus-zanahoria
-image: https://fucolin.github.io/recetario/images/hummus-zanahoria.jpg
-image_alt: "Hummus servido con una zanahoria"
-image_credit: "Vegan Feast Catering"
-image_license: "CC BY 2.0"
-image_source: https://commons.wikimedia.org/wiki/File:Hummus_and_carrot_(3841125815).jpg
 familia: hummus-zanahoria
 variante: principal
 titulo: Hummus con zanahoria
@@ -29,16 +24,21 @@ ingredientes:
 - nombre: zanahoria grande
   cantidad: 1
   unidad: unidad
-fecha_actualizacion: "2026-10-15"
+image: https://fucolin.github.io/recetario/images/hummus-zanahoria-ilustracion-v1.jpg
+fecha_actualizacion: '2026-10-15'
+image_alt: Hummus en un cuenco junto a bastones de zanahoria cruda
+image_credit: Imagen generada con IA para Casa Marisa
+image_note: Imagen ilustrativa generada con IA; no es una fotografía del plato preparado.
 ---
+
 
 # Hummus con zanahoria
 
 Comida ligera y sencilla · 1 ración · 2 min
 
-![Hummus servido con una zanahoria](images/hummus-zanahoria.jpg)
+![Hummus en un cuenco junto a bastones de zanahoria cruda](images/hummus-zanahoria-ilustracion-v1.jpg)
 
-*Foto: [Vegan Feast Catering](https://commons.wikimedia.org/wiki/File:Hummus_and_carrot_(3841125815).jpg) · [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/).*
+Ilustración generada con IA.
 
 ## Ingredientes
 

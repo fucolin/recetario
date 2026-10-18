@@ -48,16 +48,21 @@ ingredientes:
   unidad: cucharaditas
   nota: solo si hace falta para triturar
   opcional: true
-indicaciones: 'Lava los tomates y sécalos. Corta los grandes en gajos o trozos y los cherry por la mitad. Si desprenden mucho líquido, déjalo en la tabla para que no diluya el aliño.
+indicaciones: 'Lava los tomates y sécalos. Corta los grandes en gajos o trozos y los cherry por la mitad.
+  Si desprenden mucho líquido, déjalo en la tabla para que no diluya el aliño.
 
 
-  Lava y seca la albahaca. Tritúrala con el aceite, el limón y una pizca de sal en un recipiente estrecho, mediante pulsaciones breves. Si las cuchillas no alcanzan bien la mezcla, añade un poquito de agua fría. Prueba antes de incorporar más limón: buscamos que destaque la albahaca.
+  Lava y seca la albahaca. Tritúrala con el aceite, el limón y una pizca de sal en un recipiente estrecho,
+  mediante pulsaciones breves. Si las cuchillas no alcanzan bien la mezcla, añade un poquito de agua fría.
+  Prueba antes de incorporar más limón: buscamos que destaque la albahaca.
 
 
-  Extiende el aliño en una fuente pequeña o reparte entre dos platos. Coloca encima los tomates y termina con la rúcula. Sala ligeramente los tomates justo antes de servir y mezcla con el aliño al comer.'
+  Extiende el aliño en una fuente pequeña o reparte entre dos platos. Coloca encima los tomates y termina
+  con la rúcula. Sala ligeramente los tomates justo antes de servir y mezcla con el aliño al comer.'
 claves:
 - Mejor con tomates que no estén recién sacados de la nevera.
-- Se utilizan 30 ml de aceite frente a los 50 ml de la receta de origen. Una fuente pequeña permite mantener el efecto de «lago».
+- Se utilizan 30 ml de aceite frente a los 50 ml de la receta de origen. Una fuente pequeña permite mantener
+  el efecto de «lago».
 - Si adelantas trabajo, guarda los componentes separados y monta al servir.
 - 'No añadir más hierbas de entrada: dejar protagonismo a la albahaca.'
 fuente:
@@ -70,22 +75,21 @@ adaptaciones:
 - 30 ml de aceite en lugar de 50 ml
 - Triturar brevemente en recipiente estrecho y ajustar el limón
 - Salar los tomates y montar al servir
-image: https://fucolin.github.io/recetario/images/ensalada-tomates-lago-albahaca.jpg
-image_alt: Tomates de distintos colores sobre aceite verde de albahaca y coulis de tomate
-image_credit: alex lines
-image_license: CC BY-SA 2.0
-image_source: https://commons.wikimedia.org/wiki/File:Tomato_salad_with_basil_oil_and_tomato_coulis_(2857974585).jpg
-image_nota: 'Imagen representativa: muestra tomates pelados y coulis de tomate; la ficha utiliza tomates cortados y rúcula. Presentación recortada a 16:9 mediante CSS; archivo sin modificar.'
-fecha_actualizacion: "2026-10-15"
+image: https://fucolin.github.io/recetario/images/ensalada-tomates-lago-albahaca-ilustracion-v1.jpg
+fecha_actualizacion: '2026-10-15'
+image_alt: Tomates variados en gajos sobre aliño verde de albahaca, con rúcula
+image_credit: Imagen generada con IA para Casa Marisa
+image_note: Imagen ilustrativa generada con IA; no es una fotografía del plato preparado.
 ---
+
 
 # Ensalada de tomates sobre un lago de albahaca
 
 Tomates variados con aliño de albahaca · como entrante o acompañamiento · 2 raciones · 10 min
 
-![Tomates de distintos colores sobre aceite verde de albahaca y coulis de tomate](images/ensalada-tomates-lago-albahaca.jpg)
+![Tomates variados en gajos sobre aliño verde de albahaca, con rúcula](images/ensalada-tomates-lago-albahaca-ilustracion-v1.jpg)
 
-*Foto: [alex lines](https://commons.wikimedia.org/wiki/File:Tomato_salad_with_basil_oil_and_tomato_coulis_(2857974585).jpg) · [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/). Imagen representativa: muestra tomates pelados y coulis de tomate; la ficha utiliza tomates cortados y rúcula. Presentación recortada a 16:9 mediante CSS; archivo sin modificar.*
+Ilustración generada con IA.
 
 ## Ingredientes
 

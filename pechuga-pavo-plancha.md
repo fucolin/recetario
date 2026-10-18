@@ -1,11 +1,6 @@
 ---
 esquema: recetario-1.0
 id: pechuga-pavo-plancha
-image: https://fucolin.github.io/recetario/images/pechuga-pavo-plancha.jpg
-image_alt: "Pechuga de pavo cocinada y cortada en filetes"
-image_credit: "Sarah Stierch"
-image_license: "CC BY 4.0"
-image_source: https://commons.wikimedia.org/wiki/File:Cooked_turkey_breast_-_November_2023_-_Sarah_Stierch.jpg
 familia: pechuga-pavo-plancha
 variante: principal
 titulo: Pechuga de pavo a la plancha
@@ -33,18 +28,25 @@ ingredientes:
   nota: al gusto
 - nombre: limón
   nota: opcional, para servir
-indicaciones: Seca los filetes con papel de cocina y salpimiéntalos. Calienta bien una sartén con el aceite y cocina el pavo 2-3 minutos por cada lado, según el grosor, hasta que esté hecho pero aún jugoso. Déjalo reposar 2 minutos antes de servir y añade limón si te apetece.
-consejo: "No lo cocines más de lo necesario: el pavo se seca con facilidad."
-fecha_actualizacion: "2026-10-15"
+indicaciones: Seca los filetes con papel de cocina y salpimiéntalos. Calienta bien una sartén con el aceite
+  y cocina el pavo 2-3 minutos por cada lado, según el grosor, hasta que esté hecho pero aún jugoso. Déjalo
+  reposar 2 minutos antes de servir y añade limón si te apetece.
+consejo: 'No lo cocines más de lo necesario: el pavo se seca con facilidad.'
+image: https://fucolin.github.io/recetario/images/pechuga-pavo-plancha-ilustracion-v1.jpg
+fecha_actualizacion: '2026-10-15'
+image_alt: Filetes de pechuga de pavo dorados a la plancha con un gajo de limón
+image_credit: Imagen generada con IA para Casa Marisa
+image_note: Imagen ilustrativa generada con IA; no es una fotografía del plato preparado.
 ---
+
 
 # Pechuga de pavo a la plancha
 
 Rápida y jugosa · 2 raciones · 10-12 min
 
-![Pechuga de pavo cocinada y cortada en filetes](images/pechuga-pavo-plancha.jpg)
+![Filetes de pechuga de pavo dorados a la plancha con un gajo de limón](images/pechuga-pavo-plancha-ilustracion-v1.jpg)
 
-*Foto: [Sarah Stierch](https://commons.wikimedia.org/wiki/File:Cooked_turkey_breast_-_November_2023_-_Sarah_Stierch.jpg) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).*
+Ilustración generada con IA.
 
 ## Ingredientes
 

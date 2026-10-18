@@ -1,11 +1,6 @@
 ---
 esquema: recetario-1.0
 id: barquitas-endivia-requeson
-image: https://fucolin.github.io/recetario/images/barquitas-endivia-requeson.jpg
-image_alt: "Hojas de endivia rellenas de queso y dispuestas en un plato"
-image_credit: "Karen and Brad Emerson"
-image_license: "CC BY 2.0"
-image_source: https://commons.wikimedia.org/wiki/File:Course_1_-_Endive_bites_(8331230705).jpg
 familia: barquitas-endivia-requeson
 variante: principal
 titulo: Barquitas de endivia con requesón
@@ -28,9 +23,9 @@ ingredientes:
   unidad: unidad
   nota: 6-8 hojas
 - nombre: requesón
-  producto_preferido: requeson-loran
   cantidad: 100
   unidad: g
+  producto_preferido: requeson-loran
 opciones_aderezo:
 - nombre: Fresco
   ingredientes:
@@ -50,17 +45,24 @@ opciones_aderezo:
   - 10 g de nueces picadas
   - unas gotas de limón
   - pimienta negra
-consejo: Separa 6-8 hojas bonitas, reparte el requesón entre ellas y elige una sola opción de aderezo. Sírvelas recién montadas para conservar el crujiente de la endivia.
-fecha_actualizacion: "2026-10-15"
+consejo: Separa 6-8 hojas bonitas, reparte el requesón entre ellas y elige una sola opción de aderezo.
+  Sírvelas recién montadas para conservar el crujiente de la endivia.
+image: https://fucolin.github.io/recetario/images/barquitas-endivia-requeson-ilustracion-v1.jpg
+fecha_actualizacion: '2026-10-15'
+image_alt: Hojas de endivia con requesón, cebollino, ralladura de limón y pimienta
+image_credit: Imagen generada con IA para Casa Marisa
+image_note: Imagen ilustrativa generada con IA; no es una fotografía del plato preparado. Muestra la opción
+  de aderezo fresco.
 ---
+
 
 # Barquitas de endivia con requesón
 
 Picoteo fresco y ligero · 1 ración · 5 min
 
-![Hojas de endivia rellenas de queso y dispuestas en un plato](images/barquitas-endivia-requeson.jpg)
+![Hojas de endivia con requesón, cebollino, ralladura de limón y pimienta](images/barquitas-endivia-requeson-ilustracion-v1.jpg)
 
-*Foto: [Karen and Brad Emerson](https://commons.wikimedia.org/wiki/File:Course_1_-_Endive_bites_(8331230705).jpg) · [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/). Fotografía representativa: los aderezos visibles pueden diferir de las opciones de esta ficha.*
+Ilustración generada con IA.
 
 ## Ingredientes
 

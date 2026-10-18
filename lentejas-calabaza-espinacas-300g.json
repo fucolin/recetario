@@ -171,12 +171,8 @@
     }
   ],
   "claves": "Para espesar, aplasta algunos dados de calabaza. Remueve con cuidado para no romper las lentejas. Ajusta el caldo poco a poco.",
-  "image": "https://fucolin.github.io/recetario/images/lentejas-calabaza-espinacas.jpg?v=20261014-horizontal",
-  "image_alt": "Primer plano de lentejas con calabaza y espinacas en una olla",
-  "image_credit": "Fotografía propia",
-  "image_source": "IMG_0048.jpeg",
+  "image": "https://fucolin.github.io/recetario/images/lentejas-calabaza-espinacas-ilustracion-v1.jpg",
   "pdf": "https://fucolin.github.io/recetario/lentejas-calabaza-espinacas-300g.pdf",
-  "image_origin": "propia",
   "fecha_actualizacion": "2026-10-15",
   "encabezado": {
     "titulo": "Lentejas cremosas con calabaza y espinacas · 300g",
@@ -189,18 +185,9 @@
     "autor": "Eva, nutricionista",
     "atribucion": "🌿 Adaptada de una receta de Eva, la nutricionista",
     "titulo_original": "Lentejas con calabaza y espinacas",
-    "catalogo_privado": "catalogo-nutricionista-muestra.zip",
-    "ficha_catalogo": "recetas/lentejas-con-calabaza-y-espinacas.md",
-    "pdf_origen": [
-      {
-        "archivo": "../originales/recetas-basicas-2025-11-25.pdf",
-        "pagina": 1
-      },
-      {
-        "archivo": "../originales/recetas-basicas-2026-09-10.pdf",
-        "pagina": 1,
-        "imagen": "../imagenes/lentejas-con-calabaza-y-espinacas-2026-09-10.png"
-      }
-    ]
-  }
+    "ficha_catalogo": "recetas/lentejas-con-calabaza-y-espinacas.md"
+  },
+  "image_alt": "Lentejas cremosas con dados de calabaza y espinacas en salsa de coco y curry",
+  "image_credit": "Imagen generada con IA para Casa Marisa",
+  "image_note": "Imagen ilustrativa generada con IA; no es una fotografía del plato preparado."
 }

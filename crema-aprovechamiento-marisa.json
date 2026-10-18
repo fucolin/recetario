@@ -158,12 +158,7 @@
     ]
   },
   "claves": "Las verduras cambian según lo que haya en casa. Una mezcla de Marisa: 2 zanahorias, 100 g de calabaza, 1 calabacín y 100 g de boniato; juntas pesaron 600 g, aparte del puerro. Empieza con 500 g de líquido y ajusta al final. El tiempo depende del corte y de la mezcla: las verduras deben estar tiernas. Raciones y tiempo total orientativos.",
-  "image": "https://fucolin.github.io/recetario/images/crema-aprovechamiento-marisa.jpg",
-  "image_alt": "Crema de zanahoria en un cuenco; fotografía ilustrativa, no de la receta de Marisa",
-  "image_credit": "George Grinsted",
-  "image_license": "CC BY-SA 2.0",
-  "image_source": "https://commons.wikimedia.org/wiki/File:Carrot_soup_with_garnish.jpg",
-  "image_license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+  "image": "https://fucolin.github.io/recetario/images/crema-aprovechamiento-marisa-ilustracion-v1.jpg",
   "pdf": "https://fucolin.github.io/recetario/crema-aprovechamiento-marisa.pdf",
   "original_marisa": {
     "titulo": "La receta original de Marisa",
@@ -189,5 +184,8 @@
   "encabezado": {
     "titulo": "Crema de aprovechamiento",
     "detalle": "Las verduras que haya por casa · Thermomix · 4 raciones aprox. · 45-50 min orientativos"
-  }
+  },
+  "image_alt": "Crema de verduras suave y anaranjada servida en un cuenco",
+  "image_credit": "Imagen generada con IA para Casa Marisa",
+  "image_note": "Imagen ilustrativa generada con IA; no es una fotografía del plato preparado. Muestra una crema con la mezcla de verduras indicada en Claves."
 }

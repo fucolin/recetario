@@ -67,10 +67,9 @@
     }
   ],
   "consejo": "Separa 6-8 hojas bonitas, reparte el requesón entre ellas y elige una sola opción de aderezo. Sírvelas recién montadas para conservar el crujiente de la endivia.",
-  "image": "https://fucolin.github.io/recetario/images/barquitas-endivia-requeson.jpg",
-  "image_alt": "Hojas de endivia rellenas de queso y dispuestas en un plato",
-  "image_credit": "Karen and Brad Emerson",
-  "image_license": "CC BY 2.0",
-  "image_source": "https://commons.wikimedia.org/wiki/File:Course_1_-_Endive_bites_(8331230705).jpg",
-  "fecha_actualizacion": "2026-10-15"
+  "image": "https://fucolin.github.io/recetario/images/barquitas-endivia-requeson-ilustracion-v1.jpg",
+  "fecha_actualizacion": "2026-10-15",
+  "image_alt": "Hojas de endivia con requesón, cebollino, ralladura de limón y pimienta",
+  "image_credit": "Imagen generada con IA para Casa Marisa",
+  "image_note": "Imagen ilustrativa generada con IA; no es una fotografía del plato preparado. Muestra la opción de aderezo fresco."
 }

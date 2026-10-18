@@ -97,26 +97,25 @@ pasos:
     terminará de asentarlos. Sirve enseguida, con perejil picado si te apetece.
 claves: Champiñones secos y sin amontonar para que se doren. Huevos a fuego muy suave para mantener la
   jugosidad. Sin leche ni nata.
-image: https://fucolin.github.io/recetario/images/revuelto-champinones-trigueros.jpg
-image_alt: Revuelto de huevo con setas servido en un plato
-image_credit: Tamorlan
-image_license: CC BY-SA 3.0
-image_source: https://commons.wikimedia.org/wiki/File:Revuelto_de_huevo_con_setas-01.JPG
-image_note: Fotografía representativa de un revuelto con setas; no muestra los trigueros de esta receta.
+image: https://fucolin.github.io/recetario/images/revuelto-champinones-trigueros-ilustracion-v1.jpg
 pdf: https://fucolin.github.io/recetario/revuelto-champinones-trigueros.pdf
-fecha_actualizacion: "2026-10-15"
+fecha_actualizacion: '2026-10-15'
 encabezado:
   titulo: Revuelto de champiñones y trigueros
   detalle: Jugoso · sin leche ni nata · 2 raciones · 25 min
+image_alt: Revuelto jugoso con champiñones dorados y espárragos trigueros
+image_credit: Imagen generada con IA para Casa Marisa
+image_note: Imagen ilustrativa generada con IA; no es una fotografía del plato preparado.
 ---
+
 
 # Revuelto de champiñones y trigueros
 
 Jugoso · sin leche ni nata · 2 raciones · 25 min
 
-![Revuelto de huevo con setas servido en un plato](images/revuelto-champinones-trigueros.jpg)
+![Revuelto jugoso con champiñones dorados y espárragos trigueros](images/revuelto-champinones-trigueros-ilustracion-v1.jpg)
 
-Foto: <a href="https://commons.wikimedia.org/wiki/File:Revuelto_de_huevo_con_setas-01.JPG">Tamorlan</a> · <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> · Fotografía representativa de un revuelto con setas; no muestra los trigueros de esta receta. Redimensionada, sin recorte.
+Ilustración generada con IA.
 
 [Descargar receta en PDF · A4](revuelto-champinones-trigueros.pdf)
 

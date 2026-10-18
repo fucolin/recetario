@@ -1,11 +1,6 @@
 ---
 esquema: recetario-1.0
 id: canonigos-champinones-cherrys-feta
-image: https://fucolin.github.io/recetario/images/canonigos-champinones-cherrys-feta.jpg
-image_alt: "Champiñones, tomates cherry, hojas verdes y queso blanco servidos en un plato"
-image_credit: "HaJunkiyada"
-image_license: "CC BY-SA 4.0"
-image_source: https://commons.wikimedia.org/wiki/File:Liat_Portal_for_Foodie_Disorder_-_Healthy_snack_plate_with_cherry_tomatoes_avocado_mushrooms_and_tzfatit_cheese.jpg
 familia: canonigos-champinones-cherrys-feta
 variante: principal
 titulo: Canónigos con champiñones, cherrys y feta
@@ -42,18 +37,27 @@ ingredientes:
   unidad: cucharadita
 - nombre: sal y pimienta negra
   nota: al gusto
-indicaciones: Lamina los champiñones y corta los tomates por la mitad. Saltea los champiñones con el aceite a fuego medio-alto durante 4-5 minutos. Incorpora los tomates y cocina 2-3 minutos más, procurando que se ablanden y se doren ligeramente sin deshacerse. Coloca los canónigos como base, reparte encima el salteado todavía templado y termina con el feta desmenuzado y pimienta negra.
-consejo: Añade muy poca sal —o ninguna— hasta probarlo, porque el feta ya aporta bastante. Sírvelo inmediatamente para que los canónigos se templen sin perder volumen.
-fecha_actualizacion: "2026-10-15"
+indicaciones: Lamina los champiñones y corta los tomates por la mitad. Saltea los champiñones con el aceite
+  a fuego medio-alto durante 4-5 minutos. Incorpora los tomates y cocina 2-3 minutos más, procurando que
+  se ablanden y se doren ligeramente sin deshacerse. Coloca los canónigos como base, reparte encima el
+  salteado todavía templado y termina con el feta desmenuzado y pimienta negra.
+consejo: Añade muy poca sal —o ninguna— hasta probarlo, porque el feta ya aporta bastante. Sírvelo inmediatamente
+  para que los canónigos se templen sin perder volumen.
+image: https://fucolin.github.io/recetario/images/canonigos-champinones-cherrys-feta-ilustracion-v1.jpg
+fecha_actualizacion: '2026-10-15'
+image_alt: Canónigos con champiñones dorados, tomates cherry salteados y feta desmenuzado
+image_credit: Imagen generada con IA para Casa Marisa
+image_note: Imagen ilustrativa generada con IA; no es una fotografía del plato preparado.
 ---
+
 
 # Canónigos con champiñones, cherrys y feta
 
 Picoteo templado y ligero · 1 ración · 10-12 min
 
-![Champiñones, tomates cherry, hojas verdes y queso blanco servidos en un plato](images/canonigos-champinones-cherrys-feta.jpg)
+![Canónigos con champiñones dorados, tomates cherry salteados y feta desmenuzado](images/canonigos-champinones-cherrys-feta-ilustracion-v1.jpg)
 
-*Foto: [HaJunkiyada](https://commons.wikimedia.org/wiki/File:Liat_Portal_for_Foodie_Disorder_-_Healthy_snack_plate_with_cherry_tomatoes_avocado_mushrooms_and_tzfatit_cheese.jpg) · [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Fotografía representativa: muestra los ingredientes sin saltear y también incluye aguacate.*
+Ilustración generada con IA.
 
 ## Ingredientes
 

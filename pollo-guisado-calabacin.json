@@ -163,11 +163,7 @@
     }
   ],
   "claves": "El fondo marrón aporta sabor; el negro amarga. No amontones el pollo. El calabacín debe llegar al reposo aún ligeramente firme. Si usas pechuga, acorta el guisado y vigila especialmente que no se seque.",
-  "image": "https://fucolin.github.io/recetario/images/pollo-guisado-calabacin.jpg",
-  "image_alt": "Guiso de calabacín, tomate y cebolla en una cazuela",
-  "image_credit": "4nn1l2",
-  "image_license": "CC BY-SA 4.0",
-  "image_source": "https://commons.wikimedia.org/wiki/File:Zucchini_Stew.jpg",
+  "image": "https://fucolin.github.io/recetario/images/pollo-guisado-calabacin-ilustracion-v1.jpg",
   "pdf": "https://fucolin.github.io/recetario/pollo-guisado-calabacin.pdf",
   "fecha_actualizacion": "2026-10-15",
   "encabezado": {
@@ -181,18 +177,9 @@
     "autor": "Eva, nutricionista",
     "atribucion": "🌿 Adaptada de una receta de Eva, la nutricionista",
     "titulo_original": "Pollo guisado con verduras",
-    "catalogo_privado": "catalogo-nutricionista-muestra.zip",
-    "ficha_catalogo": "recetas/pollo-guisado-con-verduras.md",
-    "pdf_origen": [
-      {
-        "archivo": "../originales/recetas-basicas-2026-01-27.pdf",
-        "pagina": 1
-      },
-      {
-        "archivo": "../originales/recetas-basicas-2026-09-10.pdf",
-        "pagina": 1,
-        "imagen": "../imagenes/pollo-guisado-con-verduras-2026-09-10.png"
-      }
-    ]
-  }
+    "ficha_catalogo": "recetas/pollo-guisado-con-verduras.md"
+  },
+  "image_alt": "Pollo guisado con salsa de tomate, zanahoria y medias lunas de calabacín",
+  "image_credit": "Imagen generada con IA para Casa Marisa",
+  "image_note": "Imagen ilustrativa generada con IA; no es una fotografía del plato preparado."
 }

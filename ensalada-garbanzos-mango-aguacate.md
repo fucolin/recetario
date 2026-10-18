@@ -48,21 +48,16 @@ ingredientes:
   nota: ajustable al gusto
 - nombre: sal
   nota: al gusto
-indicaciones: Enjuaga los garbanzos bajo el grifo y déjalos escurrir bien. Lava los tomates y el pepino; corta los
-  cherrys por la mitad y el pepino en dados de alrededor de 1 cm. Puedes dejarle la piel si te gusta; si tiene semillas
-  grandes y acuosas, retira esa parte. Pela el mango, maduro pero firme, y córtalo en dados. Mezcla el aceite, el
-  limón y una pizca de sal. Junta los garbanzos, los tomates, el pepino y el mango, añade el aliño y remueve. Corta
-  el aguacate justo al final, incorpóralo y mezcla con suavidad. Prueba y ajusta el limón y la sal.
-consejo: El mango debe aportar pequeños bocados dulces sin dominar la ensalada; el limón contrarresta el dulzor
-  y aligera la sensación del aguacate. Si la preparas con antelación, guarda la mezcla en la nevera y añade el aguacate
-  y el aliño cerca de servir.
-image: https://fucolin.github.io/recetario/images/ensalada-garbanzos-mango-aguacate.jpg
-image_alt: Ensalada de mango y aguacate
-image_credit: Shark2025
-image_license: CC BY-SA 4.0
-image_source: https://commons.wikimedia.org/wiki/File:Avocado_Mango_Salad.jpg
-image_note: Imagen representativa del mango y el aguacate; no muestra los garbanzos, el pepino ni los cherrys de
-  esta ficha y contiene otros ingredientes.
+indicaciones: Enjuaga los garbanzos bajo el grifo y déjalos escurrir bien. Lava los tomates y el pepino;
+  corta los cherrys por la mitad y el pepino en dados de alrededor de 1 cm. Puedes dejarle la piel si
+  te gusta; si tiene semillas grandes y acuosas, retira esa parte. Pela el mango, maduro pero firme, y
+  córtalo en dados. Mezcla el aceite, el limón y una pizca de sal. Junta los garbanzos, los tomates, el
+  pepino y el mango, añade el aliño y remueve. Corta el aguacate justo al final, incorpóralo y mezcla
+  con suavidad. Prueba y ajusta el limón y la sal.
+consejo: El mango debe aportar pequeños bocados dulces sin dominar la ensalada; el limón contrarresta
+  el dulzor y aligera la sensación del aguacate. Si la preparas con antelación, guarda la mezcla en la
+  nevera y añade el aguacate y el aliño cerca de servir.
+image: https://fucolin.github.io/recetario/images/ensalada-garbanzos-mango-aguacate-ilustracion-v1.jpg
 fecha_actualizacion: '2026-10-15'
 autor: Eva, nutricionista
 origen_receta: eva-nutricionista
@@ -71,26 +66,21 @@ fuente:
   autor: Eva, nutricionista
   atribucion: 🌿 Adaptada de una receta de Eva, la nutricionista
   titulo_original: Ensalada de garbanzos con aguacate y mango
-  catalogo_privado: catalogo-nutricionista-muestra.zip
   ficha_catalogo: recetas/ensalada-de-garbanzos-con-aguacate-y-mango.md
-  pdf_origen:
-  - archivo: ../originales/recetas-basicas-2025-02-25.pdf
-    pagina: 1
-  - archivo: ../originales/recetas-basicas-2025-04-22.pdf
-    pagina: 1
-    imagen: ../imagenes/ensalada-de-garbanzos-con-aguacate-y-mango-2025-04-22.jpeg
-  - archivo: ../originales/recetas-basicas-2025-07-22.pdf
-    pagina: 1
-    imagen: ../imagenes/ensalada-de-garbanzos-con-aguacate-y-mango-2025-07-22.jpeg
+image_alt: Ensalada de garbanzos con mango, aguacate, pepino y tomates cherry
+image_credit: Imagen generada con IA para Casa Marisa
+image_note: Imagen ilustrativa generada con IA; no es una fotografía del plato preparado.
 ---
+
+
 
 # Ensalada de garbanzos, mango y aguacate
 
 Fresca y crujiente · como plato principal
 
-![Ensalada de mango y aguacate](images/ensalada-garbanzos-mango-aguacate.jpg)
+![Ensalada de garbanzos con mango, aguacate, pepino y tomates cherry](images/ensalada-garbanzos-mango-aguacate-ilustracion-v1.jpg)
 
-Foto: <a href="https://commons.wikimedia.org/wiki/File:Avocado_Mango_Salad.jpg">Shark2025</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>. Imagen representativa del mango y el aguacate; no muestra los garbanzos, el pepino ni los cherrys de esta ficha y contiene otros ingredientes. Reducida para web, sin otros cambios.
+Ilustración generada con IA.
 
 ## Ingredientes
 

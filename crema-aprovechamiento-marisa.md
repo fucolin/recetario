@@ -9,88 +9,131 @@ categoria: Cremas
 categoria_menu: Purés
 tipo_ficha: receta
 autor: Marisa
-etiquetas: [Thermomix, aprovechamiento, verduras, receta de Marisa, aprovechategui]
+etiquetas:
+- Thermomix
+- aprovechamiento
+- verduras
+- receta de Marisa
+- aprovechategui
 fecha_actualizacion: '2026-10-16'
-raciones: {min: 4, max: 4}
+raciones:
+  min: 4
+  max: 4
 raciones_nota: Aproximadas; dependen del tamaño del plato y de la cantidad final de líquido.
-tiempo_total_min: {min: 45, max: 50}
-tiempo_nota: El tiempo de elaboración es orientativo. No incluye la espera que pueda requerir tu modelo de Thermomix antes de triturar una preparación caliente; consulta su manual.
+tiempo_total_min:
+  min: 45
+  max: 50
+tiempo_nota: El tiempo de elaboración es orientativo. No incluye la espera que pueda requerir tu modelo
+  de Thermomix antes de triturar una preparación caliente; consulta su manual.
 ingredientes:
-  - {nombre: puerro, cantidad: 200, unidad: g, nota: limpio}
-  - {nombre: aceite de oliva, cantidad: 40, unidad: g, nota: para sofreír el puerro}
-  - nombre: verduras variadas
-    cantidad_min: 500
-    cantidad_max: 600
-    unidad: g
-    nota: las que haya por casa; peso preparado, además del puerro
-  - nombre: agua o caldo de pollo
-    cantidad_min: 500
-    cantidad_max: 600
-    unidad: g
-    nota: empezar con 500 g y ajustar la textura al final
-  - {nombre: sal, nota: al gusto; probar antes si el caldo ya lleva sal}
+- nombre: puerro
+  cantidad: 200
+  unidad: g
+  nota: limpio
+- nombre: aceite de oliva
+  cantidad: 40
+  unidad: g
+  nota: para sofreír el puerro
+- nombre: verduras variadas
+  cantidad_min: 500
+  cantidad_max: 600
+  unidad: g
+  nota: las que haya por casa; peso preparado, además del puerro
+- nombre: agua o caldo de pollo
+  cantidad_min: 500
+  cantidad_max: 600
+  unidad: g
+  nota: empezar con 500 g y ajustar la textura al final
+- nombre: sal
+  nota: al gusto; probar antes si el caldo ya lleva sal
 pdf_ingredientes:
-  - 200 g puerro limpio
-  - 40 g aceite de oliva
-  - 500-600 g verduras variadas preparadas
-  - 500-600 g agua o caldo de pollo
-  - Sal al gusto (según el caldo)
+- 200 g puerro limpio
+- 40 g aceite de oliva
+- 500-600 g verduras variadas preparadas
+- 500-600 g agua o caldo de pollo
+- Sal al gusto (según el caldo)
 pasos:
-  - orden: 1
-    titulo: Prepara las verduras
-    duracion_min: 5
-    duracion_max_min: 10
-    duracion_texto: 5-10 min
-    instrucciones: Lava y limpia el puerro y las verduras. Trocea el puerro y corta las verduras en trozos pequeños y similares; deja más pequeños los de zanahoria y boniato. Pesa 500-600 g de verduras preparadas, aparte de los 200 g de puerro.
-  - orden: 2
-    titulo: Pica y sofríe el puerro
-    duracion_min: 8
-    duracion_max_min: 8
-    duracion_seg: 484
-    duracion_texto: 4 s + 8 min
-    temperatura_c: {min: 90, max: 100}
-    velocidad: {picado: 5, sofrito: 1}
-    instrucciones: Pon el puerro en el vaso y pica 4 segundos a velocidad 5. Baja los restos de las paredes con la espátula. Añade los 40 g de aceite y programa 8 minutos, 90 o 100 °C, velocidad 1. Marisa usa una u otra temperatura para evitar que se le queme; ya no utiliza Varoma para este paso.
-  - orden: 3
-    titulo: Rehoga las verduras
-    duracion_min: 10
-    duracion_max_min: 10
-    duracion_texto: 10 min
-    temperatura_c: 100
-    velocidad: [1, 2]
-    instrucciones: Añade las verduras troceadas y programa 10 minutos, 100 °C, velocidad 1 o 2, como indica Marisa.
-  - orden: 4
-    titulo: Añade el líquido y cuece
-    duracion_min: 20
-    duracion_max_min: 20
-    duracion_texto: 20 min
-    temperatura_c: 100
-    velocidad: 1
-    instrucciones: Vierte 500 g de agua o caldo y añade un poco de sal si hace falta. Programa 20 minutos, 100 °C, velocidad 1. Comprueba que la zanahoria y el boniato estén tiernos; si lo necesitan, prolonga unos minutos. Respeta siempre el nivel máximo del vaso.
-  - orden: 5
-    titulo: Tritura y ajusta
-    duracion_min: 1
-    duracion_max_min: 1
-    duracion_texto: 1 min, tras dejar bajar la temperatura
-    velocidad_progresiva: [5, 7, 9]
-    instrucciones: Deja bajar la temperatura y sigue las indicaciones de tu modelo para triturar preparaciones calientes. Tritura 1 minuto, aumentando progresivamente por las velocidades 5-7-9 cuando sea seguro según el manual. Si queda espesa, añade poco a poco parte del líquido reservado hasta un total orientativo de 600 g y mezcla. Prueba y ajusta de sal.
+- orden: 1
+  titulo: Prepara las verduras
+  duracion_min: 5
+  duracion_max_min: 10
+  duracion_texto: 5-10 min
+  instrucciones: Lava y limpia el puerro y las verduras. Trocea el puerro y corta las verduras en trozos
+    pequeños y similares; deja más pequeños los de zanahoria y boniato. Pesa 500-600 g de verduras preparadas,
+    aparte de los 200 g de puerro.
+- orden: 2
+  titulo: Pica y sofríe el puerro
+  duracion_min: 8
+  duracion_max_min: 8
+  duracion_seg: 484
+  duracion_texto: 4 s + 8 min
+  temperatura_c:
+    min: 90
+    max: 100
+  velocidad:
+    picado: 5
+    sofrito: 1
+  instrucciones: Pon el puerro en el vaso y pica 4 segundos a velocidad 5. Baja los restos de las paredes
+    con la espátula. Añade los 40 g de aceite y programa 8 minutos, 90 o 100 °C, velocidad 1. Marisa usa
+    una u otra temperatura para evitar que se le queme; ya no utiliza Varoma para este paso.
+- orden: 3
+  titulo: Rehoga las verduras
+  duracion_min: 10
+  duracion_max_min: 10
+  duracion_texto: 10 min
+  temperatura_c: 100
+  velocidad:
+  - 1
+  - 2
+  instrucciones: Añade las verduras troceadas y programa 10 minutos, 100 °C, velocidad 1 o 2, como indica
+    Marisa.
+- orden: 4
+  titulo: Añade el líquido y cuece
+  duracion_min: 20
+  duracion_max_min: 20
+  duracion_texto: 20 min
+  temperatura_c: 100
+  velocidad: 1
+  instrucciones: Vierte 500 g de agua o caldo y añade un poco de sal si hace falta. Programa 20 minutos,
+    100 °C, velocidad 1. Comprueba que la zanahoria y el boniato estén tiernos; si lo necesitan, prolonga
+    unos minutos. Respeta siempre el nivel máximo del vaso.
+- orden: 5
+  titulo: Tritura y ajusta
+  duracion_min: 1
+  duracion_max_min: 1
+  duracion_texto: 1 min, tras dejar bajar la temperatura
+  velocidad_progresiva:
+  - 5
+  - 7
+  - 9
+  instrucciones: Deja bajar la temperatura y sigue las indicaciones de tu modelo para triturar preparaciones
+    calientes. Tritura 1 minuto, aumentando progresivamente por las velocidades 5-7-9 cuando sea seguro
+    según el manual. Si queda espesa, añade poco a poco parte del líquido reservado hasta un total orientativo
+    de 600 g y mezcla. Prueba y ajusta de sal.
 ejemplo_mezcla:
   titulo: La combinación que hizo Marisa
   fecha_elaboracion: '2026-10-15'
   peso_total_g: 600
-  nota: Las cuatro verduras juntas pesaron 600 g; el puerro va aparte. Las unidades no tienen un peso fijo.
+  nota: Las cuatro verduras juntas pesaron 600 g; el puerro va aparte. Las unidades no tienen un peso
+    fijo.
   ingredientes:
-    - {nombre: zanahorias, cantidad: 2, unidad: unidades}
-    - {nombre: calabaza, cantidad: 100, unidad: g}
-    - {nombre: calabacín, cantidad: 1, unidad: unidad}
-    - {nombre: boniato, cantidad: 100, unidad: g}
-claves: 'Las verduras cambian según lo que haya en casa. Una mezcla de Marisa: 2 zanahorias, 100 g de calabaza, 1 calabacín y 100 g de boniato; juntas pesaron 600 g, aparte del puerro. Empieza con 500 g de líquido y ajusta al final. El tiempo depende del corte y de la mezcla: las verduras deben estar tiernas. Raciones y tiempo total orientativos.'
-image: https://fucolin.github.io/recetario/images/crema-aprovechamiento-marisa.jpg
-image_alt: Crema de zanahoria en un cuenco; fotografía ilustrativa, no de la receta de Marisa
-image_credit: George Grinsted
-image_license: CC BY-SA 2.0
-image_source: https://commons.wikimedia.org/wiki/File:Carrot_soup_with_garnish.jpg
-image_license_url: https://creativecommons.org/licenses/by-sa/2.0/
+  - nombre: zanahorias
+    cantidad: 2
+    unidad: unidades
+  - nombre: calabaza
+    cantidad: 100
+    unidad: g
+  - nombre: calabacín
+    cantidad: 1
+    unidad: unidad
+  - nombre: boniato
+    cantidad: 100
+    unidad: g
+claves: 'Las verduras cambian según lo que haya en casa. Una mezcla de Marisa: 2 zanahorias, 100 g de
+  calabaza, 1 calabacín y 100 g de boniato; juntas pesaron 600 g, aparte del puerro. Empieza con 500 g
+  de líquido y ajusta al final. El tiempo depende del corte y de la mezcla: las verduras deben estar tiernas.
+  Raciones y tiempo total orientativos.'
+image: https://fucolin.github.io/recetario/images/crema-aprovechamiento-marisa-ilustracion-v1.jpg
 pdf: https://fucolin.github.io/recetario/crema-aprovechamiento-marisa.pdf
 original_marisa:
   titulo: La receta original de Marisa
@@ -98,26 +141,37 @@ original_marisa:
   imagen: images/originales-marisa/crema-aprovechamiento-manuscrito.jpeg
   imagen_alt: Receta manuscrita de Marisa para preparar su crema de aprovechamiento en Thermomix
   procedencia: Manuscrito de Marisa. Fotografía aportada por el usuario.
-  nota_transcripcion: Se conserva la indicación de Varoma del manuscrito. En su versión actual, Marisa sofríe a 90 o 100 °C y añade el aceite con el puerro.
+  nota_transcripcion: Se conserva la indicación de Varoma del manuscrito. En su versión actual, Marisa
+    sofríe a 90 o 100 °C y añade el aceite con el puerro.
   ingredientes:
-    - 200 gr. de puerro
-    - 40 g de aceite de oliva
-    - 500 gr. de verduras variadas
-    - 500-600 gr. de agua o caldo de pollo
-    - Sal
+  - 200 gr. de puerro
+  - 40 g de aceite de oliva
+  - 500 gr. de verduras variadas
+  - 500-600 gr. de agua o caldo de pollo
+  - Sal
   pasos:
-    - Poner en el vaso el puerro en trozos y trocea 4 seg. velocidad 5. Baja lo que queda en las paredes y sofríe 8 minutos, Varoma, y velocidad 1.
-    - Agrega las verduras troceadas y programar 10 minutos, 100°, velocidad 2 o 1.
-    - Cubre las verduras con el agua o caldo y programar 20 minutos, 100°, velocidad 1.
-    - Tritura 1 minuto en velocidad progresiva 5-7-9.
+  - Poner en el vaso el puerro en trozos y trocea 4 seg. velocidad 5. Baja lo que queda en las paredes
+    y sofríe 8 minutos, Varoma, y velocidad 1.
+  - Agrega las verduras troceadas y programar 10 minutos, 100°, velocidad 2 o 1.
+  - Cubre las verduras con el agua o caldo y programar 20 minutos, 100°, velocidad 1.
+  - Tritura 1 minuto en velocidad progresiva 5-7-9.
 encabezado:
   titulo: Crema de aprovechamiento
   detalle: Las verduras que haya por casa · Thermomix · 4 raciones aprox. · 45-50 min orientativos
+image_alt: Crema de verduras suave y anaranjada servida en un cuenco
+image_credit: Imagen generada con IA para Casa Marisa
+image_note: Imagen ilustrativa generada con IA; no es una fotografía del plato preparado. Muestra una
+  crema con la mezcla de verduras indicada en Claves.
 ---
+
 
 # Crema de aprovechamiento
 
 Las verduras que haya por casa · Thermomix
+
+![Crema de verduras suave y anaranjada servida en un cuenco](images/crema-aprovechamiento-marisa-ilustracion-v1.jpg)
+
+Ilustración generada con IA.
 
 ## Ingredientes
 

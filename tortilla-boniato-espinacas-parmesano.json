@@ -126,12 +126,8 @@
     }
   ],
   "claves": "Boniato muy tierno y poco dorado; espinacas sin agua; poca sal porque el parmesano ya aporta. Para una tortilla más alta, utiliza una sartén de 18 cm.",
-  "image": "https://fucolin.github.io/recetario/images/tortilla-boniato-espinacas-parmesano.jpg?v=20261014-horizontal",
-  "image_alt": "Tortilla de boniato, espinacas y parmesano en un plato",
-  "image_credit": "Fotografía propia",
-  "image_source": "IMG_0044.jpeg",
+  "image": "https://fucolin.github.io/recetario/images/tortilla-boniato-espinacas-parmesano-ilustracion-v2.jpg",
   "pdf": "https://fucolin.github.io/recetario/tortilla-boniato-espinacas-parmesano.pdf",
-  "image_origin": "propia",
   "fecha_actualizacion": "2026-10-15",
   "encabezado": {
     "titulo": "Tortilla de boniato, espinacas y parmesano",
@@ -144,18 +140,9 @@
     "autor": "Eva, nutricionista",
     "atribucion": "🌿 Adaptada de una receta de Eva, la nutricionista",
     "titulo_original": "Tortilla de queso parmesano, espinacas y cebolla",
-    "catalogo_privado": "catalogo-nutricionista-muestra.zip",
-    "ficha_catalogo": "recetas/tortilla-de-queso-parmesano-espinacas-y-cebolla.md",
-    "pdf_origen": [
-      {
-        "archivo": "../originales/recetas-basicas-2026-04-21.pdf",
-        "pagina": 3
-      },
-      {
-        "archivo": "../originales/recetas-basicas-2026-07-28.pdf",
-        "pagina": 3,
-        "imagen": "../imagenes/tortilla-de-queso-parmesano-espinacas-y-cebolla-2026-07-28.jpeg"
-      }
-    ]
-  }
+    "ficha_catalogo": "recetas/tortilla-de-queso-parmesano-espinacas-y-cebolla.md"
+  },
+  "image_alt": "Tortilla baja y melosa de boniato fino algo dorado, espinacas y parmesano, con el interior poco cuajado",
+  "image_credit": "Imagen generada con IA para Casa Marisa",
+  "image_note": "Imagen ilustrativa generada con IA; no es una fotografía del plato preparado."
 }

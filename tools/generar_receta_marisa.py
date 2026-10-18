@@ -37,7 +37,7 @@ def main():
          '<nav><a href="index.html">← Índice del recetario</a></nav>',
          f'<h1>{e(data["encabezado"]["titulo"])}</h1><p class="meta">{e(data["encabezado"]["detalle"])}</p>',
          '<p><span role="img" aria-label="Receta de Marisa">💚</span> La crema que Marisa prepara con las verduras que tiene por casa. Con puerro como base y una mezcla que cambia cada vez.</p>',
-         f'<figure class="hero"><img src="images/{ident}.jpg" alt="{e(data["image_alt"],quote=True)}" width="1024" height="683"><figcaption>Foto ilustrativa: <a href="{data["image_source"]}">{e(data["image_credit"])}</a> · <a href="{data["image_license_url"]}">{data["image_license"]}</a> · Presentación en 16:9; no es una fotografía de la crema de Marisa.</figcaption></figure>',
+         f'<figure class="hero"><img src="{e(data["image"].removeprefix(BASE),quote=True)}" alt="{e(data["image_alt"],quote=True)}" width="1672" height="941"><figcaption>Ilustración generada con IA.</figcaption></figure>',
          f'<p class="actions"><a class="category-link" href="categorias/pures.html"><svg class="action-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="3" width="7" height="7" rx="1"></rect><rect x="14" y="3" width="7" height="7" rx="1"></rect><rect x="3" y="14" width="7" height="7" rx="1"></rect><rect x="14" y="14" width="7" height="7" rx="1"></rect></svg>Más de Purés</a><a class="pdf-link" href="{ident}.pdf"><svg class="action-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 9V3h12v6M6 18H3V9h18v9h-3M6 14h12v7H6zM17 12h1"></path></svg>PDF para imprimir</a></p>',
          '<h2>Ingredientes</h2><ul class="ingredients">']
     items = ['200 g de puerro limpio', '40 g de aceite de oliva, para el sofrito', '500-600 g de verduras variadas preparadas, además del puerro', '500-600 g de agua o caldo de pollo', 'Sal al gusto; probar antes si el caldo ya lleva sal']
@@ -56,6 +56,7 @@ def main():
           f'<footer>Receta de Marisa · <a href="{ident}.md">Archivo maestro</a></footer></main></body></html>']
     (ROOT / f'{ident}.html').write_text('\n'.join(h) + '\n')
     body = '\n# ' + data['titulo'] + '\n\n' + data['subtitulo'] + '\n\n## Ingredientes\n\n'
+    body = body.replace('\n\n## Ingredientes', '\n\n![' + data['image_alt'] + '](' + data['image'].removeprefix(BASE) + ')\n\nIlustración generada con IA.\n\n## Ingredientes', 1)
     body += '\n'.join('- ' + x for x in items) + '\n\n## Preparación\n\n'
     body += '\n'.join(f'{p["orden"]}. **{p["titulo"]} · {p["duracion_texto"]}.** {p["instrucciones"]}' for p in data['pasos'])
     body += '\n\n## Claves\n\n' + data['claves'].replace('Una mezcla de Marisa', '**Una mezcla de Marisa**') + '\n\n## ' + original['titulo'] + '\n\n'

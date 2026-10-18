@@ -155,13 +155,7 @@ recursos:
 - titulo: Congelación y descongelación de sobras
   url: https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
   fuente: USDA FSIS
-image: https://fucolin.github.io/recetario/images/pimientos-asados-cebolla-cosori.jpg
-image_alt: Pimientos rojos asados al horno
-image_credit: Juan Emilio Prades Bel
-image_license: CC BY-SA 4.0
-image_source: https://commons.wikimedia.org/wiki/File:Pimientos_rojos,_asados_al_horno_(Espa%C3%B1a).jpg
-image_note: Fotografía representativa de pimientos asados; la preparación de esta ficha incluye cebolla
-  y se cocina en freidora de aire.
+image: https://fucolin.github.io/recetario/images/pimientos-asados-cebolla-cosori-ilustracion-v1.jpg
 pdf: https://fucolin.github.io/recetario/pimientos-asados-cebolla-cosori.pdf
 congelacion: Congela los pimientos ya asados, pelados y sin semillas, en porciones pequeñas con la cebolla,
   un poco de sus jugos y el aceite que ya tengan. Utiliza recipientes aptos para congelar, dejando algo
@@ -169,19 +163,23 @@ congelacion: Congela los pimientos ya asados, pelados y sin semillas, en porcion
   de refrigerar antes de dos horas desde la cocción. Conserva a -18 °C y consume preferentemente en 3-4
   meses para mantener buena calidad. Descongela en la nevera. Pueden quedar algo más blandos, pero siguen
   siendo adecuados para guarniciones, tostas o ensaladas.
-fecha_actualizacion: "2026-10-15"
+fecha_actualizacion: '2026-10-15'
 encabezado:
   titulo: Pimientos asados con cebolla
   detalle: Cosori Dual Blaze · Veggies a 190 °C · 3-4 raciones de acompañamiento · 45-50 min
+image_alt: Tiras de pimientos rojos asados y cebolla tierna con sus jugos
+image_credit: Imagen generada con IA para Casa Marisa
+image_note: Imagen ilustrativa generada con IA; no es una fotografía del plato preparado.
 ---
+
 
 # Pimientos asados con cebolla
 
 Cosori Dual Blaze · Veggies a 190 °C · 3-4 raciones de acompañamiento · 45-50 min
 
-![Pimientos rojos asados al horno](images/pimientos-asados-cebolla-cosori.jpg)
+![Tiras de pimientos rojos asados y cebolla tierna con sus jugos](images/pimientos-asados-cebolla-cosori-ilustracion-v1.jpg)
 
-Foto: <a href="https://commons.wikimedia.org/wiki/File:Pimientos_rojos,_asados_al_horno_(Espa%C3%B1a).jpg">Juan Emilio Prades Bel</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>. Fotografía representativa de pimientos asados; la preparación de esta ficha incluye cebolla y se cocina en freidora de aire. Reducida para web.
+Ilustración generada con IA.
 
 [Descargar PDF A4](pimientos-asados-cebolla-cosori.pdf)
 
