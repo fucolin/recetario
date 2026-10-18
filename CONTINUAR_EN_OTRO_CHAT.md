@@ -49,7 +49,9 @@ Seguimiento al cambiar de chat: distinguir «web publicada y comprobada», «met
 
 ## Pendientes y siguiente paso
 
-Esta actualización, autorizada mediante ARG, sustituye las judías redondas por judías verdes planas en la ilustración de «Menestra guisada». Imagen vigente `images/menestra-guisada-ilustracion-v2.jpg`, con cabecera, tarjeta de Vegetales, textos alternativos, metadatos y créditos sincronizados. Se conserva la imagen anterior y no se cambia el PDF ni la fecha del contenido. No quedan otros cambios preparados en esta sesión. No hay actualización del catálogo privado de Eva asociada a este cambio. Comprobar el despliegue y el HEAD actual de GitHub al retomar.
+Esta actualización, autorizada mediante ARG, quita la llama y «Sin fuego» de la fase de reposo de «Menestra guisada», dejando solo los 3–5 min, y aclara en Opciones que puede servirse como guarnición o como plato principal con huevo cocido y, si no lleva carne ni jamón, bonito en conserva. Se sincronizan el maestro, HTML, JSON, buscador y PDF A4, junto con sus generadores. Se conserva la versión oral original. No quedan cambios preparados pendientes de publicar en esta sesión; comprobar el despliegue y el HEAD actual de GitHub al retomar.
+
+La ilustración publicada muestra judías verdes planas: `images/menestra-guisada-ilustracion-v2.jpg`, con cabecera, tarjeta de Vegetales, textos alternativos, metadatos y créditos sincronizados. La imagen anterior se conserva como histórico. No hay actualización del catálogo privado de Eva asociada a estos cambios.
 
 Acuerdo permanente: al incorporar cada receta, comprobar si aparece como ejemplo en el carrusel (también dentro de componentes o sin enlace). Enlazarla al publicarla si corresponde y sincronizar `semana-base.md`, `datos/semana-base.json` e `index.html`; no añadir ni sustituir ejemplos no acordados.
 

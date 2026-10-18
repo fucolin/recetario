@@ -150,8 +150,8 @@ opciones:
 - titulo: Para dar más sabor
   texto: Añade tacos de jamón o trocitos de carne al sofrito. Después incorpora un poco de vino y deja reducir antes
     de añadir las verduras. Esta opción necesita tiempo adicional; si usas carne, comprueba que quede bien cocinada.
-- titulo: Para acompañar
-  texto: Huevo cocido y, si no lleva carne ni jamón, bonito en conserva.
+- titulo: Como guarnición o plato principal
+  texto: Esta menestra puede servirse como guarnición. Para tomarla como plato principal, acompáñala con huevo cocido y, si no lleva carne ni jamón, bonito en conserva.
 opciones_ingredientes:
 - nombre: jamón
   formato: tacos
@@ -231,7 +231,7 @@ Ilustración generada con IA.
 | **3. Rehogar la menestra**. Añade la menestra, salpimienta y remueve para mezclarla con el sofrito. | Medio-alto · 5 min.  | Las piezas se separan y se mezclan bien con el sofrito. |
 | **4. Guisar tapada**. Añade 50 ml de agua. Lleva a hervor, baja el fuego y tapa. | Suave · 10 min. Cuenta desde que recupere un hervor ligero. | Prueba una pieza de las más firmes: debe estar tierna, sin deshacerse. |
 | **5. Concentrar el fondo**. Destapa y deja evaporar el líquido, removiendo con cuidado al final. | Medio-alto · 2–5 min.  | No queda un charco: las verduras conservan un fondo jugoso. |
-| **6. Dejar reposar**. Apaga el fuego, retira la cazuela del calor y tapa. | Sin fuego · 3–5 min.  | El guiso se asienta y sigue jugoso. |
+| **6. Dejar reposar**. Apaga el fuego, retira la cazuela del calor y tapa. | 3–5 min.  | El guiso se asienta y sigue jugoso. |
 
 ## Claves
 
@@ -245,7 +245,7 @@ Ilustración generada con IA.
 
 **Para dar más sabor:** Añade tacos de jamón o trocitos de carne al sofrito. Después incorpora un poco de vino y deja reducir antes de añadir las verduras. Esta opción necesita tiempo adicional; si usas carne, comprueba que quede bien cocinada.
 
-**Para acompañar:** Huevo cocido y, si no lleva carne ni jamón, bonito en conserva.
+**Como guarnición o plato principal:** Esta menestra puede servirse como guarnición. Para tomarla como plato principal, acompáñala con huevo cocido y, si no lleva carne ni jamón, bonito en conserva.
 
 ## La receta oral de Marisa
 

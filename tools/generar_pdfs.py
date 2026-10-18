@@ -167,7 +167,8 @@ def dibujar_tabla_preparacion(c, pasos: list[dict], y: float) -> float:
     for paso in pasos:
         n = len(rows)
         rows.append([para(f"{paso['orden']}. {paso['titulo']}", title), "", ""])
-        fire = [para(paso["fuego"], title), para(paso["duracion_texto"])]
+        fire = [para(paso["fuego"], title)] if paso["fuego"] != "Sin fuego" else []
+        fire.append(para(paso["duracion_texto"]))
         if paso.get("nota"):
             fire.append(para(paso["nota"], secondary))
         rows.append([para(paso["accion"]), fire, para(paso["punto"])])

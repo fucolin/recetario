@@ -51,7 +51,8 @@ def generar(master):
          '<h2 id="preparacion">Preparación</h2><table class="method" aria-labelledby="preparacion"><colgroup><col><col><col></colgroup><thead><tr><th scope="col">Qué haces</th><th scope="col">Fuego y tiempo</th><th scope="col">El punto</th></tr></thead>']
     for p in data['pasos']:
         note = '<span class="detail">' + e(p['nota']) + '</span>' if p.get('nota') else ''
-        h.append(f'<tbody><tr class="phase"><th colspan="3" scope="rowgroup"><span class="number">{p["orden"]}. </span>{e(p["titulo"])}</th></tr><tr><td class="instruction">{e(p["accion"])}</td><td class="heat-time">{FLAME}<span class="heat">{e(p["fuego"])}</span><span class="duration">{e(p["duracion_texto"])}</span>{note}</td><td class="doneness"><em class="until">Hasta que… </em><span class="point-desktop">{e(p["punto"])}</span><span class="point-mobile">{e(p["punto_hasta"])}</span></td></tr></tbody>')
+        heat = FLAME + '<span class="heat">' + e(p['fuego']) + '</span>' if p['fuego'] != 'Sin fuego' else ''
+        h.append(f'<tbody><tr class="phase"><th colspan="3" scope="rowgroup"><span class="number">{p["orden"]}. </span>{e(p["titulo"])}</th></tr><tr><td class="instruction">{e(p["accion"])}</td><td class="heat-time">{heat}<span class="duration">{e(p["duracion_texto"])}</span>{note}</td><td class="doneness"><em class="until">Hasta que… </em><span class="point-desktop">{e(p["punto"])}</span><span class="point-mobile">{e(p["punto_hasta"])}</span></td></tr></tbody>')
     h.append('</table><h2>Claves</h2>')
     for key in data['claves_detalle']:
         h.append('<p class="key"><strong>' + e(key['titulo']) + '.</strong> ' + e(key['texto']) + '</p>')
@@ -69,7 +70,7 @@ def generar(master):
     body = '\n# ' + data['titulo'] + '\n\n' + data['encabezado']['detalle'] + '\n\n💚 ' + data['presentacion_marisa']
     body += '\n\n![' + data['image_alt'] + '](' + data['image'].removeprefix(BASE) + ')\n\nIlustración generada con IA.\n\n## Ingredientes\n\n'
     body += '\n'.join('- ' + x for x in data['pdf_ingredientes']) + '\n\n## Preparación\n\n| Fase y acción | Fuego y tiempo | El punto |\n| --- | --- | --- |\n'
-    body += '\n'.join(f'| **{p["orden"]}. {p["titulo"]}**. {p["accion"]} | {p["fuego"]} · {p["duracion_texto"]}. {p["nota"]} | {p["punto"]} |' for p in data['pasos'])
+    body += '\n'.join(f'| **{p["orden"]}. {p["titulo"]}**. {p["accion"]} | ' + (p['fuego'] + ' · ' if p['fuego'] != 'Sin fuego' else '') + f'{p["duracion_texto"]}. {p["nota"]} | {p["punto"]} |' for p in data['pasos'])
     body += '\n\n## Claves\n\n' + '\n\n'.join('**' + x['titulo'] + '.** ' + x['texto'] for x in data['claves_detalle'])
     body += '\n\n## Opciones\n\n' + '\n\n'.join('**' + x['titulo'] + ':** ' + x['texto'] for x in data['opciones'])
     body += '\n\n## ' + original['titulo'] + '\n\n' + original['procedencia'] + '\n\n' + '\n'.join('- ' + x for x in original['ingredientes']) + '\n\n'
