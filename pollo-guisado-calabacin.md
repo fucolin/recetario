@@ -145,10 +145,12 @@ fuente:
   autor: Eva, nutricionista
   atribucion: 🌿 Adaptada de una receta de Eva, la nutricionista
   titulo_original: Pollo guisado con verduras
-  ficha_catalogo: recetas/pollo-guisado-con-verduras.md
 image_alt: Pollo guisado con salsa de tomate, zanahoria y medias lunas de calabacín
 image_credit: Imagen generada con IA para Casa Marisa
 image_note: Imagen ilustrativa generada con IA; no es una fotografía del plato preparado.
+variantes:
+- {titulo: Olla, pagina: pollo-guisado-calabacin.html}
+- {titulo: Cocotte y horno, pagina: pollo-guisado-calabacin-cocotte.html}
 ---
 
 
@@ -160,6 +162,8 @@ Con tomate, zanahoria y vino blanco
 ![Pollo guisado con salsa de tomate, zanahoria y medias lunas de calabacín](images/pollo-guisado-calabacin-ilustracion-v1.jpg)
 
 Ilustración generada con IA.
+
+[Olla](pollo-guisado-calabacin.html) · [Cocotte y horno](pollo-guisado-calabacin-cocotte.html)
 
 [Descargar receta en PDF · A4](pollo-guisado-calabacin.pdf)
 

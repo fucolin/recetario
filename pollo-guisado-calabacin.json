@@ -176,10 +176,19 @@
   "fuente": {
     "autor": "Eva, nutricionista",
     "atribucion": "🌿 Adaptada de una receta de Eva, la nutricionista",
-    "titulo_original": "Pollo guisado con verduras",
-    "ficha_catalogo": "recetas/pollo-guisado-con-verduras.md"
+    "titulo_original": "Pollo guisado con verduras"
   },
   "image_alt": "Pollo guisado con salsa de tomate, zanahoria y medias lunas de calabacín",
   "image_credit": "Imagen generada con IA para Casa Marisa",
-  "image_note": "Imagen ilustrativa generada con IA; no es una fotografía del plato preparado."
+  "image_note": "Imagen ilustrativa generada con IA; no es una fotografía del plato preparado.",
+  "variantes": [
+    {
+      "titulo": "Olla",
+      "pagina": "pollo-guisado-calabacin.html"
+    },
+    {
+      "titulo": "Cocotte y horno",
+      "pagina": "pollo-guisado-calabacin-cocotte.html"
+    }
+  ]
 }

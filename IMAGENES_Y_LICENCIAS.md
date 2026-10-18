@@ -273,3 +273,9 @@ Ilustraciones generadas con IA para Casa Marisa a partir de los ingredientes y l
 - Representa los mejillones cocinados con tomate, cebolla y pimiento rojo, con salsa ligera, sin hierbas ni guarniciones añadidas. Estilo de cocina familiar, luz natural cálida, cerámica clara y superficie beige; formato 16:9.
 - Identificada como «Ilustración generada con IA» en la ficha; recurso compartido con la tarjeta de Mariscos y los metadatos de imagen.
 - No se atribuye autoría fotográfica ni licencia Creative Commons.
+## Pollo guisado con calabacín en cocotte · 18/10/2026
+
+- Archivo: `images/pollo-guisado-calabacin-cocotte-ilustracion-v2.jpg`.
+- Ilustración fotorrealista generada y ajustada con IA mediante la herramienta integrada para Casa Marisa; dos cuartos traseros enteros con hueso y sin piel, dorados y guisados con tomate, cebolla, zanahoria y calabacín en medias lunas gruesas. Sin guarniciones ni adornos añadidos; laurel retirado y tomillo opcional omitido.
+- Vajilla de cerámica clara sobre piedra beige, luz natural cálida y suave, encuadre cercano a tres cuartos, horizontal 16:9. Identificada como ilustración generada con IA en la ficha. La primera prueba con cuatro contramuslos queda como revisión local sin publicar. La tarjeta de la familia en Guisos y asados utiliza esta imagen; la variante en olla conserva su cabecera.
+- No es una fotografía documental; no se atribuye autoría fotográfica ni licencia Creative Commons.

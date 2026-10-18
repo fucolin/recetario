@@ -1,0 +1,254 @@
+{
+  "esquema": "recetario-1.0",
+  "id": "pollo-guisado-calabacin-cocotte",
+  "familia": "pollo-guisado-calabacin",
+  "variante": "cocotte-horno",
+  "titulo": "Pollo guisado con calabacín en cocotte",
+  "subtitulo": "Pollo con hueso, tomate, zanahoria y vino blanco",
+  "categoria": "Guisos",
+  "categoria_menu": "Guisos y asados",
+  "tipo_ficha": "receta",
+  "fecha_actualizacion": "2026-10-18",
+  "etiquetas": [
+    "pollo",
+    "contramuslos",
+    "cuartos traseros",
+    "con hueso",
+    "cocotte",
+    "horno",
+    "calabacín",
+    "guiso",
+    "receta de Eva"
+  ],
+  "raciones": {
+    "min": 2,
+    "max": 3
+  },
+  "raciones_nota": "Según tamaño y apetito; con dos cuartos traseros, dos raciones generosas.",
+  "tiempo_total_min": {
+    "min": 90,
+    "max": 110
+  },
+  "tiempo_nota": "Orientativo; incluye preparación, dorado, sofrito, 40–55 min de horno y 5 min de reposo. El punto del pollo manda; los cuartos traseros grandes pueden necesitar más tiempo.",
+  "encabezado": {
+    "titulo": "Pollo guisado con calabacín en cocotte",
+    "detalle": "Pollo con hueso · cocotte y horno · 2-3 raciones · 1 h 30–1 h 50 min"
+  },
+  "equipo": [
+    {
+      "nombre": "cocotte de hierro fundido esmaltado con tapa",
+      "nota": "Apta para horno, incluido el pomo; suficiente para disponer las piezas en una capa."
+    }
+  ],
+  "horno": {
+    "temperatura_c": 175,
+    "modo": "calor arriba y abajo, precalentado",
+    "temperatura_ventilador_c": 160,
+    "coccion_tapada": true,
+    "duracion_min": 40,
+    "duracion_max_min": 55
+  },
+  "ingredientes": [
+    {
+      "nombre": "contramuslos de pollo",
+      "cantidad": 4,
+      "unidad": "unidades",
+      "peso_min_g": 800,
+      "peso_max_g": 1000,
+      "nota": "enteros, con hueso y sin piel",
+      "alternativa": {
+        "nombre": "cuartos traseros de pollo",
+        "cantidad": 2,
+        "unidad": "unidades",
+        "nota": "con hueso y sin piel; dos raciones generosas"
+      }
+    },
+    {
+      "nombre": "cebolla",
+      "cantidad": 1,
+      "unidad": "unidad",
+      "peso_g": 150
+    },
+    {
+      "nombre": "zanahorias",
+      "cantidad": 2,
+      "unidad": "unidades",
+      "peso_g": 150
+    },
+    {
+      "nombre": "calabacín",
+      "cantidad": 1,
+      "unidad": "unidad",
+      "peso_g": 250
+    },
+    {
+      "nombre": "tomate triturado",
+      "cantidad": 300,
+      "unidad": "g"
+    },
+    {
+      "nombre": "ajo",
+      "cantidad": 2,
+      "unidad": "dientes"
+    },
+    {
+      "nombre": "vino blanco seco",
+      "cantidad_min": 50,
+      "cantidad_max": 75,
+      "unidad": "ml"
+    },
+    {
+      "nombre": "aceite de oliva virgen extra",
+      "cantidad": 2,
+      "unidad": "cucharadas",
+      "equivalencia_ml": 30
+    },
+    {
+      "nombre": "agua o caldo de pollo",
+      "cantidad_min": 75,
+      "cantidad_max": 150,
+      "unidad": "ml"
+    },
+    {
+      "nombre": "pimentón dulce",
+      "cantidad": 0.5,
+      "unidad": "cucharadita"
+    },
+    {
+      "nombre": "laurel",
+      "cantidad": 1,
+      "unidad": "hoja"
+    },
+    {
+      "nombre": "tomillo",
+      "cantidad": 1,
+      "unidad": "ramita pequeña",
+      "opcional": true
+    },
+    {
+      "nombre": "sal y pimienta negra",
+      "nota": "al gusto"
+    }
+  ],
+  "pdf_ingredientes": [
+    "4 contramuslos o 2 cuartos traseros, con hueso y sin piel (800 g–1 kg aprox.)",
+    "1 cebolla mediana (150 g)",
+    "2 zanahorias medianas (150 g)",
+    "1 calabacín mediano (250 g)",
+    "300 g de tomate triturado",
+    "2 dientes de ajo",
+    "50–75 ml de vino blanco seco",
+    "2 cucharadas de aceite de oliva (30 ml)",
+    "75–150 ml de agua o caldo de pollo",
+    "½ cucharadita de pimentón dulce",
+    "1 hoja de laurel; tomillo opcional",
+    "Sal y pimienta negra"
+  ],
+  "pasos": [
+    {
+      "orden": 1,
+      "titulo": "Prepara y dora el pollo",
+      "duracion_min": 15,
+      "duracion_max_min": 20,
+      "duracion_texto": "15–20 min",
+      "instrucciones": "Pica la cebolla y el ajo y corta la zanahoria en medias lunas de 4–5 mm. Seca y salpimienta el pollo. Si usas cuartos traseros y no caben holgados, separa muslo y contramuslo por la articulación, sin trocear la carne. Calienta progresivamente la cocotte con una cucharada de aceite a fuego medio. Dora el pollo, por tandas si hace falta, unos 4–5 minutos por cada cara; debe coger color sin quemar el fondo. Retira a un plato con sus jugos."
+    },
+    {
+      "orden": 2,
+      "titulo": "Saltea y reserva el calabacín",
+      "duracion_min": 3,
+      "duracion_max_min": 3,
+      "duracion_texto": "3 min",
+      "instrucciones": "Corta el calabacín en medias lunas de unos 2 cm. Si el fondo sigue marrón y no amenaza con quemarse, saltéalo brevemente a fuego medio, hasta que tome algo de color sin ablandarse. Reserva. Si el fondo se oscurece demasiado, omite el salteado y desglasa enseguida; en ese caso, añade el calabacín al horno algo antes y comprueba su punto."
+    },
+    {
+      "orden": 3,
+      "titulo": "Desglasa con vino",
+      "duracion_min": 1,
+      "duracion_max_min": 2,
+      "duracion_texto": "1–2 min",
+      "instrucciones": "Baja el fuego y aparta un momento la cocotte si está demasiado caliente: el hierro tarda en perder calor. Vierte el vino, despega los restos dorados con una espátula de madera y reduce aproximadamente a la mitad. No aproveches restos negros ni con olor a quemado."
+    },
+    {
+      "orden": 4,
+      "titulo": "Haz el sofrito",
+      "duracion_min": 10,
+      "duracion_max_min": 12,
+      "duracion_texto": "10–12 min",
+      "instrucciones": "Añade la cebolla, la zanahoria, una pizca de sal y la cucharada de aceite restante. Cocina a fuego medio-bajo, removiendo, hasta que la cebolla esté blanda; incorpora el ajo durante el último minuto. Si se agarra, añade una cucharada de agua. Mientras tanto, precalienta el horno a 175 °C, calor arriba y abajo, o 160 °C con ventilador."
+    },
+    {
+      "orden": 5,
+      "titulo": "Concentra el tomate",
+      "duracion_min": 8,
+      "duracion_max_min": 10,
+      "duracion_texto": "8–10 min",
+      "instrucciones": "Incorpora el pimentón, remueve unos 10 segundos y añade enseguida el tomate, el laurel y el tomillo si lo usas. Cocina destapado a fuego medio-bajo hasta que el tomate espese y pierda el sabor a crudo."
+    },
+    {
+      "orden": 6,
+      "titulo": "Termina en el horno",
+      "duracion_min": 40,
+      "duracion_max_min": 55,
+      "duracion_texto": "40–55 min a 175 °C",
+      "temperatura_horno_c": 175,
+      "temperatura_horno_ventilador_c": 160,
+      "calabacin_ultimos_min": {
+        "min": 10,
+        "max": 15
+      },
+      "temperatura_interior_min_c": 74,
+      "instrucciones": "Devuelve el pollo y sus jugos, en una capa, y añade 75 ml de agua o caldo caliente; usa algo más solo si la salsa está muy espesa, sin cubrir las piezas por completo. Lleva a un hervor suave, tapa y mete en el horno. Comprueba el pollo a los 30–40 minutos; con cuartos traseros, empieza hacia los 40. Cuando esté casi tierno, añade el calabacín salteado y hornea tapado otros 10–15 minutos, hasta que el pollo esté tierno y alcance al menos 74 °C en la parte más gruesa, sin tocar el hueso. El calabacín debe quedar aún ligeramente firme. Si el pollo necesita más tiempo, retira el calabacín que ya esté en su punto y continúa la cocción tapada."
+    },
+    {
+      "orden": 7,
+      "titulo": "Ajusta y deja reposar",
+      "duracion_min": 5,
+      "duracion_max_min": 5,
+      "duracion_texto": "5 min de reposo",
+      "instrucciones": "Saca la cocotte del horno. Si sobra líquido, retira el pollo y el calabacín y reduce la salsa destapada en el fuego; devuélvelos después. Ajusta sal y pimienta y retira el laurel y el tallo de tomillo. Deja reposar 5 minutos tapado, fuera del fuego, teniendo en cuenta que la cocotte conserva mucho calor."
+    }
+  ],
+  "claves": "Los tiempos de horno son orientativos: dependen del tamaño de las piezas y de la cocotte. Comprueba temperatura y ternura antes de terminar. Mantén un hervor suave, no una ebullición fuerte. El calabacín entra al final para conservar su forma; no debe pasar todo el guisado en el horno. Usa guantes para la cocotte y la tapa: siguen muy calientes después de sacarlas.",
+  "opciones": [],
+  "autor": "Eva, nutricionista",
+  "origen_receta": "eva-nutricionista",
+  "emoji_origen": "🌿",
+  "fuente": {
+    "autor": "Eva, nutricionista",
+    "atribucion": "🌿 Adaptada de una receta de Eva, la nutricionista",
+    "titulo_original": "Pollo guisado con verduras",
+    "ajustes": "Variante de Casa Marisa en cocotte y horno, con contramuslos enteros o dos cuartos traseros con hueso y sin piel. Conserva las verduras y el perfil de la versión en olla; adapta el aceite, el líquido, los tiempos y el momento de incorporación del calabacín."
+  },
+  "referencias_tecnicas": [
+    {
+      "titulo": "Fragrant Braised Chicken Thighs",
+      "entidad": "Le Creuset",
+      "url": "https://www.lecreuset.com/fragrant-braised-chicken-thighs/LCR-2412.html",
+      "criterio": "Referencia de técnica para contramuslos con hueso dorados a fuego medio y terminados tapados en horno a unos 175 °C; los tiempos de esta adaptación son orientativos."
+    },
+    {
+      "titulo": "Safe Minimum Internal Temperatures",
+      "entidad": "FoodSafety.gov",
+      "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+      "criterio": "Temperatura interior mínima de 74 °C para pollo."
+    }
+  ],
+  "variantes": [
+    {
+      "titulo": "Olla",
+      "pagina": "pollo-guisado-calabacin.html"
+    },
+    {
+      "titulo": "Cocotte y horno",
+      "pagina": "pollo-guisado-calabacin-cocotte.html"
+    }
+  ],
+  "image": "https://fucolin.github.io/recetario/images/pollo-guisado-calabacin-cocotte-ilustracion-v2.jpg",
+  "image_alt": "Dos cuartos traseros enteros de pollo con hueso, dorados y guisados con tomate, zanahoria y medias lunas gruesas de calabacín, en una fuente de cerámica clara",
+  "image_credit": "Ilustración generada con IA para Casa Marisa",
+  "image_note": "Imagen ilustrativa generada con IA; representa dos cuartos traseros enteros sin piel, sin guarniciones ni ingredientes añadidos.",
+  "image_width": 1672,
+  "image_height": 941,
+  "pdf": "https://fucolin.github.io/recetario/pollo-guisado-calabacin-cocotte.pdf"
+}
