@@ -7,7 +7,8 @@ Repositorio: `fucolin/recetario`. Web: https://fucolin.github.io/recetario/.
 
 1. Leer esta guía y revisar GitHub y el estado local antes de editar. El checkout puede estar atrasado respecto a publicaciones por API; archivos sin seguimiento pueden estar ya publicados. No descartarlos ni subir todo indiscriminadamente.
 2. Consultar solo los apartados de referencia relacionados con la tarea; no releer toda la referencia en cada cambio.
-3. Preservar los acuerdos del usuario y el estilo de las fichas existentes. Una instrucción actual del usuario prevalece sobre una regla anterior.
+3. Leer `CONTINUAR_EN_OTRO_CHAT.md` para conocer el estado y los pendientes; contrastarlos con el HEAD de GitHub. El resumen no sustituye las guías ni prevalece sobre el repositorio actual.
+4. Preservar los acuerdos del usuario y el estilo de las fichas existentes. Una instrucción actual del usuario prevalece sobre una regla anterior.
 
 ## Preparar, mostrar y publicar
 
@@ -34,8 +35,8 @@ Repositorio: `fucolin/recetario`. Web: https://fucolin.github.io/recetario/.
 - `preparacion` y `combinacion` no llevan PDF. Las fichas de producto usan `tipo_ficha: producto`, van en `productos/` y tampoco generan PDF.
 - En las fichas nuevas, generar siempre una ilustración ajustada a sus ingredientes, salvo que el usuario aporte una foto propia; no buscar fotografías en la web por defecto. Identificarla como generada con IA. Imágenes de platos en 16:9. En productos, conservar envase y etiqueta legibles con `object-fit: contain`. Documentar procedencia y licencia sin inventarlas; identificar las imágenes generadas con IA.
 - Tortillas de casa en las ilustraciones: bajas, poco cuajadas y melosas; ingredientes bien mezclados con el huevo. En la de boniato, láminas finas algo doradas y espinacas integradas, sin capas regulares.
-- Ilustraciones de platos: estilo fotorrealista coherente, como fotografiadas en la misma cocina (luz natural cálida, vajilla sencilla clara y superficie neutra). Revisar ingredientes, cortes, textura y técnica de la ficha antes de generar; no añadir guarniciones ajenas.
-- Al cambiar la imagen de una ficha, actualizar también la imagen y el texto alternativo de su tarjeta en la categoría y en cualquier otro listado que la muestre; comprobar que ninguna tarjeta siga usando la imagen anterior.
+- Ilustraciones de platos: mantener el estilo y nivel de detalle de las publicadas, tomando como referencias visuales la cabecera del burrito de frijoles negros y las últimas ensaladas, guisos y tortillas. Misma cocina: luz natural cálida y suave, encimera de piedra beige, cerámica clara, encuadre cercano normalmente a tres cuartos, horizontal 16:9 y pocos accesorios. Leer ingredientes, cantidades, elaboración y claves antes de generar; representar cortes, proporciones, dorado, humedad e interior creíbles, sin añadidos ajenos. Aplicar el [criterio visual completo](docs/REFERENCIA_DE_TRABAJO.md#ilustraciones-de-casa-marisa).
+- Al cambiar la imagen de una ficha, actualizar también su tarjeta de categoría y cualquier otro listado, los textos alternativos, metadatos y créditos afectados; comprobar que ninguna referencia siga usando la imagen anterior. Identificarla como ilustración generada con IA y mostrar siempre el resultado antes de publicar, según el flujo de ARG.
 - Fechar cambios de contenido según Europe/Madrid: `fecha_actualizacion` y `dateModified`. No renovar fecha por presentación o regeneración. Mostrarla solo en el pie del PDF, no en el cuerpo de la web.
 - Recetas de Eva: procedencia en metadatos (`origen_receta: eva-nutricionista`, autor y fuente); 🌿 accesible «Receta de Eva, nutricionista» al principio de raciones/tiempo en tarjetas. En Fuente: «🌿 Adaptada de una receta de Eva, la nutricionista». Afinar con raciones ajustadas, aceite medido y añadidos moderados. Importar una cada vez: terminar, mostrar y esperar ARG antes de publicar y empezar la siguiente. Generar la ilustración después de acordar ingredientes y preparación; conservar los originales en el catálogo privado. En los archivos públicos, incluir la atribución a Eva sin rutas, nombres ni referencias internas al catálogo privado o sus PDF. Tras publicar, guardar la URL pública en los metadatos del catálogo privado, conservando su versión más reciente y sin añadir marcas visibles desde este flujo.
 - Recetas de Marisa: título sin «de Marisa», 💚 al principio de raciones/tiempo y manuscrito ampliable con transcripción fiel. Los ajustes no alteran el original.
@@ -46,6 +47,8 @@ Repositorio: `fucolin/recetario`. Web: https://fucolin.github.io/recetario/.
 | Tarea | Apartado o archivo |
 | --- | --- |
 | Recetas: creación, tipos, modificaciones, Marisa, fechas y fotos | [Referencia de recetas](docs/REFERENCIA_DE_TRABAJO.md#preparar-y-sincronizar-una-ficha) |
+| Relación con el catálogo privado de Eva y seguimiento | [Publicar recetas de Eva](docs/REFERENCIA_DE_TRABAJO.md#publicar-recetas-procedentes-del-catálogo-privado-de-eva) |
+| Ilustraciones: estilo, referencias y revisión | [Ilustraciones de Casa Marisa](docs/REFERENCIA_DE_TRABAJO.md#ilustraciones-de-casa-marisa) |
 | Carrusel, clasificación y variantes | [Carrusel y categorías](docs/REFERENCIA_DE_TRABAJO.md#carrusel-semanal-y-categorías) |
 | Contenido del carrusel | `semana-base.md` → `datos/semana-base.json` e `index.html`; `tools/generar_semana_base.py`; prueba `tools/comprobar_semana_base.cjs` |
 | Novedades y previstas | [Novedades y próximas fichas](docs/REFERENCIA_DE_TRABAJO.md#novedades-y-próximas-fichas) |
@@ -60,7 +63,17 @@ Preparar y comprobar los archivos para que el usuario los suba. Si son uno o dos
 
 ## Para continuar en otro hilo
 
-> Continuamos con Recetario de Casa Marisa, repositorio `fucolin/recetario`. Lee `GUIA_DE_TRABAJO.md` y consulta solo la referencia necesaria. GitHub es la fuente canónica. Muéstrame los cambios con nombre y título nuevos; publica solo cuando diga ARG.
+Mantener [CONTINUAR_EN_OTRO_CHAT.md](CONTINUAR_EN_OTRO_CHAT.md) en la raíz: contiene un mensaje listo para copiar, estado comprobado, cambios preparados y siguientes pasos. En un chat nuevo basta con pegar ese mensaje o pedir que se lea el archivo actual de GitHub.
+
+- Actualizarlo con cada publicación autorizada mediante ARG, cuando cambie un pendiente importante y antes de cambiar de chat. No depende de una tarea por calendario.
+- Preparar su actualización en la misma lista explícita de archivos que el cambio; publicar juntos los cambios y su resumen. Sin ARG, conservarlo como propuesta local y mostrarlo. Documentar los acuerdos permanentes en las guías y enlazarlos desde el resumen.
+- Distinguir lo publicado, lo comprobado y lo preparado sin publicar. Tras desplegar, comprobar los cambios afectados y comunicar el resultado; no afirmar en el archivo una comprobación que todavía no se ha realizado. Si falla el despliegue o la comprobación, registrar la incidencia en el seguimiento del cambio; cualquier actualización remota sigue el alcance de ARG.
+- No intentar escribir el SHA del propio commit dentro del archivo: obtener el HEAD actual de GitHub al retomar. Puede citarse un commit anterior como hito comprobado, identificándolo así. No generar commits sucesivos solo para actualizar un SHA o una hora.
+- El repositorio es público: no incluir tickets, datos personales, rutas de archivos privados ni contenido del catálogo privado. El checkout temporal puede desaparecer; no usarlo como única copia de trabajo pendiente.
+
+Si la sesión se interrumpe antes de actualizar el resumen, comparar sus afirmaciones con los commits recientes y las guías actuales. Un estado «preparado» solo en el chat o en una carpeta temporal no garantiza que sus archivos sigan disponibles; comprobarlo y reconstruirlo desde los acuerdos documentados si hace falta.
+
+> Continuamos con Recetario de Casa Marisa, repositorio `fucolin/recetario`. Lee en GitHub `GUIA_DE_TRABAJO.md` y `CONTINUAR_EN_OTRO_CHAT.md`, y consulta solo la referencia necesaria. Contrasta el resumen con el HEAD actual. GitHub es la fuente canónica. Muéstrame los cambios con nombre y título nuevos; publica solo cuando diga ARG.
 
 ## Excepción acordada: diagrama de burritos
 

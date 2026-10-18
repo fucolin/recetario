@@ -15,6 +15,22 @@ Para una ficha nueva, completar este proceso. Para una actualización, actuar so
 7. Actualizar `index.html` y la página visual de `categorias/` correspondiente, sin crear entradas duplicadas y distinguiendo claramente las variantes.
 8. Comprobar ingredientes, cantidades, diferencias entre variantes, licencia de la imagen, datos estructurados, enlaces y presentación visual del HTML y del PDF.
 
+## Ilustraciones de Casa Marisa
+
+Mantener el estilo y nivel de detalle de las ilustraciones ya publicadas. Antes de generar, consultar como referencias visuales la cabecera de `burrito-frijoles-negros.html` y las últimas imágenes publicadas de ensaladas, guisos y tortillas. Abrir las imágenes vigentes a las que apuntan esas fichas, no limitarse a leer su descripción ni reutilizar una revisión antigua.
+
+Queremos ilustraciones fotorrealistas que parezcan fotografías hechas en la misma cocina: luz natural cálida y suave, encimera de piedra beige, vajilla sencilla de cerámica clara y encuadres cercanos, normalmente a tres cuartos. Formato horizontal 16:9, con el plato protagonista y pocos accesorios.
+
+Antes de generar cada imagen, leer los ingredientes, las cantidades, la elaboración y las claves de la ficha. Representar los cortes, las proporciones, el dorado, la humedad y la textura que produciría esa receta. Cuidar especialmente el interior cuando se muestre una porción cortada. No añadir ingredientes, guarniciones ni adornos ajenos; si hay alternativas, elegir una combinación coherente con la receta.
+
+Buscar comida casera apetecible, con pequeñas irregularidades naturales, porciones razonables y texturas creíbles. Evitar el aspecto plástico, los brillos excesivos y las presentaciones artificialmente perfectas.
+
+Las tortillas de casa son bajas, melosas y poco cuajadas, con los ingredientes bien mezclados con el huevo. El boniato va en láminas finas, algo doradas y repartidas irregularmente; nunca en capas ordenadas. Mantener las espinacas integradas en el huevo.
+
+Identificar las imágenes como ilustraciones generadas con IA. Al sustituir una cabecera, actualizar también su tarjeta de categoría y cualquier otro listado que la muestre, los textos alternativos, los metadatos de imagen afectados (YAML, JSON, Schema.org y Open Graph si existen) y los créditos en la ficha y en `IMAGENES_Y_LICENCIAS.md`. Comprobar que no queden referencias a la imagen sustituida en esas representaciones. Documentar la procedencia sin inventar autoría fotográfica ni licencia.
+
+Revisar visualmente el resultado frente a la receta y las referencias antes de mostrarlo. Mostrarlo siempre al usuario antes de publicar, con nombre de revisión y título HTML nuevos; no publicar las copias de revisión. Aplicar el flujo de autorización de la guía principal: un ARG para esos cambios permite preparar, mostrar y publicar sin pedir otra confirmación. No renovar fechas de contenido ni regenerar PDF por un cambio exclusivo de cabecera.
+
 ## Añadir una receta
 
 Antes de incorporar una ficha nueva mediante «Al recetario» o «Al recetario y GitHub», Codex debe proponer `tipo_ficha` y `categoria_menu` y esperar la confirmación del usuario. Si ambos ya se han confirmado durante la conversación, no vuelve a preguntarlos. Esta confirmación solo se exige para fichas nuevas; no para actualizaciones de fichas existentes, como sustituir una fotografía.
@@ -165,8 +181,41 @@ Los botones de PDF y «Más de [categoría]» usan SVG de línea, del mismo esti
 
 ## Publicar recetas procedentes del catálogo privado de Eva
 
-La atribución pública es «🌿 Adaptada de una receta de Eva, la nutricionista». Los archivos del repositorio público (incluidos YAML y JSON) no deben contener rutas, nombres ni referencias internas al ZIP privado, sus fichas o PDF. Conservar la autoría y el título original sin referencias privadas. Tras publicar y comprobar la ficha, actualizar exclusivamente `casa_marisa` en el YAML de la receta del catálogo privado con su estado y URL pública; conservar todos los demás contenidos de la última versión del ZIP y comprobar la versión al guardarlo. Este flujo no añade marcas, enlaces ni apartados visibles al catálogo o sus índices.
+### Origen privado y adaptación pública
 
+El catálogo privado conserva las recetas de origen de Eva. Casa Marisa contiene las adaptaciones acordadas con el usuario; modificar una adaptación no reescribe el original privado. Incorporar una receta al catálogo no autoriza publicarla. Preparar, mostrar y publicar según el flujo de ARG de la guía principal, una receta cada vez.
+
+La atribución pública es «🌿 Adaptada de una receta de Eva, la nutricionista». Conservar autoría y título original en los metadatos, sin rutas, nombres de archivo, identificadores de Biblioteca ni referencias internas al catálogo privado, sus fichas o PDF. No subir originales privados ni sus índices al repositorio público.
+
+### Responsabilidades entre los dos flujos
+
+| Flujo | Responsabilidad |
+| --- | --- |
+| Casa Marisa | Comprobar la publicación pública y actualizar exclusivamente el campo YAML `casa_marisa` de la ficha privada correspondiente. |
+| Catálogo privado | Utilizar esos metadatos para sincronizar las marcas y enlaces de sus listados, según su propia guía. No repetir la investigación de la web ni inferir correspondencias durante esa sincronización. |
+
+Desde Casa Marisa no añadir marcas, enlaces ni apartados visibles al catálogo o sus índices. El flujo del catálogo mantiene un único 🌿 por receta publicada en su listado y los enlaces `+`, `++`, `+++` y sucesivos en el índice, uno por versión publicada. Estas marcas no se trasladan al cuerpo de las fichas privadas, a sus páginas por ingredientes ni al libro PDF. La sincronización de listados se realiza cuando el usuario la solicita; no hay una revisión automática programada.
+
+### Metadatos de seguimiento en el catálogo privado
+
+El campo `casa_marisa` es el registro de correspondencia. Mantener el esquema vigente del catálogo:
+
+| Campo | Uso |
+| --- | --- |
+| `estado` | `publicada` cuando conste publicación comprobada; `en_preparacion` para una incorporación todavía sin publicar. Pendiente de ARG no equivale a publicada. |
+| `fecha_comprobacion` | Fecha real de la comprobación, en formato `AAAA-MM-DD`, según Europe/Madrid. No adelantarla ni renovarla sin comprobar. |
+| `fichas` | Lista de las adaptaciones correspondientes. Para las publicadas, conservar título y URL pública. Si solo está en preparación, conservar el identificador conforme al esquema del catálogo, sin inventar una URL publicada. |
+
+Una receta de origen puede corresponder a varias fichas públicas. Conservar todas las versiones y su orden: una tercera ficha se añade sin sustituir las dos anteriores. Evitar duplicados por URL. Si se modifica la misma ficha pública o cambia su título manteniendo la URL, actualizar su entrada; no añadir una versión nueva por cada commit. Si cambia la URL, actualizar la correspondencia comprobada sin tratar la redirección antigua como otra receta. Una nueva variante pendiente no elimina las publicaciones ya confirmadas ni rebaja el estado global de una receta publicada; registrar el pendiente en la continuidad sin inventar extensiones del esquema privado.
+
+### Actualización segura después de publicar
+
+1. Publicar con ARG y comprobar la ficha pública: URL, título y correspondencia con la receta de origen. Si la correspondencia es ambigua, resolverla antes de modificar el catálogo.
+2. Abrir la versión más reciente del catálogo privado guardado. Leer su guía y el YAML actual de la ficha antes de editar; no reutilizar un ZIP antiguo de otra sesión.
+3. Modificar exclusivamente `casa_marisa` de las fichas afectadas. Conservar ingredientes, elaboración, fotografías, originales, listados y todo contenido ajeno a ese campo.
+4. Guardar como nueva versión del mismo archivo privado, conservando su identidad y utilizando la versión leída como control frente a cambios simultáneos. Si otra conversación lo ha modificado entretanto, partir de la nueva versión y reaplicar únicamente este cambio; no sobrescribirla con la copia antigua.
+5. Comprobar los metadatos afectados y que no se hayan perdido las demás versiones ni modificado archivos ajenos. No marcar el seguimiento privado como completado solo porque la web ya esté publicada.
+6. Actualizar `CONTINUAR_EN_OTRO_CHAT.md` con el resultado del seguimiento. Si falta acceso al catálogo, falla el guardado o queda una correspondencia por resolver, registrar la tarea pendiente por título y URL pública, sin rutas ni identificadores privados; retomarla antes de dar por terminada la incorporación. El mantenimiento remoto del resumen sigue el alcance de ARG.
 
 ## Buscadores y alcance
 
