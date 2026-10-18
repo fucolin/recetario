@@ -22,7 +22,7 @@ def documento(titulo, contenido, css, schema=None):
     datos = ""
     if schema:
         datos = '<script type="application/ld+json">' + json.dumps(schema, ensure_ascii=False).replace("</", "<\\/") + '</script>'
-    return f'<!doctype html>\n<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{e(titulo)} · Mi recetario</title><link rel="stylesheet" href="{e(css)}">{datos}</head><body><main>{contenido}</main></body></html>\n'
+    return f'<!doctype html>\n<html lang="es"><head><meta name="robots" content="noindex, noimageindex"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{e(titulo)} · Mi recetario</title><link rel="stylesheet" href="{e(css)}">{datos}</head><body><main>{contenido}</main></body></html>\n'
 
 
 def generar():

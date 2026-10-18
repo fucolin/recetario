@@ -166,3 +166,20 @@ Los botones de PDF y «Más de [categoría]» usan SVG de línea, del mismo esti
 ## Publicar recetas procedentes del catálogo privado de Eva
 
 La atribución pública es «🌿 Adaptada de una receta de Eva, la nutricionista». Los archivos del repositorio público (incluidos YAML y JSON) no deben contener rutas, nombres ni referencias internas al ZIP privado, sus fichas o PDF. Conservar la autoría y el título original sin referencias privadas. Tras publicar y comprobar la ficha, actualizar exclusivamente `casa_marisa` en el YAML de la receta del catálogo privado con su estado y URL pública; conservar todos los demás contenidos de la última versión del ZIP y comprobar la versión al guardarlo. Este flujo no añade marcas, enlaces ni apartados visibles al catálogo o sus índices.
+
+
+## Buscadores y alcance
+
+Acuerdo: solicitar la exclusión de las páginas públicas de Casa Marisa mediante `<meta name="robots" content="noindex, noimageindex">` en el `head` de todos los HTML, incluidas portada, fichas, categorías, productos, calendarios y redirecciones. No cambia el contenido, los enlaces, Schema.org ni Open Graph. No renovar fechas de recetas ni regenerar PDF por esta intervención.
+
+`noindex` pide que la página no aparezca en buscadores compatibles; `noimageindex` pide a Google no indexar las imágenes desde esa página. No impide encontrar una imagen por su URL directa o desde otras páginas. Omitir `nofollow`: seguir los enlaces permite descubrir las demás páginas y leer su propia indicación. No añadir `Disallow` en robots.txt: impediría leer `noindex`; además, el robots.txt de un proyecto bajo /recetario/ no controla el origen fucolin.github.io.
+
+Los generadores de productos, receta de Marisa y calendario de frutas deben emitir la etiqueta. Los que modifican bloques de páginas existentes deben conservarla. Para páginas hechas a mano, incorporarla desde el principio. Ejecutar `python tools/comprobar_noindex.py` en la copia canónica aislada antes de cada publicación; revisa todos los HTML fuera de build, dependencias y directorios ocultos. También revisa específicamente cualquier HTML nuevo de la lista de publicación. Nunca publicar copias de revisión.
+
+Límites: no es una contraseña ni un control de acceso. El sitio y el repositorio continúan públicos. Los buscadores deben volver a rastrear cada URL: la retirada puede tardar semanas o meses y no todos los robots respetan estas reglas. No prometer privacidad ni desindexación absoluta. Las importaciones por URL dependen de cada aplicación; conservar Schema.org permite mantener esa vía, pero no garantiza la compatibilidad de cada importador.
+
+Los PDF y los maestros Markdown/JSON siguen públicos y esta etiqueta no les aplica. Para excluir PDF se necesita una cabecera HTTP `X-Robots-Tag: noindex`; el alojamiento estándar de GitHub Pages no ofrece una configuración de cabeceras personalizadas por archivo desde este repositorio. No crear .htaccess ni _headers esperando que Pages los aplique. Un tratamiento completo de esos recursos requeriría otro alojamiento o un proxy que gestione las cabeceras. No se retiran documentos ni se cambia el alojamiento en este ajuste.
+
+Referencias oficiales:
+- https://developers.google.com/search/docs/crawling-indexing/block-indexing?hl=es
+- https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag?hl=es

@@ -18,6 +18,12 @@ Repositorio: `fucolin/recetario`. Web: https://fucolin.github.io/recetario/.
 - Comprobar datos, sincronización, enlaces y presentación afectados. Reutilizar comprobaciones ya superadas si sus dependencias no cambian; no repetir pruebas ni verificaciones de despliegue sin motivo.
 - Al publicar, entregar un resumen y el enlace al commit; no hace falta ZIP.
 
+## Buscadores: web familiar
+
+- Todas las páginas públicas HTML, incluidas categorías, productos y redirecciones, llevan `<meta name="robots" content="noindex, noimageindex">` dentro de `<head>`. Conservarla en plantillas y generadores; no añadir `nofollow` ni bloquear el rastreo con `robots.txt`.
+- Antes de publicar, ejecutar `python tools/comprobar_noindex.py` en una copia canónica aislada y comprobar todos los HTML nuevos de la lista explícita. No publicar vistas previas.
+- Esto no restringe el acceso por enlace ni hace privado el repositorio. La retirada de resultados depende del rastreador y puede tardar. PDF, imágenes directas y maestros Markdown/JSON no quedan excluidos mediante esta etiqueta HTML. Ver el apartado «Buscadores y alcance» de la referencia.
+
 ## Estilo y datos esenciales
 
 - Confirmar `tipo_ficha` y `categoria_menu` antes de incorporar una ficha nueva. No volver a preguntarlos si ya se confirmaron. Cada receta pertenece a una sola categoría.
