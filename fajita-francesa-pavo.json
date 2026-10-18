@@ -48,7 +48,8 @@
       "cantidad": 1,
       "unidad": "loncha",
       "peso_aprox_g": 25,
-      "nota": "grande; mínimo 90 % de carne"
+      "nota": "grande; mínimo 90 % de carne",
+      "producto_preferido": "pechuga-pavo-elpozo-1954"
     },
     {
       "nombre": "queso",

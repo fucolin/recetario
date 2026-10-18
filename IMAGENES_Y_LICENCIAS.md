@@ -273,6 +273,11 @@ Ilustraciones generadas con IA para Casa Marisa a partir de los ingredientes y l
 - Representa los mejillones cocinados con tomate, cebolla y pimiento rojo, con salsa ligera, sin hierbas ni guarniciones añadidas. Estilo de cocina familiar, luz natural cálida, cerámica clara y superficie beige; formato 16:9.
 - Identificada como «Ilustración generada con IA» en la ficha; recurso compartido con la tarjeta de Mariscos y los metadatos de imagen.
 - No se atribuye autoría fotográfica ni licencia Creative Commons.
+## Pechuga de pavo ElPozo 1954 · 18/10/2026
+
+- `images/productos/pechuga-pavo-elpozo-1954-envase.jpeg` y `images/productos/pechuga-pavo-elpozo-1954-etiqueta.jpeg`: fotografías propias proporcionadas por el usuario, conservadas sin recorte ni modificación. No se ha indicado licencia de reutilización. Las marcas y los textos del envase corresponden a sus titulares.
+- `images/productos/pechuga-pavo-elpozo-1954-yuka.png`: captura de la aplicación Yuka aportada por el usuario, no una fotografía ni una ilustración generada. Valoración atribuida a Yuka; no se ha indicado licencia de reutilización ni consta la fecha de consulta.
+
 ## Pollo guisado con calabacín en cocotte · 18/10/2026
 
 - Archivo: `images/pollo-guisado-calabacin-cocotte-ilustracion-v2.jpg`.

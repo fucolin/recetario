@@ -82,9 +82,11 @@ def generar():
                 total = promo['precio_unitario_base'] * 2
                 efectivo = total / 3
                 efectivo_kg = efectivo / (formato['cantidad'] / 1000)
-                importes = f'{efectivo:.2f} €/lata · {efectivo_kg:.2f} €/kg'.replace('.', ',')
+                unidad_promo = promo.get('unidad_precio', 'lata')
+                importes = f'{efectivo:.2f} €/{unidad_promo} · {efectivo_kg:.2f} €/kg'.replace('.', ',')
                 fecha_promo = '' if fecha_oferta == resumen_fecha else f' ({fecha_oferta})'
-                resumen_promociones.append(f'Oferta 3×2{fecha_promo}: aprox. {importes}')
+                aproximacion = 'aprox. ' if promo.get('mostrar_aproximacion', True) else ''
+                resumen_promociones.append(f'Oferta 3×2{fecha_promo}: {aproximacion}{importes}')
         resumen_precio = ' · '.join(([resumen_fecha] if resumen_fecha else []) + resumen_promociones)
         nota_compra = f'<p class="purchase-note">{e(resumen_precio)}</p>' if resumen_precio else ''
         resumen_compra = 'Precio y tienda por anotar'

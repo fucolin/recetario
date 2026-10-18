@@ -1,0 +1,69 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Pechuga de pavo asada con madera de haya",
+  "url": "https://fucolin.github.io/recetario/productos/pechuga-pavo-elpozo-1954.html",
+  "dateModified": "2026-10-18",
+  "mainEntity": {
+    "@type": "Product",
+    "@id": "https://fucolin.github.io/recetario/productos/pechuga-pavo-elpozo-1954.html#producto",
+    "name": "Pechuga de pavo asada con madera de haya",
+    "brand": {
+      "@type": "Brand",
+      "name": "ElPozo 1954 Premium Gourmet"
+    },
+    "description": "Pechuga de pavo cocida en lonchas, con un 95 % de pechuga de pavo. Asada con madera de haya, según el envase.",
+    "category": "Fiambres",
+    "image": [
+      "https://fucolin.github.io/recetario/images/productos/pechuga-pavo-elpozo-1954-envase.jpeg",
+      "https://fucolin.github.io/recetario/images/productos/pechuga-pavo-elpozo-1954-etiqueta.jpeg"
+    ],
+    "weight": {
+      "@type": "QuantitativeValue",
+      "value": 120,
+      "unitCode": "GRM"
+    },
+    "additionalProperty": [
+      {
+        "@type": "PropertyValue",
+        "name": "Energía por 100 g",
+        "value": "408 kJ / 96 kcal"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Grasas por 100 g",
+        "value": "1 g"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "De las cuales saturadas por 100 g",
+        "value": "0,3 g"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Hidratos de carbono por 100 g",
+        "value": "0,5 g"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "De los cuales azúcares por 100 g",
+        "value": "0,5 g"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Fibra por 100 g",
+        "value": "No declarada"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Proteínas por 100 g",
+        "value": "21,3 g"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Sal por 100 g",
+        "value": "2,2 g"
+      }
+    ]
+  }
+}

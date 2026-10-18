@@ -29,5 +29,16 @@
       "name": "Eva",
       "jobTitle": "Nutricionista"
     }
-  }
+  },
+  "mentions": [
+    {
+      "@type": "Product",
+      "@id": "https://fucolin.github.io/recetario/productos/pechuga-pavo-elpozo-1954.html#producto",
+      "name": "Pechuga de pavo asada con madera de haya",
+      "brand": {
+        "@type": "Brand",
+        "name": "ElPozo 1954 Premium Gourmet"
+      }
+    }
+  ]
 }

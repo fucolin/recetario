@@ -37,6 +37,7 @@ ingredientes:
   cantidad: 2
   unidad: unidades
 - nombre: pavo o jamón cocido
+  producto_preferido: pechuga-pavo-elpozo-1954
   cantidad: 1
   unidad: loncha
   peso_aprox_g: 25
@@ -125,7 +126,7 @@ Con queso, tomate y aguacate · 1 ración · 10-15 min
 
 - 1 tortilla/piadina grande (integral o de espelta)
 - 2 huevos
-- 1 loncha grande de pavo o jamón cocido (unos 25 g; mínimo 90 % de carne)
+- 1 loncha grande de [pavo](productos/pechuga-pavo-elpozo-1954.html) o jamón cocido (unos 25 g; mínimo 90 % de carne)
 - 1 loncha de queso (unos 20 g)
 - ½ tomate pequeño (unos 50 g)
 - ¼ de aguacate mediano

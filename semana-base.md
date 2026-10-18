@@ -90,7 +90,7 @@ dias:
         ejemplo: {titulo: de fideos, pagina: null}
       - texto: Huevos
         categoria: Huevos
-        ejemplo: {titulo: Tortilla francesa, pagina: null}
+        ejemplo: {titulo: Fajita de francesa, pagina: fajita-francesa-pavo.html, categoria: Envueltos y bocados}
 ---
 
 # Mi semana base

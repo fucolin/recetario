@@ -1,6 +1,6 @@
 # Continuar en otro chat · Casa Marisa
 
-Actualizado: 18 de octubre de 2026, Europe/Madrid. Publicación del doble botón de variantes del pollo, autorizada mediante ARG.
+Actualizado: 18 de octubre de 2026, Europe/Madrid. Publicación de la pechuga de pavo ElPozo 1954, sus enlaces y el carrusel, autorizada mediante ARG. Verificar el despliegue después de publicar.
 
 ## Mensaje listo para copiar y pegar
 
@@ -48,6 +48,16 @@ Seguimiento al cambiar de chat: distinguir «web publicada y comprobada», «met
 - El resultado del guardado y del despliegue se comprueba después de publicar; consultar el commit y su ejecución en GitHub al retomar, sin suponer que esta descripción anticipa esa comprobación.
 
 ## Pendientes y siguiente paso
+
+Publicación autorizada mediante ARG: producto «Pechuga de pavo asada con madera de haya», ElPozo 1954 Premium Gourmet, envase de 120 g, identificador `pechuga-pavo-elpozo-1954`. Maestro Markdown/YAML, JSON, Schema.org y HTML, entrada en Productos preferidos, fotografías originales completas del envase y etiqueta y captura de Yuka con créditos. Sin PDF. Etiqueta: 95 % de pechuga de pavo, 21,3 g de proteínas y 2,2 g de sal por 100 g; posibles trazas de proteína de leche y soja, refrigeración 0–5 °C y consumo en 2–3 días tras abrir. Yuka: 57/100, Bueno; conserva por separado la declaración «Sin aditivos» del envase y el aditivo de riesgo limitado de Yuka no identificado en la captura.
+
+Precio confirmado por el usuario tras revisar los tickets privados: Carrefour Los Rosales, 30/09/2026, 2,75 € por 120 g (22,92 €/kg). Promoción histórica 3×2: tres envases por 5,50 €, 1,83 €/envase y 15,28 €/kg con redondeo habitual; línea visible sin «aprox.». Motivos personales recogidos: recurso en la nevera para comidas improvisadas, consumo ocasional de fiambre, elección por su 95 % de pavo, declaración del envase y fecha de consumo preferente lejana al comprarlo. Usado a menudo en la fajita de francesa y pavo, con enlaces recíprocos; solo el nombre genérico «pavo» enlaza desde los ingredientes de la receta. Cantidades, instrucciones, fecha culinaria y PDF conservados. Este enlace no requiere actualizar el catálogo privado de Eva.
+
+Carrusel: cena del domingo bajo «Huevos», texto «Fajita de francesa» enlazado a `fajita-francesa-pavo.html`; conserva Sopa de fideos y la categoría real del ejemplo, Envueltos y bocados. Sincronizados maestro semanal, JSON y portada.
+
+Acuerdos incorporados a las guías: entregar siempre HTML de revisión y PDF cuando exista; capturas solo cuando se soliciten. Al crear productos, revisar los tickets privados actuales y preguntar por qué se compran y en qué platos se usan, salvo que ya conste. Confirmar correspondencias ambiguas antes de atribuir precio o tienda. Tickets y sus identificadores privados fuera del repositorio. El generador de productos admite unidad de promoción «envase» y ocultar «aprox.» en esta ficha, conservando la presentación de los otros productos.
+
+Preparación comprobada: móvil y escritorio, enlaces recíprocos, JSON y Schema.org, datos de precio y promoción, carrusel y noindex en 56 HTML; sin cambios ajenos al regenerar. Revisiones entregadas: producto v4, fajita v1 y portada v2; las copias de revisión y capturas no se publican. ARG recibido; comprobar el despliegue tras esta publicación antes de darlo por verificado. No quedan decisiones del usuario pendientes para este cambio.
 
 Cambio autorizado mediante ARG en esta publicación: doble botón para cambiar entre las dos fichas de pollo. Doble botón de dos segmentos unidos «Versión» después del encabezado y antes de la imagen, con «Olla» y «Cocotte y horno», borde común y sin hueco entre opciones; la actual se muestra en verde con texto blanco y marca de selección, lleva `aria-current="page"` y no enlaza a sí misma. La otra opción es un enlace normal; funciona sin JavaScript y tiene foco visible. Retirado el selector antiguo situado antes de Ingredientes. Acciones unificadas en ambas páginas: «Más de Guisos y asados» seguido de «PDF para imprimir». Datos culinarios, imágenes, PDF y fechas conservados. Cambios sincronizados en ambas páginas HTML, el generador de cocotte y la referencia; este ajuste de navegación no requiere actualizar metadatos privados de Eva. Revisión aprobada por el usuario. Comprobadas ambas fichas en 320/390/1440 px, navegación sin JavaScript, selección de la versión actual y foco de teclado. Verificar el despliegue después de publicar; no quedan cambios pendientes de ARG para este ajuste.
 
