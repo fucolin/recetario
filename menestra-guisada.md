@@ -1,0 +1,271 @@
+---
+esquema: recetario-1.0
+id: menestra-guisada
+familia: menestra-guisada
+variante: principal
+titulo: Menestra guisada
+subtitulo: Para dar sabor a la menestra congelada
+categoria: Verduras
+categoria_menu: Vegetales
+tipo_ficha: receta
+autor: Marisa
+origen_receta: marisa
+etiquetas:
+- menestra
+- verduras congeladas
+- sofrito
+- receta de Marisa
+fecha_actualizacion: '2026-10-18'
+raciones:
+  min: 2
+  max: 2
+raciones_nota: Como guarnición generosa.
+tiempo_total_min:
+  min: 35
+  max: 40
+tiempo_nota: 'Orientativo: depende de la mezcla, el tamaño de las verduras y el tiempo que tarde en recuperar el
+  hervor. Las opciones con jamón, carne o vino necesitan tiempo adicional.'
+encabezado:
+  titulo: Menestra guisada
+  detalle: Para dar sabor a la menestra congelada · 2 raciones · 35–40 min
+presentacion_marisa: Receta oral de Marisa, que prepara siguiendo los consejos de la tía Genia.
+ingredientes:
+- nombre: menestra congelada
+  cantidad: 500
+  unidad: g
+- nombre: cebolla
+  cantidad: 0.5
+  unidad: unidad
+- nombre: ajo
+  cantidad: 1
+  unidad: diente
+- nombre: aceite de oliva
+  cantidad: 1
+  unidad: cucharada
+- nombre: agua
+  cantidad: 50
+  unidad: ml
+  nota: aproximadamente; ajustar si hace falta
+- nombre: sal
+  nota: al gusto
+- nombre: pimienta
+  nota: al gusto
+pdf_ingredientes:
+- 500 g de menestra congelada
+- ½ cebolla
+- 1 diente de ajo
+- 1 cucharada de aceite de oliva
+- 50 ml de agua, aproximadamente
+- Sal y pimienta
+pasos:
+- orden: 1
+  titulo: Ablandar la cebolla
+  duracion_min: 8
+  duracion_max_min: 8
+  duracion_texto: 8 min
+  fuego: Medio-bajo
+  accion: Calienta el aceite y añade la cebolla picada fina. Remueve de vez en cuando.
+  punto: La cebolla queda blanda y translúcida, sin tostarse.
+  punto_hasta: la cebolla esté blanda y translúcida, sin tostarse.
+  nota: ''
+  instrucciones: Calienta el aceite y añade la cebolla picada fina. Remueve de vez en cuando. A fuego medio-bajo.
+    8 min. La cebolla queda blanda y translúcida, sin tostarse.
+- orden: 2
+  titulo: Añadir el ajo
+  duracion_min: 2
+  duracion_max_min: 2
+  duracion_texto: 2 min
+  fuego: Medio-bajo
+  accion: Incorpora el ajo picado y remueve más a menudo.
+  punto: El ajo desprende aroma, sin coger color.
+  punto_hasta: el ajo desprenda aroma, sin coger color.
+  nota: El sofrito suma 10 min.
+  instrucciones: Incorpora el ajo picado y remueve más a menudo. A fuego medio-bajo. 2 min. El sofrito suma 10 min.
+    El ajo desprende aroma, sin coger color.
+- orden: 3
+  titulo: Rehogar la menestra
+  duracion_min: 5
+  duracion_max_min: 5
+  duracion_texto: 5 min
+  fuego: Medio-alto
+  accion: Añade la menestra, salpimienta y remueve para mezclarla con el sofrito.
+  punto: Las piezas se separan y se mezclan bien con el sofrito.
+  punto_hasta: las piezas se separen y se mezclen bien con el sofrito.
+  nota: ''
+  instrucciones: Añade la menestra, salpimienta y remueve para mezclarla con el sofrito. A fuego medio-alto. 5 min.
+    Las piezas se separan y se mezclan bien con el sofrito.
+- orden: 4
+  titulo: Guisar tapada
+  duracion_min: 10
+  duracion_max_min: 10
+  duracion_texto: 10 min
+  fuego: Suave
+  accion: Añade 50 ml de agua. Lleva a hervor, baja el fuego y tapa.
+  punto: 'Prueba una pieza de las más firmes: debe estar tierna, sin deshacerse.'
+  punto_hasta: las verduras estén tiernas, sin deshacerse. Prueba una de las piezas más firmes.
+  nota: Cuenta desde que recupere un hervor ligero.
+  instrucciones: 'Añade 50 ml de agua. Lleva a hervor, baja el fuego y tapa. A fuego suave. 10 min. Cuenta desde
+    que recupere un hervor ligero. Prueba una pieza de las más firmes: debe estar tierna, sin deshacerse.'
+- orden: 5
+  titulo: Concentrar el fondo
+  duracion_min: 2
+  duracion_max_min: 5
+  duracion_texto: 2–5 min
+  fuego: Medio-alto
+  accion: Destapa y deja evaporar el líquido, removiendo con cuidado al final.
+  punto: 'No queda un charco: las verduras conservan un fondo jugoso.'
+  punto_hasta: no quede un charco y las verduras conserven un fondo jugoso.
+  nota: ''
+  instrucciones: 'Destapa y deja evaporar el líquido, removiendo con cuidado al final. A fuego medio-alto. 2–5 min.
+    No queda un charco: las verduras conservan un fondo jugoso.'
+- orden: 6
+  titulo: Dejar reposar
+  duracion_min: 3
+  duracion_max_min: 5
+  duracion_texto: 3–5 min
+  fuego: Sin fuego
+  accion: Apaga el fuego, retira la cazuela del calor y tapa.
+  punto: El guiso se asienta y sigue jugoso.
+  punto_hasta: el guiso se asiente, conservando su jugosidad.
+  nota: ''
+  instrucciones: Apaga el fuego, retira la cazuela del calor y tapa. 3–5 min. El guiso se asienta y sigue jugoso.
+preparacion_formato: tabla-adaptable
+pdf_preparacion_tabla: true
+claves_detalle:
+- titulo: Escucha el sofrito
+  texto: Debe chisporrotear suavemente. Baja el fuego si la cebolla se dora demasiado pronto; súbelo un poco si
+    apenas se cocina. Usa una cazuela donde el sofrito no quede demasiado extendido.
+- titulo: Poca agua, sabor concentrado
+  texto: No hace falta cubrir las verduras. Si el fondo se seca antes de que estén tiernas, añade un poco más de
+    agua.
+- titulo: El punto manda
+  texto: La cocción depende de las verduras de la mezcla y de su tamaño. Comprueba las indicaciones del envase y
+    prueba antes de alargar el guiso.
+claves: 'Escucha el sofrito: Debe chisporrotear suavemente. Baja el fuego si la cebolla se dora demasiado pronto;
+  súbelo un poco si apenas se cocina. Usa una cazuela donde el sofrito no quede demasiado extendido. Poca agua,
+  sabor concentrado: No hace falta cubrir las verduras. Si el fondo se seca antes de que estén tiernas, añade un
+  poco más de agua. El punto manda: La cocción depende de las verduras de la mezcla y de su tamaño. Comprueba las
+  indicaciones del envase y prueba antes de alargar el guiso.'
+opciones:
+- titulo: Para dar más sabor
+  texto: Añade tacos de jamón o trocitos de carne al sofrito. Después incorpora un poco de vino y deja reducir antes
+    de añadir las verduras. Esta opción necesita tiempo adicional; si usas carne, comprueba que quede bien cocinada.
+- titulo: Para acompañar
+  texto: Huevo cocido y, si no lleva carne ni jamón, bonito en conserva.
+opciones_ingredientes:
+- nombre: jamón
+  formato: tacos
+  opcional: true
+  alternativa: carne
+- nombre: carne
+  formato: trocitos
+  opcional: true
+  alternativa: jamón
+- nombre: vino
+  cantidad_texto: un poco
+  opcional: true
+- nombre: huevo cocido
+  opcional: true
+- nombre: bonito en conserva
+  opcional: true
+  condicion: si no lleva carne ni jamón
+image: https://fucolin.github.io/recetario/images/menestra-guisada-ilustracion-v1.jpg
+image_alt: Menestra guisada de judías verdes, guisantes, zanahoria y alcachofa, con cebolla y un fondo jugoso, en
+  un plato de cerámica clara
+image_credit: Ilustración generada con IA para Casa Marisa
+image_note: Imagen ilustrativa generada con IA; representa una mezcla habitual de menestra. La composición depende
+  de la bolsa utilizada.
+image_width: 1672
+image_height: 941
+pdf: https://fucolin.github.io/recetario/menestra-guisada.pdf
+original_marisa:
+  tipo: oral
+  titulo: La receta oral de Marisa
+  procedencia: Relato oral de Marisa transmitido por el usuario. Marisa la prepara en los últimos años siguiendo
+    los consejos de la tía Genia, su cuñada.
+  ingredientes:
+  - 500 g de menestra congelada
+  - Media cebolla
+  - Un diente de ajo
+  - Una cucharada de aceite de oliva
+  - Agua
+  - Sal
+  - Pimienta
+  pasos:
+  - Sofreír la cebolla y el ajo picados a fuego lento, unos 5 minutos, según indica Marisa.
+  - Añadir la menestra congelada, que lleva un rato fuera del congelador, y subir el fuego.
+  - Salpimentar y rehogar 5 minutos.
+  - Añadir un culín de agua y tapar. Cocinar 10 minutos.
+  - Destapar y subir el fuego hasta evaporar el líquido.
+  - Tapar y dejar reposar unos minutos.
+  opciones:
+  - 'Para dar más sabor: añadir al sofrito tacos de jamón o trocitos de carne. Y a continuación, vino.'
+  - 'Para acompañar: huevo cocido y, si no lleva carne o jamón, bonito en conserva.'
+---
+
+# Menestra guisada
+
+Para dar sabor a la menestra congelada · 2 raciones · 35–40 min
+
+💚 Receta oral de Marisa, que prepara siguiendo los consejos de la tía Genia.
+
+![Menestra guisada de judías verdes, guisantes, zanahoria y alcachofa, con cebolla y un fondo jugoso, en un plato de cerámica clara](images/menestra-guisada-ilustracion-v1.jpg)
+
+Ilustración generada con IA.
+
+## Ingredientes
+
+- 500 g de menestra congelada
+- ½ cebolla
+- 1 diente de ajo
+- 1 cucharada de aceite de oliva
+- 50 ml de agua, aproximadamente
+- Sal y pimienta
+
+## Preparación
+
+| Fase y acción | Fuego y tiempo | El punto |
+| --- | --- | --- |
+| **1. Ablandar la cebolla**. Calienta el aceite y añade la cebolla picada fina. Remueve de vez en cuando. | Medio-bajo · 8 min.  | La cebolla queda blanda y translúcida, sin tostarse. |
+| **2. Añadir el ajo**. Incorpora el ajo picado y remueve más a menudo. | Medio-bajo · 2 min. El sofrito suma 10 min. | El ajo desprende aroma, sin coger color. |
+| **3. Rehogar la menestra**. Añade la menestra, salpimienta y remueve para mezclarla con el sofrito. | Medio-alto · 5 min.  | Las piezas se separan y se mezclan bien con el sofrito. |
+| **4. Guisar tapada**. Añade 50 ml de agua. Lleva a hervor, baja el fuego y tapa. | Suave · 10 min. Cuenta desde que recupere un hervor ligero. | Prueba una pieza de las más firmes: debe estar tierna, sin deshacerse. |
+| **5. Concentrar el fondo**. Destapa y deja evaporar el líquido, removiendo con cuidado al final. | Medio-alto · 2–5 min.  | No queda un charco: las verduras conservan un fondo jugoso. |
+| **6. Dejar reposar**. Apaga el fuego, retira la cazuela del calor y tapa. | Sin fuego · 3–5 min.  | El guiso se asienta y sigue jugoso. |
+
+## Claves
+
+**Escucha el sofrito.** Debe chisporrotear suavemente. Baja el fuego si la cebolla se dora demasiado pronto; súbelo un poco si apenas se cocina. Usa una cazuela donde el sofrito no quede demasiado extendido.
+
+**Poca agua, sabor concentrado.** No hace falta cubrir las verduras. Si el fondo se seca antes de que estén tiernas, añade un poco más de agua.
+
+**El punto manda.** La cocción depende de las verduras de la mezcla y de su tamaño. Comprueba las indicaciones del envase y prueba antes de alargar el guiso.
+
+## Opciones
+
+**Para dar más sabor:** Añade tacos de jamón o trocitos de carne al sofrito. Después incorpora un poco de vino y deja reducir antes de añadir las verduras. Esta opción necesita tiempo adicional; si usas carne, comprueba que quede bien cocinada.
+
+**Para acompañar:** Huevo cocido y, si no lleva carne ni jamón, bonito en conserva.
+
+## La receta oral de Marisa
+
+Relato oral de Marisa transmitido por el usuario. Marisa la prepara en los últimos años siguiendo los consejos de la tía Genia, su cuñada.
+
+- 500 g de menestra congelada
+- Media cebolla
+- Un diente de ajo
+- Una cucharada de aceite de oliva
+- Agua
+- Sal
+- Pimienta
+
+1. Sofreír la cebolla y el ajo picados a fuego lento, unos 5 minutos, según indica Marisa.
+2. Añadir la menestra congelada, que lleva un rato fuera del congelador, y subir el fuego.
+3. Salpimentar y rehogar 5 minutos.
+4. Añadir un culín de agua y tapar. Cocinar 10 minutos.
+5. Destapar y subir el fuego hasta evaporar el líquido.
+6. Tapar y dejar reposar unos minutos.
+
+Para dar más sabor: añadir al sofrito tacos de jamón o trocitos de carne. Y a continuación, vino.
+
+Para acompañar: huevo cocido y, si no lleva carne o jamón, bonito en conserva.

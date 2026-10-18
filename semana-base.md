@@ -9,7 +9,7 @@ dias:
     comida:
       - texto: Verduras
         categoria: Vegetales
-        ejemplo: {titulo: Menestra, pagina: null}
+        ejemplo: {titulo: Menestra guisada, pagina: menestra-guisada.html}
     cena:
       - texto: Picoteo sanote
         categoria: Picoteo y guarniciones

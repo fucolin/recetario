@@ -12,8 +12,8 @@
           "texto": "Verduras",
           "categoria": "Vegetales",
           "ejemplo": {
-            "titulo": "Menestra",
-            "pagina": null
+            "titulo": "Menestra guisada",
+            "pagina": "menestra-guisada.html"
           }
         }
       ],

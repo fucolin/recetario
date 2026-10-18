@@ -4,7 +4,8 @@
     "ensaladilla",
     "fajitas-salmon",
     "ensalada-lentejas-salmon-pepino",
-    "fajita-francesa-pavo"
+    "fajita-francesa-pavo",
+    "menestra-guisada"
   ],
   "proximas": [
     {
@@ -16,12 +17,6 @@
     {
       "id": "estofado-seitan",
       "titulo": "Estofado de seitán",
-      "categoria_menu": "Vegetales",
-      "categoria_slug": "vegetales"
-    },
-    {
-      "id": "menestra",
-      "titulo": "Menestra",
       "categoria_menu": "Vegetales",
       "categoria_slug": "vegetales"
     },

@@ -1,0 +1,72 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Menestra guisada",
+  "description": "Para dar sabor a la menestra congelada",
+  "author": {
+    "@type": "Person",
+    "name": "Marisa"
+  },
+  "recipeCategory": "Vegetales",
+  "recipeYield": "2 raciones",
+  "totalTime": "PT40M",
+  "keywords": "menestra, verduras congeladas, sofrito, receta de Marisa",
+  "recipeIngredient": [
+    "500 g de menestra congelada",
+    "½ cebolla",
+    "1 diente de ajo",
+    "1 cucharada de aceite de oliva",
+    "50 ml de agua, aproximadamente",
+    "Sal y pimienta"
+  ],
+  "recipeInstructions": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "Ablandar la cebolla",
+      "text": "Calienta el aceite y añade la cebolla picada fina. Remueve de vez en cuando. A fuego medio-bajo. 8 min. La cebolla queda blanda y translúcida, sin tostarse."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "Añadir el ajo",
+      "text": "Incorpora el ajo picado y remueve más a menudo. A fuego medio-bajo. 2 min. El sofrito suma 10 min. El ajo desprende aroma, sin coger color."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "Rehogar la menestra",
+      "text": "Añade la menestra, salpimienta y remueve para mezclarla con el sofrito. A fuego medio-alto. 5 min. Las piezas se separan y se mezclan bien con el sofrito."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 4,
+      "name": "Guisar tapada",
+      "text": "Añade 50 ml de agua. Lleva a hervor, baja el fuego y tapa. A fuego suave. 10 min. Cuenta desde que recupere un hervor ligero. Prueba una pieza de las más firmes: debe estar tierna, sin deshacerse."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 5,
+      "name": "Concentrar el fondo",
+      "text": "Destapa y deja evaporar el líquido, removiendo con cuidado al final. A fuego medio-alto. 2–5 min. No queda un charco: las verduras conservan un fondo jugoso."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 6,
+      "name": "Dejar reposar",
+      "text": "Apaga el fuego, retira la cazuela del calor y tapa. 3–5 min. El guiso se asienta y sigue jugoso."
+    }
+  ],
+  "image": "https://fucolin.github.io/recetario/images/menestra-guisada-ilustracion-v1.jpg",
+  "url": "https://fucolin.github.io/recetario/menestra-guisada.html",
+  "dateModified": "2026-10-18",
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "name": "La receta oral de Marisa",
+    "author": {
+      "@type": "Person",
+      "name": "Marisa"
+    },
+    "description": "Relato oral de Marisa transmitido por el usuario. Marisa la prepara en los últimos años siguiendo los consejos de la tía Genia, su cuñada."
+  }
+}

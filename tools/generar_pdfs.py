@@ -15,6 +15,9 @@ from reportlab.lib.pagesizes import A4
 from reportlab.pdfbase.pdfmetrics import stringWidth
 from reportlab.pdfgen import canvas
 from reportlab.lib.utils import ImageReader
+from reportlab.lib.styles import ParagraphStyle
+from reportlab.platypus import Paragraph, Table, TableStyle
+from html import escape
 
 
 # Contrato visual del recetario. No duplicar estos valores en otros scripts.
@@ -143,6 +146,42 @@ def dibujar_diagrama(c, diagrama: dict, y: float) -> float:
     return y - 2 * alto_fila - 2
 
 
+def dibujar_tabla_preparacion(c, pasos: list[dict], y: float) -> float:
+    """Excepción acordada: preparación en tabla de tres columnas, sin foto."""
+    body = ParagraphStyle("tabla", fontName="Helvetica", fontSize=8.25, leading=10.8,
+                          textColor=HexColor(VERDE_TEXTO))
+    title = ParagraphStyle("fase", parent=body, fontName="Helvetica-Bold",
+                           textColor=HexColor(VERDE_OSCURO), fontSize=8.6)
+    secondary = ParagraphStyle("secundario", parent=body, textColor=HexColor(VERDE_SECUNDARIO))
+    def para(text, style=body):
+        return Paragraph(escape(normalizar(text)), style)
+    rows = [[para("Qué haces", title), para("Fuego y tiempo", title), para("El punto", title)]]
+    styles = [
+        ("VALIGN", (0, 0), (-1, -1), "TOP"),
+        ("LEFTPADDING", (0, 0), (-1, -1), 7),
+        ("RIGHTPADDING", (0, 0), (-1, -1), 7),
+        ("TOPPADDING", (0, 0), (-1, -1), 5),
+        ("BOTTOMPADDING", (0, 0), (-1, -1), 6),
+        ("LINEBELOW", (0, 0), (-1, 0), .4, HexColor(LINEA_PIE)),
+    ]
+    for paso in pasos:
+        n = len(rows)
+        rows.append([para(f"{paso['orden']}. {paso['titulo']}", title), "", ""])
+        fire = [para(paso["fuego"], title), para(paso["duracion_texto"])]
+        if paso.get("nota"):
+            fire.append(para(paso["nota"], secondary))
+        rows.append([para(paso["accion"]), fire, para(paso["punto"])])
+        styles += [("SPAN", (0, n), (-1, n)),
+                   ("BACKGROUND", (0, n), (-1, n), HexColor(FONDO_INGREDIENTES)),
+                   ("LINEBEFORE", (1, n+1), (1, n+1), .25, HexColor(LINEA_PIE)),
+                   ("LINEBEFORE", (2, n+1), (2, n+1), .25, HexColor(LINEA_PIE))]
+    table = Table(rows, colWidths=[ANCHO_CONTENIDO*.43, ANCHO_CONTENIDO*.24, ANCHO_CONTENIDO*.33])
+    table.setStyle(TableStyle(styles))
+    _, height = table.wrap(ANCHO_CONTENIDO, A4[1])
+    table.drawOn(c, MARGEN_X, y-height)
+    return y-height-11
+
+
 def generar_pdf(receta: dict, destino: Path) -> None:
     fecha_actualizacion = date.fromisoformat(receta["fecha_actualizacion"]).strftime("%d/%m/%Y")
     ingredientes = ingredientes_para_pdf(receta)
@@ -191,30 +230,38 @@ def generar_pdf(receta: dict, destino: Path) -> None:
         c.drawString(MARGEN_X, y, "PREPARACIÓN")
         y -= 20
 
-        densidad = sum(len(p["instrucciones"]) for p in pasos)
-        tamano_pasos = 8.15 if densidad > 900 else 8.45
-        interlineado = tamano_pasos * 1.35
-        separacion = 5.8 if densidad > 900 else 7.2
-        for paso in pasos:
-            prefijo = f"{paso['orden']}. " if receta.get("pdf_numerar_pasos", True) else ""
-            encabezado = f"{prefijo}{paso['titulo']} · {paso['duracion_texto']}"
-            y = dibujar_texto_envuelto(
-                c, encabezado, MARGEN_X, y, ANCHO_CONTENIDO,
-                "Helvetica-Bold", tamano_pasos + 0.2, interlineado, VERDE_OSCURO,
-            )
-            y = dibujar_texto_envuelto(
-                c, paso["instrucciones"], MARGEN_X, y, ANCHO_CONTENIDO,
-                "Helvetica", tamano_pasos, interlineado, VERDE_TEXTO,
-            )
-            diagrama = receta.get("pdf_diagrama")
-            if diagrama and paso["orden"] == diagrama["despues_del_paso"]:
-                y = dibujar_diagrama(c, diagrama, y)
-            y -= separacion
+        if receta.get("pdf_preparacion_tabla"):
+            y = dibujar_tabla_preparacion(c, pasos, y + 7)
+        else:
+            densidad = sum(len(p["instrucciones"]) for p in pasos)
+            tamano_pasos = 8.15 if densidad > 900 else 8.45
+            interlineado = tamano_pasos * 1.35
+            separacion = 5.8 if densidad > 900 else 7.2
+            for paso in pasos:
+                prefijo = f"{paso['orden']}. " if receta.get("pdf_numerar_pasos", True) else ""
+                encabezado = f"{prefijo}{paso['titulo']} · {paso['duracion_texto']}"
+                y = dibujar_texto_envuelto(
+                    c, encabezado, MARGEN_X, y, ANCHO_CONTENIDO,
+                    "Helvetica-Bold", tamano_pasos + 0.2, interlineado, VERDE_OSCURO,
+                )
+                y = dibujar_texto_envuelto(
+                    c, paso["instrucciones"], MARGEN_X, y, ANCHO_CONTENIDO,
+                    "Helvetica", tamano_pasos, interlineado, VERDE_TEXTO,
+                )
+                diagrama = receta.get("pdf_diagrama")
+                if diagrama and paso["orden"] == diagrama["despues_del_paso"]:
+                    y = dibujar_diagrama(c, diagrama, y)
+                y -= separacion
     claves = receta.get("claves")
     if claves:
         y = dibujar_texto_envuelto(
             c, f"CLAVES: {claves}", MARGEN_X, y - 1, ANCHO_CONTENIDO,
             "Helvetica", 8.05, 10.4, VERDE_TEXTO,
+        )
+    for opcion in receta.get("opciones", []):
+        y = dibujar_texto_envuelto(
+            c, opcion["titulo"].upper() + ": " + opcion["texto"], MARGEN_X, y - 4,
+            ANCHO_CONTENIDO, "Helvetica", 8.05, 10.4, VERDE_TEXTO,
         )
     if y < PIE_Y + 26:
         raise ValueError(f"{receta['id']}: el contenido invade el pie de página")

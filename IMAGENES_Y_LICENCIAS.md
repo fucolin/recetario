@@ -255,3 +255,8 @@ Ilustraciones generadas con IA para Casa Marisa a partir de los ingredientes y l
 - `images/revuelto-champinones-trigueros-ilustracion-v1.jpg`: Revuelto de champiñones y trigueros.
 - `images/lentejas-calabaza-espinacas-ilustracion-v1.jpg`: Lentejas cremosas con calabaza y espinacas.
 - `images/tortilla-boniato-espinacas-parmesano-ilustracion-v2.jpg`: Tortilla de boniato, espinacas y parmesano.
+
+## Menestra guisada · 18/10/2026
+
+- `images/menestra-guisada-ilustracion-v1.jpg`: ilustración fotorrealista generada con IA mediante la herramienta de imágenes para Casa Marisa. Representa una mezcla habitual de menestra (judías verdes, guisantes, zanahoria y alcachofa), con cebolla y ajo, guisada con poco aceite y un fondo reducido jugoso. La composición depende de la bolsa utilizada. No representa una fotografía documental ni añade los acompañamientos opcionales.
+- Criterio de generación: plato de cerámica clara sobre piedra beige, encuadre cercano a tres cuartos y luz natural cálida y suave; verduras cocinadas y tiernas, cebolla translúcida, sin charco de caldo, sin carne, jamón, huevo, bonito ni adornos. Generación con herramienta integrada de imágenes; sin atribuir autoría fotográfica ni licencia Creative Commons.

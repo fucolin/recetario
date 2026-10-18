@@ -38,3 +38,7 @@ El campo opcional `enlaces_texto` admite objetos con `texto` y `url`. El generad
 ## Fecha del pie
 
 El pie obtiene la fecha de `fecha_actualizacion` (cadena ISO `AAAA-MM-DD`) del JSON, nunca de la fecha de generación. Se muestra como `Fecha: DD/MM/AAAA`. El generador exige una fecha válida.
+
+## Excepción: menestra guisada
+
+El usuario acordó mantener su preparación en tabla de tres columnas: «Qué haces», «Fuego y tiempo» y «El punto», con título numerado para cada fase. El maestro declara `pdf_preparacion_tabla: true`. El generador común usa los campos estructurados de `pasos` y añade las opciones si existen. Se conserva una página A4, el encabezado compartido, los ingredientes en dos columnas, los colores y el pie habituales, sin fotografía ni bloque de fuente. La maquetación de las demás recetas se mantiene.
