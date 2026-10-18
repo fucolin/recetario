@@ -2,7 +2,7 @@
 esquema: recetario-1.0
 id: lentejas-calabaza-espinacas-400g
 familia: lentejas-calabaza-espinacas
-variante: 400g
+variante: principal
 titulo: Lentejas cremosas con calabaza y espinacas
 subtitulo: Guiso especiado y cremoso
 categoria: Guisos
@@ -134,7 +134,7 @@ image: https://fucolin.github.io/recetario/images/lentejas-calabaza-espinacas-il
 pdf: https://fucolin.github.io/recetario/lentejas-calabaza-espinacas-400g.pdf
 fecha_actualizacion: '2026-10-15'
 encabezado:
-  titulo: Lentejas cremosas con calabaza y espinacas · 400g
+  titulo: Lentejas cremosas con calabaza y espinacas
   detalle: Guiso especiado y cremoso · 2-3 raciones · 35-40 min
 autor: Eva, nutricionista
 origen_receta: eva-nutricionista
@@ -143,7 +143,6 @@ fuente:
   autor: Eva, nutricionista
   atribucion: 🌿 Adaptada de una receta de Eva, la nutricionista
   titulo_original: Lentejas con calabaza y espinacas
-  ficha_catalogo: recetas/lentejas-con-calabaza-y-espinacas.md
 image_alt: Lentejas cremosas con dados de calabaza y espinacas en salsa de coco y curry
 image_credit: Imagen generada con IA para Casa Marisa
 image_note: Imagen ilustrativa generada con IA; no es una fotografía del plato preparado.

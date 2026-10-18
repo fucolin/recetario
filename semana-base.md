@@ -35,7 +35,7 @@ dias:
     comida:
       - texto: Legumbres
         categoria: Legumbres
-        ejemplo: {titulo: Lentejas con calabaza y espinacas, pagina: lentejas-calabaza-espinacas-300g.html}
+        ejemplo: {titulo: Lentejas con calabaza y espinacas, pagina: lentejas-calabaza-espinacas-400g.html}
     cena:
       - texto: Carne exprés
         categoria: Carnes exprés

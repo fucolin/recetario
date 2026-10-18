@@ -37,6 +37,8 @@ Antes de incorporar una ficha nueva mediante «Al recetario» o «Al recetario y
 
 Primero se afina la receta con el usuario. Se pueden preparar archivos y vistas previas durante la revisión; publicar requiere ARG para los cambios en curso. Si faltan datos menores, Codex puede proponerlos, pero debe preservar cualquier decisión expresa del usuario.
 
+Preferencia de casa: el guiso de lentejas con calabaza y espinacas conserva solo la preparación de 400 g de lentejas escurridas. Los botes de 300 g se reservan para ensaladas; no reintroducir una variante de 300 g de este guiso. La URL antigua de 300 g redirige a la de 400 g.
+
 ## Tipos de ficha
 
 Toda entrada debe declarar uno de estos tres valores en `tipo_ficha`:
@@ -119,7 +121,7 @@ Cuando una receta pueda encajar en varias categorías, se elegirá la que result
 
 Se crea una página dentro de `categorias/` cuando la categoría contiene al menos una ficha disponible o una tarjeta «Próximamente» expresamente solicitada por el usuario. Estas páginas muestran tarjetas con fotografía, título, tiempo y raciones.
 
-Las variantes de una misma familia se agrupan siempre en una sola tarjeta, tanto en `index.html` como en su página de categoría. La tarjeta muestra los datos compartidos y enlaces separados con nombres breves, por ejemplo `Versión 300 g` y `Versión 400 g`. No se duplican tarjetas con la misma receta y fotografía.
+Las variantes de una misma familia se agrupan siempre en una sola tarjeta, tanto en `index.html` como en su página de categoría. La tarjeta muestra los datos compartidos y enlaces separados con nombres breves, por ejemplo `Olla` y `Cocotte y horno`. No se duplican tarjetas con la misma receta y fotografía.
 
 ## Novedades y próximas fichas
 

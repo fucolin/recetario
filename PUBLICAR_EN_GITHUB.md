@@ -8,7 +8,7 @@
 6. Cuando finalice la publicación, abre https://fucolin.github.io/recetario/ y recarga la página.
 
 URL de prueba para Samsung Food:
-https://fucolin.github.io/recetario/lentejas-calabaza-espinacas-300g.html
+https://fucolin.github.io/recetario/lentejas-calabaza-espinacas-400g.html
 
 **Importante:** Las URLs no funcionarán hasta que publiques el repositorio. GitHub Pages es público: las recetas serán visibles para cualquiera que tenga el enlace.
 
