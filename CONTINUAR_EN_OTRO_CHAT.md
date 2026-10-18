@@ -1,6 +1,6 @@
 # Continuar en otro chat · Casa Marisa
 
-Actualizado: 18 de octubre de 2026, Europe/Madrid. Guiso de lentejas de 400 g publicado y comprobado; metadatos privados guardados.
+Actualizado: 18 de octubre de 2026, Europe/Madrid. Publicación del doble botón de variantes del pollo, autorizada mediante ARG.
 
 ## Mensaje listo para copiar y pegar
 
@@ -48,6 +48,8 @@ Seguimiento al cambiar de chat: distinguir «web publicada y comprobada», «met
 - El resultado del guardado y del despliegue se comprueba después de publicar; consultar el commit y su ejecución en GitHub al retomar, sin suponer que esta descripción anticipa esa comprobación.
 
 ## Pendientes y siguiente paso
+
+Cambio autorizado mediante ARG en esta publicación: doble botón para cambiar entre las dos fichas de pollo. Doble botón de dos segmentos unidos «Versión» después del encabezado y antes de la imagen, con «Olla» y «Cocotte y horno», borde común y sin hueco entre opciones; la actual se muestra en verde con texto blanco y marca de selección, lleva `aria-current="page"` y no enlaza a sí misma. La otra opción es un enlace normal; funciona sin JavaScript y tiene foco visible. Retirado el selector antiguo situado antes de Ingredientes. Acciones unificadas en ambas páginas: «Más de Guisos y asados» seguido de «PDF para imprimir». Datos culinarios, imágenes, PDF y fechas conservados. Cambios sincronizados en ambas páginas HTML, el generador de cocotte y la referencia; este ajuste de navegación no requiere actualizar metadatos privados de Eva. Revisión aprobada por el usuario. Comprobadas ambas fichas en 320/390/1440 px, navegación sin JavaScript, selección de la versión actual y foco de teclado. Verificar el despliegue después de publicar; no quedan cambios pendientes de ARG para este ajuste.
 
 Publicado y comprobado: solo «Lentejas cremosas con calabaza y espinacas» de 400 g; en casa se reservan los botes de 300 g para ensaladas. Tarjeta única directa en portada y Legumbres, sin selector; URL vigente de 400 g conservada y página de 300 g como redirección. Retirada de los maestros Markdown/JSON, Schema.org y PDF de 300 g de la versión actual (histórico recuperable en Git). Título web/PDF de 400 g sin sufijo de variante; cantidades, preparación, imagen y fecha culinaria conservadas. Carrusel del miércoles actualizado para enlazar a 400 g. La ensalada de lentejas de 300 g conserva su receta. Metadatos privados guardados: `casa_marisa` de las lentejas conserva una sola adaptación vigente de 400 g, con título sin sufijo; la redirección antigua no cuenta como otra variante. Se partió del ZIP vigente con control de versión y se comprobó que solo cambia ese campo, conservando ingredientes, elaboración, originales y archivos ajenos. Los listados privados se sincronizan desde su flujo. Preparación comprobada en móvil/escritorio, buscador, redirección y PDF de una página. Despliegue comprobado: ficha, PDF, redirección, portada, categoría y JSON semanal coinciden con la preparación; los recursos maestros y PDF antiguos de 300 g ya no están en la publicación vigente. No quedan cambios web pendientes de ARG para esta tarea. Pendiente del flujo privado: sincronizar los enlaces del índice de lentejas y de la nueva variante de pollo desde los metadatos guardados.
 

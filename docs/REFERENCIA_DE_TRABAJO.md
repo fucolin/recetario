@@ -123,6 +123,8 @@ Se crea una página dentro de `categorias/` cuando la categoría contiene al men
 
 Las variantes de una misma familia se agrupan siempre en una sola tarjeta, tanto en `index.html` como en su página de categoría. La tarjeta muestra los datos compartidos y enlaces separados con nombres breves, por ejemplo `Olla` y `Cocotte y horno`. No se duplican tarjetas con la misma receta y fotografía.
 
+Dentro de las fichas con variantes, situar el selector después del encabezado y antes de la imagen. Presentarlo como un doble botón de dos segmentos unidos, con borde común y el rótulo «Versión». La opción actual no enlaza a sí misma: lleva `aria-current="page"`, fondo verde, texto blanco y una marca de selección; las demás opciones son enlaces normales con foco visible. Mantener las mismas etiquetas y el orden en ambas fichas. Los botones «Más de [categoría]» y «PDF para imprimir» conservan el mismo orden y texto entre variantes, separados del selector. Funciona sin JavaScript. Conservarlo en los generadores; no regenerar PDF ni cambiar fechas culinarias por este ajuste de navegación.
+
 ## Novedades y próximas fichas
 
 `datos/estado-fichas.json` registra las fichas destacadas como «NUEVA» y las tarjetas futuras «PRÓXIMAMENTE». Al incorporar cualquier ficha nueva disponible, añadir siempre su identificador a `nuevas` y mostrar «NUEVA» en sus tarjetas del índice y de la categoría correspondiente. Aplicar también esta regla cuando una ficha «Próximamente» pase a estar disponible. Las novedades no caducan automáticamente: retirarlas cuando lo indique el usuario.
