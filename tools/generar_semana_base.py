@@ -46,7 +46,7 @@ def main():
              '<div class="week-track" id="week-track" role="list" aria-label="Semana de lunes a domingo">']
     for n, day in enumerate(data['dias']):
         block.append(f'<article class="week-day" role="listitem" data-weekday="{n}" aria-labelledby="week-day-{n}"><header><h3 id="week-day-{n}">{escape(day["dia"])}</h3></header>{meal(day["comida"], "Comida")}{meal(day["cena"], "Cena")}</article>')
-    block += ['</div></section>', '<script>' + (ROOT / 'tools/semana_base.js').read_text() + '</script>', '<!-- SEMANA_BASE_FIN -->']
+    block += ['</div><p class="week-caption">Ejemplo de menú semanal, con reparto equilibrado</p></section>', '<script>' + (ROOT / 'tools/semana_base.js').read_text() + '</script>', '<!-- SEMANA_BASE_FIN -->']
     page = ROOT / 'index.html'
     html, count = re.subn(r'<!-- SEMANA_BASE_INICIO -->.*?<!-- SEMANA_BASE_FIN -->', '\n'.join(block), page.read_text(), flags=re.S)
     assert count == 1, 'El bloque de semana base debe aparecer exactamente una vez'
