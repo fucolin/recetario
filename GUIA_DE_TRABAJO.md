@@ -12,6 +12,8 @@ Repositorio: `fucolin/recetario`. Web: https://fucolin.github.io/recetario/.
 
 ## Preparar, mostrar y publicar
 
+- **ARGH** significa consultar el menú activo guardado en la aplicación privada, comprobarlo y publicarlo en el carrusel, sin pedir otra confirmación. Conservar el menú por defecto privado y todos los estados de la compra. Mostrar las próximas fichas como texto sin inventar enlaces; actualizar también el tipo y categoría visibles del plato cuando cambie. Sincronizar `semana-base.md`, `datos/semana-base.json` e `index.html` y publicar solo la lista explícita afectada. Si no hay cambios respecto al menú público, informar sin generar una publicación vacía.
+
 - Preparar cambios y vistas previas cuando el usuario lo pide. **Publicar requiere ARG o «Al recetario y GitHub» para los cambios en curso**, sin distinguir mayúsculas. Un ARG anterior no autoriza cambios posteriores. «Dale», «perfecto» o pedir un cambio permiten avanzar en la preparación; no sustituyen ARG. Se aplica también desde el iPhone.
 - **Mostrar siempre los cambios antes de publicar.** Cada revisión lleva nombre de archivo y título HTML nuevos y un enlace directo accesible, como los de las fichas. No enlazar al usuario archivos de `build/previews/`: son solo para comprobaciones internas. Excluir todas las copias de revisión de la publicación; la página definitiva conserva su URL.
 - Entregar por defecto el enlace al HTML de revisión y al PDF si lo hay. No ofrecer ni entregar capturas de móvil o escritorio salvo que el usuario las pida; las capturas internas de comprobación no sustituyen al HTML.
@@ -74,6 +76,7 @@ Mantener [CONTINUAR_EN_OTRO_CHAT.md](CONTINUAR_EN_OTRO_CHAT.md) en la raíz: con
 - Distinguir lo publicado, lo comprobado y lo preparado sin publicar. Tras desplegar, comprobar los cambios afectados y comunicar el resultado; no afirmar en el archivo una comprobación que todavía no se ha realizado. Si falla el despliegue o la comprobación, registrar la incidencia en el seguimiento del cambio; cualquier actualización remota sigue el alcance de ARG.
 - No intentar escribir el SHA del propio commit dentro del archivo: obtener el HEAD actual de GitHub al retomar. Puede citarse un commit anterior como hito comprobado, identificándolo así. No generar commits sucesivos solo para actualizar un SHA o una hora.
 - El repositorio es público: no incluir tickets, datos personales, rutas de archivos privados ni contenido del catálogo privado. El checkout temporal puede desaparecer; no usarlo como única copia de trabajo pendiente.
+- Guardar el acceso, permisos, alojamiento, estados e instrucciones operativas de las aplicaciones familiares en un resumen privado, separado de este seguimiento público. Aquí solo se documentan los acuerdos y resultados de la web pública; no copiar el resumen privado a GitHub.
 
 Si la sesión se interrumpe antes de actualizar el resumen, comparar sus afirmaciones con los commits recientes y las guías actuales. Un estado «preparado» solo en el chat o en una carpeta temporal no garantiza que sus archivos sigan disponibles; comprobarlo y reconstruirlo desde los acuerdos documentados si hace falta.
 

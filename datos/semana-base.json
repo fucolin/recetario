@@ -2,18 +2,18 @@
   "esquema": "recetario-semana-base-1.1",
   "id": "semana-base",
   "titulo": "Mi semana base",
-  "fecha_actualizacion": "2026-10-16",
-  "fuente": "Excel semana-base-casa-marisa(2).xlsx aportado por el usuario el 16 de octubre de 2026.",
+  "fecha_actualizacion": "2026-10-19",
+  "fuente": "Menú activo del editor privado, publicado mediante ARGH el 19 de octubre de 2026; menú inicial procedente del Excel aportado el 16 de octubre de 2026.",
   "dias": [
     {
       "dia": "Lunes",
       "comida": [
         {
-          "texto": "Verduras",
-          "categoria": "Vegetales",
+          "texto": "Marisco",
+          "categoria": "Mariscos",
           "ejemplo": {
-            "titulo": "Menestra guisada",
-            "pagina": "menestra-guisada.html"
+            "titulo": "Gambas al ajillo con pasta",
+            "pagina": null
           }
         }
       ],

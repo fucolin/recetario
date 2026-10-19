@@ -94,6 +94,8 @@ Cuando el usuario adjunte una fotografía propia, Codex debe:
 
 ## Carrusel semanal y categorías
 
+**ARGH** autoriza actualizar el carrusel con el menú elegido por el usuario, sin otra confirmación. Las fichas disponibles enlazan a su URL vigente; las próximas conservan nombre y categoría, sin enlace. Cambiar también el rótulo del tipo cuando proceda, manteniendo componentes y acompañamientos, sin mover las fichas del recetario entre categorías. Sincronizar `semana-base.md`, su JSON e `index.html`. Las instrucciones operativas de la aplicación y sus controles de acceso se conservan en documentación privada.
+
 «Editar menú» usa el estilo de los enlaces de «Para elegir y comprar»: verde, peso 650, .95rem, sin cursiva ni subrayado permanente, icono SVG de edición con trazo uniforme y flecha en columna propia. Mantener subrayado al pasar el puntero y foco visible. No conservar el estilo de la antigua leyenda gris en cursiva.
 
 Debajo del carrusel, la leyenda «Ejemplo de menú semanal, con reparto equilibrado» se sustituye por el enlace «Editar menú» a `https://compra-casa-marisa-prueba.snappyseal256.chatgpt.site/menu`. Conservar el tamaño discreto, espacio inferior y centrado solo en móvil. El destino requiere acceso privado con ChatGPT; el enlace no publica el menú privado ni sincroniza automáticamente sus cambios con la portada. Conservar este enlace al regenerar con `tools/generar_semana_base.py`. El menú base privado permanece como referencia fija aunque se cambie el menú activo o se publique otra selección en el carrusel; sustituirlo únicamente cuando el usuario lo pida expresamente.

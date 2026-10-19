@@ -1,6 +1,6 @@
 # Continuar en otro chat · Casa Marisa
 
-Actualizado: 19 de octubre de 2026, Europe/Madrid. Publicación de los accesos privados de menú y compra, autorizada mediante ARG; comprobar el despliegue.
+Actualizado: 19 de octubre de 2026, Europe/Madrid. Publicación del menú activo en el carrusel, autorizada mediante ARGH; comprobar el despliegue.
 
 ## Mensaje listo para copiar y pegar
 
@@ -49,11 +49,13 @@ Seguimiento al cambiar de chat: distinguir «web publicada y comprobada», «met
 
 ## Pendientes y siguiente paso
 
+Publicación autorizada mediante **ARGH**: consultado el menú activo guardado en el editor privado. Única diferencia respecto al carrusel: comida del lunes cambia de «Verduras · Menestra guisada» a «Marisco · Gambas al ajillo con pasta». La ficha de gambas sigue próxima, por lo que su nombre se muestra sin enlace y con categoría Mariscos; no crear ficha, PDF ni datos culinarios por este cambio. Resto de días y componentes conservados. Lista explícita: `semana-base.md`, `datos/semana-base.json`, `index.html`, `GUIA_DE_TRABAJO.md`, `docs/REFERENCIA_DE_TRABAJO.md` y este resumen. Revisar el despliegue tras publicar; la revisión local `portada-menu-activo-revision-20261019-v4.html` no se publica. Los accesos de menú y compra del commit `325d4f84d11e104624e325760d0f4047960aeb1c` ya quedaron publicados y comprobados.
+
 Publicación autorizada mediante ARG el 19/10/2026: accesos a la aplicación privada desde la portada. «Editar menú» sustituye la leyenda debajo del carrusel y enlaza a `https://compra-casa-marisa-prueba.snappyseal256.chatgpt.site/menu`; estilo de «Para elegir y comprar»: verde, peso 650, .95rem, icono de edición, flecha y foco visible, sin cursiva. Conservados el centrado móvil y el espacio inferior; generador semanal sincronizado. «Lista de la compra» aparece después de los tres recursos públicos, en una fila propia con filete, candado y descripción «Acceso privado · Iniciar sesión con ChatGPT», enlazada a la raíz del mismo sitio.
 
 Lista explícita: `index.html`, `tools/generar_semana_base.py`, `docs/REFERENCIA_DE_TRABAJO.md` y este resumen. La revisión de portada v3 fue mostrada y aprobada. Comprobados enlaces, generador y noindex; verificar la portada desplegada después de publicar. Datos del menú público, recetas, PDF y estados privados de la compra conservados. No se publican revisiones, contenido de la lista, marcas, correos ni credenciales.
 
-El menú privado está desplegado y su menú base es una referencia fija: no sustituirla al editar el menú activo ni al publicar ese menú en el carrusel, salvo petición expresa. La sincronización privado→público solo se realiza cuando el usuario la solicita y sigue preparar/mostrar/ARG. La aplicación privada está actualmente autorizada solo para el propietario; falta que el usuario identifique a la segunda persona para invitarla.
+Los detalles de acceso, autorizaciones, funcionamiento y continuidad de la aplicación se conservan en un resumen privado fuera de este repositorio. No copiarlos a las guías ni al seguimiento público. La publicación del menú en el carrusel se realiza únicamente a petición del usuario.
 
 Pendiente aparte, sin incluir en esta publicación: ajuste de texto del producto ElPozo en «En mi cocina», acordado después de `ce18cd860be38bc2e3d6a0d49fe27895306a86de`: mover allí la idea «Me facilita tener a mano una carne que considero bastante saludable para varios tipos de comida improvisada», retirarla del motivo sobre fecha de consumo preferente y conservar el uso de la fajita como enlace en «Lo uso en». Revisión v6 ya mostrada; no asumir que este ARG para los accesos publica también ese ajuste.
 
