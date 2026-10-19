@@ -96,7 +96,7 @@ Cuando el usuario adjunte una fotografía propia, Codex debe:
 
 **ARGH** autoriza actualizar el carrusel con el menú elegido por el usuario, sin otra confirmación. Las fichas disponibles enlazan a su URL vigente; las próximas conservan nombre y categoría, sin enlace. Cambiar también el rótulo del tipo cuando proceda, manteniendo componentes y acompañamientos, sin mover las fichas del recetario entre categorías. Sincronizar `semana-base.md`, su JSON e `index.html`. Las instrucciones operativas de la aplicación y sus controles de acceso se conservan en documentación privada.
 
-«Editar menú» y «Lista de la compra» se presentan como dos botones de navegación: enlaces con borde verde suave, fondo verde claro, esquinas redondeadas, texto verde de peso 650 y .95rem, iconos SVG de línea y sin flechas. Mantener foco visible y respuesta al pasar el puntero. Conservar la semántica de enlace, pues navegan a otra página.
+«Editar menú» y «Lista de la compra» se presentan como dos botones de navegación: enlaces con fondo blanco, borde `var(--borde)` y radio de 8 px como los controles superiores del carrusel, texto verde de peso 650 y .95rem, iconos SVG de línea y sin flechas. Mantener fondo blanco al pasar el puntero, destacando el borde, y foco visible. Conservar la semántica de enlace, pues navegan a otra página.
 
 Debajo de ambos enlaces, una nota compartida: «Acceso privado [icono de candado] Iniciar sesión con ChatGPT», gris #64756a y .88rem, alineada a la izquierda en escritorio y centrada en móvil. Usar SVG de línea, no un punto separador. Conservarla en el generador.
 
