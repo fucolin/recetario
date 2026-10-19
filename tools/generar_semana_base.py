@@ -47,8 +47,8 @@ def main():
     for n, day in enumerate(data['dias']):
         block.append(f'<article class="week-day" role="listitem" data-weekday="{n}" aria-labelledby="week-day-{n}"><header><h3 id="week-day-{n}">{escape(day["dia"])}</h3></header>{meal(day["comida"], "Comida")}{meal(day["cena"], "Cena")}</article>')
     block += ['</div><nav class="week-caption" aria-label="Menú y compra">'
-              '<a class="edit-menu-link" href="https://compra-casa-marisa-prueba.snappyseal256.chatgpt.site/menu"><span><svg class="edit-menu-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m15 5 4 4M4 20l4-1L20 7a2.1 2.1 0 0 0-3-3L5 16l-1 4Z"></path></svg>Editar menú</span><span class="arrow" aria-hidden="true">→</span></a>'
-              '<a class="edit-menu-link" href="https://compra-casa-marisa-prueba.snappyseal256.chatgpt.site"><span><svg class="edit-menu-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m3 5 2 2 3-3m-5 9 2 2 3-3m-5 9 2 2 3-3M12 5h9m-9 8h9m-9 8h9"></path></svg>Lista de la compra</span><span class="arrow" aria-hidden="true">→</span></a>'
+              '<a class="edit-menu-link" href="https://compra-casa-marisa-prueba.snappyseal256.chatgpt.site/menu"><span><svg class="edit-menu-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m15 5 4 4M4 20l4-1L20 7a2.1 2.1 0 0 0-3-3L5 16l-1 4Z"></path></svg>Editar menú</span></a>'
+              '<a class="edit-menu-link" href="https://compra-casa-marisa-prueba.snappyseal256.chatgpt.site"><span><svg class="edit-menu-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m3 5 2 2 3-3m-5 9 2 2 3-3m-5 9 2 2 3-3M12 5h9m-9 8h9m-9 8h9"></path></svg>Lista de la compra</span></a>'
               '<p class="private-access-note">Acceso privado <svg class="private-access-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="5" y="10" width="14" height="11" rx="2"></rect><path d="M8 10V7a4 4 0 0 1 8 0v3m-4 5v2"></path></svg> Iniciar sesión con ChatGPT</p>'
               '</nav></section>', '<script>' + (ROOT / 'tools/semana_base.js').read_text() + '</script>', '<!-- SEMANA_BASE_FIN -->']
     page = ROOT / 'index.html'

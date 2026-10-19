@@ -1,6 +1,6 @@
 # Continuar en otro chat · Casa Marisa
 
-Actualizado: 19 de octubre de 2026, Europe/Madrid. Publicación de los accesos de menú y compra juntos bajo el carrusel, autorizada mediante ARG; comprobar el despliegue.
+Actualizado: 19 de octubre de 2026, Europe/Madrid. Publicación de los dos botones de menú y compra bajo el carrusel, autorizada mediante ARG; comprobar el despliegue.
 
 ## Mensaje listo para copiar y pegar
 
@@ -48,6 +48,8 @@ Seguimiento al cambiar de chat: distinguir «web publicada y comprobada», «met
 - El resultado del guardado y del despliegue se comprueba después de publicar; consultar el commit y su ejecución en GitHub al retomar, sin suponer que esta descripción anticipa esa comprobación.
 
 ## Pendientes y siguiente paso
+
+Publicación autorizada mediante ARG, revisión v5 mostrada y aprobada: los accesos de menú y compra pasan a ser dos botones de navegación, con borde verde, fondo claro, esquinas redondeadas e iconos sin flechas; conservan debajo la nota de acceso privado con candado. Parte de la publicación comprobada `16125f170abb2de64e4239fe8199f2d08a194350`. Lista explícita: `index.html`, `tools/generar_semana_base.py`, `docs/REFERENCIA_DE_TRABAJO.md` y este resumen. Revisión `portada-botones-menu-compra-revision-20261019-v5.html`, excluida de publicación. Comprobados enlaces, generador y noindex; comprobar el despliegue tras publicar.
 
 Publicación autorizada mediante ARG: «Lista de la compra» junto a «Editar menú» debajo del carrusel, con el mismo estilo, sin duplicarlo en «Para elegir y comprar». Checklist junto al enlace de la lista; debajo de ambos, nota compartida «Acceso privado [icono de candado] Iniciar sesión con ChatGPT». Ambos enlaces y la nota se conservan al regenerar. Lista explícita: `index.html`, `tools/generar_semana_base.py`, `docs/REFERENCIA_DE_TRABAJO.md` y este resumen. Revisión v4 mostrada y aprobada; `portada-menu-compra-revision-20261019-v4.html` queda excluida de la publicación. Comprobados enlaces únicos, nota, generador y noindex. El cambio no modifica el menú ni el contenido o estado de las aplicaciones privadas. Comprobar el despliegue después de publicar; la ubicación descrita en el párrafo histórico del primer acceso queda sustituida por esta disposición.
 
