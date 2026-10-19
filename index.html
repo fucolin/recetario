@@ -36,7 +36,11 @@
     .masthead .house-name{display:block;font-family:Georgia,'Times New Roman',serif;font-size:clamp(2.5rem,8vw,3.6rem);line-height:1.12;letter-spacing:-.035em}
     .masthead .intro{font-size:clamp(.8rem,3.5vw,.92rem);margin:16px auto 0;max-width:480px;line-height:1.7;text-wrap:pretty}
     .week-base{margin:0 0 46px}
-    .week-caption{margin:8px 0 0;color:#808080;font-size:.75rem;font-style:italic;line-height:1.45}
+    .week-caption{margin:8px 0 0;line-height:1.4}
+    .edit-menu-link{display:inline-grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:12px;padding:8px 0;color:var(--verde);font-size:.95rem;font-weight:650;text-decoration:none}
+    .edit-menu-icon{width:1em;height:1em;vertical-align:-.1em;margin-right:.4em;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+    .edit-menu-link:hover>span:first-child{text-decoration:underline;text-underline-offset:3px}
+    .edit-menu-link:focus-visible{outline:3px solid #9db8a5;outline-offset:3px;border-radius:4px}
     .catalog-title{font-size:1.85rem;line-height:1.2;color:var(--verde);margin:0 0 22px;font-weight:650}
     .week-track{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;overscroll-behavior-x:contain;padding-bottom:10px;scrollbar-width:none}
     .week-track::-webkit-scrollbar{display:none}
@@ -125,6 +129,7 @@
     .shopping-resources a:focus-visible{outline:3px solid #9db8a5;outline-offset:3px;border-radius:4px}
     @media(min-width:651px){.shopping-resources{padding-top:24px;padding-bottom:14px}.shopping-resources ul{display:grid;grid-template-columns:repeat(3,minmax(0,1fr))}.shopping-resources li{padding:0 16px}.shopping-resources li:first-child{padding-left:0}.shopping-resources li:last-child{padding-right:0}.shopping-resources li+li{border-top:0;border-left:1px solid var(--borde)}.shopping-resources a{gap:6px;padding:8px 0}.shopping-resources strong{font-size:.95rem}.shopping-resources .description{font-size:.82rem;margin-top:8px}}
     @media(max-width:650px){.shopping-resources{padding:16px 16px 4px}.shopping-resources h2{left:12px}}
+    .private-shopping-access{border-top:1px solid var(--borde);margin-top:12px;padding-top:8px}
   </style>
 </head>
 <body>
@@ -154,7 +159,7 @@
 <article class="week-day" role="listitem" data-weekday="4" aria-labelledby="week-day-4"><header><h3 id="week-day-4">Viernes</h3></header><div class="week-meal"><p class="meal-label">Comida</p><div class="week-dishes"><div class="week-dish"><strong>Ensalada</strong><div class="week-example"><a href="ensalada-salmon-ahumado-mango-aguacate.html">de salmón, mango y aguacate</a></div></div></div></div><div class="week-meal"><p class="meal-label">Cena</p><div class="week-dishes"><div class="week-dish"><strong>Envuelto/Bocata</strong><div class="week-example"><a href="burrito-frijoles-negros.html">Burrito de frijoles negros</a> + <a href="crema-aprovechamiento-marisa.html">puré aprovechategui</a></div></div></div></div></article>
 <article class="week-day" role="listitem" data-weekday="5" aria-labelledby="week-day-5"><header><h3 id="week-day-5">Sábado</h3></header><div class="week-meal has-pair"><p class="meal-label">Comida</p><div class="week-dishes"><div class="week-dish"><strong>Marisco</strong><div class="week-example"><span>Gambas al ajillo con pasta</span></div></div><div class="week-dish"><strong>Ensalada</strong><div class="week-example"><span>de tomate y mozzarella</span></div></div></div></div><div class="week-meal"><p class="meal-label">Cena</p><div class="week-dishes"><div class="week-dish"><strong>Libre</strong><div class="week-example"><span aria-label="Advertencia">⚠️</span> Respete vd. las cantidades</div></div></div></div></article>
 <article class="week-day" role="listitem" data-weekday="6" aria-labelledby="week-day-6"><header><h3 id="week-day-6">Domingo</h3></header><div class="week-meal"><p class="meal-label">Comida</p><div class="week-dishes"><div class="week-dish"><strong>Guiso</strong><div class="week-example"><a href="pollo-guisado-calabacin.html">Pollo guisado con calabacín</a></div></div></div></div><div class="week-meal has-pair"><p class="meal-label">Cena</p><div class="week-dishes"><div class="week-dish"><strong>Sopa</strong><div class="week-example"><span>de fideos</span></div></div><div class="week-dish"><strong>Huevos</strong><div class="week-example"><a href="fajita-francesa-pavo.html">Fajita de francesa</a></div></div></div></div></article>
-</div><p class="week-caption">Ejemplo de menú semanal, con reparto equilibrado</p></section>
+</div><p class="week-caption"><a class="edit-menu-link" href="https://compra-casa-marisa-prueba.snappyseal256.chatgpt.site/menu"><span><svg class="edit-menu-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m15 5 4 4M4 20l4-1L20 7a2.1 2.1 0 0 0-3-3L5 16l-1 4Z"></path></svg>Editar menú</span><span class="arrow" aria-hidden="true">→</span></a></p></section>
 <script>// Se incrusta en portada al regenerar el plan. Solo existen los siete días originales.
 (()=>{
 const track=document.getElementById('week-track');
@@ -227,6 +232,9 @@ if(typeof ResizeObserver!=='undefined')new ResizeObserver(()=>arrange(selected))
       <li><a href="calendario-verduras-temporada.html"><span><strong><svg class="calendar-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M7 3v4m10-4v4M3 11h18M8 15h2m4 0h2m-8 3h2"></path></svg>Verduras de temporada</strong><span class="description">Qué verduras elegir cada mes para preparar el menú semanal.</span></span><span class="arrow" aria-hidden="true">→</span></a></li>
       <li><a href="calendario-frutas-temporada.html"><span><strong><svg class="calendar-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M7 3v4m10-4v4M3 11h18M8 15h2m4 0h2m-8 3h2"></path></svg>Frutas de temporada</strong><span class="description">Fruta de España y, cuando sea posible, de temporada en Galicia.</span></span><span class="arrow" aria-hidden="true">→</span></a></li>
     </ul>
+    <div class="private-shopping-access">
+      <a href="https://compra-casa-marisa-prueba.snappyseal256.chatgpt.site"><span><strong><svg class="calendar-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="5" y="10" width="14" height="11" rx="2"></rect><path d="M8 10V7a4 4 0 0 1 8 0v3m-4 5v2"></path></svg>Lista de la compra</strong><span class="description">Acceso privado · Iniciar sesión con ChatGPT</span></span><span class="arrow" aria-hidden="true">→</span></a>
+    </div>
   </nav>
 
   <section id="catalogo-recetas" aria-labelledby="catalog-title">

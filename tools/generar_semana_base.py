@@ -46,7 +46,7 @@ def main():
              '<div class="week-track" id="week-track" role="list" aria-label="Semana de lunes a domingo">']
     for n, day in enumerate(data['dias']):
         block.append(f'<article class="week-day" role="listitem" data-weekday="{n}" aria-labelledby="week-day-{n}"><header><h3 id="week-day-{n}">{escape(day["dia"])}</h3></header>{meal(day["comida"], "Comida")}{meal(day["cena"], "Cena")}</article>')
-    block += ['</div><p class="week-caption">Ejemplo de menú semanal, con reparto equilibrado</p></section>', '<script>' + (ROOT / 'tools/semana_base.js').read_text() + '</script>', '<!-- SEMANA_BASE_FIN -->']
+    block += ['</div><p class="week-caption"><a class="edit-menu-link" href="https://compra-casa-marisa-prueba.snappyseal256.chatgpt.site/menu"><span><svg class="edit-menu-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m15 5 4 4M4 20l4-1L20 7a2.1 2.1 0 0 0-3-3L5 16l-1 4Z"></path></svg>Editar menú</span><span class="arrow" aria-hidden="true">→</span></a></p></section>', '<script>' + (ROOT / 'tools/semana_base.js').read_text() + '</script>', '<!-- SEMANA_BASE_FIN -->']
     page = ROOT / 'index.html'
     html, count = re.subn(r'<!-- SEMANA_BASE_INICIO -->.*?<!-- SEMANA_BASE_FIN -->', '\n'.join(block), page.read_text(), flags=re.S)
     assert count == 1, 'El bloque de semana base debe aparecer exactamente una vez'

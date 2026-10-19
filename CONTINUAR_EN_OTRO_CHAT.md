@@ -1,6 +1,6 @@
 # Continuar en otro chat · Casa Marisa
 
-Actualizado: 18 de octubre de 2026, Europe/Madrid. Publicación de la pechuga de pavo ElPozo 1954, sus enlaces y el carrusel, autorizada mediante ARG. Verificar el despliegue después de publicar.
+Actualizado: 19 de octubre de 2026, Europe/Madrid. Publicación de los accesos privados de menú y compra, autorizada mediante ARG; comprobar el despliegue.
 
 ## Mensaje listo para copiar y pegar
 
@@ -29,7 +29,7 @@ Retoma el estado y los pendientes de este archivo, comprobando qué está public
 - «Menestra guisada» se incorpora como receta de Marisa, categoría Vegetales, con NUEVA en portada y categoría; sustituye la prevista «Menestra» y enlaza desde la comida del lunes. Sofrito acordado de 10 min (8 de cebolla y 2 de ajo), tabla en escritorio y pasos abiertos en móvil, PDF A4 con tabla. El relato oral se conserva separado; no hay manuscrito.
 - Burrito de frijoles negros: `burrito-frijoles-negros.html`; la URL antigua redirige. Cabecera fotorrealista y diagrama de montaje de seis imágenes. El PDF incorpora el diagrama 3+3, sin pies ni numeración de los pasos principales; conservar la excepción de la guía.
 - Las fichas de platos y sus tarjetas de categoría tienen las ilustraciones publicadas. Mantener la cocina y el detalle visual acordados; consultar la guía y las imágenes vigentes antes de generar otras.
-- Debajo del carrusel: «Ejemplo de menú semanal, con reparto equilibrado», .75rem, cursiva, gris #808080, centrada solo en móvil y con espacio debajo.
+- En esta publicación autorizada, la leyenda debajo del carrusel se sustituye por «Editar menú», con enlace al menú privado y el estilo de los recursos de compra. Consultar el detalle y el estado de comprobación en Pendientes.
 
 ## Relación con el catálogo privado de Eva
 
@@ -49,9 +49,17 @@ Seguimiento al cambiar de chat: distinguir «web publicada y comprobada», «met
 
 ## Pendientes y siguiente paso
 
+Publicación autorizada mediante ARG el 19/10/2026: accesos a la aplicación privada desde la portada. «Editar menú» sustituye la leyenda debajo del carrusel y enlaza a `https://compra-casa-marisa-prueba.snappyseal256.chatgpt.site/menu`; estilo de «Para elegir y comprar»: verde, peso 650, .95rem, icono de edición, flecha y foco visible, sin cursiva. Conservados el centrado móvil y el espacio inferior; generador semanal sincronizado. «Lista de la compra» aparece después de los tres recursos públicos, en una fila propia con filete, candado y descripción «Acceso privado · Iniciar sesión con ChatGPT», enlazada a la raíz del mismo sitio.
+
+Lista explícita: `index.html`, `tools/generar_semana_base.py`, `docs/REFERENCIA_DE_TRABAJO.md` y este resumen. La revisión de portada v3 fue mostrada y aprobada. Comprobados enlaces, generador y noindex; verificar la portada desplegada después de publicar. Datos del menú público, recetas, PDF y estados privados de la compra conservados. No se publican revisiones, contenido de la lista, marcas, correos ni credenciales.
+
+El menú privado está desplegado y su menú base es una referencia fija: no sustituirla al editar el menú activo ni al publicar ese menú en el carrusel, salvo petición expresa. La sincronización privado→público solo se realiza cuando el usuario la solicita y sigue preparar/mostrar/ARG. La aplicación privada está actualmente autorizada solo para el propietario; falta que el usuario identifique a la segunda persona para invitarla.
+
+Pendiente aparte, sin incluir en esta publicación: ajuste de texto del producto ElPozo en «En mi cocina», acordado después de `ce18cd860be38bc2e3d6a0d49fe27895306a86de`: mover allí la idea «Me facilita tener a mano una carne que considero bastante saludable para varios tipos de comida improvisada», retirarla del motivo sobre fecha de consumo preferente y conservar el uso de la fajita como enlace en «Lo uso en». Revisión v6 ya mostrada; no asumir que este ARG para los accesos publica también ese ajuste.
+
 Publicación autorizada mediante ARG: producto «Pechuga de pavo asada con madera de haya», ElPozo 1954 Premium Gourmet, envase de 120 g, identificador `pechuga-pavo-elpozo-1954`. Maestro Markdown/YAML, JSON, Schema.org y HTML, entrada en Productos preferidos, fotografías originales completas del envase y etiqueta y captura de Yuka con créditos. Sin PDF. Etiqueta: 95 % de pechuga de pavo, 21,3 g de proteínas y 2,2 g de sal por 100 g; posibles trazas de proteína de leche y soja, refrigeración 0–5 °C y consumo en 2–3 días tras abrir. Yuka: 57/100, Bueno; conserva por separado la declaración «Sin aditivos» del envase y el aditivo de riesgo limitado de Yuka no identificado en la captura.
 
-Precio confirmado por el usuario tras revisar los tickets privados: Carrefour Los Rosales, 30/09/2026, 2,75 € por 120 g (22,92 €/kg). Promoción histórica 3×2: tres envases por 5,50 €, 1,83 €/envase y 15,28 €/kg con redondeo habitual; línea visible sin «aprox.». Motivos personales recogidos: recurso en la nevera para comidas improvisadas, consumo ocasional de fiambre, elección por su 95 % de pavo, declaración del envase y fecha de consumo preferente lejana al comprarlo. Usado a menudo en la fajita de francesa y pavo, con enlaces recíprocos; solo el nombre genérico «pavo» enlaza desde los ingredientes de la receta. Cantidades, instrucciones, fecha culinaria y PDF conservados. Este enlace no requiere actualizar el catálogo privado de Eva.
+La ficha de producto conserva sus datos aprobados y enlaza a la fajita de francesa y pavo. Solo el nombre genérico «pavo» enlaza desde los ingredientes de la receta. Cantidades, instrucciones, fecha culinaria y PDF conservados. Este enlace no requiere actualizar el catálogo privado de Eva. Los detalles históricos de compras se retiran de este resumen público con autorización del usuario; consultar los datos aprobados en la ficha y las fuentes privadas cuando corresponda.
 
 Carrusel: cena del domingo bajo «Huevos», texto «Fajita de francesa» enlazado a `fajita-francesa-pavo.html`; conserva Sopa de fideos y la categoría real del ejemplo, Envueltos y bocados. Sincronizados maestro semanal, JSON y portada.
 
