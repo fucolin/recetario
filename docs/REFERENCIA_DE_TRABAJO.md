@@ -98,7 +98,9 @@ Cuando el usuario adjunte una fotografía propia, Codex debe:
 
 «Editar menú» usa el estilo de los enlaces de «Para elegir y comprar»: verde, peso 650, .95rem, sin cursiva ni subrayado permanente, icono SVG de edición con trazo uniforme y flecha en columna propia. Mantener subrayado al pasar el puntero y foco visible. No conservar el estilo de la antigua leyenda gris en cursiva.
 
-Debajo del carrusel, la leyenda «Ejemplo de menú semanal, con reparto equilibrado» se sustituye por el enlace «Editar menú» a `https://compra-casa-marisa-prueba.snappyseal256.chatgpt.site/menu`. Conservar el tamaño discreto, espacio inferior y centrado solo en móvil. El destino requiere acceso privado con ChatGPT; el enlace no publica el menú privado ni sincroniza automáticamente sus cambios con la portada. Conservar este enlace al regenerar con `tools/generar_semana_base.py`. El menú base privado permanece como referencia fija aunque se cambie el menú activo o se publique otra selección en el carrusel; sustituirlo únicamente cuando el usuario lo pida expresamente.
+Debajo de ambos enlaces, una nota compartida: «Acceso privado [icono de candado] Iniciar sesión con ChatGPT», gris #64756a y .88rem, alineada a la izquierda en escritorio y centrada en móvil. Usar SVG de línea, no un punto separador. Conservarla en el generador.
+
+Debajo del carrusel, mostrar juntos «Editar menú» a `https://compra-casa-marisa-prueba.snappyseal256.chatgpt.site/menu` y «Lista de la compra» a la raíz del mismo sitio. Ambos usan el mismo estilo de enlace, con icono y flecha; alineación izquierda en escritorio y centrada en móvil, permitiendo pasar a otra línea si falta espacio. Conservar el tamaño discreto y el espacio inferior. Los destinos requieren acceso privado con ChatGPT; los enlaces no publican el contenido privado ni sincronizan automáticamente los cambios con la portada. Conservar ambos enlaces al regenerar con `tools/generar_semana_base.py`. El menú base privado permanece como referencia fija aunque se cambie el menú activo o se publique otra selección en el carrusel; sustituirlo únicamente cuando el usuario lo pida expresamente.
 
 Si una comida o cena tiene dos platos, dividir su celda en dos columnas con separador vertical: cada tipo en negrita y su ejemplo debajo. No apilar los platos ni colocar un signo más entre bloques. Mantener el carrusel compacto, con menor altura mínima en móvil, sin recortar el texto ni los enlaces.
 
@@ -141,7 +143,7 @@ El buscador incluye las tarjetas próximas por título y categoría, pero distin
 
 ## Portada, imagen social y buscador
 
-Dentro de «Para elegir y comprar», después de los tres recursos públicos y separado por un filete horizontal, añadir el acceso «Lista de la compra», icono de candado de línea y descripción «Acceso privado · Iniciar sesión con ChatGPT». Destino: `https://compra-casa-marisa-prueba.snappyseal256.chatgpt.site`. La portada solo enlaza: el contenido de la lista y las marcas se conservan en su aplicación privada. No incluirlos en el HTML público, el buscador o los contadores. El enlace no concede acceso; requiere una cuenta autorizada. Mantener las tres columnas de recursos en escritorio y el acceso privado en una fila completa debajo; en móvil se apila con ellos.
+El acceso «Lista de la compra» va junto a «Editar menú», debajo del carrusel; no duplicarlo dentro de «Para elegir y comprar». Usar una checklist SVG de línea junto al enlace; reservar el candado para la nota compartida inferior. La portada solo enlaza: el contenido de la lista y las marcas se conservan en su aplicación privada. No incluirlos en el HTML público, el buscador o los contadores. El enlace no concede acceso; requiere una cuenta autorizada. «Para elegir y comprar» conserva sus tres recursos públicos, en columnas en escritorio y apilados en móvil.
 
 La caja de búsqueda no lleva un rótulo visible encima. Conservar `aria-label="Buscar recetas"` en el campo y empezar la ayuda inferior con «Busca» en negrita.
 

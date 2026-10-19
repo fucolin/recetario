@@ -1,6 +1,6 @@
 # Continuar en otro chat · Casa Marisa
 
-Actualizado: 19 de octubre de 2026, Europe/Madrid. Publicación del menú activo en el carrusel, autorizada mediante ARGH; comprobar el despliegue.
+Actualizado: 19 de octubre de 2026, Europe/Madrid. Publicación de los accesos de menú y compra juntos bajo el carrusel, autorizada mediante ARG; comprobar el despliegue.
 
 ## Mensaje listo para copiar y pegar
 
@@ -48,6 +48,8 @@ Seguimiento al cambiar de chat: distinguir «web publicada y comprobada», «met
 - El resultado del guardado y del despliegue se comprueba después de publicar; consultar el commit y su ejecución en GitHub al retomar, sin suponer que esta descripción anticipa esa comprobación.
 
 ## Pendientes y siguiente paso
+
+Publicación autorizada mediante ARG: «Lista de la compra» junto a «Editar menú» debajo del carrusel, con el mismo estilo, sin duplicarlo en «Para elegir y comprar». Checklist junto al enlace de la lista; debajo de ambos, nota compartida «Acceso privado [icono de candado] Iniciar sesión con ChatGPT». Ambos enlaces y la nota se conservan al regenerar. Lista explícita: `index.html`, `tools/generar_semana_base.py`, `docs/REFERENCIA_DE_TRABAJO.md` y este resumen. Revisión v4 mostrada y aprobada; `portada-menu-compra-revision-20261019-v4.html` queda excluida de la publicación. Comprobados enlaces únicos, nota, generador y noindex. El cambio no modifica el menú ni el contenido o estado de las aplicaciones privadas. Comprobar el despliegue después de publicar; la ubicación descrita en el párrafo histórico del primer acceso queda sustituida por esta disposición.
 
 Publicación autorizada mediante **ARGH**: consultado el menú activo guardado en el editor privado. Única diferencia respecto al carrusel: comida del lunes cambia de «Verduras · Menestra guisada» a «Marisco · Gambas al ajillo con pasta». La ficha de gambas sigue próxima, por lo que su nombre se muestra sin enlace y con categoría Mariscos; no crear ficha, PDF ni datos culinarios por este cambio. Resto de días y componentes conservados. Lista explícita: `semana-base.md`, `datos/semana-base.json`, `index.html`, `GUIA_DE_TRABAJO.md`, `docs/REFERENCIA_DE_TRABAJO.md` y este resumen. Revisar el despliegue tras publicar; la revisión local `portada-menu-activo-revision-20261019-v4.html` no se publica. Los accesos de menú y compra del commit `325d4f84d11e104624e325760d0f4047960aeb1c` ya quedaron publicados y comprobados.
 
