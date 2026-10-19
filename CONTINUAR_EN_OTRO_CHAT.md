@@ -1,6 +1,6 @@
 # Continuar en otro chat · Casa Marisa
 
-Actualizado: 19 de octubre de 2026, Europe/Madrid. Publicación del fondo blanco de los botones de menú y compra, autorizada mediante ARG; comprobar el despliegue.
+Actualizado: 19 de octubre de 2026, Europe/Madrid. Publicación del centrado de los botones de menú y compra y su nota, autorizada mediante ARG; comprobar el despliegue.
 
 ## Mensaje listo para copiar y pegar
 
@@ -48,6 +48,8 @@ Seguimiento al cambiar de chat: distinguir «web publicada y comprobada», «met
 - El resultado del guardado y del despliegue se comprueba después de publicar; consultar el commit y su ejecución en GitHub al retomar, sin suponer que esta descripción anticipa esa comprobación.
 
 ## Pendientes y siguiente paso
+
+Publicación autorizada mediante ARG: centrar los dos botones de menú y compra y la nota inferior tanto en escritorio como en móvil. Conservados fondo blanco, iconos y destinos. Parte del commit comprobado `858dc9a46d08d6cbc845eace388ef30d3171abf3`. Lista explícita: `index.html`, `docs/REFERENCIA_DE_TRABAJO.md` y este resumen. Revisión `portada-botones-centrados-revision-20261019-v7.html`, excluida de publicación. Comprobados estilos y noindex; comprobar el despliegue tras publicar.
 
 Publicación autorizada mediante «Hazlo y ARG»: botones de menú y compra con fondo blanco, borde y radio de 8 px como los controles superiores del carrusel; iconos, nota y destinos conservados. Parte del commit comprobado `44d04565f3e590ad60165ba1160887713c8ce9a8`. Lista explícita: `index.html`, `docs/REFERENCIA_DE_TRABAJO.md` y este resumen. Revisión `portada-botones-blancos-revision-20261019-v6.html`, excluida de publicación. Comprobados estilos y noindex; comprobar despliegue tras publicar.
 
