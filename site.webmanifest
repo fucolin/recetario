@@ -1,0 +1,23 @@
+{
+  "name": "Recetario de Casa Marisa",
+  "short_name": "Casa Marisa",
+  "start_url": "/recetario/",
+  "scope": "/recetario/",
+  "display": "browser",
+  "background_color": "#fffdf5",
+  "theme_color": "#245d42",
+  "icons": [
+    {
+      "src": "images/iconos/icono-192-v1.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "images/iconos/icono-512-v1.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
