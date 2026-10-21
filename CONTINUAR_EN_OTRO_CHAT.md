@@ -1,5 +1,9 @@
 # Continuar en otro chat · Casa Marisa
 
+## 22/10/2026 · Nombres completos de platos
+
+El cargador admite títulos de hasta 300 caracteres, en consonancia con el editor y su servicio de publicación, para conservar nombres largos sin recortarlos. Categorías, enlaces, número de platos/días y controles de validación permanecen iguales. Prueba de aceptación de 300 caracteres y rechazo de 301 conservando la copia válida anterior. No se publica ningún menú ni contenido de Eva desde esta actualización de código. Comprobar despliegue del commit al retomar.
+
 ## 22/10/2026 · Aviso bajo Libre
 
 Cuando una comida no contiene platos, el menú público muestra Libre y debajo «⚠️ Respete vd. las cantidades». El aviso se añade al cargador del menú publicado y funciona también desde caché; desaparece al volver a añadir un plato. El respaldo estático y su maestro ya contienen este aviso y se conservan. No se modifica el menú privado ni la copia publicada de datos. Pruebas del DOM simulado para comidas vacías, caché y sustitución por plato; comprobar el despliegue de este commit al retomar. Revisión visual interactiva no disponible.

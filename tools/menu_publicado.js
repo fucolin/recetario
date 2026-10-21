@@ -5,7 +5,7 @@
  const names=['Lunes','Martes','Miércoles','Jueves','Viernes','Sábado','Domingo'];
  const track=document.getElementById('week-track');if(!track)return;
  const text=(s,n)=>typeof s==='string'&&s.length>0&&s.length<=n&&s===s.trim()&&!/[\u0000-\u001f\u007f]/.test(s);
- function valid(data){return data&&data.schema===1&&Number.isSafeInteger(data.revision)&&data.revision>0&&typeof data.publishedAt==='string'&&!isNaN(Date.parse(data.publishedAt))&&Array.isArray(data.days)&&data.days.length===7&&data.days.every((d,i)=>d&&d.day===names[i]&&['comida','cena'].every(m=>Array.isArray(d[m])&&d[m].length<=2&&d[m].every(p=>p&&text(p.title,120)&&(p.category===null||text(p.category,80))&&(p.url===null||(typeof p.url==='string'&&/^[a-z0-9]+(?:-[a-z0-9]+)*\.html$/.test(p.url))))));}
+ function valid(data){return data&&data.schema===1&&Number.isSafeInteger(data.revision)&&data.revision>0&&typeof data.publishedAt==='string'&&!isNaN(Date.parse(data.publishedAt))&&Array.isArray(data.days)&&data.days.length===7&&data.days.every((d,i)=>d&&d.day===names[i]&&['comida','cena'].every(m=>Array.isArray(d[m])&&d[m].length<=2&&d[m].every(p=>p&&text(p.title,300)&&(p.category===null||text(p.category,80))&&(p.url===null||(typeof p.url==='string'&&/^[a-z0-9]+(?:-[a-z0-9]+)*\.html$/.test(p.url))))));}
  function dishName(dish,category){
   const node=document.createElement(dish.url?'a':'span');
   const parts=dish.title.match(/^(\S+)\s+(.+)$/u);
