@@ -17,7 +17,18 @@
     const dishes=data.days[index][mealIndex===0?'comida':'cena'];
     const host=meals[mealIndex].querySelector('.week-dishes');if(!host)return false;
     const children=[];
-    for(const dish of dishes.length?dishes:[{title:'Libre',category:null,url:null}]){
+    const grouped=dishes.length===2&&(!dishes[0].category||!dishes[1].category||dishes[0].category===dishes[1].category);
+    if(grouped){
+     const node=document.createElement('div');node.className='week-dish';
+     const category=dishes[0].category||dishes[1].category;
+     if(category){const heading=document.createElement('strong');heading.textContent=category;node.appendChild(heading);}
+     const example=document.createElement('div');example.className='week-example';
+     dishes.forEach((dish,i)=>{
+      if(i){const plus=document.createElement('span');plus.textContent=' + ';example.appendChild(plus);}
+      const title=document.createElement(dish.url?'a':'span');title.textContent=dish.title;if(dish.url)title.setAttribute('href',dish.url);example.appendChild(title);
+     });
+     node.appendChild(example);children.push(node);
+    }else for(const dish of dishes.length?dishes:[{title:'Libre',category:null,url:null}]){
      const node=document.createElement('div');node.className='week-dish';
      const heading=document.createElement('strong');heading.textContent=dish.category||dish.title;node.appendChild(heading);
      if(dish.category||dish.url){
@@ -27,7 +38,7 @@
      }
      children.push(node);
     }
-    changes.push({meal:meals[mealIndex],host,children,pair:dishes.length===2});
+    changes.push({meal:meals[mealIndex],host,children,pair:children.length===2});
    }
   }
   // Construct everything before replacing any of the existing, usable fallback.
@@ -45,3 +56,4 @@
  void refresh();setInterval(()=>void refresh(),30000);
  window.addEventListener('focus',()=>void refresh());document.addEventListener('visibilitychange',()=>void refresh());
 })();
+

@@ -24,6 +24,7 @@ Una revisión automática puede bloquear una operación pese a estas reglas. No 
 
 ## Preparar, mostrar y publicar
 
+- **Dos platos en el carrusel:** si comparten categoría o alguno no tiene categoría, mostrar un único bloque con la categoría disponible y ambos nombres unidos por « + », conservando sus enlaces individuales. Si ninguno tiene categoría, mostrar los nombres unidos sin inventar una categoría. Mantener dos columnas cuando las dos categorías sean distintas.
 - **Publicación del menú desde el editor:** guardar sigue siendo privado. «Publicar menú en la web» muestra la copia exacta y requiere confirmación; el servidor comprueba la versión y envía solo días, platos, categorías y enlaces a un servicio separado. El carrusel lee únicamente la última copia publicada, sin credenciales, al abrir la página, recuperar foco y periódicamente. Si falla, conserva la copia pública válida de ese navegador o el respaldo estático. La compra, la despensa y el borrador no se exponen. Los nombres libres no llevan enlace y una comida vacía se muestra como Libre.
 - **ARGH** conserva su significado de publicar el menú activo, con revisión de versión. La vía ordinaria es el botón del editor, que ya no necesita commits de GitHub por cada cambio de menú. `semana-base.md`, `datos/semana-base.json` y el HTML inicial constituyen el respaldo estático, no una lectura del menú vivo; mantenerlos coherentes si se actualiza expresamente ese respaldo. No sustituir automáticamente el menú por defecto privado al publicar. El generador debe conservar `tools/menu_publicado.js` incrustado y las pruebas `tools/comprobar_menu_publicado.cjs` y `tools/comprobar_semana_base.cjs`.
 
@@ -102,4 +103,5 @@ El PDF de burritos incorpora seis imágenes numeradas en dos filas de tres, sin 
 ## Excepción acordada: menestra y preparación en tabla
 
 «Menestra guisada» presenta la preparación en tres columnas en escritorio y como pasos abiertos en móvil: título numerado y filete, fuego en cursiva con icono de llama y tiempo, acción y «Hasta que…». El PDF mantiene la tabla en una página A4. Fuente estructurada en `pasos`, con `preparacion_formato: tabla-adaptable` y `pdf_preparacion_tabla: true`; regenerar con `tools/generar_receta_tabla.py menestra-guisada.md` y el generador común de PDF. No extender esta excepción a otras recetas sin acuerdo.
+
 

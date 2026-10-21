@@ -21,5 +21,17 @@ async function scenario({cached=null,response=null,failed=false}){
  s=await scenario({cached:data,failed:true});assert.equal(s.meals[0].host.children.length,2);
  const bad=snapshot();bad.days[6].cena=[{title:'bad',category:null,url:'javascript:alert(1)'}];s=await scenario({response:bad});assert.equal(s.meals[0].host.children[0].textContent,'Respaldo');assert.equal(s.cache.size,0);
  const older=snapshot();older.revision=1;s=await scenario({cached:data,response:older});assert.equal(s.meals[0].host.children.length,2);
- console.log('OK: public snapshot, two dishes/Libre, safe text/links, atomic validation, static/cache fallback on failure, no credentials, stale snapshots ignored.');
+ for(const categories of [['Picoteo sanote','Picoteo sanote'],['Picoteo sanote',null],[null,'Picoteo sanote'],[null,null]]){
+  const grouped=snapshot();grouped.days[0].cena=[{title:'Barquitas',category:categories[0],url:'barquitas-endivia-requeson.html'},{title:'Hummus',category:categories[1],url:'hummus-zanahoria.html'}];
+  s=await scenario({cached:data,response:grouped});const meal=s.meals[1];assert.equal(meal.host.children.length,1);assert.ok(!meal.classes.has('has-pair'));
+  const node=meal.host.children[0],category=categories[0]||categories[1];assert.equal(node.children.length,category?2:1);if(category)assert.equal(node.children[0].textContent,category);
+  const titles=node.children.at(-1).children;assert.deepEqual(titles.map(n=>n.textContent),['Barquitas',' + ','Hummus']);assert.equal(titles[0].attributes.href,'barquitas-endivia-requeson.html');assert.equal(titles[2].attributes.href,'hummus-zanahoria.html');
+  s=await scenario({cached:grouped,failed:true});assert.equal(s.meals[1].host.children.length,1);
+ }
+ const transitions=snapshot();transitions.days[0].comida=[{title:'A',category:'Igual',url:null},{title:'B',category:'Igual',url:null}];
+ s=await scenario({cached:data,response:transitions});assert.ok(!s.meals[0].classes.has('has-pair'));assert.equal(s.meals[0].host.children[0].children[1].children[2].tag,'span');
+ const restored=snapshot();restored.revision=3;restored.days[0].comida=data.days[0].comida;s=await scenario({cached:transitions,response:restored});assert.ok(s.meals[0].classes.has('has-pair'));assert.equal(s.meals[0].host.children.length,2);
+ const html=fs.readFileSync(__dirname+'/../index.html','utf8');assert.ok(html.includes('<script>\n'+source.trim()+'\n</script>'));
+ console.log('OK: shared/missing categories grouped with +, individual links/plain titles preserved, distinct categories separated, layout transitions, Libre, safe text/links, atomic validation, fallback, no credentials, stale snapshots ignored, embedded loader synchronized.');
 })().catch(error=>{console.error(error);process.exitCode=1});
+

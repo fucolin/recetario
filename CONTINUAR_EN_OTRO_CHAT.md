@@ -4,6 +4,12 @@ Actualizado: 21 de octubre de 2026, Europe/Madrid. Conexión del carrusel al men
 
 Hito anterior del 19 de octubre: centrado de los botones de menú y compra y su nota, autorizado mediante ARG. Se conserva como antecedente.
 
+## 21/10/2026 · Presentación conjunta de dos platos
+
+Cambio solicitado y autorizado para publicar: cuando dos platos comparten categoría o alguno carece de ella, el carrusel muestra un único bloque, una categoría común si existe y los nombres unidos por « + », conservando cada enlace. Si ambos carecen de categoría, no se inventa ninguna. Dos categorías distintas conservan sus dos columnas. No cambia el menú guardado ni su publicación confirmada.
+
+Archivos de esta modificación: `index.html`, `tools/menu_publicado.js`, `tools/comprobar_menu_publicado.cjs`, `GUIA_DE_TRABAJO.md` y este resumen. Comprobados los cuatro casos de categorías iguales/ausentes, enlaces y nombres sin enlace, cambios entre uno/dos bloques y sincronización del cargador incrustado. Revisión visual interactiva no disponible; comprobar el despliegue del commit al retomar, sin confundir estas pruebas locales con una prueba visual.
+
 ## 21/10/2026 · Carrusel conectado a la publicación confirmada
 
 Conexión publicada en el commit `213e81715d906aacd2f832340a247d8e6ffd5e40`, con despliegue de Pages terminado correctamente y cargador comprobado en la portada servida. El carrusel carga el último menú confirmado desde un servicio público aislado del editor. Guardar el menú sigue siendo privado; el botón Publicar menú en la web muestra una revisión y pide confirmación. El servicio recibe solo días/platos/categorías/enlaces resueltos. No contiene compra, despensa, usuarios ni borradores; los nombres libres no tienen enlace y las comidas sin platos muestran Libre. La escritura está protegida en el servidor, sin credenciales en esta web.
@@ -132,4 +138,5 @@ El usuario confirma que el icono funciona en sus otros dispositivos; un iPad no 
 Comprobaciones locales: tamaños, formato RGB opaco, enlace genérico y tamaños únicos en head, rutas y noindex; modificación limitada a enlaces y recursos de icono. Publicación y disponibilidad HTTP se verifican después de guardar; prueba en el iPad iOS 9 pendiente. Borrar el acceso antiguo y volver a añadir desde Safari. El éxito en otros dispositivos es una confirmación del usuario, no una prueba ejecutada aquí.
 
 La disponibilidad de los iconos iniciales que figuraba pendiente arriba quedó después comprobada por HTTP (portada, categoría de Legumbres, manifiesto e iconos); esa antigua mención a 404 ya es histórica.
+
 
