@@ -50,7 +50,7 @@ def main():
               '<a class="edit-menu-link" href="https://compra-casa-marisa-prueba.snappyseal256.chatgpt.site/menu"><span><svg class="edit-menu-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m15 5 4 4M4 20l4-1L20 7a2.1 2.1 0 0 0-3-3L5 16l-1 4Z"></path></svg>Editar menú</span></a>'
               '<a class="edit-menu-link" href="https://compra-casa-marisa-prueba.snappyseal256.chatgpt.site"><span><svg class="edit-menu-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m3 5 2 2 3-3m-5 9 2 2 3-3m-5 9 2 2 3-3M12 5h9m-9 8h9m-9 8h9"></path></svg>Lista de la compra</span></a>'
               '<p class="private-access-note">Acceso privado <svg class="private-access-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="5" y="10" width="14" height="11" rx="2"></rect><path d="M8 10V7a4 4 0 0 1 8 0v3m-4 5v2"></path></svg> Iniciar sesión con ChatGPT</p>'
-              '</nav></section>', '<script>' + (ROOT / 'tools/semana_base.js').read_text() + '</script>', '<!-- SEMANA_BASE_FIN -->']
+              '</nav></section>', '<script>' + (ROOT / 'tools/semana_base.js').read_text() + '</script>', '<!-- MENU_PUBLICADO_INICIO -->', '<script>' + (ROOT / 'tools/menu_publicado.js').read_text() + '</script>', '<!-- MENU_PUBLICADO_FIN -->', '<!-- SEMANA_BASE_FIN -->']
     page = ROOT / 'index.html'
     html, count = re.subn(r'<!-- SEMANA_BASE_INICIO -->.*?<!-- SEMANA_BASE_FIN -->', '\n'.join(block), page.read_text(), flags=re.S)
     assert count == 1, 'El bloque de semana base debe aparecer exactamente una vez'
@@ -61,3 +61,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
