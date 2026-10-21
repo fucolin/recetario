@@ -1,6 +1,16 @@
 # Continuar en otro chat · Casa Marisa
 
-Actualizado: 19 de octubre de 2026, Europe/Madrid. Publicación del centrado de los botones de menú y compra y su nota, autorizada mediante ARG; comprobar el despliegue.
+Actualizado: 21 de octubre de 2026, Europe/Madrid. Conexión del carrusel al menú publicado desde el editor; documentación de su confirmación y respaldo.
+
+Hito anterior del 19 de octubre: centrado de los botones de menú y compra y su nota, autorizado mediante ARG. Se conserva como antecedente.
+
+## 21/10/2026 · Carrusel conectado a la publicación confirmada
+
+Conexión publicada en el commit `213e81715d906aacd2f832340a247d8e6ffd5e40`, con despliegue de Pages terminado correctamente y cargador comprobado en la portada servida. El carrusel carga el último menú confirmado desde un servicio público aislado del editor. Guardar el menú sigue siendo privado; el botón Publicar menú en la web muestra una revisión y pide confirmación. El servicio recibe solo días/platos/categorías/enlaces resueltos. No contiene compra, despensa, usuarios ni borradores; los nombres libres no tienen enlace y las comidas sin platos muestran Libre. La escritura está protegida en el servidor, sin credenciales en esta web.
+
+El HTML conserva el menú estático actual como respaldo; una copia pública válida se conserva también en el navegador. Un fallo, respuesta inválida o versión antigua no vacía ni sustituye el carrusel válido. Se mantienen sus siete nodos/días, centrado, gestos y enlaces. La carga se hace al abrir, recuperar foco y periódicamente. El generador conserva el cargador `tools/menu_publicado.js`; se añade `tools/comprobar_menu_publicado.cjs`. `semana-base.md` y su JSON siguen sincronizados como respaldo estático; el menú vivo publicado procede del nuevo servicio y no requiere commits por cada edición.
+
+Comprobaciones locales: texto/enlaces seguros, dos platos/Libre, validación antes de reemplazar, respaldo estático y caché ante desconexión, ausencia de credenciales y rechazo de versiones antiguas; prueba del carrusel existente conservada. Revisión visual interactiva pendiente por indisponibilidad del navegador. Consultar el HEAD y el despliegue actuales al retomar; este registro no afirma haber pulsado Publicar en nombre del usuario.
 
 ## Alcance de este seguimiento público
 
@@ -122,3 +132,4 @@ El usuario confirma que el icono funciona en sus otros dispositivos; un iPad no 
 Comprobaciones locales: tamaños, formato RGB opaco, enlace genérico y tamaños únicos en head, rutas y noindex; modificación limitada a enlaces y recursos de icono. Publicación y disponibilidad HTTP se verifican después de guardar; prueba en el iPad iOS 9 pendiente. Borrar el acceso antiguo y volver a añadir desde Safari. El éxito en otros dispositivos es una confirmación del usuario, no una prueba ejecutada aquí.
 
 La disponibilidad de los iconos iniciales que figuraba pendiente arriba quedó después comprobada por HTTP (portada, categoría de Legumbres, manifiesto e iconos); esa antigua mención a 404 ya es histórica.
+

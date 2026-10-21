@@ -98,3 +98,8 @@ dias:
 Guía semanal personal acordada con el usuario. Cada día conserva comida y cena; no representa un menú fechado ni una pauta nutricional evaluada.
 
 Se muestra en la portada después del encabezado de Casa Marisa, sin título visible. Carrusel infinito en escritorio y móvil, con tres días visibles en escritorio y el actual centrado inicialmente según Europe/Madrid. El día actual se distingue por el color de su cabecera, sin la palabra «Hoy» dentro de esa celda. Debajo va «Para elegir y comprar», con su título como pestañita en el borde; después, «Las recetas» introduce la botonera, el buscador y el listado. No mostrar el enlace «Más recetas…». Los tipos de plato son texto en negrita sin enlace; debajo aparecen los ejemplos indicados por el usuario, con enlace solo cuando existe la ficha adecuada. Los ejemplos sin ficha se muestran como texto, sin inventar páginas. Los ejemplos compuestos conservan cada componente y sus enlaces por separado. «Ejemplo pendiente» se reserva para un ejemplo aún no elegido. No sustituir tortilla francesa por otra tortilla ni completar la cena libre. No crear fichas ni tarjetas futuras a partir de esta tabla sin petición específica.
+
+
+## Publicación desde el editor
+
+El carrusel carga la última copia confirmada mediante «Publicar menú en la web» del editor. Este maestro y `datos/semana-base.json` conservan el respaldo estático inicial; no se reescriben por cada publicación desde el editor. Si falla la carga, la portada conserva una copia pública válida del navegador o este respaldo. Guardar cambios en privado no publica nada. Los nombres libres conservan su categoría sin crear una ficha y una comida sin platos muestra «Libre».
