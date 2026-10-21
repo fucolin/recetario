@@ -114,3 +114,11 @@ Iconos mostrados y aprobados mediante ARG, incorporados en el commit `2e93657dc4
 La actualización documental quedó inicialmente bloqueada por una clasificación genérica de privacidad. El usuario pidió aclararla y corregir el procedimiento. Se documenta expresamente el alcance de ARG y la distinción entre referencias públicas y datos privados; no se desactivan controles ni se afirma que nunca volverán a bloquear una operación.
 
 En la última comprobación, los recursos aún devolvían 404 en la web y no se había localizado una ejecución de despliegue para ese commit. Código guardado en GitHub; despliegue y aspecto en navegadores/iPhone pendientes. No confundir guardado, despliegue y comprobación de funcionamiento. Las cachés de iconos pueden conservar imágenes anteriores.
+
+## Compatibilidad del icono con iPad no Retina · 21/10/2026
+
+El usuario confirma que el icono funciona en sus otros dispositivos; un iPad no Retina con iOS 9 conserva una miniatura de la página. No se ha demostrado la causa. Cambio autorizado con «dale. ARG»: añadir PNG de 76 × 76 y enlace genérico sin tamaño a `apple-touch-icon.png` (180), conservando el icono actual de 180, favicons y diseño. Sincronizados los 56 HTML y siete generadores; referencia específica actualizada.
+
+Comprobaciones locales: tamaños, formato RGB opaco, enlace genérico y tamaños únicos en head, rutas y noindex; modificación limitada a enlaces y recursos de icono. Publicación y disponibilidad HTTP se verifican después de guardar; prueba en el iPad iOS 9 pendiente. Borrar el acceso antiguo y volver a añadir desde Safari. El éxito en otros dispositivos es una confirmación del usuario, no una prueba ejecutada aquí.
+
+La disponibilidad de los iconos iniciales que figuraba pendiente arriba quedó después comprobada por HTTP (portada, categoría de Legumbres, manifiesto e iconos); esa antigua mención a 404 ya es histórica.

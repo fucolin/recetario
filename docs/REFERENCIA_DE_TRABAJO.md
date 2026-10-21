@@ -171,6 +171,8 @@ Al añadir o modificar una ficha, actualizar también los datos integrados en el
 
 ### Iconos de navegador e inicio
 
+Compatibilidad adicional para iPad no Retina con iOS 9, autorizada mediante ARG: PNG RGB opaco de 76 × 76 en `images/iconos/apple-touch-icon-76-v1.png` y enlace genérico sin `sizes` a `/recetario/apple-touch-icon.png` (copia del PNG de 180). Conservar las declaraciones genérica, 76 y 180 en todas las páginas y generadores. El dibujo no cambia. La ruta genérica se declara expresamente porque el sitio vive bajo `/recetario/`; no afirmar que controla la raíz del dominio. Tras publicar, borrar el acceso anterior y volver a añadirlo desde Safari en el dispositivo. La respuesta HTTP no demuestra que iOS 9 lo utilice: prueba real pendiente hasta confirmación del usuario.
+
 Fuentes aprobadas generadas con IA: `images/iconos/favicon-maestro-v1.png` (hojas rellenas, una flor) e `inicio-maestro-v1.png` (hojas delineadas, tres flores). Derivados ICO 16/32/48, PNG 16/32/48, apple-touch-icon 180 e iconos 192/512. Mantener enlaces bajo `/recetario/` en todas las páginas y generadores; `site.webmanifest` conserva navegación de navegador y no incorpora service worker. Versionar los nombres al cambiar el diseño. Cabecera e imagen social se conservan. Verificar la visualización real y las cachés por separado del despliegue.
 
 ## Productos preferidos
