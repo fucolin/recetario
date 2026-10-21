@@ -39,6 +39,9 @@ async function scenario({cached=null,response=null,failed=false}){
  for(const categories of [['Ensalada','Ensalada'],['Ensalada',null],[null,'Ensalada']]){
   const grouped=snapshot();grouped.days[0].comida=[{title:'Ensalada de tomate',category:categories[0],url:'tomate.html'},{title:'Ensalada de mango',category:categories[1],url:null}];s=await scenario({response:grouped});const titles=s.meals[0].host.children[0].children[1].children;assert.deepEqual(titles.map(n=>n.textContent),['de tomate',' + ','de mango']);assert.equal(titles[0].attributes.href,'tomate.html');
  }
+ const empty=snapshot();s=await scenario({response:empty});for(const meal of s.meals){assert.equal(meal.host.children[0].children[0].textContent,'Libre');assert.equal(meal.host.children[0].children[1].textContent,'⚠️ Respete vd. las cantidades');}
+ s=await scenario({cached:empty,failed:true});assert.equal(s.meals[0].host.children[0].children[1].textContent,'⚠️ Respete vd. las cantidades');
+ const filled=snapshot();filled.revision=3;filled.days[0].comida=[{title:'Plato casero',category:null,url:null}];s=await scenario({cached:empty,response:filled});assert.equal(s.meals[0].host.children[0].children.length,1);assert.equal(s.meals[0].host.children[0].children[0].textContent,'Plato casero');
  const html=fs.readFileSync(__dirname+'/../index.html','utf8');assert.ok(html.includes('<script>\n'+source.trim()+'\n</script>'));
  console.log('OK: shared/missing categories grouped with +, individual links/plain titles preserved, distinct categories separated, layout transitions, Libre, safe text/links, atomic validation, fallback, no credentials, stale snapshots ignored, embedded loader synchronized.');
 })().catch(error=>{console.error(error);process.exitCode=1});

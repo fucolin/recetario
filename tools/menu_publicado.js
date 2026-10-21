@@ -44,6 +44,7 @@
       const example=document.createElement('div');example.className='week-example';
       example.appendChild(dishName(dish,dish.category));node.appendChild(example);
      }
+     if(!dishes.length){const warning=document.createElement('div');warning.className='week-example';warning.textContent='⚠️ Respete vd. las cantidades';node.appendChild(warning);}
      children.push(node);
     }
     changes.push({meal:meals[mealIndex],host,children,pair:children.length===2});

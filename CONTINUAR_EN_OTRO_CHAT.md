@@ -1,5 +1,9 @@
 # Continuar en otro chat · Casa Marisa
 
+## 22/10/2026 · Aviso bajo Libre
+
+Cuando una comida no contiene platos, el menú público muestra Libre y debajo «⚠️ Respete vd. las cantidades». El aviso se añade al cargador del menú publicado y funciona también desde caché; desaparece al volver a añadir un plato. El respaldo estático y su maestro ya contienen este aviso y se conservan. No se modifica el menú privado ni la copia publicada de datos. Pruebas del DOM simulado para comidas vacías, caché y sustitución por plato; comprobar el despliegue de este commit al retomar. Revisión visual interactiva no disponible.
+
 ## 22/10/2026 · Omitir la categoría repetida al comienzo del plato
 
 El cargador del menú público muestra «de boniato» bajo «Tortilla» cuando el título es «Tortilla de boniato». Compara la categoría visible con la primera palabra completa, sin distinguir mayúsculas y con normalización Unicode; conserva nombres sin coincidencia o sin categoría y evita dejar un nombre vacío. Funciona con categorías comunes a dos platos y datos públicos en caché. Títulos originales, enlaces, menú privado y copia publicada permanecen íntegros; el enlace abre la misma ficha y conserva el nombre completo como etiqueta accesible. Cargador incrustado y archivo fuente sincronizados. Pruebas de coincidencias, límites de palabra, mayúsculas, acentos, categorías ocultas, dos platos y caché superadas. Revisión visual interactiva no disponible. Comprobar el despliegue del commit al retomar.
