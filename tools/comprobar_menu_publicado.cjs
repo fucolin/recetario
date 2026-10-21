@@ -31,7 +31,16 @@ async function scenario({cached=null,response=null,failed=false}){
  const transitions=snapshot();transitions.days[0].comida=[{title:'A',category:'Igual',url:null},{title:'B',category:'Igual',url:null}];
  s=await scenario({cached:data,response:transitions});assert.ok(!s.meals[0].classes.has('has-pair'));assert.equal(s.meals[0].host.children[0].children[1].children[2].tag,'span');
  const restored=snapshot();restored.revision=3;restored.days[0].comida=data.days[0].comida;s=await scenario({cached:transitions,response:restored});assert.ok(s.meals[0].classes.has('has-pair'));assert.equal(s.meals[0].host.children.length,2);
+ for(const [category,title,expected] of [['Tortilla','Tortilla de boniato','de boniato'],['Ensalada','ensalada de tomate','de tomate'],['Puré','PURÉ de calabaza','de calabaza'],['Puré','Pure\u0301 de calabaza','de calabaza'],['Tortilla','Tortillitas de verduras','Tortillitas de verduras'],['Puré','Pure de calabaza','Pure de calabaza'],['Pescado azul','Pescado a la plancha','Pescado a la plancha'],['Tortilla','Tortilla','Tortilla'],[null,'Tortilla de boniato','Tortilla de boniato']]){
+  const abbreviated=snapshot();abbreviated.days[0].comida=[{category,title,url:'tortilla.html'}];
+  s=await scenario({response:abbreviated});const link=s.meals[0].host.children[0].children[1].children[0];assert.equal(link.textContent,expected);assert.equal(link.attributes.href,'tortilla.html');if(expected!==title)assert.equal(link.attributes['aria-label'],title);assert.equal(abbreviated.days[0].comida[0].title,title);
+  s=await scenario({cached:abbreviated,failed:true});assert.equal(s.meals[0].host.children[0].children[1].children[0].textContent,expected);
+ }
+ for(const categories of [['Ensalada','Ensalada'],['Ensalada',null],[null,'Ensalada']]){
+  const grouped=snapshot();grouped.days[0].comida=[{title:'Ensalada de tomate',category:categories[0],url:'tomate.html'},{title:'Ensalada de mango',category:categories[1],url:null}];s=await scenario({response:grouped});const titles=s.meals[0].host.children[0].children[1].children;assert.deepEqual(titles.map(n=>n.textContent),['de tomate',' + ','de mango']);assert.equal(titles[0].attributes.href,'tomate.html');
+ }
  const html=fs.readFileSync(__dirname+'/../index.html','utf8');assert.ok(html.includes('<script>\n'+source.trim()+'\n</script>'));
  console.log('OK: shared/missing categories grouped with +, individual links/plain titles preserved, distinct categories separated, layout transitions, Libre, safe text/links, atomic validation, fallback, no credentials, stale snapshots ignored, embedded loader synchronized.');
 })().catch(error=>{console.error(error);process.exitCode=1});
+
 

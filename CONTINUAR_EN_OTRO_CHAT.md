@@ -1,5 +1,11 @@
 # Continuar en otro chat · Casa Marisa
 
+## 22/10/2026 · Omitir la categoría repetida al comienzo del plato
+
+El cargador del menú público muestra «de boniato» bajo «Tortilla» cuando el título es «Tortilla de boniato». Compara la categoría visible con la primera palabra completa, sin distinguir mayúsculas y con normalización Unicode; conserva nombres sin coincidencia o sin categoría y evita dejar un nombre vacío. Funciona con categorías comunes a dos platos y datos públicos en caché. Títulos originales, enlaces, menú privado y copia publicada permanecen íntegros; el enlace abre la misma ficha y conserva el nombre completo como etiqueta accesible. Cargador incrustado y archivo fuente sincronizados. Pruebas de coincidencias, límites de palabra, mayúsculas, acentos, categorías ocultas, dos platos y caché superadas. Revisión visual interactiva no disponible. Comprobar el despliegue del commit al retomar.
+
+Lista de archivos: `index.html`, `tools/menu_publicado.js`, `tools/comprobar_menu_publicado.cjs`, `GUIA_DE_TRABAJO.md` y este resumen.
+
 Actualizado: 21 de octubre de 2026, Europe/Madrid. Conexión del carrusel al menú publicado desde el editor; documentación de su confirmación y respaldo.
 
 Hito anterior del 19 de octubre: centrado de los botones de menú y compra y su nota, autorizado mediante ARG. Se conserva como antecedente.

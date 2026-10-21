@@ -6,6 +6,15 @@
  const track=document.getElementById('week-track');if(!track)return;
  const text=(s,n)=>typeof s==='string'&&s.length>0&&s.length<=n&&s===s.trim()&&!/[\u0000-\u001f\u007f]/.test(s);
  function valid(data){return data&&data.schema===1&&Number.isSafeInteger(data.revision)&&data.revision>0&&typeof data.publishedAt==='string'&&!isNaN(Date.parse(data.publishedAt))&&Array.isArray(data.days)&&data.days.length===7&&data.days.every((d,i)=>d&&d.day===names[i]&&['comida','cena'].every(m=>Array.isArray(d[m])&&d[m].length<=2&&d[m].every(p=>p&&text(p.title,120)&&(p.category===null||text(p.category,80))&&(p.url===null||(typeof p.url==='string'&&/^[a-z0-9]+(?:-[a-z0-9]+)*\.html$/.test(p.url))))));}
+ function dishName(dish,category){
+  const node=document.createElement(dish.url?'a':'span');
+  const parts=dish.title.match(/^(\S+)\s+(.+)$/u);
+  const repeated=category&&parts&&parts[1].normalize('NFC').toLocaleLowerCase('es')===category.normalize('NFC').toLocaleLowerCase('es');
+  node.textContent=repeated?parts[2]:dish.title;
+  if(dish.url)node.setAttribute('href',dish.url);
+  if(repeated)node.setAttribute('aria-label',dish.title);
+  return node;
+ }
  let lastRevision=0;
  function render(data){
   if(!valid(data)||data.revision<lastRevision)return false;
@@ -25,7 +34,7 @@
      const example=document.createElement('div');example.className='week-example';
      dishes.forEach((dish,i)=>{
       if(i){const plus=document.createElement('span');plus.textContent=' + ';example.appendChild(plus);}
-      const title=document.createElement(dish.url?'a':'span');title.textContent=dish.title;if(dish.url)title.setAttribute('href',dish.url);example.appendChild(title);
+      example.appendChild(dishName(dish,category));
      });
      node.appendChild(example);children.push(node);
     }else for(const dish of dishes.length?dishes:[{title:'Libre',category:null,url:null}]){
@@ -33,8 +42,7 @@
      const heading=document.createElement('strong');heading.textContent=dish.category||dish.title;node.appendChild(heading);
      if(dish.category||dish.url){
       const example=document.createElement('div');example.className='week-example';
-      const title=document.createElement(dish.url?'a':'span');title.textContent=dish.title;if(dish.url)title.setAttribute('href',dish.url);
-      example.appendChild(title);node.appendChild(example);
+      example.appendChild(dishName(dish,dish.category));node.appendChild(example);
      }
      children.push(node);
     }
