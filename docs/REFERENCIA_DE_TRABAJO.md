@@ -2,6 +2,18 @@
 
 Detalle por temas de [la guía principal](../GUIA_DE_TRABAJO.md). Consultar solo los apartados relacionados con la tarea. La autorización, revisión y entrega se rigen por la guía principal.
 
+## Alcance público de la documentación y de ARG
+
+Estos archivos son documentación pública del recetario: `GUIA_DE_TRABAJO.md`, `docs/REFERENCIA_DE_TRABAJO.md` y `CONTINUAR_EN_OTRO_CHAT.md`. Describen reglas de trabajo, decisiones de presentación, archivos, commits, comprobaciones y pendientes de la web pública.
+
+**ARG («Al recetario y GitHub») autoriza publicar los cambios en curso y las actualizaciones de estos documentos públicos necesarias para describirlos**, dentro de una lista explícita de archivos y conservando los cambios de otras conversaciones. No requiere una segunda confirmación para ese registro. Un ARG anterior no autoriza trabajos posteriores ajenos a ese cambio.
+
+Distinguir por el contenido: mencionar un recurso protegido, conservar un enlace ya aprobado en la web o explicar dónde se realiza un seguimiento no equivale a publicar sus datos. Estas menciones no autorizan revelar credenciales, tokens, correos de acceso, permisos de personas concretas, identificadores o rutas de archivos privados, tickets, originales privados ni el contenido o los estados de compra. Todo ello permanece en la documentación y fuentes privadas correspondientes.
+
+Antes de publicar, comparar la modificación con la última versión remota, revisar tanto los añadidos como el contexto que se conservará y señalar datos concretos si se identifica un riesgo. No afirmar que existe una filtración solo porque una herramienta haya clasificado genéricamente el documento como privado. Que un dato ya esté publicado tampoco demuestra que deba seguir publicado: si aparece información sensible concreta, detener esa parte y proponer su tratamiento.
+
+Una revisión automática puede bloquear una operación pese a estas reglas. No intentar eludirla: completar lo permitido, conservar lo pendiente e informar de la acción rechazada y del motivo literal o su resumen fiel. Estas instrucciones documentan la autorización del usuario; no desactivan controles ni garantizan su aprobación.
+
 ## Preparar y sincronizar una ficha
 
 Para una ficha nueva, completar este proceso. Para una actualización, actuar sobre las representaciones afectadas:
@@ -156,6 +168,10 @@ La imagen social de portada usa ahora `images/casa-marisa-compartir-20261016-v3.
 El índice incluye un buscador que filtra las tarjetas y oculta las categorías vacías. Busca en títulos, categorías, ingredientes, pasos, indicaciones, consejos y claves; ignora tildes y mayúsculas, y exige todas las palabras introducidas. Las variantes permanecen agrupadas en una tarjeta y solo se muestran los enlaces de las variantes coincidentes. La botonera, encima del buscador, permite seleccionar varias categorías mediante botones con `aria-pressed`. «Todas» va primero y está activo al entrar. Pulsar una categoría activa la selección; otras se suman; pulsarlas otra vez las quita. Sin categorías seleccionadas vuelve a estar activo «Todas». «Todas» reinicia solo las categorías, conserva el texto de búsqueda. Buscar, limpiar texto o pulsar Escape conserva la selección de categorías. Ocultar categorías sin coincidencias en listado y botonera, salvo las seleccionadas, que siguen visibles para poder desmarcarlas. Los botones de otras categorías con coincidencias de texto siguen disponibles aunque no estén seleccionadas. Mantener siempre «Todas» accesible, incluso sin resultados. Sin JavaScript, las categorías conservan sus enlaces internos y se ve el catálogo completo. Comprobar cambios de lógica con `node tools/comprobar_filtros_categorias.cjs`.
 
 Al añadir o modificar una ficha, actualizar también los datos integrados en el bloque `search-data` de `index.html`, a partir de su JSON completo. El mapa usa como claves los nombres de sus páginas HTML y como valores texto de los campos anteriores (más subtítulo, etiquetas y variante), sin créditos fotográficos ni URLs. No requiere `ingredientes_clave`, servicios externos ni peticiones de red al buscar. Si JavaScript está desactivado, el índice completo sigue disponible.
+
+### Iconos de navegador e inicio
+
+Fuentes aprobadas generadas con IA: `images/iconos/favicon-maestro-v1.png` (hojas rellenas, una flor) e `inicio-maestro-v1.png` (hojas delineadas, tres flores). Derivados ICO 16/32/48, PNG 16/32/48, apple-touch-icon 180 e iconos 192/512. Mantener enlaces bajo `/recetario/` en todas las páginas y generadores; `site.webmanifest` conserva navegación de navegador y no incorpora service worker. Versionar los nombres al cambiar el diseño. Cabecera e imagen social se conservan. Verificar la visualización real y las cachés por separado del despliegue.
 
 ## Productos preferidos
 

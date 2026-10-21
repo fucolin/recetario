@@ -10,6 +10,18 @@ Repositorio: `fucolin/recetario`. Web: https://fucolin.github.io/recetario/.
 3. Leer `CONTINUAR_EN_OTRO_CHAT.md` para conocer el estado y los pendientes; contrastarlos con el HEAD de GitHub. El resumen no sustituye las guías ni prevalece sobre el repositorio actual.
 4. Preservar los acuerdos del usuario y el estilo de las fichas existentes. Una instrucción actual del usuario prevalece sobre una regla anterior.
 
+## Alcance público de la documentación y de ARG
+
+Estos archivos son documentación pública del recetario: `GUIA_DE_TRABAJO.md`, `docs/REFERENCIA_DE_TRABAJO.md` y `CONTINUAR_EN_OTRO_CHAT.md`. Describen reglas de trabajo, decisiones de presentación, archivos, commits, comprobaciones y pendientes de la web pública.
+
+**ARG («Al recetario y GitHub») autoriza publicar los cambios en curso y las actualizaciones de estos documentos públicos necesarias para describirlos**, dentro de una lista explícita de archivos y conservando los cambios de otras conversaciones. No requiere una segunda confirmación para ese registro. Un ARG anterior no autoriza trabajos posteriores ajenos a ese cambio.
+
+Distinguir por el contenido: mencionar un recurso protegido, conservar un enlace ya aprobado en la web o explicar dónde se realiza un seguimiento no equivale a publicar sus datos. Estas menciones no autorizan revelar credenciales, tokens, correos de acceso, permisos de personas concretas, identificadores o rutas de archivos privados, tickets, originales privados ni el contenido o los estados de compra. Todo ello permanece en la documentación y fuentes privadas correspondientes.
+
+Antes de publicar, comparar la modificación con la última versión remota, revisar tanto los añadidos como el contexto que se conservará y señalar datos concretos si se identifica un riesgo. No afirmar que existe una filtración solo porque una herramienta haya clasificado genéricamente el documento como privado. Que un dato ya esté publicado tampoco demuestra que deba seguir publicado: si aparece información sensible concreta, detener esa parte y proponer su tratamiento.
+
+Una revisión automática puede bloquear una operación pese a estas reglas. No intentar eludirla: completar lo permitido, conservar lo pendiente e informar de la acción rechazada y del motivo literal o su resumen fiel. Estas instrucciones documentan la autorización del usuario; no desactivan controles ni garantizan su aprobación.
+
 ## Preparar, mostrar y publicar
 
 - **ARGH** significa consultar el menú activo guardado en la aplicación privada, comprobarlo y publicarlo en el carrusel, sin pedir otra confirmación. Conservar el menú por defecto privado y todos los estados de la compra. Mostrar las próximas fichas como texto sin inventar enlaces; actualizar también el tipo y categoría visibles del plato cuando cambie. Sincronizar `semana-base.md`, `datos/semana-base.json` e `index.html` y publicar solo la lista explícita afectada. Si no hay cambios respecto al menú público, informar sin generar una publicación vacía.

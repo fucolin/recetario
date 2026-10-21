@@ -2,6 +2,10 @@
 
 Actualizado: 19 de octubre de 2026, Europe/Madrid. Publicación del centrado de los botones de menú y compra y su nota, autorizada mediante ARG; comprobar el despliegue.
 
+## Alcance de este seguimiento público
+
+ARG incluye registrar los cambios autorizados en este resumen y en las guías públicas. Las referencias a recursos protegidos no trasladan sus datos a este repositorio. Aplicar la separación por contenido y la respuesta a bloqueos descritas en [la guía de trabajo](GUIA_DE_TRABAJO.md#alcance-público-de-la-documentación-y-de-arg).
+
 ## Mensaje listo para copiar y pegar
 
 ```text
@@ -102,3 +106,11 @@ Al retomar, comprobar el HEAD de GitHub y el resultado del despliegue y de la ve
 Actualizar con cada ARG, al cambiar un pendiente importante y antes de cambiar de chat, según «Para continuar en otro hilo» de la guía principal. Mantenerlo breve: los acuerdos permanentes y las instrucciones detalladas pertenecen a las guías.
 
 Este documento puede quedar atrasado si una sesión se interrumpe. Compararlo siempre con el HEAD y los commits recientes. Los archivos temporales preparados sin publicar no son una copia duradera: comprobar su existencia y, si faltan, reconstruirlos a partir de los acuerdos descritos. No incluir información privada en este repositorio público.
+
+## Iconos y aclaración del alcance de ARG · 21/10/2026
+
+Iconos mostrados y aprobados mediante ARG, incorporados en el commit `2e93657dc4bc89c7d69d34feb10833d3c78bc19a`: favicon de hierbaluisa relleno con una flor lila e icono de inicio delineado con tres flores. Enlaces presentes en las 56 páginas públicas y en sus generadores; manifiesto y recursos en `images/iconos/`. Tamaños, rutas, sintaxis de generadores y noindex comprobados localmente. No cambian cabecera, imagen social ni contenido culinario.
+
+La actualización documental quedó inicialmente bloqueada por una clasificación genérica de privacidad. El usuario pidió aclararla y corregir el procedimiento. Se documenta expresamente el alcance de ARG y la distinción entre referencias públicas y datos privados; no se desactivan controles ni se afirma que nunca volverán a bloquear una operación.
+
+En la última comprobación, los recursos aún devolvían 404 en la web y no se había localizado una ejecución de despliegue para ese commit. Código guardado en GitHub; despliegue y aspecto en navegadores/iPhone pendientes. No confundir guardado, despliegue y comprobación de funcionamiento. Las cachés de iconos pueden conservar imágenes anteriores.
