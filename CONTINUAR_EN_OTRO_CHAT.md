@@ -158,3 +158,13 @@ La disponibilidad de los iconos iniciales que figuraba pendiente arriba quedó d
 ## Gambas salteadas con trigueros · 25/10/2026
 
 Ficha «Gambas salteadas con trigueros», tipo receta, categoría Mariscos. Dos raciones; 250 g de gambas crudas peladas congeladas (peso descongelado y escurrido), 300 g de trigueros, ajo y una cucharada de aceite. Saltear verdura y gambas por separado; reunir al final. Opciones: sustituir por calabacín en bastones de 4–5 cm por 1 cm; huevo escalfado aparte. Inspirada en una sugerencia de menú de Eva, sin atribuirle una receta completa. Maestros, HTML, PDF A4, ilustración y tarjetas NUEVA preparados; se retira su prevista. No corresponde a los ejemplos de gambas al ajillo con pasta del respaldo semanal: se conservan. Revisión mostrada y publicación autorizada mediante ARG. Comprobados YAML/JSON/Schema.org, PDF A4 de una página, noindex y filtros del buscador. Verificar el despliegue tras guardar el commit; no confundir las comprobaciones locales con disponibilidad en la web.
+
+## Gambas al ajillo con pasta · 25/10/2026
+
+Desarrollada la prevista `gambas-ajillo-pasta`, tipo receta y categoría Mariscos. Receta de Marisa, con manuscrito completo ampliable y transcripción diferenciados de la adaptación. Dos raciones: 100 g de pasta seca preferiblemente integral, 250 g de gambas peladas congeladas (peso descongelado y escurrido), dos ajos, una cucharada de aceite y una guindilla pequeña opcional. Cocer según envase y ligar al final con agua de la pasta durante 30–60 s. 20–25 min, con ajillo y gambas mientras cuece la pasta. El manuscrito conserva sus 250 g de pasta, 250 g de gambas, cinco ajos y dos guindillas.
+
+Preparados maestro, JSON, Schema.org, HTML, PDF A4, ilustración y tarjetas NUEVA sin duplicados. Enlazados los dos ejemplos existentes del respaldo semanal (lunes y sábado), sin cambiar el reparto ni el menú vivo publicado. La guía incorpora las reglas acordadas de comprobar próximas antes de desarrollar fichas y preferir pasta integral, con 50 g secos por persona como referencia ajustable. Revisión mostrada y publicación autorizada mediante ARG. Datos, enlaces, manuscrito sin recortes, PDF A4 de una página y pruebas del carrusel, menú publicado, filtros y noindex comprobados. Verificar el despliegue tras guardar; las copias de revisión no se publican.
+
+La crema de calabacín de Marisa también sigue preparada sin publicar, en una revisión independiente: no darla por publicada al incorporar esta receta.
+
+Al regenerar el respaldo se corrigió un error del generador: usar una función de sustitución para conservar literalmente las barras del JavaScript incrustado, sin interpretarlas como escapes de reemplazo. Se conserva el cargador del menú publicado.

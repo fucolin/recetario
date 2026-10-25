@@ -1,5 +1,6 @@
 {
   "nuevas": [
+    "gambas-ajillo-pasta",
     "gambas-salteadas-trigueros",
     "pollo-guisado-calabacin-cocotte",
     "mejillones-marinera",
@@ -48,12 +49,6 @@
       "titulo": "Piadina de carne mechada",
       "categoria_menu": "Envueltos y bocados",
       "categoria_slug": "envueltos-y-bocados"
-    },
-    {
-      "id": "gambas-ajillo-pasta",
-      "titulo": "Gambas al ajillo con pasta",
-      "categoria_menu": "Mariscos",
-      "categoria_slug": "mariscos"
     },
     {
       "id": "ensalada-tomate-mozzarella",

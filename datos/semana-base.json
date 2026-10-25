@@ -13,7 +13,7 @@
           "categoria": "Mariscos",
           "ejemplo": {
             "titulo": "Gambas al ajillo con pasta",
-            "pagina": null
+            "pagina": "gambas-ajillo-pasta.html"
           }
         }
       ],
@@ -165,7 +165,7 @@
           "categoria": "Mariscos",
           "ejemplo": {
             "titulo": "Gambas al ajillo con pasta",
-            "pagina": null
+            "pagina": "gambas-ajillo-pasta.html"
           }
         },
         {

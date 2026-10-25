@@ -291,3 +291,8 @@ Ilustraciones generadas con IA para Casa Marisa a partir de los ingredientes y l
 - Origen: ilustración generada con IA para Casa Marisa, ajustada a las cantidades, cortes y elaboración de la versión con trigueros.
 - Referencias de estilo: ilustraciones publicadas del burrito de frijoles negros y la tortilla de boniato.
 - Sin huevo ni calabacín opcionales. No se atribuye autoría fotográfica ni licencia Creative Commons.
+
+## Gambas al ajillo con pasta
+
+- Ilustración: `images/gambas-ajillo-pasta-ilustracion-v1.jpg`, generada con IA para Casa Marisa. Codillos integrales, gambas peladas y láminas de ajo; sin guarniciones añadidas. Referencias de estilo: burrito de frijoles negros y gambas con trigueros. No se atribuye autoría fotográfica ni licencia Creative Commons.
+- Manuscrito: `images/originales-marisa/gambas-ajillo-pasta-manuscrito.jpeg`. Receta de Marisa, fotografía aportada por el usuario. Imagen completa y sin recortes; metadatos retirados sin alterar sus píxeles. No se indica licencia de reutilización.

@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Gambas al ajillo con pasta",
+  "description": "Con pasta preferiblemente integral",
+  "author": {
+    "@type": "Person",
+    "name": "Marisa"
+  },
+  "recipeCategory": "Mariscos",
+  "recipeYield": "2 raciones",
+  "totalTime": "PT25M",
+  "recipeIngredient": [
+    "100 g de pasta seca, preferiblemente integral",
+    "250 g de gambas crudas peladas congeladas (peso descongelado y escurrido)",
+    "2 dientes de ajo",
+    "1 cucharada de aceite de oliva (15 ml)",
+    "1 guindilla pequeña (opcional)",
+    "Sal",
+    "2–4 cucharadas de agua de cocción, aproximadamente"
+  ],
+  "recipeInstructions": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "Prepara los ingredientes",
+      "text": "Descongela las gambas en la nevera siguiendo el envase, escúrrelas y sécalas bien. Pela los ajos y córtalos en láminas finas. Si usas guindilla, déjala entera para un picante suave o ábrela y retira las semillas para moderarlo."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "Cuece la pasta",
+      "text": "Cuece la pasta en agua hirviendo con sal hasta que esté al dente, siguiendo el tiempo del envase. Mientras cuece, prepara el ajillo y las gambas. Antes de escurrir, reserva una taza del agua de cocción. No enjuagues la pasta ni la dejes esperando en el escurridor."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "Prepara el ajillo",
+      "text": "Pon el aceite, el ajo y la guindilla, si la usas, en una cazuela baja o sartén amplia. Calienta a fuego medio-bajo hasta que el ajo empiece a tomar un color dorado suave, sin oscurecerse. Calcula este paso para que las gambas y la pasta estén listas casi a la vez."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 4,
+      "name": "Saltea las gambas",
+      "text": "Sube a fuego medio-alto, añade las gambas en una sola capa y pon una pizca de sal. Dales la vuelta y cocina hasta que estén casi hechas, según su tamaño: terminarán de cocinarse al mezclar con la pasta. Si la pasta aún no está lista, retira las gambas a un plato y aparta la sartén del fuego."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 5,
+      "name": "Liga y sirve",
+      "text": "Añade a la sartén la pasta recién escurrida y dos cucharadas de su agua de cocción. Devuelve las gambas si las habías retirado y mezcla a fuego medio durante 30–60 segundos, hasta que estén opacas también en el centro. Añade algo más de agua si lo necesita: debe quedar jugosa, sin caldo en el fondo. Retira la guindilla, prueba de sal y sirve enseguida."
+    }
+  ],
+  "keywords": "gambas congeladas, pasta integral, ajo, guindilla, codillos, receta de Marisa",
+  "image": "https://fucolin.github.io/recetario/images/gambas-ajillo-pasta-ilustracion-v1.jpg",
+  "url": "https://fucolin.github.io/recetario/gambas-ajillo-pasta.html",
+  "dateModified": "2026-10-25",
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "name": "Pasta con gambas al ajillo",
+    "author": {
+      "@type": "Person",
+      "name": "Marisa"
+    },
+    "image": "https://fucolin.github.io/recetario/images/originales-marisa/gambas-ajillo-pasta-manuscrito.jpeg"
+  }
+}

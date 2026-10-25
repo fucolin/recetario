@@ -46,6 +46,10 @@ Una revisión automática puede bloquear una operación pese a estas reglas. No 
 
 ## Estilo y datos esenciales
 
+- Pasta: usar preferiblemente pasta integral y 50 g en seco por persona como cantidad de referencia, salvo ajuste acordado para una receta concreta. Para las gambas al ajillo con pasta, conservar 100 g de pasta seca preferiblemente integral y 250 g de gambas peladas para dos personas; el manuscrito de Marisa conserva sus 250 g de pasta originales.
+
+- Antes de desarrollar cualquier ficha, comprobar en `datos/estado-fichas.json`, portada y categoría si ya existe publicada o en «Próximamente», también con nombres equivalentes. Comunicar la coincidencia y reutilizar su identificador; al publicarla, sustituir la prevista sin duplicados. Hacer esta comprobación siempre, aunque el usuario no mencione las próximas.
+
 - Confirmar `tipo_ficha` y `categoria_menu` antes de incorporar una ficha nueva. No volver a preguntarlos si ya se confirmaron. Cada receta pertenece a una sola categoría.
 - Al incorporar cualquier receta nueva, comprobar siempre si ya aparece como ejemplo en el carrusel semanal, incluidos los componentes de ejemplos compuestos. Si corresponde, enlazar su ficha definitiva al publicarla y sincronizar `semana-base.md`, `datos/semana-base.json` y el bloque de `index.html`; regenerar y comprobar el carrusel. Si no aparece, no añadirla ni sustituir otro ejemplo sin acuerdo del usuario.
 - Mantener sincronizados Markdown con YAML completo, JSON, Schema.org y HTML. Actualizar PDF, portada, categoría, `datos/estado-fichas.json` y `search-data` según corresponda; no duplicar recetas ni variantes.

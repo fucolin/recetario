@@ -9,7 +9,7 @@ dias:
     comida:
       - texto: Marisco
         categoria: Mariscos
-        ejemplo: {titulo: Gambas al ajillo con pasta, pagina: null}
+        ejemplo: {titulo: Gambas al ajillo con pasta, pagina: gambas-ajillo-pasta.html}
     cena:
       - texto: Picoteo sanote
         categoria: Picoteo y guarniciones
@@ -69,7 +69,7 @@ dias:
     comida:
       - texto: Marisco
         categoria: Mariscos
-        ejemplo: {titulo: Gambas al ajillo con pasta, pagina: null}
+        ejemplo: {titulo: Gambas al ajillo con pasta, pagina: gambas-ajillo-pasta.html}
       - texto: Ensalada
         categoria: Ensaladas
         ejemplo: {titulo: de tomate y mozzarella, pagina: null}
