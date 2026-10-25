@@ -1,5 +1,20 @@
 # Continuar en otro chat · Casa Marisa
 
+## Estado vigente contrastado · 25/10/2026
+
+Esta síntesis prevalece sobre las referencias históricas a preparaciones o pendientes de publicación que figuran más abajo. Se conserva íntegro el historial; comprobar de nuevo GitHub antes de trabajar.
+
+Las tres incorporaciones recientes están guardadas en la rama principal:
+- **Crema de calabacín**: `crema-calabacin.md` y [ficha](crema-calabacin.html), categoría Purés, receta de Marisa con manuscrito. Commit de incorporación `b65e12cec1010d8a1b01f737a267915335ea91b6`.
+- **Gambas al ajillo con pasta**: `gambas-ajillo-pasta.md` y [ficha](gambas-ajillo-pasta.html), categoría Mariscos, receta de Marisa con manuscrito. Commit `10773a2346a02151f175719f7ea76c727d0a339f`. Para dos personas: 100 g de pasta seca preferiblemente integral y 250 g de gambas peladas.
+- **Gambas salteadas con trigueros**: `gambas-salteadas-trigueros.md` y [ficha](gambas-salteadas-trigueros.html), categoría Mariscos, inspirada en una sugerencia de menú de Eva. Commit `8e26d9165a092646ecf72332b8d4899f8ea40801`. Conserva las opciones de calabacín y huevo escalfado aparte.
+
+**Verificado en archivos en esta revisión:** leídos los tres maestros Markdown/YAML y sus HTML actuales; las páginas incluyen Schema.org, enlace al PDF y `noindex, noimageindex`. `datos/estado-fichas.json` identifica las tres como NUEVA y ya no como próximas. `datos/semana-base.json` enlaza los dos ejemplos de gambas al ajillo con pasta (lunes y sábado). La guía técnica contiene la preferencia de pasta integral, 50 g secos por persona como referencia y la comprobación obligatoria de fichas existentes/próximas antes de desarrollar otra.
+
+**Límites de la comprobación:** guardado en GitHub no equivale a despliegue verificado. No se ha realizado ahora una comprobación HTTP, revisión visual de la web o del PDF ni prueba del menú vivo. No se deduce de estas incorporaciones una actualización de los metadatos o listados privados de Eva. Esas verificaciones quedan pendientes cuando corresponda.
+
+Esta corrección documental actualiza únicamente este resumen; conserva los registros anteriores y no modifica recetas, recursos ni datos del menú. Los apartados detallados de las tres recetas al final del documento ya existían al comenzar esta revisión. Se añade esta síntesis para hacer visible su estado actual.
+
 ## 22/10/2026 · Nombres completos de platos
 
 El cargador admite títulos de hasta 300 caracteres, en consonancia con el editor y su servicio de publicación, para conservar nombres largos sin recortarlos. Categorías, enlaces, número de platos/días y controles de validación permanecen iguales. Prueba de aceptación de 300 caracteres y rechazo de 301 conservando la copia válida anterior. No se publica ningún menú ni contenido de Eva desde esta actualización de código. Comprobar despliegue del commit al retomar.
