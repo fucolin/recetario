@@ -165,6 +165,10 @@ Desarrollada la prevista `gambas-ajillo-pasta`, tipo receta y categoría Marisco
 
 Preparados maestro, JSON, Schema.org, HTML, PDF A4, ilustración y tarjetas NUEVA sin duplicados. Enlazados los dos ejemplos existentes del respaldo semanal (lunes y sábado), sin cambiar el reparto ni el menú vivo publicado. La guía incorpora las reglas acordadas de comprobar próximas antes de desarrollar fichas y preferir pasta integral, con 50 g secos por persona como referencia ajustable. Revisión mostrada y publicación autorizada mediante ARG. Datos, enlaces, manuscrito sin recortes, PDF A4 de una página y pruebas del carrusel, menú publicado, filtros y noindex comprobados. Verificar el despliegue tras guardar; las copias de revisión no se publican.
 
-La crema de calabacín de Marisa también sigue preparada sin publicar, en una revisión independiente: no darla por publicada al incorporar esta receta.
+La crema de calabacín se publica en la incorporación posterior documentada al final de este resumen.
 
 Al regenerar el respaldo se corrigió un error del generador: usar una función de sustitución para conservar literalmente las barras del JavaScript incrustado, sin interpretarlas como escapes de reemplazo. Se conserva el cargador del menú publicado.
+
+## Crema de calabacín · 25/10/2026
+
+Desarrollada la prevista `crema-calabacin`, tipo receta y categoría Purés, como receta de Marisa. Dos raciones: 600 g de calabacín con piel, dos ajos retirados tras dorar, dos quesitos (uno por persona), una cucharada de aceite de oliva, 100 ml de agua inicial y media pastilla de caldo vegetal. 25–30 min. Aceite en lugar de la margarina antigua, según la preparación actual de casa. Maestro, JSON, Schema.org, HTML, PDF A4, ilustración y tarjetas NUEVA preparados. Manuscrito completo ampliable y transcripción separados de la adaptación; no se atribuyen al original las cantidades afinadas o la aclaración de conservar la piel. No aparece como ejemplo en el carrusel: se conserva el respaldo semanal. Regla de comprobar fichas publicadas y próximas antes de desarrollar cualquiera preparada en la guía. Revisión mostrada y publicación autorizada mediante ARG. Integrada sobre el HEAD vigente conservando las dos recetas de gambas y sus enlaces. Comprobaciones locales y disponibilidad tras el despliegue se registran por separado.

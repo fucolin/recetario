@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "Crema de calabacín",
+  "description": "Con piel y quesitos",
+  "author": {
+    "@type": "Person",
+    "name": "Marisa"
+  },
+  "recipeCategory": "Purés",
+  "recipeYield": "2 raciones",
+  "totalTime": "PT30M",
+  "recipeIngredient": [
+    "600 g de calabacín",
+    "2 dientes de ajo",
+    "2 quesitos",
+    "1 cucharada de aceite de oliva (15 ml)",
+    "100 ml de agua, aproximadamente",
+    "½ pastilla de caldo vegetal",
+    "Pimienta (opcional)"
+  ],
+  "recipeInstructions": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "Prepara el calabacín",
+      "text": "Lava bien los calabacines y conserva la piel. Retira los extremos y córtalos en láminas finas, como las patatas para tortilla. Pela los ajos y aplástalos ligeramente."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "Dora los ajos",
+      "text": "Calienta el aceite en una cazuela a fuego medio-bajo. Añade los ajos y deja que se doren suavemente, sin oscurecerse. Retíralos: su sabor queda en el aceite."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "Rehoga el calabacín",
+      "text": "Incorpora el calabacín y cocina a fuego medio, removiendo de vez en cuando, hasta que se ablande y empiece a soltar agua. No hace falta dorarlo."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 4,
+      "name": "Cuece hasta que esté tierno",
+      "text": "Añade los quesitos, la media pastilla de caldo desmenuzada y 100 ml de agua. Mezcla, tapa y cocina a fuego suave hasta que el calabacín esté completamente blando. Remueve alguna vez para evitar que el queso se agarre al fondo."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 5,
+      "name": "Tritura y ajusta",
+      "text": "Aparta del fuego y tritura hasta obtener una crema muy fina. Si queda demasiado espesa, añade agua caliente poco a poco. Prueba antes de añadir sal: el caldo y los quesitos ya aportan. Termina con pimienta si te gusta."
+    }
+  ],
+  "keywords": "calabacín, quesitos, crema, piel, cazuela, receta de Marisa",
+  "image": "https://fucolin.github.io/recetario/images/crema-calabacin-ilustracion-v1.jpg",
+  "url": "https://fucolin.github.io/recetario/crema-calabacin.html",
+  "dateModified": "2026-10-25",
+  "isBasedOn": {
+    "@type": "CreativeWork",
+    "name": "Crema de calabacín",
+    "author": {
+      "@type": "Person",
+      "name": "Marisa"
+    },
+    "image": "https://fucolin.github.io/recetario/images/originales-marisa/crema-calabacin-manuscrito.jpeg"
+  }
+}

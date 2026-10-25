@@ -1,5 +1,6 @@
 {
   "nuevas": [
+    "crema-calabacin",
     "gambas-ajillo-pasta",
     "gambas-salteadas-trigueros",
     "pollo-guisado-calabacin-cocotte",
@@ -91,12 +92,6 @@
       "titulo": "Salteado de pavo, brécol y garbanzos",
       "categoria_menu": "Carnes exprés",
       "categoria_slug": "carnes-expres"
-    },
-    {
-      "id": "crema-calabacin",
-      "titulo": "Crema de calabacín",
-      "categoria_menu": "Purés",
-      "categoria_slug": "pures"
     },
     {
       "id": "pasta-feta-pepino-manzana",
