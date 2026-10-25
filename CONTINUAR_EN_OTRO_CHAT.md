@@ -154,3 +154,7 @@ Comprobaciones locales: tamaños, formato RGB opaco, enlace genérico y tamaños
 La disponibilidad de los iconos iniciales que figuraba pendiente arriba quedó después comprobada por HTTP (portada, categoría de Legumbres, manifiesto e iconos); esa antigua mención a 404 ya es histórica.
 
 
+
+## Gambas salteadas con trigueros · 25/10/2026
+
+Ficha «Gambas salteadas con trigueros», tipo receta, categoría Mariscos. Dos raciones; 250 g de gambas crudas peladas congeladas (peso descongelado y escurrido), 300 g de trigueros, ajo y una cucharada de aceite. Saltear verdura y gambas por separado; reunir al final. Opciones: sustituir por calabacín en bastones de 4–5 cm por 1 cm; huevo escalfado aparte. Inspirada en una sugerencia de menú de Eva, sin atribuirle una receta completa. Maestros, HTML, PDF A4, ilustración y tarjetas NUEVA preparados; se retira su prevista. No corresponde a los ejemplos de gambas al ajillo con pasta del respaldo semanal: se conservan. Revisión mostrada y publicación autorizada mediante ARG. Comprobados YAML/JSON/Schema.org, PDF A4 de una página, noindex y filtros del buscador. Verificar el despliegue tras guardar el commit; no confundir las comprobaciones locales con disponibilidad en la web.

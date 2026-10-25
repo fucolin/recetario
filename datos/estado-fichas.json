@@ -1,5 +1,6 @@
 {
   "nuevas": [
+    "gambas-salteadas-trigueros",
     "pollo-guisado-calabacin-cocotte",
     "mejillones-marinera",
     "patatas-vapor-sabrosas",
@@ -51,12 +52,6 @@
     {
       "id": "gambas-ajillo-pasta",
       "titulo": "Gambas al ajillo con pasta",
-      "categoria_menu": "Mariscos",
-      "categoria_slug": "mariscos"
-    },
-    {
-      "id": "gambas-salteadas-trigueros",
-      "titulo": "Gambas salteadas con trigueros",
       "categoria_menu": "Mariscos",
       "categoria_slug": "mariscos"
     },

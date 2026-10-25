@@ -284,3 +284,10 @@ Ilustraciones generadas con IA para Casa Marisa a partir de los ingredientes y l
 - Ilustración fotorrealista generada y ajustada con IA mediante la herramienta integrada para Casa Marisa; dos cuartos traseros enteros con hueso y sin piel, dorados y guisados con tomate, cebolla, zanahoria y calabacín en medias lunas gruesas. Sin guarniciones ni adornos añadidos; laurel retirado y tomillo opcional omitido.
 - Vajilla de cerámica clara sobre piedra beige, luz natural cálida y suave, encuadre cercano a tres cuartos, horizontal 16:9. Identificada como ilustración generada con IA en la ficha. La primera prueba con cuatro contramuslos queda como revisión local sin publicar. La tarjeta de la familia en Guisos y asados utiliza esta imagen; la variante en olla conserva su cabecera.
 - No es una fotografía documental; no se atribuye autoría fotográfica ni licencia Creative Commons.
+
+## Gambas salteadas con trigueros
+
+- Archivo: `images/gambas-salteadas-trigueros-ilustracion-v1.jpg`.
+- Origen: ilustración generada con IA para Casa Marisa, ajustada a las cantidades, cortes y elaboración de la versión con trigueros.
+- Referencias de estilo: ilustraciones publicadas del burrito de frijoles negros y la tortilla de boniato.
+- Sin huevo ni calabacín opcionales. No se atribuye autoría fotográfica ni licencia Creative Commons.

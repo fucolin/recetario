@@ -1,0 +1,166 @@
+---
+esquema: recetario-1.0
+id: gambas-salteadas-trigueros
+familia: gambas-salteadas-trigueros
+variante: principal
+titulo: Gambas salteadas con trigueros
+subtitulo: Con ajo, en sartén
+categoria: Gambas
+categoria_menu: Mariscos
+tipo_ficha: receta
+fecha_actualizacion: '2026-10-25'
+etiquetas:
+- gambas congeladas
+- espárragos trigueros
+- ajo
+- salteado
+- calabacín
+- huevo escalfado
+raciones:
+  min: 2
+  max: 2
+tiempo_total_min:
+  min: 15
+  max: 20
+tiempo_nota: Sin contar la descongelación de las gambas ni la preparación del huevo opcional.
+encabezado:
+  titulo: Gambas salteadas con trigueros
+  detalle: Con ajo, en sartén · 2 raciones · 15–20 min
+ingredientes:
+- nombre: gambas crudas peladas congeladas
+  cantidad: 250
+  unidad: g
+  nota: peso descongelado y escurrido
+- nombre: espárragos trigueros
+  cantidad: 300
+  unidad: g
+- nombre: ajo
+  cantidad: 1
+  unidad: diente
+- nombre: aceite de oliva
+  cantidad: 1
+  unidad: cucharada
+  equivalencia_ml: 15
+- nombre: sal
+  nota: al gusto
+- nombre: pimienta
+  nota: al gusto
+- nombre: zumo de limón
+  cantidad: unas gotas
+  opcional: true
+pdf_ingredientes:
+- 250 g de gambas crudas peladas congeladas (peso descongelado y escurrido)
+- 300 g de espárragos trigueros
+- 1 diente de ajo
+- 1 cucharada de aceite de oliva (15 ml)
+- Sal y pimienta
+- Unas gotas de limón (opcional)
+pasos:
+- orden: 1
+  titulo: Prepara los ingredientes
+  duracion_min: 5
+  duracion_max_min: 5
+  duracion_texto: 5 min
+  instrucciones: Descongela las gambas en la nevera siguiendo el envase, escúrrelas y sécalas bien. Lava los trigueros,
+    retira la parte leñosa del tallo y córtalos en trozos de 3–4 cm. Pela y pica fino el ajo.
+- orden: 2
+  titulo: Saltea los trigueros
+  duracion_min: 4
+  duracion_max_min: 6
+  duracion_texto: 4–6 min
+  instrucciones: Calienta la mitad del aceite en una sartén amplia a fuego medio-alto. Añade los trigueros y una
+    pizca de sal; saltea hasta que estén tiernos, con algo de mordida. Si son gruesos, añade una cucharada de agua
+    y tapa brevemente; destapa después y deja evaporar el líquido. Retira a un plato.
+- orden: 3
+  titulo: Perfuma el aceite
+  duracion_min: 0.33
+  duracion_max_min: 0.5
+  duracion_texto: 20–30 s
+  instrucciones: Baja a fuego medio y añade el aceite restante y el ajo. Remueve unos 20–30 segundos, solo hasta
+    que desprenda aroma, sin dejar que se queme.
+- orden: 4
+  titulo: Saltea las gambas
+  duracion_min: 2
+  duracion_max_min: 4
+  duracion_texto: 2–4 min
+  instrucciones: Añade las gambas en una sola capa, salpimienta y cocina a fuego medio-alto, dándoles la vuelta,
+    hasta que estén opacas también en el centro. El tiempo total depende de su tamaño; retíralas del fuego en cuanto
+    estén hechas.
+- orden: 5
+  titulo: Junta y sirve
+  duracion_min: 0.5
+  duracion_max_min: 0.5
+  duracion_texto: 30 s
+  instrucciones: Devuelve los trigueros a la sartén y mezcla durante unos 30 segundos, lo justo para reunir los
+    sabores y calentarlos. Ajusta sal y pimienta. Apaga el fuego, añade unas gotas de limón si te apetece y sirve
+    enseguida.
+claves: Seca bien las gambas para que se salteen y no cuezan en su agua. Usa una sartén amplia y no amontones los
+  ingredientes. Cocina los trigueros primero y las gambas después; júntalos solo al final para conservar el punto
+  de ambos.
+opciones:
+- titulo: Con calabacín
+  texto: 'Sustituye los trigueros por 300 g de calabacín. Conserva la piel y córtalo en bastones de 4–5 cm de largo
+    y alrededor de 1 cm de grosor. Si el centro tiene semillas grandes y está muy acuoso, retira esa parte. Sécalo
+    y saltéalo con la mitad del aceite, sin tapar ni amontonar, unos 5–7 minutos: ligeramente dorado y todavía firme.
+    Retira y continúa con el ajo y las gambas; reúne todo al final.'
+- titulo: Con huevo escalfado aparte
+  texto: Prepara un huevo escalfado por persona en un cazo aparte y colócalo sobre el salteado al servir. Así puedes
+    ajustar el punto del huevo sin alargar la cocción de las gambas ni de los trigueros.
+fuente:
+  tipo: sugerencia de menú
+  autor: Eva, nutricionista
+  titulo_original: Gambas salteadas con espárragos trigueros o calabacín
+  atribucion: Inspirada en una propuesta de menú de Eva, la nutricionista.
+  ajustes: Cantidades y preparación desarrolladas para Casa Marisa a partir de la sugerencia de menú. Gambas congeladas;
+    verduras y gambas salteadas por separado, calabacín como alternativa y huevo escalfado aparte como opción.
+image: https://fucolin.github.io/recetario/images/gambas-salteadas-trigueros-ilustracion-v1.jpg
+image_alt: Gambas peladas salteadas con trozos de espárragos trigueros y ajo, en un plato de cerámica clara
+image_credit: Ilustración generada con IA para Casa Marisa
+image_note: Ilustración de la versión principal con trigueros; sin huevo ni calabacín opcionales.
+image_width: 1672
+image_height: 941
+pdf: https://fucolin.github.io/recetario/gambas-salteadas-trigueros.pdf
+---
+
+# Gambas salteadas con trigueros
+
+Con ajo, en sartén · 2 raciones · 15–20 min
+
+![Gambas peladas salteadas con trozos de espárragos trigueros y ajo, en un plato de cerámica clara](images/gambas-salteadas-trigueros-ilustracion-v1.jpg)
+
+Ilustración generada con IA.
+
+## Ingredientes
+
+- 250 g de gambas crudas peladas congeladas (peso descongelado y escurrido)
+- 300 g de espárragos trigueros
+- 1 diente de ajo
+- 1 cucharada de aceite de oliva (15 ml)
+- Sal y pimienta
+- Unas gotas de limón (opcional)
+
+## Preparación
+
+1. **Prepara los ingredientes · 5 min.** Descongela las gambas en la nevera siguiendo el envase, escúrrelas y sécalas bien. Lava los trigueros, retira la parte leñosa del tallo y córtalos en trozos de 3–4 cm. Pela y pica fino el ajo.
+
+2. **Saltea los trigueros · 4–6 min.** Calienta la mitad del aceite en una sartén amplia a fuego medio-alto. Añade los trigueros y una pizca de sal; saltea hasta que estén tiernos, con algo de mordida. Si son gruesos, añade una cucharada de agua y tapa brevemente; destapa después y deja evaporar el líquido. Retira a un plato.
+
+3. **Perfuma el aceite · 20–30 s.** Baja a fuego medio y añade el aceite restante y el ajo. Remueve unos 20–30 segundos, solo hasta que desprenda aroma, sin dejar que se queme.
+
+4. **Saltea las gambas · 2–4 min.** Añade las gambas en una sola capa, salpimienta y cocina a fuego medio-alto, dándoles la vuelta, hasta que estén opacas también en el centro. El tiempo total depende de su tamaño; retíralas del fuego en cuanto estén hechas.
+
+5. **Junta y sirve · 30 s.** Devuelve los trigueros a la sartén y mezcla durante unos 30 segundos, lo justo para reunir los sabores y calentarlos. Ajusta sal y pimienta. Apaga el fuego, añade unas gotas de limón si te apetece y sirve enseguida.
+
+## Claves
+
+Seca bien las gambas para que se salteen y no cuezan en su agua. Usa una sartén amplia y no amontones los ingredientes. Cocina los trigueros primero y las gambas después; júntalos solo al final para conservar el punto de ambos.
+
+## Opciones
+
+**Con calabacín:** Sustituye los trigueros por 300 g de calabacín. Conserva la piel y córtalo en bastones de 4–5 cm de largo y alrededor de 1 cm de grosor. Si el centro tiene semillas grandes y está muy acuoso, retira esa parte. Sécalo y saltéalo con la mitad del aceite, sin tapar ni amontonar, unos 5–7 minutos: ligeramente dorado y todavía firme. Retira y continúa con el ajo y las gambas; reúne todo al final.
+
+**Con huevo escalfado aparte:** Prepara un huevo escalfado por persona en un cazo aparte y colócalo sobre el salteado al servir. Así puedes ajustar el punto del huevo sin alargar la cocción de las gambas ni de los trigueros.
+
+## Fuente
+
+Inspirada en una propuesta de menú de Eva, la nutricionista.
