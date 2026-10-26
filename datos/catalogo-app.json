@@ -1,0 +1,4624 @@
+{
+  "schemaVersion": 1,
+  "sourceRepository": "fucolin/recetario",
+  "sourceCommit": "c577350aa825c237279e1f291f98304d3599db35",
+  "sourceCommitTime": 1792964392,
+  "contentVersion": "3c1c40e4a91899a3c25e905338c55732783e54f64208a37d01caaa3249261f08",
+  "recipes": [
+    {
+      "id": "barquitas-endivia-requeson",
+      "title": "Barquitas de endivia con requesón",
+      "category": "Picoteo y guarniciones",
+      "type": "combinacion",
+      "available": true,
+      "url": "barquitas-endivia-requeson.html",
+      "portions": {
+        "min": 1,
+        "max": 1
+      },
+      "servings": "1 ración",
+      "ingredients": [
+        {
+          "index": 0,
+          "name": "endivia",
+          "quantity": "1 unidad",
+          "note": "6-8 hojas",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "endivia",
+            "cantidad": 1,
+            "unidad": "unidad",
+            "nota": "6-8 hojas"
+          }
+        },
+        {
+          "index": 1,
+          "name": "requesón",
+          "quantity": "100 g",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "requesón",
+            "cantidad": 100,
+            "unidad": "g",
+            "producto_preferido": "requeson-loran"
+          }
+        }
+      ]
+    },
+    {
+      "id": "bol-brotes-trigo-sarraceno",
+      "title": "Bol de brotes y trigo sarraceno",
+      "category": "Ensaladas",
+      "type": "prevista",
+      "available": false,
+      "url": null,
+      "portions": null,
+      "servings": "",
+      "ingredients": []
+    },
+    {
+      "id": "burrito-frijoles-negros",
+      "title": "Burrito de frijoles negros",
+      "category": "Envueltos y bocados",
+      "type": "receta",
+      "available": true,
+      "url": "burrito-frijoles-negros.html",
+      "portions": {
+        "min": 2,
+        "max": 2
+      },
+      "servings": "2 raciones",
+      "ingredients": [
+        {
+          "index": 0,
+          "name": "frijoles negros guisados",
+          "quantity": "1 lata",
+          "note": "410 g de contenido total, incluida la salsa; ya llevan cebolla, pimientos, aceite, sal y especias",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "frijoles negros guisados",
+            "cantidad": 1,
+            "unidad": "lata",
+            "nota": "410 g de contenido total, incluida la salsa; ya llevan cebolla, pimientos, aceite, sal y especias",
+            "producto_preferido": "frijoles-negros-guisados-gusto-pan"
+          }
+        },
+        {
+          "index": 1,
+          "name": "quinoa",
+          "quantity": "50 g",
+          "note": "en seco",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "quinoa",
+            "cantidad": 50,
+            "unidad": "g",
+            "nota": "en seco"
+          }
+        },
+        {
+          "index": 2,
+          "name": "edamame desgranado",
+          "quantity": "80–100 g",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "edamame desgranado",
+            "cantidad_min": 80,
+            "cantidad_max": 100,
+            "unidad": "g"
+          }
+        },
+        {
+          "index": 3,
+          "name": "champiñones",
+          "quantity": "100 g",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "champiñones",
+            "cantidad": 100,
+            "unidad": "g"
+          }
+        },
+        {
+          "index": 4,
+          "name": "aguacate",
+          "quantity": "1 unidad",
+          "note": "mediano",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "aguacate",
+            "cantidad": 1,
+            "unidad": "unidad",
+            "nota": "mediano"
+          }
+        },
+        {
+          "index": 5,
+          "name": "tortillas de trigo",
+          "quantity": "2 unidades",
+          "note": "grandes, de unos 30 cm; integrales si te gustan. Con tortillas más pequeñas, repartir el relleno entre 4",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "tortillas de trigo",
+            "cantidad": 2,
+            "unidad": "unidades",
+            "nota": "grandes, de unos 30 cm; integrales si te gustan. Con tortillas más pequeñas, repartir el relleno entre 4"
+          }
+        },
+        {
+          "index": 6,
+          "name": "aceite de oliva virgen extra",
+          "quantity": "1 cucharadita",
+          "note": "para saltear los champiñones",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "aceite de oliva virgen extra",
+            "cantidad": 1,
+            "unidad": "cucharadita",
+            "nota": "para saltear los champiñones"
+          }
+        },
+        {
+          "index": 7,
+          "name": "zumo de lima",
+          "quantity": "1–2 cucharaditas",
+          "note": "ajustable al gusto",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "zumo de lima",
+            "cantidad_min": 1,
+            "cantidad_max": 2,
+            "unidad": "cucharaditas",
+            "nota": "ajustable al gusto"
+          }
+        },
+        {
+          "index": 8,
+          "name": "comino molido",
+          "quantity": "",
+          "note": "una pizca, solo después de probar",
+          "alternative": "",
+          "pantry": true,
+          "optional": true,
+          "group": "",
+          "source": {
+            "nombre": "comino molido",
+            "nota": "una pizca, solo después de probar",
+            "opcional": true
+          }
+        },
+        {
+          "index": 9,
+          "name": "pico de gallo",
+          "quantity": "2 cucharadas",
+          "note": "bien escurrido",
+          "alternative": "",
+          "pantry": false,
+          "optional": true,
+          "group": "",
+          "source": {
+            "nombre": "pico de gallo",
+            "cantidad": 2,
+            "unidad": "cucharadas",
+            "nota": "bien escurrido",
+            "opcional": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "canonigos-champinones-cherrys-feta",
+      "title": "Canónigos con champiñones, cherrys y feta",
+      "category": "Picoteo y guarniciones",
+      "type": "preparacion",
+      "available": true,
+      "url": "canonigos-champinones-cherrys-feta.html",
+      "portions": {
+        "min": 1,
+        "max": 1
+      },
+      "servings": "1 ración",
+      "ingredients": [
+        {
+          "index": 0,
+          "name": "champiñones",
+          "quantity": "100–120 g",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "champiñones",
+            "cantidad_min": 100,
+            "cantidad_max": 120,
+            "unidad": "g"
+          }
+        },
+        {
+          "index": 1,
+          "name": "tomates cherry",
+          "quantity": "100 g",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "tomates cherry",
+            "cantidad": 100,
+            "unidad": "g"
+          }
+        },
+        {
+          "index": 2,
+          "name": "canónigos",
+          "quantity": "40–50 g",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "canónigos",
+            "cantidad_min": 40,
+            "cantidad_max": 50,
+            "unidad": "g"
+          }
+        },
+        {
+          "index": 3,
+          "name": "queso feta",
+          "quantity": "30 g",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "queso feta",
+            "cantidad": 30,
+            "unidad": "g"
+          }
+        },
+        {
+          "index": 4,
+          "name": "aceite de oliva virgen extra",
+          "quantity": "1 cucharadita",
+          "note": "",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "aceite de oliva virgen extra",
+            "cantidad": 1,
+            "unidad": "cucharadita"
+          }
+        },
+        {
+          "index": 5,
+          "name": "sal y pimienta negra",
+          "quantity": "",
+          "note": "al gusto",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "sal y pimienta negra",
+            "nota": "al gusto"
+          }
+        }
+      ]
+    },
+    {
+      "id": "crema-aprovechamiento-marisa",
+      "title": "Crema de aprovechamiento",
+      "category": "Purés",
+      "type": "receta",
+      "available": true,
+      "url": "crema-aprovechamiento-marisa.html",
+      "portions": {
+        "min": 4,
+        "max": 4
+      },
+      "servings": "4 raciones",
+      "ingredients": [
+        {
+          "index": 0,
+          "name": "puerro",
+          "quantity": "200 g",
+          "note": "limpio",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "puerro",
+            "cantidad": 200,
+            "unidad": "g",
+            "nota": "limpio"
+          }
+        },
+        {
+          "index": 1,
+          "name": "aceite de oliva",
+          "quantity": "40 g",
+          "note": "para sofreír el puerro",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "aceite de oliva",
+            "cantidad": 40,
+            "unidad": "g",
+            "nota": "para sofreír el puerro"
+          }
+        },
+        {
+          "index": 2,
+          "name": "verduras variadas",
+          "quantity": "500–600 g",
+          "note": "las que haya por casa; peso preparado, además del puerro",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "verduras variadas",
+            "cantidad_min": 500,
+            "cantidad_max": 600,
+            "unidad": "g",
+            "nota": "las que haya por casa; peso preparado, además del puerro"
+          }
+        },
+        {
+          "index": 3,
+          "name": "agua o caldo de pollo",
+          "quantity": "500–600 g",
+          "note": "empezar con 500 g y ajustar la textura al final",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "agua o caldo de pollo",
+            "cantidad_min": 500,
+            "cantidad_max": 600,
+            "unidad": "g",
+            "nota": "empezar con 500 g y ajustar la textura al final"
+          }
+        },
+        {
+          "index": 4,
+          "name": "sal",
+          "quantity": "",
+          "note": "al gusto; probar antes si el caldo ya lleva sal",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "sal",
+            "nota": "al gusto; probar antes si el caldo ya lleva sal"
+          }
+        }
+      ]
+    },
+    {
+      "id": "crema-calabacin",
+      "title": "Crema de calabacín",
+      "category": "Purés",
+      "type": "receta",
+      "available": true,
+      "url": "crema-calabacin.html",
+      "portions": {
+        "min": 2,
+        "max": 2
+      },
+      "servings": "2 raciones",
+      "ingredients": [
+        {
+          "index": 0,
+          "name": "calabacín",
+          "quantity": "600 g",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "calabacín",
+            "cantidad": 600,
+            "unidad": "g"
+          }
+        },
+        {
+          "index": 1,
+          "name": "ajo",
+          "quantity": "2 dientes",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "ajo",
+            "cantidad": 2,
+            "unidad": "dientes"
+          }
+        },
+        {
+          "index": 2,
+          "name": "quesitos",
+          "quantity": "2 unidades",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "quesitos",
+            "cantidad": 2,
+            "unidad": "unidades"
+          }
+        },
+        {
+          "index": 3,
+          "name": "aceite de oliva",
+          "quantity": "1 cucharada",
+          "note": "Equivale a 15 ml",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "aceite de oliva",
+            "cantidad": 1,
+            "unidad": "cucharada",
+            "equivalencia_ml": 15
+          }
+        },
+        {
+          "index": 4,
+          "name": "agua",
+          "quantity": "100 ml",
+          "note": "aproximadamente",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "agua",
+            "cantidad": 100,
+            "unidad": "ml",
+            "nota": "aproximadamente"
+          }
+        },
+        {
+          "index": 5,
+          "name": "pastilla de caldo vegetal",
+          "quantity": "0,5 unidad",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "pastilla de caldo vegetal",
+            "cantidad": 0.5,
+            "unidad": "unidad"
+          }
+        },
+        {
+          "index": 6,
+          "name": "pimienta",
+          "quantity": "",
+          "note": "al gusto",
+          "alternative": "",
+          "pantry": true,
+          "optional": true,
+          "group": "",
+          "source": {
+            "nombre": "pimienta",
+            "opcional": true,
+            "nota": "al gusto"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ensalada-garbanzos-mango-aguacate",
+      "title": "Ensalada de garbanzos, mango y aguacate",
+      "category": "Ensaladas",
+      "type": "preparacion",
+      "available": true,
+      "url": "ensalada-garbanzos-mango-aguacate.html",
+      "portions": {
+        "min": 2,
+        "max": 2
+      },
+      "servings": "2 raciones",
+      "ingredients": [
+        {
+          "index": 0,
+          "name": "garbanzos cocidos",
+          "quantity": "400 g",
+          "note": "peso escurrido",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "garbanzos cocidos",
+            "cantidad": 400,
+            "unidad": "g",
+            "nota": "peso escurrido"
+          }
+        },
+        {
+          "index": 1,
+          "name": "tomates cherry",
+          "quantity": "150 g",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "tomates cherry",
+            "cantidad": 150,
+            "unidad": "g"
+          }
+        },
+        {
+          "index": 2,
+          "name": "pepino",
+          "quantity": "150 g",
+          "note": "aproximadamente medio pepino mediano",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "pepino",
+            "cantidad": 150,
+            "unidad": "g",
+            "nota": "aproximadamente medio pepino mediano"
+          }
+        },
+        {
+          "index": 3,
+          "name": "mango",
+          "quantity": "150 g",
+          "note": "pelado y sin hueso; maduro pero firme",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "mango",
+            "cantidad": 150,
+            "unidad": "g",
+            "nota": "pelado y sin hueso; maduro pero firme"
+          }
+        },
+        {
+          "index": 4,
+          "name": "aguacate",
+          "quantity": "1 unidad",
+          "note": "mediano",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "aguacate",
+            "cantidad": 1,
+            "unidad": "unidad",
+            "nota": "mediano"
+          }
+        },
+        {
+          "index": 5,
+          "name": "aceite de oliva virgen extra",
+          "quantity": "1 cucharada",
+          "note": "",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "aceite de oliva virgen extra",
+            "cantidad": 1,
+            "unidad": "cucharada"
+          }
+        },
+        {
+          "index": 6,
+          "name": "zumo de limón",
+          "quantity": "1 cucharada",
+          "note": "ajustable al gusto",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "zumo de limón",
+            "cantidad": 1,
+            "unidad": "cucharada",
+            "nota": "ajustable al gusto"
+          }
+        },
+        {
+          "index": 7,
+          "name": "sal",
+          "quantity": "",
+          "note": "al gusto",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "sal",
+            "nota": "al gusto"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ensalada-lentejas-salmon-pepino",
+      "title": "Ensalada de lentejas, salmón y pepino",
+      "category": "Ensaladas",
+      "type": "preparacion",
+      "available": true,
+      "url": "ensalada-lentejas-salmon-pepino.html",
+      "portions": {
+        "min": 2,
+        "max": 2
+      },
+      "servings": "2 raciones",
+      "ingredients": [
+        {
+          "index": 0,
+          "name": "lentejas cocidas",
+          "quantity": "300 g",
+          "note": "peso escurrido; 1 bote",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "lentejas cocidas",
+            "cantidad": 300,
+            "unidad": "g",
+            "nota": "peso escurrido; 1 bote"
+          }
+        },
+        {
+          "index": 1,
+          "name": "salmón ahumado",
+          "quantity": "100 g",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "salmón ahumado",
+            "cantidad": 100,
+            "unidad": "g"
+          }
+        },
+        {
+          "index": 2,
+          "name": "pepino",
+          "quantity": "0,5 unidad",
+          "note": "aproximadamente · Peso aprox.: 100 g",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "pepino",
+            "cantidad": 0.5,
+            "unidad": "unidad",
+            "peso_aprox_g": 100,
+            "nota": "aproximadamente"
+          }
+        },
+        {
+          "index": 3,
+          "name": "yogur natural sin azúcar",
+          "quantity": "0,5 unidad",
+          "note": "unas 2 cucharadas · Peso aprox.: 60 g",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "yogur natural sin azúcar",
+            "cantidad": 0.5,
+            "unidad": "unidad",
+            "peso_aprox_g": 60,
+            "nota": "unas 2 cucharadas"
+          }
+        },
+        {
+          "index": 4,
+          "name": "mostaza",
+          "quantity": "1 cucharadita",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "mostaza",
+            "cantidad": 1,
+            "unidad": "cucharadita"
+          }
+        },
+        {
+          "index": 5,
+          "name": "zumo de limón",
+          "quantity": "1 cucharadita",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "zumo de limón",
+            "cantidad": 1,
+            "unidad": "cucharadita"
+          }
+        },
+        {
+          "index": 6,
+          "name": "eneldo fresco",
+          "quantity": "",
+          "note": "unas ramitas",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "eneldo fresco",
+            "nota": "unas ramitas"
+          }
+        },
+        {
+          "index": 7,
+          "name": "sal",
+          "quantity": "",
+          "note": "",
+          "alternative": "",
+          "pantry": true,
+          "optional": true,
+          "group": "",
+          "source": {
+            "nombre": "sal",
+            "opcional": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "ensalada-salmon-ahumado-mango-aguacate",
+      "title": "Ensalada de salmón ahumado, mango y aguacate",
+      "category": "Ensaladas",
+      "type": "preparacion",
+      "available": true,
+      "url": "ensalada-salmon-ahumado-mango-aguacate.html",
+      "portions": {
+        "min": 2,
+        "max": 2
+      },
+      "servings": "2 raciones",
+      "ingredients": [
+        {
+          "index": 0,
+          "name": "canónigos",
+          "quantity": "100 g",
+          "note": "o mezcla de lechugas y espinacas tiernas",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "canónigos",
+            "cantidad": 100,
+            "unidad": "g",
+            "nota": "o mezcla de lechugas y espinacas tiernas"
+          }
+        },
+        {
+          "index": 1,
+          "name": "salmón ahumado",
+          "quantity": "150 g",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "salmón ahumado",
+            "cantidad": 150,
+            "unidad": "g"
+          }
+        },
+        {
+          "index": 2,
+          "name": "mango",
+          "quantity": "150 g",
+          "note": "pelado y sin hueso; maduro pero firme",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "mango",
+            "cantidad": 150,
+            "unidad": "g",
+            "nota": "pelado y sin hueso; maduro pero firme"
+          }
+        },
+        {
+          "index": 3,
+          "name": "aguacate",
+          "quantity": "1 unidad",
+          "note": "mediano",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "aguacate",
+            "cantidad": 1,
+            "unidad": "unidad",
+            "nota": "mediano"
+          }
+        },
+        {
+          "index": 4,
+          "name": "aceite de oliva virgen extra",
+          "quantity": "1 cucharada",
+          "note": "",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "aceite de oliva virgen extra",
+            "cantidad": 1,
+            "unidad": "cucharada"
+          }
+        },
+        {
+          "index": 5,
+          "name": "zumo de limón",
+          "quantity": "1 cucharada",
+          "note": "ajustable al gusto",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "zumo de limón",
+            "cantidad": 1,
+            "unidad": "cucharada",
+            "nota": "ajustable al gusto"
+          }
+        },
+        {
+          "index": 6,
+          "name": "pimienta negra",
+          "quantity": "",
+          "note": "al gusto",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "pimienta negra",
+            "nota": "al gusto"
+          }
+        },
+        {
+          "index": 7,
+          "name": "sal",
+          "quantity": "",
+          "note": "solo si hace falta después de probar",
+          "alternative": "",
+          "pantry": true,
+          "optional": true,
+          "group": "",
+          "source": {
+            "nombre": "sal",
+            "nota": "solo si hace falta después de probar",
+            "opcional": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "ensalada-tomate-mozzarella",
+      "title": "Ensalada de tomate y mozzarella",
+      "category": "Ensaladas",
+      "type": "prevista",
+      "available": false,
+      "url": null,
+      "portions": null,
+      "servings": "",
+      "ingredients": []
+    },
+    {
+      "id": "ensalada-tomate-canonigos-feta",
+      "title": "Ensalada de tomate, canónigos y feta",
+      "category": "Ensaladas",
+      "type": "prevista",
+      "available": false,
+      "url": null,
+      "portions": null,
+      "servings": "",
+      "ingredients": []
+    },
+    {
+      "id": "ensalada-tomates-lago-albahaca",
+      "title": "Ensalada de tomates sobre un lago de albahaca",
+      "category": "Ensaladas",
+      "type": "preparacion",
+      "available": true,
+      "url": "ensalada-tomates-lago-albahaca.html",
+      "portions": {
+        "min": 2,
+        "max": 2,
+        "nota": "como entrante o acompañamiento"
+      },
+      "servings": "2 raciones como entrante o acompañamiento",
+      "ingredients": [
+        {
+          "index": 0,
+          "name": "tomates",
+          "quantity": "500 g",
+          "note": "sabrosos; combinar variedades si apetece",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "tomates",
+            "cantidad": 500,
+            "unidad": "g",
+            "nota": "sabrosos; combinar variedades si apetece"
+          }
+        },
+        {
+          "index": 1,
+          "name": "hojas de albahaca fresca",
+          "quantity": "15 g",
+          "note": "sin los tallos gruesos",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "hojas de albahaca fresca",
+            "cantidad": 15,
+            "unidad": "g",
+            "nota": "sin los tallos gruesos"
+          }
+        },
+        {
+          "index": 2,
+          "name": "aceite de oliva virgen extra",
+          "quantity": "30 ml",
+          "note": "2 cucharadas",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "aceite de oliva virgen extra",
+            "cantidad": 30,
+            "unidad": "ml",
+            "nota": "2 cucharadas"
+          }
+        },
+        {
+          "index": 3,
+          "name": "zumo de limón",
+          "quantity": "10 ml",
+          "note": "2 cucharaditas; ajustar al gusto",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "zumo de limón",
+            "cantidad": 10,
+            "unidad": "ml",
+            "nota": "2 cucharaditas; ajustar al gusto"
+          }
+        },
+        {
+          "index": 4,
+          "name": "rúcula o brotes tiernos",
+          "quantity": "20 g",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "rúcula o brotes tiernos",
+            "cantidad": 20,
+            "unidad": "g"
+          }
+        },
+        {
+          "index": 5,
+          "name": "sal",
+          "quantity": "",
+          "note": "al gusto",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "sal",
+            "nota": "al gusto"
+          }
+        },
+        {
+          "index": 6,
+          "name": "agua fría",
+          "quantity": "1–2 cucharaditas",
+          "note": "solo si hace falta para triturar",
+          "alternative": "",
+          "pantry": true,
+          "optional": true,
+          "group": "",
+          "source": {
+            "nombre": "agua fría",
+            "cantidad_min": 1,
+            "cantidad_max": 2,
+            "unidad": "cucharaditas",
+            "nota": "solo si hace falta para triturar",
+            "opcional": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "ensaladilla",
+      "title": "Ensaladilla",
+      "category": "Vegetales",
+      "type": "receta",
+      "available": true,
+      "url": "ensaladilla.html",
+      "portions": {
+        "min": 2,
+        "max": 2
+      },
+      "servings": "2 raciones",
+      "ingredients": [
+        {
+          "index": 0,
+          "name": "mezcla de verduras congeladas para ensaladilla",
+          "quantity": "400 g",
+          "note": "revisar si incluye patata; solo si lo especifica en las pautas nutricionales",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "mezcla de verduras congeladas para ensaladilla",
+            "cantidad": 400,
+            "unidad": "g",
+            "nota": "revisar si incluye patata; solo si lo especifica en las pautas nutricionales"
+          }
+        },
+        {
+          "index": 1,
+          "name": "atún al natural",
+          "quantity": "80 g",
+          "note": "peso escurrido",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "atún al natural",
+            "cantidad": 80,
+            "unidad": "g",
+            "nota": "peso escurrido"
+          }
+        },
+        {
+          "index": 2,
+          "name": "huevo",
+          "quantity": "2 unidades",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "huevo",
+            "cantidad": 2,
+            "unidad": "unidades"
+          }
+        },
+        {
+          "index": 3,
+          "name": "queso fresco batido natural",
+          "quantity": "60 g",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "queso fresco batido natural",
+            "cantidad": 60,
+            "unidad": "g"
+          }
+        },
+        {
+          "index": 4,
+          "name": "aceite de oliva virgen extra",
+          "quantity": "10 g",
+          "note": "",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "aceite de oliva virgen extra",
+            "cantidad": 10,
+            "unidad": "g"
+          }
+        },
+        {
+          "index": 5,
+          "name": "zumo de limón o vinagre",
+          "quantity": "10 ml",
+          "note": "",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "zumo de limón o vinagre",
+            "cantidad": 10,
+            "unidad": "ml",
+            "cantidad_max": 15
+          }
+        },
+        {
+          "index": 6,
+          "name": "pepinillos",
+          "quantity": "20 g",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": true,
+          "group": "",
+          "source": {
+            "nombre": "pepinillos",
+            "cantidad": 20,
+            "unidad": "g",
+            "opcional": true
+          }
+        },
+        {
+          "index": 7,
+          "name": "pimiento de piquillo o asado",
+          "quantity": "40 g",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": true,
+          "group": "",
+          "source": {
+            "nombre": "pimiento de piquillo o asado",
+            "cantidad": 40,
+            "unidad": "g",
+            "opcional": true
+          }
+        },
+        {
+          "index": 8,
+          "name": "sal",
+          "quantity": "",
+          "note": "solo si hace falta",
+          "alternative": "",
+          "pantry": true,
+          "optional": true,
+          "group": "",
+          "source": {
+            "nombre": "sal",
+            "opcional": true,
+            "nota": "solo si hace falta"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ensaladilla-murciana",
+      "title": "Ensaladilla murciana",
+      "category": "Vegetales",
+      "type": "prevista",
+      "available": false,
+      "url": null,
+      "portions": null,
+      "servings": "",
+      "ingredients": []
+    },
+    {
+      "id": "estofado-seitan",
+      "title": "Estofado de seitán",
+      "category": "Vegetales",
+      "type": "prevista",
+      "available": false,
+      "url": null,
+      "portions": null,
+      "servings": "",
+      "ingredients": []
+    },
+    {
+      "id": "fajita-francesa-pavo",
+      "title": "Fajita de francesa y pavo",
+      "category": "Envueltos y bocados",
+      "type": "preparacion",
+      "available": true,
+      "url": "fajita-francesa-pavo.html",
+      "portions": {
+        "min": 1,
+        "max": 1
+      },
+      "servings": "1 ración",
+      "ingredients": [
+        {
+          "index": 0,
+          "name": "tortilla/piadina",
+          "quantity": "1 unidad",
+          "note": "grande; integral o de espelta",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "tortilla/piadina",
+            "cantidad": 1,
+            "unidad": "unidad",
+            "nota": "grande; integral o de espelta"
+          }
+        },
+        {
+          "index": 1,
+          "name": "huevos",
+          "quantity": "2 unidades",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "huevos",
+            "cantidad": 2,
+            "unidad": "unidades"
+          }
+        },
+        {
+          "index": 2,
+          "name": "pavo o jamón cocido",
+          "quantity": "1 loncha",
+          "note": "grande; mínimo 90 % de carne · Peso aprox.: 25 g",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "pavo o jamón cocido",
+            "cantidad": 1,
+            "unidad": "loncha",
+            "peso_aprox_g": 25,
+            "nota": "grande; mínimo 90 % de carne",
+            "producto_preferido": "pechuga-pavo-elpozo-1954"
+          }
+        },
+        {
+          "index": 3,
+          "name": "queso",
+          "quantity": "1 loncha",
+          "note": "Peso aprox.: 20 g",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "queso",
+            "cantidad": 1,
+            "unidad": "loncha",
+            "peso_aprox_g": 20
+          }
+        },
+        {
+          "index": 4,
+          "name": "tomate",
+          "quantity": "0,5 unidad",
+          "note": "pequeño · Peso aprox.: 50 g",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "tomate",
+            "cantidad": 0.5,
+            "unidad": "unidad",
+            "peso_aprox_g": 50,
+            "nota": "pequeño"
+          }
+        },
+        {
+          "index": 5,
+          "name": "aguacate",
+          "quantity": "0,25 unidad",
+          "note": "mediano",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "aguacate",
+            "cantidad": 0.25,
+            "unidad": "unidad",
+            "nota": "mediano"
+          }
+        },
+        {
+          "index": 6,
+          "name": "lechuga",
+          "quantity": "1 hoja",
+          "note": "",
+          "alternative": "un puñadito de brotes; un puñadito de canónigos",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "lechuga",
+            "cantidad": 1,
+            "unidad": "hoja",
+            "alternativas": [
+              "un puñadito de brotes",
+              "un puñadito de canónigos"
+            ]
+          }
+        },
+        {
+          "index": 7,
+          "name": "aceite de oliva",
+          "quantity": "0,5 cucharadita",
+          "note": "",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "aceite de oliva",
+            "cantidad": 0.5,
+            "unidad": "cucharadita"
+          }
+        }
+      ]
+    },
+    {
+      "id": "fajitas-salmon",
+      "title": "Fajitas de salmón",
+      "category": "Envueltos y bocados",
+      "type": "preparacion",
+      "available": true,
+      "url": "fajitas-salmon.html",
+      "portions": {
+        "min": 2,
+        "max": 2
+      },
+      "servings": "2 raciones",
+      "ingredients": [
+        {
+          "index": 0,
+          "name": "tortillas/piadinas",
+          "quantity": "2 unidades",
+          "note": "grandes; integrales o de espelta",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "tortillas/piadinas",
+            "cantidad": 2,
+            "unidad": "unidades",
+            "nota": "grandes; integrales o de espelta",
+            "producto_preferido": "piadina-espelta-biocop"
+          }
+        },
+        {
+          "index": 1,
+          "name": "salmón ahumado",
+          "quantity": "100 g",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "salmón ahumado",
+            "cantidad": 100,
+            "unidad": "g"
+          }
+        },
+        {
+          "index": 2,
+          "name": "aguacate",
+          "quantity": "0,5 unidad",
+          "note": "mediano",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "aguacate",
+            "cantidad": 0.5,
+            "unidad": "unidad",
+            "nota": "mediano"
+          }
+        },
+        {
+          "index": 3,
+          "name": "tomate",
+          "quantity": "150 g",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "tomate",
+            "cantidad": 150,
+            "unidad": "g"
+          }
+        },
+        {
+          "index": 4,
+          "name": "espinacas frescas",
+          "quantity": "40 g",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "espinacas frescas",
+            "cantidad": 40,
+            "unidad": "g"
+          }
+        },
+        {
+          "index": 5,
+          "name": "hummus",
+          "quantity": "20 g",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "hummus",
+            "cantidad": 20,
+            "unidad": "g"
+          }
+        },
+        {
+          "index": 6,
+          "name": "queso crema o requesón",
+          "quantity": "20 g",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "queso crema o requesón",
+            "cantidad": 20,
+            "unidad": "g"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gambas-ajillo-pasta",
+      "title": "Gambas al ajillo con pasta",
+      "category": "Mariscos",
+      "type": "receta",
+      "available": true,
+      "url": "gambas-ajillo-pasta.html",
+      "portions": {
+        "min": 2,
+        "max": 2
+      },
+      "servings": "2 raciones",
+      "ingredients": [
+        {
+          "index": 0,
+          "name": "pasta seca",
+          "quantity": "100 g",
+          "note": "preferiblemente integral; codillos u otra pasta corta",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "pasta seca",
+            "cantidad": 100,
+            "unidad": "g",
+            "nota": "preferiblemente integral; codillos u otra pasta corta"
+          }
+        },
+        {
+          "index": 1,
+          "name": "gambas crudas peladas congeladas",
+          "quantity": "250 g",
+          "note": "peso descongelado y escurrido",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "gambas crudas peladas congeladas",
+            "cantidad": 250,
+            "unidad": "g",
+            "nota": "peso descongelado y escurrido"
+          }
+        },
+        {
+          "index": 2,
+          "name": "ajo",
+          "quantity": "2 dientes",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "ajo",
+            "cantidad": 2,
+            "unidad": "dientes"
+          }
+        },
+        {
+          "index": 3,
+          "name": "aceite de oliva",
+          "quantity": "1 cucharada",
+          "note": "Equivale a 15 ml",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "aceite de oliva",
+            "cantidad": 1,
+            "unidad": "cucharada",
+            "equivalencia_ml": 15
+          }
+        },
+        {
+          "index": 4,
+          "name": "guindilla pequeña",
+          "quantity": "1 unidad",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": true,
+          "group": "",
+          "source": {
+            "nombre": "guindilla pequeña",
+            "cantidad": 1,
+            "unidad": "unidad",
+            "opcional": true
+          }
+        },
+        {
+          "index": 5,
+          "name": "sal",
+          "quantity": "",
+          "note": "al gusto",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "sal",
+            "nota": "al gusto"
+          }
+        },
+        {
+          "index": 6,
+          "name": "agua de cocción de la pasta",
+          "quantity": "30–60 ml",
+          "note": "aproximadamente, según necesite",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "agua de cocción de la pasta",
+            "cantidad_min": 30,
+            "cantidad_max": 60,
+            "unidad": "ml",
+            "nota": "aproximadamente, según necesite"
+          }
+        }
+      ]
+    },
+    {
+      "id": "gambas-salteadas-trigueros",
+      "title": "Gambas salteadas con trigueros",
+      "category": "Mariscos",
+      "type": "receta",
+      "available": true,
+      "url": "gambas-salteadas-trigueros.html",
+      "portions": {
+        "min": 2,
+        "max": 2
+      },
+      "servings": "2 raciones",
+      "ingredients": [
+        {
+          "index": 0,
+          "name": "gambas crudas peladas congeladas",
+          "quantity": "250 g",
+          "note": "peso descongelado y escurrido",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "gambas crudas peladas congeladas",
+            "cantidad": 250,
+            "unidad": "g",
+            "nota": "peso descongelado y escurrido"
+          }
+        },
+        {
+          "index": 1,
+          "name": "espárragos trigueros",
+          "quantity": "300 g",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "espárragos trigueros",
+            "cantidad": 300,
+            "unidad": "g"
+          }
+        },
+        {
+          "index": 2,
+          "name": "ajo",
+          "quantity": "1 diente",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "ajo",
+            "cantidad": 1,
+            "unidad": "diente"
+          }
+        },
+        {
+          "index": 3,
+          "name": "aceite de oliva",
+          "quantity": "1 cucharada",
+          "note": "Equivale a 15 ml",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "aceite de oliva",
+            "cantidad": 1,
+            "unidad": "cucharada",
+            "equivalencia_ml": 15
+          }
+        },
+        {
+          "index": 4,
+          "name": "sal",
+          "quantity": "",
+          "note": "al gusto",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "sal",
+            "nota": "al gusto"
+          }
+        },
+        {
+          "index": 5,
+          "name": "pimienta",
+          "quantity": "",
+          "note": "al gusto",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "pimienta",
+            "nota": "al gusto"
+          }
+        },
+        {
+          "index": 6,
+          "name": "zumo de limón",
+          "quantity": "unas gotas",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": true,
+          "group": "",
+          "source": {
+            "nombre": "zumo de limón",
+            "cantidad": "unas gotas",
+            "opcional": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "gazpacho",
+      "title": "Gazpacho",
+      "category": "Purés",
+      "type": "prevista",
+      "available": false,
+      "url": null,
+      "portions": null,
+      "servings": "",
+      "ingredients": []
+    },
+    {
+      "id": "hummus-zanahoria",
+      "title": "Hummus con zanahoria",
+      "category": "Picoteo y guarniciones",
+      "type": "combinacion",
+      "available": true,
+      "url": "hummus-zanahoria.html",
+      "portions": {
+        "min": 1,
+        "max": 1
+      },
+      "servings": "1 ración",
+      "ingredients": [
+        {
+          "index": 0,
+          "name": "hummus",
+          "quantity": "100 g",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "hummus",
+            "cantidad": 100,
+            "unidad": "g"
+          }
+        },
+        {
+          "index": 1,
+          "name": "zanahoria grande",
+          "quantity": "1 unidad",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "zanahoria grande",
+            "cantidad": 1,
+            "unidad": "unidad"
+          }
+        }
+      ]
+    },
+    {
+      "id": "lentejas-calabaza-espinacas-400g",
+      "title": "Lentejas cremosas con calabaza y espinacas",
+      "category": "Legumbres",
+      "type": "receta",
+      "available": true,
+      "url": "lentejas-calabaza-espinacas-400g.html",
+      "portions": {
+        "min": 2,
+        "max": 3
+      },
+      "servings": "2–3 raciones",
+      "ingredients": [
+        {
+          "index": 0,
+          "name": "lentejas cocidas en conserva",
+          "quantity": "400 g",
+          "note": "peso escurrido",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "lentejas cocidas en conserva",
+            "cantidad": 400,
+            "unidad": "g",
+            "nota": "peso escurrido"
+          }
+        },
+        {
+          "index": 1,
+          "name": "calabaza pelada",
+          "quantity": "350 g",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "calabaza pelada",
+            "cantidad": 350,
+            "unidad": "g"
+          }
+        },
+        {
+          "index": 2,
+          "name": "espinacas frescas",
+          "quantity": "100–125 g",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "espinacas frescas",
+            "unidad": "g",
+            "cantidad_min": 100,
+            "cantidad_max": 125
+          }
+        },
+        {
+          "index": 3,
+          "name": "cebolla",
+          "quantity": "1 unidad",
+          "note": "mediana",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "cebolla",
+            "cantidad": 1,
+            "unidad": "unidad",
+            "nota": "mediana"
+          }
+        },
+        {
+          "index": 4,
+          "name": "ajo",
+          "quantity": "2 dientes",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "ajo",
+            "cantidad": 2,
+            "unidad": "dientes"
+          }
+        },
+        {
+          "index": 5,
+          "name": "jengibre fresco",
+          "quantity": "10 g",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "jengibre fresco",
+            "cantidad": 10,
+            "unidad": "g"
+          }
+        },
+        {
+          "index": 6,
+          "name": "leche de coco",
+          "quantity": "150 ml",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "leche de coco",
+            "cantidad": 150,
+            "unidad": "ml"
+          }
+        },
+        {
+          "index": 7,
+          "name": "caldo de verduras",
+          "quantity": "200 ml",
+          "note": "más un poco extra si hace falta",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "caldo de verduras",
+            "cantidad": 200,
+            "unidad": "ml",
+            "nota": "más un poco extra si hace falta"
+          }
+        },
+        {
+          "index": 8,
+          "name": "curry en polvo",
+          "quantity": "1 cucharadita",
+          "note": "",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "curry en polvo",
+            "cantidad": 1,
+            "unidad": "cucharadita"
+          }
+        },
+        {
+          "index": 9,
+          "name": "comino molido",
+          "quantity": "0,5 cucharadita",
+          "note": "",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "comino molido",
+            "cantidad": 0.5,
+            "unidad": "cucharadita"
+          }
+        },
+        {
+          "index": 10,
+          "name": "aceite de oliva virgen extra",
+          "quantity": "2 cucharadas",
+          "note": "",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "aceite de oliva virgen extra",
+            "cantidad": 2,
+            "unidad": "cucharadas"
+          }
+        },
+        {
+          "index": 11,
+          "name": "sal y pimienta negra",
+          "quantity": "",
+          "note": "al gusto",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "sal y pimienta negra",
+            "nota": "al gusto"
+          }
+        },
+        {
+          "index": 12,
+          "name": "zumo de limón",
+          "quantity": "",
+          "note": "unas gotas al final",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "zumo de limón",
+            "nota": "unas gotas al final"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mejillones-marinera",
+      "title": "Mejillones a la marinera",
+      "category": "Mariscos",
+      "type": "receta",
+      "available": true,
+      "url": "mejillones-marinera.html",
+      "portions": {
+        "min": 2,
+        "max": 2
+      },
+      "servings": "2 raciones",
+      "ingredients": [
+        {
+          "index": 0,
+          "name": "mejillones crudos limpios al vacío",
+          "quantity": "500 g",
+          "note": "con concha",
+          "alternative": "mejillones frescos con concha",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "mejillones crudos limpios al vacío",
+            "cantidad": 500,
+            "unidad": "g",
+            "nota": "con concha",
+            "alternativa": "mejillones frescos con concha"
+          }
+        },
+        {
+          "index": 1,
+          "name": "tomate triturado",
+          "quantity": "100 g",
+          "note": "sin sal añadida",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "tomate triturado",
+            "cantidad": 100,
+            "unidad": "g",
+            "nota": "sin sal añadida"
+          }
+        },
+        {
+          "index": 2,
+          "name": "cebolla",
+          "quantity": "100 g",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "cebolla",
+            "cantidad": 100,
+            "unidad": "g"
+          }
+        },
+        {
+          "index": 3,
+          "name": "pimiento rojo",
+          "quantity": "100 g",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "pimiento rojo",
+            "cantidad": 100,
+            "unidad": "g"
+          }
+        },
+        {
+          "index": 4,
+          "name": "vino blanco",
+          "quantity": "30 ml",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "vino blanco",
+            "cantidad": 30,
+            "unidad": "ml"
+          }
+        },
+        {
+          "index": 5,
+          "name": "aceite de oliva",
+          "quantity": "1 cucharada",
+          "note": "Equivale a 15 ml",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "aceite de oliva",
+            "cantidad": 1,
+            "unidad": "cucharada",
+            "equivalencia_ml": 15
+          }
+        },
+        {
+          "index": 6,
+          "name": "pimienta",
+          "quantity": "",
+          "note": "una pizca",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "pimienta",
+            "nota": "una pizca"
+          }
+        },
+        {
+          "index": 7,
+          "name": "sal",
+          "quantity": "",
+          "note": "solo si hace falta al final",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "sal",
+            "nota": "solo si hace falta al final"
+          }
+        }
+      ]
+    },
+    {
+      "id": "melon-jamon",
+      "title": "Melón con jamón",
+      "category": "Picoteo y guarniciones",
+      "type": "prevista",
+      "available": false,
+      "url": null,
+      "portions": null,
+      "servings": "",
+      "ingredients": []
+    },
+    {
+      "id": "menestra-guisada",
+      "title": "Menestra guisada",
+      "category": "Vegetales",
+      "type": "receta",
+      "available": true,
+      "url": "menestra-guisada.html",
+      "portions": {
+        "min": 2,
+        "max": 2
+      },
+      "servings": "2 raciones",
+      "ingredients": [
+        {
+          "index": 0,
+          "name": "menestra congelada",
+          "quantity": "500 g",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "menestra congelada",
+            "cantidad": 500,
+            "unidad": "g"
+          }
+        },
+        {
+          "index": 1,
+          "name": "cebolla",
+          "quantity": "0,5 unidad",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "cebolla",
+            "cantidad": 0.5,
+            "unidad": "unidad"
+          }
+        },
+        {
+          "index": 2,
+          "name": "ajo",
+          "quantity": "1 diente",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "ajo",
+            "cantidad": 1,
+            "unidad": "diente"
+          }
+        },
+        {
+          "index": 3,
+          "name": "aceite de oliva",
+          "quantity": "1 cucharada",
+          "note": "",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "aceite de oliva",
+            "cantidad": 1,
+            "unidad": "cucharada"
+          }
+        },
+        {
+          "index": 4,
+          "name": "agua",
+          "quantity": "50 ml",
+          "note": "aproximadamente; ajustar si hace falta",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "agua",
+            "cantidad": 50,
+            "unidad": "ml",
+            "nota": "aproximadamente; ajustar si hace falta"
+          }
+        },
+        {
+          "index": 5,
+          "name": "sal",
+          "quantity": "",
+          "note": "al gusto",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "sal",
+            "nota": "al gusto"
+          }
+        },
+        {
+          "index": 6,
+          "name": "pimienta",
+          "quantity": "",
+          "note": "al gusto",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "pimienta",
+            "nota": "al gusto"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pan-plano-jamon-queso",
+      "title": "Pan plano de jamón y queso",
+      "category": "Envueltos y bocados",
+      "type": "receta",
+      "available": true,
+      "url": "pan-plano-jamon-queso.html",
+      "portions": {
+        "min": 1,
+        "max": 1
+      },
+      "servings": "1 ración",
+      "ingredients": [
+        {
+          "index": 0,
+          "name": "harina de fuerza blanca",
+          "quantity": "4 cucharadas",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "Masa",
+          "source": {
+            "nombre": "harina de fuerza blanca",
+            "cantidad": 4,
+            "unidad": "cucharadas",
+            "grupo": "Masa"
+          }
+        },
+        {
+          "index": 1,
+          "name": "levadura química en polvo",
+          "quantity": "1 cucharadita",
+          "note": "rasa",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "Masa",
+          "source": {
+            "nombre": "levadura química en polvo",
+            "cantidad": 1,
+            "unidad": "cucharadita",
+            "nota": "rasa",
+            "grupo": "Masa"
+          }
+        },
+        {
+          "index": 2,
+          "name": "sal",
+          "quantity": "",
+          "note": "una pizca",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "Masa",
+          "source": {
+            "nombre": "sal",
+            "nota": "una pizca",
+            "grupo": "Masa"
+          }
+        },
+        {
+          "index": 3,
+          "name": "yogur natural",
+          "quantity": "1 cucharada",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "Masa",
+          "source": {
+            "nombre": "yogur natural",
+            "cantidad": 1,
+            "unidad": "cucharada",
+            "grupo": "Masa"
+          }
+        },
+        {
+          "index": 4,
+          "name": "agua",
+          "quantity": "4 cucharadas",
+          "note": "",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "Masa",
+          "source": {
+            "nombre": "agua",
+            "cantidad": 4,
+            "unidad": "cucharadas",
+            "grupo": "Masa"
+          }
+        },
+        {
+          "index": 5,
+          "name": "aceite de oliva",
+          "quantity": "",
+          "note": "un chorrito",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "Cocción",
+          "source": {
+            "nombre": "aceite de oliva",
+            "nota": "un chorrito",
+            "grupo": "Cocción"
+          }
+        },
+        {
+          "index": 6,
+          "name": "queso gouda o cheddar",
+          "quantity": "20 g",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "Relleno",
+          "source": {
+            "nombre": "queso gouda o cheddar",
+            "cantidad": 20,
+            "unidad": "g",
+            "grupo": "Relleno"
+          }
+        },
+        {
+          "index": 7,
+          "name": "jamón cocido ahumado",
+          "quantity": "1 loncha",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "Relleno",
+          "source": {
+            "nombre": "jamón cocido ahumado",
+            "cantidad": 1,
+            "unidad": "loncha",
+            "grupo": "Relleno"
+          }
+        },
+        {
+          "index": 8,
+          "name": "cebollino fresco",
+          "quantity": "4 tallos",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "Relleno",
+          "source": {
+            "nombre": "cebollino fresco",
+            "cantidad": 4,
+            "unidad": "tallos",
+            "grupo": "Relleno"
+          }
+        },
+        {
+          "index": 9,
+          "name": "tomates cherry maduros",
+          "quantity": "50 g",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "Relleno",
+          "source": {
+            "nombre": "tomates cherry maduros",
+            "cantidad": 50,
+            "unidad": "g",
+            "grupo": "Relleno"
+          }
+        },
+        {
+          "index": 10,
+          "name": "mostaza inglesa",
+          "quantity": "",
+          "note": "al gusto",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "Relleno",
+          "source": {
+            "nombre": "mostaza inglesa",
+            "nota": "al gusto",
+            "grupo": "Relleno"
+          }
+        },
+        {
+          "index": 11,
+          "name": "pimienta negra",
+          "quantity": "",
+          "note": "una pizca",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "Relleno",
+          "source": {
+            "nombre": "pimienta negra",
+            "nota": "una pizca",
+            "grupo": "Relleno"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pasta-feta-pepino-manzana",
+      "title": "Pasta de feta con pepino y manzana",
+      "category": "Picoteo y guarniciones",
+      "type": "prevista",
+      "available": false,
+      "url": null,
+      "portions": null,
+      "servings": "",
+      "ingredients": []
+    },
+    {
+      "id": "pasta-feta-sandia-pimientos-asados",
+      "title": "Pasta de feta con sandía y pimientos asados",
+      "category": "Picoteo y guarniciones",
+      "type": "prevista",
+      "available": false,
+      "url": null,
+      "portions": null,
+      "servings": "",
+      "ingredients": []
+    },
+    {
+      "id": "pasta-fresca-salmon",
+      "title": "Pasta fresca con salmón",
+      "category": "Arroces y pastas",
+      "type": "receta",
+      "available": true,
+      "url": "pasta-fresca-salmon.html",
+      "portions": {
+        "min": 2,
+        "max": 2
+      },
+      "servings": "2 raciones",
+      "ingredients": [
+        {
+          "index": 0,
+          "name": "láminas frescas de lasaña",
+          "quantity": "250 g",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "láminas frescas de lasaña",
+            "cantidad": 250,
+            "unidad": "g"
+          }
+        },
+        {
+          "index": 1,
+          "name": "cebolletas",
+          "quantity": "4 unidades",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "cebolletas",
+            "cantidad": 4,
+            "unidad": "unidades"
+          }
+        },
+        {
+          "index": 2,
+          "name": "espinacas",
+          "quantity": "160 g",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "espinacas",
+            "cantidad": 160,
+            "unidad": "g"
+          }
+        },
+        {
+          "index": 3,
+          "name": "salmón ahumado",
+          "quantity": "120 g",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "salmón ahumado",
+            "cantidad": 120,
+            "unidad": "g"
+          }
+        },
+        {
+          "index": 4,
+          "name": "limón",
+          "quantity": "1 unidad",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "limón",
+            "cantidad": 1,
+            "unidad": "unidad"
+          }
+        },
+        {
+          "index": 5,
+          "name": "queso parmesano",
+          "quantity": "10 g",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "queso parmesano",
+            "cantidad": 10,
+            "unidad": "g"
+          }
+        },
+        {
+          "index": 6,
+          "name": "queso cottage",
+          "quantity": "2 cucharadas",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "queso cottage",
+            "cantidad": 2,
+            "unidad": "cucharadas"
+          }
+        },
+        {
+          "index": 7,
+          "name": "aceite de oliva",
+          "quantity": "",
+          "note": "un chorrito",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "aceite de oliva",
+            "nota": "un chorrito"
+          }
+        },
+        {
+          "index": 8,
+          "name": "agua hirviendo",
+          "quantity": "500 ml",
+          "note": "aproximadamente; más si hace falta",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "agua hirviendo",
+            "cantidad": 500,
+            "unidad": "ml",
+            "nota": "aproximadamente; más si hace falta"
+          }
+        }
+      ]
+    },
+    {
+      "id": "patatas-vapor-sabrosas",
+      "title": "Patatas al vapor sabrosas",
+      "category": "Picoteo y guarniciones",
+      "type": "receta",
+      "available": true,
+      "url": "patatas-vapor-sabrosas.html",
+      "portions": {
+        "min": 2,
+        "max": 2
+      },
+      "servings": "2 raciones",
+      "ingredients": [
+        {
+          "index": 0,
+          "name": "patatas lavadas",
+          "quantity": "400 g",
+          "note": "",
+          "alternative": "patacas novas de temporada",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "patatas lavadas",
+            "cantidad": 400,
+            "unidad": "g",
+            "alternativa": "patacas novas de temporada"
+          }
+        },
+        {
+          "index": 1,
+          "name": "ajo",
+          "quantity": "1 diente",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "ajo",
+            "cantidad": 1,
+            "unidad": "diente"
+          }
+        },
+        {
+          "index": 2,
+          "name": "lima",
+          "quantity": "1 unidad",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "lima",
+            "cantidad": 1,
+            "unidad": "unidad"
+          }
+        },
+        {
+          "index": 3,
+          "name": "aceite de oliva",
+          "quantity": "1 cucharadita",
+          "note": "aliño final · Equivale a 5 ml",
+          "alternative": "aceite de las sardinillas",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "aceite de oliva",
+            "cantidad": 1,
+            "unidad": "cucharadita",
+            "equivalencia_ml": 5,
+            "uso": "aliño final",
+            "alternativa": "aceite de las sardinillas"
+          }
+        },
+        {
+          "index": 4,
+          "name": "agua",
+          "quantity": "1 cucharada",
+          "note": "Equivale a 15 ml",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "agua",
+            "cantidad": 1,
+            "unidad": "cucharada",
+            "equivalencia_ml": 15
+          }
+        },
+        {
+          "index": 5,
+          "name": "queso feta",
+          "quantity": "50 g",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "queso feta",
+            "cantidad": 50,
+            "unidad": "g"
+          }
+        },
+        {
+          "index": 6,
+          "name": "laurel",
+          "quantity": "1 hoja pequeña",
+          "note": "",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "laurel",
+            "cantidad": 1,
+            "unidad": "hoja pequeña"
+          }
+        },
+        {
+          "index": 7,
+          "name": "cebollino",
+          "quantity": "1 cucharada",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "cebollino",
+            "cantidad": 1,
+            "unidad": "cucharada"
+          }
+        },
+        {
+          "index": 8,
+          "name": "sal",
+          "quantity": "",
+          "note": "una pizca, ajustable al gusto",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "sal",
+            "nota": "una pizca, ajustable al gusto"
+          }
+        },
+        {
+          "index": 9,
+          "name": "pimienta",
+          "quantity": "",
+          "note": "una pizca, ajustable al gusto",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "pimienta",
+            "nota": "una pizca, ajustable al gusto"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pechuga-pavo-plancha",
+      "title": "Pechuga de pavo a la plancha",
+      "category": "Carnes exprés",
+      "type": "preparacion",
+      "available": true,
+      "url": "pechuga-pavo-plancha.html",
+      "portions": {
+        "min": 2,
+        "max": 2
+      },
+      "servings": "2 raciones",
+      "ingredients": [
+        {
+          "index": 0,
+          "name": "filetes de pechuga de pavo",
+          "quantity": "300 g",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "filetes de pechuga de pavo",
+            "cantidad": 300,
+            "unidad": "g"
+          }
+        },
+        {
+          "index": 1,
+          "name": "aceite de oliva virgen extra",
+          "quantity": "1 cucharada",
+          "note": "15 ml",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "aceite de oliva virgen extra",
+            "cantidad": 1,
+            "unidad": "cucharada",
+            "nota": "15 ml"
+          }
+        },
+        {
+          "index": 2,
+          "name": "sal y pimienta negra",
+          "quantity": "",
+          "note": "al gusto",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "sal y pimienta negra",
+            "nota": "al gusto"
+          }
+        },
+        {
+          "index": 3,
+          "name": "limón",
+          "quantity": "",
+          "note": "opcional, para servir",
+          "alternative": "",
+          "pantry": false,
+          "optional": true,
+          "group": "",
+          "source": {
+            "nombre": "limón",
+            "nota": "opcional, para servir"
+          }
+        }
+      ]
+    },
+    {
+      "id": "piadina-carne-mechada",
+      "title": "Piadina de carne mechada",
+      "category": "Envueltos y bocados",
+      "type": "prevista",
+      "available": false,
+      "url": null,
+      "portions": null,
+      "servings": "",
+      "ingredients": []
+    },
+    {
+      "id": "pimientos-asados-cebolla-cosori",
+      "title": "Pimientos asados con cebolla",
+      "category": "Picoteo y guarniciones",
+      "type": "receta",
+      "available": true,
+      "url": "pimientos-asados-cebolla-cosori.html",
+      "portions": {
+        "min": 3,
+        "max": 4
+      },
+      "servings": "3–4 raciones",
+      "ingredients": [
+        {
+          "index": 0,
+          "name": "pimientos morrones",
+          "quantity": "2 unidades",
+          "note": "grandes, enteros y con pedúnculo",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "pimientos morrones",
+            "cantidad": 2,
+            "unidad": "unidades",
+            "nota": "grandes, enteros y con pedúnculo"
+          }
+        },
+        {
+          "index": 1,
+          "name": "cebolla",
+          "quantity": "1 unidad",
+          "note": "en mitades si es pequeña o cuartos si es grande",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "cebolla",
+            "cantidad": 1,
+            "unidad": "unidad",
+            "nota": "en mitades si es pequeña o cuartos si es grande"
+          }
+        },
+        {
+          "index": 2,
+          "name": "aceite de oliva virgen extra",
+          "quantity": "",
+          "note": "película fina en spray para asar y un poco para aliñar",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "aceite de oliva virgen extra",
+            "nota": "película fina en spray para asar y un poco para aliñar"
+          }
+        },
+        {
+          "index": 3,
+          "name": "sal",
+          "quantity": "",
+          "note": "al gusto",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "sal",
+            "nota": "al gusto"
+          }
+        },
+        {
+          "index": 4,
+          "name": "ajo crudo",
+          "quantity": "",
+          "note": "en láminas finas, al gusto",
+          "alternative": "",
+          "pantry": false,
+          "optional": true,
+          "group": "",
+          "source": {
+            "nombre": "ajo crudo",
+            "nota": "en láminas finas, al gusto",
+            "opcional": true
+          }
+        },
+        {
+          "index": 5,
+          "name": "orégano seco",
+          "quantity": "0,5 cucharadita",
+          "note": "para toda la preparación; alternativa al comino",
+          "alternative": "",
+          "pantry": true,
+          "optional": true,
+          "group": "",
+          "source": {
+            "nombre": "orégano seco",
+            "cantidad": 0.5,
+            "unidad": "cucharadita",
+            "nota": "para toda la preparación; alternativa al comino",
+            "opcional": true
+          }
+        },
+        {
+          "index": 6,
+          "name": "comino molido",
+          "quantity": "0,25 cucharadita",
+          "note": "para toda la preparación; alternativa al orégano",
+          "alternative": "",
+          "pantry": true,
+          "optional": true,
+          "group": "",
+          "source": {
+            "nombre": "comino molido",
+            "cantidad": 0.25,
+            "unidad": "cucharadita",
+            "nota": "para toda la preparación; alternativa al orégano",
+            "opcional": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "pollo-a-la-olla",
+      "title": "Pollo a la olla",
+      "category": "Guisos y asados",
+      "type": "prevista",
+      "available": false,
+      "url": null,
+      "portions": null,
+      "servings": "",
+      "ingredients": []
+    },
+    {
+      "id": "pollo-guisado-calabacin",
+      "title": "Pollo guisado con calabacín",
+      "category": "Guisos y asados",
+      "type": "receta",
+      "available": true,
+      "url": "pollo-guisado-calabacin.html",
+      "portions": {
+        "min": 2,
+        "max": 3
+      },
+      "servings": "2–3 raciones",
+      "ingredients": [
+        {
+          "index": 0,
+          "name": "pollo troceado",
+          "quantity": "500–600 g",
+          "note": "preferiblemente contramuslos deshuesados",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "pollo troceado",
+            "unidad": "g",
+            "nota": "preferiblemente contramuslos deshuesados",
+            "cantidad_min": 500,
+            "cantidad_max": 600
+          }
+        },
+        {
+          "index": 1,
+          "name": "cebolla",
+          "quantity": "1 unidad",
+          "note": "mediana, unos 150 g",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "cebolla",
+            "cantidad": 1,
+            "unidad": "unidad",
+            "nota": "mediana, unos 150 g"
+          }
+        },
+        {
+          "index": 2,
+          "name": "zanahorias",
+          "quantity": "2 unidades",
+          "note": "unos 150 g",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "zanahorias",
+            "cantidad": 2,
+            "unidad": "unidades",
+            "nota": "unos 150 g"
+          }
+        },
+        {
+          "index": 3,
+          "name": "calabacín",
+          "quantity": "1 unidad",
+          "note": "unos 250 g",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "calabacín",
+            "cantidad": 1,
+            "unidad": "unidad",
+            "nota": "unos 250 g"
+          }
+        },
+        {
+          "index": 4,
+          "name": "tomate triturado",
+          "quantity": "300 g",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "tomate triturado",
+            "cantidad": 300,
+            "unidad": "g"
+          }
+        },
+        {
+          "index": 5,
+          "name": "ajo",
+          "quantity": "2 dientes",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "ajo",
+            "cantidad": 2,
+            "unidad": "dientes"
+          }
+        },
+        {
+          "index": 6,
+          "name": "vino blanco seco",
+          "quantity": "50–75 ml",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "vino blanco seco",
+            "unidad": "ml",
+            "cantidad_min": 50,
+            "cantidad_max": 75
+          }
+        },
+        {
+          "index": 7,
+          "name": "aceite de oliva virgen extra",
+          "quantity": "2–3 cucharadas",
+          "note": "",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "aceite de oliva virgen extra",
+            "unidad": "cucharadas",
+            "cantidad_min": 2,
+            "cantidad_max": 3
+          }
+        },
+        {
+          "index": 8,
+          "name": "pimentón dulce",
+          "quantity": "0,5 cucharadita",
+          "note": "",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "pimentón dulce",
+            "cantidad": 0.5,
+            "unidad": "cucharadita"
+          }
+        },
+        {
+          "index": 9,
+          "name": "laurel",
+          "quantity": "1 hoja",
+          "note": "",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "laurel",
+            "cantidad": 1,
+            "unidad": "hoja"
+          }
+        },
+        {
+          "index": 10,
+          "name": "tomillo",
+          "quantity": "",
+          "note": "opcional",
+          "alternative": "",
+          "pantry": true,
+          "optional": true,
+          "group": "",
+          "source": {
+            "nombre": "tomillo",
+            "nota": "opcional"
+          }
+        },
+        {
+          "index": 11,
+          "name": "sal y pimienta negra",
+          "quantity": "",
+          "note": "al gusto",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "sal y pimienta negra",
+            "nota": "al gusto"
+          }
+        },
+        {
+          "index": 12,
+          "name": "agua o caldo de pollo",
+          "quantity": "",
+          "note": "solo si hace falta",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "agua o caldo de pollo",
+            "nota": "solo si hace falta"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pollo-guisado-calabacin-cocotte",
+      "title": "Pollo guisado con calabacín en cocotte",
+      "category": "Guisos y asados",
+      "type": "receta",
+      "available": true,
+      "url": "pollo-guisado-calabacin-cocotte.html",
+      "portions": {
+        "min": 2,
+        "max": 3
+      },
+      "servings": "2–3 raciones",
+      "ingredients": [
+        {
+          "index": 0,
+          "name": "contramuslos de pollo",
+          "quantity": "4 unidades",
+          "note": "enteros, con hueso y sin piel · Peso: 800–1000 g",
+          "alternative": "2 unidades cuartos traseros de pollo (con hueso y sin piel; dos raciones generosas)",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "contramuslos de pollo",
+            "cantidad": 4,
+            "unidad": "unidades",
+            "peso_min_g": 800,
+            "peso_max_g": 1000,
+            "nota": "enteros, con hueso y sin piel",
+            "alternativa": {
+              "nombre": "cuartos traseros de pollo",
+              "cantidad": 2,
+              "unidad": "unidades",
+              "nota": "con hueso y sin piel; dos raciones generosas"
+            }
+          }
+        },
+        {
+          "index": 1,
+          "name": "cebolla",
+          "quantity": "1 unidad",
+          "note": "Peso aprox.: 150 g",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "cebolla",
+            "cantidad": 1,
+            "unidad": "unidad",
+            "peso_g": 150
+          }
+        },
+        {
+          "index": 2,
+          "name": "zanahorias",
+          "quantity": "2 unidades",
+          "note": "Peso aprox.: 150 g",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "zanahorias",
+            "cantidad": 2,
+            "unidad": "unidades",
+            "peso_g": 150
+          }
+        },
+        {
+          "index": 3,
+          "name": "calabacín",
+          "quantity": "1 unidad",
+          "note": "Peso aprox.: 250 g",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "calabacín",
+            "cantidad": 1,
+            "unidad": "unidad",
+            "peso_g": 250
+          }
+        },
+        {
+          "index": 4,
+          "name": "tomate triturado",
+          "quantity": "300 g",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "tomate triturado",
+            "cantidad": 300,
+            "unidad": "g"
+          }
+        },
+        {
+          "index": 5,
+          "name": "ajo",
+          "quantity": "2 dientes",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "ajo",
+            "cantidad": 2,
+            "unidad": "dientes"
+          }
+        },
+        {
+          "index": 6,
+          "name": "vino blanco seco",
+          "quantity": "50–75 ml",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "vino blanco seco",
+            "cantidad_min": 50,
+            "cantidad_max": 75,
+            "unidad": "ml"
+          }
+        },
+        {
+          "index": 7,
+          "name": "aceite de oliva virgen extra",
+          "quantity": "2 cucharadas",
+          "note": "Equivale a 30 ml",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "aceite de oliva virgen extra",
+            "cantidad": 2,
+            "unidad": "cucharadas",
+            "equivalencia_ml": 30
+          }
+        },
+        {
+          "index": 8,
+          "name": "agua o caldo de pollo",
+          "quantity": "75–150 ml",
+          "note": "",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "agua o caldo de pollo",
+            "cantidad_min": 75,
+            "cantidad_max": 150,
+            "unidad": "ml"
+          }
+        },
+        {
+          "index": 9,
+          "name": "pimentón dulce",
+          "quantity": "0,5 cucharadita",
+          "note": "",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "pimentón dulce",
+            "cantidad": 0.5,
+            "unidad": "cucharadita"
+          }
+        },
+        {
+          "index": 10,
+          "name": "laurel",
+          "quantity": "1 hoja",
+          "note": "",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "laurel",
+            "cantidad": 1,
+            "unidad": "hoja"
+          }
+        },
+        {
+          "index": 11,
+          "name": "tomillo",
+          "quantity": "1 ramita pequeña",
+          "note": "",
+          "alternative": "",
+          "pantry": true,
+          "optional": true,
+          "group": "",
+          "source": {
+            "nombre": "tomillo",
+            "cantidad": 1,
+            "unidad": "ramita pequeña",
+            "opcional": true
+          }
+        },
+        {
+          "index": 12,
+          "name": "sal y pimienta negra",
+          "quantity": "",
+          "note": "al gusto",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "sal y pimienta negra",
+            "nota": "al gusto"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pollo-satisfryer",
+      "title": "Pollo Satisfryer",
+      "category": "Guisos y asados",
+      "type": "receta",
+      "available": true,
+      "url": "pollo-satisfryer.html",
+      "portions": {
+        "min": 2,
+        "max": 2
+      },
+      "servings": "2 raciones",
+      "ingredients": [
+        {
+          "index": 0,
+          "name": "cuartos traseros de pollo",
+          "quantity": "2 unidades",
+          "note": "con hueso y piel",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "cuartos traseros de pollo",
+            "cantidad": 2,
+            "unidad": "unidades",
+            "nota": "con hueso y piel"
+          }
+        },
+        {
+          "index": 1,
+          "name": "calabacín",
+          "quantity": "0,5 unidad",
+          "note": "mediano, unos 150 g",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "calabacín",
+            "cantidad": 0.5,
+            "unidad": "unidad",
+            "nota": "mediano, unos 150 g"
+          }
+        },
+        {
+          "index": 2,
+          "name": "berenjena",
+          "quantity": "0,5 unidad",
+          "note": "pequeña, unos 150 g",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "berenjena",
+            "cantidad": 0.5,
+            "unidad": "unidad",
+            "nota": "pequeña, unos 150 g"
+          }
+        },
+        {
+          "index": 3,
+          "name": "cebolla",
+          "quantity": "1 unidad",
+          "note": "pequeña",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "cebolla",
+            "cantidad": 1,
+            "unidad": "unidad",
+            "nota": "pequeña"
+          }
+        },
+        {
+          "index": 4,
+          "name": "pimiento verde",
+          "quantity": "0,5 unidad",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "pimiento verde",
+            "cantidad": 0.5,
+            "unidad": "unidad"
+          }
+        },
+        {
+          "index": 5,
+          "name": "tomate",
+          "quantity": "1 unidad",
+          "note": "mediano",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "tomate",
+            "cantidad": 1,
+            "unidad": "unidad",
+            "nota": "mediano"
+          }
+        },
+        {
+          "index": 6,
+          "name": "aceite de oliva virgen extra",
+          "quantity": "10 ml",
+          "note": "2 cucharaditas en total, incluido el papel",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "aceite de oliva virgen extra",
+            "cantidad": 10,
+            "unidad": "ml",
+            "nota": "2 cucharaditas en total, incluido el papel"
+          }
+        },
+        {
+          "index": 7,
+          "name": "vino blanco seco",
+          "quantity": "30 ml",
+          "note": "2 cucharadas",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "vino blanco seco",
+            "cantidad": 30,
+            "unidad": "ml",
+            "nota": "2 cucharadas"
+          }
+        },
+        {
+          "index": 8,
+          "name": "tomillo seco",
+          "quantity": "0,5 cucharadita",
+          "note": "",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "tomillo seco",
+            "cantidad": 0.5,
+            "unidad": "cucharadita"
+          }
+        },
+        {
+          "index": 9,
+          "name": "romero seco",
+          "quantity": "0,5 cucharadita",
+          "note": "ligeramente desmenuzado",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "romero seco",
+            "cantidad": 0.5,
+            "unidad": "cucharadita",
+            "nota": "ligeramente desmenuzado"
+          }
+        },
+        {
+          "index": 10,
+          "name": "sal y pimienta negra",
+          "quantity": "",
+          "note": "sal moderada; pimienta al gusto",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "sal y pimienta negra",
+            "nota": "sal moderada; pimienta al gusto"
+          }
+        }
+      ]
+    },
+    {
+      "id": "potaje-bacalao",
+      "title": "Potaje de bacalao",
+      "category": "Legumbres",
+      "type": "receta",
+      "available": true,
+      "url": "potaje-bacalao.html",
+      "portions": {
+        "min": 2,
+        "max": 2
+      },
+      "servings": "2 raciones",
+      "ingredients": [
+        {
+          "index": 0,
+          "name": "garbanzos cocidos",
+          "quantity": "400 g",
+          "note": "peso escurrido",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "garbanzos cocidos",
+            "cantidad": 400,
+            "unidad": "g",
+            "nota": "peso escurrido"
+          }
+        },
+        {
+          "index": 1,
+          "name": "bacalao desalado sin espinas",
+          "quantity": "200 g",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "bacalao desalado sin espinas",
+            "cantidad": 200,
+            "unidad": "g"
+          }
+        },
+        {
+          "index": 2,
+          "name": "espinacas frescas",
+          "quantity": "200 g",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "espinacas frescas",
+            "cantidad": 200,
+            "unidad": "g"
+          }
+        },
+        {
+          "index": 3,
+          "name": "cebolla",
+          "quantity": "150 g",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "cebolla",
+            "cantidad": 150,
+            "unidad": "g"
+          }
+        },
+        {
+          "index": 4,
+          "name": "ajo",
+          "quantity": "2 dientes",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "ajo",
+            "cantidad": 2,
+            "unidad": "dientes"
+          }
+        },
+        {
+          "index": 5,
+          "name": "aceite de oliva virgen extra",
+          "quantity": "10 g",
+          "note": "",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "aceite de oliva virgen extra",
+            "cantidad": 10,
+            "unidad": "g"
+          }
+        },
+        {
+          "index": 6,
+          "name": "pimentón dulce",
+          "quantity": "0,5 cucharadita",
+          "note": "",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "pimentón dulce",
+            "cantidad": 0.5,
+            "unidad": "cucharadita"
+          }
+        },
+        {
+          "index": 7,
+          "name": "laurel",
+          "quantity": "1 hoja",
+          "note": "",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "laurel",
+            "cantidad": 1,
+            "unidad": "hoja"
+          }
+        },
+        {
+          "index": 8,
+          "name": "agua",
+          "quantity": "350 ml",
+          "note": "",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "agua",
+            "cantidad": 350,
+            "unidad": "ml",
+            "cantidad_max": 450
+          }
+        },
+        {
+          "index": 9,
+          "name": "sal",
+          "quantity": "",
+          "note": "solo si hace falta",
+          "alternative": "",
+          "pantry": true,
+          "optional": true,
+          "group": "",
+          "source": {
+            "nombre": "sal",
+            "cantidad": null,
+            "unidad": null,
+            "opcional": true,
+            "nota": "solo si hace falta"
+          }
+        }
+      ]
+    },
+    {
+      "id": "revuelto-champinones-trigueros",
+      "title": "Revuelto de champiñones y trigueros",
+      "category": "Huevos",
+      "type": "receta",
+      "available": true,
+      "url": "revuelto-champinones-trigueros.html",
+      "portions": {
+        "min": 2,
+        "max": 2
+      },
+      "servings": "2 raciones",
+      "ingredients": [
+        {
+          "index": 0,
+          "name": "huevos",
+          "quantity": "4 unidades",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "huevos",
+            "cantidad": 4,
+            "unidad": "unidades"
+          }
+        },
+        {
+          "index": 1,
+          "name": "champiñones",
+          "quantity": "150 g",
+          "note": "enteros o laminados",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "champiñones",
+            "cantidad": 150,
+            "unidad": "g",
+            "nota": "enteros o laminados"
+          }
+        },
+        {
+          "index": 2,
+          "name": "espárragos trigueros",
+          "quantity": "200 g",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "espárragos trigueros",
+            "cantidad": 200,
+            "unidad": "g"
+          }
+        },
+        {
+          "index": 3,
+          "name": "ajo",
+          "quantity": "1 diente",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "ajo",
+            "cantidad": 1,
+            "unidad": "diente"
+          }
+        },
+        {
+          "index": 4,
+          "name": "aceite de oliva virgen extra",
+          "quantity": "1 cucharada",
+          "note": "",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "aceite de oliva virgen extra",
+            "cantidad": 1,
+            "unidad": "cucharada"
+          }
+        },
+        {
+          "index": 5,
+          "name": "sal y pimienta negra",
+          "quantity": "",
+          "note": "al gusto",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "sal y pimienta negra",
+            "nota": "al gusto"
+          }
+        },
+        {
+          "index": 6,
+          "name": "perejil picado",
+          "quantity": "",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": true,
+          "group": "",
+          "source": {
+            "nombre": "perejil picado",
+            "opcional": true
+          }
+        },
+        {
+          "index": 7,
+          "name": "agua",
+          "quantity": "",
+          "note": "un poco, solo si los tallos son gruesos",
+          "alternative": "",
+          "pantry": true,
+          "optional": true,
+          "group": "",
+          "source": {
+            "nombre": "agua",
+            "nota": "un poco, solo si los tallos son gruesos",
+            "opcional": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "salmorejo",
+      "title": "Salmorejo",
+      "category": "Purés",
+      "type": "prevista",
+      "available": false,
+      "url": null,
+      "portions": null,
+      "servings": "",
+      "ingredients": []
+    },
+    {
+      "id": "salteado-pavo-brecol-garbanzos",
+      "title": "Salteado de pavo, brécol y garbanzos",
+      "category": "Carnes exprés",
+      "type": "prevista",
+      "available": false,
+      "url": null,
+      "portions": null,
+      "servings": "",
+      "ingredients": []
+    },
+    {
+      "id": "sandia-feta",
+      "title": "Sandía con feta",
+      "category": "Picoteo y guarniciones",
+      "type": "prevista",
+      "available": false,
+      "url": null,
+      "portions": null,
+      "servings": "",
+      "ingredients": []
+    },
+    {
+      "id": "sardinas-marinadas",
+      "title": "Sardinas marinadas",
+      "category": "Pescado azul",
+      "type": "receta",
+      "available": true,
+      "url": "sardinas-marinadas.html",
+      "portions": {
+        "min": 2,
+        "max": 2
+      },
+      "servings": "2 raciones",
+      "ingredients": [
+        {
+          "index": 0,
+          "name": "sardinas medianas",
+          "quantity": "12 unidades",
+          "note": "limpias, en lomos",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "sardinas medianas",
+            "cantidad": 12,
+            "unidad": "unidades",
+            "nota": "limpias, en lomos"
+          }
+        },
+        {
+          "index": 1,
+          "name": "tomates maduros carnosos",
+          "quantity": "2 unidades",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "tomates maduros carnosos",
+            "cantidad": 2,
+            "unidad": "unidades"
+          }
+        },
+        {
+          "index": 2,
+          "name": "aceitunas verdes deshuesadas",
+          "quantity": "15 g",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "aceitunas verdes deshuesadas",
+            "cantidad": 15,
+            "unidad": "g"
+          }
+        },
+        {
+          "index": 3,
+          "name": "aceitunas negras deshuesadas",
+          "quantity": "15 g",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "aceitunas negras deshuesadas",
+            "cantidad": 15,
+            "unidad": "g"
+          }
+        },
+        {
+          "index": 4,
+          "name": "cebolleta",
+          "quantity": "0,5 unidad",
+          "note": "tallo tierno",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "cebolleta",
+            "cantidad": 0.5,
+            "unidad": "unidad",
+            "nota": "tallo tierno"
+          }
+        },
+        {
+          "index": 5,
+          "name": "tomillo fresco",
+          "quantity": "1 ramita",
+          "note": "o una pizca de tomillo seco",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "tomillo fresco",
+            "cantidad": 1,
+            "unidad": "ramita",
+            "nota": "o una pizca de tomillo seco"
+          }
+        },
+        {
+          "index": 6,
+          "name": "cebollino picado",
+          "quantity": "",
+          "note": "al gusto",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "cebollino picado",
+            "nota": "al gusto"
+          }
+        },
+        {
+          "index": 7,
+          "name": "vinagre de manzana",
+          "quantity": "",
+          "note": "cantidad suficiente",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "vinagre de manzana",
+            "nota": "cantidad suficiente"
+          }
+        },
+        {
+          "index": 8,
+          "name": "aceite de oliva virgen extra",
+          "quantity": "",
+          "note": "",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "aceite de oliva virgen extra"
+          }
+        },
+        {
+          "index": 9,
+          "name": "sal gorda",
+          "quantity": "100 g",
+          "note": "para la salmuera",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "sal gorda",
+            "cantidad": 100,
+            "unidad": "g",
+            "nota": "para la salmuera"
+          }
+        },
+        {
+          "index": 10,
+          "name": "agua",
+          "quantity": "1 l",
+          "note": "para la salmuera",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "agua",
+            "cantidad": 1,
+            "unidad": "l",
+            "nota": "para la salmuera"
+          }
+        },
+        {
+          "index": 11,
+          "name": "sal fina",
+          "quantity": "",
+          "note": "una pizca",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "sal fina",
+            "nota": "una pizca"
+          }
+        },
+        {
+          "index": 12,
+          "name": "chile en polvo",
+          "quantity": "",
+          "note": "una pizca",
+          "alternative": "",
+          "pantry": false,
+          "optional": true,
+          "group": "",
+          "source": {
+            "nombre": "chile en polvo",
+            "opcional": true,
+            "nota": "una pizca"
+          }
+        }
+      ]
+    },
+    {
+      "id": "shakshuka-alubias-portobello",
+      "title": "Shakshuka de alubias y portobello",
+      "category": "Legumbres",
+      "type": "receta",
+      "available": true,
+      "url": "shakshuka-alubias-portobello.html",
+      "portions": {
+        "min": 2,
+        "max": 2
+      },
+      "servings": "2 raciones",
+      "ingredients": [
+        {
+          "index": 0,
+          "name": "champiñones portobello",
+          "quantity": "250 g",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "champiñones portobello",
+            "cantidad": 250,
+            "unidad": "g"
+          }
+        },
+        {
+          "index": 1,
+          "name": "chorizo",
+          "quantity": "10 g",
+          "note": "",
+          "alternative": "pimentón ahumado (una pizca; en lugar del chorizo)",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "chorizo",
+            "cantidad": 10,
+            "unidad": "g",
+            "grupo_alternativa": "sabor_ahumado",
+            "alternativa": {
+              "nombre": "pimentón ahumado",
+              "cantidad": null,
+              "unidad": null,
+              "nota": "una pizca; en lugar del chorizo"
+            }
+          }
+        },
+        {
+          "index": 2,
+          "name": "perejil de hoja plana",
+          "quantity": "15 g",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "perejil de hoja plana",
+            "cantidad": 15,
+            "unidad": "g"
+          }
+        },
+        {
+          "index": 3,
+          "name": "alubias blancas cocidas en conserva",
+          "quantity": "400 g",
+          "note": "1 lata; peso neto con líquido, no escurrido",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "alubias blancas cocidas en conserva",
+            "cantidad": 400,
+            "unidad": "g",
+            "nota": "1 lata; peso neto con líquido, no escurrido"
+          }
+        },
+        {
+          "index": 4,
+          "name": "tomates cherry maduros",
+          "quantity": "100 g",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "tomates cherry maduros",
+            "cantidad": 100,
+            "unidad": "g"
+          }
+        },
+        {
+          "index": 5,
+          "name": "huevos",
+          "quantity": "4 unidades",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "huevos",
+            "cantidad": 4,
+            "unidad": "unidades"
+          }
+        },
+        {
+          "index": 6,
+          "name": "queso feta",
+          "quantity": "20 g",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "queso feta",
+            "cantidad": 20,
+            "unidad": "g"
+          }
+        },
+        {
+          "index": 7,
+          "name": "aceite de oliva",
+          "quantity": "",
+          "note": "un chorrito",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "aceite de oliva",
+            "nota": "un chorrito"
+          }
+        },
+        {
+          "index": 8,
+          "name": "sal y pimienta negra",
+          "quantity": "",
+          "note": "al gusto",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "sal y pimienta negra",
+            "nota": "al gusto"
+          }
+        },
+        {
+          "index": 9,
+          "name": "aceite de oliva virgen extra",
+          "quantity": "",
+          "note": "un hilo, opcional",
+          "alternative": "",
+          "pantry": true,
+          "optional": true,
+          "group": "",
+          "source": {
+            "nombre": "aceite de oliva virgen extra",
+            "nota": "un hilo, opcional",
+            "opcional": true
+          }
+        }
+      ]
+    },
+    {
+      "id": "tortilla-boniato-espinacas-parmesano",
+      "title": "Tortilla de boniato, espinacas y parmesano",
+      "category": "Huevos",
+      "type": "receta",
+      "available": true,
+      "url": "tortilla-boniato-espinacas-parmesano.html",
+      "portions": {
+        "min": 2,
+        "max": 2
+      },
+      "servings": "2 raciones",
+      "ingredients": [
+        {
+          "index": 0,
+          "name": "boniato pelado",
+          "quantity": "300 g",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "boniato pelado",
+            "cantidad": 300,
+            "unidad": "g"
+          }
+        },
+        {
+          "index": 1,
+          "name": "espinacas frescas",
+          "quantity": "100 g",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "espinacas frescas",
+            "cantidad": 100,
+            "unidad": "g"
+          }
+        },
+        {
+          "index": 2,
+          "name": "huevos grandes",
+          "quantity": "4 unidades",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "huevos grandes",
+            "cantidad": 4,
+            "unidad": "unidades"
+          }
+        },
+        {
+          "index": 3,
+          "name": "parmesano rallado",
+          "quantity": "30 g",
+          "note": "",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "parmesano rallado",
+            "cantidad": 30,
+            "unidad": "g"
+          }
+        },
+        {
+          "index": 4,
+          "name": "cebolla",
+          "quantity": "0,5 unidad",
+          "note": "unos 80 g",
+          "alternative": "",
+          "pantry": false,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "cebolla",
+            "cantidad": 0.5,
+            "unidad": "unidad",
+            "nota": "unos 80 g"
+          }
+        },
+        {
+          "index": 5,
+          "name": "aceite de oliva virgen extra",
+          "quantity": "1 cucharada",
+          "note": "15 ml",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "aceite de oliva virgen extra",
+            "cantidad": 1,
+            "unidad": "cucharada",
+            "nota": "15 ml"
+          }
+        },
+        {
+          "index": 6,
+          "name": "sal y pimienta negra",
+          "quantity": "",
+          "note": "al gusto",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "sal y pimienta negra",
+            "nota": "al gusto"
+          }
+        },
+        {
+          "index": 7,
+          "name": "nuez moscada",
+          "quantity": "",
+          "note": "opcional",
+          "alternative": "",
+          "pantry": false,
+          "optional": true,
+          "group": "",
+          "source": {
+            "nombre": "nuez moscada",
+            "nota": "opcional"
+          }
+        },
+        {
+          "index": 8,
+          "name": "agua",
+          "quantity": "",
+          "note": "un poco",
+          "alternative": "",
+          "pantry": true,
+          "optional": false,
+          "group": "",
+          "source": {
+            "nombre": "agua",
+            "nota": "un poco"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tortilla-francesa",
+      "title": "Tortilla francesa",
+      "category": "Huevos",
+      "type": "prevista",
+      "available": false,
+      "url": null,
+      "portions": null,
+      "servings": "",
+      "ingredients": []
+    }
+  ]
+}
