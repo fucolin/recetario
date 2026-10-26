@@ -31,7 +31,7 @@ async function scenario({cached=null,response=null,failed=false}){
  const transitions=snapshot();transitions.days[0].comida=[{title:'A',category:'Igual',url:null},{title:'B',category:'Igual',url:null}];
  s=await scenario({cached:data,response:transitions});assert.ok(!s.meals[0].classes.has('has-pair'));assert.equal(s.meals[0].host.children[0].children[1].children[2].tag,'span');
  const restored=snapshot();restored.revision=3;restored.days[0].comida=data.days[0].comida;s=await scenario({cached:transitions,response:restored});assert.ok(s.meals[0].classes.has('has-pair'));assert.equal(s.meals[0].host.children.length,2);
- for(const [category,title,expected] of [['Tortilla','Tortilla de boniato','de boniato'],['Ensalada','ensalada de tomate','de tomate'],['Puré','PURÉ de calabaza','de calabaza'],['Puré','Pure\u0301 de calabaza','de calabaza'],['Tortilla','Tortillitas de verduras','Tortillitas de verduras'],['Puré','Pure de calabaza','Pure de calabaza'],['Pescado azul','Pescado a la plancha','Pescado a la plancha'],['Tortilla','Tortilla','Tortilla'],[null,'Tortilla de boniato','Tortilla de boniato']]){
+ for(const [category,title,expected] of [['Puré','Crema de calabacín','de calabacín'],['Puré','CREMA de verduras','de verduras'],['Puré','Cremas de verduras','Cremas de verduras'],[null,'Crema de calabacín','Crema de calabacín'],['Puré','Crema de aprovechamiento','aprovechategui'],['Otro','Crema de aprovechamiento','aprovechategui'],['Tortilla','Tortilla de boniato','de boniato'],['Ensalada','ensalada de tomate','de tomate'],['Puré','PURÉ de calabaza','de calabaza'],['Puré','Pure\u0301 de calabaza','de calabaza'],['Tortilla','Tortillitas de verduras','Tortillitas de verduras'],['Puré','Pure de calabaza','Pure de calabaza'],['Pescado azul','Pescado a la plancha','Pescado a la plancha'],['Tortilla','Tortilla','Tortilla'],[null,'Tortilla de boniato','Tortilla de boniato']]){
   const abbreviated=snapshot();abbreviated.days[0].comida=[{category,title,url:'tortilla.html'}];
   s=await scenario({response:abbreviated});const link=s.meals[0].host.children[0].children[1].children[0];assert.equal(link.textContent,expected);assert.equal(link.attributes.href,'tortilla.html');if(expected!==title)assert.equal(link.attributes['aria-label'],title);assert.equal(abbreviated.days[0].comida[0].title,title);
   s=await scenario({cached:abbreviated,failed:true});assert.equal(s.meals[0].host.children[0].children[1].children[0].textContent,expected);
@@ -39,6 +39,12 @@ async function scenario({cached=null,response=null,failed=false}){
  for(const categories of [['Ensalada','Ensalada'],['Ensalada',null],[null,'Ensalada']]){
   const grouped=snapshot();grouped.days[0].comida=[{title:'Ensalada de tomate',category:categories[0],url:'tomate.html'},{title:'Ensalada de mango',category:categories[1],url:null}];s=await scenario({response:grouped});const titles=s.meals[0].host.children[0].children[1].children;assert.deepEqual(titles.map(n=>n.textContent),['de tomate',' + ','de mango']);assert.equal(titles[0].attributes.href,'tomate.html');
  }
+ for(const category of ['Puré',null]){
+  const alias=snapshot();alias.days[0].comida=[{title:'Crema de aprovechamiento',category,url:'crema-aprovechamiento-marisa.html'},{title:'Crema de calabacín',category,url:'crema-calabacin.html'}];
+  s=await scenario({response:alias});const titles=s.meals[0].host.children[0].children.at(-1).children;
+  assert.equal(titles[0].textContent,'aprovechategui');assert.equal(titles[0].attributes.href,'crema-aprovechamiento-marisa.html');assert.equal(titles[0].attributes['aria-label'],'Crema de aprovechamiento');assert.equal(titles[2].textContent,category?'de calabacín':'Crema de calabacín');
+ }
+ const plain=snapshot();plain.days[0].comida=[{title:'Crema de aprovechamiento',category:null,url:null}];s=await scenario({response:plain});assert.equal(s.meals[0].host.children[0].children[0].textContent,'aprovechategui');
  const empty=snapshot();s=await scenario({response:empty});for(const meal of s.meals){assert.equal(meal.host.children[0].children[0].textContent,'Libre');assert.equal(meal.host.children[0].children[1].textContent,'⚠️ Respete vd. las cantidades');}
  s=await scenario({cached:empty,failed:true});assert.equal(s.meals[0].host.children[0].children[1].textContent,'⚠️ Respete vd. las cantidades');
  const filled=snapshot();filled.revision=3;filled.days[0].comida=[{title:'Plato casero',category:null,url:null}];s=await scenario({cached:empty,response:filled});assert.equal(s.meals[0].host.children[0].children.length,1);assert.equal(s.meals[0].host.children[0].children[0].textContent,'Plato casero');
@@ -46,5 +52,6 @@ async function scenario({cached=null,response=null,failed=false}){
  const html=fs.readFileSync(__dirname+'/../index.html','utf8');assert.ok(html.includes('<script>\n'+source.trim()+'\n</script>'));
  console.log('OK: shared/missing categories grouped with +, individual links/plain titles preserved, distinct categories separated, layout transitions, Libre, safe text/links, atomic validation, fallback, no credentials, stale snapshots ignored, embedded loader synchronized.');
 })().catch(error=>{console.error(error);process.exitCode=1});
+
 
 

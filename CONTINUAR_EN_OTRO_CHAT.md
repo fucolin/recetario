@@ -1,5 +1,10 @@
 # Continuar en otro chat · Casa Marisa
 
+## 26/10/2026 · Puré/crema y aprovechategui · publicación autorizada
+
+El carrusel omite «Crema» al principio del nombre bajo categoría «Puré» y muestra la crema de aprovechamiento con el apodo «aprovechategui», sin alterar fichas, enlaces ni menú guardado. Incluye categorías comunes a dos platos y caché. Guía, cargador, prueba e incrustación de index.html actualizados; respaldo estático conservado (ya usa aprovechategui). Preview mostrada y publicación autorizada expresamente con «publica». Pruebas del DOM simulado superadas: equivalencia Puré/Crema, apodo con y sin categoría, dos platos, caché y conservación de títulos accesibles/enlaces. Las verificaciones del despliegue son posteriores al commit; no se afirma aquí una revisión visual interactiva.
+
+
 ## Estado vigente contrastado · 25/10/2026
 
 Esta síntesis prevalece sobre las referencias históricas a preparaciones o pendientes de publicación que figuran más abajo. Se conserva íntegro el historial; comprobar de nuevo GitHub antes de trabajar.
