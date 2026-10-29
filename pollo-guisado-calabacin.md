@@ -18,45 +18,65 @@ tiempo_total_min:
   max: 60
 ingredientes:
 - nombre: pollo troceado
+  es_condimento: false
   unidad: g
   nota: preferiblemente contramuslos deshuesados
   cantidad_min: 500
   cantidad_max: 600
 - nombre: cebolla
+  es_condimento: true
+  tipo_condimento: aromaticos_frescos
   cantidad: 1
   unidad: unidad
   nota: mediana, unos 150 g
 - nombre: zanahorias
+  es_condimento: false
   cantidad: 2
   unidad: unidades
   nota: unos 150 g
 - nombre: calabacín
+  es_condimento: false
   cantidad: 1
   unidad: unidad
   nota: unos 250 g
 - nombre: tomate triturado
+  es_condimento: false
   cantidad: 300
   unidad: g
 - nombre: ajo
+  es_condimento: true
+  tipo_condimento: aromaticos_frescos
   cantidad: 2
   unidad: dientes
 - nombre: vino blanco seco
+  es_condimento: true
+  tipo_condimento: fondos_para_cocinar
   unidad: ml
   cantidad_min: 50
   cantidad_max: 75
 - nombre: aceite de oliva virgen extra
+  es_condimento: true
+  tipo_condimento: aceites_acidos_y_salsas
   unidad: cucharadas
   cantidad_min: 2
   cantidad_max: 3
 - nombre: pimentón dulce
+  es_condimento: true
+  tipo_condimento: sal_y_especias
   cantidad: 0.5
   unidad: cucharadita
 - nombre: laurel
+  es_condimento: true
+  tipo_condimento: hierbas_aromaticas
   cantidad: 1
   unidad: hoja
 - nombre: tomillo
+  es_condimento: true
+  tipo_condimento: hierbas_aromaticas
   nota: opcional
 - nombre: sal y pimienta negra
+  es_condimento: true
+  tipo_condimento: sal_y_especias
   nota: al gusto
 - nombre: agua o caldo de pollo
   nota: solo si hace falta
@@ -151,6 +171,21 @@ image_note: Imagen ilustrativa generada con IA; no es una fotografía del plato 
 variantes:
 - {titulo: Olla, pagina: pollo-guisado-calabacin.html}
 - {titulo: Cocotte y horno, pagina: pollo-guisado-calabacin-cocotte.html}
+ingredientes_basicos:
+- pollo
+- zanahoria
+- calabacín
+- tomate triturado
+condimentos_opciones:
+- origen: ingredientes[12].nombre
+  nombre: agua
+  es_condimento: false
+  condicion: Si se elige agua, no es condimento.
+- origen: ingredientes[12].nombre
+  nombre: caldo de pollo
+  es_condimento: true
+  tipo_condimento: fondos_para_cocinar
+  condicion: Solo si se elige caldo en lugar de agua.
 ---
 
 

@@ -25,41 +25,53 @@
     {
       "nombre": "huevos",
       "cantidad": 4,
-      "unidad": "unidades"
+      "unidad": "unidades",
+      "es_condimento": false
     },
     {
       "nombre": "champiñones",
       "cantidad": 150,
       "unidad": "g",
-      "nota": "enteros o laminados"
+      "nota": "enteros o laminados",
+      "es_condimento": false
     },
     {
       "nombre": "espárragos trigueros",
       "cantidad": 200,
-      "unidad": "g"
+      "unidad": "g",
+      "es_condimento": false
     },
     {
       "nombre": "ajo",
       "cantidad": 1,
-      "unidad": "diente"
+      "unidad": "diente",
+      "es_condimento": true,
+      "tipo_condimento": "aromaticos_frescos"
     },
     {
       "nombre": "aceite de oliva virgen extra",
       "cantidad": 1,
-      "unidad": "cucharada"
+      "unidad": "cucharada",
+      "es_condimento": true,
+      "tipo_condimento": "aceites_acidos_y_salsas"
     },
     {
       "nombre": "sal y pimienta negra",
-      "nota": "al gusto"
+      "nota": "al gusto",
+      "es_condimento": true,
+      "tipo_condimento": "sal_y_especias"
     },
     {
       "nombre": "perejil picado",
-      "opcional": true
+      "opcional": true,
+      "es_condimento": true,
+      "tipo_condimento": "hierbas_aromaticas"
     },
     {
       "nombre": "agua",
       "nota": "un poco, solo si los tallos son gruesos",
-      "opcional": true
+      "opcional": true,
+      "es_condimento": false
     }
   ],
   "pdf_ingredientes": [
@@ -124,5 +136,10 @@
   },
   "image_alt": "Revuelto jugoso con champiñones dorados y espárragos trigueros",
   "image_credit": "Imagen generada con IA para Casa Marisa",
-  "image_note": "Imagen ilustrativa generada con IA; no es una fotografía del plato preparado."
+  "image_note": "Imagen ilustrativa generada con IA; no es una fotografía del plato preparado.",
+  "ingredientes_basicos": [
+    "huevos",
+    "champiñones",
+    "espárragos trigueros"
+  ]
 }

@@ -21,30 +21,42 @@ tiempo_total_min:
   max: 15
 ingredientes:
 - nombre: canónigos
+  es_condimento: false
   cantidad: 100
   unidad: g
   nota: o mezcla de lechugas y espinacas tiernas
 - nombre: salmón ahumado
+  es_condimento: false
   cantidad: 150
   unidad: g
 - nombre: mango
+  es_condimento: false
   cantidad: 150
   unidad: g
   nota: pelado y sin hueso; maduro pero firme
 - nombre: aguacate
+  es_condimento: false
   cantidad: 1
   unidad: unidad
   nota: mediano
 - nombre: aceite de oliva virgen extra
+  es_condimento: true
+  tipo_condimento: aceites_acidos_y_salsas
   cantidad: 1
   unidad: cucharada
 - nombre: zumo de limón
+  es_condimento: true
+  tipo_condimento: aceites_acidos_y_salsas
   cantidad: 1
   unidad: cucharada
   nota: ajustable al gusto
 - nombre: pimienta negra
+  es_condimento: true
+  tipo_condimento: sal_y_especias
   nota: al gusto
 - nombre: sal
+  es_condimento: true
+  tipo_condimento: sal_y_especias
   nota: solo si hace falta después de probar
   opcional: true
 indicaciones: Lava las hojas si no vienen listas para consumir y sécalas bien. Corta el mango, maduro pero firme,
@@ -75,6 +87,19 @@ fuente:
   - archivo: ../originales/recetas-basicas-2026-09-10.pdf
     pagina: 1
     imagen: ../imagenes/ensalada-de-salmon-ahumado-mango-y-aguacate-2026-09-10.png
+ingredientes_basicos:
+- canónigos
+- salmón ahumado
+- mango
+- aguacate
+ingredientes_basicos_opciones:
+- tipo: alternativa
+  ingredientes:
+  - lechuga
+  - espinacas
+  sustituye:
+  - canónigos
+  nota: Mezcla de lechugas y espinacas tiernas indicada en la ficha.
 ---
 
 # Ensalada de salmón ahumado, mango y aguacate

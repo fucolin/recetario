@@ -18,16 +18,16 @@ encabezado:
   titulo: Patatas al vapor sabrosas
   detalle: Con feta y lima · estuche de vapor al microondas · 2 raciones · 15 min
 ingredientes:
-  - {nombre: patatas lavadas, cantidad: 400, unidad: g, alternativa: patacas novas de temporada}
-  - {nombre: ajo, cantidad: 1, unidad: diente}
-  - {nombre: lima, cantidad: 1, unidad: unidad}
-  - {nombre: aceite de oliva, cantidad: 1, unidad: cucharadita, equivalencia_ml: 5, uso: aliño final, alternativa: aceite de las sardinillas}
-  - {nombre: agua, cantidad: 1, unidad: cucharada, equivalencia_ml: 15}
-  - {nombre: queso feta, cantidad: 50, unidad: g}
-  - {nombre: laurel, cantidad: 1, unidad: hoja pequeña}
-  - {nombre: cebollino, cantidad: 1, unidad: cucharada}
-  - {nombre: sal, nota: 'una pizca, ajustable al gusto'}
-  - {nombre: pimienta, nota: 'una pizca, ajustable al gusto'}
+  - {nombre: patatas lavadas, cantidad: 400, unidad: g, alternativa: patacas novas de temporada, es_condimento: false}
+  - {nombre: ajo, cantidad: 1, unidad: diente, es_condimento: true, tipo_condimento: aromaticos_frescos}
+  - {nombre: lima, cantidad: 1, unidad: unidad, es_condimento: true, tipo_condimento: aceites_acidos_y_salsas}
+  - {nombre: aceite de oliva, cantidad: 1, unidad: cucharadita, equivalencia_ml: 5, uso: aliño final, alternativa: aceite de las sardinillas, es_condimento: true, tipo_condimento: aceites_acidos_y_salsas}
+  - {nombre: agua, cantidad: 1, unidad: cucharada, equivalencia_ml: 15, es_condimento: false}
+  - {nombre: queso feta, cantidad: 50, unidad: g, es_condimento: false}
+  - {nombre: laurel, cantidad: 1, unidad: hoja pequeña, es_condimento: true, tipo_condimento: hierbas_aromaticas}
+  - {nombre: cebollino, cantidad: 1, unidad: cucharada, es_condimento: true, tipo_condimento: hierbas_aromaticas}
+  - {nombre: sal, nota: 'una pizca, ajustable al gusto', es_condimento: true, tipo_condimento: sal_y_especias}
+  - {nombre: pimienta, nota: 'una pizca, ajustable al gusto', es_condimento: true, tipo_condimento: sal_y_especias}
 pdf_ingredientes:
   - 400 g de patatas lavadas o patacas novas de temporada
   - 1 diente de ajo
@@ -76,13 +76,13 @@ opciones:
   - titulo: Para cenar
     texto: Acompaña las patatas con una lata de sardinillas en aceite. Aprovecha una cucharadita del aceite de la conserva para el aliño final, en lugar de añadir aceite de oliva aparte. Con las sardinillas queda especialmente bien el eneldo en lugar del cebollino.
 opciones_ingredientes:
-  - {nombre: tomillo, cantidad_texto: una ramita pequeña o una pizca si es seco, opcional: true, sustituye: laurel, momento: antes de cocinar}
-  - {nombre: romero, cantidad_texto: un trocito de ramita, opcional: true, sustituye: laurel, momento: antes de cocinar}
-  - {nombre: perejil, cantidad: 1, unidad: cucharada, opcional: true, sustituye: cebollino, momento: al servir}
-  - {nombre: eneldo, cantidad_min: 1, cantidad_max: 2, unidad: cucharaditas, opcional: true, sustituye: cebollino, momento: al servir}
-  - {nombre: hierbabuena, cantidad_min: 2, cantidad_max: 3, unidad: hojas, opcional: true, sustituye: cebollino, momento: al servir}
-  - {nombre: orégano seco, cantidad: 0.25, unidad: cucharadita, opcional: true, sustituye: cebollino, momento: al servir}
-  - {nombre: sardinillas en aceite, cantidad: 1, unidad: lata, opcional: true, uso_aceite: reservar una cucharadita para el aliño final}
+  - {nombre: tomillo, cantidad_texto: una ramita pequeña o una pizca si es seco, opcional: true, sustituye: laurel, momento: antes de cocinar, es_condimento: true, tipo_condimento: hierbas_aromaticas}
+  - {nombre: romero, cantidad_texto: un trocito de ramita, opcional: true, sustituye: laurel, momento: antes de cocinar, es_condimento: true, tipo_condimento: hierbas_aromaticas}
+  - {nombre: perejil, cantidad: 1, unidad: cucharada, opcional: true, sustituye: cebollino, momento: al servir, es_condimento: true, tipo_condimento: hierbas_aromaticas}
+  - {nombre: eneldo, cantidad_min: 1, cantidad_max: 2, unidad: cucharaditas, opcional: true, sustituye: cebollino, momento: al servir, es_condimento: true, tipo_condimento: hierbas_aromaticas}
+  - {nombre: hierbabuena, cantidad_min: 2, cantidad_max: 3, unidad: hojas, opcional: true, sustituye: cebollino, momento: al servir, es_condimento: true, tipo_condimento: hierbas_aromaticas}
+  - {nombre: orégano seco, cantidad: 0.25, unidad: cucharadita, opcional: true, sustituye: cebollino, momento: al servir, es_condimento: true, tipo_condimento: hierbas_aromaticas}
+  - {nombre: sardinillas en aceite, cantidad: 1, unidad: lata, opcional: true, uso_aceite: reservar una cucharadita para el aliño final, es_condimento: false}
 fuente:
   tipo: folleto
   titulo_original: Steamed potatoes · Patatas al vapor
@@ -102,6 +102,14 @@ image_note: Imagen ilustrativa generada con IA, con las patatas de la receta y s
 image_width: 1672
 image_height: 941
 pdf: https://fucolin.github.io/recetario/patatas-vapor-sabrosas.pdf
+ingredientes_basicos:
+- patata
+- queso feta
+ingredientes_basicos_opciones:
+- tipo: opcional
+  ingredientes:
+  - sardinillas en aceite
+  nota: Acompañamiento propuesto para cenar; no forma parte de la versión base.
 ---
 
 # Patatas al vapor sabrosas

@@ -24,35 +24,51 @@ tiempo_total_min:
   max: 40
 ingredientes:
 - nombre: garbanzos cocidos
+  es_condimento: false
   cantidad: 400
   unidad: g
   nota: peso escurrido
 - nombre: bacalao desalado sin espinas
+  es_condimento: false
   cantidad: 200
   unidad: g
 - nombre: espinacas frescas
+  es_condimento: false
   cantidad: 200
   unidad: g
 - nombre: cebolla
+  es_condimento: true
+  tipo_condimento: aromaticos_frescos
   cantidad: 150
   unidad: g
 - nombre: ajo
+  es_condimento: true
+  tipo_condimento: aromaticos_frescos
   cantidad: 2
   unidad: dientes
 - nombre: aceite de oliva virgen extra
+  es_condimento: true
+  tipo_condimento: aceites_acidos_y_salsas
   cantidad: 10
   unidad: g
 - nombre: pimentón dulce
+  es_condimento: true
+  tipo_condimento: sal_y_especias
   cantidad: 0.5
   unidad: cucharadita
 - nombre: laurel
+  es_condimento: true
+  tipo_condimento: hierbas_aromaticas
   cantidad: 1
   unidad: hoja
 - nombre: agua
+  es_condimento: false
   cantidad: 350
   unidad: ml
   cantidad_max: 450
 - nombre: sal
+  es_condimento: true
+  tipo_condimento: sal_y_especias
   cantidad: null
   unidad: null
   opcional: true
@@ -131,6 +147,10 @@ fecha_actualizacion: '2026-10-17'
 encabezado:
   titulo: Potaje de bacalao
   detalle: Con garbanzos y espinacas · a fuego lento · 2 raciones · 35-40 min
+ingredientes_basicos:
+- garbanzos
+- bacalao
+- espinacas
 ---
 
 # Potaje de bacalao

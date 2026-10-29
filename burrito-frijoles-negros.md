@@ -20,43 +20,56 @@ tiempo_total_min:
   max: 30
 ingredientes:
 - nombre: frijoles negros guisados
+  es_condimento: false
   cantidad: 1
   unidad: lata
   nota: 410 g de contenido total, incluida la salsa; ya llevan cebolla, pimientos, aceite, sal y especias
   producto_preferido: frijoles-negros-guisados-gusto-pan
 - nombre: quinoa
+  es_condimento: false
   cantidad: 50
   unidad: g
   nota: en seco
 - nombre: edamame desgranado
+  es_condimento: false
   cantidad_min: 80
   cantidad_max: 100
   unidad: g
 - nombre: champiñones
+  es_condimento: false
   cantidad: 100
   unidad: g
 - nombre: aguacate
+  es_condimento: false
   cantidad: 1
   unidad: unidad
   nota: mediano
 - nombre: tortillas de trigo
+  es_condimento: false
   cantidad: 2
   unidad: unidades
   nota: grandes, de unos 30 cm; integrales si te gustan. Con tortillas más pequeñas, repartir el relleno
     entre 4
 - nombre: aceite de oliva virgen extra
+  es_condimento: true
+  tipo_condimento: aceites_acidos_y_salsas
   cantidad: 1
   unidad: cucharadita
   nota: para saltear los champiñones
 - nombre: zumo de lima
+  es_condimento: true
+  tipo_condimento: aceites_acidos_y_salsas
   cantidad_min: 1
   cantidad_max: 2
   unidad: cucharaditas
   nota: ajustable al gusto
 - nombre: comino molido
+  es_condimento: true
+  tipo_condimento: sal_y_especias
   nota: una pizca, solo después de probar
   opcional: true
 - nombre: pico de gallo
+  es_condimento: false
   cantidad: 2
   unidad: cucharadas
   nota: bien escurrido
@@ -168,6 +181,18 @@ montaje:
 - orden: 6
   titulo: Deja el cierre debajo
   instrucciones: Termina de enrollar y apoya el burrito sobre el cierre para que no se abra.
+ingredientes_basicos:
+- frijoles negros
+- quinoa
+- edamame
+- champiñones
+- aguacate
+- tortillas de trigo
+ingredientes_basicos_opciones:
+- tipo: opcional
+  ingredientes:
+  - pico de gallo
+  nota: Relleno opcional, bien escurrido.
 ---
 
 

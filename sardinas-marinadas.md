@@ -22,42 +22,63 @@ tiempo_total_min:
 tiempo_nota: Elaboración y marinado; no incluye congelación ni descongelación previas. Acompañamientos en paralelo.
 ingredientes:
 - nombre: sardinas medianas
+  es_condimento: false
   cantidad: 12
   unidad: unidades
   nota: limpias, en lomos
 - nombre: tomates maduros carnosos
+  es_condimento: false
   cantidad: 2
   unidad: unidades
 - nombre: aceitunas verdes deshuesadas
+  es_condimento: false
   cantidad: 15
   unidad: g
 - nombre: aceitunas negras deshuesadas
+  es_condimento: false
   cantidad: 15
   unidad: g
 - nombre: cebolleta
+  es_condimento: true
+  tipo_condimento: aromaticos_frescos
   cantidad: 0.5
   unidad: unidad
   nota: tallo tierno
 - nombre: tomillo fresco
+  es_condimento: true
+  tipo_condimento: hierbas_aromaticas
   cantidad: 1
   unidad: ramita
   nota: o una pizca de tomillo seco
 - nombre: cebollino picado
+  es_condimento: true
+  tipo_condimento: hierbas_aromaticas
   nota: al gusto
 - nombre: vinagre de manzana
+  es_condimento: true
+  tipo_condimento: aceites_acidos_y_salsas
   nota: cantidad suficiente
 - nombre: aceite de oliva virgen extra
+  es_condimento: true
+  tipo_condimento: aceites_acidos_y_salsas
 - nombre: sal gorda
+  es_condimento: true
+  tipo_condimento: sal_y_especias
   cantidad: 100
   unidad: g
   nota: para la salmuera
 - nombre: agua
+  es_condimento: false
   cantidad: 1
   unidad: l
   nota: para la salmuera
 - nombre: sal fina
+  es_condimento: true
+  tipo_condimento: sal_y_especias
   nota: una pizca
 - nombre: chile en polvo
+  es_condimento: true
+  tipo_condimento: sal_y_especias
   opcional: true
   nota: una pizca
 pdf_ingredientes:
@@ -141,6 +162,11 @@ ajustes: Dos raciones como plato principal, 30 g de aceitunas en total y chile o
 encabezado:
   titulo: Sardinas marinadas
   detalle: Con tomate, aceitunas y hierbas · 2 raciones · 45-50 min
+ingredientes_basicos:
+- sardinas
+- tomate
+- aceitunas verdes
+- aceitunas negras
 ---
 
 # Sardinas marinadas

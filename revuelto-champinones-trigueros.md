@@ -20,26 +20,38 @@ tiempo_total_min:
   max: 25
 ingredientes:
 - nombre: huevos
+  es_condimento: false
   cantidad: 4
   unidad: unidades
 - nombre: champiñones
+  es_condimento: false
   cantidad: 150
   unidad: g
   nota: enteros o laminados
 - nombre: espárragos trigueros
+  es_condimento: false
   cantidad: 200
   unidad: g
 - nombre: ajo
+  es_condimento: true
+  tipo_condimento: aromaticos_frescos
   cantidad: 1
   unidad: diente
 - nombre: aceite de oliva virgen extra
+  es_condimento: true
+  tipo_condimento: aceites_acidos_y_salsas
   cantidad: 1
   unidad: cucharada
 - nombre: sal y pimienta negra
+  es_condimento: true
+  tipo_condimento: sal_y_especias
   nota: al gusto
 - nombre: perejil picado
+  es_condimento: true
+  tipo_condimento: hierbas_aromaticas
   opcional: true
 - nombre: agua
+  es_condimento: false
   nota: un poco, solo si los tallos son gruesos
   opcional: true
 pdf_ingredientes:
@@ -106,6 +118,10 @@ encabezado:
 image_alt: Revuelto jugoso con champiñones dorados y espárragos trigueros
 image_credit: Imagen generada con IA para Casa Marisa
 image_note: Imagen ilustrativa generada con IA; no es una fotografía del plato preparado.
+ingredientes_basicos:
+- huevos
+- champiñones
+- espárragos trigueros
 ---
 
 

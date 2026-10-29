@@ -20,45 +20,67 @@ tiempo_total_min:
   max: 40
 ingredientes:
 - nombre: lentejas cocidas en conserva
+  es_condimento: false
   cantidad: 400
   unidad: g
   nota: peso escurrido
 - nombre: calabaza pelada
+  es_condimento: false
   cantidad: 350
   unidad: g
 - nombre: espinacas frescas
+  es_condimento: false
   unidad: g
   cantidad_min: 100
   cantidad_max: 125
 - nombre: cebolla
+  es_condimento: true
+  tipo_condimento: aromaticos_frescos
   cantidad: 1
   unidad: unidad
   nota: mediana
 - nombre: ajo
+  es_condimento: true
+  tipo_condimento: aromaticos_frescos
   cantidad: 2
   unidad: dientes
 - nombre: jengibre fresco
+  es_condimento: true
+  tipo_condimento: aromaticos_frescos
   cantidad: 10
   unidad: g
 - nombre: leche de coco
+  es_condimento: false
   cantidad: 150
   unidad: ml
 - nombre: caldo de verduras
+  es_condimento: true
+  tipo_condimento: fondos_para_cocinar
   cantidad: 200
   unidad: ml
   nota: más un poco extra si hace falta
 - nombre: curry en polvo
+  es_condimento: true
+  tipo_condimento: sal_y_especias
   cantidad: 1
   unidad: cucharadita
 - nombre: comino molido
+  es_condimento: true
+  tipo_condimento: sal_y_especias
   cantidad: 0.5
   unidad: cucharadita
 - nombre: aceite de oliva virgen extra
+  es_condimento: true
+  tipo_condimento: aceites_acidos_y_salsas
   cantidad: 2
   unidad: cucharadas
 - nombre: sal y pimienta negra
+  es_condimento: true
+  tipo_condimento: sal_y_especias
   nota: al gusto
 - nombre: zumo de limón
+  es_condimento: true
+  tipo_condimento: aceites_acidos_y_salsas
   nota: unas gotas al final
 pdf_ingredientes:
 - 400 g de lentejas cocidas (escurridas)
@@ -146,6 +168,11 @@ fuente:
 image_alt: Lentejas cremosas con dados de calabaza y espinacas en salsa de coco y curry
 image_credit: Imagen generada con IA para Casa Marisa
 image_note: Imagen ilustrativa generada con IA; no es una fotografía del plato preparado.
+ingredientes_basicos:
+- lentejas
+- calabaza
+- espinacas
+- leche de coco
 ---
 
 

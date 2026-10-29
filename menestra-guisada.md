@@ -31,24 +31,36 @@ encabezado:
 presentacion_marisa: Receta oral de Marisa, que prepara siguiendo los consejos de la tía Genia.
 ingredientes:
 - nombre: menestra congelada
+  es_condimento: false
   cantidad: 500
   unidad: g
 - nombre: cebolla
+  es_condimento: true
+  tipo_condimento: aromaticos_frescos
   cantidad: 0.5
   unidad: unidad
 - nombre: ajo
+  es_condimento: true
+  tipo_condimento: aromaticos_frescos
   cantidad: 1
   unidad: diente
 - nombre: aceite de oliva
+  es_condimento: true
+  tipo_condimento: aceites_acidos_y_salsas
   cantidad: 1
   unidad: cucharada
 - nombre: agua
+  es_condimento: false
   cantidad: 50
   unidad: ml
   nota: aproximadamente; ajustar si hace falta
 - nombre: sal
+  es_condimento: true
+  tipo_condimento: sal_y_especias
   nota: al gusto
 - nombre: pimienta
+  es_condimento: true
+  tipo_condimento: sal_y_especias
   nota: al gusto
 pdf_ingredientes:
 - 500 g de menestra congelada
@@ -154,19 +166,25 @@ opciones:
   texto: Esta menestra puede servirse como guarnición. Para tomarla como plato principal, acompáñala con huevo cocido y, si no lleva carne ni jamón, bonito en conserva.
 opciones_ingredientes:
 - nombre: jamón
+  es_condimento: false
   formato: tacos
   opcional: true
   alternativa: carne
 - nombre: carne
+  es_condimento: false
   formato: trocitos
   opcional: true
   alternativa: jamón
 - nombre: vino
+  es_condimento: true
+  tipo_condimento: fondos_para_cocinar
   cantidad_texto: un poco
   opcional: true
 - nombre: huevo cocido
+  es_condimento: false
   opcional: true
 - nombre: bonito en conserva
+  es_condimento: false
   opcional: true
   condicion: si no lleva carne ni jamón
 image: https://fucolin.github.io/recetario/images/menestra-guisada-ilustracion-v2.jpg
@@ -201,6 +219,25 @@ original_marisa:
   opciones:
   - 'Para dar más sabor: añadir al sofrito tacos de jamón o trocitos de carne. Y a continuación, vino.'
   - 'Para acompañar: huevo cocido y, si no lleva carne o jamón, bonito en conserva.'
+ingredientes_basicos:
+- menestra de verduras
+ingredientes_basicos_opciones:
+- tipo: opcional
+  ingredientes:
+  - jamón
+  nota: En tacos, en lugar de carne; opción del sofrito.
+- tipo: opcional
+  ingredientes:
+  - carne
+  nota: En trocitos, en lugar de jamón; opción del sofrito.
+- tipo: opcional
+  ingredientes:
+  - huevos
+  nota: Cocidos, para servir como plato principal.
+- tipo: opcional
+  ingredientes:
+  - bonito en conserva
+  nota: Para servir como plato principal, solo si no lleva carne ni jamón.
 ---
 
 # Menestra guisada

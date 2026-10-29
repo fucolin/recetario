@@ -30,38 +30,47 @@ tiempo_total_min:
   max: 15
 ingredientes:
 - nombre: tortilla/piadina
+  es_condimento: false
   cantidad: 1
   unidad: unidad
   nota: grande; integral o de espelta
 - nombre: huevos
+  es_condimento: false
   cantidad: 2
   unidad: unidades
 - nombre: pavo o jamón cocido
+  es_condimento: false
   producto_preferido: pechuga-pavo-elpozo-1954
   cantidad: 1
   unidad: loncha
   peso_aprox_g: 25
   nota: grande; mínimo 90 % de carne
 - nombre: queso
+  es_condimento: false
   cantidad: 1
   unidad: loncha
   peso_aprox_g: 20
 - nombre: tomate
+  es_condimento: false
   cantidad: 0.5
   unidad: unidad
   peso_aprox_g: 50
   nota: pequeño
 - nombre: aguacate
+  es_condimento: false
   cantidad: 0.25
   unidad: unidad
   nota: mediano
 - nombre: lechuga
+  es_condimento: false
   cantidad: 1
   unidad: hoja
   alternativas:
   - un puñadito de brotes
   - un puñadito de canónigos
 - nombre: aceite de oliva
+  es_condimento: true
+  tipo_condimento: aceites_acidos_y_salsas
   cantidad: 0.5
   unidad: cucharadita
 indicaciones: 'Prepara el relleno. Corta el tomate en rodajas finas y déjalo escurrir bien. Lava y seca las hojas;
@@ -116,6 +125,39 @@ encabezado:
   detalle: Con queso, tomate y aguacate · 1 ración · 10-15 min
 consejo: Para compartir, puedes preparar dos fajitas con tortillas pequeñas, repartiendo los ingredientes entre
   ambas y usando una sartén de su tamaño. La cantidad total sigue siendo una ración.
+ingredientes_basicos:
+- tortillas de trigo
+- huevos
+- pavo cocido
+- queso
+- tomate
+- aguacate
+- lechuga
+ingredientes_basicos_opciones:
+- tipo: alternativa
+  ingredientes:
+  - piadina
+  sustituye:
+  - tortillas de trigo
+  nota: Elegir tortilla o piadina.
+- tipo: alternativa
+  ingredientes:
+  - jamón cocido
+  sustituye:
+  - pavo cocido
+  nota: Elegir pavo o jamón cocido.
+- tipo: alternativa
+  ingredientes:
+  - brotes tiernos
+  sustituye:
+  - lechuga
+  nota: Alternativa de hojas.
+- tipo: alternativa
+  ingredientes:
+  - canónigos
+  sustituye:
+  - lechuga
+  nota: Alternativa de hojas.
 ---
 
 # Fajita de francesa y pavo

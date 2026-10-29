@@ -35,36 +35,48 @@
       "nombre": "gambas crudas peladas congeladas",
       "cantidad": 250,
       "unidad": "g",
-      "nota": "peso descongelado y escurrido"
+      "nota": "peso descongelado y escurrido",
+      "es_condimento": false
     },
     {
       "nombre": "espárragos trigueros",
       "cantidad": 300,
-      "unidad": "g"
+      "unidad": "g",
+      "es_condimento": false
     },
     {
       "nombre": "ajo",
       "cantidad": 1,
-      "unidad": "diente"
+      "unidad": "diente",
+      "es_condimento": true,
+      "tipo_condimento": "aromaticos_frescos"
     },
     {
       "nombre": "aceite de oliva",
       "cantidad": 1,
       "unidad": "cucharada",
-      "equivalencia_ml": 15
+      "equivalencia_ml": 15,
+      "es_condimento": true,
+      "tipo_condimento": "aceites_acidos_y_salsas"
     },
     {
       "nombre": "sal",
-      "nota": "al gusto"
+      "nota": "al gusto",
+      "es_condimento": true,
+      "tipo_condimento": "sal_y_especias"
     },
     {
       "nombre": "pimienta",
-      "nota": "al gusto"
+      "nota": "al gusto",
+      "es_condimento": true,
+      "tipo_condimento": "sal_y_especias"
     },
     {
       "nombre": "zumo de limón",
       "cantidad": "unas gotas",
-      "opcional": true
+      "opcional": true,
+      "es_condimento": true,
+      "tipo_condimento": "aceites_acidos_y_salsas"
     }
   ],
   "pdf_ingredientes": [
@@ -141,5 +153,28 @@
   "image_note": "Ilustración de la versión principal con trigueros; sin huevo ni calabacín opcionales.",
   "image_width": 1672,
   "image_height": 941,
-  "pdf": "https://fucolin.github.io/recetario/gambas-salteadas-trigueros.pdf"
+  "pdf": "https://fucolin.github.io/recetario/gambas-salteadas-trigueros.pdf",
+  "ingredientes_basicos": [
+    "gambas",
+    "espárragos trigueros"
+  ],
+  "ingredientes_basicos_opciones": [
+    {
+      "tipo": "alternativa",
+      "ingredientes": [
+        "calabacín"
+      ],
+      "sustituye": [
+        "espárragos trigueros"
+      ],
+      "nota": "Versión con calabacín en bastones."
+    },
+    {
+      "tipo": "opcional",
+      "ingredientes": [
+        "huevos"
+      ],
+      "nota": "Huevo escalfado aparte, uno por persona, al servir."
+    }
+  ]
 }

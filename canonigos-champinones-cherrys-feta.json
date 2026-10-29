@@ -25,32 +25,40 @@
       "nombre": "champiñones",
       "cantidad_min": 100,
       "cantidad_max": 120,
-      "unidad": "g"
+      "unidad": "g",
+      "es_condimento": false
     },
     {
       "nombre": "tomates cherry",
       "cantidad": 100,
-      "unidad": "g"
+      "unidad": "g",
+      "es_condimento": false
     },
     {
       "nombre": "canónigos",
       "cantidad_min": 40,
       "cantidad_max": 50,
-      "unidad": "g"
+      "unidad": "g",
+      "es_condimento": false
     },
     {
       "nombre": "queso feta",
       "cantidad": 30,
-      "unidad": "g"
+      "unidad": "g",
+      "es_condimento": false
     },
     {
       "nombre": "aceite de oliva virgen extra",
       "cantidad": 1,
-      "unidad": "cucharadita"
+      "unidad": "cucharadita",
+      "es_condimento": true,
+      "tipo_condimento": "aceites_acidos_y_salsas"
     },
     {
       "nombre": "sal y pimienta negra",
-      "nota": "al gusto"
+      "nota": "al gusto",
+      "es_condimento": true,
+      "tipo_condimento": "sal_y_especias"
     }
   ],
   "indicaciones": "Lamina los champiñones y corta los tomates por la mitad. Saltea los champiñones con el aceite a fuego medio-alto durante 4-5 minutos. Incorpora los tomates y cocina 2-3 minutos más, procurando que se ablanden y se doren ligeramente sin deshacerse. Coloca los canónigos como base, reparte encima el salteado todavía templado y termina con el feta desmenuzado y pimienta negra.",
@@ -59,5 +67,11 @@
   "fecha_actualizacion": "2026-10-15",
   "image_alt": "Canónigos con champiñones dorados, tomates cherry salteados y feta desmenuzado",
   "image_credit": "Imagen generada con IA para Casa Marisa",
-  "image_note": "Imagen ilustrativa generada con IA; no es una fotografía del plato preparado."
+  "image_note": "Imagen ilustrativa generada con IA; no es una fotografía del plato preparado.",
+  "ingredientes_basicos": [
+    "canónigos",
+    "champiñones",
+    "tomates cherry",
+    "queso feta"
+  ]
 }

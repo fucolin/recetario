@@ -27,6 +27,66 @@ Para una ficha nueva, completar este proceso. Para una actualización, actuar so
 7. Actualizar `index.html` y la página visual de `categorias/` correspondiente, sin crear entradas duplicadas y distinguiendo claramente las variantes. Comprobar siempre si la nueva receta ya aparece como ejemplo del carrusel en `semana-base.md`, tanto directamente como dentro de `componentes`, aunque esté escrita con un título abreviado o tenga `pagina: null`. Si corresponde, enlazar su URL definitiva al publicar la ficha y sincronizar maestro, `datos/semana-base.json` e `index.html` con `python tools/generar_semana_base.py`; comprobar con `node tools/comprobar_semana_base.cjs`. Conservar el reparto semanal y los demás ejemplos. Si no aparece, no incorporarla al carrusel por defecto.
 8. Comprobar ingredientes, cantidades, diferencias entre variantes, licencia de la imagen, datos estructurados, enlaces y presentación visual del HTML y del PDF.
 
+## Ingredientes básicos
+
+Cada ficha de plato publicada (`receta`, `preparacion`, `combinacion`) incorpora `ingredientes_basicos` como lista de nombres sencillos en el YAML maestro y el JSON completo. Es una selección editorial por receta para identificarla y facilitar búsquedas; no sustituye `ingredientes`, no modifica cantidades ni convierte los ingredientes omitidos en opcionales. Productos preferidos, calendarios, redirecciones y fichas próximas no se clasifican como recetas completas.
+
+- Incluir los alimentos que definen la preparación y sus componentes relevantes, aunque alguno sea acompañamiento. Normalizar nombres sin cantidades ni detalles de corte: huevos, zanahoria, queso parmesano, etc. Conservar distinciones útiles como salmón ahumado o atún al natural.
+- Ajo y cebolla no se incluyen por defecto: quedan fuera cuando aportan un fondo aromático o forman parte del sofrito. Incluir ajo en un ajillo y cebolla cuando se come como componente protagonista, por ejemplo con los pimientos asados o en la base de verduras asadas del Pollo Satisfryer. Aplicar la misma valoración a cebolletas, puerro y hierbas: la albahaca del lago de albahaca sí define ese plato; las cebolletas picadas de fondo de la pasta o el cebollino decorativo no.
+- Excluir agua, sal, aceite de cocción o aliño, especias, fondos de caldo y pequeñas cantidades de limón, vinagre u otros aromáticos usados para aderezar. Una hierba protagonista sí puede ser básica. La función importa más que la cantidad: los quesos, el yogur de una salsa o la leche de coco pueden ser componentes relevantes.
+- Leer ingredientes, elaboración, claves y opciones de la ficha vigente. No deducir ingredientes de un nombre, de costumbres culinarias ni de la composición desconocida de una mezcla comercial. Mantener «menestra de verduras» o «mezcla de verduras para ensaladilla» cuando eso sea lo documentado; una mezcla concreta descrita como ejemplo no se convierte en composición fija.
+- En alternativas expresadas con «o», usar la primera elección documentada como referencia de la lista base y recoger la otra por separado. El orden de referencia no impone una preferencia nueva. No descomponer formatos equivalentes que siguen representando el mismo básico (pollo con otro corte, mejillones frescos o al vacío).
+
+Las opciones básicas relevantes se guardan en `ingredientes_basicos_opciones`, una lista de objetos con `tipo` (`alternativa` u `opcional`), `ingredientes` (lista de nombres) y `nota` (condición original, sin cantidades nuevas). Las alternativas incluyen además `sustituye`, cuyos nombres deben existir en `ingredientes_basicos`. Son cambios sobre la base, no una lista de ingredientes que se añadan todos a la vez. Una opción puede describir un ejemplo de mezcla, identificado expresamente como tal. Mantener las cantidades, tiempos y condiciones completos en sus campos originales. Los aderezos que no cumplen el criterio de básico no necesitan duplicarse en esta selección.
+
+Ejemplo:
+
+```yaml
+ingredientes_basicos:
+- gambas
+- espárragos trigueros
+ingredientes_basicos_opciones:
+- tipo: alternativa
+  ingredientes: [calabacín]
+  sustituye: [espárragos trigueros]
+  nota: Versión con calabacín en bastones.
+- tipo: opcional
+  ingredientes: [huevos]
+  nota: Huevo escalfado aparte, uno por persona, al servir.
+```
+
+Comprobar cobertura de todas las fichas, YAML válido, listas no vacías y sin duplicados, nombres sencillos y sincronización exacta de los dos campos en YAML/JSON. Al añadir o modificar una ficha, revisar esta selección junto a la lista completa; los generadores que serializan el YAML completo deben conservar ambos campos.
+
+Estos metadatos no son propiedades estándar de Schema.org: no incorporarlos como propiedades inventadas al `Recipe` ni sustituir `recipeIngredient`. No se muestran todavía en HTML/PDF ni alteran el buscador, el catálogo de intercambio de la app o las prioridades de compra. Esta incorporación descriptiva conserva fechas culinarias, instrucciones, imágenes y PDF. La transmisión y el uso en otros consumidores requieren un cambio específico y validación de su contrato; no presuponer que la selección identifica automáticamente los principales de compra.
+
+## Condimentos por receta
+
+En los objetos de `ingredientes`, `opciones_ingredientes`, `alternativas_verduras` y alternativas estructuradas actuales, añadir `es_condimento` como booleano. Solo cuando sea `true` añadir `tipo_condimento`:
+
+| Valor | Grupo | Ejemplos |
+| --- | --- | --- |
+| `sal_y_especias` | Sal y especias | Sal, pimienta, pimentón, comino, curry, nuez moscada, guindilla, chile, zaatar |
+| `hierbas_aromaticas` | Hierbas aromáticas | Cebollino, eneldo, laurel, orégano, perejil, romero, tomillo, hierbabuena; albahaca cuando actúe como condimento |
+| `aromaticos_frescos` | Aromáticos frescos | Ajo, cebolla, cebolleta, jengibre cuando aporten el fondo aromático |
+| `aceites_acidos_y_salsas` | Aceites, ácidos y salsas | Aceite de oliva, limón, lima, vinagre y mostaza |
+| `fondos_para_cocinar` | Fondos para cocinar | Caldos, pastilla de caldo vegetal y vino |
+
+La función es local a cada receta. Ajo en ajillo, cebolla asada como componente protagonista y albahaca del lago de albahaca llevan `es_condimento: false`. No inferir que todo ingrediente ausente de `ingredientes_basicos` es condimento: agua, levadura, otros alimentos y opcionales pueden no pertenecer a ninguno de esos dos conjuntos. Conservar el carácter opcional, cantidades, condiciones y relaciones de sustitución existentes. No reclasificar ni reescribir el manuscrito o relato original de Marisa.
+
+```yaml
+- nombre: ajo
+  es_condimento: true
+  tipo_condimento: aromaticos_frescos
+  cantidad: 2
+  unidad: dientes
+```
+
+Las listas de aderezos que contienen cadenas se conservan para mantener sus generadores. Sus anotaciones están en `condimentos_opciones`, lista de objetos con `origen` (ruta e índice en el YAML actual, contados desde cero), `nombre`, `es_condimento`, `tipo_condimento` solo si es verdadero y `condicion`. El índice referencia el ingrediente original, no una casilla de compra; revisar las referencias cuando se reordene o cambie la lista.
+
+La expresión mixta «agua o caldo de pollo» no recibe un booleano que clasifique ambas elecciones por igual: se anota cada opción en `condimentos_opciones`, referida al campo original, con agua `false` y caldo `true`/`fondos_para_cocinar`. Así se conserva la elección sin tratar el agua como condimento. Una referencia puede ser `ingredientes[3].nombre` o `opciones_aderezo[0].ingredientes[1]`. No añadir ambas variantes automáticamente a una compra.
+
+Comprobar sincronía de estas anotaciones en YAML/JSON, validez de los cinco valores, ausencia de tipo en falsos, referencias existentes y condiciones. Los metadatos no se muestran en web/PDF ni se añaden como propiedades no estándar de Schema.org. No alterar fechas culinarias por esta clasificación descriptiva. El exportador de intercambio conserva los campos del ingrediente dentro de `source`; esta transmisión no implica que la app interprete el tipo, cambie las prioridades o sustituya su revisión privada de principales. No cambiar el formato del contrato ni el comportamiento de compra sin su tarea específica.
+
 ## Ilustraciones de Casa Marisa
 
 Mantener el estilo y nivel de detalle de las ilustraciones ya publicadas. Antes de generar, consultar como referencias visuales la cabecera de `burrito-frijoles-negros.html` y las últimas imágenes publicadas de ensaladas, guisos y tortillas. Abrir las imágenes vigentes a las que apuntan esas fichas, no limitarse a leer su descripción ni reutilizar una revisión antigua.

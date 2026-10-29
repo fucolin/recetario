@@ -30,7 +30,8 @@
     {
       "nombre": "champiñones portobello",
       "cantidad": 250,
-      "unidad": "g"
+      "unidad": "g",
+      "es_condimento": false
     },
     {
       "nombre": "chorizo",
@@ -41,47 +42,62 @@
         "nombre": "pimentón ahumado",
         "cantidad": null,
         "unidad": null,
-        "nota": "una pizca; en lugar del chorizo"
-      }
+        "nota": "una pizca; en lugar del chorizo",
+        "es_condimento": true,
+        "tipo_condimento": "sal_y_especias"
+      },
+      "es_condimento": false
     },
     {
       "nombre": "perejil de hoja plana",
       "cantidad": 15,
-      "unidad": "g"
+      "unidad": "g",
+      "es_condimento": true,
+      "tipo_condimento": "hierbas_aromaticas"
     },
     {
       "nombre": "alubias blancas cocidas en conserva",
       "cantidad": 400,
       "unidad": "g",
-      "nota": "1 lata; peso neto con líquido, no escurrido"
+      "nota": "1 lata; peso neto con líquido, no escurrido",
+      "es_condimento": false
     },
     {
       "nombre": "tomates cherry maduros",
       "cantidad": 100,
-      "unidad": "g"
+      "unidad": "g",
+      "es_condimento": false
     },
     {
       "nombre": "huevos",
       "cantidad": 4,
-      "unidad": "unidades"
+      "unidad": "unidades",
+      "es_condimento": false
     },
     {
       "nombre": "queso feta",
       "cantidad": 20,
-      "unidad": "g"
+      "unidad": "g",
+      "es_condimento": false
     },
     {
       "nombre": "aceite de oliva",
-      "nota": "un chorrito"
+      "nota": "un chorrito",
+      "es_condimento": true,
+      "tipo_condimento": "aceites_acidos_y_salsas"
     },
     {
       "nombre": "sal y pimienta negra",
-      "nota": "al gusto"
+      "nota": "al gusto",
+      "es_condimento": true,
+      "tipo_condimento": "sal_y_especias"
     },
     {
       "nombre": "aceite de oliva virgen extra",
       "nota": "un hilo, opcional",
-      "opcional": true
+      "opcional": true,
+      "es_condimento": true,
+      "tipo_condimento": "aceites_acidos_y_salsas"
     }
   ],
   "pdf_ingredientes": [
@@ -159,5 +175,12 @@
   "encabezado": {
     "titulo": "Shakshuka de alubias y portobello",
     "detalle": "Huevos, tomates cherry y feta · en una sartén · 2 raciones · 15-20 min orientativos"
-  }
+  },
+  "ingredientes_basicos": [
+    "champiñones portobello",
+    "alubias blancas",
+    "tomates cherry",
+    "huevos",
+    "queso feta"
+  ]
 }

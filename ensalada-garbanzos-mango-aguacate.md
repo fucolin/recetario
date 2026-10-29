@@ -21,32 +21,43 @@ tiempo_total_min:
   max: 15
 ingredientes:
 - nombre: garbanzos cocidos
+  es_condimento: false
   cantidad: 400
   unidad: g
   nota: peso escurrido
 - nombre: tomates cherry
+  es_condimento: false
   cantidad: 150
   unidad: g
 - nombre: pepino
+  es_condimento: false
   cantidad: 150
   unidad: g
   nota: aproximadamente medio pepino mediano
 - nombre: mango
+  es_condimento: false
   cantidad: 150
   unidad: g
   nota: pelado y sin hueso; maduro pero firme
 - nombre: aguacate
+  es_condimento: false
   cantidad: 1
   unidad: unidad
   nota: mediano
 - nombre: aceite de oliva virgen extra
+  es_condimento: true
+  tipo_condimento: aceites_acidos_y_salsas
   cantidad: 1
   unidad: cucharada
 - nombre: zumo de limón
+  es_condimento: true
+  tipo_condimento: aceites_acidos_y_salsas
   cantidad: 1
   unidad: cucharada
   nota: ajustable al gusto
 - nombre: sal
+  es_condimento: true
+  tipo_condimento: sal_y_especias
   nota: al gusto
 indicaciones: Enjuaga los garbanzos bajo el grifo y déjalos escurrir bien. Lava los tomates y el pepino;
   corta los cherrys por la mitad y el pepino en dados de alrededor de 1 cm. Puedes dejarle la piel si
@@ -70,6 +81,12 @@ fuente:
 image_alt: Ensalada de garbanzos con mango, aguacate, pepino y tomates cherry
 image_credit: Imagen generada con IA para Casa Marisa
 image_note: Imagen ilustrativa generada con IA; no es una fotografía del plato preparado.
+ingredientes_basicos:
+- garbanzos
+- tomates cherry
+- pepino
+- mango
+- aguacate
 ---
 
 

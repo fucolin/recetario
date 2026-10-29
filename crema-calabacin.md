@@ -30,26 +30,37 @@ encabezado:
 presentacion: Una de las cremas clásicas de Marisa, con la piel del calabacín y un quesito por persona.
 ingredientes:
 - nombre: calabacín
+  es_condimento: false
   cantidad: 600
   unidad: g
 - nombre: ajo
+  es_condimento: true
+  tipo_condimento: aromaticos_frescos
   cantidad: 2
   unidad: dientes
 - nombre: quesitos
+  es_condimento: false
   cantidad: 2
   unidad: unidades
 - nombre: aceite de oliva
+  es_condimento: true
+  tipo_condimento: aceites_acidos_y_salsas
   cantidad: 1
   unidad: cucharada
   equivalencia_ml: 15
 - nombre: agua
+  es_condimento: false
   cantidad: 100
   unidad: ml
   nota: aproximadamente
 - nombre: pastilla de caldo vegetal
+  es_condimento: true
+  tipo_condimento: fondos_para_cocinar
   cantidad: 0.5
   unidad: unidad
 - nombre: pimienta
+  es_condimento: true
+  tipo_condimento: sal_y_especias
   opcional: true
   nota: al gusto
 pdf_ingredientes:
@@ -134,6 +145,9 @@ image_note: Representa calabacín con piel, triturado muy fino con quesitos, sin
 image_width: 1672
 image_height: 941
 pdf: https://fucolin.github.io/recetario/crema-calabacin.pdf
+ingredientes_basicos:
+- calabacín
+- quesitos
 ---
 
 # Crema de calabacín

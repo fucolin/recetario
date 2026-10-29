@@ -38,41 +38,51 @@
       "nombre": "pasta seca",
       "cantidad": 100,
       "unidad": "g",
-      "nota": "preferiblemente integral; codillos u otra pasta corta"
+      "nota": "preferiblemente integral; codillos u otra pasta corta",
+      "es_condimento": false
     },
     {
       "nombre": "gambas crudas peladas congeladas",
       "cantidad": 250,
       "unidad": "g",
-      "nota": "peso descongelado y escurrido"
+      "nota": "peso descongelado y escurrido",
+      "es_condimento": false
     },
     {
       "nombre": "ajo",
       "cantidad": 2,
-      "unidad": "dientes"
+      "unidad": "dientes",
+      "es_condimento": false
     },
     {
       "nombre": "aceite de oliva",
       "cantidad": 1,
       "unidad": "cucharada",
-      "equivalencia_ml": 15
+      "equivalencia_ml": 15,
+      "es_condimento": true,
+      "tipo_condimento": "aceites_acidos_y_salsas"
     },
     {
       "nombre": "guindilla pequeña",
       "cantidad": 1,
       "unidad": "unidad",
-      "opcional": true
+      "opcional": true,
+      "es_condimento": true,
+      "tipo_condimento": "sal_y_especias"
     },
     {
       "nombre": "sal",
-      "nota": "al gusto"
+      "nota": "al gusto",
+      "es_condimento": true,
+      "tipo_condimento": "sal_y_especias"
     },
     {
       "nombre": "agua de cocción de la pasta",
       "cantidad_min": 30,
       "cantidad_max": 60,
       "unidad": "ml",
-      "nota": "aproximadamente, según necesite"
+      "nota": "aproximadamente, según necesite",
+      "es_condimento": false
     }
   ],
   "pdf_ingredientes": [
@@ -161,5 +171,10 @@
   "image_note": "Pasta en cantidad moderada con predominio de gambas; sin hierbas ni guarniciones añadidas.",
   "image_width": 1672,
   "image_height": 941,
-  "pdf": "https://fucolin.github.io/recetario/gambas-ajillo-pasta.pdf"
+  "pdf": "https://fucolin.github.io/recetario/gambas-ajillo-pasta.pdf",
+  "ingredientes_basicos": [
+    "gambas",
+    "pasta",
+    "ajo"
+  ]
 }

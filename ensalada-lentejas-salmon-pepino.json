@@ -33,44 +33,56 @@
       "nombre": "lentejas cocidas",
       "cantidad": 300,
       "unidad": "g",
-      "nota": "peso escurrido; 1 bote"
+      "nota": "peso escurrido; 1 bote",
+      "es_condimento": false
     },
     {
       "nombre": "salmón ahumado",
       "cantidad": 100,
-      "unidad": "g"
+      "unidad": "g",
+      "es_condimento": false
     },
     {
       "nombre": "pepino",
       "cantidad": 0.5,
       "unidad": "unidad",
       "peso_aprox_g": 100,
-      "nota": "aproximadamente"
+      "nota": "aproximadamente",
+      "es_condimento": false
     },
     {
       "nombre": "yogur natural sin azúcar",
       "cantidad": 0.5,
       "unidad": "unidad",
       "peso_aprox_g": 60,
-      "nota": "unas 2 cucharadas"
+      "nota": "unas 2 cucharadas",
+      "es_condimento": false
     },
     {
       "nombre": "mostaza",
       "cantidad": 1,
-      "unidad": "cucharadita"
+      "unidad": "cucharadita",
+      "es_condimento": true,
+      "tipo_condimento": "aceites_acidos_y_salsas"
     },
     {
       "nombre": "zumo de limón",
       "cantidad": 1,
-      "unidad": "cucharadita"
+      "unidad": "cucharadita",
+      "es_condimento": true,
+      "tipo_condimento": "aceites_acidos_y_salsas"
     },
     {
       "nombre": "eneldo fresco",
-      "nota": "unas ramitas"
+      "nota": "unas ramitas",
+      "es_condimento": true,
+      "tipo_condimento": "hierbas_aromaticas"
     },
     {
       "nombre": "sal",
-      "opcional": true
+      "opcional": true,
+      "es_condimento": true,
+      "tipo_condimento": "sal_y_especias"
     }
   ],
   "indicaciones": "Prepara los ingredientes. Enjuaga las lentejas en un colador y déjalas escurrir bien. Lava el pepino y córtalo en dados pequeños; si tiene muchas semillas o una parte central muy acuosa, retírala. Corta el salmón en tiras y pica el eneldo.\n\nMezcla el aliño. Mezcla el medio yogur con la mostaza y el zumo de limón hasta obtener una salsa homogénea.\n\nJunta y sirve. Pon las lentejas, el pepino y el salmón en un bol. Añade el eneldo y el aliño y mezcla suavemente. Prueba antes de añadir sal.",
@@ -103,5 +115,11 @@
   "encabezado": {
     "titulo": "Ensalada de lentejas, salmón y pepino",
     "detalle": "Con aliño de yogur, mostaza y eneldo · 2 raciones · 10-15 min"
-  }
+  },
+  "ingredientes_basicos": [
+    "lentejas",
+    "salmón ahumado",
+    "pepino",
+    "yogur natural"
+  ]
 }

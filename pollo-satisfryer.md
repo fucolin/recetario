@@ -21,44 +21,60 @@ tiempo_total_min:
   max: 65
 ingredientes:
 - nombre: cuartos traseros de pollo
+  es_condimento: false
   cantidad: 2
   unidad: unidades
   nota: con hueso y piel
 - nombre: calabacín
+  es_condimento: false
   cantidad: 0.5
   unidad: unidad
   nota: mediano, unos 150 g
 - nombre: berenjena
+  es_condimento: false
   cantidad: 0.5
   unidad: unidad
   nota: pequeña, unos 150 g
 - nombre: cebolla
+  es_condimento: false
   cantidad: 1
   unidad: unidad
   nota: pequeña
 - nombre: pimiento verde
+  es_condimento: false
   cantidad: 0.5
   unidad: unidad
 - nombre: tomate
+  es_condimento: false
   cantidad: 1
   unidad: unidad
   nota: mediano
 - nombre: aceite de oliva virgen extra
+  es_condimento: true
+  tipo_condimento: aceites_acidos_y_salsas
   cantidad: 10
   unidad: ml
   nota: 2 cucharaditas en total, incluido el papel
 - nombre: vino blanco seco
+  es_condimento: true
+  tipo_condimento: fondos_para_cocinar
   cantidad: 30
   unidad: ml
   nota: 2 cucharadas
 - nombre: tomillo seco
+  es_condimento: true
+  tipo_condimento: hierbas_aromaticas
   cantidad: 0.5
   unidad: cucharadita
 - nombre: romero seco
+  es_condimento: true
+  tipo_condimento: hierbas_aromaticas
   cantidad: 0.5
   unidad: cucharadita
   nota: ligeramente desmenuzado
 - nombre: sal y pimienta negra
+  es_condimento: true
+  tipo_condimento: sal_y_especias
   nota: sal moderada; pimienta al gusto
 pdf_ingredientes:
 - 2 cuartos traseros de pollo, con hueso y piel
@@ -197,6 +213,28 @@ encabezado:
 image_alt: Cuartos traseros de pollo asados sobre calabacín, berenjena, cebolla, pimiento verde y tomate
 image_credit: Imagen generada con IA para Casa Marisa
 image_note: Imagen ilustrativa generada con IA; no es una fotografía del plato preparado.
+ingredientes_basicos:
+- pollo
+- calabacín
+- berenjena
+- cebolla
+- pimiento verde
+- tomate
+ingredientes_basicos_opciones:
+- tipo: alternativa
+  ingredientes:
+  - patata
+  sustituye:
+  - calabacín
+  - berenjena
+  nota: Sustituye ambas verduras y requiere la precocción indicada.
+- tipo: alternativa
+  ingredientes:
+  - boniato
+  sustituye:
+  - calabacín
+  - berenjena
+  nota: En lugar de patata; sustituye ambas verduras y requiere la precocción indicada.
 ---
 
 

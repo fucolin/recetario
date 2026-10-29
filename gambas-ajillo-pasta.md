@@ -33,27 +33,37 @@ presentacion: Receta de Marisa, con ajo y un toque de guindilla. En esta versió
   y la pasta acompaña.
 ingredientes:
 - nombre: pasta seca
+  es_condimento: false
   cantidad: 100
   unidad: g
   nota: preferiblemente integral; codillos u otra pasta corta
 - nombre: gambas crudas peladas congeladas
+  es_condimento: false
   cantidad: 250
   unidad: g
   nota: peso descongelado y escurrido
 - nombre: ajo
+  es_condimento: false
   cantidad: 2
   unidad: dientes
 - nombre: aceite de oliva
+  es_condimento: true
+  tipo_condimento: aceites_acidos_y_salsas
   cantidad: 1
   unidad: cucharada
   equivalencia_ml: 15
 - nombre: guindilla pequeña
+  es_condimento: true
+  tipo_condimento: sal_y_especias
   cantidad: 1
   unidad: unidad
   opcional: true
 - nombre: sal
+  es_condimento: true
+  tipo_condimento: sal_y_especias
   nota: al gusto
 - nombre: agua de cocción de la pasta
+  es_condimento: false
   cantidad_min: 30
   cantidad_max: 60
   unidad: ml
@@ -149,6 +159,10 @@ image_note: Pasta en cantidad moderada con predominio de gambas; sin hierbas ni 
 image_width: 1672
 image_height: 941
 pdf: https://fucolin.github.io/recetario/gambas-ajillo-pasta.pdf
+ingredientes_basicos:
+- gambas
+- pasta
+- ajo
 ---
 
 # Gambas al ajillo con pasta

@@ -27,61 +27,74 @@
       "cantidad": 1,
       "unidad": "lata",
       "nota": "410 g de contenido total, incluida la salsa; ya llevan cebolla, pimientos, aceite, sal y especias",
-      "producto_preferido": "frijoles-negros-guisados-gusto-pan"
+      "producto_preferido": "frijoles-negros-guisados-gusto-pan",
+      "es_condimento": false
     },
     {
       "nombre": "quinoa",
       "cantidad": 50,
       "unidad": "g",
-      "nota": "en seco"
+      "nota": "en seco",
+      "es_condimento": false
     },
     {
       "nombre": "edamame desgranado",
       "cantidad_min": 80,
       "cantidad_max": 100,
-      "unidad": "g"
+      "unidad": "g",
+      "es_condimento": false
     },
     {
       "nombre": "champiñones",
       "cantidad": 100,
-      "unidad": "g"
+      "unidad": "g",
+      "es_condimento": false
     },
     {
       "nombre": "aguacate",
       "cantidad": 1,
       "unidad": "unidad",
-      "nota": "mediano"
+      "nota": "mediano",
+      "es_condimento": false
     },
     {
       "nombre": "tortillas de trigo",
       "cantidad": 2,
       "unidad": "unidades",
-      "nota": "grandes, de unos 30 cm; integrales si te gustan. Con tortillas más pequeñas, repartir el relleno entre 4"
+      "nota": "grandes, de unos 30 cm; integrales si te gustan. Con tortillas más pequeñas, repartir el relleno entre 4",
+      "es_condimento": false
     },
     {
       "nombre": "aceite de oliva virgen extra",
       "cantidad": 1,
       "unidad": "cucharadita",
-      "nota": "para saltear los champiñones"
+      "nota": "para saltear los champiñones",
+      "es_condimento": true,
+      "tipo_condimento": "aceites_acidos_y_salsas"
     },
     {
       "nombre": "zumo de lima",
       "cantidad_min": 1,
       "cantidad_max": 2,
       "unidad": "cucharaditas",
-      "nota": "ajustable al gusto"
+      "nota": "ajustable al gusto",
+      "es_condimento": true,
+      "tipo_condimento": "aceites_acidos_y_salsas"
     },
     {
       "nombre": "comino molido",
       "nota": "una pizca, solo después de probar",
-      "opcional": true
+      "opcional": true,
+      "es_condimento": true,
+      "tipo_condimento": "sal_y_especias"
     },
     {
       "nombre": "pico de gallo",
       "cantidad": 2,
       "unidad": "cucharadas",
       "nota": "bien escurrido",
-      "opcional": true
+      "opcional": true,
+      "es_condimento": false
     }
   ],
   "pdf_ingredientes": [
@@ -205,6 +218,23 @@
       "orden": 6,
       "titulo": "Deja el cierre debajo",
       "instrucciones": "Termina de enrollar y apoya el burrito sobre el cierre para que no se abra."
+    }
+  ],
+  "ingredientes_basicos": [
+    "frijoles negros",
+    "quinoa",
+    "edamame",
+    "champiñones",
+    "aguacate",
+    "tortillas de trigo"
+  ],
+  "ingredientes_basicos_opciones": [
+    {
+      "tipo": "opcional",
+      "ingredientes": [
+        "pico de gallo"
+      ],
+      "nota": "Relleno opcional, bien escurrido."
     }
   ]
 }

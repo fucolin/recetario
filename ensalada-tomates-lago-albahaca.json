@@ -28,34 +28,43 @@
       "nombre": "tomates",
       "cantidad": 500,
       "unidad": "g",
-      "nota": "sabrosos; combinar variedades si apetece"
+      "nota": "sabrosos; combinar variedades si apetece",
+      "es_condimento": false
     },
     {
       "nombre": "hojas de albahaca fresca",
       "cantidad": 15,
       "unidad": "g",
-      "nota": "sin los tallos gruesos"
+      "nota": "sin los tallos gruesos",
+      "es_condimento": false
     },
     {
       "nombre": "aceite de oliva virgen extra",
       "cantidad": 30,
       "unidad": "ml",
-      "nota": "2 cucharadas"
+      "nota": "2 cucharadas",
+      "es_condimento": true,
+      "tipo_condimento": "aceites_acidos_y_salsas"
     },
     {
       "nombre": "zumo de limón",
       "cantidad": 10,
       "unidad": "ml",
-      "nota": "2 cucharaditas; ajustar al gusto"
+      "nota": "2 cucharaditas; ajustar al gusto",
+      "es_condimento": true,
+      "tipo_condimento": "aceites_acidos_y_salsas"
     },
     {
       "nombre": "rúcula o brotes tiernos",
       "cantidad": 20,
-      "unidad": "g"
+      "unidad": "g",
+      "es_condimento": false
     },
     {
       "nombre": "sal",
-      "nota": "al gusto"
+      "nota": "al gusto",
+      "es_condimento": true,
+      "tipo_condimento": "sal_y_especias"
     },
     {
       "nombre": "agua fría",
@@ -63,7 +72,8 @@
       "cantidad_max": 2,
       "unidad": "cucharaditas",
       "nota": "solo si hace falta para triturar",
-      "opcional": true
+      "opcional": true,
+      "es_condimento": false
     }
   ],
   "indicaciones": "Lava los tomates y sécalos. Corta los grandes en gajos o trozos y los cherry por la mitad. Si desprenden mucho líquido, déjalo en la tabla para que no diluya el aliño.\n\nLava y seca la albahaca. Tritúrala con el aceite, el limón y una pizca de sal en un recipiente estrecho, mediante pulsaciones breves. Si las cuchillas no alcanzan bien la mezcla, añade un poquito de agua fría. Prueba antes de incorporar más limón: buscamos que destaque la albahaca.\n\nExtiende el aliño en una fuente pequeña o reparte entre dos platos. Coloca encima los tomates y termina con la rúcula. Sala ligeramente los tomates justo antes de servir y mezcla con el aliño al comer.",
@@ -89,5 +99,22 @@
   "fecha_actualizacion": "2026-10-15",
   "image_alt": "Tomates variados en gajos sobre aliño verde de albahaca, con rúcula",
   "image_credit": "Imagen generada con IA para Casa Marisa",
-  "image_note": "Imagen ilustrativa generada con IA; no es una fotografía del plato preparado."
+  "image_note": "Imagen ilustrativa generada con IA; no es una fotografía del plato preparado.",
+  "ingredientes_basicos": [
+    "tomate",
+    "albahaca",
+    "rúcula"
+  ],
+  "ingredientes_basicos_opciones": [
+    {
+      "tipo": "alternativa",
+      "ingredientes": [
+        "brotes tiernos"
+      ],
+      "sustituye": [
+        "rúcula"
+      ],
+      "nota": "Alternativa de hojas indicada en la lista de ingredientes."
+    }
+  ]
 }

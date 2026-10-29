@@ -25,38 +25,54 @@ tiempo_total_min:
 tiempo_nota: Estimación orientativa para esta adaptación; el libro indica 15 minutos para dos personas.
 ingredientes:
 - nombre: champiñones portobello
+  es_condimento: false
   cantidad: 250
   unidad: g
 - nombre: chorizo
+  es_condimento: false
   cantidad: 10
   unidad: g
   grupo_alternativa: sabor_ahumado
   alternativa:
     nombre: pimentón ahumado
+    es_condimento: true
+    tipo_condimento: sal_y_especias
     cantidad: null
     unidad: null
     nota: una pizca; en lugar del chorizo
 - nombre: perejil de hoja plana
+  es_condimento: true
+  tipo_condimento: hierbas_aromaticas
   cantidad: 15
   unidad: g
 - nombre: alubias blancas cocidas en conserva
+  es_condimento: false
   cantidad: 400
   unidad: g
   nota: 1 lata; peso neto con líquido, no escurrido
 - nombre: tomates cherry maduros
+  es_condimento: false
   cantidad: 100
   unidad: g
 - nombre: huevos
+  es_condimento: false
   cantidad: 4
   unidad: unidades
 - nombre: queso feta
+  es_condimento: false
   cantidad: 20
   unidad: g
 - nombre: aceite de oliva
+  es_condimento: true
+  tipo_condimento: aceites_acidos_y_salsas
   nota: un chorrito
 - nombre: sal y pimienta negra
+  es_condimento: true
+  tipo_condimento: sal_y_especias
   nota: al gusto
 - nombre: aceite de oliva virgen extra
+  es_condimento: true
+  tipo_condimento: aceites_acidos_y_salsas
   nota: un hilo, opcional
   opcional: true
 pdf_ingredientes:
@@ -142,6 +158,12 @@ fecha_actualizacion: '2026-10-17'
 encabezado:
   titulo: Shakshuka de alubias y portobello
   detalle: Huevos, tomates cherry y feta · en una sartén · 2 raciones · 15-20 min orientativos
+ingredientes_basicos:
+- champiñones portobello
+- alubias blancas
+- tomates cherry
+- huevos
+- queso feta
 ---
 
 # Shakshuka de alubias y portobello

@@ -27,31 +27,43 @@ tiempo_total_min:
   max: 15
 ingredientes:
 - nombre: lentejas cocidas
+  es_condimento: false
   cantidad: 300
   unidad: g
   nota: peso escurrido; 1 bote
 - nombre: salmón ahumado
+  es_condimento: false
   cantidad: 100
   unidad: g
 - nombre: pepino
+  es_condimento: false
   cantidad: 0.5
   unidad: unidad
   peso_aprox_g: 100
   nota: aproximadamente
 - nombre: yogur natural sin azúcar
+  es_condimento: false
   cantidad: 0.5
   unidad: unidad
   peso_aprox_g: 60
   nota: unas 2 cucharadas
 - nombre: mostaza
+  es_condimento: true
+  tipo_condimento: aceites_acidos_y_salsas
   cantidad: 1
   unidad: cucharadita
 - nombre: zumo de limón
+  es_condimento: true
+  tipo_condimento: aceites_acidos_y_salsas
   cantidad: 1
   unidad: cucharadita
 - nombre: eneldo fresco
+  es_condimento: true
+  tipo_condimento: hierbas_aromaticas
   nota: unas ramitas
 - nombre: sal
+  es_condimento: true
+  tipo_condimento: sal_y_especias
   opcional: true
 indicaciones: 'Prepara los ingredientes. Enjuaga las lentejas en un colador y déjalas escurrir bien. Lava el pepino
   y córtalo en dados pequeños; si tiene muchas semillas o una parte central muy acuosa, retírala. Corta el salmón
@@ -87,6 +99,11 @@ fecha_actualizacion: '2026-10-17'
 encabezado:
   titulo: Ensalada de lentejas, salmón y pepino
   detalle: Con aliño de yogur, mostaza y eneldo · 2 raciones · 10-15 min
+ingredientes_basicos:
+- lentejas
+- salmón ahumado
+- pepino
+- yogur natural
 ---
 
 # Ensalada de lentejas, salmón y pepino

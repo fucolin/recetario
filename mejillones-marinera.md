@@ -18,14 +18,14 @@ encabezado:
   titulo: Mejillones a la marinera
   detalle: En estuche de vapor al microondas · 2 raciones · 20 min
 ingredientes:
-  - {nombre: mejillones crudos limpios al vacío, cantidad: 500, unidad: g, nota: con concha, alternativa: mejillones frescos con concha}
-  - {nombre: tomate triturado, cantidad: 100, unidad: g, nota: sin sal añadida}
-  - {nombre: cebolla, cantidad: 100, unidad: g}
-  - {nombre: pimiento rojo, cantidad: 100, unidad: g}
-  - {nombre: vino blanco, cantidad: 30, unidad: ml}
-  - {nombre: aceite de oliva, cantidad: 1, unidad: cucharada, equivalencia_ml: 15}
-  - {nombre: pimienta, nota: una pizca}
-  - {nombre: sal, nota: solo si hace falta al final}
+  - {nombre: mejillones crudos limpios al vacío, cantidad: 500, unidad: g, nota: con concha, alternativa: mejillones frescos con concha, es_condimento: false}
+  - {nombre: tomate triturado, cantidad: 100, unidad: g, nota: sin sal añadida, es_condimento: false}
+  - {nombre: cebolla, cantidad: 100, unidad: g, es_condimento: true, tipo_condimento: aromaticos_frescos}
+  - {nombre: pimiento rojo, cantidad: 100, unidad: g, es_condimento: false}
+  - {nombre: vino blanco, cantidad: 30, unidad: ml, es_condimento: true, tipo_condimento: fondos_para_cocinar}
+  - {nombre: aceite de oliva, cantidad: 1, unidad: cucharada, equivalencia_ml: 15, es_condimento: true, tipo_condimento: aceites_acidos_y_salsas}
+  - {nombre: pimienta, nota: una pizca, es_condimento: true, tipo_condimento: sal_y_especias}
+  - {nombre: sal, nota: solo si hace falta al final, es_condimento: true, tipo_condimento: sal_y_especias}
 pdf_ingredientes:
   - 500 g de mejillones crudos limpios al vacío, con concha
   - 100 g de tomate triturado sin sal añadida
@@ -95,6 +95,10 @@ image_note: Imagen ilustrativa generada con IA, ajustada a los ingredientes de l
 image_width: 1672
 image_height: 941
 pdf: https://fucolin.github.io/recetario/mejillones-marinera.pdf
+ingredientes_basicos:
+- mejillones
+- tomate triturado
+- pimiento rojo
 ---
 
 # Mejillones a la marinera

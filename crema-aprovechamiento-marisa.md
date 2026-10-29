@@ -27,14 +27,18 @@ tiempo_nota: El tiempo de elaboración es orientativo. No incluye la espera que 
   de Thermomix antes de triturar una preparación caliente; consulta su manual.
 ingredientes:
 - nombre: puerro
+  es_condimento: false
   cantidad: 200
   unidad: g
   nota: limpio
 - nombre: aceite de oliva
+  es_condimento: true
+  tipo_condimento: aceites_acidos_y_salsas
   cantidad: 40
   unidad: g
   nota: para sofreír el puerro
 - nombre: verduras variadas
+  es_condimento: false
   cantidad_min: 500
   cantidad_max: 600
   unidad: g
@@ -45,6 +49,8 @@ ingredientes:
   unidad: g
   nota: empezar con 500 g y ajustar la textura al final
 - nombre: sal
+  es_condimento: true
+  tipo_condimento: sal_y_especias
   nota: al gusto; probar antes si el caldo ya lleva sal
 pdf_ingredientes:
 - 200 g puerro limpio
@@ -162,6 +168,29 @@ image_alt: Crema de verduras suave y anaranjada servida en un cuenco
 image_credit: Imagen generada con IA para Casa Marisa
 image_note: Imagen ilustrativa generada con IA; no es una fotografía del plato preparado. Muestra una
   crema con la mezcla de verduras indicada en Claves.
+ingredientes_basicos:
+- puerro
+- verduras variadas
+ingredientes_basicos_opciones:
+- tipo: alternativa
+  ingredientes:
+  - zanahoria
+  - calabaza
+  - calabacín
+  - boniato
+  sustituye:
+  - verduras variadas
+  nota: Ejemplo de mezcla de Marisa, no una composición fija ni ingredientes adicionales.
+condimentos_opciones:
+- origen: ingredientes[3].nombre
+  nombre: agua
+  es_condimento: false
+  condicion: Si se elige agua, no es condimento.
+- origen: ingredientes[3].nombre
+  nombre: caldo de pollo
+  es_condimento: true
+  tipo_condimento: fondos_para_cocinar
+  condicion: Solo si se elige caldo en lugar de agua.
 ---
 
 

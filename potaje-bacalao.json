@@ -30,55 +30,71 @@
       "nombre": "garbanzos cocidos",
       "cantidad": 400,
       "unidad": "g",
-      "nota": "peso escurrido"
+      "nota": "peso escurrido",
+      "es_condimento": false
     },
     {
       "nombre": "bacalao desalado sin espinas",
       "cantidad": 200,
-      "unidad": "g"
+      "unidad": "g",
+      "es_condimento": false
     },
     {
       "nombre": "espinacas frescas",
       "cantidad": 200,
-      "unidad": "g"
+      "unidad": "g",
+      "es_condimento": false
     },
     {
       "nombre": "cebolla",
       "cantidad": 150,
-      "unidad": "g"
+      "unidad": "g",
+      "es_condimento": true,
+      "tipo_condimento": "aromaticos_frescos"
     },
     {
       "nombre": "ajo",
       "cantidad": 2,
-      "unidad": "dientes"
+      "unidad": "dientes",
+      "es_condimento": true,
+      "tipo_condimento": "aromaticos_frescos"
     },
     {
       "nombre": "aceite de oliva virgen extra",
       "cantidad": 10,
-      "unidad": "g"
+      "unidad": "g",
+      "es_condimento": true,
+      "tipo_condimento": "aceites_acidos_y_salsas"
     },
     {
       "nombre": "pimentón dulce",
       "cantidad": 0.5,
-      "unidad": "cucharadita"
+      "unidad": "cucharadita",
+      "es_condimento": true,
+      "tipo_condimento": "sal_y_especias"
     },
     {
       "nombre": "laurel",
       "cantidad": 1,
-      "unidad": "hoja"
+      "unidad": "hoja",
+      "es_condimento": true,
+      "tipo_condimento": "hierbas_aromaticas"
     },
     {
       "nombre": "agua",
       "cantidad": 350,
       "unidad": "ml",
-      "cantidad_max": 450
+      "cantidad_max": 450,
+      "es_condimento": false
     },
     {
       "nombre": "sal",
       "cantidad": null,
       "unidad": null,
       "opcional": true,
-      "nota": "solo si hace falta"
+      "nota": "solo si hace falta",
+      "es_condimento": true,
+      "tipo_condimento": "sal_y_especias"
     }
   ],
   "pdf_ingredientes": [
@@ -156,5 +172,10 @@
   "encabezado": {
     "titulo": "Potaje de bacalao",
     "detalle": "Con garbanzos y espinacas · a fuego lento · 2 raciones · 35-40 min"
-  }
+  },
+  "ingredientes_basicos": [
+    "garbanzos",
+    "bacalao",
+    "espinacas"
+  ]
 }

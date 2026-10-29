@@ -26,68 +26,90 @@
       "nombre": "lentejas cocidas en conserva",
       "cantidad": 400,
       "unidad": "g",
-      "nota": "peso escurrido"
+      "nota": "peso escurrido",
+      "es_condimento": false
     },
     {
       "nombre": "calabaza pelada",
       "cantidad": 350,
-      "unidad": "g"
+      "unidad": "g",
+      "es_condimento": false
     },
     {
       "nombre": "espinacas frescas",
       "unidad": "g",
       "cantidad_min": 100,
-      "cantidad_max": 125
+      "cantidad_max": 125,
+      "es_condimento": false
     },
     {
       "nombre": "cebolla",
       "cantidad": 1,
       "unidad": "unidad",
-      "nota": "mediana"
+      "nota": "mediana",
+      "es_condimento": true,
+      "tipo_condimento": "aromaticos_frescos"
     },
     {
       "nombre": "ajo",
       "cantidad": 2,
-      "unidad": "dientes"
+      "unidad": "dientes",
+      "es_condimento": true,
+      "tipo_condimento": "aromaticos_frescos"
     },
     {
       "nombre": "jengibre fresco",
       "cantidad": 10,
-      "unidad": "g"
+      "unidad": "g",
+      "es_condimento": true,
+      "tipo_condimento": "aromaticos_frescos"
     },
     {
       "nombre": "leche de coco",
       "cantidad": 150,
-      "unidad": "ml"
+      "unidad": "ml",
+      "es_condimento": false
     },
     {
       "nombre": "caldo de verduras",
       "cantidad": 200,
       "unidad": "ml",
-      "nota": "más un poco extra si hace falta"
+      "nota": "más un poco extra si hace falta",
+      "es_condimento": true,
+      "tipo_condimento": "fondos_para_cocinar"
     },
     {
       "nombre": "curry en polvo",
       "cantidad": 1,
-      "unidad": "cucharadita"
+      "unidad": "cucharadita",
+      "es_condimento": true,
+      "tipo_condimento": "sal_y_especias"
     },
     {
       "nombre": "comino molido",
       "cantidad": 0.5,
-      "unidad": "cucharadita"
+      "unidad": "cucharadita",
+      "es_condimento": true,
+      "tipo_condimento": "sal_y_especias"
     },
     {
       "nombre": "aceite de oliva virgen extra",
       "cantidad": 2,
-      "unidad": "cucharadas"
+      "unidad": "cucharadas",
+      "es_condimento": true,
+      "tipo_condimento": "aceites_acidos_y_salsas"
     },
     {
       "nombre": "sal y pimienta negra",
-      "nota": "al gusto"
+      "nota": "al gusto",
+      "es_condimento": true,
+      "tipo_condimento": "sal_y_especias"
     },
     {
       "nombre": "zumo de limón",
-      "nota": "unas gotas al final"
+      "nota": "unas gotas al final",
+      "es_condimento": true,
+      "tipo_condimento": "aceites_acidos_y_salsas"
     }
   ],
   "pdf_ingredientes": [
@@ -188,5 +210,11 @@
   },
   "image_alt": "Lentejas cremosas con dados de calabaza y espinacas en salsa de coco y curry",
   "image_credit": "Imagen generada con IA para Casa Marisa",
-  "image_note": "Imagen ilustrativa generada con IA; no es una fotografía del plato preparado."
+  "image_note": "Imagen ilustrativa generada con IA; no es una fotografía del plato preparado.",
+  "ingredientes_basicos": [
+    "lentejas",
+    "calabaza",
+    "espinacas",
+    "leche de coco"
+  ]
 }

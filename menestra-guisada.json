@@ -36,36 +36,48 @@
     {
       "nombre": "menestra congelada",
       "cantidad": 500,
-      "unidad": "g"
+      "unidad": "g",
+      "es_condimento": false
     },
     {
       "nombre": "cebolla",
       "cantidad": 0.5,
-      "unidad": "unidad"
+      "unidad": "unidad",
+      "es_condimento": true,
+      "tipo_condimento": "aromaticos_frescos"
     },
     {
       "nombre": "ajo",
       "cantidad": 1,
-      "unidad": "diente"
+      "unidad": "diente",
+      "es_condimento": true,
+      "tipo_condimento": "aromaticos_frescos"
     },
     {
       "nombre": "aceite de oliva",
       "cantidad": 1,
-      "unidad": "cucharada"
+      "unidad": "cucharada",
+      "es_condimento": true,
+      "tipo_condimento": "aceites_acidos_y_salsas"
     },
     {
       "nombre": "agua",
       "cantidad": 50,
       "unidad": "ml",
-      "nota": "aproximadamente; ajustar si hace falta"
+      "nota": "aproximadamente; ajustar si hace falta",
+      "es_condimento": false
     },
     {
       "nombre": "sal",
-      "nota": "al gusto"
+      "nota": "al gusto",
+      "es_condimento": true,
+      "tipo_condimento": "sal_y_especias"
     },
     {
       "nombre": "pimienta",
-      "nota": "al gusto"
+      "nota": "al gusto",
+      "es_condimento": true,
+      "tipo_condimento": "sal_y_especias"
     }
   ],
   "pdf_ingredientes": [
@@ -188,27 +200,33 @@
       "nombre": "jamón",
       "formato": "tacos",
       "opcional": true,
-      "alternativa": "carne"
+      "alternativa": "carne",
+      "es_condimento": false
     },
     {
       "nombre": "carne",
       "formato": "trocitos",
       "opcional": true,
-      "alternativa": "jamón"
+      "alternativa": "jamón",
+      "es_condimento": false
     },
     {
       "nombre": "vino",
       "cantidad_texto": "un poco",
-      "opcional": true
+      "opcional": true,
+      "es_condimento": true,
+      "tipo_condimento": "fondos_para_cocinar"
     },
     {
       "nombre": "huevo cocido",
-      "opcional": true
+      "opcional": true,
+      "es_condimento": false
     },
     {
       "nombre": "bonito en conserva",
       "opcional": true,
-      "condicion": "si no lleva carne ni jamón"
+      "condicion": "si no lleva carne ni jamón",
+      "es_condimento": false
     }
   ],
   "image": "https://fucolin.github.io/recetario/images/menestra-guisada-ilustracion-v2.jpg",
@@ -243,5 +261,38 @@
       "Para dar más sabor: añadir al sofrito tacos de jamón o trocitos de carne. Y a continuación, vino.",
       "Para acompañar: huevo cocido y, si no lleva carne o jamón, bonito en conserva."
     ]
-  }
+  },
+  "ingredientes_basicos": [
+    "menestra de verduras"
+  ],
+  "ingredientes_basicos_opciones": [
+    {
+      "tipo": "opcional",
+      "ingredientes": [
+        "jamón"
+      ],
+      "nota": "En tacos, en lugar de carne; opción del sofrito."
+    },
+    {
+      "tipo": "opcional",
+      "ingredientes": [
+        "carne"
+      ],
+      "nota": "En trocitos, en lugar de jamón; opción del sofrito."
+    },
+    {
+      "tipo": "opcional",
+      "ingredientes": [
+        "huevos"
+      ],
+      "nota": "Cocidos, para servir como plato principal."
+    },
+    {
+      "tipo": "opcional",
+      "ingredientes": [
+        "bonito en conserva"
+      ],
+      "nota": "Para servir como plato principal, solo si no lleva carne ni jamón."
+    }
+  ]
 }

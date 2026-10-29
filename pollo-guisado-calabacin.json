@@ -25,65 +25,85 @@
       "unidad": "g",
       "nota": "preferiblemente contramuslos deshuesados",
       "cantidad_min": 500,
-      "cantidad_max": 600
+      "cantidad_max": 600,
+      "es_condimento": false
     },
     {
       "nombre": "cebolla",
       "cantidad": 1,
       "unidad": "unidad",
-      "nota": "mediana, unos 150 g"
+      "nota": "mediana, unos 150 g",
+      "es_condimento": true,
+      "tipo_condimento": "aromaticos_frescos"
     },
     {
       "nombre": "zanahorias",
       "cantidad": 2,
       "unidad": "unidades",
-      "nota": "unos 150 g"
+      "nota": "unos 150 g",
+      "es_condimento": false
     },
     {
       "nombre": "calabacín",
       "cantidad": 1,
       "unidad": "unidad",
-      "nota": "unos 250 g"
+      "nota": "unos 250 g",
+      "es_condimento": false
     },
     {
       "nombre": "tomate triturado",
       "cantidad": 300,
-      "unidad": "g"
+      "unidad": "g",
+      "es_condimento": false
     },
     {
       "nombre": "ajo",
       "cantidad": 2,
-      "unidad": "dientes"
+      "unidad": "dientes",
+      "es_condimento": true,
+      "tipo_condimento": "aromaticos_frescos"
     },
     {
       "nombre": "vino blanco seco",
       "unidad": "ml",
       "cantidad_min": 50,
-      "cantidad_max": 75
+      "cantidad_max": 75,
+      "es_condimento": true,
+      "tipo_condimento": "fondos_para_cocinar"
     },
     {
       "nombre": "aceite de oliva virgen extra",
       "unidad": "cucharadas",
       "cantidad_min": 2,
-      "cantidad_max": 3
+      "cantidad_max": 3,
+      "es_condimento": true,
+      "tipo_condimento": "aceites_acidos_y_salsas"
     },
     {
       "nombre": "pimentón dulce",
       "cantidad": 0.5,
-      "unidad": "cucharadita"
+      "unidad": "cucharadita",
+      "es_condimento": true,
+      "tipo_condimento": "sal_y_especias"
     },
     {
       "nombre": "laurel",
       "cantidad": 1,
-      "unidad": "hoja"
+      "unidad": "hoja",
+      "es_condimento": true,
+      "tipo_condimento": "hierbas_aromaticas"
     },
     {
       "nombre": "tomillo",
-      "nota": "opcional"
+      "nota": "opcional",
+      "es_condimento": true,
+      "tipo_condimento": "hierbas_aromaticas"
     },
     {
       "nombre": "sal y pimienta negra",
-      "nota": "al gusto"
+      "nota": "al gusto",
+      "es_condimento": true,
+      "tipo_condimento": "sal_y_especias"
     },
     {
       "nombre": "agua o caldo de pollo",
@@ -189,6 +209,27 @@
     {
       "titulo": "Cocotte y horno",
       "pagina": "pollo-guisado-calabacin-cocotte.html"
+    }
+  ],
+  "ingredientes_basicos": [
+    "pollo",
+    "zanahoria",
+    "calabacín",
+    "tomate triturado"
+  ],
+  "condimentos_opciones": [
+    {
+      "origen": "ingredientes[12].nombre",
+      "nombre": "agua",
+      "es_condimento": false,
+      "condicion": "Si se elige agua, no es condimento."
+    },
+    {
+      "origen": "ingredientes[12].nombre",
+      "nombre": "caldo de pollo",
+      "es_condimento": true,
+      "tipo_condimento": "fondos_para_cocinar",
+      "condicion": "Solo si se elige caldo en lugar de agua."
     }
   ]
 }

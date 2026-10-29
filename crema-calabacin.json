@@ -36,39 +36,50 @@
     {
       "nombre": "calabacín",
       "cantidad": 600,
-      "unidad": "g"
+      "unidad": "g",
+      "es_condimento": false
     },
     {
       "nombre": "ajo",
       "cantidad": 2,
-      "unidad": "dientes"
+      "unidad": "dientes",
+      "es_condimento": true,
+      "tipo_condimento": "aromaticos_frescos"
     },
     {
       "nombre": "quesitos",
       "cantidad": 2,
-      "unidad": "unidades"
+      "unidad": "unidades",
+      "es_condimento": false
     },
     {
       "nombre": "aceite de oliva",
       "cantidad": 1,
       "unidad": "cucharada",
-      "equivalencia_ml": 15
+      "equivalencia_ml": 15,
+      "es_condimento": true,
+      "tipo_condimento": "aceites_acidos_y_salsas"
     },
     {
       "nombre": "agua",
       "cantidad": 100,
       "unidad": "ml",
-      "nota": "aproximadamente"
+      "nota": "aproximadamente",
+      "es_condimento": false
     },
     {
       "nombre": "pastilla de caldo vegetal",
       "cantidad": 0.5,
-      "unidad": "unidad"
+      "unidad": "unidad",
+      "es_condimento": true,
+      "tipo_condimento": "fondos_para_cocinar"
     },
     {
       "nombre": "pimienta",
       "opcional": true,
-      "nota": "al gusto"
+      "nota": "al gusto",
+      "es_condimento": true,
+      "tipo_condimento": "sal_y_especias"
     }
   ],
   "pdf_ingredientes": [
@@ -152,5 +163,9 @@
   "image_note": "Representa calabacín con piel, triturado muy fino con quesitos, sin adornos añadidos.",
   "image_width": 1672,
   "image_height": 941,
-  "pdf": "https://fucolin.github.io/recetario/crema-calabacin.pdf"
+  "pdf": "https://fucolin.github.io/recetario/crema-calabacin.pdf",
+  "ingredientes_basicos": [
+    "calabacín",
+    "quesitos"
+  ]
 }

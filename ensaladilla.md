@@ -27,45 +27,60 @@ tiempo_total_min:
 tiempo_nota: Sin incluir el enfriado en nevera.
 ingredientes:
 - nombre: mezcla de verduras congeladas para ensaladilla
+  es_condimento: false
   cantidad: 400
   unidad: g
   nota: revisar si incluye patata; solo si lo especifica en las pautas nutricionales
 - nombre: atún al natural
+  es_condimento: false
   cantidad: 80
   unidad: g
   nota: peso escurrido
 - nombre: huevo
+  es_condimento: false
   cantidad: 2
   unidad: unidades
 - nombre: queso fresco batido natural
+  es_condimento: false
   cantidad: 60
   unidad: g
 - nombre: aceite de oliva virgen extra
+  es_condimento: true
+  tipo_condimento: aceites_acidos_y_salsas
   cantidad: 10
   unidad: g
 - nombre: zumo de limón o vinagre
+  es_condimento: true
+  tipo_condimento: aceites_acidos_y_salsas
   cantidad: 10
   unidad: ml
   cantidad_max: 15
 - nombre: pepinillos
+  es_condimento: false
   cantidad: 20
   unidad: g
   opcional: true
 - nombre: pimiento de piquillo o asado
+  es_condimento: false
   cantidad: 40
   unidad: g
   opcional: true
 - nombre: sal
+  es_condimento: true
+  tipo_condimento: sal_y_especias
   opcional: true
   nota: solo si hace falta
 alternativas_verduras:
 - nombre: judías verdes
+  es_condimento: false
   cantidad: 150
   unidad: g
 - nombre: zanahoria
+  es_condimento: false
   cantidad: 150
   unidad: g
 - nombre: guisantes
+  es_condimento: false
   cantidad: 100
   unidad: g
 patata_condicion: solo si lo especifica en las pautas nutricionales
@@ -140,6 +155,32 @@ fecha_actualizacion: '2026-10-17'
 encabezado:
   titulo: Ensaladilla
   detalle: Con salsa de huevo cocido · 2 raciones · 35-40 min + enfriado
+ingredientes_basicos:
+- mezcla de verduras para ensaladilla
+- atún al natural
+- huevos
+- queso fresco batido
+ingredientes_basicos_opciones:
+- tipo: alternativa
+  ingredientes:
+  - judías verdes
+  - zanahoria
+  - guisantes
+  sustituye:
+  - mezcla de verduras para ensaladilla
+  nota: Versión con verduras frescas indicada en la elaboración.
+- tipo: opcional
+  ingredientes:
+  - patata
+  nota: Solo si lo especifican las pautas nutricionales; forma parte de la cantidad de verduras, no se añade aparte.
+- tipo: opcional
+  ingredientes:
+  - pepinillos
+  nota: Añadido opcional.
+- tipo: opcional
+  ingredientes:
+  - pimiento de piquillo o asado
+  nota: Añadido opcional; elegir uno de los formatos indicados.
 ---
 
 # Ensaladilla

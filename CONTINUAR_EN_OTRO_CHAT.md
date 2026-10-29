@@ -1,5 +1,19 @@
 # Continuar en otro chat · Casa Marisa
 
+## 29/10/2026 · Básicos y condimentos · publicación autorizada mediante ARG
+
+Ampliación autorizada de la preparación de ingredientes básicos: añadidos `es_condimento` y `tipo_condimento` en las 31 fichas YAML/JSON, con los cinco grupos de la guía. Valoración por receta, conservando básicos, cantidades, opcionales, sustituciones y originales. Ajo del ajillo, cebolla asada protagonista y albahaca del lago no son condimentos. 272 objetos de ingredientes/opciones clasificados, 134 como condimento; 16 referencias textuales adicionales para aderezos y elecciones agua/caldo, sin alterar el formato previo. Agua nunca clasificada como condimento.
+
+El usuario autoriza publicar con ARG la revisión v2 mostrada y aprobada, sobre el commit de partida `96bd033b32881532311008909d81f7d87f2e515f`. Las selecciones de básicos v1 se conservan. Lista explícita: los 31 maestros Markdown/YAML y sus 31 JSON completos, `GUIA_DE_TRABAJO.md`, `docs/REFERENCIA_DE_TRABAJO.md` y este resumen: 65 archivos. No se publican revisiones, informes, parches, ZIP ni temporales. Los registros anteriores de preparado/sin publicar quedan históricos para este lote.
+
+Verificados YAML/JSON, tipos, referencias y condiciones; cuerpos Markdown, datos culinarios y originales anteriores íntegros; selección básica aprobada conservada. Exportador probado en commit objeto aislado: 31 disponibles y 15 próximas, contrato previo conservado salvo atributos nuevos del ingrediente dentro de `source`. No se han cambiado HTML, PDF, Schema.org, fechas culinarias, imágenes ni menú. El exportador puede transportar anotaciones dentro de `source`, pero eso no acredita interpretación o uso por la app; su integración y las prioridades siguen siendo un trabajo separado. Comprobar después del commit el despliegue y los metadatos servidos; estas verificaciones de preparación no acreditan todavía disponibilidad web. Al incorporar o modificar fichas, aplicar ambos criterios y revisar sus anotaciones.
+
+## 29/10/2026 · Ingredientes básicos · preparado, SIN PUBLICAR
+
+Revisadas las 31 fichas de platos actuales (recetas, preparaciones y combinaciones) sobre el commit de partida `96bd033b32881532311008909d81f7d87f2e515f`. Añadidos `ingredientes_basicos` en sus maestros YAML y JSON completos; 13 fichas incluyen `ingredientes_basicos_opciones` para distinguir alternativas y añadidos opcionales. Criterio por función en cada receta: ajo solo en el ajillo; cebolla cuando es componente protagonista asado, no fondo del sofrito; albahaca protagonista incluida. Listas completas y preparaciones conservadas. Criterio permanente y estructura documentados en las dos guías.
+
+Preparación pendiente de ARG. No afirmar que estos metadatos estén publicados o sean consumidos por la aplicación. No se modifican el catálogo de intercambio, las prioridades de compra, las páginas visibles, Schema.org, PDF, fechas culinarias, imágenes ni menú. Las comprobaciones se entregan con el paquete de revisión; al retomar, contrastar su base con el HEAD y conservar otros cambios antes de publicar.
+
 ## 26/10/2026 · Puré/crema y aprovechategui · publicación autorizada
 
 El carrusel omite «Crema» al principio del nombre bajo categoría «Puré» y muestra la crema de aprovechamiento con el apodo «aprovechategui», sin alterar fichas, enlaces ni menú guardado. Incluye categorías comunes a dos platos y caché. Guía, cargador, prueba e incrustación de index.html actualizados; respaldo estático conservado (ya usa aprovechategui). Preview mostrada y publicación autorizada expresamente con «publica». Pruebas del DOM simulado superadas: equivalencia Puré/Crema, apodo con y sin categoría, dos platos, caché y conservación de títulos accesibles/enlaces. Las verificaciones del despliegue son posteriores al commit; no se afirma aquí una revisión visual interactiva.

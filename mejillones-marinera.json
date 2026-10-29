@@ -40,42 +40,55 @@
       "cantidad": 500,
       "unidad": "g",
       "nota": "con concha",
-      "alternativa": "mejillones frescos con concha"
+      "alternativa": "mejillones frescos con concha",
+      "es_condimento": false
     },
     {
       "nombre": "tomate triturado",
       "cantidad": 100,
       "unidad": "g",
-      "nota": "sin sal añadida"
+      "nota": "sin sal añadida",
+      "es_condimento": false
     },
     {
       "nombre": "cebolla",
       "cantidad": 100,
-      "unidad": "g"
+      "unidad": "g",
+      "es_condimento": true,
+      "tipo_condimento": "aromaticos_frescos"
     },
     {
       "nombre": "pimiento rojo",
       "cantidad": 100,
-      "unidad": "g"
+      "unidad": "g",
+      "es_condimento": false
     },
     {
       "nombre": "vino blanco",
       "cantidad": 30,
-      "unidad": "ml"
+      "unidad": "ml",
+      "es_condimento": true,
+      "tipo_condimento": "fondos_para_cocinar"
     },
     {
       "nombre": "aceite de oliva",
       "cantidad": 1,
       "unidad": "cucharada",
-      "equivalencia_ml": 15
+      "equivalencia_ml": 15,
+      "es_condimento": true,
+      "tipo_condimento": "aceites_acidos_y_salsas"
     },
     {
       "nombre": "pimienta",
-      "nota": "una pizca"
+      "nota": "una pizca",
+      "es_condimento": true,
+      "tipo_condimento": "sal_y_especias"
     },
     {
       "nombre": "sal",
-      "nota": "solo si hace falta al final"
+      "nota": "solo si hace falta al final",
+      "es_condimento": true,
+      "tipo_condimento": "sal_y_especias"
     }
   ],
   "pdf_ingredientes": [
@@ -173,5 +186,10 @@
   "image_note": "Imagen ilustrativa generada con IA, ajustada a los ingredientes de la receta y sin guarniciones ni hierbas añadidas.",
   "image_width": 1672,
   "image_height": 941,
-  "pdf": "https://fucolin.github.io/recetario/mejillones-marinera.pdf"
+  "pdf": "https://fucolin.github.io/recetario/mejillones-marinera.pdf",
+  "ingredientes_basicos": [
+    "mejillones",
+    "tomate triturado",
+    "pimiento rojo"
+  ]
 }

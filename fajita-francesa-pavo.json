@@ -36,39 +36,45 @@
       "nombre": "tortilla/piadina",
       "cantidad": 1,
       "unidad": "unidad",
-      "nota": "grande; integral o de espelta"
+      "nota": "grande; integral o de espelta",
+      "es_condimento": false
     },
     {
       "nombre": "huevos",
       "cantidad": 2,
-      "unidad": "unidades"
+      "unidad": "unidades",
+      "es_condimento": false
     },
     {
       "nombre": "pavo o jamón cocido",
+      "producto_preferido": "pechuga-pavo-elpozo-1954",
       "cantidad": 1,
       "unidad": "loncha",
       "peso_aprox_g": 25,
       "nota": "grande; mínimo 90 % de carne",
-      "producto_preferido": "pechuga-pavo-elpozo-1954"
+      "es_condimento": false
     },
     {
       "nombre": "queso",
       "cantidad": 1,
       "unidad": "loncha",
-      "peso_aprox_g": 20
+      "peso_aprox_g": 20,
+      "es_condimento": false
     },
     {
       "nombre": "tomate",
       "cantidad": 0.5,
       "unidad": "unidad",
       "peso_aprox_g": 50,
-      "nota": "pequeño"
+      "nota": "pequeño",
+      "es_condimento": false
     },
     {
       "nombre": "aguacate",
       "cantidad": 0.25,
       "unidad": "unidad",
-      "nota": "mediano"
+      "nota": "mediano",
+      "es_condimento": false
     },
     {
       "nombre": "lechuga",
@@ -77,12 +83,15 @@
       "alternativas": [
         "un puñadito de brotes",
         "un puñadito de canónigos"
-      ]
+      ],
+      "es_condimento": false
     },
     {
       "nombre": "aceite de oliva",
       "cantidad": 0.5,
-      "unidad": "cucharadita"
+      "unidad": "cucharadita",
+      "es_condimento": true,
+      "tipo_condimento": "aceites_acidos_y_salsas"
     }
   ],
   "indicaciones": "Prepara el relleno. Corta el tomate en rodajas finas y déjalo escurrir bien. Lava y seca las hojas; si usas lechuga, pícala en tiras finas. Corta el aguacate en láminas y ten a mano el pavo o jamón y el queso.\n\nTempla la tortilla de trigo. Calienta la tortilla o piadina en una sartén antiadherente unos 30 segundos por cada cara, o el tiempo que indique el envase. Retírala y mantenla tapada mientras preparas el huevo. Usa una sartén de tamaño parecido al de la tortilla para que ambas capas encajen.\n\nCuaja la francesa y dale la vuelta. Bate los huevos. Añade la media cucharadita de aceite a la sartén y repártela por la base. Vierte el huevo a fuego medio-bajo. Cuando empiece a cuajar por debajo pero la superficie siga húmeda, coloca encima la tortilla de trigo y presiona suavemente para que se adhiera. Cubre con un plato y da la vuelta con cuidado. Devuelve el conjunto a la sartén con la tortilla de trigo abajo y el huevo hacia arriba.\n\nRellena y dobla. Reparte el queso y el pavo o jamón sobre una mitad de la francesa. Cocina brevemente a fuego bajo hasta que el huevo termine de cuajar y el queso empiece a fundirse. Retira a un plato, añade el tomate, el aguacate y las hojas, y dobla por la mitad.",
@@ -120,5 +129,56 @@
     "titulo": "Fajita de francesa y pavo",
     "detalle": "Con queso, tomate y aguacate · 1 ración · 10-15 min"
   },
-  "consejo": "Para compartir, puedes preparar dos fajitas con tortillas pequeñas, repartiendo los ingredientes entre ambas y usando una sartén de su tamaño. La cantidad total sigue siendo una ración."
+  "consejo": "Para compartir, puedes preparar dos fajitas con tortillas pequeñas, repartiendo los ingredientes entre ambas y usando una sartén de su tamaño. La cantidad total sigue siendo una ración.",
+  "ingredientes_basicos": [
+    "tortillas de trigo",
+    "huevos",
+    "pavo cocido",
+    "queso",
+    "tomate",
+    "aguacate",
+    "lechuga"
+  ],
+  "ingredientes_basicos_opciones": [
+    {
+      "tipo": "alternativa",
+      "ingredientes": [
+        "piadina"
+      ],
+      "sustituye": [
+        "tortillas de trigo"
+      ],
+      "nota": "Elegir tortilla o piadina."
+    },
+    {
+      "tipo": "alternativa",
+      "ingredientes": [
+        "jamón cocido"
+      ],
+      "sustituye": [
+        "pavo cocido"
+      ],
+      "nota": "Elegir pavo o jamón cocido."
+    },
+    {
+      "tipo": "alternativa",
+      "ingredientes": [
+        "brotes tiernos"
+      ],
+      "sustituye": [
+        "lechuga"
+      ],
+      "nota": "Alternativa de hojas."
+    },
+    {
+      "tipo": "alternativa",
+      "ingredientes": [
+        "canónigos"
+      ],
+      "sustituye": [
+        "lechuga"
+      ],
+      "nota": "Alternativa de hojas."
+    }
+  ]
 }

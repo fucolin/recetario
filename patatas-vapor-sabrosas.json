@@ -39,17 +39,22 @@
       "nombre": "patatas lavadas",
       "cantidad": 400,
       "unidad": "g",
-      "alternativa": "patacas novas de temporada"
+      "alternativa": "patacas novas de temporada",
+      "es_condimento": false
     },
     {
       "nombre": "ajo",
       "cantidad": 1,
-      "unidad": "diente"
+      "unidad": "diente",
+      "es_condimento": true,
+      "tipo_condimento": "aromaticos_frescos"
     },
     {
       "nombre": "lima",
       "cantidad": 1,
-      "unidad": "unidad"
+      "unidad": "unidad",
+      "es_condimento": true,
+      "tipo_condimento": "aceites_acidos_y_salsas"
     },
     {
       "nombre": "aceite de oliva",
@@ -57,36 +62,48 @@
       "unidad": "cucharadita",
       "equivalencia_ml": 5,
       "uso": "aliño final",
-      "alternativa": "aceite de las sardinillas"
+      "alternativa": "aceite de las sardinillas",
+      "es_condimento": true,
+      "tipo_condimento": "aceites_acidos_y_salsas"
     },
     {
       "nombre": "agua",
       "cantidad": 1,
       "unidad": "cucharada",
-      "equivalencia_ml": 15
+      "equivalencia_ml": 15,
+      "es_condimento": false
     },
     {
       "nombre": "queso feta",
       "cantidad": 50,
-      "unidad": "g"
+      "unidad": "g",
+      "es_condimento": false
     },
     {
       "nombre": "laurel",
       "cantidad": 1,
-      "unidad": "hoja pequeña"
+      "unidad": "hoja pequeña",
+      "es_condimento": true,
+      "tipo_condimento": "hierbas_aromaticas"
     },
     {
       "nombre": "cebollino",
       "cantidad": 1,
-      "unidad": "cucharada"
+      "unidad": "cucharada",
+      "es_condimento": true,
+      "tipo_condimento": "hierbas_aromaticas"
     },
     {
       "nombre": "sal",
-      "nota": "una pizca, ajustable al gusto"
+      "nota": "una pizca, ajustable al gusto",
+      "es_condimento": true,
+      "tipo_condimento": "sal_y_especias"
     },
     {
       "nombre": "pimienta",
-      "nota": "una pizca, ajustable al gusto"
+      "nota": "una pizca, ajustable al gusto",
+      "es_condimento": true,
+      "tipo_condimento": "sal_y_especias"
     }
   ],
   "pdf_ingredientes": [
@@ -157,14 +174,18 @@
       "cantidad_texto": "una ramita pequeña o una pizca si es seco",
       "opcional": true,
       "sustituye": "laurel",
-      "momento": "antes de cocinar"
+      "momento": "antes de cocinar",
+      "es_condimento": true,
+      "tipo_condimento": "hierbas_aromaticas"
     },
     {
       "nombre": "romero",
       "cantidad_texto": "un trocito de ramita",
       "opcional": true,
       "sustituye": "laurel",
-      "momento": "antes de cocinar"
+      "momento": "antes de cocinar",
+      "es_condimento": true,
+      "tipo_condimento": "hierbas_aromaticas"
     },
     {
       "nombre": "perejil",
@@ -172,7 +193,9 @@
       "unidad": "cucharada",
       "opcional": true,
       "sustituye": "cebollino",
-      "momento": "al servir"
+      "momento": "al servir",
+      "es_condimento": true,
+      "tipo_condimento": "hierbas_aromaticas"
     },
     {
       "nombre": "eneldo",
@@ -181,7 +204,9 @@
       "unidad": "cucharaditas",
       "opcional": true,
       "sustituye": "cebollino",
-      "momento": "al servir"
+      "momento": "al servir",
+      "es_condimento": true,
+      "tipo_condimento": "hierbas_aromaticas"
     },
     {
       "nombre": "hierbabuena",
@@ -190,7 +215,9 @@
       "unidad": "hojas",
       "opcional": true,
       "sustituye": "cebollino",
-      "momento": "al servir"
+      "momento": "al servir",
+      "es_condimento": true,
+      "tipo_condimento": "hierbas_aromaticas"
     },
     {
       "nombre": "orégano seco",
@@ -198,14 +225,17 @@
       "unidad": "cucharadita",
       "opcional": true,
       "sustituye": "cebollino",
-      "momento": "al servir"
+      "momento": "al servir",
+      "es_condimento": true,
+      "tipo_condimento": "hierbas_aromaticas"
     },
     {
       "nombre": "sardinillas en aceite",
       "cantidad": 1,
       "unidad": "lata",
       "opcional": true,
-      "uso_aceite": "reservar una cucharadita para el aliño final"
+      "uso_aceite": "reservar una cucharadita para el aliño final",
+      "es_condimento": false
     }
   ],
   "fuente": {
@@ -237,5 +267,18 @@
   "image_note": "Imagen ilustrativa generada con IA, con las patatas de la receta y sin el acompañamiento opcional de sardinillas.",
   "image_width": 1672,
   "image_height": 941,
-  "pdf": "https://fucolin.github.io/recetario/patatas-vapor-sabrosas.pdf"
+  "pdf": "https://fucolin.github.io/recetario/patatas-vapor-sabrosas.pdf",
+  "ingredientes_basicos": [
+    "patata",
+    "queso feta"
+  ],
+  "ingredientes_basicos_opciones": [
+    {
+      "tipo": "opcional",
+      "ingredientes": [
+        "sardinillas en aceite"
+      ],
+      "nota": "Acompañamiento propuesto para cenar; no forma parte de la versión base."
+    }
+  ]
 }

@@ -18,30 +18,43 @@ tiempo_total_min:
   max: 40
 ingredientes:
 - nombre: boniato pelado
+  es_condimento: false
   cantidad: 300
   unidad: g
 - nombre: espinacas frescas
+  es_condimento: false
   cantidad: 100
   unidad: g
 - nombre: huevos grandes
+  es_condimento: false
   cantidad: 4
   unidad: unidades
 - nombre: parmesano rallado
+  es_condimento: false
   cantidad: 30
   unidad: g
 - nombre: cebolla
+  es_condimento: true
+  tipo_condimento: aromaticos_frescos
   cantidad: 0.5
   unidad: unidad
   nota: unos 80 g
 - nombre: aceite de oliva virgen extra
+  es_condimento: true
+  tipo_condimento: aceites_acidos_y_salsas
   cantidad: 1
   unidad: cucharada
   nota: 15 ml
 - nombre: sal y pimienta negra
+  es_condimento: true
+  tipo_condimento: sal_y_especias
   nota: al gusto
 - nombre: nuez moscada
+  es_condimento: true
+  tipo_condimento: sal_y_especias
   nota: opcional
 - nombre: agua
+  es_condimento: false
   nota: un poco
 pdf_ingredientes:
 - 300 g de boniato pelado
@@ -119,6 +132,11 @@ image_alt: Tortilla baja y melosa de boniato fino algo dorado, espinacas y parme
   poco cuajado
 image_credit: Imagen generada con IA para Casa Marisa
 image_note: Imagen ilustrativa generada con IA; no es una fotografía del plato preparado.
+ingredientes_basicos:
+- boniato
+- espinacas
+- huevos
+- queso parmesano
 ---
 
 

@@ -28,66 +28,87 @@
       "nombre": "sardinas medianas",
       "cantidad": 12,
       "unidad": "unidades",
-      "nota": "limpias, en lomos"
+      "nota": "limpias, en lomos",
+      "es_condimento": false
     },
     {
       "nombre": "tomates maduros carnosos",
       "cantidad": 2,
-      "unidad": "unidades"
+      "unidad": "unidades",
+      "es_condimento": false
     },
     {
       "nombre": "aceitunas verdes deshuesadas",
       "cantidad": 15,
-      "unidad": "g"
+      "unidad": "g",
+      "es_condimento": false
     },
     {
       "nombre": "aceitunas negras deshuesadas",
       "cantidad": 15,
-      "unidad": "g"
+      "unidad": "g",
+      "es_condimento": false
     },
     {
       "nombre": "cebolleta",
       "cantidad": 0.5,
       "unidad": "unidad",
-      "nota": "tallo tierno"
+      "nota": "tallo tierno",
+      "es_condimento": true,
+      "tipo_condimento": "aromaticos_frescos"
     },
     {
       "nombre": "tomillo fresco",
       "cantidad": 1,
       "unidad": "ramita",
-      "nota": "o una pizca de tomillo seco"
+      "nota": "o una pizca de tomillo seco",
+      "es_condimento": true,
+      "tipo_condimento": "hierbas_aromaticas"
     },
     {
       "nombre": "cebollino picado",
-      "nota": "al gusto"
+      "nota": "al gusto",
+      "es_condimento": true,
+      "tipo_condimento": "hierbas_aromaticas"
     },
     {
       "nombre": "vinagre de manzana",
-      "nota": "cantidad suficiente"
+      "nota": "cantidad suficiente",
+      "es_condimento": true,
+      "tipo_condimento": "aceites_acidos_y_salsas"
     },
     {
-      "nombre": "aceite de oliva virgen extra"
+      "nombre": "aceite de oliva virgen extra",
+      "es_condimento": true,
+      "tipo_condimento": "aceites_acidos_y_salsas"
     },
     {
       "nombre": "sal gorda",
       "cantidad": 100,
       "unidad": "g",
-      "nota": "para la salmuera"
+      "nota": "para la salmuera",
+      "es_condimento": true,
+      "tipo_condimento": "sal_y_especias"
     },
     {
       "nombre": "agua",
       "cantidad": 1,
       "unidad": "l",
-      "nota": "para la salmuera"
+      "nota": "para la salmuera",
+      "es_condimento": false
     },
     {
       "nombre": "sal fina",
-      "nota": "una pizca"
+      "nota": "una pizca",
+      "es_condimento": true,
+      "tipo_condimento": "sal_y_especias"
     },
     {
       "nombre": "chile en polvo",
       "opcional": true,
-      "nota": "una pizca"
+      "nota": "una pizca",
+      "es_condimento": true,
+      "tipo_condimento": "sal_y_especias"
     }
   ],
   "pdf_ingredientes": [
@@ -175,5 +196,11 @@
   "encabezado": {
     "titulo": "Sardinas marinadas",
     "detalle": "Con tomate, aceitunas y hierbas · 2 raciones · 45-50 min"
-  }
+  },
+  "ingredientes_basicos": [
+    "sardinas",
+    "tomate",
+    "aceitunas verdes",
+    "aceitunas negras"
+  ]
 }

@@ -30,47 +30,59 @@
     {
       "nombre": "láminas frescas de lasaña",
       "cantidad": 250,
-      "unidad": "g"
+      "unidad": "g",
+      "es_condimento": false
     },
     {
       "nombre": "cebolletas",
       "cantidad": 4,
-      "unidad": "unidades"
+      "unidad": "unidades",
+      "es_condimento": true,
+      "tipo_condimento": "aromaticos_frescos"
     },
     {
       "nombre": "espinacas",
       "cantidad": 160,
-      "unidad": "g"
+      "unidad": "g",
+      "es_condimento": false
     },
     {
       "nombre": "salmón ahumado",
       "cantidad": 120,
-      "unidad": "g"
+      "unidad": "g",
+      "es_condimento": false
     },
     {
       "nombre": "limón",
       "cantidad": 1,
-      "unidad": "unidad"
+      "unidad": "unidad",
+      "es_condimento": true,
+      "tipo_condimento": "aceites_acidos_y_salsas"
     },
     {
       "nombre": "queso parmesano",
       "cantidad": 10,
-      "unidad": "g"
+      "unidad": "g",
+      "es_condimento": false
     },
     {
       "nombre": "queso cottage",
       "cantidad": 2,
-      "unidad": "cucharadas"
+      "unidad": "cucharadas",
+      "es_condimento": false
     },
     {
       "nombre": "aceite de oliva",
-      "nota": "un chorrito"
+      "nota": "un chorrito",
+      "es_condimento": true,
+      "tipo_condimento": "aceites_acidos_y_salsas"
     },
     {
       "nombre": "agua hirviendo",
       "cantidad": 500,
       "unidad": "ml",
-      "nota": "aproximadamente; más si hace falta"
+      "nota": "aproximadamente; más si hace falta",
+      "es_condimento": false
     }
   ],
   "pdf_ingredientes": [
@@ -147,5 +159,12 @@
   "encabezado": {
     "titulo": "Pasta fresca con salmón",
     "detalle": "Con espinacas, limón y cottage · en una sartén · 2 raciones · 10-15 min orientativos"
-  }
+  },
+  "ingredientes_basicos": [
+    "pasta fresca",
+    "espinacas",
+    "salmón ahumado",
+    "queso parmesano",
+    "queso cottage"
+  ]
 }

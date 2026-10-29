@@ -22,27 +22,37 @@ tiempo_total_min:
   max: 10
 ingredientes:
 - nombre: tomates
+  es_condimento: false
   cantidad: 500
   unidad: g
   nota: sabrosos; combinar variedades si apetece
 - nombre: hojas de albahaca fresca
+  es_condimento: false
   cantidad: 15
   unidad: g
   nota: sin los tallos gruesos
 - nombre: aceite de oliva virgen extra
+  es_condimento: true
+  tipo_condimento: aceites_acidos_y_salsas
   cantidad: 30
   unidad: ml
   nota: 2 cucharadas
 - nombre: zumo de limón
+  es_condimento: true
+  tipo_condimento: aceites_acidos_y_salsas
   cantidad: 10
   unidad: ml
   nota: 2 cucharaditas; ajustar al gusto
 - nombre: rúcula o brotes tiernos
+  es_condimento: false
   cantidad: 20
   unidad: g
 - nombre: sal
+  es_condimento: true
+  tipo_condimento: sal_y_especias
   nota: al gusto
 - nombre: agua fría
+  es_condimento: false
   cantidad_min: 1
   cantidad_max: 2
   unidad: cucharaditas
@@ -80,6 +90,17 @@ fecha_actualizacion: '2026-10-15'
 image_alt: Tomates variados en gajos sobre aliño verde de albahaca, con rúcula
 image_credit: Imagen generada con IA para Casa Marisa
 image_note: Imagen ilustrativa generada con IA; no es una fotografía del plato preparado.
+ingredientes_basicos:
+- tomate
+- albahaca
+- rúcula
+ingredientes_basicos_opciones:
+- tipo: alternativa
+  ingredientes:
+  - brotes tiernos
+  sustituye:
+  - rúcula
+  nota: Alternativa de hojas indicada en la lista de ingredientes.
 ---
 
 

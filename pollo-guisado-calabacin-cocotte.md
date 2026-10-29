@@ -28,19 +28,19 @@ horno:
   duracion_min: 40
   duracion_max_min: 55
 ingredientes:
-  - {nombre: contramuslos de pollo, cantidad: 4, unidad: unidades, peso_min_g: 800, peso_max_g: 1000, nota: 'enteros, con hueso y sin piel', alternativa: {nombre: cuartos traseros de pollo, cantidad: 2, unidad: unidades, nota: 'con hueso y sin piel; dos raciones generosas'}}
-  - {nombre: cebolla, cantidad: 1, unidad: unidad, peso_g: 150}
-  - {nombre: zanahorias, cantidad: 2, unidad: unidades, peso_g: 150}
-  - {nombre: calabacín, cantidad: 1, unidad: unidad, peso_g: 250}
-  - {nombre: tomate triturado, cantidad: 300, unidad: g}
-  - {nombre: ajo, cantidad: 2, unidad: dientes}
-  - {nombre: vino blanco seco, cantidad_min: 50, cantidad_max: 75, unidad: ml}
-  - {nombre: aceite de oliva virgen extra, cantidad: 2, unidad: cucharadas, equivalencia_ml: 30}
+  - {nombre: contramuslos de pollo, cantidad: 4, unidad: unidades, peso_min_g: 800, peso_max_g: 1000, nota: 'enteros, con hueso y sin piel', alternativa: {nombre: cuartos traseros de pollo, cantidad: 2, unidad: unidades, nota: 'con hueso y sin piel; dos raciones generosas', es_condimento: false}, es_condimento: false}
+  - {nombre: cebolla, cantidad: 1, unidad: unidad, peso_g: 150, es_condimento: true, tipo_condimento: aromaticos_frescos}
+  - {nombre: zanahorias, cantidad: 2, unidad: unidades, peso_g: 150, es_condimento: false}
+  - {nombre: calabacín, cantidad: 1, unidad: unidad, peso_g: 250, es_condimento: false}
+  - {nombre: tomate triturado, cantidad: 300, unidad: g, es_condimento: false}
+  - {nombre: ajo, cantidad: 2, unidad: dientes, es_condimento: true, tipo_condimento: aromaticos_frescos}
+  - {nombre: vino blanco seco, cantidad_min: 50, cantidad_max: 75, unidad: ml, es_condimento: true, tipo_condimento: fondos_para_cocinar}
+  - {nombre: aceite de oliva virgen extra, cantidad: 2, unidad: cucharadas, equivalencia_ml: 30, es_condimento: true, tipo_condimento: aceites_acidos_y_salsas}
   - {nombre: agua o caldo de pollo, cantidad_min: 75, cantidad_max: 150, unidad: ml}
-  - {nombre: pimentón dulce, cantidad: 0.5, unidad: cucharadita}
-  - {nombre: laurel, cantidad: 1, unidad: hoja}
-  - {nombre: tomillo, cantidad: 1, unidad: ramita pequeña, opcional: true}
-  - {nombre: sal y pimienta negra, nota: al gusto}
+  - {nombre: pimentón dulce, cantidad: 0.5, unidad: cucharadita, es_condimento: true, tipo_condimento: sal_y_especias}
+  - {nombre: laurel, cantidad: 1, unidad: hoja, es_condimento: true, tipo_condimento: hierbas_aromaticas}
+  - {nombre: tomillo, cantidad: 1, unidad: ramita pequeña, opcional: true, es_condimento: true, tipo_condimento: hierbas_aromaticas}
+  - {nombre: sal y pimienta negra, nota: al gusto, es_condimento: true, tipo_condimento: sal_y_especias}
 pdf_ingredientes:
   - 4 contramuslos o 2 cuartos traseros, con hueso y sin piel (800 g–1 kg aprox.)
   - 1 cebolla mediana (150 g)
@@ -138,6 +138,21 @@ image_note: Imagen ilustrativa generada con IA; representa dos cuartos traseros 
 image_width: 1672
 image_height: 941
 pdf: https://fucolin.github.io/recetario/pollo-guisado-calabacin-cocotte.pdf
+ingredientes_basicos:
+- pollo
+- zanahoria
+- calabacín
+- tomate triturado
+condimentos_opciones:
+- origen: ingredientes[8].nombre
+  nombre: agua
+  es_condimento: false
+  condicion: Si se elige agua, no es condimento.
+- origen: ingredientes[8].nombre
+  nombre: caldo de pollo
+  es_condimento: true
+  tipo_condimento: fondos_para_cocinar
+  condicion: Solo si se elige caldo en lugar de agua.
 ---
 
 # Pollo guisado con calabacín en cocotte

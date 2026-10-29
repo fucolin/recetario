@@ -27,63 +27,79 @@
       "nombre": "cuartos traseros de pollo",
       "cantidad": 2,
       "unidad": "unidades",
-      "nota": "con hueso y piel"
+      "nota": "con hueso y piel",
+      "es_condimento": false
     },
     {
       "nombre": "calabacín",
       "cantidad": 0.5,
       "unidad": "unidad",
-      "nota": "mediano, unos 150 g"
+      "nota": "mediano, unos 150 g",
+      "es_condimento": false
     },
     {
       "nombre": "berenjena",
       "cantidad": 0.5,
       "unidad": "unidad",
-      "nota": "pequeña, unos 150 g"
+      "nota": "pequeña, unos 150 g",
+      "es_condimento": false
     },
     {
       "nombre": "cebolla",
       "cantidad": 1,
       "unidad": "unidad",
-      "nota": "pequeña"
+      "nota": "pequeña",
+      "es_condimento": false
     },
     {
       "nombre": "pimiento verde",
       "cantidad": 0.5,
-      "unidad": "unidad"
+      "unidad": "unidad",
+      "es_condimento": false
     },
     {
       "nombre": "tomate",
       "cantidad": 1,
       "unidad": "unidad",
-      "nota": "mediano"
+      "nota": "mediano",
+      "es_condimento": false
     },
     {
       "nombre": "aceite de oliva virgen extra",
       "cantidad": 10,
       "unidad": "ml",
-      "nota": "2 cucharaditas en total, incluido el papel"
+      "nota": "2 cucharaditas en total, incluido el papel",
+      "es_condimento": true,
+      "tipo_condimento": "aceites_acidos_y_salsas"
     },
     {
       "nombre": "vino blanco seco",
       "cantidad": 30,
       "unidad": "ml",
-      "nota": "2 cucharadas"
+      "nota": "2 cucharadas",
+      "es_condimento": true,
+      "tipo_condimento": "fondos_para_cocinar"
     },
     {
       "nombre": "tomillo seco",
       "cantidad": 0.5,
-      "unidad": "cucharadita"
+      "unidad": "cucharadita",
+      "es_condimento": true,
+      "tipo_condimento": "hierbas_aromaticas"
     },
     {
       "nombre": "romero seco",
       "cantidad": 0.5,
       "unidad": "cucharadita",
-      "nota": "ligeramente desmenuzado"
+      "nota": "ligeramente desmenuzado",
+      "es_condimento": true,
+      "tipo_condimento": "hierbas_aromaticas"
     },
     {
       "nombre": "sal y pimienta negra",
-      "nota": "sal moderada; pimienta al gusto"
+      "nota": "sal moderada; pimienta al gusto",
+      "es_condimento": true,
+      "tipo_condimento": "sal_y_especias"
     }
   ],
   "pdf_ingredientes": [
@@ -231,5 +247,37 @@
   },
   "image_alt": "Cuartos traseros de pollo asados sobre calabacín, berenjena, cebolla, pimiento verde y tomate",
   "image_credit": "Imagen generada con IA para Casa Marisa",
-  "image_note": "Imagen ilustrativa generada con IA; no es una fotografía del plato preparado."
+  "image_note": "Imagen ilustrativa generada con IA; no es una fotografía del plato preparado.",
+  "ingredientes_basicos": [
+    "pollo",
+    "calabacín",
+    "berenjena",
+    "cebolla",
+    "pimiento verde",
+    "tomate"
+  ],
+  "ingredientes_basicos_opciones": [
+    {
+      "tipo": "alternativa",
+      "ingredientes": [
+        "patata"
+      ],
+      "sustituye": [
+        "calabacín",
+        "berenjena"
+      ],
+      "nota": "Sustituye ambas verduras y requiere la precocción indicada."
+    },
+    {
+      "tipo": "alternativa",
+      "ingredientes": [
+        "boniato"
+      ],
+      "sustituye": [
+        "calabacín",
+        "berenjena"
+      ],
+      "nota": "En lugar de patata; sustituye ambas verduras y requiere la precocción indicada."
+    }
+  ]
 }

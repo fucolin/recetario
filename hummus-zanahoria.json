@@ -24,17 +24,23 @@
     {
       "nombre": "hummus",
       "cantidad": 100,
-      "unidad": "g"
+      "unidad": "g",
+      "es_condimento": false
     },
     {
       "nombre": "zanahoria grande",
       "cantidad": 1,
-      "unidad": "unidad"
+      "unidad": "unidad",
+      "es_condimento": false
     }
   ],
   "image": "https://fucolin.github.io/recetario/images/hummus-zanahoria-ilustracion-v1.jpg",
   "fecha_actualizacion": "2026-10-15",
   "image_alt": "Hummus en un cuenco junto a bastones de zanahoria cruda",
   "image_credit": "Imagen generada con IA para Casa Marisa",
-  "image_note": "Imagen ilustrativa generada con IA; no es una fotografía del plato preparado."
+  "image_note": "Imagen ilustrativa generada con IA; no es una fotografía del plato preparado.",
+  "ingredientes_basicos": [
+    "hummus",
+    "zanahoria"
+  ]
 }

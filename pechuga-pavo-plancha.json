@@ -23,21 +23,28 @@
     {
       "nombre": "filetes de pechuga de pavo",
       "cantidad": 300,
-      "unidad": "g"
+      "unidad": "g",
+      "es_condimento": false
     },
     {
       "nombre": "aceite de oliva virgen extra",
       "cantidad": 1,
       "unidad": "cucharada",
-      "nota": "15 ml"
+      "nota": "15 ml",
+      "es_condimento": true,
+      "tipo_condimento": "aceites_acidos_y_salsas"
     },
     {
       "nombre": "sal y pimienta negra",
-      "nota": "al gusto"
+      "nota": "al gusto",
+      "es_condimento": true,
+      "tipo_condimento": "sal_y_especias"
     },
     {
       "nombre": "limón",
-      "nota": "opcional, para servir"
+      "nota": "opcional, para servir",
+      "es_condimento": true,
+      "tipo_condimento": "aceites_acidos_y_salsas"
     }
   ],
   "indicaciones": "Seca los filetes con papel de cocina y salpimiéntalos. Calienta bien una sartén con el aceite y cocina el pavo 2-3 minutos por cada lado, según el grosor, hasta que esté hecho pero aún jugoso. Déjalo reposar 2 minutos antes de servir y añade limón si te apetece.",
@@ -46,5 +53,8 @@
   "fecha_actualizacion": "2026-10-15",
   "image_alt": "Filetes de pechuga de pavo dorados a la plancha con un gajo de limón",
   "image_credit": "Imagen generada con IA para Casa Marisa",
-  "image_note": "Imagen ilustrativa generada con IA; no es una fotografía del plato preparado."
+  "image_note": "Imagen ilustrativa generada con IA; no es una fotografía del plato preparado.",
+  "ingredientes_basicos": [
+    "pechuga de pavo"
+  ]
 }

@@ -23,48 +23,65 @@ tiempo_total_min:
   max: 15
 ingredientes:
 - nombre: harina de fuerza blanca
+  es_condimento: false
   cantidad: 4
   unidad: cucharadas
   grupo: Masa
 - nombre: levadura química en polvo
+  es_condimento: false
   cantidad: 1
   unidad: cucharadita
   nota: rasa
   grupo: Masa
 - nombre: sal
+  es_condimento: true
+  tipo_condimento: sal_y_especias
   nota: una pizca
   grupo: Masa
 - nombre: yogur natural
+  es_condimento: false
   cantidad: 1
   unidad: cucharada
   grupo: Masa
 - nombre: agua
+  es_condimento: false
   cantidad: 4
   unidad: cucharadas
   grupo: Masa
 - nombre: aceite de oliva
+  es_condimento: true
+  tipo_condimento: aceites_acidos_y_salsas
   nota: un chorrito
   grupo: Cocción
 - nombre: queso gouda o cheddar
+  es_condimento: false
   cantidad: 20
   unidad: g
   grupo: Relleno
 - nombre: jamón cocido ahumado
+  es_condimento: false
   cantidad: 1
   unidad: loncha
   grupo: Relleno
 - nombre: cebollino fresco
+  es_condimento: true
+  tipo_condimento: hierbas_aromaticas
   cantidad: 4
   unidad: tallos
   grupo: Relleno
 - nombre: tomates cherry maduros
+  es_condimento: false
   cantidad: 50
   unidad: g
   grupo: Relleno
 - nombre: mostaza inglesa
+  es_condimento: true
+  tipo_condimento: aceites_acidos_y_salsas
   nota: al gusto
   grupo: Relleno
 - nombre: pimienta negra
+  es_condimento: true
+  tipo_condimento: sal_y_especias
   nota: una pizca
   grupo: Relleno
 pdf_ingredientes:
@@ -142,6 +159,19 @@ fecha_actualizacion: '2026-10-17'
 encabezado:
   titulo: Pan plano de jamón y queso
   detalle: Masa de yogur · sin amasado ni reposo · 1 ración · 13-15 min orientativos
+ingredientes_basicos:
+- harina de trigo
+- yogur natural
+- queso gouda
+- jamón cocido
+- tomates cherry
+ingredientes_basicos_opciones:
+- tipo: alternativa
+  ingredientes:
+  - queso cheddar
+  sustituye:
+  - queso gouda
+  nota: Elegir uno de los dos quesos.
 ---
 
 # Pan plano de jamón y queso

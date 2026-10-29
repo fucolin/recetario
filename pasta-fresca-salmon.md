@@ -25,29 +25,41 @@ tiempo_total_min:
 tiempo_nota: Estimación para dos raciones, según preparación y pasta. El libro indica 8 minutos para una ración.
 ingredientes:
 - nombre: láminas frescas de lasaña
+  es_condimento: false
   cantidad: 250
   unidad: g
 - nombre: cebolletas
+  es_condimento: true
+  tipo_condimento: aromaticos_frescos
   cantidad: 4
   unidad: unidades
 - nombre: espinacas
+  es_condimento: false
   cantidad: 160
   unidad: g
 - nombre: salmón ahumado
+  es_condimento: false
   cantidad: 120
   unidad: g
 - nombre: limón
+  es_condimento: true
+  tipo_condimento: aceites_acidos_y_salsas
   cantidad: 1
   unidad: unidad
 - nombre: queso parmesano
+  es_condimento: false
   cantidad: 10
   unidad: g
 - nombre: queso cottage
+  es_condimento: false
   cantidad: 2
   unidad: cucharadas
 - nombre: aceite de oliva
+  es_condimento: true
+  tipo_condimento: aceites_acidos_y_salsas
   nota: un chorrito
 - nombre: agua hirviendo
+  es_condimento: false
   cantidad: 500
   unidad: ml
   nota: aproximadamente; más si hace falta
@@ -127,6 +139,12 @@ fecha_actualizacion: '2026-10-17'
 encabezado:
   titulo: Pasta fresca con salmón
   detalle: Con espinacas, limón y cottage · en una sartén · 2 raciones · 10-15 min orientativos
+ingredientes_basicos:
+- pasta fresca
+- espinacas
+- salmón ahumado
+- queso parmesano
+- queso cottage
 ---
 
 # Pasta fresca con salmón

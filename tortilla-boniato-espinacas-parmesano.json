@@ -23,46 +23,59 @@
     {
       "nombre": "boniato pelado",
       "cantidad": 300,
-      "unidad": "g"
+      "unidad": "g",
+      "es_condimento": false
     },
     {
       "nombre": "espinacas frescas",
       "cantidad": 100,
-      "unidad": "g"
+      "unidad": "g",
+      "es_condimento": false
     },
     {
       "nombre": "huevos grandes",
       "cantidad": 4,
-      "unidad": "unidades"
+      "unidad": "unidades",
+      "es_condimento": false
     },
     {
       "nombre": "parmesano rallado",
       "cantidad": 30,
-      "unidad": "g"
+      "unidad": "g",
+      "es_condimento": false
     },
     {
       "nombre": "cebolla",
       "cantidad": 0.5,
       "unidad": "unidad",
-      "nota": "unos 80 g"
+      "nota": "unos 80 g",
+      "es_condimento": true,
+      "tipo_condimento": "aromaticos_frescos"
     },
     {
       "nombre": "aceite de oliva virgen extra",
       "cantidad": 1,
       "unidad": "cucharada",
-      "nota": "15 ml"
+      "nota": "15 ml",
+      "es_condimento": true,
+      "tipo_condimento": "aceites_acidos_y_salsas"
     },
     {
       "nombre": "sal y pimienta negra",
-      "nota": "al gusto"
+      "nota": "al gusto",
+      "es_condimento": true,
+      "tipo_condimento": "sal_y_especias"
     },
     {
       "nombre": "nuez moscada",
-      "nota": "opcional"
+      "nota": "opcional",
+      "es_condimento": true,
+      "tipo_condimento": "sal_y_especias"
     },
     {
       "nombre": "agua",
-      "nota": "un poco"
+      "nota": "un poco",
+      "es_condimento": false
     }
   ],
   "pdf_ingredientes": [
@@ -144,5 +157,11 @@
   },
   "image_alt": "Tortilla baja y melosa de boniato fino algo dorado, espinacas y parmesano, con el interior poco cuajado",
   "image_credit": "Imagen generada con IA para Casa Marisa",
-  "image_note": "Imagen ilustrativa generada con IA; no es una fotografía del plato preparado."
+  "image_note": "Imagen ilustrativa generada con IA; no es una fotografía del plato preparado.",
+  "ingredientes_basicos": [
+    "boniato",
+    "espinacas",
+    "huevos",
+    "queso parmesano"
+  ]
 }

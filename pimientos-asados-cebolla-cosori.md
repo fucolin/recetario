@@ -21,26 +21,38 @@ tiempo_total_min:
   max: 50
 ingredientes:
 - nombre: pimientos morrones
+  es_condimento: false
   cantidad: 2
   unidad: unidades
   nota: grandes, enteros y con pedúnculo
 - nombre: cebolla
+  es_condimento: false
   cantidad: 1
   unidad: unidad
   nota: en mitades si es pequeña o cuartos si es grande
 - nombre: aceite de oliva virgen extra
+  es_condimento: true
+  tipo_condimento: aceites_acidos_y_salsas
   nota: película fina en spray para asar y un poco para aliñar
 - nombre: sal
+  es_condimento: true
+  tipo_condimento: sal_y_especias
   nota: al gusto
 - nombre: ajo crudo
+  es_condimento: true
+  tipo_condimento: aromaticos_frescos
   nota: en láminas finas, al gusto
   opcional: true
 - nombre: orégano seco
+  es_condimento: true
+  tipo_condimento: hierbas_aromaticas
   cantidad: 0.5
   unidad: cucharadita
   nota: para toda la preparación; alternativa al comino
   opcional: true
 - nombre: comino molido
+  es_condimento: true
+  tipo_condimento: sal_y_especias
   cantidad: 0.25
   unidad: cucharadita
   nota: para toda la preparación; alternativa al orégano
@@ -170,6 +182,9 @@ encabezado:
 image_alt: Tiras de pimientos rojos asados y cebolla tierna con sus jugos
 image_credit: Imagen generada con IA para Casa Marisa
 image_note: Imagen ilustrativa generada con IA; no es una fotografía del plato preparado.
+ingredientes_basicos:
+- pimientos morrones
+- cebolla
 ---
 
 

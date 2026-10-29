@@ -27,45 +27,56 @@
       "nombre": "garbanzos cocidos",
       "cantidad": 400,
       "unidad": "g",
-      "nota": "peso escurrido"
+      "nota": "peso escurrido",
+      "es_condimento": false
     },
     {
       "nombre": "tomates cherry",
       "cantidad": 150,
-      "unidad": "g"
+      "unidad": "g",
+      "es_condimento": false
     },
     {
       "nombre": "pepino",
       "cantidad": 150,
       "unidad": "g",
-      "nota": "aproximadamente medio pepino mediano"
+      "nota": "aproximadamente medio pepino mediano",
+      "es_condimento": false
     },
     {
       "nombre": "mango",
       "cantidad": 150,
       "unidad": "g",
-      "nota": "pelado y sin hueso; maduro pero firme"
+      "nota": "pelado y sin hueso; maduro pero firme",
+      "es_condimento": false
     },
     {
       "nombre": "aguacate",
       "cantidad": 1,
       "unidad": "unidad",
-      "nota": "mediano"
+      "nota": "mediano",
+      "es_condimento": false
     },
     {
       "nombre": "aceite de oliva virgen extra",
       "cantidad": 1,
-      "unidad": "cucharada"
+      "unidad": "cucharada",
+      "es_condimento": true,
+      "tipo_condimento": "aceites_acidos_y_salsas"
     },
     {
       "nombre": "zumo de limón",
       "cantidad": 1,
       "unidad": "cucharada",
-      "nota": "ajustable al gusto"
+      "nota": "ajustable al gusto",
+      "es_condimento": true,
+      "tipo_condimento": "aceites_acidos_y_salsas"
     },
     {
       "nombre": "sal",
-      "nota": "al gusto"
+      "nota": "al gusto",
+      "es_condimento": true,
+      "tipo_condimento": "sal_y_especias"
     }
   ],
   "indicaciones": "Enjuaga los garbanzos bajo el grifo y déjalos escurrir bien. Lava los tomates y el pepino; corta los cherrys por la mitad y el pepino en dados de alrededor de 1 cm. Puedes dejarle la piel si te gusta; si tiene semillas grandes y acuosas, retira esa parte. Pela el mango, maduro pero firme, y córtalo en dados. Mezcla el aceite, el limón y una pizca de sal. Junta los garbanzos, los tomates, el pepino y el mango, añade el aliño y remueve. Corta el aguacate justo al final, incorpóralo y mezcla con suavidad. Prueba y ajusta el limón y la sal.",
@@ -83,5 +94,12 @@
   },
   "image_alt": "Ensalada de garbanzos con mango, aguacate, pepino y tomates cherry",
   "image_credit": "Imagen generada con IA para Casa Marisa",
-  "image_note": "Imagen ilustrativa generada con IA; no es una fotografía del plato preparado."
+  "image_note": "Imagen ilustrativa generada con IA; no es una fotografía del plato preparado.",
+  "ingredientes_basicos": [
+    "garbanzos",
+    "tomates cherry",
+    "pepino",
+    "mango",
+    "aguacate"
+  ]
 }

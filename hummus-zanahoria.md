@@ -19,9 +19,11 @@ tiempo_total_min:
   max: 2
 ingredientes:
 - nombre: hummus
+  es_condimento: false
   cantidad: 100
   unidad: g
 - nombre: zanahoria grande
+  es_condimento: false
   cantidad: 1
   unidad: unidad
 image: https://fucolin.github.io/recetario/images/hummus-zanahoria-ilustracion-v1.jpg
@@ -29,6 +31,9 @@ fecha_actualizacion: '2026-10-15'
 image_alt: Hummus en un cuenco junto a bastones de zanahoria cruda
 image_credit: Imagen generada con IA para Casa Marisa
 image_note: Imagen ilustrativa generada con IA; no es una fotografía del plato preparado.
+ingredientes_basicos:
+- hummus
+- zanahoria
 ---
 
 

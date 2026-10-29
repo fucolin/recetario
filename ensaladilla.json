@@ -33,68 +33,83 @@
       "nombre": "mezcla de verduras congeladas para ensaladilla",
       "cantidad": 400,
       "unidad": "g",
-      "nota": "revisar si incluye patata; solo si lo especifica en las pautas nutricionales"
+      "nota": "revisar si incluye patata; solo si lo especifica en las pautas nutricionales",
+      "es_condimento": false
     },
     {
       "nombre": "atún al natural",
       "cantidad": 80,
       "unidad": "g",
-      "nota": "peso escurrido"
+      "nota": "peso escurrido",
+      "es_condimento": false
     },
     {
       "nombre": "huevo",
       "cantidad": 2,
-      "unidad": "unidades"
+      "unidad": "unidades",
+      "es_condimento": false
     },
     {
       "nombre": "queso fresco batido natural",
       "cantidad": 60,
-      "unidad": "g"
+      "unidad": "g",
+      "es_condimento": false
     },
     {
       "nombre": "aceite de oliva virgen extra",
       "cantidad": 10,
-      "unidad": "g"
+      "unidad": "g",
+      "es_condimento": true,
+      "tipo_condimento": "aceites_acidos_y_salsas"
     },
     {
       "nombre": "zumo de limón o vinagre",
       "cantidad": 10,
       "unidad": "ml",
-      "cantidad_max": 15
+      "cantidad_max": 15,
+      "es_condimento": true,
+      "tipo_condimento": "aceites_acidos_y_salsas"
     },
     {
       "nombre": "pepinillos",
       "cantidad": 20,
       "unidad": "g",
-      "opcional": true
+      "opcional": true,
+      "es_condimento": false
     },
     {
       "nombre": "pimiento de piquillo o asado",
       "cantidad": 40,
       "unidad": "g",
-      "opcional": true
+      "opcional": true,
+      "es_condimento": false
     },
     {
       "nombre": "sal",
       "opcional": true,
-      "nota": "solo si hace falta"
+      "nota": "solo si hace falta",
+      "es_condimento": true,
+      "tipo_condimento": "sal_y_especias"
     }
   ],
   "alternativas_verduras": [
     {
       "nombre": "judías verdes",
       "cantidad": 150,
-      "unidad": "g"
+      "unidad": "g",
+      "es_condimento": false
     },
     {
       "nombre": "zanahoria",
       "cantidad": 150,
-      "unidad": "g"
+      "unidad": "g",
+      "es_condimento": false
     },
     {
       "nombre": "guisantes",
       "cantidad": 100,
-      "unidad": "g"
+      "unidad": "g",
+      "es_condimento": false
     }
   ],
   "patata_condicion": "solo si lo especifica en las pautas nutricionales",
@@ -168,5 +183,46 @@
   "encabezado": {
     "titulo": "Ensaladilla",
     "detalle": "Con salsa de huevo cocido · 2 raciones · 35-40 min + enfriado"
-  }
+  },
+  "ingredientes_basicos": [
+    "mezcla de verduras para ensaladilla",
+    "atún al natural",
+    "huevos",
+    "queso fresco batido"
+  ],
+  "ingredientes_basicos_opciones": [
+    {
+      "tipo": "alternativa",
+      "ingredientes": [
+        "judías verdes",
+        "zanahoria",
+        "guisantes"
+      ],
+      "sustituye": [
+        "mezcla de verduras para ensaladilla"
+      ],
+      "nota": "Versión con verduras frescas indicada en la elaboración."
+    },
+    {
+      "tipo": "opcional",
+      "ingredientes": [
+        "patata"
+      ],
+      "nota": "Solo si lo especifican las pautas nutricionales; forma parte de la cantidad de verduras, no se añade aparte."
+    },
+    {
+      "tipo": "opcional",
+      "ingredientes": [
+        "pepinillos"
+      ],
+      "nota": "Añadido opcional."
+    },
+    {
+      "tipo": "opcional",
+      "ingredientes": [
+        "pimiento de piquillo o asado"
+      ],
+      "nota": "Añadido opcional; elegir uno de los formatos indicados."
+    }
+  ]
 }

@@ -28,24 +28,36 @@ encabezado:
   detalle: Con ajo, en sartén · 2 raciones · 15–20 min
 ingredientes:
 - nombre: gambas crudas peladas congeladas
+  es_condimento: false
   cantidad: 250
   unidad: g
   nota: peso descongelado y escurrido
 - nombre: espárragos trigueros
+  es_condimento: false
   cantidad: 300
   unidad: g
 - nombre: ajo
+  es_condimento: true
+  tipo_condimento: aromaticos_frescos
   cantidad: 1
   unidad: diente
 - nombre: aceite de oliva
+  es_condimento: true
+  tipo_condimento: aceites_acidos_y_salsas
   cantidad: 1
   unidad: cucharada
   equivalencia_ml: 15
 - nombre: sal
+  es_condimento: true
+  tipo_condimento: sal_y_especias
   nota: al gusto
 - nombre: pimienta
+  es_condimento: true
+  tipo_condimento: sal_y_especias
   nota: al gusto
 - nombre: zumo de limón
+  es_condimento: true
+  tipo_condimento: aceites_acidos_y_salsas
   cantidad: unas gotas
   opcional: true
 pdf_ingredientes:
@@ -120,6 +132,20 @@ image_note: Ilustración de la versión principal con trigueros; sin huevo ni ca
 image_width: 1672
 image_height: 941
 pdf: https://fucolin.github.io/recetario/gambas-salteadas-trigueros.pdf
+ingredientes_basicos:
+- gambas
+- espárragos trigueros
+ingredientes_basicos_opciones:
+- tipo: alternativa
+  ingredientes:
+  - calabacín
+  sustituye:
+  - espárragos trigueros
+  nota: Versión con calabacín en bastones.
+- tipo: opcional
+  ingredientes:
+  - huevos
+  nota: Huevo escalfado aparte, uno por persona, al servir.
 ---
 
 # Gambas salteadas con trigueros

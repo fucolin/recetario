@@ -35,38 +35,45 @@
       "cantidad": 2,
       "unidad": "unidades",
       "nota": "grandes; integrales o de espelta",
-      "producto_preferido": "piadina-espelta-biocop"
+      "producto_preferido": "piadina-espelta-biocop",
+      "es_condimento": false
     },
     {
       "nombre": "salmón ahumado",
       "cantidad": 100,
-      "unidad": "g"
+      "unidad": "g",
+      "es_condimento": false
     },
     {
       "nombre": "aguacate",
       "cantidad": 0.5,
       "unidad": "unidad",
-      "nota": "mediano"
+      "nota": "mediano",
+      "es_condimento": false
     },
     {
       "nombre": "tomate",
       "cantidad": 150,
-      "unidad": "g"
+      "unidad": "g",
+      "es_condimento": false
     },
     {
       "nombre": "espinacas frescas",
       "cantidad": 40,
-      "unidad": "g"
+      "unidad": "g",
+      "es_condimento": false
     },
     {
       "nombre": "hummus",
       "cantidad": 20,
-      "unidad": "g"
+      "unidad": "g",
+      "es_condimento": false
     },
     {
       "nombre": "queso crema o requesón",
       "cantidad": 20,
-      "unidad": "g"
+      "unidad": "g",
+      "es_condimento": false
     }
   ],
   "indicaciones": "Prepara el relleno. Corta el aguacate y el tomate en rodajas finas y deja escurrir bien el tomate. Lava y seca bien las espinacas; si las hojas son muy grandes, córtalas un poco. Escurrir el tomate y secar las hojas evita que la tortilla se humedezca.\n\nTempla las tortillas. Caliéntalas al menos 30 s por cada lado en una sartén para que se doblen sin romperse.\n\nMarca y unta. Marca 4 partes con un cuchillo (sin cortar). Unta dos con hummus y dos con queso.\n\nReparte el relleno. Un ingrediente en cada cuarto: aguacate, tomate, salmón y espinacas.\n\nDobla por la mitad. Lleva una mitad sobre la otra, con cuidado de que no se salgan los ingredientes.\n\nDobla de nuevo. Y ya tienes el paquete en cuartos.\n\nToque de sartén opcional. Si te apetece un toque crujiente, pasa las fajitas por una sartén antiadherente sin aceite, alrededor de 1 minuto por cada cara a fuego medio.",
@@ -151,6 +158,37 @@
     {
       "url": "https://www.oldelpaso.es/products/wraps-extra-finas",
       "asunto": "Sin conservantes; contiene otros aditivos, como estabilizante y emulgente"
+    }
+  ],
+  "ingredientes_basicos": [
+    "tortillas de trigo",
+    "salmón ahumado",
+    "aguacate",
+    "tomate",
+    "espinacas",
+    "hummus",
+    "queso crema"
+  ],
+  "ingredientes_basicos_opciones": [
+    {
+      "tipo": "alternativa",
+      "ingredientes": [
+        "piadina"
+      ],
+      "sustituye": [
+        "tortillas de trigo"
+      ],
+      "nota": "Elegir tortilla o piadina."
+    },
+    {
+      "tipo": "alternativa",
+      "ingredientes": [
+        "requesón"
+      ],
+      "sustituye": [
+        "queso crema"
+      ],
+      "nota": "Elegir queso crema o requesón."
     }
   ]
 }

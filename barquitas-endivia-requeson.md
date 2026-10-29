@@ -19,10 +19,12 @@ tiempo_total_min:
   max: 5
 ingredientes:
 - nombre: endivia
+  es_condimento: false
   cantidad: 1
   unidad: unidad
   nota: 6-8 hojas
 - nombre: requesón
+  es_condimento: false
   cantidad: 100
   unidad: g
   producto_preferido: requeson-loran
@@ -53,6 +55,64 @@ image_alt: Hojas de endivia con requesón, cebollino, ralladura de limón y pimi
 image_credit: Imagen generada con IA para Casa Marisa
 image_note: Imagen ilustrativa generada con IA; no es una fotografía del plato preparado. Muestra la opción
   de aderezo fresco.
+ingredientes_basicos:
+- endivia
+- requesón
+ingredientes_basicos_opciones:
+- tipo: opcional
+  ingredientes:
+  - nueces
+  nota: Solo en el aderezo Crujiente; elegir una opción de aderezo.
+condimentos_opciones:
+- origen: opciones_aderezo[0].ingredientes[0]
+  nombre: pimienta negra
+  es_condimento: true
+  condicion: Solo en el aderezo Fresco.
+  tipo_condimento: sal_y_especias
+- origen: opciones_aderezo[0].ingredientes[1]
+  nombre: limón
+  es_condimento: true
+  condicion: Solo en el aderezo Fresco.
+  tipo_condimento: aceites_acidos_y_salsas
+- origen: opciones_aderezo[0].ingredientes[2]
+  nombre: cebollino
+  es_condimento: true
+  condicion: Solo en el aderezo Fresco.
+  tipo_condimento: hierbas_aromaticas
+- origen: opciones_aderezo[1].ingredientes[0]
+  nombre: aceite de oliva virgen extra
+  es_condimento: true
+  condicion: Solo en el aderezo Mediterráneo.
+  tipo_condimento: aceites_acidos_y_salsas
+- origen: opciones_aderezo[1].ingredientes[1]
+  nombre: pimentón ahumado
+  es_condimento: true
+  condicion: Solo en el aderezo Mediterráneo.
+  tipo_condimento: sal_y_especias
+- origen: opciones_aderezo[2].ingredientes[0]
+  nombre: aceite de oliva virgen extra
+  es_condimento: true
+  condicion: Solo en el aderezo Aromático.
+  tipo_condimento: aceites_acidos_y_salsas
+- origen: opciones_aderezo[2].ingredientes[1]
+  nombre: zaatar
+  es_condimento: true
+  condicion: Solo en el aderezo Aromático.
+  tipo_condimento: sal_y_especias
+- origen: opciones_aderezo[3].ingredientes[0]
+  nombre: nueces
+  es_condimento: false
+  condicion: Solo en el aderezo Crujiente.
+- origen: opciones_aderezo[3].ingredientes[1]
+  nombre: limón
+  es_condimento: true
+  condicion: Solo en el aderezo Crujiente.
+  tipo_condimento: aceites_acidos_y_salsas
+- origen: opciones_aderezo[3].ingredientes[2]
+  nombre: pimienta negra
+  es_condimento: true
+  condicion: Solo en el aderezo Crujiente.
+  tipo_condimento: sal_y_especias
 ---
 
 

@@ -27,44 +27,56 @@
       "nombre": "canónigos",
       "cantidad": 100,
       "unidad": "g",
-      "nota": "o mezcla de lechugas y espinacas tiernas"
+      "nota": "o mezcla de lechugas y espinacas tiernas",
+      "es_condimento": false
     },
     {
       "nombre": "salmón ahumado",
       "cantidad": 150,
-      "unidad": "g"
+      "unidad": "g",
+      "es_condimento": false
     },
     {
       "nombre": "mango",
       "cantidad": 150,
       "unidad": "g",
-      "nota": "pelado y sin hueso; maduro pero firme"
+      "nota": "pelado y sin hueso; maduro pero firme",
+      "es_condimento": false
     },
     {
       "nombre": "aguacate",
       "cantidad": 1,
       "unidad": "unidad",
-      "nota": "mediano"
+      "nota": "mediano",
+      "es_condimento": false
     },
     {
       "nombre": "aceite de oliva virgen extra",
       "cantidad": 1,
-      "unidad": "cucharada"
+      "unidad": "cucharada",
+      "es_condimento": true,
+      "tipo_condimento": "aceites_acidos_y_salsas"
     },
     {
       "nombre": "zumo de limón",
       "cantidad": 1,
       "unidad": "cucharada",
-      "nota": "ajustable al gusto"
+      "nota": "ajustable al gusto",
+      "es_condimento": true,
+      "tipo_condimento": "aceites_acidos_y_salsas"
     },
     {
       "nombre": "pimienta negra",
-      "nota": "al gusto"
+      "nota": "al gusto",
+      "es_condimento": true,
+      "tipo_condimento": "sal_y_especias"
     },
     {
       "nombre": "sal",
       "nota": "solo si hace falta después de probar",
-      "opcional": true
+      "opcional": true,
+      "es_condimento": true,
+      "tipo_condimento": "sal_y_especias"
     }
   ],
   "indicaciones": "Lava las hojas si no vienen listas para consumir y sécalas bien. Corta el mango, maduro pero firme, en dados; el salmón en tiras o trozos y el aguacate en dados o láminas. Mezcla el aceite con el limón y un poco de pimienta. Aliña ligeramente las hojas, reparte encima el mango, el aguacate y el salmón, y termina con el aliño restante. Sirve enseguida, sin remover demasiado.",
@@ -96,5 +108,24 @@
         "imagen": "../imagenes/ensalada-de-salmon-ahumado-mango-y-aguacate-2026-09-10.png"
       }
     ]
-  }
+  },
+  "ingredientes_basicos": [
+    "canónigos",
+    "salmón ahumado",
+    "mango",
+    "aguacate"
+  ],
+  "ingredientes_basicos_opciones": [
+    {
+      "tipo": "alternativa",
+      "ingredientes": [
+        "lechuga",
+        "espinacas"
+      ],
+      "sustituye": [
+        "canónigos"
+      ],
+      "nota": "Mezcla de lechugas y espinacas tiernas indicada en la ficha."
+    }
+  ]
 }

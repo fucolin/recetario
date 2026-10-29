@@ -28,27 +28,34 @@ tiempo_total_min:
   max: 15
 ingredientes:
 - nombre: tortillas/piadinas
+  es_condimento: false
   cantidad: 2
   unidad: unidades
   nota: grandes; integrales o de espelta
   producto_preferido: piadina-espelta-biocop
 - nombre: salmón ahumado
+  es_condimento: false
   cantidad: 100
   unidad: g
 - nombre: aguacate
+  es_condimento: false
   cantidad: 0.5
   unidad: unidad
   nota: mediano
 - nombre: tomate
+  es_condimento: false
   cantidad: 150
   unidad: g
 - nombre: espinacas frescas
+  es_condimento: false
   cantidad: 40
   unidad: g
 - nombre: hummus
+  es_condimento: false
   cantidad: 20
   unidad: g
 - nombre: queso crema o requesón
+  es_condimento: false
   cantidad: 20
   unidad: g
 indicaciones: 'Prepara el relleno. Corta el aguacate y el tomate en rodajas finas y deja escurrir bien el tomate.
@@ -130,6 +137,27 @@ referencias_consejo:
   asunto: 'Ingredientes: estabilizantes, emulgente y conservadores'
 - url: https://www.oldelpaso.es/products/wraps-extra-finas
   asunto: Sin conservantes; contiene otros aditivos, como estabilizante y emulgente
+ingredientes_basicos:
+- tortillas de trigo
+- salmón ahumado
+- aguacate
+- tomate
+- espinacas
+- hummus
+- queso crema
+ingredientes_basicos_opciones:
+- tipo: alternativa
+  ingredientes:
+  - piadina
+  sustituye:
+  - tortillas de trigo
+  nota: Elegir tortilla o piadina.
+- tipo: alternativa
+  ingredientes:
+  - requesón
+  sustituye:
+  - queso crema
+  nota: Elegir queso crema o requesón.
 ---
 
 # Fajitas de salmón

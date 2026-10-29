@@ -49,6 +49,10 @@ Una revisión automática puede bloquear una operación pese a estas reglas. No 
 
 ## Estilo y datos esenciales
 
+- **Condimentos por receta:** en los objetos de ingredientes actuales, indicar `es_condimento` y, solo cuando sea `true`, `tipo_condimento` con uno de los cinco grupos acordados. Valorar la función en cada ficha: ajo del ajillo y albahaca protagonista son básicos, no condimentos. Conservar alternativas y opcionales. Las opciones textuales y las mezclas de agua/caldo se anotan por referencia sin alterar su formato original. Ver [estructura y grupos](docs/REFERENCIA_DE_TRABAJO.md#condimentos-por-receta).
+
+- **Ingredientes básicos:** todas las fichas de platos (`receta`, `preparacion` y `combinacion`) llevan `ingredientes_basicos` en YAML y JSON: nombres sencillos, sin cantidades, de los ingredientes que definen la preparación. Ajo, cebolla y otras bases aromáticas solo se incluyen cuando tienen protagonismo (ajo en un ajillo, cebolla asada como parte del plato); no por formar parte del sofrito. No equivale a prioridad de compra. Alternativas y añadidos básicos opcionales se separan en `ingredientes_basicos_opciones`, con sus condiciones. Ver [criterio y estructura](docs/REFERENCIA_DE_TRABAJO.md#ingredientes-básicos).
+
 - Pasta: usar preferiblemente pasta integral y 50 g en seco por persona como cantidad de referencia, salvo ajuste acordado para una receta concreta. Para las gambas al ajillo con pasta, conservar 100 g de pasta seca preferiblemente integral y 250 g de gambas peladas para dos personas; el manuscrito de Marisa conserva sus 250 g de pasta originales.
 
 - Antes de desarrollar cualquier ficha, comprobar en `datos/estado-fichas.json`, portada y categoría si ya existe publicada o en «Próximamente», también con nombres equivalentes. Comunicar la coincidencia y reutilizar su identificador; al publicarla, sustituir la prevista sin duplicados. Hacer esta comprobación siempre, aunque el usuario no mencione las próximas.
