@@ -301,3 +301,12 @@ Ilustraciones generadas con IA para Casa Marisa a partir de los ingredientes y l
 
 - Ilustración: `images/crema-calabacin-ilustracion-v1.jpg`, generada con IA para Casa Marisa. Crema verde suave con piel triturada, sin guarniciones añadidas. Referencias de estilo: crema de aprovechamiento y burrito de frijoles negros. No se atribuye autoría fotográfica ni licencia Creative Commons.
 - Manuscrito: `images/originales-marisa/crema-calabacin-manuscrito.jpeg`. Receta escrita por Marisa; fotografía aportada por el usuario, conservada completa y sin recortes. Se han retirado los metadatos sin alterar los píxeles. Sin licencia de reutilización indicada.
+
+## La Piadina di Marisa
+
+- Archivo: `images/la-piadina-di-marisa-ilustracion-v1.jpg`.
+- Origen: ilustración generada con IA para Casa Marisa.
+- Representa la versión con hummus, jamón curado, queso de cabra en lonchas, cherry y brotes de lechuga; no representa las alternativas.
+- Estilo: luz natural cálida, encimera beige y vajilla de cerámica clara; referencia visual de las ilustraciones vigentes del recetario.
+- Presentación horizontal 16:9; original conservado en el trabajo privado y JPEG optimizado para web.
+- Sin atribución fotográfica ni licencia de reutilización inventadas.

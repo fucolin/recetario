@@ -1,0 +1,470 @@
+---
+esquema: recetario-1.0
+id: la-piadina-di-marisa
+familia: la-piadina-di-marisa
+variante: principal
+titulo: La Piadina di Marisa
+subtitulo: Con hummus, jamón, queso de cabra, cherry y brotes
+tipo_ficha: receta
+categoria_menu: Envueltos y bocados
+fecha_actualizacion: '2026-11-07'
+raciones:
+  min: 2
+  max: 2
+tiempo_total_min:
+  min: 10
+  max: 15
+encabezado:
+  titulo: La Piadina di Marisa
+  detalle: Con hummus, jamón, queso de cabra, cherry y brotes · 2 raciones · 10-15 min
+ingredientes:
+- nombre: piadina
+  cantidad: 2
+  unidad: unidades
+  nota: medianas, de unos 22-25 cm
+  es_condimento: false
+- nombre: hummus
+  cantidad: 80
+  unidad: g
+  es_condimento: false
+- nombre: tomates cherry
+  cantidad: 160
+  unidad: g
+  es_condimento: false
+- nombre: brotes de lechuga
+  cantidad: 40
+  unidad: g
+  es_condimento: false
+- nombre: jamón
+  cantidad: 40
+  unidad: g
+  nota: curado o cocido, en lonchas finas; usar el que haya en casa
+  es_condimento: false
+- nombre: queso de cabra en lonchas
+  cantidad: 40
+  unidad: g
+  es_condimento: false
+ingredientes_basicos:
+- piadina
+- hummus
+- tomates cherry
+- brotes de lechuga
+- jamón
+- queso de cabra
+ingredientes_basicos_opciones:
+- tipo: alternativa
+  ingredientes:
+  - pollo
+  - calabacín
+  - rúcula
+  - yogur natural
+  sustituye:
+  - hummus
+  - tomates cherry
+  - brotes de lechuga
+  - jamón
+  - queso de cabra
+  nota: Relleno de pollo y calabacín, con rúcula; sustituye todo el relleno principal, conservando la piadina.
+- tipo: alternativa
+  ingredientes:
+  - pollo
+  - calabacín
+  - canónigos
+  - yogur natural
+  sustituye:
+  - hummus
+  - tomates cherry
+  - brotes de lechuga
+  - jamón
+  - queso de cabra
+  nota: Mismo relleno de pollo y calabacín, eligiendo canónigos en lugar de rúcula.
+- tipo: alternativa
+  ingredientes:
+  - hummus
+  - berenjena asada
+  - tomate
+  sustituye:
+  - hummus
+  - tomates cherry
+  - brotes de lechuga
+  - jamón
+  - queso de cabra
+  nota: Relleno de hummus y berenjena; sustituye todo el relleno principal, conservando la piadina.
+- tipo: alternativa
+  ingredientes:
+  - espinacas
+  - champiñones
+  - requesón
+  sustituye:
+  - hummus
+  - tomates cherry
+  - brotes de lechuga
+  - jamón
+  - queso de cabra
+  nota: Relleno de espinacas y champiñones; sustituye todo el relleno principal, conservando la piadina.
+- tipo: alternativa
+  ingredientes:
+  - sardinas en conserva
+  - pimientos asados
+  - rúcula
+  sustituye:
+  - hummus
+  - tomates cherry
+  - brotes de lechuga
+  - jamón
+  - queso de cabra
+  nota: Relleno de sardinas y pimientos; sustituye todo el relleno principal, conservando la piadina.
+pdf_ingredientes:
+- 2 piadinas medianas (22-25 cm)
+- 80 g de hummus
+- 160 g de tomates cherry
+- 40 g de brotes de lechuga
+- 40 g de jamón en lonchas finas
+- 40 g de queso de cabra en lonchas
+pasos:
+- orden: 1
+  titulo: Prepara el relleno
+  duracion_texto: 4-5 min
+  duracion_min: 5
+  instrucciones: 'Lava y seca los cherry, córtalos en cuartos y déjalos escurrir; si sueltan mucho jugo, sécalos
+    con papel. Lava los brotes si lo necesitan y sécalos muy bien. Separa el jamón y trocea el queso. Divide los
+    ingredientes en dos partes: harás una piadina cada vez.'
+- orden: 2
+  titulo: Templa la piadina
+  duracion_texto: 30-60 s
+  duracion_min: 1
+  instrucciones: 'Calienta una sartén amplia y seca a fuego medio-bajo. Pon una piadina unos 20-30 segundos y dale
+    la vuelta: debe quedar caliente, flexible y ligeramente tostada, sin endurecerse. Si el envase indica otra preparación,
+    respétala y adapta este calentado.'
+- orden: 3
+  titulo: Rellena con hummus y queso y dobla
+  duracion_texto: 1 min
+  duracion_min: 1
+  instrucciones: Aparta la sartén del fuego. Extiende 40 g de hummus en una capa fina sobre una mitad de la piadina,
+    dejando 2 cm libres en el borde. Reparte 20 g de queso y dobla la mitad vacía sobre el relleno, sin aplastarlo.
+- orden: 4
+  titulo: Dora la piadina doblada
+  duracion_texto: 40-60 s
+  duracion_min: 1
+  instrucciones: Devuelve la piadina doblada a la sartén seca, a fuego medio-bajo, unos 20-30 segundos por cada
+    lado. Gírala con una espátula y vigila que se dore ligeramente sin quedar rígida. El queso debe ablandarse;
+    no necesita fundirse por completo. Retira a un plato.
+- orden: 5
+  titulo: Añade el relleno fresco y sirve
+  duracion_texto: 2-3 min para terminar ambas
+  duracion_min: 3
+  instrucciones: Abre la piadina con cuidado, ayudándote con la espátula, y añade 20 g de jamón en pliegues sueltos,
+    80 g de cherry escurridos y 20 g de brotes. Reparte sin amontonar y cierra sin aplastar. Sirve enseguida, entera
+    o cortada con cuchillo de sierra. Repite con la segunda; para servir juntas, termina las dos bases calientes
+    seguidas y añade los ingredientes frescos al final.
+claves: 'Tomates escurridos y brotes bien secos. Hummus en capa fina y dorado breve para que la base siga flexible.
+  El golpe final de sartén se hace solo con hummus y queso dentro; jamón, cherry y hojas entran después, fuera del
+  fuego. No añadas sal de entrada: prueba antes el jamón, el queso y el hummus.'
+fuente:
+  atribucion: Combinación propuesta en casa, con alternativas de relleno desarrolladas para Casa Marisa.
+etiquetas:
+- piadina
+- hummus
+- jamón
+- queso de cabra
+- tomates cherry
+- brotes
+- pollo
+- calabacín
+- berenjena
+- espinacas
+- champiñones
+- requesón
+- sardinas
+- pimientos asados
+pdf: la-piadina-di-marisa.pdf
+image: https://fucolin.github.io/recetario/images/la-piadina-di-marisa-ilustracion-v1.jpg
+image_alt: Piadina fina ligeramente tostada y cortada en dos, con hummus, jamón curado, queso de cabra, tomates
+  cherry y hojas de lechuga frescas
+image_credit: Ilustración generada con IA para Casa Marisa
+image_license: null
+image_source: null
+image_note: Imagen ilustrativa generada con IA; no es una fotografía del plato preparado. Representa la opción con
+  jamón curado.
+alternativas_relleno:
+- id: pollo-calabacin
+  titulo: Pollo, calabacín y salsa de yogur
+  raciones: 1
+  ingredientes:
+  - nombre: pollo
+    cantidad: 100
+    unidad: g
+    es_condimento: false
+    nota: peso en crudo
+  - nombre: calabacín
+    cantidad: 100
+    unidad: g
+    es_condimento: false
+  - nombre: rúcula
+    cantidad: 10
+    unidad: g
+    es_condimento: false
+    alternativa:
+      nombre: canónigos
+      cantidad: 10
+      unidad: g
+      es_condimento: false
+  - nombre: yogur natural
+    cantidad: 30
+    unidad: g
+    es_condimento: false
+  - nombre: aceite de oliva
+    cantidad: 2.5
+    unidad: ml
+    es_condimento: true
+    tipo_condimento: aceites_acidos_y_salsas
+  indicaciones: 'Por piadina: 100 g de pollo, 100 g de calabacín, 10 g de rúcula o canónigos, 30 g de yogur natural
+    y ½ cucharadita de aceite. Saltea el calabacín en medias lunas finas 6-8 min; reserva. Cocina el pollo en tiras
+    hasta que esté completamente hecho (74 °C en el centro). Monta con el yogur y las hojas fuera del fuego.'
+- id: hummus-berenjena
+  titulo: Hummus, berenjena asada y tomate
+  raciones: 1
+  ingredientes:
+  - nombre: hummus
+    cantidad: 40
+    unidad: g
+    es_condimento: false
+  - nombre: berenjena asada
+    cantidad: 100
+    unidad: g
+    es_condimento: false
+  - nombre: tomate
+    cantidad: 50
+    unidad: g
+    es_condimento: false
+  - nombre: comino
+    cantidad: 1
+    unidad: pizca
+    es_condimento: true
+    tipo_condimento: sal_y_especias
+  - nombre: aceite de oliva
+    cantidad: 2.5
+    unidad: ml
+    es_condimento: true
+    tipo_condimento: aceites_acidos_y_salsas
+  indicaciones: 'Por piadina: 40 g de hummus, 100 g de berenjena ya asada, 50 g de tomate y una pizca de comino.
+    Para asar la berenjena, córtala en láminas, pincela con ½ cucharadita de aceite por ración y hornea a 200 °C,
+    20-25 min, hasta tierna. Déjala templar; añade el tomate escurrido al final.'
+- id: espinacas-champinones
+  titulo: Espinacas, champiñones y requesón
+  raciones: 1
+  ingredientes:
+  - nombre: espinacas
+    cantidad: 60
+    unidad: g
+    es_condimento: false
+  - nombre: champiñones
+    cantidad: 100
+    unidad: g
+    es_condimento: false
+  - nombre: requesón
+    cantidad: 50
+    unidad: g
+    es_condimento: false
+  - nombre: aceite de oliva
+    cantidad: 2.5
+    unidad: ml
+    es_condimento: true
+    tipo_condimento: aceites_acidos_y_salsas
+  - nombre: pimienta
+    cantidad: 1
+    unidad: pizca
+    es_condimento: true
+    tipo_condimento: sal_y_especias
+  indicaciones: 'Por piadina: 60 g de espinacas, 100 g de champiñones, 50 g de requesón, ½ cucharadita de aceite
+    y pimienta. Saltea los champiñones laminados 5-7 min; añade las espinacas 1-2 min y deja evaporar el agua. Fuera
+    del fuego, incorpora el requesón bien escurrido y rellena.'
+- id: sardinas-pimientos
+  titulo: Sardinas, pimientos asados y rúcula
+  raciones: 1
+  ingredientes:
+  - nombre: sardinas en conserva
+    cantidad: 60
+    unidad: g
+    es_condimento: false
+    nota: peso escurrido
+  - nombre: pimientos asados
+    cantidad: 60
+    unidad: g
+    es_condimento: false
+    nota: peso escurrido
+  - nombre: rúcula
+    cantidad: 10
+    unidad: g
+    es_condimento: false
+  - nombre: aceite de la conserva
+    cantidad: 2.5
+    unidad: ml
+    es_condimento: true
+    tipo_condimento: aceites_acidos_y_salsas
+    nota: solo si las sardinas vienen en aceite
+    opcional: true
+  indicaciones: 'Por piadina: 60 g de sardinas en conserva escurridas, 60 g de pimientos asados escurridos y 10
+    g de rúcula. Si vienen en aceite, usa hasta ½ cucharadita para dar jugosidad. Templa solo la piadina; añade
+    el relleno fuera del fuego y evita recalentarlo.'
+opciones:
+- titulo: Jamón y montaje
+  texto: Usa jamón curado o cocido, en lonchas finas. No hace falta aceite en la sartén antiadherente.
+- titulo: Otros rellenos
+  texto: Las cantidades siguientes son por piadina y sustituyen al relleno principal. Duplica para dos. Conserva
+    una base por persona; los 10-15 min corresponden solo a la versión principal.
+- titulo: Pollo, calabacín y salsa de yogur
+  texto: 'Por piadina: 100 g de pollo, 100 g de calabacín, 10 g de rúcula o canónigos, 30 g de yogur natural y ½
+    cucharadita de aceite. Saltea el calabacín en medias lunas finas 6-8 min; reserva. Cocina el pollo en tiras
+    hasta que esté completamente hecho (74 °C en el centro). Monta con el yogur y las hojas fuera del fuego.'
+- titulo: Hummus, berenjena asada y tomate
+  texto: 'Por piadina: 40 g de hummus, 100 g de berenjena ya asada, 50 g de tomate y una pizca de comino. Para asar
+    la berenjena, córtala en láminas, pincela con ½ cucharadita de aceite por ración y hornea a 200 °C, 20-25 min,
+    hasta tierna. Déjala templar; añade el tomate escurrido al final.'
+- titulo: Espinacas, champiñones y requesón
+  texto: 'Por piadina: 60 g de espinacas, 100 g de champiñones, 50 g de requesón, ½ cucharadita de aceite y pimienta.
+    Saltea los champiñones laminados 5-7 min; añade las espinacas 1-2 min y deja evaporar el agua. Fuera del fuego,
+    incorpora el requesón bien escurrido y rellena.'
+- titulo: Sardinas, pimientos asados y rúcula
+  texto: 'Por piadina: 60 g de sardinas en conserva escurridas, 60 g de pimientos asados escurridos y 10 g de rúcula.
+    Si vienen en aceite, usa hasta ½ cucharadita para dar jugosidad. Templa solo la piadina; añade el relleno fuera
+    del fuego y evita recalentarlo.'
+condimentos_opciones:
+- origen: alternativas_relleno[0].ingredientes[0]
+  nombre: pollo
+  es_condimento: false
+  condicion: Solo al elegir el relleno «Pollo, calabacín y salsa de yogur»; cantidades por piadina.
+- origen: alternativas_relleno[0].ingredientes[1]
+  nombre: calabacín
+  es_condimento: false
+  condicion: Solo al elegir el relleno «Pollo, calabacín y salsa de yogur»; cantidades por piadina.
+- origen: alternativas_relleno[0].ingredientes[2]
+  nombre: rúcula
+  es_condimento: false
+  condicion: Solo al elegir el relleno «Pollo, calabacín y salsa de yogur»; cantidades por piadina.
+- origen: alternativas_relleno[0].ingredientes[2].alternativa
+  nombre: canónigos
+  es_condimento: false
+  condicion: Elegir canónigos en vez de rúcula dentro del relleno de pollo.
+- origen: alternativas_relleno[0].ingredientes[3]
+  nombre: yogur natural
+  es_condimento: false
+  condicion: Solo al elegir el relleno «Pollo, calabacín y salsa de yogur»; cantidades por piadina.
+- origen: alternativas_relleno[0].ingredientes[4]
+  nombre: aceite de oliva
+  es_condimento: true
+  tipo_condimento: aceites_acidos_y_salsas
+  condicion: Solo al elegir el relleno «Pollo, calabacín y salsa de yogur»; cantidades por piadina.
+- origen: alternativas_relleno[1].ingredientes[0]
+  nombre: hummus
+  es_condimento: false
+  condicion: Solo al elegir el relleno «Hummus, berenjena asada y tomate»; cantidades por piadina.
+- origen: alternativas_relleno[1].ingredientes[1]
+  nombre: berenjena asada
+  es_condimento: false
+  condicion: Solo al elegir el relleno «Hummus, berenjena asada y tomate»; cantidades por piadina.
+- origen: alternativas_relleno[1].ingredientes[2]
+  nombre: tomate
+  es_condimento: false
+  condicion: Solo al elegir el relleno «Hummus, berenjena asada y tomate»; cantidades por piadina.
+- origen: alternativas_relleno[1].ingredientes[3]
+  nombre: comino
+  es_condimento: true
+  tipo_condimento: sal_y_especias
+  condicion: Solo al elegir el relleno «Hummus, berenjena asada y tomate»; cantidades por piadina.
+- origen: alternativas_relleno[1].ingredientes[4]
+  nombre: aceite de oliva
+  es_condimento: true
+  tipo_condimento: aceites_acidos_y_salsas
+  condicion: Solo al elegir el relleno «Hummus, berenjena asada y tomate»; cantidades por piadina.
+- origen: alternativas_relleno[2].ingredientes[0]
+  nombre: espinacas
+  es_condimento: false
+  condicion: Solo al elegir el relleno «Espinacas, champiñones y requesón»; cantidades por piadina.
+- origen: alternativas_relleno[2].ingredientes[1]
+  nombre: champiñones
+  es_condimento: false
+  condicion: Solo al elegir el relleno «Espinacas, champiñones y requesón»; cantidades por piadina.
+- origen: alternativas_relleno[2].ingredientes[2]
+  nombre: requesón
+  es_condimento: false
+  condicion: Solo al elegir el relleno «Espinacas, champiñones y requesón»; cantidades por piadina.
+- origen: alternativas_relleno[2].ingredientes[3]
+  nombre: aceite de oliva
+  es_condimento: true
+  tipo_condimento: aceites_acidos_y_salsas
+  condicion: Solo al elegir el relleno «Espinacas, champiñones y requesón»; cantidades por piadina.
+- origen: alternativas_relleno[2].ingredientes[4]
+  nombre: pimienta
+  es_condimento: true
+  tipo_condimento: sal_y_especias
+  condicion: Solo al elegir el relleno «Espinacas, champiñones y requesón»; cantidades por piadina.
+- origen: alternativas_relleno[3].ingredientes[0]
+  nombre: sardinas en conserva
+  es_condimento: false
+  condicion: Solo al elegir el relleno «Sardinas, pimientos asados y rúcula»; cantidades por piadina.
+- origen: alternativas_relleno[3].ingredientes[1]
+  nombre: pimientos asados
+  es_condimento: false
+  condicion: Solo al elegir el relleno «Sardinas, pimientos asados y rúcula»; cantidades por piadina.
+- origen: alternativas_relleno[3].ingredientes[2]
+  nombre: rúcula
+  es_condimento: false
+  condicion: Solo al elegir el relleno «Sardinas, pimientos asados y rúcula»; cantidades por piadina.
+- origen: alternativas_relleno[3].ingredientes[3]
+  nombre: aceite de la conserva
+  es_condimento: true
+  tipo_condimento: aceites_acidos_y_salsas
+  condicion: Solo al elegir el relleno «Sardinas, pimientos asados y rúcula»; cantidades por piadina.
+---
+
+# La Piadina di Marisa
+
+Con hummus, jamón, queso de cabra, cherry y brotes · 2 raciones · 10-15 min
+
+![Piadina fina ligeramente tostada y cortada en dos, con hummus, jamón curado, queso de cabra, tomates cherry y hojas de lechuga frescas](images/la-piadina-di-marisa-ilustracion-v1.jpg)
+
+Ilustración generada con IA.
+
+## Ingredientes
+
+- 2 piadinas medianas (22-25 cm)
+- 80 g de hummus
+- 160 g de tomates cherry
+- 40 g de brotes de lechuga
+- 40 g de jamón en lonchas finas
+- 40 g de queso de cabra en lonchas
+
+## Preparación
+
+1. **Prepara el relleno · 4-5 min.** Lava y seca los cherry, córtalos en cuartos y déjalos escurrir; si sueltan mucho jugo, sécalos con papel. Lava los brotes si lo necesitan y sécalos muy bien. Separa el jamón y trocea el queso. Divide los ingredientes en dos partes: harás una piadina cada vez.
+
+2. **Templa la piadina · 30-60 s.** Calienta una sartén amplia y seca a fuego medio-bajo. Pon una piadina unos 20-30 segundos y dale la vuelta: debe quedar caliente, flexible y ligeramente tostada, sin endurecerse. Si el envase indica otra preparación, respétala y adapta este calentado.
+
+3. **Rellena con hummus y queso y dobla · 1 min.** Aparta la sartén del fuego. Extiende 40 g de hummus en una capa fina sobre una mitad de la piadina, dejando 2 cm libres en el borde. Reparte 20 g de queso y dobla la mitad vacía sobre el relleno, sin aplastarlo.
+
+4. **Dora la piadina doblada · 40-60 s.** Devuelve la piadina doblada a la sartén seca, a fuego medio-bajo, unos 20-30 segundos por cada lado. Gírala con una espátula y vigila que se dore ligeramente sin quedar rígida. El queso debe ablandarse; no necesita fundirse por completo. Retira a un plato.
+
+5. **Añade el relleno fresco y sirve · 2-3 min para terminar ambas.** Abre la piadina con cuidado, ayudándote con la espátula, y añade 20 g de jamón en pliegues sueltos, 80 g de cherry escurridos y 20 g de brotes. Reparte sin amontonar y cierra sin aplastar. Sirve enseguida, entera o cortada con cuchillo de sierra. Repite con la segunda; para servir juntas, termina las dos bases calientes seguidas y añade los ingredientes frescos al final.
+
+## Claves
+
+Tomates escurridos y brotes bien secos. Hummus en capa fina y dorado breve para que la base siga flexible. El golpe final de sartén se hace solo con hummus y queso dentro; jamón, cherry y hojas entran después, fuera del fuego. No añadas sal de entrada: prueba antes el jamón, el queso y el hummus.
+
+## Opciones
+
+**Jamón y montaje:** Usa jamón curado o cocido, en lonchas finas. No hace falta aceite en la sartén antiadherente.
+
+**Otros rellenos:** Las cantidades siguientes son por piadina y sustituyen al relleno principal. Duplica para dos. Conserva una base por persona; los 10-15 min corresponden solo a la versión principal.
+
+**Pollo, calabacín y salsa de yogur:** Por piadina: 100 g de pollo, 100 g de calabacín, 10 g de rúcula o canónigos, 30 g de yogur natural y ½ cucharadita de aceite. Saltea el calabacín en medias lunas finas 6-8 min; reserva. Cocina el pollo en tiras hasta que esté completamente hecho (74 °C en el centro). Monta con el yogur y las hojas fuera del fuego.
+
+**Hummus, berenjena asada y tomate:** Por piadina: 40 g de hummus, 100 g de berenjena ya asada, 50 g de tomate y una pizca de comino. Para asar la berenjena, córtala en láminas, pincela con ½ cucharadita de aceite por ración y hornea a 200 °C, 20-25 min, hasta tierna. Déjala templar; añade el tomate escurrido al final.
+
+**Espinacas, champiñones y requesón:** Por piadina: 60 g de espinacas, 100 g de champiñones, 50 g de requesón, ½ cucharadita de aceite y pimienta. Saltea los champiñones laminados 5-7 min; añade las espinacas 1-2 min y deja evaporar el agua. Fuera del fuego, incorpora el requesón bien escurrido y rellena.
+
+**Sardinas, pimientos asados y rúcula:** Por piadina: 60 g de sardinas en conserva escurridas, 60 g de pimientos asados escurridos y 10 g de rúcula. Si vienen en aceite, usa hasta ½ cucharadita para dar jugosidad. Templa solo la piadina; añade el relleno fuera del fuego y evita recalentarlo.
+
+## Fuente
+
+Combinación propuesta en casa, con alternativas de relleno desarrolladas para Casa Marisa.

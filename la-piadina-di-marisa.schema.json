@@ -1,0 +1,53 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "La Piadina di Marisa",
+  "description": "Con hummus, jamón, queso de cabra, cherry y brotes",
+  "recipeCategory": "Envueltos y bocados",
+  "recipeYield": "2 raciones",
+  "totalTime": "PT15M",
+  "recipeIngredient": [
+    "2 piadinas medianas (22-25 cm)",
+    "80 g de hummus",
+    "160 g de tomates cherry",
+    "40 g de brotes de lechuga",
+    "40 g de jamón en lonchas finas",
+    "40 g de queso de cabra en lonchas"
+  ],
+  "recipeInstructions": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "Prepara el relleno",
+      "text": "Lava y seca los cherry, córtalos en cuartos y déjalos escurrir; si sueltan mucho jugo, sécalos con papel. Lava los brotes si lo necesitan y sécalos muy bien. Separa el jamón y trocea el queso. Divide los ingredientes en dos partes: harás una piadina cada vez."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "Templa la piadina",
+      "text": "Calienta una sartén amplia y seca a fuego medio-bajo. Pon una piadina unos 20-30 segundos y dale la vuelta: debe quedar caliente, flexible y ligeramente tostada, sin endurecerse. Si el envase indica otra preparación, respétala y adapta este calentado."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "Rellena con hummus y queso y dobla",
+      "text": "Aparta la sartén del fuego. Extiende 40 g de hummus en una capa fina sobre una mitad de la piadina, dejando 2 cm libres en el borde. Reparte 20 g de queso y dobla la mitad vacía sobre el relleno, sin aplastarlo."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 4,
+      "name": "Dora la piadina doblada",
+      "text": "Devuelve la piadina doblada a la sartén seca, a fuego medio-bajo, unos 20-30 segundos por cada lado. Gírala con una espátula y vigila que se dore ligeramente sin quedar rígida. El queso debe ablandarse; no necesita fundirse por completo. Retira a un plato."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 5,
+      "name": "Añade el relleno fresco y sirve",
+      "text": "Abre la piadina con cuidado, ayudándote con la espátula, y añade 20 g de jamón en pliegues sueltos, 80 g de cherry escurridos y 20 g de brotes. Reparte sin amontonar y cierra sin aplastar. Sirve enseguida, entera o cortada con cuchillo de sierra. Repite con la segunda; para servir juntas, termina las dos bases calientes seguidas y añade los ingredientes frescos al final."
+    }
+  ],
+  "keywords": "piadina, hummus, jamón, queso de cabra, tomates cherry, brotes, pollo, calabacín, berenjena, espinacas, champiñones, requesón, sardinas, pimientos asados",
+  "image": "https://fucolin.github.io/recetario/images/la-piadina-di-marisa-ilustracion-v1.jpg",
+  "url": "https://fucolin.github.io/recetario/la-piadina-di-marisa.html",
+  "dateModified": "2026-11-07"
+}

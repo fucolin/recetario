@@ -1,5 +1,13 @@
 # Continuar en otro chat · Casa Marisa
 
+## 07/11/2026 · La Piadina di Marisa · publicación autorizada mediante ARG
+
+El usuario autoriza incorporar la ficha preparada y sus cuatro alternativas, añadiendo el dorado final de la piadina doblada: 20-30 s por cada lado a fuego medio-bajo con solo hummus y queso dentro; abrir fuera del fuego, añadir jamón, cherry y brotes y volver a cerrar. Tipo receta y categoría Envueltos y bocados confirmados. Dos raciones, 10-15 min; cantidades de la base conservadas. Las alternativas sustituyen al relleno principal y tienen cantidades por piadina e indicaciones propias.
+
+Maestro, JSON, Schema.org, HTML, PDF A4, ilustración y generador sincronizados; portada, categoría, buscador y estado preparados con NUEVA. La prevista «Piadina de carne mechada» es distinta y se conserva; no corresponde a un ejemplo del carrusel, que permanece sin cambios. La ilustración muestra la versión con jamón curado; la receta permite también cocido. No hay prueba culinaria física acreditada ni receta original de Marisa atribuida.
+
+Lista explícita autorizada: los cinco archivos la-piadina-di-marisa.md/json/schema.json/html/pdf, images/la-piadina-di-marisa-ilustracion-v1.jpg, tools/generar_piadina_marisa.py, index.html, categorias/envueltos-y-bocados.html, datos/estado-fichas.json, IMAGENES_Y_LICENCIAS.md y este resumen. Doce archivos. Revisiones, manifiestos de entrega, ZIP y seguimiento privado excluidos. Revisión 4 mostrada antes de publicar. Verificar después del commit el despliegue y los recursos servidos; las comprobaciones de preparación no acreditan todavía esa disponibilidad. Al retomar, contrastar este registro con HEAD y el despliegue vigente.
+
 ## 07/11/2026 · Flujo de creación de fichas aclarado
 
 Corrección documental solicitada expresamente por el usuario. La guía principal reúne el [flujo obligatorio](GUIA_DE_TRABAJO.md#flujo-obligatorio-para-crear-una-ficha); la referencia técnica enlaza ese recorrido. Preparar incluye formato habitual, ilustración o foto propia, PDF cuando corresponda, integración preparada y comprobaciones antes de considerar completa la revisión. ARG autoriza publicar el cambio; no es requisito para terminar su preparación. Las entregas parciales se identifican como tales y no sustituyen el resultado completo solicitado.
