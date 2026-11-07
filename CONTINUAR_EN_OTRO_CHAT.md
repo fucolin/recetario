@@ -1,5 +1,12 @@
 # Continuar en otro chat · Casa Marisa
 
+## 07/11/2026 · Fecha original en catálogo · publicación autorizada
+
+Autorización expresa para publicar el metadato de primera incorporación de las recetas al historial público. El exportador añade firstPublishedAt (segundos Unix) de la primera alta de cada HTML en el ref exportado; una corrección posterior no rejuvenece la fecha. El workflow descarga el historial completo (fetch-depth:0). Conserva schemaVersion1 y todos los campos previos; no modifica recetas, fotos, PDF, menú ni selección de NUEVA.
+
+Lista explícita: tools/exportar_catalogo_app.py, .github/workflows/catalogo-app-pages.yml y este resumen. Preparación comprobada sobre be288200f42aa077fc142011a1c321a9a16d4fc8: generación completa real32 publicadas y15 próximas; datos previos idénticos al catálogo servido salvo campo nuevo; pruebas Git aisladas de alta/edición/ref histórica/hash PASS; política noindex de60 HTML PASS. El bloqueo anterior de descarga de blobs quedó superado para esta comprobación. El catálogo se genera durante el workflow, no se añade otra instantánea manual. Verificar ejecución de Pages y JSON servido después del commit antes de declarar desplegado.
+
+
 ## 07/11/2026 · La Piadina di Marisa · ajuste de tapa autorizado mediante ARG
 
 Paso 4 actualizado: primera cara tapada 30-60 s a fuego medio-bajo para ablandar el queso; segunda cara destapada 20-30 s para recuperar el tostado. Tiempo de la fase 50-90 s orientativos, guiándose por queso blando, exterior ligeramente dorado y masa flexible. Solo hummus y queso dentro; el relleno fresco entra después. Claves sincronizadas. Cantidades, alternativas, imagen, categoría, tipo y tiempo total de 10-15 min conservados.

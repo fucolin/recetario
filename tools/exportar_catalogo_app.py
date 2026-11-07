@@ -123,7 +123,10 @@ def generate(source, commit):
         if portions.get('nota'):
             servings += ' ' + portions['nota']
         require(isinstance(d['ingredientes'], list) and d['ingredientes'], 'Ficha sin ingredientes: ' + ident)
-        rows.append(dict(id=ident, title=text(d.get('titulo'), 'título'),
+        history = git('log', commit, '--diff-filter=A', '--format=%ct', '--', ident + '.html').decode().splitlines()
+        require(bool(history), 'Sin primera publicación verificable: ' + ident)
+        first_published = int(history[-1])
+        rows.append(dict(firstPublishedAt=first_published, id=ident, title=text(d.get('titulo'), 'título'),
             category=text(d.get('categoria_menu'), 'categoría'), type=d['tipo_ficha'],
             available=True, url=ident + '.html', portions=portions, servings=servings,
             ingredients=[ingredient(i, n) for n, i in enumerate(d['ingredientes'])]))
@@ -169,7 +172,7 @@ def changes(previous, current, allow_removed=False):
                 if key == 'servings':
                     return value or ''
                 return value
-            fields = [k for k in ['title', 'category', 'type', 'available', 'url', 'servings', 'ingredients']
+            fields = [k for k in ['title', 'category', 'type', 'available', 'url', 'servings', 'ingredients', 'firstPublishedAt']
                       if comparable(before[ident], k) != comparable(r, k)]
             if fields:
                 result['updated'].append(dict(id=ident, fields=fields))
