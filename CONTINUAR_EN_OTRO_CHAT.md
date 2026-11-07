@@ -1,5 +1,11 @@
 # Continuar en otro chat · Casa Marisa
 
+## 07/11/2026 · Flujo de creación de fichas aclarado
+
+Corrección documental solicitada expresamente por el usuario. La guía principal reúne el [flujo obligatorio](GUIA_DE_TRABAJO.md#flujo-obligatorio-para-crear-una-ficha); la referencia técnica enlaza ese recorrido. Preparar incluye formato habitual, ilustración o foto propia, PDF cuando corresponda, integración preparada y comprobaciones antes de considerar completa la revisión. ARG autoriza publicar el cambio; no es requisito para terminar su preparación. Las entregas parciales se identifican como tales y no sustituyen el resultado completo solicitado.
+
+Al retomar una ficha, aplicar ese recorrido y contrastar su estado real. Este cambio afecta solo a `GUIA_DE_TRABAJO.md`, `docs/REFERENCIA_DE_TRABAJO.md` y este resumen. No incorpora fichas, no cambia recetas ni menú y no acredita una publicación culinaria o una comprobación de despliegue.
+
 ## 29/10/2026 · Básicos y condimentos · publicación autorizada mediante ARG
 
 Ampliación autorizada de la preparación de ingredientes básicos: añadidos `es_condimento` y `tipo_condimento` en las 31 fichas YAML/JSON, con los cinco grupos de la guía. Valoración por receta, conservando básicos, cantidades, opcionales, sustituciones y originales. Ajo del ajillo, cebolla asada protagonista y albahaca del lago no son condimentos. 272 objetos de ingredientes/opciones clasificados, 134 como condimento; 16 referencias textuales adicionales para aderezos y elecciones agua/caldo, sin alterar el formato previo. Agua nunca clasificada como condimento.

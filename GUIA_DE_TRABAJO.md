@@ -22,6 +22,21 @@ Antes de publicar, comparar la modificación con la última versión remota, rev
 
 Una revisión automática puede bloquear una operación pese a estas reglas. No intentar eludirla: completar lo permitido, conservar lo pendiente e informar de la acción rechazada y del motivo literal o su resumen fiel. Estas instrucciones documentan la autorización del usuario; no desactivan controles ni garantizan su aprobación.
 
+## Flujo obligatorio para crear una ficha
+
+**Afinar → confirmar tipo y categoría → preparar la ficha completa → comprobar y mostrar → publicar con ARG → verificar el despliegue.**
+
+1. **Recuperar y comprobar coincidencias.** Leer las fuentes vigentes y revisar publicadas y «Próximamente» en el estado, portada y categoría, también con nombres equivalentes. Reutilizar el identificador de una prevista cuando corresponda.
+2. **Afinar y clasificar.** Acordar ingredientes, cantidades, raciones, preparación, alternativas y procedencia. Proponer datos menores cuando falten, sin atribuirlos a una fuente original. Confirmar `tipo_ficha` y una única `categoria_menu`; no volver a preguntarlos si ya están confirmados. El tipo depende del contenido: receta con pasos numerados, preparación con indicaciones breves, combinación sin elaboración.
+3. **Preparar la ficha completa para revisión.** Aplicar desde la primera revisión el formato habitual de las fichas existentes. Sincronizar Markdown/YAML, JSON, Schema.org y HTML, incluidos básicos, alternativas y condimentos. Preparar la ilustración ajustada al plato —o la foto propia aportada—, sus créditos y metadatos; generar el PDF con la plantilla común solo si el tipo es receta. Preparar también portada, categoría, buscador, estados y enlaces del carrusel que correspondan, sin publicarlos todavía ni cambiar el menú por iniciativa propia.
+4. **Comprobar y mostrar.** Revisar sincronización, ingredientes, cantidades, enlaces, imagen, presentación móvil/escritorio y PDF cuando exista, junto con las comprobaciones técnicas aplicables. Entregar HTML de revisión con nombre/título nuevos y PDF si corresponde. Las capturas internas no sustituyen estos archivos. Si falta una parte o una comprobación falla, identificarla expresamente: la entrega sigue siendo parcial, no una ficha completa lista para publicar.
+5. **Publicar con ARG.** Refrescar la base remota, conservar cambios concurrentes y publicar solo la lista explícita de archivos del cambio autorizado, con su documentación. Excluir revisiones y temporales. Un ARG previo no autoriza otra ficha; si ARG ya cubre este cambio, no pedir otra confirmación.
+6. **Verificar y conservar la continuidad.** Comprobar commit/contenido y, después, despliegue y recursos servidos. Distinguir guardado, publicación y funcionamiento verificado. Registrar durante el trabajo avances y pendientes en su seguimiento canónico; antes de pausar, dejar el punto real de reanudación.
+
+**Preparar una ficha no requiere ARG.** Formato habitual, ilustración, PDF cuando corresponda y comprobaciones pertenecen a la preparación solicitada; no se aplazan por falta de autorización para publicar. Pueden mostrarse borradores parciales para afinar decisiones, pero deben identificarse como tales y continuar el trabajo ya autorizado hasta completar la preparación, salvo bloqueo real. «Para Marisa» no implica autoría de Marisa.
+
+Este es el recorrido canónico; los detalles se desarrollan en [Referencia de trabajo](docs/REFERENCIA_DE_TRABAJO.md#preparar-y-sincronizar-una-ficha). Los resúmenes privados deben enlazarlo y conservar esta separación entre preparación y publicación.
+
 ## Preparar, mostrar y publicar
 
 - **Evitar repeticiones en el carrusel público:** si la categoría visible coincide con la primera palabra completa del plato, omitir esa palabra del nombre mostrado, sin distinguir mayúsculas. Conservar el nombre íntegro en los datos y el enlace; no recortar nombres sin categoría ni dejar un título vacío. Aplicar también a los dos nombres bajo una categoría común.

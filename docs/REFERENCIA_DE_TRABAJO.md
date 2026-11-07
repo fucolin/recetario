@@ -16,6 +16,8 @@ Una revisión automática puede bloquear una operación pese a estas reglas. No 
 
 ## Preparar y sincronizar una ficha
 
+Seguir el [flujo obligatorio de creación](../GUIA_DE_TRABAJO.md#flujo-obligatorio-para-crear-una-ficha). Ilustración, formato habitual, PDF cuando corresponda y comprobaciones forman parte de preparar la ficha para revisión; no requieren esperar a ARG. Una entrega parcial debe identificar lo pendiente y no cierra el trabajo de preparación ya autorizado. La lista siguiente detalla sus archivos e integración.
+
 Para una ficha nueva, completar este proceso. Para una actualización, actuar sobre las representaciones afectadas:
 
 1. Crear o actualizar la receta maestra en Markdown con YAML, incluidos `tipo_ficha` y `categoria_menu`.
