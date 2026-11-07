@@ -1,5 +1,11 @@
 # Continuar en otro chat · Casa Marisa
 
+## 07/11/2026 · La Piadina di Marisa · ajuste de tapa autorizado mediante ARG
+
+Paso 4 actualizado: primera cara tapada 30-60 s a fuego medio-bajo para ablandar el queso; segunda cara destapada 20-30 s para recuperar el tostado. Tiempo de la fase 50-90 s orientativos, guiándose por queso blando, exterior ligeramente dorado y masa flexible. Solo hummus y queso dentro; el relleno fresco entra después. Claves sincronizadas. Cantidades, alternativas, imagen, categoría, tipo y tiempo total de 10-15 min conservados.
+
+ARG recibido para este ajuste. Lista explícita: la-piadina-di-marisa.md/json/schema.json/html/pdf, index.html (texto de búsqueda) y este resumen: siete archivos. Revisión 5 mostrada antes de publicar. Verificaciones previas no afectadas se conservan; comprobar sincronización, PDF, presentación del paso y noindex y después el despliegue y los recursos servidos. El registro de la incorporación inicial siguiente queda como antecedente.
+
 ## 07/11/2026 · La Piadina di Marisa · publicación autorizada mediante ARG
 
 El usuario autoriza incorporar la ficha preparada y sus cuatro alternativas, añadiendo el dorado final de la piadina doblada: 20-30 s por cada lado a fuego medio-bajo con solo hummus y queso dentro; abrir fuera del fuego, añadir jamón, cherry y brotes y volver a cerrar. Tipo receta y categoría Envueltos y bocados confirmados. Dos raciones, 10-15 min; cantidades de la base conservadas. Las alternativas sustituyen al relleno principal y tienen cantidades por piadina e indicaciones propias.

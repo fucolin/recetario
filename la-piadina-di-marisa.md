@@ -143,12 +143,13 @@ pasos:
   instrucciones: Aparta la sartén del fuego. Extiende 40 g de hummus en una capa fina sobre una mitad de la piadina,
     dejando 2 cm libres en el borde. Reparte 20 g de queso y dobla la mitad vacía sobre el relleno, sin aplastarlo.
 - orden: 4
-  titulo: Dora la piadina doblada
-  duracion_texto: 40-60 s
-  duracion_min: 1
-  instrucciones: Devuelve la piadina doblada a la sartén seca, a fuego medio-bajo, unos 20-30 segundos por cada
-    lado. Gírala con una espátula y vigila que se dore ligeramente sin quedar rígida. El queso debe ablandarse;
-    no necesita fundirse por completo. Retira a un plato.
+  titulo: Dora con tapa y termina destapada
+  duracion_texto: 50-90 s
+  duracion_min: 1.5
+  instrucciones: 'Devuelve la piadina doblada a la sartén seca, a fuego medio-bajo. Tapa y calienta la primera cara
+    30-60 segundos para ablandar el queso. Destapa, dale la vuelta con una espátula y dora la segunda cara 20-30
+    segundos, sin tapa. Vigila el punto: queso blando, exterior ligeramente dorado y masa todavía flexible; no hace
+    falta que el queso se funda por completo. Retira a un plato.'
 - orden: 5
   titulo: Añade el relleno fresco y sirve
   duracion_texto: 2-3 min para terminar ambas
@@ -157,9 +158,10 @@ pasos:
     80 g de cherry escurridos y 20 g de brotes. Reparte sin amontonar y cierra sin aplastar. Sirve enseguida, entera
     o cortada con cuchillo de sierra. Repite con la segunda; para servir juntas, termina las dos bases calientes
     seguidas y añade los ingredientes frescos al final.
-claves: 'Tomates escurridos y brotes bien secos. Hummus en capa fina y dorado breve para que la base siga flexible.
-  El golpe final de sartén se hace solo con hummus y queso dentro; jamón, cherry y hojas entran después, fuera del
-  fuego. No añadas sal de entrada: prueba antes el jamón, el queso y el hummus.'
+claves: 'Tomates escurridos y brotes bien secos. Hummus en capa fina. La tapa ayuda a ablandar el queso; termina
+  destapada para recuperar el tostado, sin resecar la base. Ajusta el tiempo al fuego y al punto del queso. El golpe
+  final de sartén se hace solo con hummus y queso dentro; jamón, cherry y hojas entran después, fuera del fuego.
+  No añadas sal de entrada: prueba antes el jamón, el queso y el hummus.'
 fuente:
   atribucion: Combinación propuesta en casa, con alternativas de relleno desarrolladas para Casa Marisa.
 etiquetas:
@@ -443,13 +445,13 @@ Ilustración generada con IA.
 
 3. **Rellena con hummus y queso y dobla · 1 min.** Aparta la sartén del fuego. Extiende 40 g de hummus en una capa fina sobre una mitad de la piadina, dejando 2 cm libres en el borde. Reparte 20 g de queso y dobla la mitad vacía sobre el relleno, sin aplastarlo.
 
-4. **Dora la piadina doblada · 40-60 s.** Devuelve la piadina doblada a la sartén seca, a fuego medio-bajo, unos 20-30 segundos por cada lado. Gírala con una espátula y vigila que se dore ligeramente sin quedar rígida. El queso debe ablandarse; no necesita fundirse por completo. Retira a un plato.
+4. **Dora con tapa y termina destapada · 50-90 s.** Devuelve la piadina doblada a la sartén seca, a fuego medio-bajo. Tapa y calienta la primera cara 30-60 segundos para ablandar el queso. Destapa, dale la vuelta con una espátula y dora la segunda cara 20-30 segundos, sin tapa. Vigila el punto: queso blando, exterior ligeramente dorado y masa todavía flexible; no hace falta que el queso se funda por completo. Retira a un plato.
 
 5. **Añade el relleno fresco y sirve · 2-3 min para terminar ambas.** Abre la piadina con cuidado, ayudándote con la espátula, y añade 20 g de jamón en pliegues sueltos, 80 g de cherry escurridos y 20 g de brotes. Reparte sin amontonar y cierra sin aplastar. Sirve enseguida, entera o cortada con cuchillo de sierra. Repite con la segunda; para servir juntas, termina las dos bases calientes seguidas y añade los ingredientes frescos al final.
 
 ## Claves
 
-Tomates escurridos y brotes bien secos. Hummus en capa fina y dorado breve para que la base siga flexible. El golpe final de sartén se hace solo con hummus y queso dentro; jamón, cherry y hojas entran después, fuera del fuego. No añadas sal de entrada: prueba antes el jamón, el queso y el hummus.
+Tomates escurridos y brotes bien secos. Hummus en capa fina. La tapa ayuda a ablandar el queso; termina destapada para recuperar el tostado, sin resecar la base. Ajusta el tiempo al fuego y al punto del queso. El golpe final de sartén se hace solo con hummus y queso dentro; jamón, cherry y hojas entran después, fuera del fuego. No añadas sal de entrada: prueba antes el jamón, el queso y el hummus.
 
 ## Opciones
 
