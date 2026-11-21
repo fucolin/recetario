@@ -1,5 +1,5 @@
 {
-  "esquema": "recetario-1.0",
+  "esquema": "recetario-1.1",
   "id": "pimientos-asados-cebolla-cosori",
   "familia": "pimientos-asados-cebolla-cosori",
   "variante": "principal",
@@ -28,33 +28,38 @@
       "cantidad": 2,
       "unidad": "unidades",
       "nota": "grandes, enteros y con pedúnculo",
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000060"
     },
     {
       "nombre": "cebolla",
       "cantidad": 1,
       "unidad": "unidad",
       "nota": "en mitades si es pequeña o cuartos si es grande",
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000018"
     },
     {
       "nombre": "aceite de oliva virgen extra",
       "nota": "película fina en spray para asar y un poco para aliñar",
       "es_condimento": true,
-      "tipo_condimento": "aceites_acidos_y_salsas"
+      "tipo_condimento": "aceites_acidos_y_salsas",
+      "catalogo_ref": "cm-ing-000001"
     },
     {
       "nombre": "sal",
       "nota": "al gusto",
       "es_condimento": true,
-      "tipo_condimento": "sal_y_especias"
+      "tipo_condimento": "sal_y_especias",
+      "catalogo_ref": "cm-ing-000066"
     },
     {
       "nombre": "ajo crudo",
       "nota": "en láminas finas, al gusto",
       "opcional": true,
       "es_condimento": true,
-      "tipo_condimento": "aromaticos_frescos"
+      "tipo_condimento": "aromaticos_frescos",
+      "catalogo_ref": "cm-ing-000005"
     },
     {
       "nombre": "orégano seco",
@@ -63,7 +68,8 @@
       "nota": "para toda la preparación; alternativa al comino",
       "opcional": true,
       "es_condimento": true,
-      "tipo_condimento": "hierbas_aromaticas"
+      "tipo_condimento": "hierbas_aromaticas",
+      "catalogo_ref": "cm-ing-000048"
     },
     {
       "nombre": "comino molido",
@@ -72,7 +78,8 @@
       "nota": "para toda la preparación; alternativa al orégano",
       "opcional": true,
       "es_condimento": true,
-      "tipo_condimento": "sal_y_especias"
+      "tipo_condimento": "sal_y_especias",
+      "catalogo_ref": "cm-ing-000021"
     }
   ],
   "pdf_ingredientes": [
@@ -201,7 +208,7 @@
   "image_credit": "Imagen generada con IA para Casa Marisa",
   "image_note": "Imagen ilustrativa generada con IA; no es una fotografía del plato preparado.",
   "ingredientes_basicos": [
-    "pimientos morrones",
-    "cebolla"
+    "cm-ing-000060",
+    "cm-ing-000018"
   ]
 }

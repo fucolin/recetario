@@ -1,5 +1,5 @@
 ---
-esquema: recetario-1.0
+esquema: recetario-1.1
 id: fajita-francesa-pavo
 familia: fajita-francesa-pavo
 variante: principal
@@ -30,49 +30,78 @@ tiempo_total_min:
   max: 15
 ingredientes:
 - nombre: tortilla/piadina
-  es_condimento: false
   cantidad: 1
   unidad: unidad
   nota: grande; integral o de espelta
-- nombre: huevos
   es_condimento: false
+  seleccion: una
+  alternativas:
+  - nombre: tortillas de trigo
+    catalogo_ref: cm-ing-000071
+    es_condimento: false
+  - nombre: piadina
+    catalogo_ref: cm-ing-000055
+    es_condimento: false
+- nombre: huevos
   cantidad: 2
   unidad: unidades
-- nombre: pavo o jamón cocido
   es_condimento: false
-  producto_preferido: pechuga-pavo-elpozo-1954
+  catalogo_ref: cm-ing-000033
+- nombre: pavo o jamón cocido
   cantidad: 1
   unidad: loncha
   peso_aprox_g: 25
   nota: grande; mínimo 90 % de carne
-- nombre: queso
   es_condimento: false
+  seleccion: una
+  alternativas:
+  - nombre: pavo cocido
+    catalogo_ref: cm-ing-000053
+    es_condimento: false
+    producto_preferido: pechuga-pavo-elpozo-1954
+  - nombre: jamón cocido
+    catalogo_ref: cm-ing-000035
+    es_condimento: false
+- nombre: queso
   cantidad: 1
   unidad: loncha
   peso_aprox_g: 20
-- nombre: tomate
   es_condimento: false
+  catalogo_ref: cm-ing-000063
+- nombre: tomate
   cantidad: 0.5
   unidad: unidad
   peso_aprox_g: 50
   nota: pequeño
-- nombre: aguacate
   es_condimento: false
+  catalogo_ref: cm-ing-000069
+- nombre: aguacate
   cantidad: 0.25
   unidad: unidad
   nota: mediano
-- nombre: lechuga
   es_condimento: false
+  catalogo_ref: cm-ing-000004
+- nombre: lechuga
   cantidad: 1
   unidad: hoja
   alternativas:
-  - un puñadito de brotes
-  - un puñadito de canónigos
+  - nombre: brotes tiernos
+    catalogo_ref: cm-ing-000012
+    nota: un puñadito
+    es_condimento: false
+  - nombre: canónigos
+    catalogo_ref: cm-ing-000017
+    nota: un puñadito
+    es_condimento: false
+  es_condimento: false
+  catalogo_ref: cm-ing-000039
+  seleccion: una
 - nombre: aceite de oliva
-  es_condimento: true
-  tipo_condimento: aceites_acidos_y_salsas
   cantidad: 0.5
   unidad: cucharadita
+  es_condimento: true
+  tipo_condimento: aceites_acidos_y_salsas
+  catalogo_ref: cm-ing-000001
 indicaciones: 'Prepara el relleno. Corta el tomate en rodajas finas y déjalo escurrir bien. Lava y seca las hojas;
   si usas lechuga, pícala en tiras finas. Corta el aguacate en láminas y ten a mano el pavo o jamón y el queso.
 
@@ -126,37 +155,37 @@ encabezado:
 consejo: Para compartir, puedes preparar dos fajitas con tortillas pequeñas, repartiendo los ingredientes entre
   ambas y usando una sartén de su tamaño. La cantidad total sigue siendo una ración.
 ingredientes_basicos:
-- tortillas de trigo
-- huevos
-- pavo cocido
-- queso
-- tomate
-- aguacate
-- lechuga
+- cm-ing-000071
+- cm-ing-000033
+- cm-ing-000053
+- cm-ing-000063
+- cm-ing-000069
+- cm-ing-000004
+- cm-ing-000039
 ingredientes_basicos_opciones:
 - tipo: alternativa
   ingredientes:
-  - piadina
+  - cm-ing-000055
   sustituye:
-  - tortillas de trigo
+  - cm-ing-000071
   nota: Elegir tortilla o piadina.
 - tipo: alternativa
   ingredientes:
-  - jamón cocido
+  - cm-ing-000035
   sustituye:
-  - pavo cocido
+  - cm-ing-000053
   nota: Elegir pavo o jamón cocido.
 - tipo: alternativa
   ingredientes:
-  - brotes tiernos
+  - cm-ing-000012
   sustituye:
-  - lechuga
+  - cm-ing-000039
   nota: Alternativa de hojas.
 - tipo: alternativa
   ingredientes:
-  - canónigos
+  - cm-ing-000017
   sustituye:
-  - lechuga
+  - cm-ing-000039
   nota: Alternativa de hojas.
 ---
 

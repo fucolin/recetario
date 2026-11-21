@@ -29,6 +29,10 @@ Para una ficha nueva, completar este proceso. Para una actualización, actuar so
 7. Actualizar `index.html` y la página visual de `categorias/` correspondiente, sin crear entradas duplicadas y distinguiendo claramente las variantes. Comprobar siempre si la nueva receta ya aparece como ejemplo del carrusel en `semana-base.md`, tanto directamente como dentro de `componentes`, aunque esté escrita con un título abreviado o tenga `pagina: null`. Si corresponde, enlazar su URL definitiva al publicar la ficha y sincronizar maestro, `datos/semana-base.json` e `index.html` con `python tools/generar_semana_base.py`; comprobar con `node tools/comprobar_semana_base.cjs`. Conservar el reparto semanal y los demás ejemplos. Si no aparece, no incorporarla al carrusel por defecto.
 8. Comprobar ingredientes, cantidades, diferencias entre variantes, licencia de la imagen, datos estructurados, enlaces y presentación visual del HTML y del PDF.
 
+## Catálogo de ingredientes · transición a recetario-1.1
+
+Las fichas con esquema `recetario-1.1` enlazan ingredientes mediante `catalogo_ref` con IDs numéricos permanentes del registro `datos/catalogo-ingredientes.json`. Conservan el nombre culinario; `ingredientes_basicos`, y las listas de ingredientes/sustituye de sus opciones, utilizan IDs. Las fichas1.0 conservan su estructura por nombres. No interpretar IDs como etiquetas visibles. Véase [contrato del catálogo](CATALOGO-INGREDIENTES.md). Publicar el registro, las fichas, sus maestros sincronizados y el exportador compatible como un conjunto; mantener versiones de preparaciones anteriores.
+
 ## Ingredientes básicos
 
 Cada ficha de plato publicada (`receta`, `preparacion`, `combinacion`) incorpora `ingredientes_basicos` como lista de nombres sencillos en el YAML maestro y el JSON completo. Es una selección editorial por receta para identificarla y facilitar búsquedas; no sustituye `ingredientes`, no modifica cantidades ni convierte los ingredientes omitidos en opcionales. Productos preferidos, calendarios, redirecciones y fichas próximas no se clasifican como recetas completas.

@@ -1,5 +1,5 @@
 {
-  "esquema": "recetario-1.0",
+  "esquema": "recetario-1.1",
   "id": "tortilla-boniato-espinacas-parmesano",
   "familia": "tortilla-boniato-espinacas-parmesano",
   "variante": "principal",
@@ -24,25 +24,29 @@
       "nombre": "boniato pelado",
       "cantidad": 300,
       "unidad": "g",
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000011"
     },
     {
       "nombre": "espinacas frescas",
       "cantidad": 100,
       "unidad": "g",
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000026"
     },
     {
       "nombre": "huevos grandes",
       "cantidad": 4,
       "unidad": "unidades",
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000033"
     },
     {
       "nombre": "parmesano rallado",
       "cantidad": 30,
       "unidad": "g",
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000050"
     },
     {
       "nombre": "cebolla",
@@ -50,7 +54,8 @@
       "unidad": "unidad",
       "nota": "unos 80 g",
       "es_condimento": true,
-      "tipo_condimento": "aromaticos_frescos"
+      "tipo_condimento": "aromaticos_frescos",
+      "catalogo_ref": "cm-ing-000018"
     },
     {
       "nombre": "aceite de oliva virgen extra",
@@ -58,24 +63,35 @@
       "unidad": "cucharada",
       "nota": "15 ml",
       "es_condimento": true,
-      "tipo_condimento": "aceites_acidos_y_salsas"
+      "tipo_condimento": "aceites_acidos_y_salsas",
+      "catalogo_ref": "cm-ing-000001"
     },
     {
-      "nombre": "sal y pimienta negra",
+      "nombre": "sal",
       "nota": "al gusto",
       "es_condimento": true,
-      "tipo_condimento": "sal_y_especias"
+      "tipo_condimento": "sal_y_especias",
+      "catalogo_ref": "cm-ing-000066"
+    },
+    {
+      "nombre": "pimienta negra",
+      "nota": "al gusto",
+      "es_condimento": true,
+      "tipo_condimento": "sal_y_especias",
+      "catalogo_ref": "cm-ing-000059"
     },
     {
       "nombre": "nuez moscada",
       "nota": "opcional",
       "es_condimento": true,
-      "tipo_condimento": "sal_y_especias"
+      "tipo_condimento": "sal_y_especias",
+      "catalogo_ref": "cm-ing-000047"
     },
     {
       "nombre": "agua",
       "nota": "un poco",
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000002"
     }
   ],
   "pdf_ingredientes": [
@@ -152,16 +168,15 @@
   "fuente": {
     "autor": "Eva, nutricionista",
     "atribucion": "🌿 Adaptada de una receta de Eva, la nutricionista",
-    "titulo_original": "Tortilla de queso parmesano, espinacas y cebolla",
-    "ficha_catalogo": "recetas/tortilla-de-queso-parmesano-espinacas-y-cebolla.md"
+    "titulo_original": "Tortilla de queso parmesano, espinacas y cebolla"
   },
   "image_alt": "Tortilla baja y melosa de boniato fino algo dorado, espinacas y parmesano, con el interior poco cuajado",
   "image_credit": "Imagen generada con IA para Casa Marisa",
   "image_note": "Imagen ilustrativa generada con IA; no es una fotografía del plato preparado.",
   "ingredientes_basicos": [
-    "boniato",
-    "espinacas",
-    "huevos",
-    "queso parmesano"
+    "cm-ing-000011",
+    "cm-ing-000026",
+    "cm-ing-000033",
+    "cm-ing-000050"
   ]
 }

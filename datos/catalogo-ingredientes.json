@@ -1,0 +1,314 @@
+{
+  "schemaVersion": 1,
+  "nextNumber": 132,
+  "products": [
+    {
+      "id": "cm-ing-000001",
+      "nombre": "Aceite de oliva"
+    },
+    {
+      "id": "cm-ing-000002",
+      "nombre": "Agua"
+    },
+    {
+      "id": "cm-ing-000003",
+      "nombre": "Agua de cocción de la pasta"
+    },
+    {
+      "id": "cm-ing-000004",
+      "nombre": "Aguacate"
+    },
+    {
+      "id": "cm-ing-000005",
+      "nombre": "Ajo"
+    },
+    {
+      "id": "cm-ing-000006",
+      "nombre": "Almendras"
+    },
+    {
+      "id": "cm-ing-000007",
+      "nombre": "Arándanos congelados"
+    },
+    {
+      "id": "cm-ing-000008",
+      "nombre": "Avellanas"
+    },
+    {
+      "id": "cm-ing-000009",
+      "nombre": "Bacalao desalado sin espinas"
+    },
+    {
+      "id": "cm-ing-000010",
+      "nombre": "Bebida de almendra"
+    },
+    {
+      "id": "cm-ing-000011",
+      "nombre": "Boniato"
+    },
+    {
+      "id": "cm-ing-000012",
+      "nombre": "Brotes tiernos"
+    },
+    {
+      "id": "cm-ing-000013",
+      "nombre": "Café"
+    },
+    {
+      "id": "cm-ing-000014",
+      "nombre": "Calabacín"
+    },
+    {
+      "id": "cm-ing-000015",
+      "nombre": "Calabaza"
+    },
+    {
+      "id": "cm-ing-000016",
+      "nombre": "Caldo de pollo"
+    },
+    {
+      "id": "cm-ing-000017",
+      "nombre": "Canónigos"
+    },
+    {
+      "id": "cm-ing-000018",
+      "nombre": "Cebollas"
+    },
+    {
+      "id": "cm-ing-000019",
+      "nombre": "Cebollino"
+    },
+    {
+      "id": "cm-ing-000020",
+      "nombre": "Champiñones"
+    },
+    {
+      "id": "cm-ing-000021",
+      "nombre": "Comino"
+    },
+    {
+      "id": "cm-ing-000022",
+      "nombre": "Copos de avena finos"
+    },
+    {
+      "id": "cm-ing-000023",
+      "nombre": "Curry"
+    },
+    {
+      "id": "cm-ing-000024",
+      "nombre": "Edamame desgranado"
+    },
+    {
+      "id": "cm-ing-000025",
+      "nombre": "Endivias"
+    },
+    {
+      "id": "cm-ing-000026",
+      "nombre": "Espinacas"
+    },
+    {
+      "id": "cm-ing-000027",
+      "nombre": "Fideos"
+    },
+    {
+      "id": "cm-ing-000028",
+      "nombre": "Frijoles negros guisados"
+    },
+    {
+      "id": "cm-ing-000029",
+      "nombre": "Frutos rojos congelados"
+    },
+    {
+      "id": "cm-ing-000030",
+      "nombre": "Gambas peladas congeladas"
+    },
+    {
+      "id": "cm-ing-000031",
+      "nombre": "Garbanzos cocidos"
+    },
+    {
+      "id": "cm-ing-000032",
+      "nombre": "Guindilla"
+    },
+    {
+      "id": "cm-ing-000033",
+      "nombre": "Huevos"
+    },
+    {
+      "id": "cm-ing-000034",
+      "nombre": "Hummus"
+    },
+    {
+      "id": "cm-ing-000035",
+      "nombre": "Jamón cocido"
+    },
+    {
+      "id": "cm-ing-000036",
+      "nombre": "Kéfir"
+    },
+    {
+      "id": "cm-ing-000037",
+      "nombre": "Laurel"
+    },
+    {
+      "id": "cm-ing-000038",
+      "nombre": "Leche"
+    },
+    {
+      "id": "cm-ing-000039",
+      "nombre": "Lechuga"
+    },
+    {
+      "id": "cm-ing-000040",
+      "nombre": "Lentejas cocidas"
+    },
+    {
+      "id": "cm-ing-000041",
+      "nombre": "Lima"
+    },
+    {
+      "id": "cm-ing-000042",
+      "nombre": "Limón"
+    },
+    {
+      "id": "cm-ing-000043",
+      "nombre": "Mango"
+    },
+    {
+      "id": "cm-ing-000044",
+      "nombre": "Menestra congelada"
+    },
+    {
+      "id": "cm-ing-000045",
+      "nombre": "Nueces"
+    },
+    {
+      "id": "cm-ing-000046",
+      "nombre": "Nueces de brasil"
+    },
+    {
+      "id": "cm-ing-000047",
+      "nombre": "Nuez moscada"
+    },
+    {
+      "id": "cm-ing-000048",
+      "nombre": "Orégano"
+    },
+    {
+      "id": "cm-ing-000049",
+      "nombre": "Pan tostado integral"
+    },
+    {
+      "id": "cm-ing-000050",
+      "nombre": "Parmesano"
+    },
+    {
+      "id": "cm-ing-000051",
+      "nombre": "Pasas"
+    },
+    {
+      "id": "cm-ing-000052",
+      "nombre": "Pasta seca"
+    },
+    {
+      "id": "cm-ing-000053",
+      "nombre": "Pavo cocido"
+    },
+    {
+      "id": "cm-ing-000054",
+      "nombre": "Pechuga de pavo fresca"
+    },
+    {
+      "id": "cm-ing-000055",
+      "nombre": "Piadina"
+    },
+    {
+      "id": "cm-ing-000056",
+      "nombre": "Pico de gallo"
+    },
+    {
+      "id": "cm-ing-000057",
+      "nombre": "Pimentón ahumado"
+    },
+    {
+      "id": "cm-ing-000058",
+      "nombre": "Pimentón dulce"
+    },
+    {
+      "id": "cm-ing-000059",
+      "nombre": "Pimienta negra"
+    },
+    {
+      "id": "cm-ing-000060",
+      "nombre": "Pimientos morrones"
+    },
+    {
+      "id": "cm-ing-000061",
+      "nombre": "Pollo troceado"
+    },
+    {
+      "id": "cm-ing-000062",
+      "nombre": "Puerro"
+    },
+    {
+      "id": "cm-ing-000063",
+      "nombre": "Queso en lonchas"
+    },
+    {
+      "id": "cm-ing-000064",
+      "nombre": "Quinoa"
+    },
+    {
+      "id": "cm-ing-000065",
+      "nombre": "Requesón"
+    },
+    {
+      "id": "cm-ing-000066",
+      "nombre": "Sal"
+    },
+    {
+      "id": "cm-ing-000067",
+      "nombre": "Salmón ahumado"
+    },
+    {
+      "id": "cm-ing-000068",
+      "nombre": "Tomate triturado"
+    },
+    {
+      "id": "cm-ing-000069",
+      "nombre": "Tomates frescos"
+    },
+    {
+      "id": "cm-ing-000070",
+      "nombre": "Tomillo"
+    },
+    {
+      "id": "cm-ing-000071",
+      "nombre": "Tortillas de trigo"
+    },
+    {
+      "id": "cm-ing-000072",
+      "nombre": "Verduras para la crema"
+    },
+    {
+      "id": "cm-ing-000073",
+      "nombre": "Vinagre"
+    },
+    {
+      "id": "cm-ing-000074",
+      "nombre": "Vino blanco seco"
+    },
+    {
+      "id": "cm-ing-000075",
+      "nombre": "Yogur"
+    },
+    {
+      "id": "cm-ing-000076",
+      "nombre": "Zaatar"
+    },
+    {
+      "id": "cm-ing-000077",
+      "nombre": "Zanahorias"
+    }
+  ]
+}

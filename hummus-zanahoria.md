@@ -1,5 +1,5 @@
 ---
-esquema: recetario-1.0
+esquema: recetario-1.1
 id: hummus-zanahoria
 familia: hummus-zanahoria
 variante: principal
@@ -19,21 +19,23 @@ tiempo_total_min:
   max: 2
 ingredientes:
 - nombre: hummus
-  es_condimento: false
   cantidad: 100
   unidad: g
-- nombre: zanahoria grande
   es_condimento: false
+  catalogo_ref: cm-ing-000034
+- nombre: zanahoria grande
   cantidad: 1
   unidad: unidad
+  es_condimento: false
+  catalogo_ref: cm-ing-000077
 image: https://fucolin.github.io/recetario/images/hummus-zanahoria-ilustracion-v1.jpg
 fecha_actualizacion: '2026-10-15'
 image_alt: Hummus en un cuenco junto a bastones de zanahoria cruda
 image_credit: Imagen generada con IA para Casa Marisa
 image_note: Imagen ilustrativa generada con IA; no es una fotografía del plato preparado.
 ingredientes_basicos:
-- hummus
-- zanahoria
+- cm-ing-000034
+- cm-ing-000077
 ---
 
 

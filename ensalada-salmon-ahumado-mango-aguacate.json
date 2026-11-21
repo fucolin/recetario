@@ -1,5 +1,5 @@
 {
-  "esquema": "recetario-1.0",
+  "esquema": "recetario-1.1",
   "id": "ensalada-salmon-ahumado-mango-aguacate",
   "familia": "ensalada-salmon-ahumado-mango-aguacate",
   "variante": "principal",
@@ -28,34 +28,39 @@
       "cantidad": 100,
       "unidad": "g",
       "nota": "o mezcla de lechugas y espinacas tiernas",
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000017"
     },
     {
       "nombre": "salmón ahumado",
       "cantidad": 150,
       "unidad": "g",
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000067"
     },
     {
       "nombre": "mango",
       "cantidad": 150,
       "unidad": "g",
       "nota": "pelado y sin hueso; maduro pero firme",
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000043"
     },
     {
       "nombre": "aguacate",
       "cantidad": 1,
       "unidad": "unidad",
       "nota": "mediano",
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000004"
     },
     {
       "nombre": "aceite de oliva virgen extra",
       "cantidad": 1,
       "unidad": "cucharada",
       "es_condimento": true,
-      "tipo_condimento": "aceites_acidos_y_salsas"
+      "tipo_condimento": "aceites_acidos_y_salsas",
+      "catalogo_ref": "cm-ing-000001"
     },
     {
       "nombre": "zumo de limón",
@@ -63,20 +68,23 @@
       "unidad": "cucharada",
       "nota": "ajustable al gusto",
       "es_condimento": true,
-      "tipo_condimento": "aceites_acidos_y_salsas"
+      "tipo_condimento": "aceites_acidos_y_salsas",
+      "catalogo_ref": "cm-ing-000042"
     },
     {
       "nombre": "pimienta negra",
       "nota": "al gusto",
       "es_condimento": true,
-      "tipo_condimento": "sal_y_especias"
+      "tipo_condimento": "sal_y_especias",
+      "catalogo_ref": "cm-ing-000059"
     },
     {
       "nombre": "sal",
       "nota": "solo si hace falta después de probar",
       "opcional": true,
       "es_condimento": true,
-      "tipo_condimento": "sal_y_especias"
+      "tipo_condimento": "sal_y_especias",
+      "catalogo_ref": "cm-ing-000066"
     }
   ],
   "indicaciones": "Lava las hojas si no vienen listas para consumir y sécalas bien. Corta el mango, maduro pero firme, en dados; el salmón en tiras o trozos y el aguacate en dados o láminas. Mezcla el aceite con el limón y un poco de pimienta. Aliña ligeramente las hojas, reparte encima el mango, el aguacate y el salmón, y termina con el aliño restante. Sirve enseguida, sin remover demasiado.",
@@ -94,36 +102,23 @@
   "fuente": {
     "autor": "Eva, nutricionista",
     "atribucion": "🌿 Adaptada de una receta de Eva, la nutricionista",
-    "titulo_original": "Ensalada de salmón ahumado, mango y aguacate",
-    "catalogo_privado": "catalogo-nutricionista-muestra.zip",
-    "ficha_catalogo": "recetas/ensalada-de-salmon-ahumado-mango-y-aguacate.md",
-    "pdf_origen": [
-      {
-        "archivo": "../originales/recetas-basicas-2025-05-13.pdf",
-        "pagina": 1
-      },
-      {
-        "archivo": "../originales/recetas-basicas-2026-09-10.pdf",
-        "pagina": 1,
-        "imagen": "../imagenes/ensalada-de-salmon-ahumado-mango-y-aguacate-2026-09-10.png"
-      }
-    ]
+    "titulo_original": "Ensalada de salmón ahumado, mango y aguacate"
   },
   "ingredientes_basicos": [
-    "canónigos",
-    "salmón ahumado",
-    "mango",
-    "aguacate"
+    "cm-ing-000017",
+    "cm-ing-000067",
+    "cm-ing-000043",
+    "cm-ing-000004"
   ],
   "ingredientes_basicos_opciones": [
     {
       "tipo": "alternativa",
       "ingredientes": [
-        "lechuga",
-        "espinacas"
+        "cm-ing-000039",
+        "cm-ing-000026"
       ],
       "sustituye": [
-        "canónigos"
+        "cm-ing-000017"
       ],
       "nota": "Mezcla de lechugas y espinacas tiernas indicada en la ficha."
     }

@@ -1,5 +1,5 @@
 {
-  "esquema": "recetario-1.0",
+  "esquema": "recetario-1.1",
   "id": "hummus-zanahoria",
   "familia": "hummus-zanahoria",
   "variante": "principal",
@@ -25,13 +25,15 @@
       "nombre": "hummus",
       "cantidad": 100,
       "unidad": "g",
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000034"
     },
     {
       "nombre": "zanahoria grande",
       "cantidad": 1,
       "unidad": "unidad",
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000077"
     }
   ],
   "image": "https://fucolin.github.io/recetario/images/hummus-zanahoria-ilustracion-v1.jpg",
@@ -40,7 +42,7 @@
   "image_credit": "Imagen generada con IA para Casa Marisa",
   "image_note": "Imagen ilustrativa generada con IA; no es una fotografía del plato preparado.",
   "ingredientes_basicos": [
-    "hummus",
-    "zanahoria"
+    "cm-ing-000034",
+    "cm-ing-000077"
   ]
 }

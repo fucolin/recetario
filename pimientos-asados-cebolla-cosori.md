@@ -1,5 +1,5 @@
 ---
-esquema: recetario-1.0
+esquema: recetario-1.1
 id: pimientos-asados-cebolla-cosori
 familia: pimientos-asados-cebolla-cosori
 variante: principal
@@ -21,42 +21,49 @@ tiempo_total_min:
   max: 50
 ingredientes:
 - nombre: pimientos morrones
-  es_condimento: false
   cantidad: 2
   unidad: unidades
   nota: grandes, enteros y con pedúnculo
-- nombre: cebolla
   es_condimento: false
+  catalogo_ref: cm-ing-000060
+- nombre: cebolla
   cantidad: 1
   unidad: unidad
   nota: en mitades si es pequeña o cuartos si es grande
+  es_condimento: false
+  catalogo_ref: cm-ing-000018
 - nombre: aceite de oliva virgen extra
+  nota: película fina en spray para asar y un poco para aliñar
   es_condimento: true
   tipo_condimento: aceites_acidos_y_salsas
-  nota: película fina en spray para asar y un poco para aliñar
+  catalogo_ref: cm-ing-000001
 - nombre: sal
+  nota: al gusto
   es_condimento: true
   tipo_condimento: sal_y_especias
-  nota: al gusto
+  catalogo_ref: cm-ing-000066
 - nombre: ajo crudo
-  es_condimento: true
-  tipo_condimento: aromaticos_frescos
   nota: en láminas finas, al gusto
   opcional: true
-- nombre: orégano seco
   es_condimento: true
-  tipo_condimento: hierbas_aromaticas
+  tipo_condimento: aromaticos_frescos
+  catalogo_ref: cm-ing-000005
+- nombre: orégano seco
   cantidad: 0.5
   unidad: cucharadita
   nota: para toda la preparación; alternativa al comino
   opcional: true
-- nombre: comino molido
   es_condimento: true
-  tipo_condimento: sal_y_especias
+  tipo_condimento: hierbas_aromaticas
+  catalogo_ref: cm-ing-000048
+- nombre: comino molido
   cantidad: 0.25
   unidad: cucharadita
   nota: para toda la preparación; alternativa al orégano
   opcional: true
+  es_condimento: true
+  tipo_condimento: sal_y_especias
+  catalogo_ref: cm-ing-000021
 pdf_ingredientes:
 - 2 pimientos morrones grandes
 - 1 cebolla (mitades o cuartos, según tamaño)
@@ -70,74 +77,71 @@ pasos:
   duracion_min: 3
   duracion_max_min: 5
   duracion_texto: 3-5 min
-  instrucciones: Lava y seca bien los pimientos; déjalos enteros, con su pedúnculo. Pela la cebolla y
-    córtala por la mitad si es pequeña o en cuartos si es grande. Conserva un poco de la base para mantener
-    unidas las capas.
+  instrucciones: Lava y seca bien los pimientos; déjalos enteros, con su pedúnculo. Pela la cebolla y córtala por
+    la mitad si es pequeña o en cuartos si es grande. Conserva un poco de la base para mantener unidas las capas.
 - orden: 2
   titulo: Prepara la cesta
   duracion_min: 1
   duracion_max_min: 2
   duracion_texto: 1-2 min
-  instrucciones: 'Retira la rejilla extraíble y coloca en el fondo una bandejita de papel de horno adecuada
-    para la freidora y resistente, como mínimo, a 190 °C. No debe sobresalir ni quedar encajada bloqueando
-    la circulación de aire. Pon siempre las verduras encima antes de encender: nunca hagas funcionar la
-    freidora con el papel vacío.'
+  instrucciones: 'Retira la rejilla extraíble y coloca en el fondo una bandejita de papel de horno adecuada para
+    la freidora y resistente, como mínimo, a 190 °C. No debe sobresalir ni quedar encajada bloqueando la circulación
+    de aire. Pon siempre las verduras encima antes de encender: nunca hagas funcionar la freidora con el papel vacío.'
 - orden: 3
   titulo: Coloca y aceita
   duracion_min: 1
   duracion_max_min: 2
   duracion_texto: 1-2 min
-  instrucciones: 'Pulveriza muy ligeramente la bandejita: sobre el papel antiadherente apenas hace falta
-    aceite. Pulveriza también la cara superior de los pimientos. Colócalos tumbados, uno junto al otro,
-    con la cebolla en los huecos, sin apilar ni apretar las piezas.'
+  instrucciones: 'Pulveriza muy ligeramente la bandejita: sobre el papel antiadherente apenas hace falta aceite.
+    Pulveriza también la cara superior de los pimientos. Colócalos tumbados, uno junto al otro, con la cebolla en
+    los huecos, sin apilar ni apretar las piezas.'
 - orden: 4
   titulo: Asa y da la vuelta
   duracion_min: 25
   duracion_max_min: 25
   duracion_texto: 15 + 10 min
   instrucciones: Sin precalentar, selecciona Veggies a 190 °C durante 15 minutos. Da la vuelta a los pimientos,
-    recoloca la cebolla y pulveriza ligeramente la otra cara si lo necesita. Cocina otros 10 minutos con
-    el mismo programa y temperatura.
+    recoloca la cebolla y pulveriza ligeramente la otra cara si lo necesita. Cocina otros 10 minutos con el mismo
+    programa y temperatura.
 - orden: 5
   titulo: Comprueba el punto
   duracion_min: 0
   duracion_max_min: null
   duracion_texto: Al terminar; 3-5 min extra si hace falta
-  instrucciones: 'Los pimientos deben estar blandos, algo hundidos y con la piel arrugada y tostada por
-    zonas. La cebolla debe atravesarse fácilmente con un cuchillo. Retira cada pieza cuando esté lista;
-    si hace falta, prolonga el asado en tandas de 3-5 minutos. Los tiempos son orientativos: ajústalos
-    al tamaño de las verduras y a la carga.'
+  instrucciones: 'Los pimientos deben estar blandos, algo hundidos y con la piel arrugada y tostada por zonas. La
+    cebolla debe atravesarse fácilmente con un cuchillo. Retira cada pieza cuando esté lista; si hace falta, prolonga
+    el asado en tandas de 3-5 minutos. Los tiempos son orientativos: ajústalos al tamaño de las verduras y a la
+    carga.'
 - orden: 6
   titulo: Reposa, pela y corta
   duracion_min: 10
   duracion_max_min: 15
   duracion_texto: 10-15 min de reposo; después pelar
-  instrucciones: Pasa los pimientos a un recipiente y tápalos para facilitar el pelado. Reserva los jugos.
-    Cuando puedas manipularlos, retira piel, pedúnculos y semillas, sin enjuagarlos para no perder sabor.
-    Corta la carne en tiras y la cebolla en trozos o separa sus capas.
+  instrucciones: Pasa los pimientos a un recipiente y tápalos para facilitar el pelado. Reserva los jugos. Cuando
+    puedas manipularlos, retira piel, pedúnculos y semillas, sin enjuagarlos para no perder sabor. Corta la carne
+    en tiras y la cebolla en trozos o separa sus capas.
 - orden: 7
   titulo: Mezcla y aliña
   duracion_min: 2
   duracion_max_min: 3
   duracion_texto: 2-3 min
-  instrucciones: Pon los pimientos y la cebolla en un recipiente limpio. Añade los jugos colados para
-    retirar semillas o restos de piel, sal al gusto y un poco de aceite. Si quieres, incorpora el ajo
-    laminado y una de las especias opcionales. Mezcla suavemente. Sirven para picotear, como guarnición
-    o como base de ensaladas.
-claves: 'Guarda en un recipiente limpio, poco profundo y cerrado, en la nevera a 4 °C o menos. Consume
-  en 3-4 días desde el asado. Refrigera antes de que transcurran dos horas desde la cocción, sin esperar
-  a que se enfríe completamente sobre la encimera. Para congelar: ya pelados y sin semillas, en porciones
-  con cebolla, algo de jugo y el aceite que tengan, en bolsas cerradas o recipientes aptos con espacio
-  libre. Enfría rápidamente y congela pronto. A -18 °C, consume preferentemente en 3-4 meses. Descongela
-  en la nevera; pueden quedar algo más blandos. El aceite es un aliño: no convierte la preparación en
-  una conserva. Si añades ajo crudo al aceite, mantén siempre refrigerado y no superes los 4 días por
-  el riesgo de botulismo. También puedes añadir el ajo solo a la porción que vayas a servir.'
-conservacion: Guarda en un recipiente limpio, poco profundo y cerrado, en la nevera a 4 °C o menos. Consume
-  en 3-4 días desde el asado. Refrigera antes de que transcurran dos horas desde la cocción, sin esperar
-  a que se enfríe completamente sobre la encimera. Para más tiempo, congela porciones.
-seguridad: 'El aceite es un aliño: no convierte la preparación en una conserva. Si añades ajo crudo al
-  aceite, mantén siempre refrigerado y no superes los 4 días por el riesgo de botulismo. También puedes
-  añadir el ajo solo a la porción que vayas a servir.'
+  instrucciones: Pon los pimientos y la cebolla en un recipiente limpio. Añade los jugos colados para retirar semillas
+    o restos de piel, sal al gusto y un poco de aceite. Si quieres, incorpora el ajo laminado y una de las especias
+    opcionales. Mezcla suavemente. Sirven para picotear, como guarnición o como base de ensaladas.
+claves: 'Guarda en un recipiente limpio, poco profundo y cerrado, en la nevera a 4 °C o menos. Consume en 3-4 días
+  desde el asado. Refrigera antes de que transcurran dos horas desde la cocción, sin esperar a que se enfríe completamente
+  sobre la encimera. Para congelar: ya pelados y sin semillas, en porciones con cebolla, algo de jugo y el aceite
+  que tengan, en bolsas cerradas o recipientes aptos con espacio libre. Enfría rápidamente y congela pronto. A -18
+  °C, consume preferentemente en 3-4 meses. Descongela en la nevera; pueden quedar algo más blandos. El aceite es
+  un aliño: no convierte la preparación en una conserva. Si añades ajo crudo al aceite, mantén siempre refrigerado
+  y no superes los 4 días por el riesgo de botulismo. También puedes añadir el ajo solo a la porción que vayas a
+  servir.'
+conservacion: Guarda en un recipiente limpio, poco profundo y cerrado, en la nevera a 4 °C o menos. Consume en 3-4
+  días desde el asado. Refrigera antes de que transcurran dos horas desde la cocción, sin esperar a que se enfríe
+  completamente sobre la encimera. Para más tiempo, congela porciones.
+seguridad: 'El aceite es un aliño: no convierte la preparación en una conserva. Si añades ajo crudo al aceite, mantén
+  siempre refrigerado y no superes los 4 días por el riesgo de botulismo. También puedes añadir el ajo solo a la
+  porción que vayas a servir.'
 enlaces_texto:
 - texto: botulismo
   url: https://nchfp.uga.edu/how/freeze/vegetable/freezing-garlic-in-oil/
@@ -169,12 +173,12 @@ recursos:
   fuente: USDA FSIS
 image: https://fucolin.github.io/recetario/images/pimientos-asados-cebolla-cosori-ilustracion-v1.jpg
 pdf: https://fucolin.github.io/recetario/pimientos-asados-cebolla-cosori.pdf
-congelacion: Congela los pimientos ya asados, pelados y sin semillas, en porciones pequeñas con la cebolla,
-  un poco de sus jugos y el aceite que ya tengan. Utiliza recipientes aptos para congelar, dejando algo
-  de espacio libre, o bolsas bien cerradas. Enfría rápidamente y congela pronto, manteniendo la indicación
-  de refrigerar antes de dos horas desde la cocción. Conserva a -18 °C y consume preferentemente en 3-4
-  meses para mantener buena calidad. Descongela en la nevera. Pueden quedar algo más blandos, pero siguen
-  siendo adecuados para guarniciones, tostas o ensaladas.
+congelacion: Congela los pimientos ya asados, pelados y sin semillas, en porciones pequeñas con la cebolla, un poco
+  de sus jugos y el aceite que ya tengan. Utiliza recipientes aptos para congelar, dejando algo de espacio libre,
+  o bolsas bien cerradas. Enfría rápidamente y congela pronto, manteniendo la indicación de refrigerar antes de
+  dos horas desde la cocción. Conserva a -18 °C y consume preferentemente en 3-4 meses para mantener buena calidad.
+  Descongela en la nevera. Pueden quedar algo más blandos, pero siguen siendo adecuados para guarniciones, tostas
+  o ensaladas.
 fecha_actualizacion: '2026-10-15'
 encabezado:
   titulo: Pimientos asados con cebolla
@@ -183,8 +187,8 @@ image_alt: Tiras de pimientos rojos asados y cebolla tierna con sus jugos
 image_credit: Imagen generada con IA para Casa Marisa
 image_note: Imagen ilustrativa generada con IA; no es una fotografía del plato preparado.
 ingredientes_basicos:
-- pimientos morrones
-- cebolla
+- cm-ing-000060
+- cm-ing-000018
 ---
 
 

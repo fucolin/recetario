@@ -1,5 +1,5 @@
 {
-  "esquema": "recetario-1.0",
+  "esquema": "recetario-1.1",
   "id": "crema-aprovechamiento-marisa",
   "familia": "crema-aprovechamiento-marisa",
   "variante": "principal",
@@ -33,7 +33,8 @@
       "cantidad": 200,
       "unidad": "g",
       "nota": "limpio",
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000062"
     },
     {
       "nombre": "aceite de oliva",
@@ -41,7 +42,8 @@
       "unidad": "g",
       "nota": "para sofreír el puerro",
       "es_condimento": true,
-      "tipo_condimento": "aceites_acidos_y_salsas"
+      "tipo_condimento": "aceites_acidos_y_salsas",
+      "catalogo_ref": "cm-ing-000001"
     },
     {
       "nombre": "verduras variadas",
@@ -49,20 +51,36 @@
       "cantidad_max": 600,
       "unidad": "g",
       "nota": "las que haya por casa; peso preparado, además del puerro",
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000072"
     },
     {
       "nombre": "agua o caldo de pollo",
       "cantidad_min": 500,
       "cantidad_max": 600,
       "unidad": "g",
-      "nota": "empezar con 500 g y ajustar la textura al final"
+      "nota": "empezar con 500 g y ajustar la textura al final",
+      "seleccion": "una",
+      "alternativas": [
+        {
+          "nombre": "agua",
+          "catalogo_ref": "cm-ing-000002",
+          "es_condimento": false
+        },
+        {
+          "nombre": "caldo de pollo",
+          "catalogo_ref": "cm-ing-000016",
+          "es_condimento": true,
+          "tipo_condimento": "fondos_para_cocinar"
+        }
+      ]
     },
     {
       "nombre": "sal",
       "nota": "al gusto; probar antes si el caldo ya lleva sal",
       "es_condimento": true,
-      "tipo_condimento": "sal_y_especias"
+      "tipo_condimento": "sal_y_especias",
+      "catalogo_ref": "cm-ing-000066"
     }
   ],
   "pdf_ingredientes": [
@@ -195,20 +213,20 @@
   "image_credit": "Imagen generada con IA para Casa Marisa",
   "image_note": "Imagen ilustrativa generada con IA; no es una fotografía del plato preparado. Muestra una crema con la mezcla de verduras indicada en Claves.",
   "ingredientes_basicos": [
-    "puerro",
-    "verduras variadas"
+    "cm-ing-000062",
+    "cm-ing-000072"
   ],
   "ingredientes_basicos_opciones": [
     {
       "tipo": "alternativa",
       "ingredientes": [
-        "zanahoria",
-        "calabaza",
-        "calabacín",
-        "boniato"
+        "cm-ing-000077",
+        "cm-ing-000015",
+        "cm-ing-000014",
+        "cm-ing-000011"
       ],
       "sustituye": [
-        "verduras variadas"
+        "cm-ing-000072"
       ],
       "nota": "Ejemplo de mezcla de Marisa, no una composición fija ni ingredientes adicionales."
     }
@@ -218,14 +236,16 @@
       "origen": "ingredientes[3].nombre",
       "nombre": "agua",
       "es_condimento": false,
-      "condicion": "Si se elige agua, no es condimento."
+      "condicion": "Si se elige agua, no es condimento.",
+      "catalogo_ref": "cm-ing-000002"
     },
     {
       "origen": "ingredientes[3].nombre",
       "nombre": "caldo de pollo",
       "es_condimento": true,
       "tipo_condimento": "fondos_para_cocinar",
-      "condicion": "Solo si se elige caldo en lugar de agua."
+      "condicion": "Solo si se elige caldo en lugar de agua.",
+      "catalogo_ref": "cm-ing-000016"
     }
   ]
 }

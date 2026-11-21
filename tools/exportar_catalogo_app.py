@@ -18,6 +18,8 @@ import unicodedata
 
 import yaml
 
+from catalogue_contract import validate as validate_recipe, metadata_for_legacy_reader
+
 ROOT = Path(__file__).resolve().parents[1]
 TYPES = {'receta', 'preparacion', 'combinacion'}
 SLUG = re.compile(r'[a-z0-9]+(?:-[a-z0-9]+)*')
@@ -67,7 +69,8 @@ def ingredient(i, index):
         alt = a
     else:
         require(a is None, 'Alternativa de tipo desconocido')
-        alt = '; '.join(i.get('alternativas', []))
+        alternatives = i.get('alternativas', [])
+        alt = '; '.join(v['nombre'] if isinstance(v, dict) else v for v in alternatives)
     weight = ''
     if i.get('peso_min_g') is not None:
         weight = 'Peso: ' + number(i['peso_min_g']) + '–' + number(i['peso_max_g']) + ' g'
@@ -106,7 +109,11 @@ def generate(source, commit):
         ident = text(d.get('id'), 'id')
         require(bool(SLUG.fullmatch(ident)) and name == ident + '.json', 'ID/ruta no coinciden')
         require(ident not in ids, 'ID duplicado: ' + ident)
-        require(d.get('esquema') == 'recetario-1.0', 'Esquema desconocido: ' + ident)
+        require(d.get('esquema') in {'recetario-1.0', 'recetario-1.1'}, 'Esquema desconocido: ' + ident)
+        registry = None
+        if d['esquema'] == 'recetario-1.1':
+            registry = json.loads(read('datos/catalogo-ingredientes.json'))
+            validate_recipe(d, registry)
         master = read(ident + '.md').split('---', 2)
         require(len(master) == 3 and not master[0].strip(), 'Maestro sin YAML: ' + ident)
         y = yaml.safe_load(master[1])
@@ -130,6 +137,12 @@ def generate(source, commit):
             category=text(d.get('categoria_menu'), 'categoría'), type=d['tipo_ficha'],
             available=True, url=ident + '.html', portions=portions, servings=servings,
             ingredients=[ingredient(i, n) for n, i in enumerate(d['ingredientes'])]))
+        if registry is not None:
+            # Older web/iOS readers receive names; immutable source keeps the IDs.
+            rows[-1]['shoppingMetadata'] = metadata_for_legacy_reader(d, registry)
+            rows[-1]['catalogueMetadata'] = {key: d[key] for key in [
+                'esquema', 'ingredientes_basicos', 'ingredientes_basicos_opciones',
+                'condimentos_opciones'] if key in d}
         ids.add(ident)
     state = json.loads(read('datos/estado-fichas.json'))
     for p in state['proximas']:

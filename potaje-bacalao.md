@@ -1,5 +1,5 @@
 ---
-esquema: recetario-1.0
+esquema: recetario-1.1
 id: potaje-bacalao
 familia: potaje-bacalao
 variante: principal
@@ -24,55 +24,65 @@ tiempo_total_min:
   max: 40
 ingredientes:
 - nombre: garbanzos cocidos
-  es_condimento: false
   cantidad: 400
   unidad: g
   nota: peso escurrido
+  es_condimento: false
+  catalogo_ref: cm-ing-000031
 - nombre: bacalao desalado sin espinas
-  es_condimento: false
   cantidad: 200
   unidad: g
+  es_condimento: false
+  catalogo_ref: cm-ing-000009
 - nombre: espinacas frescas
-  es_condimento: false
   cantidad: 200
   unidad: g
+  es_condimento: false
+  catalogo_ref: cm-ing-000026
 - nombre: cebolla
-  es_condimento: true
-  tipo_condimento: aromaticos_frescos
   cantidad: 150
   unidad: g
-- nombre: ajo
   es_condimento: true
   tipo_condimento: aromaticos_frescos
+  catalogo_ref: cm-ing-000018
+- nombre: ajo
   cantidad: 2
   unidad: dientes
-- nombre: aceite de oliva virgen extra
   es_condimento: true
-  tipo_condimento: aceites_acidos_y_salsas
+  tipo_condimento: aromaticos_frescos
+  catalogo_ref: cm-ing-000005
+- nombre: aceite de oliva virgen extra
   cantidad: 10
   unidad: g
-- nombre: pimentón dulce
   es_condimento: true
-  tipo_condimento: sal_y_especias
+  tipo_condimento: aceites_acidos_y_salsas
+  catalogo_ref: cm-ing-000001
+- nombre: pimentón dulce
   cantidad: 0.5
   unidad: cucharadita
-- nombre: laurel
   es_condimento: true
-  tipo_condimento: hierbas_aromaticas
+  tipo_condimento: sal_y_especias
+  catalogo_ref: cm-ing-000058
+- nombre: laurel
   cantidad: 1
   unidad: hoja
+  es_condimento: true
+  tipo_condimento: hierbas_aromaticas
+  catalogo_ref: cm-ing-000037
 - nombre: agua
-  es_condimento: false
   cantidad: 350
   unidad: ml
   cantidad_max: 450
+  es_condimento: false
+  catalogo_ref: cm-ing-000002
 - nombre: sal
-  es_condimento: true
-  tipo_condimento: sal_y_especias
   cantidad: null
   unidad: null
   opcional: true
   nota: solo si hace falta
+  es_condimento: true
+  tipo_condimento: sal_y_especias
+  catalogo_ref: cm-ing-000066
 pdf_ingredientes:
 - 400 g garbanzos cocidos (peso escurrido)
 - 200 g bacalao desalado sin espinas
@@ -132,10 +142,6 @@ fuente:
   atribucion: 🌿 Adaptada de una receta de Eva, la nutricionista
   autor: Eva, nutricionista
   titulo_original: Potaje de garbanzos, espinacas y bacalao
-  pdf_original: Recetas básicas 25.11.2025
-  pagina: 2
-  catalogo_privado: catalogo-nutricionista-muestra.zip
-  ficha_catalogo: recetas/potaje-de-garbanzos-espinacas-y-bacalao.md
 image: https://fucolin.github.io/recetario/images/potaje-bacalao.jpg
 image_alt: Ilustración de potaje con garbanzos, espinacas y trozos de bacalao en caldo ligero
 image_credit: Imagen generada con IA para Casa Marisa
@@ -148,9 +154,9 @@ encabezado:
   titulo: Potaje de bacalao
   detalle: Con garbanzos y espinacas · a fuego lento · 2 raciones · 35-40 min
 ingredientes_basicos:
-- garbanzos
-- bacalao
-- espinacas
+- cm-ing-000031
+- cm-ing-000009
+- cm-ing-000026
 ---
 
 # Potaje de bacalao

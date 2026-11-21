@@ -1,5 +1,5 @@
 ---
-esquema: recetario-1.0
+esquema: recetario-1.1
 id: barquitas-endivia-requeson
 familia: barquitas-endivia-requeson
 variante: principal
@@ -19,15 +19,17 @@ tiempo_total_min:
   max: 5
 ingredientes:
 - nombre: endivia
-  es_condimento: false
   cantidad: 1
   unidad: unidad
   nota: 6-8 hojas
-- nombre: requesón
   es_condimento: false
+  catalogo_ref: cm-ing-000025
+- nombre: requesón
   cantidad: 100
   unidad: g
   producto_preferido: requeson-loran
+  es_condimento: false
+  catalogo_ref: cm-ing-000065
 opciones_aderezo:
 - nombre: Fresco
   ingredientes:
@@ -47,21 +49,21 @@ opciones_aderezo:
   - 10 g de nueces picadas
   - unas gotas de limón
   - pimienta negra
-consejo: Separa 6-8 hojas bonitas, reparte el requesón entre ellas y elige una sola opción de aderezo.
-  Sírvelas recién montadas para conservar el crujiente de la endivia.
+consejo: Separa 6-8 hojas bonitas, reparte el requesón entre ellas y elige una sola opción de aderezo. Sírvelas
+  recién montadas para conservar el crujiente de la endivia.
 image: https://fucolin.github.io/recetario/images/barquitas-endivia-requeson-ilustracion-v1.jpg
 fecha_actualizacion: '2026-10-15'
 image_alt: Hojas de endivia con requesón, cebollino, ralladura de limón y pimienta
 image_credit: Imagen generada con IA para Casa Marisa
-image_note: Imagen ilustrativa generada con IA; no es una fotografía del plato preparado. Muestra la opción
-  de aderezo fresco.
+image_note: Imagen ilustrativa generada con IA; no es una fotografía del plato preparado. Muestra la opción de aderezo
+  fresco.
 ingredientes_basicos:
-- endivia
-- requesón
+- cm-ing-000025
+- cm-ing-000065
 ingredientes_basicos_opciones:
 - tipo: opcional
   ingredientes:
-  - nueces
+  - cm-ing-000045
   nota: Solo en el aderezo Crujiente; elegir una opción de aderezo.
 condimentos_opciones:
 - origen: opciones_aderezo[0].ingredientes[0]
@@ -69,50 +71,60 @@ condimentos_opciones:
   es_condimento: true
   condicion: Solo en el aderezo Fresco.
   tipo_condimento: sal_y_especias
+  catalogo_ref: cm-ing-000059
 - origen: opciones_aderezo[0].ingredientes[1]
   nombre: limón
   es_condimento: true
   condicion: Solo en el aderezo Fresco.
   tipo_condimento: aceites_acidos_y_salsas
+  catalogo_ref: cm-ing-000042
 - origen: opciones_aderezo[0].ingredientes[2]
   nombre: cebollino
   es_condimento: true
   condicion: Solo en el aderezo Fresco.
   tipo_condimento: hierbas_aromaticas
+  catalogo_ref: cm-ing-000019
 - origen: opciones_aderezo[1].ingredientes[0]
   nombre: aceite de oliva virgen extra
   es_condimento: true
   condicion: Solo en el aderezo Mediterráneo.
   tipo_condimento: aceites_acidos_y_salsas
+  catalogo_ref: cm-ing-000001
 - origen: opciones_aderezo[1].ingredientes[1]
   nombre: pimentón ahumado
   es_condimento: true
   condicion: Solo en el aderezo Mediterráneo.
   tipo_condimento: sal_y_especias
+  catalogo_ref: cm-ing-000057
 - origen: opciones_aderezo[2].ingredientes[0]
   nombre: aceite de oliva virgen extra
   es_condimento: true
   condicion: Solo en el aderezo Aromático.
   tipo_condimento: aceites_acidos_y_salsas
+  catalogo_ref: cm-ing-000001
 - origen: opciones_aderezo[2].ingredientes[1]
   nombre: zaatar
   es_condimento: true
   condicion: Solo en el aderezo Aromático.
   tipo_condimento: sal_y_especias
+  catalogo_ref: cm-ing-000076
 - origen: opciones_aderezo[3].ingredientes[0]
   nombre: nueces
   es_condimento: false
   condicion: Solo en el aderezo Crujiente.
+  catalogo_ref: cm-ing-000045
 - origen: opciones_aderezo[3].ingredientes[1]
   nombre: limón
   es_condimento: true
   condicion: Solo en el aderezo Crujiente.
   tipo_condimento: aceites_acidos_y_salsas
+  catalogo_ref: cm-ing-000042
 - origen: opciones_aderezo[3].ingredientes[2]
   nombre: pimienta negra
   es_condimento: true
   condicion: Solo en el aderezo Crujiente.
   tipo_condimento: sal_y_especias
+  catalogo_ref: cm-ing-000059
 ---
 
 

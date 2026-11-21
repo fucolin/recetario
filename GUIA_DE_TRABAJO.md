@@ -62,6 +62,10 @@ Este es el recorrido canónico; los detalles se desarrollan en [Referencia de tr
 - Antes de publicar, ejecutar `python tools/comprobar_noindex.py` en una copia canónica aislada y comprobar todos los HTML nuevos de la lista explícita. No publicar vistas previas.
 - Esto no restringe el acceso por enlace ni hace privado el repositorio. La retirada de resultados depende del rastreador y puede tardar. PDF, imágenes directas y maestros Markdown/JSON no quedan excluidos mediante esta etiqueta HTML. Ver el apartado «Buscadores y alcance» de la referencia.
 
+## Catálogo de ingredientes · transición a recetario-1.1
+
+Las fichas con esquema `recetario-1.1` enlazan ingredientes mediante `catalogo_ref` con IDs numéricos permanentes del registro `datos/catalogo-ingredientes.json`. Conservan el nombre culinario; `ingredientes_basicos`, y las listas de ingredientes/sustituye de sus opciones, utilizan IDs. Las fichas1.0 conservan su estructura por nombres. No interpretar IDs como etiquetas visibles. Véase [contrato del catálogo](docs/CATALOGO-INGREDIENTES.md). Publicar el registro, las fichas, sus maestros sincronizados y el exportador compatible como un conjunto; mantener versiones de preparaciones anteriores.
+
 ## Estilo y datos esenciales
 
 - **Condimentos por receta:** en los objetos de ingredientes actuales, indicar `es_condimento` y, solo cuando sea `true`, `tipo_condimento` con uno de los cinco grupos acordados. Valorar la función en cada ficha: ajo del ajillo y albahaca protagonista son básicos, no condimentos. Conservar alternativas y opcionales. Las opciones textuales y las mezclas de agua/caldo se anotan por referencia sin alterar su formato original. Ver [estructura y grupos](docs/REFERENCIA_DE_TRABAJO.md#condimentos-por-receta).
@@ -131,5 +135,3 @@ El PDF de burritos incorpora seis imágenes numeradas en dos filas de tres, sin 
 ## Excepción acordada: menestra y preparación en tabla
 
 «Menestra guisada» presenta la preparación en tres columnas en escritorio y como pasos abiertos en móvil: título numerado y filete, fuego en cursiva con icono de llama y tiempo, acción y «Hasta que…». El PDF mantiene la tabla en una página A4. Fuente estructurada en `pasos`, con `preparacion_formato: tabla-adaptable` y `pdf_preparacion_tabla: true`; regenerar con `tools/generar_receta_tabla.py menestra-guisada.md` y el generador común de PDF. No extender esta excepción a otras recetas sin acuerdo.
-
-

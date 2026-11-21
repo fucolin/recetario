@@ -1,5 +1,5 @@
 ---
-esquema: recetario-1.0
+esquema: recetario-1.1
 id: pollo-guisado-calabacin
 familia: pollo-guisado-calabacin
 variante: principal
@@ -18,68 +18,94 @@ tiempo_total_min:
   max: 60
 ingredientes:
 - nombre: pollo troceado
-  es_condimento: false
   unidad: g
   nota: preferiblemente contramuslos deshuesados
   cantidad_min: 500
   cantidad_max: 600
+  es_condimento: false
+  catalogo_ref: cm-ing-000061
 - nombre: cebolla
-  es_condimento: true
-  tipo_condimento: aromaticos_frescos
   cantidad: 1
   unidad: unidad
   nota: mediana, unos 150 g
+  es_condimento: true
+  tipo_condimento: aromaticos_frescos
+  catalogo_ref: cm-ing-000018
 - nombre: zanahorias
-  es_condimento: false
   cantidad: 2
   unidad: unidades
   nota: unos 150 g
-- nombre: calabacín
   es_condimento: false
+  catalogo_ref: cm-ing-000077
+- nombre: calabacín
   cantidad: 1
   unidad: unidad
   nota: unos 250 g
-- nombre: tomate triturado
   es_condimento: false
+  catalogo_ref: cm-ing-000014
+- nombre: tomate triturado
   cantidad: 300
   unidad: g
+  es_condimento: false
+  catalogo_ref: cm-ing-000068
 - nombre: ajo
-  es_condimento: true
-  tipo_condimento: aromaticos_frescos
   cantidad: 2
   unidad: dientes
-- nombre: vino blanco seco
   es_condimento: true
-  tipo_condimento: fondos_para_cocinar
+  tipo_condimento: aromaticos_frescos
+  catalogo_ref: cm-ing-000005
+- nombre: vino blanco seco
   unidad: ml
   cantidad_min: 50
   cantidad_max: 75
-- nombre: aceite de oliva virgen extra
   es_condimento: true
-  tipo_condimento: aceites_acidos_y_salsas
+  tipo_condimento: fondos_para_cocinar
+  catalogo_ref: cm-ing-000074
+- nombre: aceite de oliva virgen extra
   unidad: cucharadas
   cantidad_min: 2
   cantidad_max: 3
-- nombre: pimentón dulce
   es_condimento: true
-  tipo_condimento: sal_y_especias
+  tipo_condimento: aceites_acidos_y_salsas
+  catalogo_ref: cm-ing-000001
+- nombre: pimentón dulce
   cantidad: 0.5
   unidad: cucharadita
-- nombre: laurel
-  es_condimento: true
-  tipo_condimento: hierbas_aromaticas
-  cantidad: 1
-  unidad: hoja
-- nombre: tomillo
-  es_condimento: true
-  tipo_condimento: hierbas_aromaticas
-  nota: opcional
-- nombre: sal y pimienta negra
   es_condimento: true
   tipo_condimento: sal_y_especias
+  catalogo_ref: cm-ing-000058
+- nombre: laurel
+  cantidad: 1
+  unidad: hoja
+  es_condimento: true
+  tipo_condimento: hierbas_aromaticas
+  catalogo_ref: cm-ing-000037
+- nombre: tomillo
+  nota: opcional
+  es_condimento: true
+  tipo_condimento: hierbas_aromaticas
+  catalogo_ref: cm-ing-000070
+- nombre: sal
   nota: al gusto
+  es_condimento: true
+  tipo_condimento: sal_y_especias
+  catalogo_ref: cm-ing-000066
+- nombre: pimienta negra
+  nota: al gusto
+  es_condimento: true
+  tipo_condimento: sal_y_especias
+  catalogo_ref: cm-ing-000059
 - nombre: agua o caldo de pollo
   nota: solo si hace falta
+  seleccion: una
+  alternativas:
+  - nombre: agua
+    catalogo_ref: cm-ing-000002
+    es_condimento: false
+  - nombre: caldo de pollo
+    catalogo_ref: cm-ing-000016
+    es_condimento: true
+    tipo_condimento: fondos_para_cocinar
 pdf_ingredientes:
 - 500-600 g pollo troceado (mejor contramuslos deshuesados)
 - 1 cebolla mediana (150 g)
@@ -99,59 +125,56 @@ pasos:
   duracion_min: 5
   duracion_max_min: 7
   duracion_texto: 5-7 min
-  instrucciones: Seca bien el pollo, córtalo en trozos de unos 4 cm y salpimienta. Calienta la olla de
-    acero inoxidable con aceite a fuego medio-alto. Dora por tandas, 2-3 min por lado, sin mover antes
-    de que se despegue. Retira a un plato con sus jugos. No hace falta cocinarlo por dentro todavía.
+  instrucciones: Seca bien el pollo, córtalo en trozos de unos 4 cm y salpimienta. Calienta la olla de acero inoxidable
+    con aceite a fuego medio-alto. Dora por tandas, 2-3 min por lado, sin mover antes de que se despegue. Retira
+    a un plato con sus jugos. No hace falta cocinarlo por dentro todavía.
 - orden: 2
   titulo: Saltear el calabacín
   duracion_min: 2
   duracion_max_min: 3
   duracion_texto: 2-3 min
-  instrucciones: Córtalo en medias lunas gruesas (1,5 cm). Si el fondo conserva restos dorados, no negros,
-    saltea brevemente a fuego medio-alto, buscando algo de color sin ablandarlo. Retira y reserva. Si
-    los restos del pollo amenazan con quemarse, omite este salteado y desglasa inmediatamente.
+  instrucciones: Córtalo en medias lunas gruesas (1,5 cm). Si el fondo conserva restos dorados, no negros, saltea
+    brevemente a fuego medio-alto, buscando algo de color sin ablandarlo. Retira y reserva. Si los restos del pollo
+    amenazan con quemarse, omite este salteado y desglasa inmediatamente.
 - orden: 3
   titulo: Desglasar con vino
   duracion_min: 1
   duracion_max_min: 2
   duracion_texto: 1-2 min
-  instrucciones: Baja el fuego y deja perder calor a la olla. Vierte 50-75 ml de vino blanco, rasca los
-    restos marrones con una espátula de madera y reduce aproximadamente a la mitad. No recuperes residuos
-    negros o de olor quemado.
+  instrucciones: Baja el fuego y deja perder calor a la olla. Vierte 50-75 ml de vino blanco, rasca los restos marrones
+    con una espátula de madera y reduce aproximadamente a la mitad. No recuperes residuos negros o de olor quemado.
 - orden: 4
   titulo: Hacer el sofrito
   duracion_min: 10
   duracion_max_min: 12
   duracion_texto: 10-12 min
-  instrucciones: Añade la cebolla picada, una pizca de sal y algo más de aceite si hace falta. Sofríe
-    a fuego medio-bajo. Incorpora la zanahoria en medias lunas finas (3-4 mm) y cocina hasta completar
-    10-12 min, removiendo. Agrega el ajo picado el último minuto. Si se pega, añade una cucharada de agua.
+  instrucciones: Añade la cebolla picada, una pizca de sal y algo más de aceite si hace falta. Sofríe a fuego medio-bajo.
+    Incorpora la zanahoria en medias lunas finas (3-4 mm) y cocina hasta completar 10-12 min, removiendo. Agrega
+    el ajo picado el último minuto. Si se pega, añade una cucharada de agua.
 - orden: 5
   titulo: Concentrar el tomate
   duracion_min: 8
   duracion_max_min: 10
   duracion_texto: 8-10 min
-  instrucciones: Incorpora el pimentón, remueve unos 10 segundos y añade enseguida el tomate triturado,
-    el laurel y, si quieres, tomillo. Cocina destapado a fuego medio-bajo hasta que espese y pierda el
-    sabor a crudo.
+  instrucciones: Incorpora el pimentón, remueve unos 10 segundos y añade enseguida el tomate triturado, el laurel
+    y, si quieres, tomillo. Cocina destapado a fuego medio-bajo hasta que espese y pierda el sabor a crudo.
 - orden: 6
   titulo: Terminar el guiso
   duracion_min: 12
   duracion_max_min: 18
   duracion_texto: 12-18 min
-  instrucciones: Devuelve el pollo y sus jugos a la olla. Tapa y cocina a hervor suave hasta que esté
-    hecho; añade un poco de agua o caldo solo si la salsa lo necesita. Incorpora el calabacín salteado
-    durante los últimos 4-5 min. Comprueba que el pollo alcance 74 °C en el centro.
+  instrucciones: Devuelve el pollo y sus jugos a la olla. Tapa y cocina a hervor suave hasta que esté hecho; añade
+    un poco de agua o caldo solo si la salsa lo necesita. Incorpora el calabacín salteado durante los últimos 4-5
+    min. Comprueba que el pollo alcance 74 °C en el centro.
 - orden: 7
   titulo: Ajustar y reposar
   duracion_min: 5
   duracion_max_min: 5
   duracion_texto: 5 min
-  instrucciones: Prueba y corrige de sal y pimienta. Si la salsa está líquida, redúcela destapada antes
-    de apagar. Deja reposar 5 min con el fuego apagado y la olla tapada.
-claves: El fondo marrón aporta sabor; el negro amarga. No amontones el pollo. El calabacín debe llegar
-  al reposo aún ligeramente firme. Si usas pechuga, acorta el guisado y vigila especialmente que no se
-  seque.
+  instrucciones: Prueba y corrige de sal y pimienta. Si la salsa está líquida, redúcela destapada antes de apagar.
+    Deja reposar 5 min con el fuego apagado y la olla tapada.
+claves: El fondo marrón aporta sabor; el negro amarga. No amontones el pollo. El calabacín debe llegar al reposo
+  aún ligeramente firme. Si usas pechuga, acorta el guisado y vigila especialmente que no se seque.
 image: https://fucolin.github.io/recetario/images/pollo-guisado-calabacin-ilustracion-v1.jpg
 pdf: https://fucolin.github.io/recetario/pollo-guisado-calabacin.pdf
 fecha_actualizacion: '2026-10-15'
@@ -169,23 +192,27 @@ image_alt: Pollo guisado con salsa de tomate, zanahoria y medias lunas de calaba
 image_credit: Imagen generada con IA para Casa Marisa
 image_note: Imagen ilustrativa generada con IA; no es una fotografía del plato preparado.
 variantes:
-- {titulo: Olla, pagina: pollo-guisado-calabacin.html}
-- {titulo: Cocotte y horno, pagina: pollo-guisado-calabacin-cocotte.html}
+- titulo: Olla
+  pagina: pollo-guisado-calabacin.html
+- titulo: Cocotte y horno
+  pagina: pollo-guisado-calabacin-cocotte.html
 ingredientes_basicos:
-- pollo
-- zanahoria
-- calabacín
-- tomate triturado
+- cm-ing-000061
+- cm-ing-000077
+- cm-ing-000014
+- cm-ing-000068
 condimentos_opciones:
-- origen: ingredientes[12].nombre
+- origen: ingredientes[13].nombre
   nombre: agua
   es_condimento: false
   condicion: Si se elige agua, no es condimento.
-- origen: ingredientes[12].nombre
+  catalogo_ref: cm-ing-000002
+- origen: ingredientes[13].nombre
   nombre: caldo de pollo
   es_condimento: true
   tipo_condimento: fondos_para_cocinar
   condicion: Solo si se elige caldo en lugar de agua.
+  catalogo_ref: cm-ing-000016
 ---
 
 

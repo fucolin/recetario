@@ -1,5 +1,18 @@
 # Continuar en otro chat · Casa Marisa
 
+## 21/11/2026 · Referencias de ingredientes y alternativas · publicación autorizada
+
+Publicación expresamente solicitada de doce fichas recetario-1.1, registro de ingredientes y exportador compatible. Los nombres culinarios, cantidades, pasos y condiciones se conservan; los básicos usan IDs y cada ingrediente incorpora catalogo_ref. Sal/pimienta se separan en los datos y agua/caldo mantiene su texto con ramas explícitas, sin elegir una por el usuario. Las veinte fichas restantes conservan1.0. El transporte sigue en schemaVersion1 y proyecta metadatos por nombres para lectores anteriores.
+
+Las referencias internas de procedencia (localizadores del catálogo de origen y de sus documentos privados) se separan de los metadatos públicos de tres fichas; se conservan autor, atribución y título original. Los datos culinarios y el transporte exportado permanecen idénticos tras esa separación.
+
+Registro público con77 entradas de ID/nombre y secuencia siguiente132: puede haber números reservados sin entrada publicada; no rellenar huecos ni reutilizar IDs. No contiene existencias ni clasificaciones privadas. Metadatos descriptivos: HTML, Schema.org, PDF, imágenes, fecha culinaria, menús publicados y primeras fechas de incorporación se conservan.
+
+Lista explícita: los doce pares YAML/JSON (barquitas-endivia-requeson, burrito-frijoles-negros, crema-aprovechamiento-marisa, ensalada-salmon-ahumado-mango-aguacate, fajita-francesa-pavo, gambas-ajillo-pasta, hummus-zanahoria, pechuga-pavo-plancha, pimientos-asados-cebolla-cosori, pollo-guisado-calabacin, potaje-bacalao y tortilla-boniato-espinacas-parmesano); datos/catalogo-ingredientes.json; tools/catalogue_contract.py; tools/exportar_catalogo_app.py; docs/CATALOGO-INGREDIENTES.md; GUIA_DE_TRABAJO.md; docs/REFERENCIA_DE_TRABAJO.md y este resumen.31 archivos.
+
+Compatibilidad del visor nativo y editor en web/simulador comprobada con datos aislados; sin cambio Swift requerido para esos recorridos. La protección de elecciones excluyentes se publica primero en el editor web. Comprobar exportación completa32+15, el workflow y los JSON servidos antes de declarar desplegado el recetario. No importar instantáneas sintéticas de pruebas ni reescribir copias congeladas de menús.
+
+
 ## 07/11/2026 · Fecha original en catálogo · publicación autorizada
 
 Autorización expresa para publicar el metadato de primera incorporación de las recetas al historial público. El exportador añade firstPublishedAt (segundos Unix) de la primera alta de cada HTML en el ref exportado; una corrección posterior no rejuvenece la fecha. El workflow descarga el historial completo (fetch-depth:0). Conserva schemaVersion1 y todos los campos previos; no modifica recetas, fotos, PDF, menú ni selección de NUEVA.

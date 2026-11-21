@@ -1,5 +1,5 @@
 {
-  "esquema": "recetario-1.0",
+  "esquema": "recetario-1.1",
   "id": "fajita-francesa-pavo",
   "familia": "fajita-francesa-pavo",
   "variante": "principal",
@@ -37,29 +37,57 @@
       "cantidad": 1,
       "unidad": "unidad",
       "nota": "grande; integral o de espelta",
-      "es_condimento": false
+      "es_condimento": false,
+      "seleccion": "una",
+      "alternativas": [
+        {
+          "nombre": "tortillas de trigo",
+          "catalogo_ref": "cm-ing-000071",
+          "es_condimento": false
+        },
+        {
+          "nombre": "piadina",
+          "catalogo_ref": "cm-ing-000055",
+          "es_condimento": false
+        }
+      ]
     },
     {
       "nombre": "huevos",
       "cantidad": 2,
       "unidad": "unidades",
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000033"
     },
     {
       "nombre": "pavo o jamón cocido",
-      "producto_preferido": "pechuga-pavo-elpozo-1954",
       "cantidad": 1,
       "unidad": "loncha",
       "peso_aprox_g": 25,
       "nota": "grande; mínimo 90 % de carne",
-      "es_condimento": false
+      "es_condimento": false,
+      "seleccion": "una",
+      "alternativas": [
+        {
+          "nombre": "pavo cocido",
+          "catalogo_ref": "cm-ing-000053",
+          "es_condimento": false,
+          "producto_preferido": "pechuga-pavo-elpozo-1954"
+        },
+        {
+          "nombre": "jamón cocido",
+          "catalogo_ref": "cm-ing-000035",
+          "es_condimento": false
+        }
+      ]
     },
     {
       "nombre": "queso",
       "cantidad": 1,
       "unidad": "loncha",
       "peso_aprox_g": 20,
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000063"
     },
     {
       "nombre": "tomate",
@@ -67,31 +95,46 @@
       "unidad": "unidad",
       "peso_aprox_g": 50,
       "nota": "pequeño",
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000069"
     },
     {
       "nombre": "aguacate",
       "cantidad": 0.25,
       "unidad": "unidad",
       "nota": "mediano",
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000004"
     },
     {
       "nombre": "lechuga",
       "cantidad": 1,
       "unidad": "hoja",
       "alternativas": [
-        "un puñadito de brotes",
-        "un puñadito de canónigos"
+        {
+          "nombre": "brotes tiernos",
+          "catalogo_ref": "cm-ing-000012",
+          "nota": "un puñadito",
+          "es_condimento": false
+        },
+        {
+          "nombre": "canónigos",
+          "catalogo_ref": "cm-ing-000017",
+          "nota": "un puñadito",
+          "es_condimento": false
+        }
       ],
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000039",
+      "seleccion": "una"
     },
     {
       "nombre": "aceite de oliva",
       "cantidad": 0.5,
       "unidad": "cucharadita",
       "es_condimento": true,
-      "tipo_condimento": "aceites_acidos_y_salsas"
+      "tipo_condimento": "aceites_acidos_y_salsas",
+      "catalogo_ref": "cm-ing-000001"
     }
   ],
   "indicaciones": "Prepara el relleno. Corta el tomate en rodajas finas y déjalo escurrir bien. Lava y seca las hojas; si usas lechuga, pícala en tiras finas. Corta el aguacate en láminas y ten a mano el pavo o jamón y el queso.\n\nTempla la tortilla de trigo. Calienta la tortilla o piadina en una sartén antiadherente unos 30 segundos por cada cara, o el tiempo que indique el envase. Retírala y mantenla tapada mientras preparas el huevo. Usa una sartén de tamaño parecido al de la tortilla para que ambas capas encajen.\n\nCuaja la francesa y dale la vuelta. Bate los huevos. Añade la media cucharadita de aceite a la sartén y repártela por la base. Vierte el huevo a fuego medio-bajo. Cuando empiece a cuajar por debajo pero la superficie siga húmeda, coloca encima la tortilla de trigo y presiona suavemente para que se adhiera. Cubre con un plato y da la vuelta con cuidado. Devuelve el conjunto a la sartén con la tortilla de trigo abajo y el huevo hacia arriba.\n\nRellena y dobla. Reparte el queso y el pavo o jamón sobre una mitad de la francesa. Cocina brevemente a fuego bajo hasta que el huevo termine de cuajar y el queso empiece a fundirse. Retira a un plato, añade el tomate, el aguacate y las hojas, y dobla por la mitad.",
@@ -131,52 +174,52 @@
   },
   "consejo": "Para compartir, puedes preparar dos fajitas con tortillas pequeñas, repartiendo los ingredientes entre ambas y usando una sartén de su tamaño. La cantidad total sigue siendo una ración.",
   "ingredientes_basicos": [
-    "tortillas de trigo",
-    "huevos",
-    "pavo cocido",
-    "queso",
-    "tomate",
-    "aguacate",
-    "lechuga"
+    "cm-ing-000071",
+    "cm-ing-000033",
+    "cm-ing-000053",
+    "cm-ing-000063",
+    "cm-ing-000069",
+    "cm-ing-000004",
+    "cm-ing-000039"
   ],
   "ingredientes_basicos_opciones": [
     {
       "tipo": "alternativa",
       "ingredientes": [
-        "piadina"
+        "cm-ing-000055"
       ],
       "sustituye": [
-        "tortillas de trigo"
+        "cm-ing-000071"
       ],
       "nota": "Elegir tortilla o piadina."
     },
     {
       "tipo": "alternativa",
       "ingredientes": [
-        "jamón cocido"
+        "cm-ing-000035"
       ],
       "sustituye": [
-        "pavo cocido"
+        "cm-ing-000053"
       ],
       "nota": "Elegir pavo o jamón cocido."
     },
     {
       "tipo": "alternativa",
       "ingredientes": [
-        "brotes tiernos"
+        "cm-ing-000012"
       ],
       "sustituye": [
-        "lechuga"
+        "cm-ing-000039"
       ],
       "nota": "Alternativa de hojas."
     },
     {
       "tipo": "alternativa",
       "ingredientes": [
-        "canónigos"
+        "cm-ing-000017"
       ],
       "sustituye": [
-        "lechuga"
+        "cm-ing-000039"
       ],
       "nota": "Alternativa de hojas."
     }
