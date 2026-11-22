@@ -1,5 +1,5 @@
 {
-  "esquema": "recetario-1.0",
+  "esquema": "recetario-1.1",
   "id": "pasta-fresca-salmon",
   "familia": "pasta-fresca-salmon",
   "variante": "principal",
@@ -31,58 +31,67 @@
       "nombre": "láminas frescas de lasaña",
       "cantidad": 250,
       "unidad": "g",
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000107"
     },
     {
       "nombre": "cebolletas",
       "cantidad": 4,
       "unidad": "unidades",
       "es_condimento": true,
-      "tipo_condimento": "aromaticos_frescos"
+      "tipo_condimento": "aromaticos_frescos",
+      "catalogo_ref": "cm-ing-000087"
     },
     {
       "nombre": "espinacas",
       "cantidad": 160,
       "unidad": "g",
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000026"
     },
     {
       "nombre": "salmón ahumado",
       "cantidad": 120,
       "unidad": "g",
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000067"
     },
     {
       "nombre": "limón",
       "cantidad": 1,
       "unidad": "unidad",
       "es_condimento": true,
-      "tipo_condimento": "aceites_acidos_y_salsas"
+      "tipo_condimento": "aceites_acidos_y_salsas",
+      "catalogo_ref": "cm-ing-000042"
     },
     {
       "nombre": "queso parmesano",
       "cantidad": 10,
       "unidad": "g",
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000050"
     },
     {
       "nombre": "queso cottage",
       "cantidad": 2,
       "unidad": "cucharadas",
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000119"
     },
     {
       "nombre": "aceite de oliva",
       "nota": "un chorrito",
       "es_condimento": true,
-      "tipo_condimento": "aceites_acidos_y_salsas"
+      "tipo_condimento": "aceites_acidos_y_salsas",
+      "catalogo_ref": "cm-ing-000001"
     },
     {
       "nombre": "agua hirviendo",
       "cantidad": 500,
       "unidad": "ml",
       "nota": "aproximadamente; más si hace falta",
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000002"
     }
   ],
   "pdf_ingredientes": [
@@ -161,10 +170,10 @@
     "detalle": "Con espinacas, limón y cottage · en una sartén · 2 raciones · 10-15 min orientativos"
   },
   "ingredientes_basicos": [
-    "pasta fresca",
-    "espinacas",
-    "salmón ahumado",
-    "queso parmesano",
-    "queso cottage"
+    "cm-ing-000107",
+    "cm-ing-000026",
+    "cm-ing-000067",
+    "cm-ing-000050",
+    "cm-ing-000119"
   ]
 }

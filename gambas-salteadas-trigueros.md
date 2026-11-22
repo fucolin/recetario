@@ -1,5 +1,5 @@
 ---
-esquema: recetario-1.0
+esquema: recetario-1.1
 id: gambas-salteadas-trigueros
 familia: gambas-salteadas-trigueros
 variante: principal
@@ -28,38 +28,45 @@ encabezado:
   detalle: Con ajo, en sartén · 2 raciones · 15–20 min
 ingredientes:
 - nombre: gambas crudas peladas congeladas
-  es_condimento: false
   cantidad: 250
   unidad: g
   nota: peso descongelado y escurrido
-- nombre: espárragos trigueros
   es_condimento: false
+  catalogo_ref: cm-ing-000030
+- nombre: espárragos trigueros
   cantidad: 300
   unidad: g
+  es_condimento: false
+  catalogo_ref: cm-ing-000094
 - nombre: ajo
-  es_condimento: true
-  tipo_condimento: aromaticos_frescos
   cantidad: 1
   unidad: diente
-- nombre: aceite de oliva
   es_condimento: true
-  tipo_condimento: aceites_acidos_y_salsas
+  tipo_condimento: aromaticos_frescos
+  catalogo_ref: cm-ing-000005
+- nombre: aceite de oliva
   cantidad: 1
   unidad: cucharada
   equivalencia_ml: 15
-- nombre: sal
-  es_condimento: true
-  tipo_condimento: sal_y_especias
-  nota: al gusto
-- nombre: pimienta
-  es_condimento: true
-  tipo_condimento: sal_y_especias
-  nota: al gusto
-- nombre: zumo de limón
   es_condimento: true
   tipo_condimento: aceites_acidos_y_salsas
+  catalogo_ref: cm-ing-000001
+- nombre: sal
+  nota: al gusto
+  es_condimento: true
+  tipo_condimento: sal_y_especias
+  catalogo_ref: cm-ing-000066
+- nombre: pimienta
+  nota: al gusto
+  es_condimento: true
+  tipo_condimento: sal_y_especias
+  catalogo_ref: cm-ing-000059
+- nombre: zumo de limón
   cantidad: unas gotas
   opcional: true
+  es_condimento: true
+  tipo_condimento: aceites_acidos_y_salsas
+  catalogo_ref: cm-ing-000042
 pdf_ingredientes:
 - 250 g de gambas crudas peladas congeladas (peso descongelado y escurrido)
 - 300 g de espárragos trigueros
@@ -133,18 +140,18 @@ image_width: 1672
 image_height: 941
 pdf: https://fucolin.github.io/recetario/gambas-salteadas-trigueros.pdf
 ingredientes_basicos:
-- gambas
-- espárragos trigueros
+- cm-ing-000030
+- cm-ing-000094
 ingredientes_basicos_opciones:
 - tipo: alternativa
   ingredientes:
-  - calabacín
+  - cm-ing-000014
   sustituye:
-  - espárragos trigueros
+  - cm-ing-000094
   nota: Versión con calabacín en bastones.
 - tipo: opcional
   ingredientes:
-  - huevos
+  - cm-ing-000033
   nota: Huevo escalfado aparte, uno por persona, al servir.
 ---
 

@@ -1,5 +1,5 @@
 ---
-esquema: recetario-1.0
+esquema: recetario-1.1
 id: patatas-vapor-sabrosas
 familia: patatas-vapor-sabrosas
 variante: principal
@@ -18,16 +18,82 @@ encabezado:
   titulo: Patatas al vapor sabrosas
   detalle: Con feta y lima · estuche de vapor al microondas · 2 raciones · 15 min
 ingredientes:
-  - {nombre: patatas lavadas, cantidad: 400, unidad: g, alternativa: patacas novas de temporada, es_condimento: false}
-  - {nombre: ajo, cantidad: 1, unidad: diente, es_condimento: true, tipo_condimento: aromaticos_frescos}
-  - {nombre: lima, cantidad: 1, unidad: unidad, es_condimento: true, tipo_condimento: aceites_acidos_y_salsas}
-  - {nombre: aceite de oliva, cantidad: 1, unidad: cucharadita, equivalencia_ml: 5, uso: aliño final, alternativa: aceite de las sardinillas, es_condimento: true, tipo_condimento: aceites_acidos_y_salsas}
-  - {nombre: agua, cantidad: 1, unidad: cucharada, equivalencia_ml: 15, es_condimento: false}
-  - {nombre: queso feta, cantidad: 50, unidad: g, es_condimento: false}
-  - {nombre: laurel, cantidad: 1, unidad: hoja pequeña, es_condimento: true, tipo_condimento: hierbas_aromaticas}
-  - {nombre: cebollino, cantidad: 1, unidad: cucharada, es_condimento: true, tipo_condimento: hierbas_aromaticas}
-  - {nombre: sal, nota: 'una pizca, ajustable al gusto', es_condimento: true, tipo_condimento: sal_y_especias}
-  - {nombre: pimienta, nota: 'una pizca, ajustable al gusto', es_condimento: true, tipo_condimento: sal_y_especias}
+- nombre: patatas lavadas
+  cantidad: 400
+  unidad: g
+  alternativa: patacas novas de temporada
+  es_condimento: false
+  alternativa_ref: cm-ing-000109
+  catalogo_ref: cm-ing-000109
+- nombre: ajo
+  cantidad: 1
+  unidad: diente
+  es_condimento: true
+  tipo_condimento: aromaticos_frescos
+  catalogo_ref: cm-ing-000005
+- nombre: lima
+  cantidad: 1
+  unidad: unidad
+  es_condimento: true
+  tipo_condimento: aceites_acidos_y_salsas
+  catalogo_ref: cm-ing-000041
+- nombre: aceite de oliva
+  cantidad: 1
+  unidad: cucharadita
+  equivalencia_ml: 5
+  uso: aliño final
+  alternativa: aceite de las sardinillas
+  es_condimento: true
+  tipo_condimento: aceites_acidos_y_salsas
+  alternativa_ref: cm-ing-000129
+  catalogo_ref: cm-ing-000001
+  seleccion: una
+  alternativas:
+  - nombre: aceite de oliva
+    cantidad: 1
+    unidad: cucharadita
+    equivalencia_ml: 5
+    uso: aliño final
+    es_condimento: true
+    tipo_condimento: aceites_acidos_y_salsas
+    alternativa_ref: cm-ing-000129
+    catalogo_ref: cm-ing-000001
+  - nombre: aceite de las sardinillas
+    catalogo_ref: cm-ing-000129
+    derivado_del_producto: true
+- nombre: agua
+  cantidad: 1
+  unidad: cucharada
+  equivalencia_ml: 15
+  es_condimento: false
+  catalogo_ref: cm-ing-000002
+- nombre: queso feta
+  cantidad: 50
+  unidad: g
+  es_condimento: false
+  catalogo_ref: cm-ing-000122
+- nombre: laurel
+  cantidad: 1
+  unidad: hoja pequeña
+  es_condimento: true
+  tipo_condimento: hierbas_aromaticas
+  catalogo_ref: cm-ing-000037
+- nombre: cebollino
+  cantidad: 1
+  unidad: cucharada
+  es_condimento: true
+  tipo_condimento: hierbas_aromaticas
+  catalogo_ref: cm-ing-000019
+- nombre: sal
+  nota: una pizca, ajustable al gusto
+  es_condimento: true
+  tipo_condimento: sal_y_especias
+  catalogo_ref: cm-ing-000066
+- nombre: pimienta
+  nota: una pizca, ajustable al gusto
+  es_condimento: true
+  tipo_condimento: sal_y_especias
+  catalogo_ref: cm-ing-000059
 pdf_ingredientes:
   - 400 g de patatas lavadas o patacas novas de temporada
   - 1 diente de ajo
@@ -76,13 +142,67 @@ opciones:
   - titulo: Para cenar
     texto: Acompaña las patatas con una lata de sardinillas en aceite. Aprovecha una cucharadita del aceite de la conserva para el aliño final, en lugar de añadir aceite de oliva aparte. Con las sardinillas queda especialmente bien el eneldo en lugar del cebollino.
 opciones_ingredientes:
-  - {nombre: tomillo, cantidad_texto: una ramita pequeña o una pizca si es seco, opcional: true, sustituye: laurel, momento: antes de cocinar, es_condimento: true, tipo_condimento: hierbas_aromaticas}
-  - {nombre: romero, cantidad_texto: un trocito de ramita, opcional: true, sustituye: laurel, momento: antes de cocinar, es_condimento: true, tipo_condimento: hierbas_aromaticas}
-  - {nombre: perejil, cantidad: 1, unidad: cucharada, opcional: true, sustituye: cebollino, momento: al servir, es_condimento: true, tipo_condimento: hierbas_aromaticas}
-  - {nombre: eneldo, cantidad_min: 1, cantidad_max: 2, unidad: cucharaditas, opcional: true, sustituye: cebollino, momento: al servir, es_condimento: true, tipo_condimento: hierbas_aromaticas}
-  - {nombre: hierbabuena, cantidad_min: 2, cantidad_max: 3, unidad: hojas, opcional: true, sustituye: cebollino, momento: al servir, es_condimento: true, tipo_condimento: hierbas_aromaticas}
-  - {nombre: orégano seco, cantidad: 0.25, unidad: cucharadita, opcional: true, sustituye: cebollino, momento: al servir, es_condimento: true, tipo_condimento: hierbas_aromaticas}
-  - {nombre: sardinillas en aceite, cantidad: 1, unidad: lata, opcional: true, uso_aceite: reservar una cucharadita para el aliño final, es_condimento: false}
+- nombre: tomillo
+  cantidad_texto: una ramita pequeña o una pizca si es seco
+  opcional: true
+  sustituye: laurel
+  momento: antes de cocinar
+  es_condimento: true
+  tipo_condimento: hierbas_aromaticas
+  catalogo_ref: cm-ing-000070
+- nombre: romero
+  cantidad_texto: un trocito de ramita
+  opcional: true
+  sustituye: laurel
+  momento: antes de cocinar
+  es_condimento: true
+  tipo_condimento: hierbas_aromaticas
+  catalogo_ref: cm-ing-000125
+- nombre: perejil
+  cantidad: 1
+  unidad: cucharada
+  opcional: true
+  sustituye: cebollino
+  momento: al servir
+  es_condimento: true
+  tipo_condimento: hierbas_aromaticas
+  catalogo_ref: cm-ing-000112
+- nombre: eneldo
+  cantidad_min: 1
+  cantidad_max: 2
+  unidad: cucharaditas
+  opcional: true
+  sustituye: cebollino
+  momento: al servir
+  es_condimento: true
+  tipo_condimento: hierbas_aromaticas
+  catalogo_ref: cm-ing-000093
+- nombre: hierbabuena
+  cantidad_min: 2
+  cantidad_max: 3
+  unidad: hojas
+  opcional: true
+  sustituye: cebollino
+  momento: al servir
+  es_condimento: true
+  tipo_condimento: hierbas_aromaticas
+  catalogo_ref: cm-ing-000097
+- nombre: orégano seco
+  cantidad: 0.25
+  unidad: cucharadita
+  opcional: true
+  sustituye: cebollino
+  momento: al servir
+  es_condimento: true
+  tipo_condimento: hierbas_aromaticas
+  catalogo_ref: cm-ing-000048
+- nombre: sardinillas en aceite
+  cantidad: 1
+  unidad: lata
+  opcional: true
+  uso_aceite: reservar una cucharadita para el aliño final
+  es_condimento: false
+  catalogo_ref: cm-ing-000129
 fuente:
   tipo: folleto
   titulo_original: Steamed potatoes · Patatas al vapor
@@ -103,12 +223,12 @@ image_width: 1672
 image_height: 941
 pdf: https://fucolin.github.io/recetario/patatas-vapor-sabrosas.pdf
 ingredientes_basicos:
-- patata
-- queso feta
+- cm-ing-000109
+- cm-ing-000122
 ingredientes_basicos_opciones:
 - tipo: opcional
   ingredientes:
-  - sardinillas en aceite
+  - cm-ing-000129
   nota: Acompañamiento propuesto para cenar; no forma parte de la versión base.
 ---
 

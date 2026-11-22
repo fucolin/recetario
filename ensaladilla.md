@@ -1,5 +1,5 @@
 ---
-esquema: recetario-1.0
+esquema: recetario-1.1
 id: ensaladilla
 familia: ensaladilla
 variante: principal
@@ -27,62 +27,83 @@ tiempo_total_min:
 tiempo_nota: Sin incluir el enfriado en nevera.
 ingredientes:
 - nombre: mezcla de verduras congeladas para ensaladilla
-  es_condimento: false
   cantidad: 400
   unidad: g
   nota: revisar si incluye patata; solo si lo especifica en las pautas nutricionales
-- nombre: atún al natural
   es_condimento: false
+  catalogo_ref: cm-ing-000104
+- nombre: atún al natural
   cantidad: 80
   unidad: g
   nota: peso escurrido
-- nombre: huevo
   es_condimento: false
+  catalogo_ref: cm-ing-000082
+- nombre: huevo
   cantidad: 2
   unidad: unidades
-- nombre: queso fresco batido natural
   es_condimento: false
+  catalogo_ref: cm-ing-000033
+- nombre: queso fresco batido natural
   cantidad: 60
   unidad: g
+  es_condimento: false
+  catalogo_ref: cm-ing-000123
 - nombre: aceite de oliva virgen extra
-  es_condimento: true
-  tipo_condimento: aceites_acidos_y_salsas
   cantidad: 10
   unidad: g
-- nombre: zumo de limón o vinagre
   es_condimento: true
   tipo_condimento: aceites_acidos_y_salsas
+  catalogo_ref: cm-ing-000001
+- nombre: zumo de limón o vinagre
   cantidad: 10
   unidad: ml
   cantidad_max: 15
+  es_condimento: true
+  tipo_condimento: aceites_acidos_y_salsas
+  seleccion: una
+  alternativas:
+  - nombre: limón
+    catalogo_ref: cm-ing-000042
+    es_condimento: true
+    tipo_condimento: aceites_acidos_y_salsas
+  - nombre: vinagre
+    catalogo_ref: cm-ing-000073
+    es_condimento: true
+    tipo_condimento: aceites_acidos_y_salsas
 - nombre: pepinillos
-  es_condimento: false
   cantidad: 20
   unidad: g
   opcional: true
-- nombre: pimiento de piquillo o asado
   es_condimento: false
+  catalogo_ref: cm-ing-000110
+- nombre: pimiento de piquillo o asado
   cantidad: 40
   unidad: g
   opcional: true
+  es_condimento: false
+  catalogo_ref: cm-ing-000116
 - nombre: sal
-  es_condimento: true
-  tipo_condimento: sal_y_especias
   opcional: true
   nota: solo si hace falta
+  es_condimento: true
+  tipo_condimento: sal_y_especias
+  catalogo_ref: cm-ing-000066
 alternativas_verduras:
 - nombre: judías verdes
-  es_condimento: false
   cantidad: 150
   unidad: g
+  es_condimento: false
+  catalogo_ref: cm-ing-000100
 - nombre: zanahoria
-  es_condimento: false
   cantidad: 150
   unidad: g
-- nombre: guisantes
   es_condimento: false
+  catalogo_ref: cm-ing-000077
+- nombre: guisantes
   cantidad: 100
   unidad: g
+  es_condimento: false
+  catalogo_ref: cm-ing-000095
 patata_condicion: solo si lo especifica en las pautas nutricionales
 pdf_ingredientes:
 - 400 g mezcla congelada para ensaladilla (o 150 g judías verdes, 150 g zanahoria y 100 g guisantes frescos)
@@ -156,30 +177,30 @@ encabezado:
   titulo: Ensaladilla
   detalle: Con salsa de huevo cocido · 2 raciones · 35-40 min + enfriado
 ingredientes_basicos:
-- mezcla de verduras para ensaladilla
-- atún al natural
-- huevos
-- queso fresco batido
+- cm-ing-000104
+- cm-ing-000082
+- cm-ing-000033
+- cm-ing-000123
 ingredientes_basicos_opciones:
 - tipo: alternativa
   ingredientes:
-  - judías verdes
-  - zanahoria
-  - guisantes
+  - cm-ing-000100
+  - cm-ing-000077
+  - cm-ing-000095
   sustituye:
-  - mezcla de verduras para ensaladilla
+  - cm-ing-000104
   nota: Versión con verduras frescas indicada en la elaboración.
 - tipo: opcional
   ingredientes:
-  - patata
+  - cm-ing-000109
   nota: Solo si lo especifican las pautas nutricionales; forma parte de la cantidad de verduras, no se añade aparte.
 - tipo: opcional
   ingredientes:
-  - pepinillos
+  - cm-ing-000110
   nota: Añadido opcional.
 - tipo: opcional
   ingredientes:
-  - pimiento de piquillo o asado
+  - cm-ing-000116
   nota: Añadido opcional; elegir uno de los formatos indicados.
 ---
 

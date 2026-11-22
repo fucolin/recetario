@@ -1,5 +1,5 @@
 {
-  "esquema": "recetario-1.0",
+  "esquema": "recetario-1.1",
   "id": "revuelto-champinones-trigueros",
   "familia": "revuelto-champinones-trigueros",
   "variante": "principal",
@@ -26,52 +26,67 @@
       "nombre": "huevos",
       "cantidad": 4,
       "unidad": "unidades",
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000033"
     },
     {
       "nombre": "champiñones",
       "cantidad": 150,
       "unidad": "g",
       "nota": "enteros o laminados",
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000020"
     },
     {
       "nombre": "espárragos trigueros",
       "cantidad": 200,
       "unidad": "g",
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000094"
     },
     {
       "nombre": "ajo",
       "cantidad": 1,
       "unidad": "diente",
       "es_condimento": true,
-      "tipo_condimento": "aromaticos_frescos"
+      "tipo_condimento": "aromaticos_frescos",
+      "catalogo_ref": "cm-ing-000005"
     },
     {
       "nombre": "aceite de oliva virgen extra",
       "cantidad": 1,
       "unidad": "cucharada",
       "es_condimento": true,
-      "tipo_condimento": "aceites_acidos_y_salsas"
+      "tipo_condimento": "aceites_acidos_y_salsas",
+      "catalogo_ref": "cm-ing-000001"
     },
     {
-      "nombre": "sal y pimienta negra",
+      "nombre": "sal",
       "nota": "al gusto",
       "es_condimento": true,
-      "tipo_condimento": "sal_y_especias"
+      "tipo_condimento": "sal_y_especias",
+      "catalogo_ref": "cm-ing-000066"
+    },
+    {
+      "nombre": "pimienta negra",
+      "nota": "al gusto",
+      "es_condimento": true,
+      "tipo_condimento": "sal_y_especias",
+      "catalogo_ref": "cm-ing-000059"
     },
     {
       "nombre": "perejil picado",
       "opcional": true,
       "es_condimento": true,
-      "tipo_condimento": "hierbas_aromaticas"
+      "tipo_condimento": "hierbas_aromaticas",
+      "catalogo_ref": "cm-ing-000112"
     },
     {
       "nombre": "agua",
       "nota": "un poco, solo si los tallos son gruesos",
       "opcional": true,
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000002"
     }
   ],
   "pdf_ingredientes": [
@@ -138,8 +153,8 @@
   "image_credit": "Imagen generada con IA para Casa Marisa",
   "image_note": "Imagen ilustrativa generada con IA; no es una fotografía del plato preparado.",
   "ingredientes_basicos": [
-    "huevos",
-    "champiñones",
-    "espárragos trigueros"
+    "cm-ing-000033",
+    "cm-ing-000020",
+    "cm-ing-000094"
   ]
 }

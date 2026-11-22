@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "nextNumber": 132,
+  "nextNumber": 134,
   "products": [
     {
       "id": "cm-ing-000001",
@@ -239,10 +239,6 @@
       "nombre": "Pimienta negra"
     },
     {
-      "id": "cm-ing-000060",
-      "nombre": "Pimientos morrones"
-    },
-    {
       "id": "cm-ing-000061",
       "nombre": "Pollo troceado"
     },
@@ -296,7 +292,7 @@
     },
     {
       "id": "cm-ing-000074",
-      "nombre": "Vino blanco seco"
+      "nombre": "Vino para cocinar"
     },
     {
       "id": "cm-ing-000075",
@@ -309,6 +305,218 @@
     {
       "id": "cm-ing-000077",
       "nombre": "Zanahorias"
+    },
+    {
+      "id": "cm-ing-000078",
+      "nombre": "Aceitunas negras"
+    },
+    {
+      "id": "cm-ing-000079",
+      "nombre": "Aceitunas verdes"
+    },
+    {
+      "id": "cm-ing-000080",
+      "nombre": "Albahaca"
+    },
+    {
+      "id": "cm-ing-000081",
+      "nombre": "Alubias blancas"
+    },
+    {
+      "id": "cm-ing-000082",
+      "nombre": "Atún al natural"
+    },
+    {
+      "id": "cm-ing-000083",
+      "nombre": "Berenjena"
+    },
+    {
+      "id": "cm-ing-000084",
+      "nombre": "Bonito en conserva"
+    },
+    {
+      "id": "cm-ing-000086",
+      "nombre": "Caldo de verduras"
+    },
+    {
+      "id": "cm-ing-000087",
+      "nombre": "Cebolleta"
+    },
+    {
+      "id": "cm-ing-000088",
+      "nombre": "Champiñones portobello"
+    },
+    {
+      "id": "cm-ing-000089",
+      "nombre": "Chile en polvo"
+    },
+    {
+      "id": "cm-ing-000090",
+      "nombre": "Chorizo"
+    },
+    {
+      "id": "cm-ing-000091",
+      "nombre": "Contramuslos de pollo"
+    },
+    {
+      "id": "cm-ing-000092",
+      "nombre": "Cuartos traseros de pollo"
+    },
+    {
+      "id": "cm-ing-000093",
+      "nombre": "Eneldo"
+    },
+    {
+      "id": "cm-ing-000094",
+      "nombre": "Espárragos trigueros"
+    },
+    {
+      "id": "cm-ing-000095",
+      "nombre": "Guisantes"
+    },
+    {
+      "id": "cm-ing-000096",
+      "nombre": "Harina de trigo"
+    },
+    {
+      "id": "cm-ing-000097",
+      "nombre": "Hierbabuena"
+    },
+    {
+      "id": "cm-ing-000098",
+      "nombre": "Jamón curado"
+    },
+    {
+      "id": "cm-ing-000099",
+      "nombre": "Jengibre"
+    },
+    {
+      "id": "cm-ing-000100",
+      "nombre": "Judías verdes"
+    },
+    {
+      "id": "cm-ing-000101",
+      "nombre": "Leche de coco"
+    },
+    {
+      "id": "cm-ing-000102",
+      "nombre": "Levadura química"
+    },
+    {
+      "id": "cm-ing-000103",
+      "nombre": "Mejillones"
+    },
+    {
+      "id": "cm-ing-000104",
+      "nombre": "Mezcla de verduras para ensaladilla"
+    },
+    {
+      "id": "cm-ing-000105",
+      "nombre": "Mostaza"
+    },
+    {
+      "id": "cm-ing-000107",
+      "nombre": "Pasta fresca"
+    },
+    {
+      "id": "cm-ing-000108",
+      "nombre": "Pastilla de caldo vegetal"
+    },
+    {
+      "id": "cm-ing-000109",
+      "nombre": "Patata"
+    },
+    {
+      "id": "cm-ing-000110",
+      "nombre": "Pepinillos"
+    },
+    {
+      "id": "cm-ing-000111",
+      "nombre": "Pepino"
+    },
+    {
+      "id": "cm-ing-000112",
+      "nombre": "Perejil"
+    },
+    {
+      "id": "cm-ing-000114",
+      "nombre": "Pimiento rojo"
+    },
+    {
+      "id": "cm-ing-000115",
+      "nombre": "Pimiento verde"
+    },
+    {
+      "id": "cm-ing-000116",
+      "nombre": "Pimientos asados"
+    },
+    {
+      "id": "cm-ing-000117",
+      "nombre": "Quesitos"
+    },
+    {
+      "id": "cm-ing-000118",
+      "nombre": "Queso cheddar"
+    },
+    {
+      "id": "cm-ing-000119",
+      "nombre": "Queso cottage"
+    },
+    {
+      "id": "cm-ing-000120",
+      "nombre": "Queso crema"
+    },
+    {
+      "id": "cm-ing-000121",
+      "nombre": "Queso de cabra"
+    },
+    {
+      "id": "cm-ing-000122",
+      "nombre": "Queso feta"
+    },
+    {
+      "id": "cm-ing-000123",
+      "nombre": "Queso fresco batido"
+    },
+    {
+      "id": "cm-ing-000124",
+      "nombre": "Queso gouda"
+    },
+    {
+      "id": "cm-ing-000125",
+      "nombre": "Romero"
+    },
+    {
+      "id": "cm-ing-000126",
+      "nombre": "Rúcula"
+    },
+    {
+      "id": "cm-ing-000127",
+      "nombre": "Sardinas"
+    },
+    {
+      "id": "cm-ing-000129",
+      "nombre": "Sardinillas en aceite"
+    },
+    {
+      "id": "cm-ing-000130",
+      "nombre": "Tomates cherry"
+    },
+    {
+      "id": "cm-ing-000131",
+      "nombre": "Vinagre de manzana"
+    },
+    {
+      "id": "cm-ing-000132",
+      "nombre": "Carne"
     }
-  ]
+  ],
+  "mergedFrom": {
+    "cm-ing-000085": "cm-ing-000012",
+    "cm-ing-000133": "cm-ing-000074",
+    "cm-ing-000106": "cm-ing-000105",
+    "cm-ing-000060": "cm-ing-000114",
+    "cm-ing-000113": "cm-ing-000116",
+    "cm-ing-000128": "cm-ing-000129"
+  }
 }

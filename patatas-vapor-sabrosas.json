@@ -1,5 +1,5 @@
 {
-  "esquema": "recetario-1.0",
+  "esquema": "recetario-1.1",
   "id": "patatas-vapor-sabrosas",
   "familia": "patatas-vapor-sabrosas",
   "variante": "principal",
@@ -40,21 +40,25 @@
       "cantidad": 400,
       "unidad": "g",
       "alternativa": "patacas novas de temporada",
-      "es_condimento": false
+      "es_condimento": false,
+      "alternativa_ref": "cm-ing-000109",
+      "catalogo_ref": "cm-ing-000109"
     },
     {
       "nombre": "ajo",
       "cantidad": 1,
       "unidad": "diente",
       "es_condimento": true,
-      "tipo_condimento": "aromaticos_frescos"
+      "tipo_condimento": "aromaticos_frescos",
+      "catalogo_ref": "cm-ing-000005"
     },
     {
       "nombre": "lima",
       "cantidad": 1,
       "unidad": "unidad",
       "es_condimento": true,
-      "tipo_condimento": "aceites_acidos_y_salsas"
+      "tipo_condimento": "aceites_acidos_y_salsas",
+      "catalogo_ref": "cm-ing-000041"
     },
     {
       "nombre": "aceite de oliva",
@@ -64,46 +68,73 @@
       "uso": "aliño final",
       "alternativa": "aceite de las sardinillas",
       "es_condimento": true,
-      "tipo_condimento": "aceites_acidos_y_salsas"
+      "tipo_condimento": "aceites_acidos_y_salsas",
+      "alternativa_ref": "cm-ing-000129",
+      "catalogo_ref": "cm-ing-000001",
+      "seleccion": "una",
+      "alternativas": [
+        {
+          "nombre": "aceite de oliva",
+          "cantidad": 1,
+          "unidad": "cucharadita",
+          "equivalencia_ml": 5,
+          "uso": "aliño final",
+          "es_condimento": true,
+          "tipo_condimento": "aceites_acidos_y_salsas",
+          "alternativa_ref": "cm-ing-000129",
+          "catalogo_ref": "cm-ing-000001"
+        },
+        {
+          "nombre": "aceite de las sardinillas",
+          "catalogo_ref": "cm-ing-000129",
+          "derivado_del_producto": true
+        }
+      ]
     },
     {
       "nombre": "agua",
       "cantidad": 1,
       "unidad": "cucharada",
       "equivalencia_ml": 15,
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000002"
     },
     {
       "nombre": "queso feta",
       "cantidad": 50,
       "unidad": "g",
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000122"
     },
     {
       "nombre": "laurel",
       "cantidad": 1,
       "unidad": "hoja pequeña",
       "es_condimento": true,
-      "tipo_condimento": "hierbas_aromaticas"
+      "tipo_condimento": "hierbas_aromaticas",
+      "catalogo_ref": "cm-ing-000037"
     },
     {
       "nombre": "cebollino",
       "cantidad": 1,
       "unidad": "cucharada",
       "es_condimento": true,
-      "tipo_condimento": "hierbas_aromaticas"
+      "tipo_condimento": "hierbas_aromaticas",
+      "catalogo_ref": "cm-ing-000019"
     },
     {
       "nombre": "sal",
       "nota": "una pizca, ajustable al gusto",
       "es_condimento": true,
-      "tipo_condimento": "sal_y_especias"
+      "tipo_condimento": "sal_y_especias",
+      "catalogo_ref": "cm-ing-000066"
     },
     {
       "nombre": "pimienta",
       "nota": "una pizca, ajustable al gusto",
       "es_condimento": true,
-      "tipo_condimento": "sal_y_especias"
+      "tipo_condimento": "sal_y_especias",
+      "catalogo_ref": "cm-ing-000059"
     }
   ],
   "pdf_ingredientes": [
@@ -176,7 +207,8 @@
       "sustituye": "laurel",
       "momento": "antes de cocinar",
       "es_condimento": true,
-      "tipo_condimento": "hierbas_aromaticas"
+      "tipo_condimento": "hierbas_aromaticas",
+      "catalogo_ref": "cm-ing-000070"
     },
     {
       "nombre": "romero",
@@ -185,7 +217,8 @@
       "sustituye": "laurel",
       "momento": "antes de cocinar",
       "es_condimento": true,
-      "tipo_condimento": "hierbas_aromaticas"
+      "tipo_condimento": "hierbas_aromaticas",
+      "catalogo_ref": "cm-ing-000125"
     },
     {
       "nombre": "perejil",
@@ -195,7 +228,8 @@
       "sustituye": "cebollino",
       "momento": "al servir",
       "es_condimento": true,
-      "tipo_condimento": "hierbas_aromaticas"
+      "tipo_condimento": "hierbas_aromaticas",
+      "catalogo_ref": "cm-ing-000112"
     },
     {
       "nombre": "eneldo",
@@ -206,7 +240,8 @@
       "sustituye": "cebollino",
       "momento": "al servir",
       "es_condimento": true,
-      "tipo_condimento": "hierbas_aromaticas"
+      "tipo_condimento": "hierbas_aromaticas",
+      "catalogo_ref": "cm-ing-000093"
     },
     {
       "nombre": "hierbabuena",
@@ -217,7 +252,8 @@
       "sustituye": "cebollino",
       "momento": "al servir",
       "es_condimento": true,
-      "tipo_condimento": "hierbas_aromaticas"
+      "tipo_condimento": "hierbas_aromaticas",
+      "catalogo_ref": "cm-ing-000097"
     },
     {
       "nombre": "orégano seco",
@@ -227,7 +263,8 @@
       "sustituye": "cebollino",
       "momento": "al servir",
       "es_condimento": true,
-      "tipo_condimento": "hierbas_aromaticas"
+      "tipo_condimento": "hierbas_aromaticas",
+      "catalogo_ref": "cm-ing-000048"
     },
     {
       "nombre": "sardinillas en aceite",
@@ -235,7 +272,8 @@
       "unidad": "lata",
       "opcional": true,
       "uso_aceite": "reservar una cucharadita para el aliño final",
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000129"
     }
   ],
   "fuente": {
@@ -269,14 +307,14 @@
   "image_height": 941,
   "pdf": "https://fucolin.github.io/recetario/patatas-vapor-sabrosas.pdf",
   "ingredientes_basicos": [
-    "patata",
-    "queso feta"
+    "cm-ing-000109",
+    "cm-ing-000122"
   ],
   "ingredientes_basicos_opciones": [
     {
       "tipo": "opcional",
       "ingredientes": [
-        "sardinillas en aceite"
+        "cm-ing-000129"
       ],
       "nota": "Acompañamiento propuesto para cenar; no forma parte de la versión base."
     }

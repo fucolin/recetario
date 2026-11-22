@@ -1,5 +1,5 @@
 ---
-esquema: recetario-1.0
+esquema: recetario-1.1
 id: revuelto-champinones-trigueros
 familia: revuelto-champinones-trigueros
 variante: principal
@@ -20,40 +20,53 @@ tiempo_total_min:
   max: 25
 ingredientes:
 - nombre: huevos
-  es_condimento: false
   cantidad: 4
   unidad: unidades
-- nombre: champiñones
   es_condimento: false
+  catalogo_ref: cm-ing-000033
+- nombre: champiñones
   cantidad: 150
   unidad: g
   nota: enteros o laminados
-- nombre: espárragos trigueros
   es_condimento: false
+  catalogo_ref: cm-ing-000020
+- nombre: espárragos trigueros
   cantidad: 200
   unidad: g
+  es_condimento: false
+  catalogo_ref: cm-ing-000094
 - nombre: ajo
-  es_condimento: true
-  tipo_condimento: aromaticos_frescos
   cantidad: 1
   unidad: diente
-- nombre: aceite de oliva virgen extra
   es_condimento: true
-  tipo_condimento: aceites_acidos_y_salsas
+  tipo_condimento: aromaticos_frescos
+  catalogo_ref: cm-ing-000005
+- nombre: aceite de oliva virgen extra
   cantidad: 1
   unidad: cucharada
-- nombre: sal y pimienta negra
+  es_condimento: true
+  tipo_condimento: aceites_acidos_y_salsas
+  catalogo_ref: cm-ing-000001
+- nombre: sal
+  nota: al gusto
   es_condimento: true
   tipo_condimento: sal_y_especias
+  catalogo_ref: cm-ing-000066
+- nombre: pimienta negra
   nota: al gusto
+  es_condimento: true
+  tipo_condimento: sal_y_especias
+  catalogo_ref: cm-ing-000059
 - nombre: perejil picado
+  opcional: true
   es_condimento: true
   tipo_condimento: hierbas_aromaticas
-  opcional: true
+  catalogo_ref: cm-ing-000112
 - nombre: agua
-  es_condimento: false
   nota: un poco, solo si los tallos son gruesos
   opcional: true
+  es_condimento: false
+  catalogo_ref: cm-ing-000002
 pdf_ingredientes:
 - 4 huevos
 - 150 g de champiñones, enteros o laminados
@@ -119,9 +132,9 @@ image_alt: Revuelto jugoso con champiñones dorados y espárragos trigueros
 image_credit: Imagen generada con IA para Casa Marisa
 image_note: Imagen ilustrativa generada con IA; no es una fotografía del plato preparado.
 ingredientes_basicos:
-- huevos
-- champiñones
-- espárragos trigueros
+- cm-ing-000033
+- cm-ing-000020
+- cm-ing-000094
 ---
 
 

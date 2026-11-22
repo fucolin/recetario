@@ -1,5 +1,5 @@
 ---
-esquema: recetario-1.0
+esquema: recetario-1.1
 id: lentejas-calabaza-espinacas-400g
 familia: lentejas-calabaza-espinacas
 variante: principal
@@ -20,68 +20,86 @@ tiempo_total_min:
   max: 40
 ingredientes:
 - nombre: lentejas cocidas en conserva
-  es_condimento: false
   cantidad: 400
   unidad: g
   nota: peso escurrido
-- nombre: calabaza pelada
   es_condimento: false
+  catalogo_ref: cm-ing-000040
+- nombre: calabaza pelada
   cantidad: 350
   unidad: g
-- nombre: espinacas frescas
   es_condimento: false
+  catalogo_ref: cm-ing-000015
+- nombre: espinacas frescas
   unidad: g
   cantidad_min: 100
   cantidad_max: 125
+  es_condimento: false
+  catalogo_ref: cm-ing-000026
 - nombre: cebolla
-  es_condimento: true
-  tipo_condimento: aromaticos_frescos
   cantidad: 1
   unidad: unidad
   nota: mediana
-- nombre: ajo
   es_condimento: true
   tipo_condimento: aromaticos_frescos
+  catalogo_ref: cm-ing-000018
+- nombre: ajo
   cantidad: 2
   unidad: dientes
-- nombre: jengibre fresco
   es_condimento: true
   tipo_condimento: aromaticos_frescos
+  catalogo_ref: cm-ing-000005
+- nombre: jengibre fresco
   cantidad: 10
   unidad: g
+  es_condimento: true
+  tipo_condimento: aromaticos_frescos
+  catalogo_ref: cm-ing-000099
 - nombre: leche de coco
-  es_condimento: false
   cantidad: 150
   unidad: ml
+  es_condimento: false
+  catalogo_ref: cm-ing-000101
 - nombre: caldo de verduras
-  es_condimento: true
-  tipo_condimento: fondos_para_cocinar
   cantidad: 200
   unidad: ml
   nota: más un poco extra si hace falta
-- nombre: curry en polvo
   es_condimento: true
-  tipo_condimento: sal_y_especias
+  tipo_condimento: fondos_para_cocinar
+  catalogo_ref: cm-ing-000086
+- nombre: curry en polvo
   cantidad: 1
   unidad: cucharadita
-- nombre: comino molido
   es_condimento: true
   tipo_condimento: sal_y_especias
+  catalogo_ref: cm-ing-000023
+- nombre: comino molido
   cantidad: 0.5
   unidad: cucharadita
-- nombre: aceite de oliva virgen extra
-  es_condimento: true
-  tipo_condimento: aceites_acidos_y_salsas
-  cantidad: 2
-  unidad: cucharadas
-- nombre: sal y pimienta negra
   es_condimento: true
   tipo_condimento: sal_y_especias
-  nota: al gusto
-- nombre: zumo de limón
+  catalogo_ref: cm-ing-000021
+- nombre: aceite de oliva virgen extra
+  cantidad: 2
+  unidad: cucharadas
   es_condimento: true
   tipo_condimento: aceites_acidos_y_salsas
+  catalogo_ref: cm-ing-000001
+- nombre: sal
+  nota: al gusto
+  es_condimento: true
+  tipo_condimento: sal_y_especias
+  catalogo_ref: cm-ing-000066
+- nombre: pimienta negra
+  nota: al gusto
+  es_condimento: true
+  tipo_condimento: sal_y_especias
+  catalogo_ref: cm-ing-000059
+- nombre: zumo de limón
   nota: unas gotas al final
+  es_condimento: true
+  tipo_condimento: aceites_acidos_y_salsas
+  catalogo_ref: cm-ing-000042
 pdf_ingredientes:
 - 400 g de lentejas cocidas (escurridas)
 - 350 g de calabaza pelada
@@ -169,10 +187,10 @@ image_alt: Lentejas cremosas con dados de calabaza y espinacas en salsa de coco 
 image_credit: Imagen generada con IA para Casa Marisa
 image_note: Imagen ilustrativa generada con IA; no es una fotografía del plato preparado.
 ingredientes_basicos:
-- lentejas
-- calabaza
-- espinacas
-- leche de coco
+- cm-ing-000040
+- cm-ing-000015
+- cm-ing-000026
+- cm-ing-000101
 ---
 
 

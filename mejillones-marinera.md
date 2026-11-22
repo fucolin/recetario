@@ -1,5 +1,5 @@
 ---
-esquema: recetario-1.0
+esquema: recetario-1.1
 id: mejillones-marinera
 familia: mejillones-marinera
 variante: principal
@@ -18,14 +18,54 @@ encabezado:
   titulo: Mejillones a la marinera
   detalle: En estuche de vapor al microondas · 2 raciones · 20 min
 ingredientes:
-  - {nombre: mejillones crudos limpios al vacío, cantidad: 500, unidad: g, nota: con concha, alternativa: mejillones frescos con concha, es_condimento: false}
-  - {nombre: tomate triturado, cantidad: 100, unidad: g, nota: sin sal añadida, es_condimento: false}
-  - {nombre: cebolla, cantidad: 100, unidad: g, es_condimento: true, tipo_condimento: aromaticos_frescos}
-  - {nombre: pimiento rojo, cantidad: 100, unidad: g, es_condimento: false}
-  - {nombre: vino blanco, cantidad: 30, unidad: ml, es_condimento: true, tipo_condimento: fondos_para_cocinar}
-  - {nombre: aceite de oliva, cantidad: 1, unidad: cucharada, equivalencia_ml: 15, es_condimento: true, tipo_condimento: aceites_acidos_y_salsas}
-  - {nombre: pimienta, nota: una pizca, es_condimento: true, tipo_condimento: sal_y_especias}
-  - {nombre: sal, nota: solo si hace falta al final, es_condimento: true, tipo_condimento: sal_y_especias}
+- nombre: mejillones crudos limpios al vacío
+  cantidad: 500
+  unidad: g
+  nota: con concha
+  alternativa: mejillones frescos con concha
+  es_condimento: false
+  alternativa_ref: cm-ing-000103
+  catalogo_ref: cm-ing-000103
+- nombre: tomate triturado
+  cantidad: 100
+  unidad: g
+  nota: sin sal añadida
+  es_condimento: false
+  catalogo_ref: cm-ing-000068
+- nombre: cebolla
+  cantidad: 100
+  unidad: g
+  es_condimento: true
+  tipo_condimento: aromaticos_frescos
+  catalogo_ref: cm-ing-000018
+- nombre: pimiento rojo
+  cantidad: 100
+  unidad: g
+  es_condimento: false
+  catalogo_ref: cm-ing-000114
+- nombre: vino blanco
+  cantidad: 30
+  unidad: ml
+  es_condimento: true
+  tipo_condimento: fondos_para_cocinar
+  catalogo_ref: cm-ing-000074
+- nombre: aceite de oliva
+  cantidad: 1
+  unidad: cucharada
+  equivalencia_ml: 15
+  es_condimento: true
+  tipo_condimento: aceites_acidos_y_salsas
+  catalogo_ref: cm-ing-000001
+- nombre: pimienta
+  nota: una pizca
+  es_condimento: true
+  tipo_condimento: sal_y_especias
+  catalogo_ref: cm-ing-000059
+- nombre: sal
+  nota: solo si hace falta al final
+  es_condimento: true
+  tipo_condimento: sal_y_especias
+  catalogo_ref: cm-ing-000066
 pdf_ingredientes:
   - 500 g de mejillones crudos limpios al vacío, con concha
   - 100 g de tomate triturado sin sal añadida
@@ -96,9 +136,9 @@ image_width: 1672
 image_height: 941
 pdf: https://fucolin.github.io/recetario/mejillones-marinera.pdf
 ingredientes_basicos:
-- mejillones
-- tomate triturado
-- pimiento rojo
+- cm-ing-000103
+- cm-ing-000068
+- cm-ing-000114
 ---
 
 # Mejillones a la marinera

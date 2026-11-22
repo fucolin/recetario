@@ -1,5 +1,5 @@
 ---
-esquema: recetario-1.0
+esquema: recetario-1.1
 id: menestra-guisada
 familia: menestra-guisada
 variante: principal
@@ -31,37 +31,44 @@ encabezado:
 presentacion_marisa: Receta oral de Marisa, que prepara siguiendo los consejos de la tía Genia.
 ingredientes:
 - nombre: menestra congelada
-  es_condimento: false
   cantidad: 500
   unidad: g
+  es_condimento: false
+  catalogo_ref: cm-ing-000044
 - nombre: cebolla
-  es_condimento: true
-  tipo_condimento: aromaticos_frescos
   cantidad: 0.5
   unidad: unidad
-- nombre: ajo
   es_condimento: true
   tipo_condimento: aromaticos_frescos
+  catalogo_ref: cm-ing-000018
+- nombre: ajo
   cantidad: 1
   unidad: diente
-- nombre: aceite de oliva
   es_condimento: true
-  tipo_condimento: aceites_acidos_y_salsas
+  tipo_condimento: aromaticos_frescos
+  catalogo_ref: cm-ing-000005
+- nombre: aceite de oliva
   cantidad: 1
   unidad: cucharada
+  es_condimento: true
+  tipo_condimento: aceites_acidos_y_salsas
+  catalogo_ref: cm-ing-000001
 - nombre: agua
-  es_condimento: false
   cantidad: 50
   unidad: ml
   nota: aproximadamente; ajustar si hace falta
+  es_condimento: false
+  catalogo_ref: cm-ing-000002
 - nombre: sal
+  nota: al gusto
   es_condimento: true
   tipo_condimento: sal_y_especias
-  nota: al gusto
+  catalogo_ref: cm-ing-000066
 - nombre: pimienta
+  nota: al gusto
   es_condimento: true
   tipo_condimento: sal_y_especias
-  nota: al gusto
+  catalogo_ref: cm-ing-000059
 pdf_ingredientes:
 - 500 g de menestra congelada
 - ½ cebolla
@@ -166,27 +173,43 @@ opciones:
   texto: Esta menestra puede servirse como guarnición. Para tomarla como plato principal, acompáñala con huevo cocido y, si no lleva carne ni jamón, bonito en conserva.
 opciones_ingredientes:
 - nombre: jamón
-  es_condimento: false
   formato: tacos
   opcional: true
   alternativa: carne
-- nombre: carne
   es_condimento: false
+  seleccion: una
+  alternativas:
+  - nombre: jamón curado
+    catalogo_ref: cm-ing-000098
+  - nombre: jamón cocido
+    catalogo_ref: cm-ing-000035
+  alternativa_ref: cm-ing-000132
+- nombre: carne
   formato: trocitos
   opcional: true
   alternativa: jamón
+  es_condimento: false
+  catalogo_ref: cm-ing-000132
+  alternativa_eleccion:
+    nombre: jamón
+    una_de:
+    - cm-ing-000098
+    - cm-ing-000035
 - nombre: vino
-  es_condimento: true
-  tipo_condimento: fondos_para_cocinar
   cantidad_texto: un poco
   opcional: true
+  es_condimento: true
+  tipo_condimento: fondos_para_cocinar
+  catalogo_ref: cm-ing-000074
 - nombre: huevo cocido
-  es_condimento: false
   opcional: true
-- nombre: bonito en conserva
   es_condimento: false
+  catalogo_ref: cm-ing-000033
+- nombre: bonito en conserva
   opcional: true
   condicion: si no lleva carne ni jamón
+  es_condimento: false
+  catalogo_ref: cm-ing-000084
 image: https://fucolin.github.io/recetario/images/menestra-guisada-ilustracion-v2.jpg
 image_alt: Menestra guisada de judías verdes planas, guisantes, zanahoria y alcachofa, con cebolla y un fondo jugoso, en
   un plato de cerámica clara
@@ -220,23 +243,27 @@ original_marisa:
   - 'Para dar más sabor: añadir al sofrito tacos de jamón o trocitos de carne. Y a continuación, vino.'
   - 'Para acompañar: huevo cocido y, si no lleva carne o jamón, bonito en conserva.'
 ingredientes_basicos:
-- menestra de verduras
+- cm-ing-000044
 ingredientes_basicos_opciones:
 - tipo: opcional
   ingredientes:
-  - jamón
+  - cm-ing-000098
   nota: En tacos, en lugar de carne; opción del sofrito.
 - tipo: opcional
   ingredientes:
-  - carne
+  - cm-ing-000035
+  nota: En tacos, en lugar de carne; opción del sofrito.
+- tipo: opcional
+  ingredientes:
+  - cm-ing-000132
   nota: En trocitos, en lugar de jamón; opción del sofrito.
 - tipo: opcional
   ingredientes:
-  - huevos
+  - cm-ing-000033
   nota: Cocidos, para servir como plato principal.
 - tipo: opcional
   ingredientes:
-  - bonito en conserva
+  - cm-ing-000084
   nota: Para servir como plato principal, solo si no lleva carne ni jamón.
 ---
 

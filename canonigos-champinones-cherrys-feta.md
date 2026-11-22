@@ -1,5 +1,5 @@
 ---
-esquema: recetario-1.0
+esquema: recetario-1.1
 id: canonigos-champinones-cherrys-feta
 familia: canonigos-champinones-cherrys-feta
 variante: principal
@@ -19,32 +19,43 @@ tiempo_total_min:
   max: 12
 ingredientes:
 - nombre: champiñones
-  es_condimento: false
   cantidad_min: 100
   cantidad_max: 120
   unidad: g
-- nombre: tomates cherry
   es_condimento: false
+  catalogo_ref: cm-ing-000020
+- nombre: tomates cherry
   cantidad: 100
   unidad: g
-- nombre: canónigos
   es_condimento: false
+  catalogo_ref: cm-ing-000130
+- nombre: canónigos
   cantidad_min: 40
   cantidad_max: 50
   unidad: g
-- nombre: queso feta
   es_condimento: false
+  catalogo_ref: cm-ing-000017
+- nombre: queso feta
   cantidad: 30
   unidad: g
+  es_condimento: false
+  catalogo_ref: cm-ing-000122
 - nombre: aceite de oliva virgen extra
-  es_condimento: true
-  tipo_condimento: aceites_acidos_y_salsas
   cantidad: 1
   unidad: cucharadita
-- nombre: sal y pimienta negra
+  es_condimento: true
+  tipo_condimento: aceites_acidos_y_salsas
+  catalogo_ref: cm-ing-000001
+- nombre: sal
+  nota: al gusto
   es_condimento: true
   tipo_condimento: sal_y_especias
+  catalogo_ref: cm-ing-000066
+- nombre: pimienta negra
   nota: al gusto
+  es_condimento: true
+  tipo_condimento: sal_y_especias
+  catalogo_ref: cm-ing-000059
 indicaciones: Lamina los champiñones y corta los tomates por la mitad. Saltea los champiñones con el aceite
   a fuego medio-alto durante 4-5 minutos. Incorpora los tomates y cocina 2-3 minutos más, procurando que
   se ablanden y se doren ligeramente sin deshacerse. Coloca los canónigos como base, reparte encima el
@@ -57,10 +68,10 @@ image_alt: Canónigos con champiñones dorados, tomates cherry salteados y feta 
 image_credit: Imagen generada con IA para Casa Marisa
 image_note: Imagen ilustrativa generada con IA; no es una fotografía del plato preparado.
 ingredientes_basicos:
-- canónigos
-- champiñones
-- tomates cherry
-- queso feta
+- cm-ing-000017
+- cm-ing-000020
+- cm-ing-000130
+- cm-ing-000122
 ---
 
 
