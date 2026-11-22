@@ -1,5 +1,5 @@
 ---
-esquema: recetario-1.0
+esquema: recetario-1.1
 id: fajitas-salmon
 familia: fajitas-salmon
 variante: principal
@@ -28,36 +28,57 @@ tiempo_total_min:
   max: 15
 ingredientes:
 - nombre: tortillas/piadinas
-  es_condimento: false
   cantidad: 2
   unidad: unidades
   nota: grandes; integrales o de espelta
   producto_preferido: piadina-espelta-biocop
-- nombre: salmón ahumado
   es_condimento: false
+  seleccion: una
+  alternativas:
+  - nombre: tortillas de trigo
+    catalogo_ref: cm-ing-000071
+    es_condimento: false
+  - nombre: piadina
+    catalogo_ref: cm-ing-000055
+    es_condimento: false
+- nombre: salmón ahumado
   cantidad: 100
   unidad: g
-- nombre: aguacate
   es_condimento: false
+  catalogo_ref: cm-ing-000067
+- nombre: aguacate
   cantidad: 0.5
   unidad: unidad
   nota: mediano
-- nombre: tomate
   es_condimento: false
+  catalogo_ref: cm-ing-000004
+- nombre: tomate
   cantidad: 150
   unidad: g
-- nombre: espinacas frescas
   es_condimento: false
+  catalogo_ref: cm-ing-000069
+- nombre: espinacas frescas
   cantidad: 40
   unidad: g
+  es_condimento: false
+  catalogo_ref: cm-ing-000026
 - nombre: hummus
-  es_condimento: false
   cantidad: 20
   unidad: g
+  es_condimento: false
+  catalogo_ref: cm-ing-000034
 - nombre: queso crema o requesón
-  es_condimento: false
   cantidad: 20
   unidad: g
+  es_condimento: false
+  seleccion: una
+  alternativas:
+  - nombre: queso crema
+    catalogo_ref: cm-ing-000120
+    es_condimento: false
+  - nombre: requesón
+    catalogo_ref: cm-ing-000065
+    es_condimento: false
 indicaciones: 'Prepara el relleno. Corta el aguacate y el tomate en rodajas finas y deja escurrir bien el tomate.
   Lava y seca bien las espinacas; si las hojas son muy grandes, córtalas un poco. Escurrir el tomate y secar las
   hojas evita que la tortilla se humedezca.
@@ -138,25 +159,25 @@ referencias_consejo:
 - url: https://www.oldelpaso.es/products/wraps-extra-finas
   asunto: Sin conservantes; contiene otros aditivos, como estabilizante y emulgente
 ingredientes_basicos:
-- tortillas de trigo
-- salmón ahumado
-- aguacate
-- tomate
-- espinacas
-- hummus
-- queso crema
+- cm-ing-000071
+- cm-ing-000067
+- cm-ing-000004
+- cm-ing-000069
+- cm-ing-000026
+- cm-ing-000034
+- cm-ing-000120
 ingredientes_basicos_opciones:
 - tipo: alternativa
   ingredientes:
-  - piadina
+  - cm-ing-000055
   sustituye:
-  - tortillas de trigo
+  - cm-ing-000071
   nota: Elegir tortilla o piadina.
 - tipo: alternativa
   ingredientes:
-  - requesón
+  - cm-ing-000065
   sustituye:
-  - queso crema
+  - cm-ing-000120
   nota: Elegir queso crema o requesón.
 ---
 

@@ -1,5 +1,5 @@
 {
-  "esquema": "recetario-1.0",
+  "esquema": "recetario-1.1",
   "id": "sardinas-marinadas",
   "familia": "sardinas-marinadas",
   "variante": "principal",
@@ -29,25 +29,29 @@
       "cantidad": 12,
       "unidad": "unidades",
       "nota": "limpias, en lomos",
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000127"
     },
     {
       "nombre": "tomates maduros carnosos",
       "cantidad": 2,
       "unidad": "unidades",
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000069"
     },
     {
       "nombre": "aceitunas verdes deshuesadas",
       "cantidad": 15,
       "unidad": "g",
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000079"
     },
     {
       "nombre": "aceitunas negras deshuesadas",
       "cantidad": 15,
       "unidad": "g",
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000078"
     },
     {
       "nombre": "cebolleta",
@@ -55,7 +59,8 @@
       "unidad": "unidad",
       "nota": "tallo tierno",
       "es_condimento": true,
-      "tipo_condimento": "aromaticos_frescos"
+      "tipo_condimento": "aromaticos_frescos",
+      "catalogo_ref": "cm-ing-000087"
     },
     {
       "nombre": "tomillo fresco",
@@ -63,24 +68,28 @@
       "unidad": "ramita",
       "nota": "o una pizca de tomillo seco",
       "es_condimento": true,
-      "tipo_condimento": "hierbas_aromaticas"
+      "tipo_condimento": "hierbas_aromaticas",
+      "catalogo_ref": "cm-ing-000070"
     },
     {
       "nombre": "cebollino picado",
       "nota": "al gusto",
       "es_condimento": true,
-      "tipo_condimento": "hierbas_aromaticas"
+      "tipo_condimento": "hierbas_aromaticas",
+      "catalogo_ref": "cm-ing-000019"
     },
     {
       "nombre": "vinagre de manzana",
       "nota": "cantidad suficiente",
       "es_condimento": true,
-      "tipo_condimento": "aceites_acidos_y_salsas"
+      "tipo_condimento": "aceites_acidos_y_salsas",
+      "catalogo_ref": "cm-ing-000131"
     },
     {
       "nombre": "aceite de oliva virgen extra",
       "es_condimento": true,
-      "tipo_condimento": "aceites_acidos_y_salsas"
+      "tipo_condimento": "aceites_acidos_y_salsas",
+      "catalogo_ref": "cm-ing-000001"
     },
     {
       "nombre": "sal gorda",
@@ -88,27 +97,31 @@
       "unidad": "g",
       "nota": "para la salmuera",
       "es_condimento": true,
-      "tipo_condimento": "sal_y_especias"
+      "tipo_condimento": "sal_y_especias",
+      "catalogo_ref": "cm-ing-000066"
     },
     {
       "nombre": "agua",
       "cantidad": 1,
       "unidad": "l",
       "nota": "para la salmuera",
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000002"
     },
     {
       "nombre": "sal fina",
       "nota": "una pizca",
       "es_condimento": true,
-      "tipo_condimento": "sal_y_especias"
+      "tipo_condimento": "sal_y_especias",
+      "catalogo_ref": "cm-ing-000066"
     },
     {
       "nombre": "chile en polvo",
       "opcional": true,
       "nota": "una pizca",
       "es_condimento": true,
-      "tipo_condimento": "sal_y_especias"
+      "tipo_condimento": "sal_y_especias",
+      "catalogo_ref": "cm-ing-000089"
     }
   ],
   "pdf_ingredientes": [
@@ -198,9 +211,9 @@
     "detalle": "Con tomate, aceitunas y hierbas · 2 raciones · 45-50 min"
   },
   "ingredientes_basicos": [
-    "sardinas",
-    "tomate",
-    "aceitunas verdes",
-    "aceitunas negras"
+    "cm-ing-000127",
+    "cm-ing-000069",
+    "cm-ing-000079",
+    "cm-ing-000078"
   ]
 }

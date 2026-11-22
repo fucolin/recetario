@@ -40,12 +40,30 @@ def validate(recipe, registry):
     require(isinstance(recipe.get('ingredientes'),list) and bool(recipe['ingredientes']),'Sin ingredientes')
     for i in recipe['ingredientes']:line(i)
     basics=recipe.get('ingredientes_basicos')
-    require(isinstance(basics,list) and bool(basics) and len(basics)==len(set(basics)),'Básicos inválidos')
-    for ref in basics:reference(ref)
+    def basic_reference(value):
+        if isinstance(value, str):
+            reference(value)
+            return
+        require(isinstance(value, dict) and set(value) == {'nombre', 'una_de'},
+                'Elección de básico inválida')
+        choices = value['una_de']
+        require(isinstance(choices, list) and len(choices) >= 2, 'Elección incompleta')
+        for ref in choices:
+            reference(ref)
+        require(len(set(choices)) == len(choices), 'Elección duplicada')
+        require(any(line.get('nombre') == value['nombre'] and
+                    line.get('seleccion') == 'una' and
+                    [option['catalogo_ref'] for option in line['alternativas']] == choices
+                    for line in recipe['ingredientes']), 'Elección sin línea correspondiente')
+
+    require(isinstance(basics,list) and bool(basics),'Básicos inválidos')
+    for n, ref in enumerate(basics):
+        basic_reference(ref)
+        require(ref not in basics[:n], 'Básico duplicado')
     for o in recipe.get('ingredientes_basicos_opciones',[]):
         require(o.get('tipo') in {'alternativa','opcional'} and isinstance(o.get('ingredientes'),list) and bool(o['ingredientes']),'Opción básica inválida')
         for ref in o['ingredientes']:reference(ref)
-        for ref in o.get('sustituye',[]):reference(ref);require(ref in basics,'Sustitución sin básico')
+        for ref in o.get('sustituye',[]):basic_reference(ref);require(ref in basics,'Sustitución sin básico')
     for o in recipe.get('condimentos_opciones',[]):
         reference(o.get('catalogo_ref'))
         parts=re.findall(r'([a-z_]+)|\[(\d+)\]',o.get('origen',''))
@@ -70,10 +88,12 @@ def metadata_for_legacy_reader(recipe, registry):
         if 'catalogo_ref' in i:names[i['catalogo_ref']]=i['nombre']
         for branch in i.get('alternativas',[]):names[branch['catalogo_ref']]=branch['nombre']
     result={k:copy.deepcopy(recipe[k]) for k in ['ingredientes_basicos','ingredientes_basicos_opciones','condimentos_opciones'] if k in recipe}
-    result['ingredientes_basicos']=[names[ref] for ref in result['ingredientes_basicos']]
+    def basic_name(ref):
+        return ref['nombre'] if isinstance(ref, dict) else names[ref]
+    result['ingredientes_basicos']=[basic_name(ref) for ref in result['ingredientes_basicos']]
     for o in result.get('ingredientes_basicos_opciones',[]):
         o['ingredientes']=[names[ref] for ref in o['ingredientes']]
-        if 'sustituye' in o:o['sustituye']=[names[ref] for ref in o['sustituye']]
+        if 'sustituye' in o:o['sustituye']=[basic_name(ref) for ref in o['sustituye']]
     return result
 
 def select_alternative(line, selected_id=None):

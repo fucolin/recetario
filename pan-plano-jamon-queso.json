@@ -1,5 +1,5 @@
 {
-  "esquema": "recetario-1.0",
+  "esquema": "recetario-1.1",
   "id": "pan-plano-jamon-queso",
   "familia": "pan-plano-jamon-queso",
   "variante": "principal",
@@ -30,7 +30,8 @@
       "cantidad": 4,
       "unidad": "cucharadas",
       "grupo": "Masa",
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000096"
     },
     {
       "nombre": "levadura química en polvo",
@@ -38,49 +39,68 @@
       "unidad": "cucharadita",
       "nota": "rasa",
       "grupo": "Masa",
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000102"
     },
     {
       "nombre": "sal",
       "nota": "una pizca",
       "grupo": "Masa",
       "es_condimento": true,
-      "tipo_condimento": "sal_y_especias"
+      "tipo_condimento": "sal_y_especias",
+      "catalogo_ref": "cm-ing-000066"
     },
     {
       "nombre": "yogur natural",
       "cantidad": 1,
       "unidad": "cucharada",
       "grupo": "Masa",
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000075"
     },
     {
       "nombre": "agua",
       "cantidad": 4,
       "unidad": "cucharadas",
       "grupo": "Masa",
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000002"
     },
     {
       "nombre": "aceite de oliva",
       "nota": "un chorrito",
       "grupo": "Cocción",
       "es_condimento": true,
-      "tipo_condimento": "aceites_acidos_y_salsas"
+      "tipo_condimento": "aceites_acidos_y_salsas",
+      "catalogo_ref": "cm-ing-000001"
     },
     {
       "nombre": "queso gouda o cheddar",
       "cantidad": 20,
       "unidad": "g",
       "grupo": "Relleno",
-      "es_condimento": false
+      "es_condimento": false,
+      "seleccion": "una",
+      "alternativas": [
+        {
+          "nombre": "queso gouda",
+          "catalogo_ref": "cm-ing-000124",
+          "es_condimento": false
+        },
+        {
+          "nombre": "queso cheddar",
+          "catalogo_ref": "cm-ing-000118",
+          "es_condimento": false
+        }
+      ]
     },
     {
       "nombre": "jamón cocido ahumado",
       "cantidad": 1,
       "unidad": "loncha",
       "grupo": "Relleno",
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000035"
     },
     {
       "nombre": "cebollino fresco",
@@ -88,28 +108,32 @@
       "unidad": "tallos",
       "grupo": "Relleno",
       "es_condimento": true,
-      "tipo_condimento": "hierbas_aromaticas"
+      "tipo_condimento": "hierbas_aromaticas",
+      "catalogo_ref": "cm-ing-000019"
     },
     {
       "nombre": "tomates cherry maduros",
       "cantidad": 50,
       "unidad": "g",
       "grupo": "Relleno",
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000130"
     },
     {
       "nombre": "mostaza inglesa",
       "nota": "al gusto",
       "grupo": "Relleno",
       "es_condimento": true,
-      "tipo_condimento": "aceites_acidos_y_salsas"
+      "tipo_condimento": "aceites_acidos_y_salsas",
+      "catalogo_ref": "cm-ing-000105"
     },
     {
       "nombre": "pimienta negra",
       "nota": "una pizca",
       "grupo": "Relleno",
       "es_condimento": true,
-      "tipo_condimento": "sal_y_especias"
+      "tipo_condimento": "sal_y_especias",
+      "catalogo_ref": "cm-ing-000059"
     }
   ],
   "pdf_ingredientes": [
@@ -190,20 +214,20 @@
     "detalle": "Masa de yogur · sin amasado ni reposo · 1 ración · 13-15 min orientativos"
   },
   "ingredientes_basicos": [
-    "harina de trigo",
-    "yogur natural",
-    "queso gouda",
-    "jamón cocido",
-    "tomates cherry"
+    "cm-ing-000096",
+    "cm-ing-000075",
+    "cm-ing-000124",
+    "cm-ing-000035",
+    "cm-ing-000130"
   ],
   "ingredientes_basicos_opciones": [
     {
       "tipo": "alternativa",
       "ingredientes": [
-        "queso cheddar"
+        "cm-ing-000118"
       ],
       "sustituye": [
-        "queso gouda"
+        "cm-ing-000124"
       ],
       "nota": "Elegir uno de los dos quesos."
     }

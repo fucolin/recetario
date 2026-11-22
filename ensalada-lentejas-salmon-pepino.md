@@ -1,5 +1,5 @@
 ---
-esquema: recetario-1.0
+esquema: recetario-1.1
 id: ensalada-lentejas-salmon-pepino
 familia: ensalada-lentejas-salmon-pepino
 variante: principal
@@ -27,44 +27,52 @@ tiempo_total_min:
   max: 15
 ingredientes:
 - nombre: lentejas cocidas
-  es_condimento: false
   cantidad: 300
   unidad: g
   nota: peso escurrido; 1 bote
-- nombre: salmón ahumado
   es_condimento: false
+  catalogo_ref: cm-ing-000040
+- nombre: salmón ahumado
   cantidad: 100
   unidad: g
-- nombre: pepino
   es_condimento: false
+  catalogo_ref: cm-ing-000067
+- nombre: pepino
   cantidad: 0.5
   unidad: unidad
   peso_aprox_g: 100
   nota: aproximadamente
-- nombre: yogur natural sin azúcar
   es_condimento: false
+  catalogo_ref: cm-ing-000111
+- nombre: yogur natural sin azúcar
   cantidad: 0.5
   unidad: unidad
   peso_aprox_g: 60
   nota: unas 2 cucharadas
+  es_condimento: false
+  catalogo_ref: cm-ing-000075
 - nombre: mostaza
-  es_condimento: true
-  tipo_condimento: aceites_acidos_y_salsas
   cantidad: 1
   unidad: cucharadita
+  es_condimento: true
+  tipo_condimento: aceites_acidos_y_salsas
+  catalogo_ref: cm-ing-000105
 - nombre: zumo de limón
-  es_condimento: true
-  tipo_condimento: aceites_acidos_y_salsas
   cantidad: 1
   unidad: cucharadita
+  es_condimento: true
+  tipo_condimento: aceites_acidos_y_salsas
+  catalogo_ref: cm-ing-000042
 - nombre: eneldo fresco
+  nota: unas ramitas
   es_condimento: true
   tipo_condimento: hierbas_aromaticas
-  nota: unas ramitas
+  catalogo_ref: cm-ing-000093
 - nombre: sal
+  opcional: true
   es_condimento: true
   tipo_condimento: sal_y_especias
-  opcional: true
+  catalogo_ref: cm-ing-000066
 indicaciones: 'Prepara los ingredientes. Enjuaga las lentejas en un colador y déjalas escurrir bien. Lava el pepino
   y córtalo en dados pequeños; si tiene muchas semillas o una parte central muy acuosa, retírala. Corta el salmón
   en tiras y pica el eneldo.
@@ -100,10 +108,10 @@ encabezado:
   titulo: Ensalada de lentejas, salmón y pepino
   detalle: Con aliño de yogur, mostaza y eneldo · 2 raciones · 10-15 min
 ingredientes_basicos:
-- lentejas
-- salmón ahumado
-- pepino
-- yogur natural
+- cm-ing-000040
+- cm-ing-000067
+- cm-ing-000111
+- cm-ing-000075
 ---
 
 # Ensalada de lentejas, salmón y pepino

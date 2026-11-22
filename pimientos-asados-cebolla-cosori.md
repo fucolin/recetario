@@ -25,7 +25,7 @@ ingredientes:
   unidad: unidades
   nota: grandes, enteros y con pedúnculo
   es_condimento: false
-  catalogo_ref: cm-ing-000060
+  catalogo_ref: cm-ing-000114
 - nombre: cebolla
   cantidad: 1
   unidad: unidad
@@ -187,7 +187,7 @@ image_alt: Tiras de pimientos rojos asados y cebolla tierna con sus jugos
 image_credit: Imagen generada con IA para Casa Marisa
 image_note: Imagen ilustrativa generada con IA; no es una fotografía del plato preparado.
 ingredientes_basicos:
-- cm-ing-000060
+- cm-ing-000114
 - cm-ing-000018
 ---
 

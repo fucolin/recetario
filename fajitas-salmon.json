@@ -1,5 +1,5 @@
 {
-  "esquema": "recetario-1.0",
+  "esquema": "recetario-1.1",
   "id": "fajitas-salmon",
   "familia": "fajitas-salmon",
   "variante": "principal",
@@ -36,44 +36,75 @@
       "unidad": "unidades",
       "nota": "grandes; integrales o de espelta",
       "producto_preferido": "piadina-espelta-biocop",
-      "es_condimento": false
+      "es_condimento": false,
+      "seleccion": "una",
+      "alternativas": [
+        {
+          "nombre": "tortillas de trigo",
+          "catalogo_ref": "cm-ing-000071",
+          "es_condimento": false
+        },
+        {
+          "nombre": "piadina",
+          "catalogo_ref": "cm-ing-000055",
+          "es_condimento": false
+        }
+      ]
     },
     {
       "nombre": "salmón ahumado",
       "cantidad": 100,
       "unidad": "g",
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000067"
     },
     {
       "nombre": "aguacate",
       "cantidad": 0.5,
       "unidad": "unidad",
       "nota": "mediano",
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000004"
     },
     {
       "nombre": "tomate",
       "cantidad": 150,
       "unidad": "g",
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000069"
     },
     {
       "nombre": "espinacas frescas",
       "cantidad": 40,
       "unidad": "g",
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000026"
     },
     {
       "nombre": "hummus",
       "cantidad": 20,
       "unidad": "g",
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000034"
     },
     {
       "nombre": "queso crema o requesón",
       "cantidad": 20,
       "unidad": "g",
-      "es_condimento": false
+      "es_condimento": false,
+      "seleccion": "una",
+      "alternativas": [
+        {
+          "nombre": "queso crema",
+          "catalogo_ref": "cm-ing-000120",
+          "es_condimento": false
+        },
+        {
+          "nombre": "requesón",
+          "catalogo_ref": "cm-ing-000065",
+          "es_condimento": false
+        }
+      ]
     }
   ],
   "indicaciones": "Prepara el relleno. Corta el aguacate y el tomate en rodajas finas y deja escurrir bien el tomate. Lava y seca bien las espinacas; si las hojas son muy grandes, córtalas un poco. Escurrir el tomate y secar las hojas evita que la tortilla se humedezca.\n\nTempla las tortillas. Caliéntalas al menos 30 s por cada lado en una sartén para que se doblen sin romperse.\n\nMarca y unta. Marca 4 partes con un cuchillo (sin cortar). Unta dos con hummus y dos con queso.\n\nReparte el relleno. Un ingrediente en cada cuarto: aguacate, tomate, salmón y espinacas.\n\nDobla por la mitad. Lleva una mitad sobre la otra, con cuidado de que no se salgan los ingredientes.\n\nDobla de nuevo. Y ya tienes el paquete en cuartos.\n\nToque de sartén opcional. Si te apetece un toque crujiente, pasa las fajitas por una sartén antiadherente sin aceite, alrededor de 1 minuto por cada cara a fuego medio.",
@@ -161,32 +192,32 @@
     }
   ],
   "ingredientes_basicos": [
-    "tortillas de trigo",
-    "salmón ahumado",
-    "aguacate",
-    "tomate",
-    "espinacas",
-    "hummus",
-    "queso crema"
+    "cm-ing-000071",
+    "cm-ing-000067",
+    "cm-ing-000004",
+    "cm-ing-000069",
+    "cm-ing-000026",
+    "cm-ing-000034",
+    "cm-ing-000120"
   ],
   "ingredientes_basicos_opciones": [
     {
       "tipo": "alternativa",
       "ingredientes": [
-        "piadina"
+        "cm-ing-000055"
       ],
       "sustituye": [
-        "tortillas de trigo"
+        "cm-ing-000071"
       ],
       "nota": "Elegir tortilla o piadina."
     },
     {
       "tipo": "alternativa",
       "ingredientes": [
-        "requesón"
+        "cm-ing-000065"
       ],
       "sustituye": [
-        "queso crema"
+        "cm-ing-000120"
       ],
       "nota": "Elegir queso crema o requesón."
     }

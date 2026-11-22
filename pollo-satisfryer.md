@@ -1,5 +1,5 @@
 ---
-esquema: recetario-1.0
+esquema: recetario-1.1
 id: pollo-satisfryer
 familia: pollo-satisfryer
 variante: principal
@@ -21,61 +21,77 @@ tiempo_total_min:
   max: 65
 ingredientes:
 - nombre: cuartos traseros de pollo
-  es_condimento: false
   cantidad: 2
   unidad: unidades
   nota: con hueso y piel
-- nombre: calabacín
   es_condimento: false
+  catalogo_ref: cm-ing-000092
+- nombre: calabacín
   cantidad: 0.5
   unidad: unidad
   nota: mediano, unos 150 g
-- nombre: berenjena
   es_condimento: false
+  catalogo_ref: cm-ing-000014
+- nombre: berenjena
   cantidad: 0.5
   unidad: unidad
   nota: pequeña, unos 150 g
-- nombre: cebolla
   es_condimento: false
+  catalogo_ref: cm-ing-000083
+- nombre: cebolla
   cantidad: 1
   unidad: unidad
   nota: pequeña
-- nombre: pimiento verde
   es_condimento: false
+  catalogo_ref: cm-ing-000018
+- nombre: pimiento verde
   cantidad: 0.5
   unidad: unidad
-- nombre: tomate
   es_condimento: false
+  catalogo_ref: cm-ing-000115
+- nombre: tomate
   cantidad: 1
   unidad: unidad
   nota: mediano
+  es_condimento: false
+  catalogo_ref: cm-ing-000069
 - nombre: aceite de oliva virgen extra
-  es_condimento: true
-  tipo_condimento: aceites_acidos_y_salsas
   cantidad: 10
   unidad: ml
   nota: 2 cucharaditas en total, incluido el papel
-- nombre: vino blanco seco
   es_condimento: true
-  tipo_condimento: fondos_para_cocinar
+  tipo_condimento: aceites_acidos_y_salsas
+  catalogo_ref: cm-ing-000001
+- nombre: vino blanco seco
   cantidad: 30
   unidad: ml
   nota: 2 cucharadas
-- nombre: tomillo seco
   es_condimento: true
-  tipo_condimento: hierbas_aromaticas
+  tipo_condimento: fondos_para_cocinar
+  catalogo_ref: cm-ing-000074
+- nombre: tomillo seco
   cantidad: 0.5
   unidad: cucharadita
-- nombre: romero seco
   es_condimento: true
   tipo_condimento: hierbas_aromaticas
+  catalogo_ref: cm-ing-000070
+- nombre: romero seco
   cantidad: 0.5
   unidad: cucharadita
   nota: ligeramente desmenuzado
-- nombre: sal y pimienta negra
+  es_condimento: true
+  tipo_condimento: hierbas_aromaticas
+  catalogo_ref: cm-ing-000125
+- nombre: sal
+  nota: sal moderada; pimienta al gusto
   es_condimento: true
   tipo_condimento: sal_y_especias
+  catalogo_ref: cm-ing-000066
+- nombre: pimienta negra
   nota: sal moderada; pimienta al gusto
+  es_condimento: true
+  tipo_condimento: sal_y_especias
+  catalogo_ref: cm-ing-000059
 pdf_ingredientes:
 - 2 cuartos traseros de pollo, con hueso y piel
 - ½ calabacín mediano (150 g)
@@ -164,6 +180,12 @@ alternativas:
     cantidad_max: 300
     unidad: g
     corte: rodajas de 5 mm
+    seleccion: una
+    alternativas:
+    - nombre: patata
+      catalogo_ref: cm-ing-000109
+    - nombre: boniato
+      catalogo_ref: cm-ing-000011
   capas:
   - papel ligeramente aceitado
   - cebolla
@@ -172,12 +194,11 @@ alternativas:
   precoccion_base_min: 10
   temperatura_c: 180
   tiempo_extra_min: 10
-  instrucciones: 'Con patata o boniato: sustituye calabacín y berenjena por 250-300 g de tubérculos en
-    rodajas de 5 mm. Capas desde abajo: papel aceitado, cebolla, patata o boniato, y pimiento y tomate
-    encima. Usa los mismos 5 ml de aceite para papel y base; añade vino y aliño. Cocina esta base completa
-    10 min a 180 °C sin pollo. Después coloca el pollo encima y empieza sus 20 + 20 min; no repitas el
-    aceite ni el vino de la base. Comprueba que los tubérculos estén tiernos. Calcula unos 10 min más
-    de tiempo total.'
+  instrucciones: 'Con patata o boniato: sustituye calabacín y berenjena por 250-300 g de tubérculos en rodajas de 5 mm. Capas
+    desde abajo: papel aceitado, cebolla, patata o boniato, y pimiento y tomate encima. Usa los mismos 5 ml de aceite para
+    papel y base; añade vino y aliño. Cocina esta base completa 10 min a 180 °C sin pollo. Después coloca el pollo encima
+    y empieza sus 20 + 20 min; no repitas el aceite ni el vino de la base. Comprueba que los tubérculos estén tiernos. Calcula
+    unos 10 min más de tiempo total.'
 montaje:
   capas:
   - papel ligeramente aceitado
@@ -214,26 +235,26 @@ image_alt: Cuartos traseros de pollo asados sobre calabacín, berenjena, cebolla
 image_credit: Imagen generada con IA para Casa Marisa
 image_note: Imagen ilustrativa generada con IA; no es una fotografía del plato preparado.
 ingredientes_basicos:
-- pollo
-- calabacín
-- berenjena
-- cebolla
-- pimiento verde
-- tomate
+- cm-ing-000061
+- cm-ing-000014
+- cm-ing-000083
+- cm-ing-000018
+- cm-ing-000115
+- cm-ing-000069
 ingredientes_basicos_opciones:
 - tipo: alternativa
   ingredientes:
-  - patata
+  - cm-ing-000109
   sustituye:
-  - calabacín
-  - berenjena
+  - cm-ing-000014
+  - cm-ing-000083
   nota: Sustituye ambas verduras y requiere la precocción indicada.
 - tipo: alternativa
   ingredientes:
-  - boniato
+  - cm-ing-000011
   sustituye:
-  - calabacín
-  - berenjena
+  - cm-ing-000014
+  - cm-ing-000083
   nota: En lugar de patata; sustituye ambas verduras y requiere la precocción indicada.
 ---
 

@@ -1,5 +1,5 @@
 ---
-esquema: recetario-1.0
+esquema: recetario-1.1
 id: ensalada-tomates-lago-albahaca
 familia: ensalada-tomates-lago-albahaca
 variante: principal
@@ -22,42 +22,56 @@ tiempo_total_min:
   max: 10
 ingredientes:
 - nombre: tomates
-  es_condimento: false
   cantidad: 500
   unidad: g
   nota: sabrosos; combinar variedades si apetece
-- nombre: hojas de albahaca fresca
   es_condimento: false
+  catalogo_ref: cm-ing-000069
+- nombre: hojas de albahaca fresca
   cantidad: 15
   unidad: g
   nota: sin los tallos gruesos
+  es_condimento: false
+  catalogo_ref: cm-ing-000080
 - nombre: aceite de oliva virgen extra
-  es_condimento: true
-  tipo_condimento: aceites_acidos_y_salsas
   cantidad: 30
   unidad: ml
   nota: 2 cucharadas
-- nombre: zumo de limón
   es_condimento: true
   tipo_condimento: aceites_acidos_y_salsas
+  catalogo_ref: cm-ing-000001
+- nombre: zumo de limón
   cantidad: 10
   unidad: ml
   nota: 2 cucharaditas; ajustar al gusto
+  es_condimento: true
+  tipo_condimento: aceites_acidos_y_salsas
+  catalogo_ref: cm-ing-000042
 - nombre: rúcula o brotes tiernos
-  es_condimento: false
   cantidad: 20
   unidad: g
+  es_condimento: false
+  seleccion: una
+  alternativas:
+  - nombre: rúcula
+    catalogo_ref: cm-ing-000126
+    es_condimento: false
+  - nombre: brotes tiernos
+    catalogo_ref: cm-ing-000012
+    es_condimento: false
 - nombre: sal
+  nota: al gusto
   es_condimento: true
   tipo_condimento: sal_y_especias
-  nota: al gusto
+  catalogo_ref: cm-ing-000066
 - nombre: agua fría
-  es_condimento: false
   cantidad_min: 1
   cantidad_max: 2
   unidad: cucharaditas
   nota: solo si hace falta para triturar
   opcional: true
+  es_condimento: false
+  catalogo_ref: cm-ing-000002
 indicaciones: 'Lava los tomates y sécalos. Corta los grandes en gajos o trozos y los cherry por la mitad.
   Si desprenden mucho líquido, déjalo en la tabla para que no diluya el aliño.
 
@@ -91,15 +105,15 @@ image_alt: Tomates variados en gajos sobre aliño verde de albahaca, con rúcula
 image_credit: Imagen generada con IA para Casa Marisa
 image_note: Imagen ilustrativa generada con IA; no es una fotografía del plato preparado.
 ingredientes_basicos:
-- tomate
-- albahaca
-- rúcula
+- cm-ing-000069
+- cm-ing-000080
+- cm-ing-000126
 ingredientes_basicos_opciones:
 - tipo: alternativa
   ingredientes:
-  - brotes tiernos
+  - cm-ing-000012
   sustituye:
-  - rúcula
+  - cm-ing-000126
   nota: Alternativa de hojas indicada en la lista de ingredientes.
 ---
 

@@ -1,5 +1,5 @@
 ---
-esquema: recetario-1.0
+esquema: recetario-1.1
 id: pan-plano-jamon-queso
 familia: pan-plano-jamon-queso
 variante: principal
@@ -23,67 +23,86 @@ tiempo_total_min:
   max: 15
 ingredientes:
 - nombre: harina de fuerza blanca
-  es_condimento: false
   cantidad: 4
   unidad: cucharadas
   grupo: Masa
-- nombre: levadura química en polvo
   es_condimento: false
+  catalogo_ref: cm-ing-000096
+- nombre: levadura química en polvo
   cantidad: 1
   unidad: cucharadita
   nota: rasa
   grupo: Masa
+  es_condimento: false
+  catalogo_ref: cm-ing-000102
 - nombre: sal
-  es_condimento: true
-  tipo_condimento: sal_y_especias
   nota: una pizca
   grupo: Masa
+  es_condimento: true
+  tipo_condimento: sal_y_especias
+  catalogo_ref: cm-ing-000066
 - nombre: yogur natural
-  es_condimento: false
   cantidad: 1
   unidad: cucharada
   grupo: Masa
-- nombre: agua
   es_condimento: false
+  catalogo_ref: cm-ing-000075
+- nombre: agua
   cantidad: 4
   unidad: cucharadas
   grupo: Masa
+  es_condimento: false
+  catalogo_ref: cm-ing-000002
 - nombre: aceite de oliva
-  es_condimento: true
-  tipo_condimento: aceites_acidos_y_salsas
   nota: un chorrito
   grupo: Cocción
+  es_condimento: true
+  tipo_condimento: aceites_acidos_y_salsas
+  catalogo_ref: cm-ing-000001
 - nombre: queso gouda o cheddar
-  es_condimento: false
   cantidad: 20
   unidad: g
   grupo: Relleno
-- nombre: jamón cocido ahumado
   es_condimento: false
+  seleccion: una
+  alternativas:
+  - nombre: queso gouda
+    catalogo_ref: cm-ing-000124
+    es_condimento: false
+  - nombre: queso cheddar
+    catalogo_ref: cm-ing-000118
+    es_condimento: false
+- nombre: jamón cocido ahumado
   cantidad: 1
   unidad: loncha
   grupo: Relleno
+  es_condimento: false
+  catalogo_ref: cm-ing-000035
 - nombre: cebollino fresco
-  es_condimento: true
-  tipo_condimento: hierbas_aromaticas
   cantidad: 4
   unidad: tallos
   grupo: Relleno
+  es_condimento: true
+  tipo_condimento: hierbas_aromaticas
+  catalogo_ref: cm-ing-000019
 - nombre: tomates cherry maduros
-  es_condimento: false
   cantidad: 50
   unidad: g
   grupo: Relleno
+  es_condimento: false
+  catalogo_ref: cm-ing-000130
 - nombre: mostaza inglesa
-  es_condimento: true
-  tipo_condimento: aceites_acidos_y_salsas
   nota: al gusto
   grupo: Relleno
-- nombre: pimienta negra
   es_condimento: true
-  tipo_condimento: sal_y_especias
+  tipo_condimento: aceites_acidos_y_salsas
+  catalogo_ref: cm-ing-000105
+- nombre: pimienta negra
   nota: una pizca
   grupo: Relleno
+  es_condimento: true
+  tipo_condimento: sal_y_especias
+  catalogo_ref: cm-ing-000059
 pdf_ingredientes:
 - 4 cucharadas harina de fuerza blanca
 - 1 cucharadita rasa levadura química en polvo
@@ -160,17 +179,17 @@ encabezado:
   titulo: Pan plano de jamón y queso
   detalle: Masa de yogur · sin amasado ni reposo · 1 ración · 13-15 min orientativos
 ingredientes_basicos:
-- harina de trigo
-- yogur natural
-- queso gouda
-- jamón cocido
-- tomates cherry
+- cm-ing-000096
+- cm-ing-000075
+- cm-ing-000124
+- cm-ing-000035
+- cm-ing-000130
 ingredientes_basicos_opciones:
 - tipo: alternativa
   ingredientes:
-  - queso cheddar
+  - cm-ing-000118
   sustituye:
-  - queso gouda
+  - cm-ing-000124
   nota: Elegir uno de los dos quesos.
 ---
 

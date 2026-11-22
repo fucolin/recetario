@@ -1,5 +1,5 @@
 ---
-esquema: recetario-1.0
+esquema: recetario-1.1
 id: ensalada-garbanzos-mango-aguacate
 familia: ensalada-garbanzos-mango-aguacate
 variante: principal
@@ -21,44 +21,52 @@ tiempo_total_min:
   max: 15
 ingredientes:
 - nombre: garbanzos cocidos
-  es_condimento: false
   cantidad: 400
   unidad: g
   nota: peso escurrido
-- nombre: tomates cherry
   es_condimento: false
+  catalogo_ref: cm-ing-000031
+- nombre: tomates cherry
   cantidad: 150
   unidad: g
-- nombre: pepino
   es_condimento: false
+  catalogo_ref: cm-ing-000130
+- nombre: pepino
   cantidad: 150
   unidad: g
   nota: aproximadamente medio pepino mediano
-- nombre: mango
   es_condimento: false
+  catalogo_ref: cm-ing-000111
+- nombre: mango
   cantidad: 150
   unidad: g
   nota: pelado y sin hueso; maduro pero firme
-- nombre: aguacate
   es_condimento: false
+  catalogo_ref: cm-ing-000043
+- nombre: aguacate
   cantidad: 1
   unidad: unidad
   nota: mediano
+  es_condimento: false
+  catalogo_ref: cm-ing-000004
 - nombre: aceite de oliva virgen extra
-  es_condimento: true
-  tipo_condimento: aceites_acidos_y_salsas
   cantidad: 1
   unidad: cucharada
-- nombre: zumo de limón
   es_condimento: true
   tipo_condimento: aceites_acidos_y_salsas
+  catalogo_ref: cm-ing-000001
+- nombre: zumo de limón
   cantidad: 1
   unidad: cucharada
   nota: ajustable al gusto
+  es_condimento: true
+  tipo_condimento: aceites_acidos_y_salsas
+  catalogo_ref: cm-ing-000042
 - nombre: sal
+  nota: al gusto
   es_condimento: true
   tipo_condimento: sal_y_especias
-  nota: al gusto
+  catalogo_ref: cm-ing-000066
 indicaciones: Enjuaga los garbanzos bajo el grifo y déjalos escurrir bien. Lava los tomates y el pepino;
   corta los cherrys por la mitad y el pepino en dados de alrededor de 1 cm. Puedes dejarle la piel si
   te gusta; si tiene semillas grandes y acuosas, retira esa parte. Pela el mango, maduro pero firme, y
@@ -82,11 +90,11 @@ image_alt: Ensalada de garbanzos con mango, aguacate, pepino y tomates cherry
 image_credit: Imagen generada con IA para Casa Marisa
 image_note: Imagen ilustrativa generada con IA; no es una fotografía del plato preparado.
 ingredientes_basicos:
-- garbanzos
-- tomates cherry
-- pepino
-- mango
-- aguacate
+- cm-ing-000031
+- cm-ing-000130
+- cm-ing-000111
+- cm-ing-000043
+- cm-ing-000004
 ---
 
 

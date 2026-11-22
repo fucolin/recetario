@@ -1,5 +1,5 @@
 ---
-esquema: recetario-1.0
+esquema: recetario-1.1
 id: crema-calabacin
 familia: crema-calabacin
 variante: principal
@@ -30,39 +30,46 @@ encabezado:
 presentacion: Una de las cremas clásicas de Marisa, con la piel del calabacín y un quesito por persona.
 ingredientes:
 - nombre: calabacín
-  es_condimento: false
   cantidad: 600
   unidad: g
+  es_condimento: false
+  catalogo_ref: cm-ing-000014
 - nombre: ajo
-  es_condimento: true
-  tipo_condimento: aromaticos_frescos
   cantidad: 2
   unidad: dientes
+  es_condimento: true
+  tipo_condimento: aromaticos_frescos
+  catalogo_ref: cm-ing-000005
 - nombre: quesitos
-  es_condimento: false
   cantidad: 2
   unidad: unidades
+  es_condimento: false
+  catalogo_ref: cm-ing-000117
 - nombre: aceite de oliva
-  es_condimento: true
-  tipo_condimento: aceites_acidos_y_salsas
   cantidad: 1
   unidad: cucharada
   equivalencia_ml: 15
+  es_condimento: true
+  tipo_condimento: aceites_acidos_y_salsas
+  catalogo_ref: cm-ing-000001
 - nombre: agua
-  es_condimento: false
   cantidad: 100
   unidad: ml
   nota: aproximadamente
+  es_condimento: false
+  catalogo_ref: cm-ing-000002
 - nombre: pastilla de caldo vegetal
-  es_condimento: true
-  tipo_condimento: fondos_para_cocinar
   cantidad: 0.5
   unidad: unidad
-- nombre: pimienta
   es_condimento: true
-  tipo_condimento: sal_y_especias
+  tipo_condimento: fondos_para_cocinar
+  catalogo_ref: cm-ing-000108
+- nombre: pimienta
   opcional: true
   nota: al gusto
+  es_condimento: true
+  tipo_condimento: sal_y_especias
+  catalogo_ref: cm-ing-000059
 pdf_ingredientes:
 - 600 g de calabacín
 - 2 dientes de ajo
@@ -146,8 +153,8 @@ image_width: 1672
 image_height: 941
 pdf: https://fucolin.github.io/recetario/crema-calabacin.pdf
 ingredientes_basicos:
-- calabacín
-- quesitos
+- cm-ing-000014
+- cm-ing-000117
 ---
 
 # Crema de calabacín

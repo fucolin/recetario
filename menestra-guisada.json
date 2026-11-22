@@ -1,5 +1,5 @@
 {
-  "esquema": "recetario-1.0",
+  "esquema": "recetario-1.1",
   "id": "menestra-guisada",
   "familia": "menestra-guisada",
   "variante": "principal",
@@ -37,47 +37,54 @@
       "nombre": "menestra congelada",
       "cantidad": 500,
       "unidad": "g",
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000044"
     },
     {
       "nombre": "cebolla",
       "cantidad": 0.5,
       "unidad": "unidad",
       "es_condimento": true,
-      "tipo_condimento": "aromaticos_frescos"
+      "tipo_condimento": "aromaticos_frescos",
+      "catalogo_ref": "cm-ing-000018"
     },
     {
       "nombre": "ajo",
       "cantidad": 1,
       "unidad": "diente",
       "es_condimento": true,
-      "tipo_condimento": "aromaticos_frescos"
+      "tipo_condimento": "aromaticos_frescos",
+      "catalogo_ref": "cm-ing-000005"
     },
     {
       "nombre": "aceite de oliva",
       "cantidad": 1,
       "unidad": "cucharada",
       "es_condimento": true,
-      "tipo_condimento": "aceites_acidos_y_salsas"
+      "tipo_condimento": "aceites_acidos_y_salsas",
+      "catalogo_ref": "cm-ing-000001"
     },
     {
       "nombre": "agua",
       "cantidad": 50,
       "unidad": "ml",
       "nota": "aproximadamente; ajustar si hace falta",
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000002"
     },
     {
       "nombre": "sal",
       "nota": "al gusto",
       "es_condimento": true,
-      "tipo_condimento": "sal_y_especias"
+      "tipo_condimento": "sal_y_especias",
+      "catalogo_ref": "cm-ing-000066"
     },
     {
       "nombre": "pimienta",
       "nota": "al gusto",
       "es_condimento": true,
-      "tipo_condimento": "sal_y_especias"
+      "tipo_condimento": "sal_y_especias",
+      "catalogo_ref": "cm-ing-000059"
     }
   ],
   "pdf_ingredientes": [
@@ -201,32 +208,55 @@
       "formato": "tacos",
       "opcional": true,
       "alternativa": "carne",
-      "es_condimento": false
+      "es_condimento": false,
+      "seleccion": "una",
+      "alternativas": [
+        {
+          "nombre": "jamón curado",
+          "catalogo_ref": "cm-ing-000098"
+        },
+        {
+          "nombre": "jamón cocido",
+          "catalogo_ref": "cm-ing-000035"
+        }
+      ],
+      "alternativa_ref": "cm-ing-000132"
     },
     {
       "nombre": "carne",
       "formato": "trocitos",
       "opcional": true,
       "alternativa": "jamón",
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000132",
+      "alternativa_eleccion": {
+        "nombre": "jamón",
+        "una_de": [
+          "cm-ing-000098",
+          "cm-ing-000035"
+        ]
+      }
     },
     {
       "nombre": "vino",
       "cantidad_texto": "un poco",
       "opcional": true,
       "es_condimento": true,
-      "tipo_condimento": "fondos_para_cocinar"
+      "tipo_condimento": "fondos_para_cocinar",
+      "catalogo_ref": "cm-ing-000074"
     },
     {
       "nombre": "huevo cocido",
       "opcional": true,
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000033"
     },
     {
       "nombre": "bonito en conserva",
       "opcional": true,
       "condicion": "si no lleva carne ni jamón",
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000084"
     }
   ],
   "image": "https://fucolin.github.io/recetario/images/menestra-guisada-ilustracion-v2.jpg",
@@ -263,34 +293,41 @@
     ]
   },
   "ingredientes_basicos": [
-    "menestra de verduras"
+    "cm-ing-000044"
   ],
   "ingredientes_basicos_opciones": [
     {
       "tipo": "opcional",
       "ingredientes": [
-        "jamón"
+        "cm-ing-000098"
       ],
       "nota": "En tacos, en lugar de carne; opción del sofrito."
     },
     {
       "tipo": "opcional",
       "ingredientes": [
-        "carne"
+        "cm-ing-000035"
+      ],
+      "nota": "En tacos, en lugar de carne; opción del sofrito."
+    },
+    {
+      "tipo": "opcional",
+      "ingredientes": [
+        "cm-ing-000132"
       ],
       "nota": "En trocitos, en lugar de jamón; opción del sofrito."
     },
     {
       "tipo": "opcional",
       "ingredientes": [
-        "huevos"
+        "cm-ing-000033"
       ],
       "nota": "Cocidos, para servir como plato principal."
     },
     {
       "tipo": "opcional",
       "ingredientes": [
-        "bonito en conserva"
+        "cm-ing-000084"
       ],
       "nota": "Para servir como plato principal, solo si no lleva carne ni jamón."
     }

@@ -1,5 +1,5 @@
 {
-  "esquema": "recetario-1.0",
+  "esquema": "recetario-1.1",
   "id": "lentejas-calabaza-espinacas-400g",
   "familia": "lentejas-calabaza-espinacas",
   "variante": "principal",
@@ -27,20 +27,23 @@
       "cantidad": 400,
       "unidad": "g",
       "nota": "peso escurrido",
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000040"
     },
     {
       "nombre": "calabaza pelada",
       "cantidad": 350,
       "unidad": "g",
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000015"
     },
     {
       "nombre": "espinacas frescas",
       "unidad": "g",
       "cantidad_min": 100,
       "cantidad_max": 125,
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000026"
     },
     {
       "nombre": "cebolla",
@@ -48,27 +51,31 @@
       "unidad": "unidad",
       "nota": "mediana",
       "es_condimento": true,
-      "tipo_condimento": "aromaticos_frescos"
+      "tipo_condimento": "aromaticos_frescos",
+      "catalogo_ref": "cm-ing-000018"
     },
     {
       "nombre": "ajo",
       "cantidad": 2,
       "unidad": "dientes",
       "es_condimento": true,
-      "tipo_condimento": "aromaticos_frescos"
+      "tipo_condimento": "aromaticos_frescos",
+      "catalogo_ref": "cm-ing-000005"
     },
     {
       "nombre": "jengibre fresco",
       "cantidad": 10,
       "unidad": "g",
       "es_condimento": true,
-      "tipo_condimento": "aromaticos_frescos"
+      "tipo_condimento": "aromaticos_frescos",
+      "catalogo_ref": "cm-ing-000099"
     },
     {
       "nombre": "leche de coco",
       "cantidad": 150,
       "unidad": "ml",
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000101"
     },
     {
       "nombre": "caldo de verduras",
@@ -76,40 +83,53 @@
       "unidad": "ml",
       "nota": "más un poco extra si hace falta",
       "es_condimento": true,
-      "tipo_condimento": "fondos_para_cocinar"
+      "tipo_condimento": "fondos_para_cocinar",
+      "catalogo_ref": "cm-ing-000086"
     },
     {
       "nombre": "curry en polvo",
       "cantidad": 1,
       "unidad": "cucharadita",
       "es_condimento": true,
-      "tipo_condimento": "sal_y_especias"
+      "tipo_condimento": "sal_y_especias",
+      "catalogo_ref": "cm-ing-000023"
     },
     {
       "nombre": "comino molido",
       "cantidad": 0.5,
       "unidad": "cucharadita",
       "es_condimento": true,
-      "tipo_condimento": "sal_y_especias"
+      "tipo_condimento": "sal_y_especias",
+      "catalogo_ref": "cm-ing-000021"
     },
     {
       "nombre": "aceite de oliva virgen extra",
       "cantidad": 2,
       "unidad": "cucharadas",
       "es_condimento": true,
-      "tipo_condimento": "aceites_acidos_y_salsas"
+      "tipo_condimento": "aceites_acidos_y_salsas",
+      "catalogo_ref": "cm-ing-000001"
     },
     {
-      "nombre": "sal y pimienta negra",
+      "nombre": "sal",
       "nota": "al gusto",
       "es_condimento": true,
-      "tipo_condimento": "sal_y_especias"
+      "tipo_condimento": "sal_y_especias",
+      "catalogo_ref": "cm-ing-000066"
+    },
+    {
+      "nombre": "pimienta negra",
+      "nota": "al gusto",
+      "es_condimento": true,
+      "tipo_condimento": "sal_y_especias",
+      "catalogo_ref": "cm-ing-000059"
     },
     {
       "nombre": "zumo de limón",
       "nota": "unas gotas al final",
       "es_condimento": true,
-      "tipo_condimento": "aceites_acidos_y_salsas"
+      "tipo_condimento": "aceites_acidos_y_salsas",
+      "catalogo_ref": "cm-ing-000042"
     }
   ],
   "pdf_ingredientes": [
@@ -212,9 +232,9 @@
   "image_credit": "Imagen generada con IA para Casa Marisa",
   "image_note": "Imagen ilustrativa generada con IA; no es una fotografía del plato preparado.",
   "ingredientes_basicos": [
-    "lentejas",
-    "calabaza",
-    "espinacas",
-    "leche de coco"
+    "cm-ing-000040",
+    "cm-ing-000015",
+    "cm-ing-000026",
+    "cm-ing-000101"
   ]
 }

@@ -1,5 +1,5 @@
 ---
-esquema: recetario-1.0
+esquema: recetario-1.1
 id: pasta-fresca-salmon
 familia: pasta-fresca-salmon
 variante: principal
@@ -25,44 +25,53 @@ tiempo_total_min:
 tiempo_nota: Estimación para dos raciones, según preparación y pasta. El libro indica 8 minutos para una ración.
 ingredientes:
 - nombre: láminas frescas de lasaña
-  es_condimento: false
   cantidad: 250
   unidad: g
+  es_condimento: false
+  catalogo_ref: cm-ing-000107
 - nombre: cebolletas
-  es_condimento: true
-  tipo_condimento: aromaticos_frescos
   cantidad: 4
   unidad: unidades
+  es_condimento: true
+  tipo_condimento: aromaticos_frescos
+  catalogo_ref: cm-ing-000087
 - nombre: espinacas
-  es_condimento: false
   cantidad: 160
   unidad: g
-- nombre: salmón ahumado
   es_condimento: false
+  catalogo_ref: cm-ing-000026
+- nombre: salmón ahumado
   cantidad: 120
   unidad: g
+  es_condimento: false
+  catalogo_ref: cm-ing-000067
 - nombre: limón
-  es_condimento: true
-  tipo_condimento: aceites_acidos_y_salsas
   cantidad: 1
   unidad: unidad
-- nombre: queso parmesano
-  es_condimento: false
-  cantidad: 10
-  unidad: g
-- nombre: queso cottage
-  es_condimento: false
-  cantidad: 2
-  unidad: cucharadas
-- nombre: aceite de oliva
   es_condimento: true
   tipo_condimento: aceites_acidos_y_salsas
-  nota: un chorrito
-- nombre: agua hirviendo
+  catalogo_ref: cm-ing-000042
+- nombre: queso parmesano
+  cantidad: 10
+  unidad: g
   es_condimento: false
+  catalogo_ref: cm-ing-000050
+- nombre: queso cottage
+  cantidad: 2
+  unidad: cucharadas
+  es_condimento: false
+  catalogo_ref: cm-ing-000119
+- nombre: aceite de oliva
+  nota: un chorrito
+  es_condimento: true
+  tipo_condimento: aceites_acidos_y_salsas
+  catalogo_ref: cm-ing-000001
+- nombre: agua hirviendo
   cantidad: 500
   unidad: ml
   nota: aproximadamente; más si hace falta
+  es_condimento: false
+  catalogo_ref: cm-ing-000002
 pdf_ingredientes:
 - 250 g láminas frescas de lasaña
 - 4 cebolletas
@@ -140,11 +149,11 @@ encabezado:
   titulo: Pasta fresca con salmón
   detalle: Con espinacas, limón y cottage · en una sartén · 2 raciones · 10-15 min orientativos
 ingredientes_basicos:
-- pasta fresca
-- espinacas
-- salmón ahumado
-- queso parmesano
-- queso cottage
+- cm-ing-000107
+- cm-ing-000026
+- cm-ing-000067
+- cm-ing-000050
+- cm-ing-000119
 ---
 
 # Pasta fresca con salmón

@@ -1,5 +1,5 @@
 {
-  "esquema": "recetario-1.0",
+  "esquema": "recetario-1.1",
   "id": "shakshuka-alubias-portobello",
   "familia": "shakshuka-alubias-portobello",
   "variante": "principal",
@@ -31,7 +31,8 @@
       "nombre": "champiñones portobello",
       "cantidad": 250,
       "unidad": "g",
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000088"
     },
     {
       "nombre": "chorizo",
@@ -44,60 +45,97 @@
         "unidad": null,
         "nota": "una pizca; en lugar del chorizo",
         "es_condimento": true,
-        "tipo_condimento": "sal_y_especias"
+        "tipo_condimento": "sal_y_especias",
+        "catalogo_ref": "cm-ing-000057"
       },
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000090",
+      "seleccion": "una",
+      "alternativas": [
+        {
+          "nombre": "chorizo",
+          "cantidad": 10,
+          "unidad": "g",
+          "grupo_alternativa": "sabor_ahumado",
+          "es_condimento": false,
+          "catalogo_ref": "cm-ing-000090"
+        },
+        {
+          "nombre": "pimentón ahumado",
+          "cantidad": null,
+          "unidad": null,
+          "nota": "una pizca; en lugar del chorizo",
+          "es_condimento": true,
+          "tipo_condimento": "sal_y_especias",
+          "catalogo_ref": "cm-ing-000057"
+        }
+      ]
     },
     {
       "nombre": "perejil de hoja plana",
       "cantidad": 15,
       "unidad": "g",
       "es_condimento": true,
-      "tipo_condimento": "hierbas_aromaticas"
+      "tipo_condimento": "hierbas_aromaticas",
+      "catalogo_ref": "cm-ing-000112"
     },
     {
       "nombre": "alubias blancas cocidas en conserva",
       "cantidad": 400,
       "unidad": "g",
       "nota": "1 lata; peso neto con líquido, no escurrido",
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000081"
     },
     {
       "nombre": "tomates cherry maduros",
       "cantidad": 100,
       "unidad": "g",
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000130"
     },
     {
       "nombre": "huevos",
       "cantidad": 4,
       "unidad": "unidades",
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000033"
     },
     {
       "nombre": "queso feta",
       "cantidad": 20,
       "unidad": "g",
-      "es_condimento": false
+      "es_condimento": false,
+      "catalogo_ref": "cm-ing-000122"
     },
     {
       "nombre": "aceite de oliva",
       "nota": "un chorrito",
       "es_condimento": true,
-      "tipo_condimento": "aceites_acidos_y_salsas"
+      "tipo_condimento": "aceites_acidos_y_salsas",
+      "catalogo_ref": "cm-ing-000001"
     },
     {
-      "nombre": "sal y pimienta negra",
+      "nombre": "sal",
       "nota": "al gusto",
       "es_condimento": true,
-      "tipo_condimento": "sal_y_especias"
+      "tipo_condimento": "sal_y_especias",
+      "catalogo_ref": "cm-ing-000066"
+    },
+    {
+      "nombre": "pimienta negra",
+      "nota": "al gusto",
+      "es_condimento": true,
+      "tipo_condimento": "sal_y_especias",
+      "catalogo_ref": "cm-ing-000059"
     },
     {
       "nombre": "aceite de oliva virgen extra",
       "nota": "un hilo, opcional",
       "opcional": true,
       "es_condimento": true,
-      "tipo_condimento": "aceites_acidos_y_salsas"
+      "tipo_condimento": "aceites_acidos_y_salsas",
+      "catalogo_ref": "cm-ing-000001"
     }
   ],
   "pdf_ingredientes": [
@@ -177,10 +215,10 @@
     "detalle": "Huevos, tomates cherry y feta · en una sartén · 2 raciones · 15-20 min orientativos"
   },
   "ingredientes_basicos": [
-    "champiñones portobello",
-    "alubias blancas",
-    "tomates cherry",
-    "huevos",
-    "queso feta"
+    "cm-ing-000088",
+    "cm-ing-000081",
+    "cm-ing-000130",
+    "cm-ing-000033",
+    "cm-ing-000122"
   ]
 }
